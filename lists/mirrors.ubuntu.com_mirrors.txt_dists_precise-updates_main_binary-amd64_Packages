@@ -2929,13 +2929,13 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: lvm2
-Version: 2.02.66-4ubuntu7.2
-Depends: libc6 (>= 2.15), libcman3 (>= 3.1.7), libconfdb4 (>= 1.4.2), libcpg4 (>= 1.4.2), libdevmapper-event1.02.1 (>= 2:1.02.20), libdevmapper1.02.1 (>= 2:1.02.44), libdlm3 (>= 3.1.7), libquorum4 (>= 1.4.2), libsalck3 (>= 1.1.4), lvm2 (= 2.02.66-4ubuntu7.2), lsb-base, corosync | cman
-Filename: pool/main/l/lvm2/clvm_2.02.66-4ubuntu7.2_amd64.deb
-Size: 254122
-MD5sum: 19ae5ad1e72f9227112dcb9aeb9ba08c
-SHA1: 31b6e7471f4df82d8406f0e5704bf94be13c40af
-SHA256: a68041a562076aa5a641f5ae68f7cef4e5e3102ff5a61ed3970e7e0d00e48c65
+Version: 2.02.66-4ubuntu7.3
+Depends: libc6 (>= 2.15), libcman3 (>= 3.1.7), libconfdb4 (>= 1.4.2), libcpg4 (>= 1.4.2), libdevmapper-event1.02.1 (>= 2:1.02.20), libdevmapper1.02.1 (>= 2:1.02.44), libdlm3 (>= 3.1.7), libquorum4 (>= 1.4.2), libsalck3 (>= 1.1.4), lvm2 (= 2.02.66-4ubuntu7.3), lsb-base, corosync | cman
+Filename: pool/main/l/lvm2/clvm_2.02.66-4ubuntu7.3_amd64.deb
+Size: 253796
+MD5sum: 4507f62314a55217a8053b3ec65c09a6
+SHA1: 25cdcf518ffba098ed6fd3f5a619e0385aa45fb4
+SHA256: a6f1f1b96fe75bf935b2b58758d9f1d8649062a28c96d2464d036bcd0293713c
 Description: Cluster LVM Daemon for lvm2
 Homepage: http://sources.redhat.com/lvm2/
 Description-md5: 46f93b5b21bc2e311bd9e9e51949e9a1
@@ -4008,16 +4008,16 @@ Installed-Size: 158
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
 Architecture: amd64
-Source: lvm2 (2.02.66-4ubuntu7.2)
-Version: 2:1.02.48-4ubuntu7.2
+Source: lvm2 (2.02.66-4ubuntu7.3)
+Version: 2:1.02.48-4ubuntu7.3
 Depends: libc6 (>= 2.14), libdevmapper1.02.1 (>= 2:1.02.47), libudev0 (>= 147), initramfs-tools, util-linux (>> 2.16), udev (>> 141-2)
 Conflicts: devicekit-disks (<< 009)
 Breaks: udev (<< 138-1)
-Filename: pool/main/l/lvm2/dmsetup_1.02.48-4ubuntu7.2_amd64.deb
-Size: 37502
-MD5sum: 0863580b5af5169cda77bf98eaa1e25a
-SHA1: d4b5edd996bbc06a9a05749e2c45f71c4ff29831
-SHA256: a1fb1dd826975f24a9764c22a4b59da171638b2b17c1f696dd7f2c8da44b2f18
+Filename: pool/main/l/lvm2/dmsetup_1.02.48-4ubuntu7.3_amd64.deb
+Size: 37160
+MD5sum: a583de7470885a9e6ef52d8795ba134f
+SHA1: 6120b6d17f0b36f66fba993515c51da1e8765d7e
+SHA256: ee020c3527204d1fa4f831c3dfd7bbcdbca7fb17ea1462b05b218b9ad4aceb32
 Description: The Linux Kernel Device Mapper userspace library
 Homepage: http://sources.redhat.com/lvm2/
 Description-md5: 4f240f1d03d8e4d7d3f6ddd55958966b
@@ -8395,13 +8395,13 @@ Installed-Size: 60
 Maintainer: Robert Ancell <robert.ancell@ubuntu.com>
 Architecture: amd64
 Source: lightdm
-Version: 1.2.3-0ubuntu1
-Depends: liblightdm-gobject-1-0 (= 1.2.3-0ubuntu1)
-Filename: pool/main/l/lightdm/gir1.2-lightdm-1_1.2.3-0ubuntu1_amd64.deb
-Size: 5340
-MD5sum: f20403f61639ea42bba5d71308afd0f2
-SHA1: 50cdbde165e3aa60363b3b35998107af91cf6fe0
-SHA256: ea0b1e270cd43c37d4a2b168d68283263c4679d3f6946d6fd07c6304530ac863
+Version: 1.2.3-0ubuntu2
+Depends: liblightdm-gobject-1-0 (= 1.2.3-0ubuntu2)
+Filename: pool/main/l/lightdm/gir1.2-lightdm-1_1.2.3-0ubuntu2_amd64.deb
+Size: 5354
+MD5sum: cb825106a606f2fe05415154d2e87ff5
+SHA1: 2ed94911c54a7f76e3e840043852a208b5fe3dff
+SHA256: b558fee59117159d535f9724b787afd37379655362ffc222ec26d0273d71b94e
 Description: Typelib file for liblightdm-1
 Homepage: https://launchpad.net/lightdm
 Description-md5: 15edc3a87b41d0dccba5699c5b28aa73
@@ -8998,16 +8998,16 @@ Installed-Size: 3236
 Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Architecture: amd64
-Version: 1:3.4.2-0ubuntu0.9
-Depends: gconf-service, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libcolord1 (>= 0.1.13), libcups2 (>= 1.4.0), libdbus-glib-1-2 (>= 0.78), libfontconfig1 (>= 2.8.0), libgconf-2-4 (>= 2.31.1), libgdk-pixbuf2.0-0 (>= 2.23.0), libglib2.0-0 (>= 2.31.8), libgnome-control-center1 (>= 1:3.3.5), libgnome-desktop-3-2 (>= 3.2.0), libgnome-menu-3-0 (>= 3.2.0.1), libgnomekbd7 (>= 2.91.91), libgoa-1.0-0 (>= 3.1.1), libgtk-3-0 (>= 3.3.6), libgtop2-7 (>= 2.22.3), libnm-glib4 (>= 0.8.998), libnm-gtk0, libnm-util2 (>= 0.8.998), libnotify4 (>= 0.7.3), libpango1.0-0 (>= 1.18.0), libpolkit-gobject-1-0 (>= 0.99), libpulse-mainloop-glib0 (>= 1:0.99.1), libpulse0 (>= 1:0.99.1), libupower-glib1 (>= 0.9.2), libwacom2 (>= 0.3), libx11-6, libxi6 (>= 2:1.2.99.4), libxklavier16 (>= 5.1), libxml2 (>= 2.7.4), accountsservice, apg, desktop-file-utils, gnome-control-center-data (<< 1:3.5), gnome-control-center-data (>= 1:3.4.2-0ubuntu0.9), gnome-desktop3-data, gnome-icon-theme (>= 2.24), gnome-icon-theme-symbolic, gnome-menus (>= 2.12.0), gnome-settings-daemon (>= 3.3.91), gsettings-desktop-schemas (>= 3.3.90-0ubuntu2), ubuntu-system-service (>= 0.1.10)
+Version: 1:3.4.2-0ubuntu0.11
+Depends: gconf-service, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libcolord1 (>= 0.1.13), libcups2 (>= 1.4.0), libdbus-glib-1-2 (>= 0.78), libfontconfig1 (>= 2.8.0), libgconf-2-4 (>= 2.31.1), libgdk-pixbuf2.0-0 (>= 2.23.0), libglib2.0-0 (>= 2.31.8), libgnome-control-center1 (>= 1:3.3.5), libgnome-desktop-3-2 (>= 3.2.0), libgnome-menu-3-0 (>= 3.2.0.1), libgnomekbd7 (>= 2.91.91), libgoa-1.0-0 (>= 3.1.1), libgtk-3-0 (>= 3.3.6), libgtop2-7 (>= 2.22.3), libnm-glib4 (>= 0.8.998), libnm-gtk0, libnm-util2 (>= 0.8.998), libnotify4 (>= 0.7.3), libpango1.0-0 (>= 1.18.0), libpolkit-gobject-1-0 (>= 0.99), libpulse-mainloop-glib0 (>= 1:0.99.1), libpulse0 (>= 1:0.99.1), libupower-glib1 (>= 0.9.2), libwacom2 (>= 0.3), libx11-6, libxi6 (>= 2:1.2.99.4), libxklavier16 (>= 5.1), libxml2 (>= 2.7.4), accountsservice, apg, desktop-file-utils, gnome-control-center-data (<< 1:3.5), gnome-control-center-data (>= 1:3.4.2-0ubuntu0.11), gnome-desktop3-data, gnome-icon-theme (>= 2.24), gnome-icon-theme-symbolic, gnome-menus (>= 2.12.0), gnome-settings-daemon (>= 3.3.91), gsettings-desktop-schemas (>= 3.3.90-0ubuntu2), ubuntu-system-service (>= 0.1.10)
 Recommends: gnome-online-accounts, gnome-session-bin, iso-codes, mousetweaks, policykit-1-gnome, ubuntu-docs, indicator-sound (>= 0.8.1), indicator-power (>= 1.90)
 Suggests: gnome-screensaver | xscreensaver, gstreamer0.10-pulseaudio, libcanberra-gtk-module, x11-xserver-utils
 Breaks: gnome-power-manager (<< 3.0), gnome-session (<< 3.0), libglib2.0-0 (<< 2.28.6-2)
-Filename: pool/main/g/gnome-control-center/gnome-control-center_3.4.2-0ubuntu0.9_amd64.deb
-Size: 658308
-MD5sum: 11129b490590e6ce69e2edbe01f25a90
-SHA1: d5b7334693441bb2dc1291a5ab8dc266b74653d5
-SHA256: ac0ce0ece380371a354ed743e157c75010e1d3603e4be96685f596eb4216d0cf
+Filename: pool/main/g/gnome-control-center/gnome-control-center_3.4.2-0ubuntu0.11_amd64.deb
+Size: 657464
+MD5sum: 31a3b880cdee03c124378f1779712b4e
+SHA1: 4a42ce93b0a07dedcbdd2314ff014d4cfb918791
+SHA256: 56d6cba5dadf3028d3c256ac29d61646ce264b6b32e79e84107d1cf43851ea3e
 Description: utilities to configure the GNOME desktop
 Description-md5: 841ec7130e7cda8d105ccf44ab60b8fa
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -9023,17 +9023,17 @@ Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: gnome-control-center
-Version: 1:3.4.2-0ubuntu0.9
+Version: 1:3.4.2-0ubuntu0.11
 Replaces: capplets-data, gdm (<< 3.0), gdm3 (<< 3.0), gnome-media-common (<< 2.91), gnome-power-manager (<< 3.2), gnome-settings-daemon (<< 3.0)
 Provides: capplets-data
-Recommends: gnome-control-center (>= 1:3.4.2-0ubuntu0.9)
+Recommends: gnome-control-center (>= 1:3.4.2-0ubuntu0.11)
 Conflicts: capplets-data
 Breaks: gdm (<< 3.0), gdm3 (<< 3.0), gnome-power-manager (<< 3.2), gnome-settings-daemon (<< 3.0)
-Filename: pool/main/g/gnome-control-center/gnome-control-center-data_3.4.2-0ubuntu0.9_all.deb
-Size: 1120442
-MD5sum: a4b70c9e7a8687671f96db6cb49616a0
-SHA1: a48c86a8b33cec65ccd60badbdcf6d0c5ee1cad3
-SHA256: bc64802a3612d0700c5b701a7e570b1286a903985e483257c61cdbdd209a1706
+Filename: pool/main/g/gnome-control-center/gnome-control-center-data_3.4.2-0ubuntu0.11_all.deb
+Size: 1120384
+MD5sum: 2caea790b0d608dddb0db882657aefde
+SHA1: b616e5e808a991150b92f8086866a092ca819b81
+SHA256: 9bad736107c5a1120e53218e61c6b5288bc14d76bdbcf1caa3d50c861923d14a
 Description: configuration applets for GNOME - data files
 Description-md5: 8bfe062731867305191b949e29fc5afa
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -9049,12 +9049,12 @@ Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: gnome-control-center
-Version: 1:3.4.2-0ubuntu0.9
-Filename: pool/main/g/gnome-control-center/gnome-control-center-dev_3.4.2-0ubuntu0.9_all.deb
-Size: 68718
-MD5sum: 78c9a557b7b5b7212e7dfa083913f579
-SHA1: 539b94137613bd982745dd7c3e45c793865034a5
-SHA256: 79a6a907150aa9a6b1069baf9a9372b904a3208f34644f8843b09734cadfd7c4
+Version: 1:3.4.2-0ubuntu0.11
+Filename: pool/main/g/gnome-control-center/gnome-control-center-dev_3.4.2-0ubuntu0.11_all.deb
+Size: 68612
+MD5sum: 95cb3bc00ae16df43e26d3e89c5ea38c
+SHA1: ff1f4b1e9820b36fd814305406f34a975ae41ee3
+SHA256: e10796d1366892ec8742f4508abcd571330b0019014380298709899abb0d82f8
 Description: utilities to configure the GNOME desktop
 Description-md5: ea55aa04a24ea847c61e4865c135347b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -9273,6 +9273,30 @@ SHA256: 1e61fdca8909e4d691c2237c53cf2bfd066dc64ade6f47075368f313d8e2af6a
 Description: power management tool for the GNOME desktop
 Homepage: http://www.gnome.org/projects/gnome-power-manager/
 Description-md5: 1ece6a08127f01c856017ac9675775b5
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb
+
+Package: gnome-screenshot
+Priority: optional
+Section: gnome
+Installed-Size: 192
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 3.4.1-0ubuntu1.1
+Replaces: gnome-utils (<< 2.30.0-2)
+Depends: libc6 (>= 2.7), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libgdk-pixbuf2.0-0 (>= 2.23.0), libglib2.0-0 (>= 2.31.0), libgtk-3-0 (>= 3.1.6), libx11-6, libxext6, dconf-gsettings-backend | gsettings-backend
+Breaks: gnome-utils (<< 2.30.0-2)
+Filename: pool/main/g/gnome-screenshot/gnome-screenshot_3.4.1-0ubuntu1.1_amd64.deb
+Size: 34594
+MD5sum: d98866e34eb16a9647cf109e4569ed3a
+SHA1: 04fad676203278f25d750954929280aaf8d45e10
+SHA256: 9547f6ba54637f780975e6c1832d92fdb61f2066c80d5bc560c630734d700b01
+Description: screenshot application for GNOME
+Homepage: http://live.gnome.org/GnomeUtils
+Description-md5: c90436a1a5b51bb06f2cb8922490040a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
@@ -39862,14 +39886,14 @@ Installed-Size: 103
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
 Architecture: amd64
-Source: lvm2 (2.02.66-4ubuntu7.2)
-Version: 2:1.02.48-4ubuntu7.2
-Depends: libdevmapper1.02.1 (= 2:1.02.48-4ubuntu7.2), libdevmapper-event1.02.1 (= 2:1.02.48-4ubuntu7.2), libselinux1-dev, libudev-dev
-Filename: pool/main/l/lvm2/libdevmapper-dev_1.02.48-4ubuntu7.2_amd64.deb
-Size: 13952
-MD5sum: 17fce48dc559132052622709c42759e7
-SHA1: b6fcb6ff5e7c0c651fd7445304be3ea220bc2f8a
-SHA256: 815dfee84180b02e394c75ce72a477b7f67c154f4f0de6115c50e9f085c57428
+Source: lvm2 (2.02.66-4ubuntu7.3)
+Version: 2:1.02.48-4ubuntu7.3
+Depends: libdevmapper1.02.1 (= 2:1.02.48-4ubuntu7.3), libdevmapper-event1.02.1 (= 2:1.02.48-4ubuntu7.3), libselinux1-dev, libudev-dev
+Filename: pool/main/l/lvm2/libdevmapper-dev_1.02.48-4ubuntu7.3_amd64.deb
+Size: 13642
+MD5sum: acfc6f13f10c28b7898dac9bb0b04d33
+SHA1: 047d1ccfc58a66e160c0443e3acb995e4e9ac73b
+SHA256: 28b78a4e57984bb49f30708b18c0c94a3521db66fe1135806829e0c84c54c964
 Description: The Linux Kernel Device Mapper header files
 Homepage: http://sources.redhat.com/lvm2/
 Description-md5: 6f164253b7618b4fe6daa7986199ea43
@@ -39884,14 +39908,14 @@ Installed-Size: 70
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
 Architecture: amd64
-Source: lvm2 (2.02.66-4ubuntu7.2)
-Version: 2:1.02.48-4ubuntu7.2
+Source: lvm2 (2.02.66-4ubuntu7.3)
+Version: 2:1.02.48-4ubuntu7.3
 Depends: libc6 (>= 2.15), libdevmapper1.02.1 (>= 2:1.02.36)
-Filename: pool/main/l/lvm2/libdevmapper-event1.02.1_1.02.48-4ubuntu7.2_amd64.deb
-Size: 10386
-MD5sum: a493c70fdae812bc58355e7034db59c3
-SHA1: 065f053db0030bc4bf9b8215e534942b10658cdc
-SHA256: e5de67cb245e1e594fc03cce29f10bc443755d31b222d0fdea16cf8bcdb59938
+Filename: pool/main/l/lvm2/libdevmapper-event1.02.1_1.02.48-4ubuntu7.3_amd64.deb
+Size: 10396
+MD5sum: f10afebb91fb98a8d09e37b8ad96e95b
+SHA1: 8e9f83283ae5545b4c8be800e727091fd9ae1118
+SHA256: 7cc5a84d6e93713e8d07f173f73c2826db04442b422a86e0eae41863fe519ea5
 Description: The Linux Kernel Device Mapper userspace library
 Homepage: http://sources.redhat.com/lvm2/
 Description-md5: 36ef92e2373834da0cdeec4610992b68
@@ -39907,16 +39931,16 @@ Installed-Size: 201
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
 Architecture: amd64
-Source: lvm2 (2.02.66-4ubuntu7.2)
-Version: 2:1.02.48-4ubuntu7.2
+Source: lvm2 (2.02.66-4ubuntu7.3)
+Version: 2:1.02.48-4ubuntu7.3
 Provides: libdevmapper
-Depends: libc6 (>= 2.14), libselinux1 (>= 1.32), libudev0 (>= 147), dmsetup (>= 2:1.02.48-4ubuntu7.2)
+Depends: libc6 (>= 2.14), libselinux1 (>= 1.32), libudev0 (>= 147), dmsetup (>= 2:1.02.48-4ubuntu7.3)
 Breaks: lvm2 (<< 2.02.66)
-Filename: pool/main/l/lvm2/libdevmapper1.02.1_1.02.48-4ubuntu7.2_amd64.deb
-Size: 69748
-MD5sum: 4a4992ed5f85fcf6c93f61dc0842ea5d
-SHA1: 9d78b28c93349910123c0a7976c25e9198e71a03
-SHA256: 61e8d26d071d264a38f4f0570e7d67fb0b61b306a5a3c2360068c959231b0024
+Filename: pool/main/l/lvm2/libdevmapper1.02.1_1.02.48-4ubuntu7.3_amd64.deb
+Size: 69658
+MD5sum: 92ed1694e566b524c3ef9b57f7758306
+SHA1: 4f82b794ce41f5e086a94b63729e42764ca5e561
+SHA256: 97b1f7e0e3188ba4acf665c3c31d0c2cca5af2665b6b634357ba90bbc0487341
 Description: The Linux Kernel Device Mapper userspace library
 Homepage: http://sources.redhat.com/lvm2/
 Description-md5: eb04e49c70342d18b4739740954a0e0a
@@ -43435,13 +43459,13 @@ Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: gnome-control-center
-Version: 1:3.4.2-0ubuntu0.9
-Depends: libgnome-control-center1 (= 1:3.4.2-0ubuntu0.9)
-Filename: pool/main/g/gnome-control-center/libgnome-control-center-dev_3.4.2-0ubuntu0.9_amd64.deb
-Size: 3976
-MD5sum: ba4d06c7e8cff83d32204ba0f28e0396
-SHA1: b7ba4805656e36f1e36a64e9d2e4d5d2dbd276f9
-SHA256: be9f38ba5611ce43cf060cf6de384b75d65a01fd2b8e8bbd2bdbda3fd0ed8a2c
+Version: 1:3.4.2-0ubuntu0.11
+Depends: libgnome-control-center1 (= 1:3.4.2-0ubuntu0.11)
+Filename: pool/main/g/gnome-control-center/libgnome-control-center-dev_3.4.2-0ubuntu0.11_amd64.deb
+Size: 3982
+MD5sum: 48d585844c7b26c31ef772fd2680ac20
+SHA1: 1c4dc184e6a535e33a6d1f9e9413ab5b3edf0396
+SHA256: 1409163917baf3296fe17592173f12730157f577393392ea693a283ec9d7fe23
 Description: utilities to configure the GNOME desktop
 Description-md5: d94b8cc23eade4594fdcf9cbed49b9fd
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -43456,13 +43480,13 @@ Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: gnome-control-center
-Version: 1:3.4.2-0ubuntu0.9
+Version: 1:3.4.2-0ubuntu0.11
 Depends: libc6 (>= 2.2.5), libglib2.0-0 (>= 2.29.14), libgtk-3-0 (>= 3.0.0), libpango1.0-0 (>= 1.14.0)
-Filename: pool/main/g/gnome-control-center/libgnome-control-center1_3.4.2-0ubuntu0.9_amd64.deb
-Size: 78690
-MD5sum: ec444b01496161b788f4d33faf8e58a8
-SHA1: bd158fe5b3a0c2682b70bd8de67a0cd9ddfe7c08
-SHA256: 2766ca5492bf5a08d8cf7e100ab0c45f95e4af0ed39a580dc76e53d6e9a582d8
+Filename: pool/main/g/gnome-control-center/libgnome-control-center1_3.4.2-0ubuntu0.11_amd64.deb
+Size: 78900
+MD5sum: 70b39c080c359085f85ba097180177fd
+SHA1: 001d1ee1d5efbec1d86d4d552a6423687b4db4c2
+SHA256: 5b0da4ecd7ce3d72c03f5517164bf8da680df62a1776458b46afc99fb764a4d7
 Description: utilities to configure the GNOME desktop
 Description-md5: d35b85c0b8b73f7bf4cf19c7aa215660
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -49022,14 +49046,14 @@ Installed-Size: 115
 Maintainer: Robert Ancell <robert.ancell@ubuntu.com>
 Architecture: amd64
 Source: lightdm
-Version: 1.2.3-0ubuntu1
+Version: 1.2.3-0ubuntu2
 Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.28.0), libx11-6, libxklavier16 (>= 5.0)
 Recommends: lightdm, accountsservice
-Filename: pool/main/l/lightdm/liblightdm-gobject-1-0_1.2.3-0ubuntu1_amd64.deb
-Size: 30904
-MD5sum: 9071bf910197dd23a996f23d5832b998
-SHA1: 7d192da8d6cd713611059268bb9694049f988a40
-SHA256: ea653d61739e77d19f5695d05d1badc56809ed9ad157fec0b94d5cab4daf4d44
+Filename: pool/main/l/lightdm/liblightdm-gobject-1-0_1.2.3-0ubuntu2_amd64.deb
+Size: 31134
+MD5sum: 071228851fbd0bc6ed4d05a55a4d5471
+SHA1: 9d6cc7c7357446d32b764f701ef9ddf41768860e
+SHA256: 2dbec85981279ae55ad3d4f3adc3bdebb4e1d7e15ac400de703a8fe56c30a397
 Description: LightDM GObject client library
 Homepage: https://launchpad.net/lightdm
 Description-md5: 6c3bad2fb3c13c192ee2080b06f2b9b2
@@ -49045,13 +49069,13 @@ Installed-Size: 149
 Maintainer: Robert Ancell <robert.ancell@ubuntu.com>
 Architecture: amd64
 Source: lightdm
-Version: 1.2.3-0ubuntu1
-Depends: liblightdm-gobject-1-0 (= 1.2.3-0ubuntu1), libglib2.0-dev, libdbus-glib-1-dev, libxklavier-dev
-Filename: pool/main/l/lightdm/liblightdm-gobject-1-dev_1.2.3-0ubuntu1_amd64.deb
-Size: 10964
-MD5sum: 39d63fcd2675dc043433173f2f579b69
-SHA1: 69e2f625b9f863b08a0be1eaf5a498122dcf0744
-SHA256: d044a41728b59018969b53fe6f905f491f2c45a15b39d44fc6734eefad7e2cf2
+Version: 1.2.3-0ubuntu2
+Depends: liblightdm-gobject-1-0 (= 1.2.3-0ubuntu2), libglib2.0-dev, libdbus-glib-1-dev, libxklavier-dev
+Filename: pool/main/l/lightdm/liblightdm-gobject-1-dev_1.2.3-0ubuntu2_amd64.deb
+Size: 10924
+MD5sum: d06217cc7a503b337ddc308f2aaadaef
+SHA1: b7ff334b603daac4928b86f131951132010df6ef
+SHA256: ad85bf006958769d7c871781764d20c9160c50f4863b20120e349c24e003c439
 Description: LightDM client library (development files)
 Homepage: https://launchpad.net/lightdm
 Description-md5: 30ef340c6d774e2957da152c1a598a36
@@ -49066,12 +49090,12 @@ Installed-Size: 200
 Maintainer: Robert Ancell <robert.ancell@ubuntu.com>
 Architecture: all
 Source: lightdm
-Version: 1.2.3-0ubuntu1
-Filename: pool/main/l/lightdm/liblightdm-gobject-1-doc_1.2.3-0ubuntu1_all.deb
-Size: 19682
-MD5sum: 73e0c07a6f543e7884eea8fba2dc1d5e
-SHA1: d7a510df745d7a928836b7eb86b96d41a6478b33
-SHA256: 3c4453ef0f45a4acca075bc25a77dc5fb750fd53575eaf902b53ece0b875f1c9
+Version: 1.2.3-0ubuntu2
+Filename: pool/main/l/lightdm/liblightdm-gobject-1-doc_1.2.3-0ubuntu2_all.deb
+Size: 20004
+MD5sum: 548ab161416178312f48bc0281a0d270
+SHA1: 4202226d61864f6889c42c6c6c214ed62858eafd
+SHA256: 4d65038eb18fe828beb7dc007ad04410658f07857c4bf289a72cd6ab6192236f
 Description: LightDM client library (documentation)
 Homepage: https://launchpad.net/lightdm
 Description-md5: ed7ca117d51a427f54238d598a2c843e
@@ -49086,16 +49110,16 @@ Installed-Size: 124
 Maintainer: Robert Ancell <robert.ancell@ubuntu.com>
 Architecture: amd64
 Source: lightdm
-Version: 1.2.3-0ubuntu1
+Version: 1.2.3-0ubuntu2
 Replaces: liblightdm-qt-1-0 (>= 1.1.1)
 Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), liblightdm-gobject-1-0 (>= 1.2.3), libqt4-dbus (>= 4:4.5.3), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.1.1)
 Recommends: lightdm
 Conflicts: liblightdm-qt-1-0 (>= 1.1.1)
-Filename: pool/main/l/lightdm/liblightdm-qt-2-0_1.2.3-0ubuntu1_amd64.deb
-Size: 29834
-MD5sum: e8873b1b40f3e503c58de40a94037f87
-SHA1: c530894ddd478d3c3884ce373aeb0d5c49902b94
-SHA256: 9fc0ca523acd5db87ac8e91c6db760d12d01e120e03b5e7636b2b91f023432ef
+Filename: pool/main/l/lightdm/liblightdm-qt-2-0_1.2.3-0ubuntu2_amd64.deb
+Size: 29842
+MD5sum: 7e8a5c3ba998e10d01dadea369c36d27
+SHA1: cf0a0675a0c7e20510244238ce5e09fbc906aa26
+SHA256: 82f8056bedeb25aa52b9628098d312099b1c267cc411824e843e62f4d6a467be
 Description: LightDM Qt client library
 Homepage: https://launchpad.net/lightdm
 Description-md5: e4829922d725966a3547148f5055fe94
@@ -49111,15 +49135,15 @@ Installed-Size: 67
 Maintainer: Robert Ancell <robert.ancell@ubuntu.com>
 Architecture: amd64
 Source: lightdm
-Version: 1.2.3-0ubuntu1
+Version: 1.2.3-0ubuntu2
 Replaces: liblightdm-qt-1-dev (>= 1.1.1)
-Depends: liblightdm-qt-2-0 (= 1.2.3-0ubuntu1), libqt4-dev
+Depends: liblightdm-qt-2-0 (= 1.2.3-0ubuntu2), libqt4-dev
 Conflicts: liblightdm-qt-1-dev (>= 1.1.1)
-Filename: pool/main/l/lightdm/liblightdm-qt-2-dev_1.2.3-0ubuntu1_amd64.deb
-Size: 4216
-MD5sum: f2e51d3ba4ac78b5dea98fa4e974b8d4
-SHA1: 2094452a0149611fcf62f0da58d37c790ae7c86f
-SHA256: 29c015657e9e9486e6f15a3aa48c9159a97c3835e0fb60d842a4c8c070bad357
+Filename: pool/main/l/lightdm/liblightdm-qt-2-dev_1.2.3-0ubuntu2_amd64.deb
+Size: 4182
+MD5sum: 6f2eb5872b4d281c33a33d2f515677cc
+SHA1: 0021c3a30be11261b5027fba896b1f9fc77dedb7
+SHA256: ba94c85709071a262666ded039fa654e7adc1a9f409b64f65d7d76ef6fcea41d
 Description: LightDM client library (development files)
 Homepage: https://launchpad.net/lightdm
 Description-md5: de7968cdddbdef80c16966af6e3f8d61
@@ -49249,13 +49273,13 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: lvm2
-Version: 2.02.66-4ubuntu7.2
-Depends: liblvm2app2.2 (= 2.02.66-4ubuntu7.2), liblvm2cmd2.02 (= 2.02.66-4ubuntu7.2), libdevmapper-dev
-Filename: pool/main/l/lvm2/liblvm2-dev_2.02.66-4ubuntu7.2_amd64.deb
-Size: 8882
-MD5sum: b28cdb500dedbdddcc3b12107cb60adc
-SHA1: 9609cfd38dca5d52abc9f32891f6f3d0462b8874
-SHA256: 9b813e9eb387f4f3d0163a44cafe1da946bf1ca622765e53b014aa8bd41806b7
+Version: 2.02.66-4ubuntu7.3
+Depends: liblvm2app2.2 (= 2.02.66-4ubuntu7.3), liblvm2cmd2.02 (= 2.02.66-4ubuntu7.3), libdevmapper-dev
+Filename: pool/main/l/lvm2/liblvm2-dev_2.02.66-4ubuntu7.3_amd64.deb
+Size: 8786
+MD5sum: 189fbb99a3470f185a978d493d76d4fd
+SHA1: 2a4c00255ec814d1593621a9ccd3d3b79685af04
+SHA256: 4457c055dcea880344afcb1ddc5f526e8f9c826833313c1e8343cb807e065873
 Description: LVM2 libraries - development files
 Homepage: http://sources.redhat.com/lvm2/
 Description-md5: 9355c51a0fa4f1589861097790213f32
@@ -49266,18 +49290,18 @@ Supported: 18m
 Package: liblvm2app2.2
 Priority: optional
 Section: libs
-Installed-Size: 553
+Installed-Size: 554
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: lvm2
-Version: 2.02.66-4ubuntu7.2
+Version: 2.02.66-4ubuntu7.3
 Depends: libc6 (>= 2.14), libdevmapper-event1.02.1 (>= 2:1.02.20), libdevmapper1.02.1 (>= 2:1.02.44)
-Filename: pool/main/l/lvm2/liblvm2app2.2_2.02.66-4ubuntu7.2_amd64.deb
-Size: 222710
-MD5sum: 542f56c9fe957c2c36d0cbb58e460a94
-SHA1: 102e2e94884de0b0b02333a27ea63acdbf80b102
-SHA256: 5f83d7217babeb88dd276db99d6f63016fc443d63bb73eaca03324db83015d40
+Filename: pool/main/l/lvm2/liblvm2app2.2_2.02.66-4ubuntu7.3_amd64.deb
+Size: 222796
+MD5sum: c8c15a3c7cee890be759d11ebdc48071
+SHA1: 1f11546ed163887e920505d4cdf65f5fbd69d067
+SHA256: 38a34a30d1f122e74f143bad1099b0904145d417484aaf99162357c908e1bc78
 Description: LVM2 application library
 Homepage: http://sources.redhat.com/lvm2/
 Description-md5: 577f83d733f4a66a06fad9f3866d0316
@@ -49294,13 +49318,13 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: lvm2
-Version: 2.02.66-4ubuntu7.2
+Version: 2.02.66-4ubuntu7.3
 Depends: libc6 (>= 2.14)
-Filename: pool/main/l/lvm2/liblvm2cmd2.02_2.02.66-4ubuntu7.2_amd64.deb
-Size: 311104
-MD5sum: 3b49b6cbd2b9fd00b50b2e14ea3e0191
-SHA1: 197f1ff0bde961c19eec6dd569a846befac60d03
-SHA256: 5073e5ccdbc7befb5b110c6f0a3c3e3bc13151fb5127de0dcc654566c313d3a8
+Filename: pool/main/l/lvm2/liblvm2cmd2.02_2.02.66-4ubuntu7.3_amd64.deb
+Size: 311092
+MD5sum: c420f80add04aada53b2b7222dc7c5d4
+SHA1: 52d7289bf363efd124776d54979be77d6b297fe3
+SHA256: 791f420d2761cc47a8bf47fc16ccf7410e2c327d16b951bada92217c0c075166
 Description: LVM2 command library
 Homepage: http://sources.redhat.com/lvm2/
 Description-md5: 8f4d76592086bd210b07fd8b6370be43
@@ -65684,15 +65708,15 @@ Installed-Size: 1745
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
-Version: 2.7.8.dfsg-5.1ubuntu4.3
+Version: 2.7.8.dfsg-5.1ubuntu4.4
 Depends: libc6 (>= 2.15), zlib1g (>= 1:1.2.3.3.dfsg)
 Pre-Depends: multiarch-support
 Recommends: xml-core
-Filename: pool/main/libx/libxml2/libxml2_2.7.8.dfsg-5.1ubuntu4.3_amd64.deb
-Size: 672316
-MD5sum: 46fb1d9cae20e88160cadea203f13982
-SHA1: 1e56f6128e9953f6e8a84c77cb49635b97c28af7
-SHA256: e5c2bc996a382c417c4a70d6b9a72d08ec3e6ffd5539044837a0d51d83204697
+Filename: pool/main/libx/libxml2/libxml2_2.7.8.dfsg-5.1ubuntu4.4_amd64.deb
+Size: 672348
+MD5sum: 55ccc23a2e212f4ebf6836aeb4cff2c5
+SHA1: 0bbb96cf59b04dda510ec0522698a309e0066744
+SHA256: 32f8912224cb182a885bb9f14e72297431b93580ad1c863d51fa8a0950bb08b6
 Description: GNOME XML library
 Multi-Arch: same
 Homepage: http://xmlsoft.org/
@@ -65705,18 +65729,18 @@ Task: standard, kubuntu-active, mythbuntu-frontend, mythbuntu-frontend, mythbunt
 Package: libxml2-dbg
 Priority: extra
 Section: debug
-Installed-Size: 1736
+Installed-Size: 1737
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Source: libxml2
-Version: 2.7.8.dfsg-5.1ubuntu4.3
-Depends: libxml2 (= 2.7.8.dfsg-5.1ubuntu4.3)
-Filename: pool/main/libx/libxml2/libxml2-dbg_2.7.8.dfsg-5.1ubuntu4.3_amd64.deb
-Size: 1372776
-MD5sum: be3bbd59c29bef982b49fbc693d8392d
-SHA1: 5be57d5a6eef74ebf2ce9f54f4ed7d74a6cdcbf3
-SHA256: 5a468074e2ff3cbdc51ad7ca1de74129fb4a8414dd96dec1b3474bb2c40ae852
+Version: 2.7.8.dfsg-5.1ubuntu4.4
+Depends: libxml2 (= 2.7.8.dfsg-5.1ubuntu4.4)
+Filename: pool/main/libx/libxml2/libxml2-dbg_2.7.8.dfsg-5.1ubuntu4.4_amd64.deb
+Size: 1373268
+MD5sum: 6bf89593617214cdf66776117915e202
+SHA1: 1818cfa3fa6a14de168cffcafed06ebe592d60f6
+SHA256: b13fc1ccbeb5537b4296331a7e7d97ea460bfa36bec8e7abe1ec2af6f8b93a9d
 Description: Debugging symbols for the GNOME XML library
 Homepage: http://xmlsoft.org/
 Description-md5: e6366bd8797060b5c00591785cb81ab4
@@ -65727,18 +65751,18 @@ Supported: 18m
 Package: libxml2-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 2690
+Installed-Size: 2691
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Source: libxml2
-Version: 2.7.8.dfsg-5.1ubuntu4.3
-Depends: libxml2 (= 2.7.8.dfsg-5.1ubuntu4.3)
-Filename: pool/main/libx/libxml2/libxml2-dev_2.7.8.dfsg-5.1ubuntu4.3_amd64.deb
-Size: 804092
-MD5sum: 50607568bb2cb7d15efa02bb7371b256
-SHA1: d3827fe3207ed9e2b4627360abd28e0af69d706a
-SHA256: 3241e0c564614c36ddb0c2b7af75e1603d4d28c8ee63f8408e13762da99923f9
+Version: 2.7.8.dfsg-5.1ubuntu4.4
+Depends: libxml2 (= 2.7.8.dfsg-5.1ubuntu4.4)
+Filename: pool/main/libx/libxml2/libxml2-dev_2.7.8.dfsg-5.1ubuntu4.4_amd64.deb
+Size: 804146
+MD5sum: f84aaa8a8d2571e1e59d139c5f1d1880
+SHA1: 8a7932261e67de62187f49dd960de3b8bdb153ba
+SHA256: cafd6c0f5581f0cb4388e2b6fe1bb2707a8ca1bf2c0d2e98c0a96c4aee79296b
 Description: Development files for the GNOME XML library
 Multi-Arch: same
 Homepage: http://xmlsoft.org/
@@ -65755,13 +65779,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: all
 Source: libxml2
-Version: 2.7.8.dfsg-5.1ubuntu4.3
+Version: 2.7.8.dfsg-5.1ubuntu4.4
 Suggests: devhelp
-Filename: pool/main/libx/libxml2/libxml2-doc_2.7.8.dfsg-5.1ubuntu4.3_all.deb
-Size: 1366450
-MD5sum: 14ab31c311c0b5fb42738ec949f474a7
-SHA1: 8e59aad70c80590367679ce77bbc136537eeac69
-SHA256: 2aaf2330e21ef6a3e94bb6f8ce63657f05e1f8b6d5b830aa8113da6f96507192
+Filename: pool/main/libx/libxml2/libxml2-doc_2.7.8.dfsg-5.1ubuntu4.4_all.deb
+Size: 1369188
+MD5sum: 0b5549994a2bf192a48e98526e318ecf
+SHA1: 89a41b0e802100cf8e633a4d28362a80c688ad7d
+SHA256: da069a25c856c4adebd4ad02773820591e186423df68a513caa0e342a7500813
 Description: Documentation for the GNOME XML library
 Homepage: http://xmlsoft.org/
 Description-md5: 5a090ab419791c5777762dc26465ac3b
@@ -65777,13 +65801,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Source: libxml2
-Version: 2.7.8.dfsg-5.1ubuntu4.3
+Version: 2.7.8.dfsg-5.1ubuntu4.4
 Depends: libc6 (>= 2.7), libreadline6 (>= 6.0), libxml2 (>= 2.7.4)
-Filename: pool/main/libx/libxml2/libxml2-utils_2.7.8.dfsg-5.1ubuntu4.3_amd64.deb
-Size: 39928
-MD5sum: 63b9469e6fbe60fc0df817499168fa6b
-SHA1: 2a35abf0f356a1b88c4dd7e7f2713ba1a8c0ca21
-SHA256: 1a8fa72a5e23641fbe32619ef00be5eb2233919f67e0d83aa1cd9737c97593e7
+Filename: pool/main/libx/libxml2/libxml2-utils_2.7.8.dfsg-5.1ubuntu4.4_amd64.deb
+Size: 39920
+MD5sum: 7415c9c6c330748cf278865e8b869654
+SHA1: a6a8b685316141e82bc790d83dd52e5d74e1d9d4
+SHA256: 940b03b127b0068e5009d09aa9669feb1aca55985484c10c4a76d47434a22d8b
 Description: XML utilities
 Multi-Arch: foreign
 Homepage: http://xmlsoft.org/
@@ -65916,6 +65940,27 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: libxrandr-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 137
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libxrandr
+Version: 2:1.3.2-2ubuntu0.1
+Depends: libxrandr2 (= 2:1.3.2-2ubuntu0.1), libx11-dev, libxext-dev, x11proto-randr-dev (>= 1.3), libxrender-dev
+Filename: pool/main/libx/libxrandr/libxrandr-dev_1.3.2-2ubuntu0.1_amd64.deb
+Size: 24342
+MD5sum: d6b0987f58a256b2ab35c7ad44e4036c
+SHA1: 9bce73b919bbd557d3eca6cea77e5322ba592a40
+SHA256: eded4e4a0f31e16bdf1540139d5cc26c45dd1a4bd2d1e277348e629f97060d76
+Description: X11 RandR extension library (development headers)
+Description-md5: 444725c9e942434744988c5291f2f2f3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
 Package: libxrandr-dev-lts-quantal
 Priority: optional
 Section: libdevel
@@ -65980,6 +66025,52 @@ SHA256: a1ec5fa8530b9ac1ac5b66ff801cba66ea06260fdb2d86803bd660ed862bb5fe
 Description: X11 RandR extension library (debug package)
 Multi-Arch: same
 Description-md5: 2e1926a931dbebc0d9ac99927764f0f7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxrandr2
+Priority: optional
+Section: libs
+Installed-Size: 84
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libxrandr
+Version: 2:1.3.2-2ubuntu0.1
+Depends: libc6 (>= 2.14), libx11-6 (>= 2:1.4.99.1), libxext6, libxrender1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxrandr/libxrandr2_1.3.2-2ubuntu0.1_amd64.deb
+Size: 17532
+MD5sum: 184f1b3a58453b98f6bed4a2c275c2ad
+SHA1: 2564adba0cc285d12b1bdc70afb0d0cf7cc15c4a
+SHA256: 0f114ee2d4e9a1c0aa7fca0d7a6e1a79b613251f6e83699568d35dc5beeade8a
+Description: X11 RandR extension library
+Multi-Arch: same
+Description-md5: 4f5e90c11ffce760113c5e601f3f4449
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxrandr2-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 307
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libxrandr
+Version: 2:1.3.2-2ubuntu0.1
+Depends: libxrandr2 (= 2:1.3.2-2ubuntu0.1)
+Filename: pool/main/libx/libxrandr/libxrandr2-dbg_1.3.2-2ubuntu0.1_amd64.deb
+Size: 66326
+MD5sum: d9a6b8036101ac93fec4b10a4e0dd918
+SHA1: 4665a935b95d84341d6a48e2f6ef53736d3c5232
+SHA256: 22543bc1974ae5c7c4b952977bf0093e11afb9c6f3bd746b74ecbf348cb78fae
+Description: X11 RandR extension library (debug package)
+Multi-Arch: same
+Description-md5: e0f7c9763ea9b670967b0e6ed35acd8f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
@@ -66172,17 +66263,17 @@ Section: x11
 Installed-Size: 432
 Maintainer: Robert Ancell <robert.ancell@ubuntu.com>
 Architecture: amd64
-Version: 1.2.3-0ubuntu1
+Version: 1.2.3-0ubuntu2
 Provides: x-display-manager
 Depends: debconf (>= 0.5) | debconf-2.0, upstart-job, libc6 (>= 2.14), libglib2.0-0 (>= 2.28.0), libpam0g (>= 0.99.7.1), libxcb1, libxdmcp6, libpam-runtime (>= 0.76-14), libpam-modules, adduser, libglib2.0-bin, dbus
 Pre-Depends: dpkg (>= 1.15.7.2)
 Recommends: xserver-xorg, unity-greeter | lightdm-greeter
 Conflicts: liblightdm-gobject-0-0, liblightdm-qt-0-0
-Filename: pool/main/l/lightdm/lightdm_1.2.3-0ubuntu1_amd64.deb
-Size: 98588
-MD5sum: d503eb5b1477e62736de253aea6dd52d
-SHA1: 9e8a033419253f5f00552a81cf5a2f5199be6a5c
-SHA256: 1ae67e06d218a76c00f4b1e78535187816b01a0c3a862d533f170345a1a66b83
+Filename: pool/main/l/lightdm/lightdm_1.2.3-0ubuntu2_amd64.deb
+Size: 99008
+MD5sum: 28030864298e9cc1aa1899bf2dadb85a
+SHA1: 9e86b0690909547a31d684e47f887ea94bfeb360
+SHA256: b26d7e8fb0fc16bcc3c8cc3c789b89f4f59b6ecfb83cb5185199fded9e2fa354
 Description: Display Manager
 Homepage: https://launchpad.net/lightdm
 Description-md5: a04ec89b09d7becf8ba288295841fad0
@@ -73808,16 +73899,16 @@ Installed-Size: 963
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
 Architecture: amd64
-Version: 2.02.66-4ubuntu7.2
+Version: 2.02.66-4ubuntu7.3
 Replaces: lvm-common
 Depends: libc6 (>= 2.14), libdevmapper-event1.02.1 (>= 2:1.02.20), libdevmapper1.02.1 (>= 2:1.02.44), libreadline6 (>= 6.0), libudev0 (>= 147), lsb-base, dmsetup (>> 2:1.02.47), watershed (>= 2)
 Conflicts: lvm-common
 Breaks: grub-common (<< 1.98+20100527-1)
-Filename: pool/main/l/lvm2/lvm2_2.02.66-4ubuntu7.2_amd64.deb
-Size: 410098
-MD5sum: d3a77479482627e28ab4caabf3f73e71
-SHA1: 099186d88c68744782a360011f49ade04b4c78ce
-SHA256: 82ff5fe1a4a2ca67723cd3b66969c1fdc99f4b3e9fd9928a4a2828d3fff975da
+Filename: pool/main/l/lvm2/lvm2_2.02.66-4ubuntu7.3_amd64.deb
+Size: 411032
+MD5sum: 7e062a3e9945ae9cdeaf6aa2c63563ea
+SHA1: d9c828909e543926c523b53be702b766ebf030e7
+SHA256: f06bcc647795d57d4d93f721812f543b5deb0f0e028a3fd368dba8ad86ab279f
 Description: The Linux Logical Volume Manager
 Homepage: http://sources.redhat.com/lvm2/
 Description-md5: cbdd43cecac7e5612822a452f5b45c2d
@@ -76390,6 +76481,28 @@ SHA256: 8b5e03ec2d267afbf4b7ec0f9d81121d55e8b70ad0ef3565cac8bd942ba15f0a
 Description: Ubuntu theme for the Openstack dashboard
 Homepage: http://launchpad.net/horizon
 Description-md5: e49ce566cdb2a03745470f21d945576d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: openvpn
+Priority: optional
+Section: net
+Installed-Size: 1033
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Alberto Gonzalez Iniesta <agi@inittab.org>
+Architecture: amd64
+Version: 2.2.1-8ubuntu1.1
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.15), liblzo2-2, libpam0g (>= 0.99.7.1), libpkcs11-helper1 (>= 1.05), libssl1.0.0 (>= 1.0.0), net-tools, initscripts (>= 2.88dsf-13.3), lsb-base (>= 3.2-14)
+Suggests: openssl, resolvconf
+Filename: pool/main/o/openvpn/openvpn_2.2.1-8ubuntu1.1_amd64.deb
+Size: 441264
+MD5sum: 36817e7a0a150643b54b473d2c6cc53f
+SHA1: c175d6177cc93b2b8d870aa39a6a958ebb439439
+SHA256: ad7fdba32c5d60ac03e0b091bad1b7992a97dd8e1935ce8b76807737022b457f
+Description: virtual private network daemon
+Homepage: http://www.openvpn.net/
+Description-md5: 2ebe91e411d46309a61861db507e5c2f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
@@ -80433,14 +80546,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Source: libxml2
-Version: 2.7.8.dfsg-5.1ubuntu4.3
+Version: 2.7.8.dfsg-5.1ubuntu4.4
 Provides: python2.7-libxml2
 Depends: libc6 (>= 2.14), libxml2 (>= 2.7.4), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8)
-Filename: pool/main/libx/libxml2/python-libxml2_2.7.8.dfsg-5.1ubuntu4.3_amd64.deb
-Size: 186416
-MD5sum: 760d6261bf6200ff203e1de75f620d9c
-SHA1: 8322fbf42145429e089d9f43346fc0dceb017825
-SHA256: 6a28aee256e39c95a8c6f3bbab976070897c3c92f08b5112fd4fdf8a88b41d15
+Filename: pool/main/libx/libxml2/python-libxml2_2.7.8.dfsg-5.1ubuntu4.4_amd64.deb
+Size: 186418
+MD5sum: 93ba11e200e47f975a1f3e50f438644a
+SHA1: 262ea1572b48c9cdb3d22f4d160db9b8efad77b4
+SHA256: 186534730437599d2c42dccb0171cb7ef5b79b39816b9d4b8f36f6cb7a5d7cfc
 Description: Python bindings for the GNOME XML library
 Homepage: http://xmlsoft.org/
 Description-md5: e4228b117ba4c3ff09fba829bd0ef07d
@@ -80457,14 +80570,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Source: libxml2
-Version: 2.7.8.dfsg-5.1ubuntu4.3
+Version: 2.7.8.dfsg-5.1ubuntu4.4
 Provides: python2.7-libxml2-dbg
-Depends: python-dbg, python-libxml2 (= 2.7.8.dfsg-5.1ubuntu4.3), libc6 (>= 2.14), libxml2 (>= 2.7.4)
-Filename: pool/main/libx/libxml2/python-libxml2-dbg_2.7.8.dfsg-5.1ubuntu4.3_amd64.deb
-Size: 389748
-MD5sum: 3e1dd707ab5c9431b5d59579dccab830
-SHA1: 72b145d8959a578b28cb6ee60f26494013b420df
-SHA256: 7ee8c6f13adf00c656133d57495dca3438f0b6c5a440e9fbbe486794762f20f4
+Depends: python-dbg, python-libxml2 (= 2.7.8.dfsg-5.1ubuntu4.4), libc6 (>= 2.14), libxml2 (>= 2.7.4)
+Filename: pool/main/libx/libxml2/python-libxml2-dbg_2.7.8.dfsg-5.1ubuntu4.4_amd64.deb
+Size: 389706
+MD5sum: 5069474ccf70b83593748be94d42b4a7
+SHA1: 83779130465ecddaf04fa87a776ac8fb2fc49f04
+SHA256: 8656171ade4c3818f1727ae2461529d07a7b1a7559b3d7dc20ae9b6be4043862
 Description: Python bindings for the GNOME XML library (debug extension)
 Homepage: http://xmlsoft.org/
 Description-md5: 5d69439c02c8c4c06241f93466f5a75a

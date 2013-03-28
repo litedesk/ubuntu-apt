@@ -4213,6 +4213,12 @@ Description-en: power management tool for the GNOME desktop
  power saving, and can trigger suspend-to-RAM, hibernate or shutdown
  events, all integrated to other components of the GNOME desktop.
 
+Package: gnome-screenshot
+Description-md5: c90436a1a5b51bb06f2cb8922490040a
+Description-en: screenshot application for GNOME
+ This tool takes a picture of the desktop or of a window and saves it
+ into a file.
+
 Package: gnome-settings-daemon
 Description-md5: ba41f64fe10326f7ff74ab22f1003a11
 Description-en: daemon handling the GNOME session settings
@@ -29848,6 +29854,24 @@ Description-en: lightweight RPC library based on XML and HTTP [C development lib
  Install this package if you wish to develop your own programs using this
  library.
 
+Package: libxrandr-dev
+Description-md5: 444725c9e942434744988c5291f2f2f3
+Description-en: X11 RandR extension library (development headers)
+ libXrandr provides an X Window System client interface to the RandR
+ extension to the X protocol.
+ .
+ The RandR extension allows for run-time configuration of display attributes
+ such as resolution, rotation, and reflection.
+ .
+ This package contains the development headers for the library found in
+ libxrandr2.  Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXrandr
+
 Package: libxrandr-dev-lts-quantal
 Description-md5: a7b891bed00981bc725702af33bcee2a
 Description-en: X11 RandR extension library (development headers)
@@ -29898,6 +29922,39 @@ Description-en: X11 RandR extension library (debug package)
  .
  This module can be found at
  git://anongit.freedesktop.org/git/xorg-lts-quantal/lib/libXrandr
+
+Package: libxrandr2
+Description-md5: 4f5e90c11ffce760113c5e601f3f4449
+Description-en: X11 RandR extension library
+ libXrandr provides an X Window System client interface to the RandR
+ extension to the X protocol.
+ .
+ The RandR extension allows for run-time configuration of display attributes
+ such as resolution, rotation, and reflection.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXrandr
+
+Package: libxrandr2-dbg
+Description-md5: e0f7c9763ea9b670967b0e6ed35acd8f
+Description-en: X11 RandR extension library (debug package)
+ libXrandr provides an X Window System client interface to the RandR
+ extension to the X protocol.
+ .
+ The RandR extension allows for run-time configuration of display attributes
+ such as resolution, rotation, and reflection.
+ .
+ This package contains the debug versions of the library found in libxrandr2.
+ Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXrandr
 
 Package: libxslt1-dbg
 Description-md5: 07d298272e95c3b2975184f478cc6006
@@ -34627,6 +34684,21 @@ Description-md5: e49ce566cdb2a03745470f21d945576d
 Description-en: Ubuntu theme for the Openstack dashboard
  A custom Ubuntu theme for Horizon.  This package is optional and overrides the
  default theme and branding.
+
+Package: openvpn
+Description-md5: 2ebe91e411d46309a61861db507e5c2f
+Description-en: virtual private network daemon
+ OpenVPN is an application to securely tunnel IP networks over a
+ single UDP or TCP port. It can be used to access remote sites, make
+ secure point-to-point connections, enhance wireless security, etc.
+ .
+ OpenVPN uses all of the encryption, authentication, and certification
+ features provided by the OpenSSL library (any cipher, key size, or
+ HMAC digest).
+ .
+ OpenVPN may use static, pre-shared keys or TLS-based dynamic key exchange. It
+ also supports VPNs with dynamic endpoints (DHCP or dial-up clients), tunnels
+ over NAT or connection-oriented stateful firewalls (such as Linux's iptables).
 
 Package: orbit2
 Description-md5: 82c8c763c66463471c2aaf053647085f
