@@ -1614,6 +1614,21 @@ Description-en: ISC DHCP server (transitional package)
  .
  This dummy package may be safely removed after upgrading to squeeze
 
+Package: djview-plugin
+Description-md5: ce7cb4988d1f07a9481dc68f865a16c1
+Description-en: Browser plugin for the DjVu image format
+ DjVu browser plugin.
+
+Package: djview4
+Description-md5: 33c31b22cd218d1227ab0c6f0bf9e963
+Description-en: Viewer for the DjVu image format
+ DjVu viewer djview.
+
+Package: djvulibre-plugin
+Description-md5: c20f29c4bf4ac3d9e69a45bc76a270c3
+Description-en: Transition package, djvulibre-plugin to djview-plugin
+ Dummy dependency package to transition from djvulibre-plugin to djview-plugin.
+
 Package: dmeventd
 Description-md5: bc8f50011d7d368b15fac19b824076d4
 Description-en: The Linux Kernel Device Mapper userspace library
@@ -6420,6 +6435,15 @@ Description-en: Linux kernel headers for version 3.2.0 on x86/x86_64
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-3.2.0-38/debian.README.gz for details.
 
+Package: linux-headers-3.2.0-39-lowlatency
+Description-md5: 5227a7bf4f2907c1a6f6bbb951e71d7f
+Description-en: Linux kernel headers for version 3.2.0 on x86/x86_64
+ This package provides kernel header files for version 3.2.0 on
+ x86/x86_64.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.2.0-39/debian.README.gz for details.
+
 Package: linux-headers-lowlatency
 Description-md5: b28bf5c7c758bfbbbd15e31ed4c78ed6
 Description-en: lowlatency Linux kernel headers
@@ -6499,6 +6523,24 @@ Description-en: Linux kernel image for version 3.2.0 on x86/x86_64
  correctly, and that supporting packages are also installed.
 
 Package: linux-image-3.2.0-38-lowlatency
+Description-md5: b16e96b0f7c277434a653cb115afc422
+Description-en: Linux kernel image for version 3.2.0 on x86/x86_64
+ This package contains the Linux kernel image for version 3.2.0 on
+ x86/x86_64.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Lowlatency processors.
+ .
+ Geared toward lowlatency desktop systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-lowlatency meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-3.2.0-39-lowlatency
 Description-md5: b16e96b0f7c277434a653cb115afc422
 Description-en: Linux kernel image for version 3.2.0 on x86/x86_64
  This package contains the Linux kernel image for version 3.2.0 on
@@ -8765,6 +8807,13 @@ Description-en: Django application for administering uWSGI server
  .
  This application must be served with uWSGI.
 
+Package: python-dkim
+Description-md5: cc95f2a35f4ef8110aeeb0c0a549b3d4
+Description-en: Python module for DKIM signing and verification
+ Python module that implements DKIM (DomainKeys Identified Mail) email signing
+ and verification. It also provides helper scripts for command line signing
+ and verification.
+
 Package: python-ecryptfs
 Description-md5: f98947163c22f56c9635a6f26a74977e
 Description-en: ecryptfs cryptographic filesystem (python)
@@ -9129,6 +9178,12 @@ Description-en: enhancements to the Python3 build system
  build system; if you stick to the conventions, you do not need to write
  setup.cfg, POTFILES.in, or MANIFEST.in, and setup.py just needs to have the
  package metadata (such as project name and version).
+
+Package: python3-dkim
+Description-md5: baae59d0171eaac97eed6cb3facd1b5f
+Description-en: Python 3 module for DKIM signing and verification
+ Python 3 module that implements DKIM (DomainKeys Identified Mail) email signing
+ and verification.
 
 Package: python3-feedparser
 Description-md5: 786f4cce3c4a090c0fbe422307aabe85
@@ -9542,6 +9597,37 @@ Description-en: localization and localized man pages for rpm
  querying, and updating computer software packages.
  .
  This package contains localization of rpm and localized man pages.
+
+Package: rsyslog-gnutls
+Description-md5: fc6fc1bbbfb8c8031b58f3abd48d4c1c
+Description-en: TLS protocol support for rsyslog
+ This netstream plugin allows rsyslog to send and receive encrypted syslog
+ messages via the upcoming syslog-transport-tls IETF standard protocol.
+
+Package: rsyslog-gssapi
+Description-md5: 79a6e301e123c9629e0c4e9aaa191cae
+Description-en: GSSAPI authentication and encryption support for rsyslog
+ These plugins allow rsyslog to write and/or receive GSSAPI authenticated and
+ encrypted syslog messages. GSSAPI is commonly used for Kerberos
+ authentication.
+
+Package: rsyslog-mysql
+Description-md5: 29be7857de256cc7e3546c2c5296e26a
+Description-en: MySQL output plugin for rsyslog
+ This plugin allows rsyslog to write the syslog messages into a MySQL database.
+
+Package: rsyslog-pgsql
+Description-md5: a299b67a4fcecd70438a9eb9d0cafbf8
+Description-en: PostgreSQL output plugin for rsyslog
+ This plugin allows rsyslog to write the syslog messages into a PostgreSQL
+ database.
+
+Package: rsyslog-relp
+Description-md5: 89cdf90f04ac20a7dd663a762584b93c
+Description-en: RELP protocol support for rsyslog
+ These plugins allows rsyslog to send and receive syslog messages via the
+ RELP protocol. RELP ensures reliable transport over the network even on
+ connection loss or if a peer becomes unavailable.
 
 Package: rt3.8-apache2
 Description-md5: 8c7f404d422c3e457bbb15764ef92df2
@@ -10416,6 +10502,60 @@ Description-en: GnuPG keys of the Ubuntu Cloud Archive
  The Ubuntu project digitally signs its Release files. This package
  contains the archive keys used for the ubuntu-cloud.archive.canonical.com
  repository.
+
+Package: ubuntu-dev-tools
+Description-md5: a9db2ba224bfe460aab3d1d5ead4e915
+Description-en: useful tools for Ubuntu developers
+ This is a collection of useful tools that Ubuntu developers use to make their
+ packaging work a lot easier.
+ .
+ Such tools include:
+ .
+  - 404main - used to check what components a package's deps are in, for
+    doing a main inclusion report for example.
+  - backportpackage - helper to test package backports
+  - bitesize - add the 'bitesize' tag to a bug and comment that you are
+    willing to help fix it.
+  - check-mir - check support status of build/binary dependencies
+  - check-symbols - will compare and give you a diff of the exported symbols of
+    all .so files in a binary package.
+  - dch-repeat - used to repeat a change log into an older release.
+  - dgetlp - download a source package from the Launchpad librarian.
+  - grab-merge - grabs a merge from merges.ubuntu.com easily.
+  - grep-merges - search for pending merges from Debian.
+  - harvest - grabs information about development opportunities from
+    http://harvest.ubuntu.com
+  - hugdaylist - compile HugDay lists from bug list URLs.
+  - import-bug-from-debian - copy a bug from the Debian BTS to Launchpad
+  - merge-changelog - manually merges two Debian changelogs with the same base
+    version.
+  - mk-sbuild - script to create LVM snapshot chroots via schroot and
+    sbuild.
+  - pbuilder-dist, cowbuilder-dist - wrapper script for managing several build
+    chroots (for different Ubuntu and Debian releases) on the same system.
+  - pull-debian-debdiff - attempts to find and download a specific version of
+    a Debian package and its immediate parent to generate a debdiff.
+  - pull-debian-source - downloads the lastest source package available in
+    Debian of a package.
+  - pull-lp-source - downloads lastest source package from Launchpad.
+  - pull-revu-source - downloads the latest source package from REVU
+  - requestbackport - file a backporting request.
+  - requestsync - files a sync request with Debian changelog and rationale.
+  - reverse-depends - find the reverse dependencies (or build dependencies) of
+    a package.
+  - seeded-in-ubuntu - query if a package is safe to upload during a freeze.
+  - setup-packaging-environment - assistant to get an Ubuntu installation
+    ready for packaging work.
+  - sponsor-patch - Downloads a patch from a Launchpad bug, patches the source
+    package, and uploads it (to Ubuntu or a PPA)
+  - submittodebian - automatically send your changes to Debian as a bug report.
+  - syncpackage - helper to prepare .changes file to upload synced packages
+  - ubuntu-build - give commands to the Launchpad build daemons from the
+    command line.
+  - ubuntu-iso - output information of an Ubuntu ISO image.
+  - ubuntu-upload-permission - query / list the upload permissions for a
+    package.
+  - update-maintainer - script to update maintainer field in ubuntu packages.
 
 Package: ubuntu-vm-builder
 Description-md5: 32b28e1d04cb2ed1a845550564d05be9
@@ -11707,6 +11847,11 @@ Description-en: graphical user interface for wpa_supplicant
  results, an event history log of messages generated by wpa_supplicant,
  and a method to add or edit wpa_supplicant networks.
 
+Package: xchat-indicator
+Description-md5: 6a1b56ad5640699d1dc82efd54c06151
+Description-en: XChat Indicator Plugin
+ XChat plugin to utilize the Messaging Indicator.
+
 Package: xcp-networkd
 Description-md5: 11bd177e28e601fa5492663ffd46594d
 Description-en: Xen Cloud Platform - network configuration daemon
@@ -12287,6 +12432,15 @@ Description-en: Linux kernel headers for version 3.2.0 on x86
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-3.2.0-38/debian.README.gz for details.
 
+Package: linux-headers-3.2.0-39-lowlatency-pae
+Description-md5: 3f37eee0b90c3c153817d08636b663b7
+Description-en: Linux kernel headers for version 3.2.0 on x86
+ This package provides kernel header files for version 3.2.0 on
+ x86.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.2.0-39/debian.README.gz for details.
+
 Package: linux-headers-lowlatency-pae
 Description-md5: b28bf5c7c758bfbbbd15e31ed4c78ed6
 Description-en: lowlatency Linux kernel headers
@@ -12366,6 +12520,24 @@ Description-en: Linux kernel image for version 3.2.0 on x86
  correctly, and that supporting packages are also installed.
 
 Package: linux-image-3.2.0-38-lowlatency-pae
+Description-md5: a4881706f9f7523314b791b4b3c217e2
+Description-en: Linux kernel image for version 3.2.0 on x86
+ This package contains the Linux kernel image for version 3.2.0 on
+ x86.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Lowlatency processors.
+ .
+ Geared toward 32 bit lowlatency desktop systems with more then 4GB RAM.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-lowlatency-pae meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-3.2.0-39-lowlatency-pae
 Description-md5: a4881706f9f7523314b791b4b3c217e2
 Description-en: Linux kernel image for version 3.2.0 on x86
  This package contains the Linux kernel image for version 3.2.0 on

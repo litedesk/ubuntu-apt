@@ -356,15 +356,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: amd64
 Source: apache2
-Version: 2.2.22-1ubuntu1.2
+Version: 2.2.22-1ubuntu1.3
 Provides: apache2, apache2-mpm, httpd, httpd-cgi
-Depends: apache2.2-common (= 2.2.22-1ubuntu1.2), apache2.2-bin (= 2.2.22-1ubuntu1.2)
+Depends: apache2.2-common (= 2.2.22-1ubuntu1.3), apache2.2-bin (= 2.2.22-1ubuntu1.3)
 Conflicts: apache2-common, apache2-mpm
-Filename: pool/universe/a/apache2/apache2-mpm-itk_2.2.22-1ubuntu1.2_amd64.deb
-Size: 2388
-MD5sum: cc1a05fa5247fc01c8faba186675804b
-SHA1: cc5fd9a955d4df232df6afcf8fdcafe5683f1faa
-SHA256: cc761eb2bb82de0bb33aeb59d4163b999b6d46acb9471a7987ab7c1178638035
+Filename: pool/universe/a/apache2/apache2-mpm-itk_2.2.22-1ubuntu1.3_amd64.deb
+Size: 2386
+MD5sum: 84c0ef05c8f4b133b56267cc1d5b2070
+SHA1: 6687e5a2e0a90b1d77e113aef0b6e687b9a3fe8c
+SHA256: 68e0d634f90da0f76447132df0ba98012eae08824044c84e3ba5a71253b86a87
 Description: multiuser MPM for Apache 2.2
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -376,20 +376,20 @@ Origin: Ubuntu
 Package: apache2-suexec
 Priority: optional
 Section: universe/web
-Installed-Size: 138
+Installed-Size: 139
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: amd64
 Source: apache2
-Version: 2.2.22-1ubuntu1.2
+Version: 2.2.22-1ubuntu1.3
 Replaces: apache2-suexec
 Depends: libc6 (>= 2.3.4), apache2.2-common
 Conflicts: apache-common, apache2-suexec
-Filename: pool/universe/a/apache2/apache2-suexec_2.2.22-1ubuntu1.2_amd64.deb
-Size: 15440
-MD5sum: 28252d58882c9e88766d50e4de652db5
-SHA1: 35b263884d3c3ba51f204fdd3df8897f751457ba
-SHA256: 1e6db63f1710ec8924284113cd0914aec4cbeb7f8a25e5a73613f9d802d8ca2f
+Filename: pool/universe/a/apache2/apache2-suexec_2.2.22-1ubuntu1.3_amd64.deb
+Size: 15438
+MD5sum: 90c9c30f617e00835550bbcee720d087
+SHA1: cbcd115157481614507adbebebcdd879c9b87813
+SHA256: b8d05c831ac012e62bead7301857181ce4e5559fa02b63a937a20448a1ec97ea
 Description: Standard suexec program for Apache 2 mod_suexec
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -401,21 +401,21 @@ Origin: Ubuntu
 Package: apache2-suexec-custom
 Priority: extra
 Section: universe/web
-Installed-Size: 151
+Installed-Size: 152
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: amd64
 Source: apache2
-Version: 2.2.22-1ubuntu1.2
+Version: 2.2.22-1ubuntu1.3
 Replaces: apache2-suexec
 Provides: apache2-suexec
 Depends: libc6 (>= 2.3.4), apache2.2-common
 Conflicts: apache-common, apache2-suexec
-Filename: pool/universe/a/apache2/apache2-suexec-custom_2.2.22-1ubuntu1.2_amd64.deb
-Size: 17228
-MD5sum: c200dc1be0fab7b2b4331073227c0c04
-SHA1: 663d56fc9734132c4af85bb83e62a6f79a1126fc
-SHA256: 572f88549973496638d436685bdadb91405119fcbb23f7dd1e9fe328013a42ed
+Filename: pool/universe/a/apache2/apache2-suexec-custom_2.2.22-1ubuntu1.3_amd64.deb
+Size: 17252
+MD5sum: f57d64678e913f64ed4ca86006613d5e
+SHA1: 90cad43f5347ecccfb904e47edecab049edcd198
+SHA256: 70af784f1cf0e99f41f1ff15c4c4f1c4652e938beaa1db042620b61d1470a0a2
 Description: Configurable suexec program for Apache 2 mod_suexec
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -2113,15 +2113,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: clamav
-Version: 0.97.6+dfsg-1ubuntu0.12.04.1
-Depends: libc6 (>= 2.15), libmilter1.0.1, clamav-base (>= 0.97.6+dfsg-1ubuntu0.12.04.1), clamav-freshclam | clamav-data, lsb-base (>= 3.2-13), debconf (>= 0.5) | debconf-2.0, adduser, ucf, logrotate
+Version: 0.97.7+dfsg-1ubuntu0.12.04.1
+Depends: libc6 (>= 2.15), libmilter1.0.1, clamav-base (>= 0.97.7+dfsg-1ubuntu0.12.04.1), clamav-freshclam | clamav-data, lsb-base (>= 3.2-13), debconf (>= 0.5) | debconf-2.0, adduser, ucf, logrotate
 Recommends: clamav-daemon
 Suggests: daemon, clamav-docs
-Filename: pool/universe/c/clamav/clamav-milter_0.97.6+dfsg-1ubuntu0.12.04.1_amd64.deb
-Size: 154414
-MD5sum: 0d3c18ea152ab51c39e014fa9236d802
-SHA1: 5c89de581ddb450de400d53b209a13dc8a5142b1
-SHA256: 07f87e653134caf3765eb56bb5d86bd43409a971abb02a4eeb1dccb749c17148
+Filename: pool/universe/c/clamav/clamav-milter_0.97.7+dfsg-1ubuntu0.12.04.1_amd64.deb
+Size: 153202
+MD5sum: 733b7a1e56f66b18ceaef05870803d59
+SHA1: 6b82fef1ac87ff4e8093bfe1f12635f03cc319cc
+SHA256: 6347f638a1d73101a34905a72eb4051c5f6875c2c3e3523d9598aa7e9e84c529
 Description: anti-virus utility for Unix - sendmail integration
 Homepage: http://www.clamav.net/
 Description-md5: bdf4d5012233691e2d3d904e79a57dcf
@@ -2136,12 +2136,12 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: all
 Source: clamav
-Version: 0.97.6+dfsg-1ubuntu0.12.04.1
-Filename: pool/universe/c/clamav/clamav-testfiles_0.97.6+dfsg-1ubuntu0.12.04.1_all.deb
-Size: 5056108
-MD5sum: 25491b9a5db80857d2af0bd13edf7fd9
-SHA1: e1690878d853f50cb976d3bc608ff3c8c927c68c
-SHA256: c9daec9d635fba7401c3629f7f4369fd03173d40203d4a8660d28ac97c292693
+Version: 0.97.7+dfsg-1ubuntu0.12.04.1
+Filename: pool/universe/c/clamav/clamav-testfiles_0.97.7+dfsg-1ubuntu0.12.04.1_all.deb
+Size: 5059516
+MD5sum: 1d1d2b1ed5348718fef5eb6073805eca
+SHA1: 860e5b4e9c31328acffb0543237ae62adce5e983
+SHA256: b45690052a8867aa2aff4c748b201f88af2c676087b3cbdbc1acb8105b958954
 Description: anti-virus utility for Unix - test files
 Homepage: http://www.clamav.net/
 Description-md5: 02a1eb16b2a0a9f53fc09fe0d784518c
@@ -2242,15 +2242,15 @@ Installed-Size: 247
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Jasper Poppe <jpoppe@ebay.com>
 Architecture: all
-Version: 2.2.2-0ubuntu33.1
-Depends: debconf (>= 0.5) | debconf-2.0, upstart-job, python (>= 2.7.1-0ubuntu2), python2.7, apache2, hardlink, libapache2-mod-wsgi, lsb-release, openssl, python-twisted, rsync, syslinux | syslinux-common, libapache2-mod-python, cobbler-common (= 2.2.2-0ubuntu33.1), distro-info
+Version: 2.2.2-0ubuntu33.2
+Depends: debconf (>= 0.5) | debconf-2.0, upstart-job, python (>= 2.7.1-0ubuntu2), python2.7, apache2, hardlink, libapache2-mod-wsgi, lsb-release, openssl, python-twisted, rsync, syslinux | syslinux-common, libapache2-mod-python, cobbler-common (= 2.2.2-0ubuntu33.2), distro-info
 Recommends: fence-agents, powerwake, tftpd-hpa
 Suggests: createrepo, bind9, debmirror, dhcp3-server, genisoimage
-Filename: pool/universe/c/cobbler/cobbler_2.2.2-0ubuntu33.1_all.deb
-Size: 37622
-MD5sum: 4ba47f44a0dae7d4b6a8e31094cdd9e4
-SHA1: b7371dbc4ca5fd19f9bb28625fbe947c59fef24b
-SHA256: 854dc5800745aa22da4db3158494d30ca43ac870f9c54d04d5109a316e8151db
+Filename: pool/universe/c/cobbler/cobbler_2.2.2-0ubuntu33.2_all.deb
+Size: 37840
+MD5sum: 7dfb8ef480f6f9ecdb66d4bda1830be9
+SHA1: d634c381679ea9b693ed1bf9aab9bbaeeaa3ccbf
+SHA256: 45b86a49cc8e83766f9e8c178faab135e169599361f39f805bb9c2bf8b8ef223
 Description: Install server
 Homepage: https://fedorahosted.org/cobbler
 Description-md5: 7c2c8cc39949ca0ea1fe1f1d8dd9f0ef
@@ -2265,13 +2265,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Jasper Poppe <jpoppe@ebay.com>
 Architecture: all
 Source: cobbler
-Version: 2.2.2-0ubuntu33.1
-Depends: python-cobbler (= 2.2.2-0ubuntu33.1)
-Filename: pool/universe/c/cobbler/cobbler-common_2.2.2-0ubuntu33.1_all.deb
-Size: 66970
-MD5sum: dfc98643af81064e43398f4de67d498d
-SHA1: b7d9c72c71b702dbb7ea92c74ed2031c6d341848
-SHA256: fb4370bfdbf281ef0b3119de89e2dfdfa3e7a96c026bab77f5be0db943cc040f
+Version: 2.2.2-0ubuntu33.2
+Depends: python-cobbler (= 2.2.2-0ubuntu33.2)
+Filename: pool/universe/c/cobbler/cobbler-common_2.2.2-0ubuntu33.2_all.deb
+Size: 68054
+MD5sum: 60a9664767a8eae7d5842fbc721acab0
+SHA1: e52c07f8ecda7464a79ad4a384bfd2c653a688ed
+SHA256: 6329511ee771998c19d9a9fb0c36258d6a8dff8f1e0baff904824a68c98a9f97
 Description: Cobbler Install server - common files
 Homepage: https://fedorahosted.org/cobbler
 Description-md5: c67a5386b3e19fea8505fea8f92e1207
@@ -2286,13 +2286,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Jasper Poppe <jpoppe@ebay.com>
 Architecture: all
 Source: cobbler
-Version: 2.2.2-0ubuntu33.1
-Depends: cobbler (= 2.2.2-0ubuntu33.1), cobbler-common (= 2.2.2-0ubuntu33.1)
-Filename: pool/universe/c/cobbler/cobbler-web_2.2.2-0ubuntu33.1_all.deb
-Size: 113698
-MD5sum: 2e3ad6723720c02760bfe30381883a5d
-SHA1: a3c893dcbaefac504870fb5434e73c9ac1290c32
-SHA256: a1f982498f3bcd32cebfb92759444ff2835d0575a17afb4ad04d7624bcf9963f
+Version: 2.2.2-0ubuntu33.2
+Depends: cobbler (= 2.2.2-0ubuntu33.2), cobbler-common (= 2.2.2-0ubuntu33.2)
+Filename: pool/universe/c/cobbler/cobbler-web_2.2.2-0ubuntu33.2_all.deb
+Size: 112424
+MD5sum: 128872c8b00340dc21f927a4e973d7bc
+SHA1: 9a190d39c770b1edccd8f9535318df60cad70516
+SHA256: cbe7d0220d7fd4c967dd7f709ff46f20079e04507ca3a85c9a6769443c8be5af
 Description: Cobbler Install server - web interface
 Homepage: https://fedorahosted.org/cobbler
 Description-md5: c1bef8306e7ae7cf0601f185cc7e47fc
@@ -2832,6 +2832,77 @@ SHA1: 3ea6c7b5e4aeb9604e85ffd90e338daf66fd7285
 SHA256: 87e3ef099e6684b3473d269484b568debb479132ac9e8f3265ccee95341dbe64
 Description: ISC DHCP server (transitional package)
 Description-md5: d439623f56da07a2cef8c223575d294d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: djview-plugin
+Priority: optional
+Section: universe/web
+Installed-Size: 96
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Barak A. Pearlmutter <bap@debian.org>
+Architecture: amd64
+Source: djview4
+Version: 4.9-1ubuntu1
+Provides: djvulibre-plugin
+Depends: libc6 (>= 2.15), djview4 | djview3
+Recommends: chromium-browser | mozilla-browser | mozilla | firefox | iceweasel | iceape-browser | konqueror | galeon
+Suggests: mime-support
+Conflicts: djvulibre-bin (<< 3.5.19), djvulibre-plugin (<= 3.5.23-4)
+Filename: pool/universe/d/djview4/djview-plugin_4.9-1ubuntu1_amd64.deb
+Size: 26278
+MD5sum: 009b05cc0b4731dd8f9bc13083a2f2ae
+SHA1: 46ff91e048d6b2dd253e987c0e070cd6534453b1
+SHA256: fa03ebfae68f5e23f85c2464f385ffd13afaff96da4a4dd72a95edbeff0a65f9
+Description: Browser plugin for the DjVu image format
+Enhances: chromium-browser, firefox, galeon, iceape-browser, iceweasel, konqueror, mozilla, mozilla-browser
+Homepage: http://djvu.sourceforge.net/
+Description-md5: ce7cb4988d1f07a9481dc68f865a16c1
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: djview4
+Priority: optional
+Section: universe/graphics
+Installed-Size: 1881
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Barak A. Pearlmutter <bap@debian.org>
+Architecture: amd64
+Version: 4.9-1ubuntu1
+Provides: djvu-viewer
+Depends: libc6 (>= 2.14), libdjvulibre21 (>= 3.5.24), libgcc1 (>= 1:4.1.1), libqt4-network (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.1.1), libtiff4, libx11-6
+Recommends: djvulibre-desktop
+Suggests: djvulibre-bin, djview-plugin
+Conflicts: djview (<= 3.5.20-5)
+Filename: pool/universe/d/djview4/djview4_4.9-1ubuntu1_amd64.deb
+Size: 736436
+MD5sum: c34291e25d460f7634c13143b250b6cd
+SHA1: e6c7bddc2714d521e64054032a5f16f93796bb0a
+SHA256: 5c12d217f83461bac617bc5e4a48bc8ef3de10270c443db4f9faa819230fef8e
+Description: Viewer for the DjVu image format
+Homepage: http://djvu.sourceforge.net/
+Description-md5: 33c31b22cd218d1227ab0c6f0bf9e963
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: djvulibre-plugin
+Priority: optional
+Section: universe/web
+Installed-Size: 30
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Barak A. Pearlmutter <bap@debian.org>
+Architecture: all
+Source: djview4
+Version: 4.9-1ubuntu1
+Depends: djview-plugin
+Filename: pool/universe/d/djview4/djvulibre-plugin_4.9-1ubuntu1_all.deb
+Size: 2258
+MD5sum: 9b47432e365f093fa7c353fda38d4e93
+SHA1: f38fef52e2022c4915733fb5ab7d6023bd6407b0
+SHA256: e619f7a5fd7a9530b5b8ae14aa2e7528b77c868c656076beadec0ad6f20d98d3
+Description: Transition package, djvulibre-plugin to djview-plugin
+Homepage: http://djvu.sourceforge.net/
+Description-md5: c20f29c4bf4ac3d9e69a45bc76a270c3
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
@@ -3574,17 +3645,17 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: evince
-Version: 3.4.0-0ubuntu1.5
+Version: 3.4.0-0ubuntu1.6
 Provides: djvu-viewer, pdf-viewer, postscript-viewer
-Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.10.0), libevince3-3 (= 3.4.0-0ubuntu1.5), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.0.2), libice6 (>= 1:1.0.0), liblaunchpad-integration-3.0-1 (>= 0.1.17), libsm6, libx11-6, libxml2 (>= 2.7.4), evince-common (>= 3.4), evince-common (<< 3.5), gnome-icon-theme (>= 2.17.1), shared-mime-info
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.10.0), libevince3-3 (= 3.4.0-0ubuntu1.6), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.0.2), libice6 (>= 1:1.0.0), liblaunchpad-integration-3.0-1 (>= 0.1.17), libsm6, libx11-6, libxml2 (>= 2.7.4), evince-common (>= 3.4), evince-common (<< 3.5), gnome-icon-theme (>= 2.17.1), shared-mime-info
 Recommends: dbus-x11
 Suggests: gvfs, unrar, poppler-data, nautilus, apparmor
 Conflicts: evince
-Filename: pool/universe/e/evince/evince-gtk_3.4.0-0ubuntu1.5_amd64.deb
-Size: 197896
-MD5sum: 3bd6820071dc814a41d918d52a7c8428
-SHA1: 0f175259d67c15940d6972b14f7c49a8f5f9aa39
-SHA256: 731052f6f7a156d6d59befa78395c172e726c5c85156fcbfcff86edfa49cfcd6
+Filename: pool/universe/e/evince/evince-gtk_3.4.0-0ubuntu1.6_amd64.deb
+Size: 198150
+MD5sum: 5f43c9fb75888a538be055a1d7eb578f
+SHA1: 8374d396fdfcf4210e6222cd5d14509ef57bb8ed
+SHA256: f52a0bfc37126ae8a7bd2e857d400ddf042b462a66e49e8394b9433c5dbd1b4f
 Description: Document (PostScript, PDF) viewer (GTK+ version)
 Homepage: http://www.gnome.org/projects/evince/
 Description-md5: 4c2378aadd3689b7bd0b08985d1234ca
@@ -5855,14 +5926,14 @@ Installed-Size: 79
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: gwibber
-Version: 3.4.2-0ubuntu2.1
+Version: 3.4.2-0ubuntu2.2
 Depends: gwibber-service (>> 2.33.0)
 Conflicts: gwibber-service (<= 2.33.0)
-Filename: pool/universe/g/gwibber/gwibber-service-digg_3.4.2-0ubuntu2.1_all.deb
-Size: 4520
-MD5sum: 33fee3824fd02076f0d68a7b6c684ceb
-SHA1: 587946c548f3f84c1d5b86872db80a49db839b91
-SHA256: 9eabcd93a651f9eae5d3d555c65afba62a02dcc01588f12ba986de19a23a4b52
+Filename: pool/universe/g/gwibber/gwibber-service-digg_3.4.2-0ubuntu2.2_all.deb
+Size: 4544
+MD5sum: 10cd7b4c5d901fb8d83e30eb479372e6
+SHA1: 889611b9221997808b7848667131208df8c725ef
+SHA256: 50ea003406b4f86a735d3a54ba9f37c4bde6268ec4a61755e8840c4eca15c5f4
 Description: Digg plugin for Gwibber
 Homepage: https://launchpad.net/gwibber
 Description-md5: c1319606393ce7abb144b53e9ccf21c1
@@ -5876,14 +5947,14 @@ Installed-Size: 80
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: gwibber
-Version: 3.4.2-0ubuntu2.1
+Version: 3.4.2-0ubuntu2.2
 Depends: gwibber-service (>> 2.33.0)
 Conflicts: gwibber-service (<= 2.33.0)
-Filename: pool/universe/g/gwibber/gwibber-service-flickr_3.4.2-0ubuntu2.1_all.deb
-Size: 4704
-MD5sum: 795c092c25f37f5b0a8e574b72553f6c
-SHA1: f3596497d2dcf0b1df7d23c7384971661d99691d
-SHA256: 6e6ba9c2aa92b439f1286cc5eba4a1ad455d3d3542dce68a13d7a4fc545430ef
+Filename: pool/universe/g/gwibber/gwibber-service-flickr_3.4.2-0ubuntu2.2_all.deb
+Size: 4722
+MD5sum: 9a8f2041b1c339b2d7e07824e9cb38ab
+SHA1: ea3bd0c4f4e2a9ed4abae0f5c1c4db5bd4a5b8a9
+SHA256: 26b4c21ada83f5f725ecef7668193e11ae717cbdaf305d280ebe8659f7495534
 Description: Flickr plugin for Gwibber
 Homepage: https://launchpad.net/gwibber
 Description-md5: 7348a355041e34c7998b35c047fbf710
@@ -5897,14 +5968,14 @@ Installed-Size: 128
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: gwibber
-Version: 3.4.2-0ubuntu2.1
+Version: 3.4.2-0ubuntu2.2
 Depends: gwibber-service (>> 2.33.0)
 Conflicts: gwibber-service (<= 2.33.0)
-Filename: pool/universe/g/gwibber/gwibber-service-foursquare_3.4.2-0ubuntu2.1_all.deb
-Size: 10770
-MD5sum: 5176ea3b8848cfb4ad0669720cb73026
-SHA1: bba003a2c3f9ac8d58333d506456dc3ff951e5af
-SHA256: 66afe558f098bdc27a419b501cb2af7699de32ee6cd54d3b3ad00f441fe7d0eb
+Filename: pool/universe/g/gwibber/gwibber-service-foursquare_3.4.2-0ubuntu2.2_all.deb
+Size: 10806
+MD5sum: 874e947f0ede30aea1a371919e03fb96
+SHA1: 5da9d2d095aa22f3b701c4140528ea814fd27dc4
+SHA256: b845d18a725fe466b189e4003c56b16cff2ad012617aabf93b31026b73ff61f7
 Description: Foursquare plugin for Gwibber
 Homepage: https://launchpad.net/gwibber
 Description-md5: 22f47833c957ee1fa33c5f4e43b6d4d3
@@ -5914,18 +5985,18 @@ Origin: Ubuntu
 Package: gwibber-service-friendfeed
 Priority: optional
 Section: universe/misc
-Installed-Size: 83
+Installed-Size: 84
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: gwibber
-Version: 3.4.2-0ubuntu2.1
+Version: 3.4.2-0ubuntu2.2
 Depends: gwibber-service (>> 2.33.0)
 Conflicts: gwibber-service (<= 2.33.0)
-Filename: pool/universe/g/gwibber/gwibber-service-friendfeed_3.4.2-0ubuntu2.1_all.deb
-Size: 5070
-MD5sum: 365d5da5253ac413d17362a0e7063495
-SHA1: 08ed3deeef035e581da6e3c3a516ee8169d450fc
-SHA256: 76d29116cf8456719735dca095361653cd5da3d6c3e84b3bbd4f262f5fedf9fd
+Filename: pool/universe/g/gwibber/gwibber-service-friendfeed_3.4.2-0ubuntu2.2_all.deb
+Size: 5076
+MD5sum: 47fc02c78c67d6316113982f879241c0
+SHA1: 64121721dc10ba122318f09d80c2b6eb07f1ee51
+SHA256: 339cdc6d83e09e16c9e3f1ebf93c56c30c89873e74449fd93345d9aeafb0fdec
 Description: Friendfeed plugin for Gwibber
 Homepage: https://launchpad.net/gwibber
 Description-md5: 0625fdf66c4a5fe80ac98b05b2a894a2
@@ -5939,14 +6010,14 @@ Installed-Size: 80
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: gwibber
-Version: 3.4.2-0ubuntu2.1
+Version: 3.4.2-0ubuntu2.2
 Depends: gwibber-service (>> 2.33.0)
 Conflicts: gwibber-service (<= 2.33.0)
-Filename: pool/universe/g/gwibber/gwibber-service-pingfm_3.4.2-0ubuntu2.1_all.deb
-Size: 4178
-MD5sum: ba932f3f713584956a88ba6bcb2ea16a
-SHA1: eb2c232ec67b52e4e418f3a48670404c0025e2a4
-SHA256: e1115fa8111a44b2fbb73161b35e644df773acc1b6b616d0d85a8e4215ac8c3b
+Filename: pool/universe/g/gwibber/gwibber-service-pingfm_3.4.2-0ubuntu2.2_all.deb
+Size: 4196
+MD5sum: 52d66d51535ae4f5ddc44ad5686bc549
+SHA1: b3ba3d2c6445f83cbf0f1d29b9254e88f186c0e2
+SHA256: 8461bc9ea7603c5996896c98c353a5fa157d58a15558ddfd99432c5dfd5011ac
 Description: pingfm plugin for Gwibber
 Homepage: https://launchpad.net/gwibber
 Description-md5: 8aee5f39c623e66a9394f7a8ff331498
@@ -5960,14 +6031,14 @@ Installed-Size: 83
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: gwibber
-Version: 3.4.2-0ubuntu2.1
+Version: 3.4.2-0ubuntu2.2
 Depends: gwibber-service (>> 2.33.0)
 Conflicts: gwibber-service (<= 2.33.0)
-Filename: pool/universe/g/gwibber/gwibber-service-qaiku_3.4.2-0ubuntu2.1_all.deb
-Size: 4988
-MD5sum: d6f2f4a0ea7a8d71056e6609d9d25f56
-SHA1: e420c9ff4e6ee481c232cce6e9a9c5b2a34165e2
-SHA256: 3cf99c9796c615c26265865e35d3edd568e756c128246ead830aca8baa919ba9
+Filename: pool/universe/g/gwibber/gwibber-service-qaiku_3.4.2-0ubuntu2.2_all.deb
+Size: 5014
+MD5sum: 63a4095eb92b65a56208ea523a7ad836
+SHA1: d99bbd478303cd4225f7660e2732e322c1ba77c5
+SHA256: ebd515aef669d024ecfcf72dbaad567319f56467b01c1c2bb89ea54afdee406a
 Description: Qaiku plugin for Gwibber
 Homepage: https://launchpad.net/gwibber
 Description-md5: caa5ad7a0decc9a9457c77e00a698a17
@@ -5981,14 +6052,14 @@ Installed-Size: 99
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: gwibber
-Version: 3.4.2-0ubuntu2.1
+Version: 3.4.2-0ubuntu2.2
 Depends: gwibber-service (>> 2.33.0)
 Conflicts: gwibber-service (<= 2.33.0)
-Filename: pool/universe/g/gwibber/gwibber-service-statusnet_3.4.2-0ubuntu2.1_all.deb
-Size: 8140
-MD5sum: 8324cf5e975e0d8f9cb718b350bd2b84
-SHA1: ed1c10b6bbfbf83487732aceca8db056978942fa
-SHA256: fc894171deb406a45e26cb48732d651c00e4e75ddb3821c9ad859d25feace642
+Filename: pool/universe/g/gwibber/gwibber-service-statusnet_3.4.2-0ubuntu2.2_all.deb
+Size: 8190
+MD5sum: 121f72148bc2d8c4f12fc9f3606075e2
+SHA1: ad6442603ee11eec7a4ebc01bd537f19cbf795ec
+SHA256: 30226e6be2c60379d24a606e3b533f00d005734683bdbe486b593b8eacaeaeac
 Description: Status.Net plugin for Gwibber
 Homepage: https://launchpad.net/gwibber
 Description-md5: 69d0adcc17485744b31823219e0af565
@@ -7762,13 +7833,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Jasper Poppe <jpoppe@ebay.com>
 Architecture: all
 Source: cobbler
-Version: 2.2.2-0ubuntu33.1
+Version: 2.2.2-0ubuntu33.2
 Depends: python, python-koan, libvirt-bin, virtinst
-Filename: pool/universe/c/cobbler/koan_2.2.2-0ubuntu33.1_all.deb
-Size: 15054
-MD5sum: 7b8cacf88e315f00401b4078796c15ea
-SHA1: e0f35c9d6391dd04f226a3c72bf48fe87f42434f
-SHA256: 6f0315a7e5b2658396ba6ce31dcd5e1bed74d484b107248af8a54802fe344f29
+Filename: pool/universe/c/cobbler/koan_2.2.2-0ubuntu33.2_all.deb
+Size: 15098
+MD5sum: e82222cc89aa5e76330f0337a66fd127
+SHA1: 23c066062e7f9f7d34ee848ef20b993bcffbba27
+SHA256: 64b0e3c0b6dd90ea9508fda0a5a2c8617c678636ce12eed36bdbada7e54e9dc6
 Description: kickstart-over-a-network (koan)
 Homepage: https://fedorahosted.org/cobbler
 Description-md5: f37c07448db7b04b4de2d88dae780245
@@ -8176,13 +8247,13 @@ Section: universe/admin
 Installed-Size: 48
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
-Version: 0.79.1
+Version: 0.79.2
 Depends: language-selector-gnome
-Filename: pool/universe/l/language-selector/language-selector_0.79.1_all.deb
+Filename: pool/universe/l/language-selector/language-selector_0.79.2_all.deb
 Size: 1188
-MD5sum: 7ea38833813a12ee1e9c1eac46e475f3
-SHA1: cb9af968800f6445e94fe9688b9903951f855202
-SHA256: aecd1adb58b561d3dab5f3ab5b206bdf0bd3cb7db7d478cd9e7bad4c712f5af8
+MD5sum: 253cccab9122e35133a54a66aaef42b4
+SHA1: fb99779efb349c60b690f447ccd7afa85c485c4e
+SHA256: 3cf1e90634b7edd6cbc69c2aab730850f216c7a4c8fbb414b4af4efc98a23597
 Description: Language selector for Ubuntu (transitional package)
 Description-md5: 5f3515bb80b05cebb53b281af4072a60
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -8835,13 +8906,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Niko Tyni <ntyni@debian.org>
 Architecture: all
 Source: perl
-Version: 5.14.2-6ubuntu2.2
-Depends: perl (>= 5.14.2-6ubuntu2.2), perl (<< 5.14.3~), libfcgi-perl
-Filename: pool/universe/p/perl/libcgi-fast-perl_5.14.2-6ubuntu2.2_all.deb
-Size: 29522
-MD5sum: b6c31c0697ef0c00a7e9955117824240
-SHA1: 96cdf1547b7f5637f1787698ecd2dcbab26a908b
-SHA256: 061ddd471255ba2268262d941456cc50cc88a3e2575683e72fe5ae5b0a378478
+Version: 5.14.2-6ubuntu2.3
+Depends: perl (>= 5.14.2-6ubuntu2.3), perl (<< 5.14.3~), libfcgi-perl
+Filename: pool/universe/p/perl/libcgi-fast-perl_5.14.2-6ubuntu2.3_all.deb
+Size: 29822
+MD5sum: 841bdbc7d6b615a63225532302650751
+SHA1: 095ba159425b85ec68171082cd263a447df03ca2
+SHA256: 00f87f9cacaa8e15edd9f7cae20b796f85b466642563b366d30fb73971e83917
 Description: CGI::Fast Perl module
 Description-md5: 8e4b35eaff2fa987ac2598b69b5690c6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -11982,21 +12053,21 @@ Task: ubuntustudio-generation, ubuntustudio-video, ubuntustudio-recording
 Package: libtcltk-ruby1.8
 Priority: optional
 Section: universe/interpreters
-Installed-Size: 6395
+Installed-Size: 5291
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: amd64
 Source: ruby1.8
-Version: 1.8.7.352-2ubuntu1.1
+Version: 1.8.7.352-2ubuntu1.2
 Replaces: libtk-ruby1.8
 Provides: libtk-ruby1.8
-Depends: libc6 (>= 2.14), libruby1.8 (>= 1.8.7.352), tk8.5 (>= 8.5.0)
+Depends: libc6 (>= 2.14), libruby1.8 (>= 1.8.7.352), tcl8.5 (>= 8.5.0), tk8.5 (>= 8.5.0)
 Conflicts: libtk-ruby1.8
-Filename: pool/universe/r/ruby1.8/libtcltk-ruby1.8_1.8.7.352-2ubuntu1.1_amd64.deb
-Size: 2288590
-MD5sum: c1324713a6283b6e5092da9c4fce40a4
-SHA1: 437a271b9a874bb064c14dc1c4428f11b16cf92a
-SHA256: cf24482a2d76c84382bf1381fb1bb0d8ac5f4d8573613407cee2b82ca7d214c7
+Filename: pool/universe/r/ruby1.8/libtcltk-ruby1.8_1.8.7.352-2ubuntu1.2_amd64.deb
+Size: 1759372
+MD5sum: ae418902ce34e918e0d377a17144b395
+SHA1: 19f293ee50ca2cad401ac27bfc24f27b4730c425
+SHA256: 4419982c1728dd211cbc7e7194816bbe886316cee65c934622cca051364d77c4
 Description: Tcl/Tk interface for Ruby 1.8
 Homepage: http://www.ruby-lang.org/
 Description-md5: 48456af265ae8a515e66a74dc7be54c9
@@ -12006,18 +12077,18 @@ Origin: Ubuntu
 Package: libtcltk-ruby1.9.1
 Priority: optional
 Section: universe/ruby
-Installed-Size: 5319
+Installed-Size: 6621
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: amd64
 Source: ruby1.9.1
-Version: 1.9.3.0-1ubuntu2.5
-Depends: libc6 (>= 2.14), libruby1.9.1 (>= 1.9.2.0), tcl8.5 (>= 8.5.0), tk8.5 (>= 8.5.0)
-Filename: pool/universe/r/ruby1.9.1/libtcltk-ruby1.9.1_1.9.3.0-1ubuntu2.5_amd64.deb
-Size: 1796150
-MD5sum: 3e423d8dfb238ec5e53672b602f4a306
-SHA1: d5a1c480029d2a3bee19ceb7f75744a4e954091d
-SHA256: 1260d0c083085febc8767e5c78528f8d31d0158cc5c4e5c593d9cd4bfad71768
+Version: 1.9.3.0-1ubuntu2.6
+Depends: libc6 (>= 2.14), libfontconfig1 (>= 2.8.0), libruby1.9.1 (>= 1.9.2.0), libx11-6, libxft2 (>> 2.1.1), libxss1, tcl8.5 (>= 8.5.0)
+Filename: pool/universe/r/ruby1.9.1/libtcltk-ruby1.9.1_1.9.3.0-1ubuntu2.6_amd64.deb
+Size: 2352438
+MD5sum: 479c94a7752a089a3f26c4d73eb84c35
+SHA1: bc684413c6108bbec6846011d1c22b58399520be
+SHA256: 269037eef5b8dfb3daf045af93b45654ab8cba861f715a1c81dd533d8ec19d83
 Description: Tcl/Tk interface for Ruby 1.9.1
 Homepage: http://www.ruby-lang.org/
 Description-md5: 62973a5602a348dfc7a9db8e5092abe9
@@ -12782,6 +12853,26 @@ Description-md5: b38fc8b9de0281db8850d555e56e9eac
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: linux-headers-3.2.0-39-lowlatency
+Priority: optional
+Section: universe/devel
+Installed-Size: 10913
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-lowlatency
+Version: 3.2.0-39.41
+Provides: linux-headers, linux-headers-3.0
+Depends: coreutils | fileutils (>= 4.0), linux-headers-3.2.0-39, libc6 (>= 2.14)
+Filename: pool/universe/l/linux-lowlatency/linux-headers-3.2.0-39-lowlatency_3.2.0-39.41_amd64.deb
+Size: 1025766
+MD5sum: ddab97790c5942d87c50553fe9ea195b
+SHA1: 2c07ca33f1911389ae9669fdb1e06944ef219a40
+SHA256: 7add81c976c971a6461ac1ae41cac67c1a580588a6d4449f5476f94480ee0b81
+Description: Linux kernel headers for version 3.2.0 on x86/x86_64
+Description-md5: 5227a7bf4f2907c1a6f6bbb951e71d7f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-headers-lowlatency
 Priority: optional
 Section: universe/devel
@@ -12789,13 +12880,13 @@ Installed-Size: 27
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-lowlatency
-Version: 3.2.0.38.28
-Depends: linux-headers-3.2.0-38-lowlatency
-Filename: pool/universe/l/linux-meta-lowlatency/linux-headers-lowlatency_3.2.0.38.28_amd64.deb
-Size: 2554
-MD5sum: e2a666f59a20d863a3ce250adc35a661
-SHA1: 7eb692603b4a48b335dc2ae692176eabf4091fd3
-SHA256: c33244698109e33a8ab676c4582bad3369b4117aa44dcb33e8f2577edb49f3d5
+Version: 3.2.0.39.29
+Depends: linux-headers-3.2.0-39-lowlatency
+Filename: pool/universe/l/linux-meta-lowlatency/linux-headers-lowlatency_3.2.0.39.29_amd64.deb
+Size: 2560
+MD5sum: f2fbdb90a722c8ad8631f466a44ad966
+SHA1: 0e17788ddc7983403519414828970c0b9a99b658
+SHA256: 4526779390a0b18d5eff0b2d83ca28638c9f6f35a621ba86c180564bb1412caa
 Description: lowlatency Linux kernel headers
 Description-md5: b28bf5c7c758bfbbbd15e31ed4c78ed6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -12922,6 +13013,30 @@ Description-md5: b16e96b0f7c277434a653cb115afc422
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: linux-image-3.2.0-39-lowlatency
+Priority: optional
+Section: universe/admin
+Installed-Size: 144936
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-lowlatency
+Version: 3.2.0-39.41
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, linux-image-3.0, ndiswrapper-modules-1.9, redhat-cluster-modules
+Depends: initramfs-tools (>= 0.36ubuntu6), coreutils | fileutils (>= 4.0), module-init-tools (>= 3.3-pre11-4ubuntu3), crda (>= 1.1.1-1ubuntu2) | wireless-crda, rtirq-init
+Pre-Depends: dpkg (>= 1.10.24)
+Recommends: grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo (>= 19.1)
+Suggests: fdutils, linux-doc-3.2.0 | linux-source-3.2.0, linux-tools
+Conflicts: hotplug (<< 0.0.20040105-1)
+Filename: pool/universe/l/linux-lowlatency/linux-image-3.2.0-39-lowlatency_3.2.0-39.41_amd64.deb
+Size: 38497236
+MD5sum: e61f4955bb23c0d0a5f6caa69404a8f3
+SHA1: 2978cb77cd2d37a533b8610afc96b215253b27e2
+SHA256: 6a4cbe6cda48f9d19ab3313664b5a3401431a18a55eba922b2c4bb1359ba2c1e
+Description: Linux kernel image for version 3.2.0 on x86/x86_64
+Description-md5: b16e96b0f7c277434a653cb115afc422
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-image-lowlatency
 Priority: optional
 Section: universe/kernel
@@ -12929,13 +13044,13 @@ Installed-Size: 27
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-lowlatency
-Version: 3.2.0.38.28
-Depends: linux-image-3.2.0-38-lowlatency, linux-firmware
-Filename: pool/universe/l/linux-meta-lowlatency/linux-image-lowlatency_3.2.0.38.28_amd64.deb
-Size: 2562
-MD5sum: 6027e478dbb5f93458d64580a5bd64fb
-SHA1: 50ce8594b48e46a6e2697eb3868c14f8f014f8f1
-SHA256: e853986979f626fa46ab24056c3c9f0754daa17aef23e8a23f06f878bd752a44
+Version: 3.2.0.39.29
+Depends: linux-image-3.2.0-39-lowlatency, linux-firmware
+Filename: pool/universe/l/linux-meta-lowlatency/linux-image-lowlatency_3.2.0.39.29_amd64.deb
+Size: 2570
+MD5sum: 3aaf77aef007f1959a97e2adbc26b591
+SHA1: 7f43228a753bd79dd4e23868602c0cd94097e8e0
+SHA256: 6af7d43f6aa0cabf772d2d2a79f3e8b440ee80727edda9a475795a8135b056f8
 Description: lowlatency Linux kernel image
 Description-md5: 81c6fc6425f7566aa856ff1be6d8b320
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -12948,13 +13063,13 @@ Installed-Size: 27
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-lowlatency
-Version: 3.2.0.38.28
-Depends: linux-image-lowlatency (= 3.2.0.38.28), linux-headers-lowlatency (= 3.2.0.38.28)
-Filename: pool/universe/l/linux-meta-lowlatency/linux-lowlatency_3.2.0.38.28_amd64.deb
-Size: 1720
-MD5sum: 50ce5bcebc2d27622e999abf20b618d8
-SHA1: 994c7b0d2f1eab4b485f5b137f8f0d1be6dc1612
-SHA256: f8ae10ad87d35b0f94f3ec177ae2e87191f71d58909b87dcb81802ff1f859751
+Version: 3.2.0.39.29
+Depends: linux-image-lowlatency (= 3.2.0.39.29), linux-headers-lowlatency (= 3.2.0.39.29)
+Filename: pool/universe/l/linux-meta-lowlatency/linux-lowlatency_3.2.0.39.29_amd64.deb
+Size: 1726
+MD5sum: ae1df8016ec82fb4f5f4168820472ed7
+SHA1: f1a881e17acbf2bf202bf3e431a7df61b4266137
+SHA256: ac0b70586cdfea7e15005a920643959cd65a03e949f9f3f1fff9447f2d75e42f
 Description: Complete lowlatency Linux kernel
 Description-md5: b52e19b8044c25aff9dce108f24e2ee9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -14616,17 +14731,17 @@ Origin: Ubuntu
 Package: nova-ajax-console-proxy
 Priority: extra
 Section: universe/net
-Installed-Size: 41
+Installed-Size: 42
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
-Filename: pool/universe/n/nova/nova-ajax-console-proxy_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 7250
-MD5sum: c53f1ec39154ede7da9d082dad12fd2c
-SHA1: a3f269c3200c159e8bf8b04d5520139a877548d7
-SHA256: 716384e3ec63257f0ae5a63a15303e08791782183a84c382d6499df394736679
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Filename: pool/universe/n/nova/nova-ajax-console-proxy_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 7324
+MD5sum: fd929be7ac1ebee0ab0797369f6a46e7
+SHA1: 738ce0f2904c04561a95f56fc78ffa6632b397dc
+SHA256: 486b31081aa66b70fb2a492f368963312574e7ffd3af6727ac01a4d7724e1e04
 Description: OpenStack Compute - AJAX console proxy - transitional package
 Homepage: http://launchpad.net/nova
 Description-md5: 571664bc0008e44d5df6784807a6ecf0
@@ -14641,14 +14756,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python, upstart-job
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
 Breaks: nova-api
-Filename: pool/universe/n/nova/nova-api-ec2_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 4336
-MD5sum: e72aca201eaa269d21f531cf2df7dac8
-SHA1: 1ee2a23006cba3d99e7145fd56113c840a58c043
-SHA256: afa5f5482cf862a9f22984e6f7ae5a2fd5babc3e5185fa25a1ad43049363feba
+Filename: pool/universe/n/nova/nova-api-ec2_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 4344
+MD5sum: 222336e6e9ebd08ba50cd2a45de788be
+SHA1: 39f34a08a67b097dae0713a870b444097a43ac3a
+SHA256: 1f929836feefab55e6d21e921f7d2632d1f4fabc5ff5ab7499d03311534562b7
 Description: OpenStack Compute - EC2 API frontend
 Homepage: http://launchpad.net/nova
 Description-md5: 0e9ce8f6a74cac1c566caae9b960a494
@@ -14663,14 +14778,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python, upstart-job
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
 Breaks: nova-api
-Filename: pool/universe/n/nova/nova-api-metadata_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 4220
-MD5sum: 1058582716ecbf06750f9382a1a0afe6
-SHA1: ddd54a0a7f73088c89cb4502f04004c02733b92e
-SHA256: 4783a0eb5758df56e15007c5a02f0fd784267229cc251cca56789516807afa42
+Filename: pool/universe/n/nova/nova-api-metadata_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 4216
+MD5sum: bc2d3f701384302a74efe09dac8f86e4
+SHA1: c5592b5ca88284ca63e00911496957a9b2dbc99c
+SHA256: 554198b160d53a7ac7316e25ff25fcd5d618cb08d3c5c7aa0282899add6a839f
 Description: OpenStack Compute - metadata API frontend
 Homepage: http://launchpad.net/nova
 Description-md5: ae9cd778d7894b1a89d138fe3587a7da
@@ -14685,14 +14800,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python, upstart-job
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
 Breaks: nova-api
-Filename: pool/universe/n/nova/nova-api-os-compute_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 4210
-MD5sum: 62112366848040ac04243f13aad03693
-SHA1: 05d931ff16afbde1b2a5d84d09f74dfb370cb429
-SHA256: f9443242eaec5175f67652a6769113091d87ad3124d0764bfb17667d23016e35
+Filename: pool/universe/n/nova/nova-api-os-compute_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 4212
+MD5sum: ea56669fbc70f18cd2731eb5920339c9
+SHA1: 51dce267ceebbc9fc1abe4be5b59b62ae2203a02
+SHA256: 2834a32dd9d24249e0d7b20471179604d7e6049fc26db3170e3db6ca81fd4997
 Description: OpenStack Compute - OpenStack Compute API frontend
 Homepage: http://launchpad.net/nova
 Description-md5: 32fe3c17415adfec970c371f4bdff9b6
@@ -14707,14 +14822,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python, upstart-job
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
 Breaks: nova-api
-Filename: pool/universe/n/nova/nova-api-os-volume_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
+Filename: pool/universe/n/nova/nova-api-os-volume_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
 Size: 4226
-MD5sum: 7efd9132b768c012020cf59e26880226
-SHA1: 6d63a33371a74bbbe075e908a2e23201cdb61f34
-SHA256: cd11ff03710c4e614bc8d50db2e6bf440618b60c8d482d59237331e409c4d648
+MD5sum: 25a2b2b7d7ad1e9db1677e00f856e355
+SHA1: fcae3ee753e82d013940c0b8633ef5960003e70d
+SHA256: ec4bcfbee1e1f6e68164705b3b9a20f3e027f1b92df6102dce4f2eba7a72fbc0
 Description: OpenStack Compute - OpenStack Volume API frontend
 Homepage: http://launchpad.net/nova
 Description-md5: 113cdec8eb8fbd2d123accd10260705c
@@ -14729,15 +14844,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
 Provides: nova-compute-hypervisor
-Depends: nova-compute (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python-libvirt, libvirt-bin, qemu
+Depends: nova-compute (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python-libvirt, libvirt-bin, qemu
 Conflicts: nova-compute-hypervisor
-Filename: pool/universe/n/nova/nova-compute-qemu_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
+Filename: pool/universe/n/nova/nova-compute-qemu_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
 Size: 2776
-MD5sum: e1f0e5b7cb65c784bb42467f4533a726
-SHA1: 7f8843b7e16f99b9e92e6274fc11a1866e97efbc
-SHA256: fe91ebe8a061a041803a57172abc643594aab04de5ec349bc5addda6d6fcf82b
+MD5sum: 773e37da2717fa0978432cecb8b2cb5f
+SHA1: b7324f0373d06cf5aaecb62a8cd92a950469cac0
+SHA256: 4bda3dc57529587c5cade84ff24164c42b35f1a721aba2d0a4d109616581e6c8
 Description: OpenStack Compute - compute node (QEmu)
 Homepage: http://launchpad.net/nova
 Description-md5: 46acbb1c9b077142e1930821f7a05aed
@@ -14752,15 +14867,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
 Provides: nova-compute-hypervisor
-Depends: nova-compute (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python-libvirt, libvirt-bin, user-mode-linux
+Depends: nova-compute (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python-libvirt, libvirt-bin, user-mode-linux
 Conflicts: nova-compute-hypervisor
-Filename: pool/universe/n/nova/nova-compute-uml_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 2792
-MD5sum: a27046ef1df97ad5168df3393217fd28
-SHA1: e9ac1178b28312bc8267965e36ab2e5d2591f5e3
-SHA256: 5cbc70ee58e0df948c9253510269de9b75af98d68757eae1b8ea261d96e452c3
+Filename: pool/universe/n/nova/nova-compute-uml_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 2786
+MD5sum: 7cda166828186afdd93a67b0b975c30e
+SHA1: 82f5eeb6499d5ee38442aa82b1865a9f4b1ed04b
+SHA256: ed17f54c05d15433510ccb6fb4a2d89999cf09436f8fc12c4759376f404b0d0c
 Description: OpenStack Compute - compute node (UserModeLinux)
 Homepage: http://launchpad.net/nova
 Description-md5: 2e1f1302cc5d8396d81672f231d5bb7c
@@ -14770,20 +14885,20 @@ Origin: Ubuntu
 Package: nova-compute-xcp
 Priority: extra
 Section: universe/net
-Installed-Size: 41
+Installed-Size: 42
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
 Provides: nova-compute-hypervisor
-Depends: nova-compute (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python-xenapi
+Depends: nova-compute (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python-xenapi
 Conflicts: nova-compute-hypervisor
-Filename: pool/universe/n/nova/nova-compute-xcp_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 2564
-MD5sum: adcfb269395ff016739385d6b756c84f
-SHA1: a89977a4c353132d411e81d7d205d65cd5059cf4
-SHA256: 7cccb8a38c6dd44974bf7ae88da965b0ec8e21aff3f857c84a4a7a46b0d0ce85
+Filename: pool/universe/n/nova/nova-compute-xcp_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 2568
+MD5sum: 4724c0b8e9d54f9bd4fd998d0761f097
+SHA1: 2be95f92217bd48894f3e60ce17749a120f8231e
+SHA256: 4916756d21dc3f116a8ab723f5a5cd5a1ac9c599a0fd81d3b571d1a7f89602ef
 Description: OpenStack Compute - compute node (XCP)
 Homepage: http://launchpad.net/nova
 Description-md5: cd2b8dc37486d604d91ed6183d937465
@@ -14798,15 +14913,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
 Provides: nova-compute-hypervisor
-Depends: nova-compute (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python-libvirt, libvirt-bin, xen-hypervisor-4.1-amd64 | xen-hypervisor-4.1-i386
+Depends: nova-compute (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python-libvirt, libvirt-bin, xen-hypervisor-4.1-amd64 | xen-hypervisor-4.1-i386
 Conflicts: nova-compute-hypervisor
-Filename: pool/universe/n/nova/nova-compute-xen_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 2798
-MD5sum: e482ac877c52bbd7cf16cdef2f74d4d6
-SHA1: 5ae833ab55052b37cb1fa5bfe6a7b7d12de42c1f
-SHA256: 039ec9b913155f94b133df88dc8c48f6bbb3fbd640a2189234d185b1ecea394e
+Filename: pool/universe/n/nova/nova-compute-xen_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 2790
+MD5sum: d7ba2976722170e5788047bbc88c8df3
+SHA1: 45e97a4933c18bb34e0fc03f8c231f68643a164e
+SHA256: 51dd5130aa264bff176a9dbd9b62b868310dd51b4bafd1c079b304901408ed72
 Description: OpenStack Compute - compute node (Xen)
 Homepage: http://launchpad.net/nova
 Description-md5: 8268c70ad765a6427d184e1c58a4472c
@@ -14821,14 +14936,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python, upstart-job
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
 Recommends: nova-consoleauth (>= 2012.1~rc1-0ubuntu2)
-Filename: pool/universe/n/nova/nova-console_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 4552
-MD5sum: 4340dc404410496384b3ada6294808eb
-SHA1: 52cde971d5a3c2445a301de46cd771113411c754
-SHA256: 98d5612fdc5331bbbdbeacde284d1b4e90c196b5a2298ac7e22eed32ba468583
+Filename: pool/universe/n/nova/nova-console_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 4560
+MD5sum: 451d5da56f86771d304faddadc57cb8a
+SHA1: 0ad21f3cbd6939c5baab998dad56d01365921a52
+SHA256: 737cc70b27e80ad7274ad1326acf9d62ea68e29e4542c4b8e00b6402c95deec1
 Description: OpenStack Compute - Console
 Homepage: http://launchpad.net/nova
 Description-md5: 095d3c39f30a44dd0768d8a869e4fa67
@@ -14843,15 +14958,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
 Replaces: nova-console (<< 2012.1~rc1-0ubuntu2)
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python, upstart-job
+Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
 Breaks: nova-console (<< 2012.1~rc1-0ubuntu2)
-Filename: pool/universe/n/nova/nova-consoleauth_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 4458
-MD5sum: e5417b98c2efa77b7605023a608c623b
-SHA1: 0c9e8e12739d727cf68c569a308a5edc915006d6
-SHA256: ea5f860434b2916601658c56648c73a664e7f175c7132648868453117399b20f
+Filename: pool/universe/n/nova/nova-consoleauth_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 4472
+MD5sum: f0d0c4657f28204c8cdd58903dc49062
+SHA1: 144c5795f777cb0359cca7746d08b90a544e0331
+SHA256: 24751cfc8dde0dca399a4580504365b1042c45af9e32c8f1876cc6a89e82734d
 Description: OpenStack Compute - Console Authenticator
 Homepage: http://launchpad.net/nova
 Description-md5: 471ffbc52e68b19718599b8e938708d2
@@ -14866,13 +14981,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
-Depends: xcp-xapi, lsb-base (>= 3.0.6), python (>= 2.7.1-0ubuntu2), nova-xcp-plugins (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), openvswitch-switch, ebtables, arptables, iproute
-Filename: pool/universe/n/nova/nova-xcp-network_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 9008
-MD5sum: 73dea9ee5f9f4eeb302d77a5f0575731
-SHA1: cfc75e464bea38aea87dc7c38634c5e9c197ff46
-SHA256: dcc214a4e976f0437b4806ceadfb197cc397d25bb4123feeaa1eac6273f05d68
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Depends: xcp-xapi, lsb-base (>= 3.0.6), python (>= 2.7.1-0ubuntu2), nova-xcp-plugins (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), openvswitch-switch, ebtables, arptables, iproute
+Filename: pool/universe/n/nova/nova-xcp-network_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 9016
+MD5sum: d32e593d4c987f7155a9200000cf2911
+SHA1: f4c4c503b70d19e7fac8fb305ffdfb0d4bf37dc9
+SHA256: 8b87af281b1d88c24930a6e211ac7c6b12d7eb8fd135bd047ce373c7ed4c8739
 Description: OpenStack Compute network plugin for the Xen Cloud Platform
 Homepage: http://launchpad.net/nova
 Description-md5: c098f07b818aec1687bd6347b404e5b5
@@ -14882,18 +14997,18 @@ Origin: Ubuntu
 Package: nova-xcp-plugins
 Priority: extra
 Section: universe/net
-Installed-Size: 129
+Installed-Size: 130
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
 Depends: xcp-xapi, python (>= 2.7.1-0ubuntu2)
-Filename: pool/universe/n/nova/nova-xcp-plugins_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 30018
-MD5sum: 57a2424f3fcc4f6f954eecf16d68a8ee
-SHA1: 8c60cf10ccfea574240eb0aa2a3ce1d35c885f10
-SHA256: f04338af70cf2db1d6d1e157fd59f9b26b4909478bbfaf8a6e69c9bf57a4fac8
+Filename: pool/universe/n/nova/nova-xcp-plugins_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 30270
+MD5sum: 710a0821bf7248de34e0005c8b93d925
+SHA1: c0ae7791f2aee50663b97ddbf949be86fd915fc9
+SHA256: 5879ce154ccdc06ba819ee41186058af007998ece1338e712549cc9ea2133da1
 Description: OpenStack Compute plugin for the Xen Cloud Platform
 Homepage: http://launchpad.net/nova
 Description-md5: 77e27c2a30cc03fc385be9dd5a21fa09
@@ -16954,14 +17069,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Jasper Poppe <jpoppe@ebay.com>
 Architecture: all
 Source: cobbler
-Version: 2.2.2-0ubuntu33.1
+Version: 2.2.2-0ubuntu33.2
 Provides: python2.7-cobbler
 Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-yaml, python-netaddr, python-cheetah, python-simplejson, python-urlgrabber, python-django (>= 1.2), python-distro-info
-Filename: pool/universe/c/cobbler/python-cobbler_2.2.2-0ubuntu33.1_all.deb
-Size: 223026
-MD5sum: a148b01fa2712227ace90bb1ee27b55e
-SHA1: 250c98f67934262bf7ff1c1458c65e8d27b26490
-SHA256: deb9343f5a30740c800fc49b42a0ba6ccdd48fa88ee9d2bb07e872f29f82149b
+Filename: pool/universe/c/cobbler/python-cobbler_2.2.2-0ubuntu33.2_all.deb
+Size: 218386
+MD5sum: c6892bb7b48a6b861e863a76cbdbe254
+SHA1: a58378eb31c1f193933a797a941934c2b36b703f
+SHA256: c9335cf464baac79a015e55db44ecc1c5feeac9125545dde1599088ea275f018
 Description: Install server - python libraries.
 Homepage: https://fedorahosted.org/cobbler
 Description-md5: 90213f7c614a76e4eeeceeb6ad411111
@@ -17030,6 +17145,27 @@ SHA256: 4d297bc0687ae4b0a891d5e8c90d32a5290b4957d1fc89dff9d9d44dcc949604
 Description: Django application for administering uWSGI server
 Homepage: http://projects.unbit.it/uwsgi/
 Description-md5: 7ea41d8311fde57d3c67c929803f905d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: python-dkim
+Priority: optional
+Section: universe/python
+Installed-Size: 156
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Scott Kitterman <scott@kitterman.com>
+Architecture: all
+Source: dkimpy
+Version: 0.5.3-0ubuntu0.0.1
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-dns | python-dnspython
+Filename: pool/universe/d/dkimpy/python-dkim_0.5.3-0ubuntu0.0.1_all.deb
+Size: 31628
+MD5sum: be571c29f4c6a15a2bb59652845bef6b
+SHA1: 5ae79445d247b598ec7c0a72062c1aee4e95bbe0
+SHA256: ad9599187c8994f0d1d5bbecf1a7d140d4c9cd8e803475ee890d2051856d9b83
+Description: Python module for DKIM signing and verification
+Homepage: http://launchpad.net/dkimpy
+Description-md5: cc95f2a35f4ef8110aeeb0c0a549b3d4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
@@ -17154,16 +17290,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Jasper Poppe <jpoppe@ebay.com>
 Architecture: all
 Source: cobbler
-Version: 2.2.2-0ubuntu33.1
+Version: 2.2.2-0ubuntu33.2
 Replaces: python-cobbler (<= 2.1.0~bzr2002-0ubuntu2)
 Provides: python2.7-koan
 Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-libvirt, python-simplejson, python-urlgrabber, python-ethtool
 Conflicts: python-cobbler (<= 2.1.0~bzr2002-0ubuntu2)
-Filename: pool/universe/c/cobbler/python-koan_2.2.2-0ubuntu33.1_all.deb
-Size: 41478
-MD5sum: 9468206b95be7f9697ac33cc93a3998c
-SHA1: c6acbc71d311defc20d3beee06426f31c58aaf83
-SHA256: 62d00b340c19721c185a74ba3c6763dd66a9d9a444fd629cab355080389b4e1a
+Filename: pool/universe/c/cobbler/python-koan_2.2.2-0ubuntu33.2_all.deb
+Size: 41380
+MD5sum: 160c8bdeb25d280ad3ee7df4346b0292
+SHA1: 3431fc2b13040b717348efd3f436a870ab1db143
+SHA256: 6fb98538697fb4d5616582ba11a5a180c4d35423997d532f3ddde5731d996718
 Description: kickstart-over-a-network (koan) - python libraries
 Homepage: https://fedorahosted.org/cobbler
 Description-md5: 2782189acf30864dde3b48c693561c1f
@@ -17815,6 +17951,27 @@ Description-md5: bd9e232ec557429c1c7dd0062eaa54e1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: python3-dkim
+Priority: optional
+Section: universe/python
+Installed-Size: 127
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Scott Kitterman <scott@kitterman.com>
+Architecture: all
+Source: dkimpy
+Version: 0.5.3-0ubuntu0.0.1
+Depends: python3 (>= 3.1.3-13~), python3-dns | python3-dnspython
+Filename: pool/universe/d/dkimpy/python3-dkim_0.5.3-0ubuntu0.0.1_all.deb
+Size: 26080
+MD5sum: 2aa7d8ff9abc67693d034942f0b1bfdf
+SHA1: 16fa6b04c463029aadda8aa2dfc68909132185d1
+SHA256: 1baabe0458882049d1144b33b56caf724e379deafb188c668c71a8cc364c3b79
+Description: Python 3 module for DKIM signing and verification
+Homepage: http://launchpad.net/dkimpy
+Description-md5: baae59d0171eaac97eed6cb3facd1b5f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: python3-feedparser
 Priority: optional
 Section: universe/python
@@ -17977,13 +18134,13 @@ Installed-Size: 48
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: qemu-kvm
-Version: 1.0+noroms-0ubuntu14.7
+Version: 1.0+noroms-0ubuntu14.8
 Depends: qemu-kvm
-Filename: pool/universe/q/qemu-kvm/qemu_1.0+noroms-0ubuntu14.7_amd64.deb
-Size: 2664
-MD5sum: f2725479fd560299f3a23b999cf3b396
-SHA1: 48a22524528bb495187b5a9eb2a037f1aedd9af4
-SHA256: 95f317cc074cc6ff8a861efc50e56e1c38a6ee60c5c06cb23a0b50c142b4eb09
+Filename: pool/universe/q/qemu-kvm/qemu_1.0+noroms-0ubuntu14.8_amd64.deb
+Size: 2666
+MD5sum: f5734237061cafb0b7d421729731fcec
+SHA1: e8ac980319a36dd7f7454ce518c71b64375fbaf2
+SHA256: 8837315790c26f915988a6cf2926465030eec4580ddc97b5e5883ff04f9d5077
 Description: dummy transitional package from qemu to qemu-kvm
 Homepage: http://www.linux-kvm.org
 Description-md5: cea6494bafbba244f1c3514ea3b7d651
@@ -18474,19 +18631,19 @@ Origin: Ubuntu
 Package: ri1.8
 Priority: optional
 Section: universe/interpreters
-Installed-Size: 10804
+Installed-Size: 10812
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: all
 Source: ruby1.8
-Version: 1.8.7.352-2ubuntu1.1
+Version: 1.8.7.352-2ubuntu1.2
 Provides: ri
-Depends: ruby1.8 (>= 1.8.7.352-2ubuntu1.1)
-Filename: pool/universe/r/ruby1.8/ri1.8_1.8.7.352-2ubuntu1.1_all.deb
-Size: 1157338
-MD5sum: e96348b3fc85085ef325f34fa3d72811
-SHA1: e6aa7487ba20d10f9e6c15b34c74e35e429a65a4
-SHA256: efb65ad855311281a41ab8258914ad79b6cff2f774104ca501bcf3f0e4d98a80
+Depends: ruby1.8 (>= 1.8.7.352-2ubuntu1.2)
+Filename: pool/universe/r/ruby1.8/ri1.8_1.8.7.352-2ubuntu1.2_all.deb
+Size: 1162328
+MD5sum: 0ae335f12dc994af8db0a556766486c0
+SHA1: b39b4f1e270532aee68b1192c53f67b42ccd97ec
+SHA256: b23cd36c7ea34c09bb7010631aa1832e7d5ad93ce7bc8e4a765d4b48fc53064a
 Description: Ruby Interactive reference (for Ruby 1.8)
 Homepage: http://www.ruby-lang.org/
 Description-md5: 5e8f0f65cf968ef495a31458870804e0
@@ -18496,18 +18653,18 @@ Origin: Ubuntu
 Package: ri1.9.1
 Priority: optional
 Section: universe/ruby
-Installed-Size: 12689
+Installed-Size: 12690
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: all
 Source: ruby1.9.1
-Version: 1.9.3.0-1ubuntu2.5
-Depends: ruby1.9.1 (>= 1.9.3.0-1ubuntu2.5)
-Filename: pool/universe/r/ruby1.9.1/ri1.9.1_1.9.3.0-1ubuntu2.5_all.deb
-Size: 2000526
-MD5sum: 107122ddbb1907353e32b350acae29f4
-SHA1: 198a494c70fef25f7f8e1792cb91e8424ba36a41
-SHA256: 88d5810dfeb29bfb6ede75eff461fa522d3ff2fc275781c583327df47d7a0f09
+Version: 1.9.3.0-1ubuntu2.6
+Depends: ruby1.9.1 (>= 1.9.3.0-1ubuntu2.6)
+Filename: pool/universe/r/ruby1.9.1/ri1.9.1_1.9.3.0-1ubuntu2.6_all.deb
+Size: 2000956
+MD5sum: 839c1b3cacae961ee4e7f63575d88546
+SHA1: f8de103075dd9201eb320da0fac2bea3c8830a36
+SHA256: 6d5d3f36a34f181e7435069060c577ec6b180a4bde5d25234d02f6b0955e8f71
 Description: Ruby Interactive reference (for Ruby 1.9.1)
 Homepage: http://www.ruby-lang.org/
 Description-md5: 981b190dbace3c4830f10345d1b59fe3
@@ -18599,6 +18756,127 @@ SHA256: ab9e7bd0479289ef62ff6498f6069b80a2e4d125a6f066d61f0d1743c699daae
 Description: localization and localized man pages for rpm
 Homepage: http://rpm.org/
 Description-md5: 38f72444aa854dc7f3f657c4be38e842
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: rsyslog-gnutls
+Priority: extra
+Section: universe/admin
+Installed-Size: 79
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Michael Biebl <biebl@debian.org>
+Architecture: amd64
+Source: rsyslog
+Version: 5.8.6-1ubuntu8.1
+Depends: libc6 (>= 2.14), libgnutls26 (>= 2.12.6.1-0), rsyslog (= 5.8.6-1ubuntu8.1)
+Suggests: gnutls-bin
+Filename: pool/universe/r/rsyslog/rsyslog-gnutls_5.8.6-1ubuntu8.1_amd64.deb
+Size: 15492
+MD5sum: 91913a40969cbfd82fd0872fe490ab2f
+SHA1: 751ac67a4db22f84ec8473fe3466175842478acb
+SHA256: 1788813c0ca04255d44a280ce3e2fbc58c65017fc986197a8217cff1dce8353f
+Description: TLS protocol support for rsyslog
+Homepage: http://www.rsyslog.com/
+Original-Vcs-Browser: http://git.debian.org/?p=collab-maint/rsyslog.git;a=summary
+Original-Vcs-Git: git://git.debian.org/git/collab-maint/rsyslog.git
+Description-md5: fc6fc1bbbfb8c8031b58f3abd48d4c1c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: rsyslog-gssapi
+Priority: extra
+Section: universe/admin
+Installed-Size: 87
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Michael Biebl <biebl@debian.org>
+Architecture: amd64
+Source: rsyslog
+Version: 5.8.6-1ubuntu8.1
+Depends: libc6 (>= 2.15), libgssapi-krb5-2 (>= 1.10+dfsg~), rsyslog (= 5.8.6-1ubuntu8.1)
+Suggests: krb5-user
+Filename: pool/universe/r/rsyslog/rsyslog-gssapi_5.8.6-1ubuntu8.1_amd64.deb
+Size: 16344
+MD5sum: 47e5c98ac60ef4541d1f9dafa16e36e8
+SHA1: 84d9fe04cdcebee2994564f1d62d2ae8cc36248b
+SHA256: a7ff234f089ea06326c7a4f64c635a115a8f1594f9a21c6ab5215bea7782cbb4
+Description: GSSAPI authentication and encryption support for rsyslog
+Homepage: http://www.rsyslog.com/
+Original-Vcs-Browser: http://git.debian.org/?p=collab-maint/rsyslog.git;a=summary
+Original-Vcs-Git: git://git.debian.org/git/collab-maint/rsyslog.git
+Description-md5: 79a6e301e123c9629e0c4e9aaa191cae
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: rsyslog-mysql
+Priority: extra
+Section: universe/admin
+Installed-Size: 81
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Michael Biebl <biebl@debian.org>
+Architecture: amd64
+Source: rsyslog
+Version: 5.8.6-1ubuntu8.1
+Depends: libc6 (>= 2.4), libmysqlclient18 (>= 5.5.13-1), debconf (>= 0.5) | debconf-2.0, rsyslog (= 5.8.6-1ubuntu8.1), dbconfig-common, ucf
+Recommends: mysql-client
+Suggests: mysql-server
+Filename: pool/universe/r/rsyslog/rsyslog-mysql_5.8.6-1ubuntu8.1_amd64.deb
+Size: 8276
+MD5sum: dec756d3625e9cc083427c00cc089593
+SHA1: 20a6ab87acc37570d74415d040ca9b97c6806b4a
+SHA256: 4faf67eb1ae37cf162108d3438388f21b6be2137d944bd317bc52d4c83ef6fd3
+Description: MySQL output plugin for rsyslog
+Homepage: http://www.rsyslog.com/
+Original-Vcs-Browser: http://git.debian.org/?p=collab-maint/rsyslog.git;a=summary
+Original-Vcs-Git: git://git.debian.org/git/collab-maint/rsyslog.git
+Description-md5: 29be7857de256cc7e3546c2c5296e26a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: rsyslog-pgsql
+Priority: extra
+Section: universe/admin
+Installed-Size: 81
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Michael Biebl <biebl@debian.org>
+Architecture: amd64
+Source: rsyslog
+Version: 5.8.6-1ubuntu8.1
+Depends: libc6 (>= 2.4), libpq5, debconf (>= 0.5) | debconf-2.0, rsyslog (= 5.8.6-1ubuntu8.1), dbconfig-common, ucf
+Recommends: postgresql-client
+Suggests: postgresql
+Filename: pool/universe/r/rsyslog/rsyslog-pgsql_5.8.6-1ubuntu8.1_amd64.deb
+Size: 8180
+MD5sum: d4983e086c157c01ca222a3711148f49
+SHA1: 8eabf68e08dd4d5e2ce4b9aa2831c3f266a1ce5c
+SHA256: ed089b5cc743a8d70d38c8672c70101050c6abbedebaa56c03c4023b974c8059
+Description: PostgreSQL output plugin for rsyslog
+Homepage: http://www.rsyslog.com/
+Original-Vcs-Browser: http://git.debian.org/?p=collab-maint/rsyslog.git;a=summary
+Original-Vcs-Git: git://git.debian.org/git/collab-maint/rsyslog.git
+Description-md5: a299b67a4fcecd70438a9eb9d0cafbf8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: rsyslog-relp
+Priority: extra
+Section: universe/admin
+Installed-Size: 67
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Michael Biebl <biebl@debian.org>
+Architecture: amd64
+Source: rsyslog
+Version: 5.8.6-1ubuntu8.1
+Depends: libc6 (>= 2.14), librelp0 (>= 0.1.1), rsyslog (= 5.8.6-1ubuntu8.1)
+Filename: pool/universe/r/rsyslog/rsyslog-relp_5.8.6-1ubuntu8.1_amd64.deb
+Size: 8186
+MD5sum: 247e7e791df9b8b689db2bdc298be706
+SHA1: c4a9fe1d00df95b447deffabc07315dd3a41dbc3
+SHA256: 699de29a7816fdbd9f94663ddfbeebd183c19a5dd3c186f1a9286df935a7f83c
+Description: RELP protocol support for rsyslog
+Homepage: http://www.rsyslog.com/
+Original-Vcs-Browser: http://git.debian.org/?p=collab-maint/rsyslog.git;a=summary
+Original-Vcs-Git: git://git.debian.org/git/collab-maint/rsyslog.git
+Description-md5: 89cdf90f04ac20a7dd663a762584b93c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
@@ -18915,15 +19193,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: all
 Source: ruby1.8
-Version: 1.8.7.352-2ubuntu1.1
+Version: 1.8.7.352-2ubuntu1.2
 Provides: ruby-full
 Depends: ruby1.8, ri1.8, ruby1.8-dev
 Recommends: libtcltk-ruby1.8
-Filename: pool/universe/r/ruby1.8/ruby1.8-full_1.8.7.352-2ubuntu1.1_all.deb
-Size: 2588
-MD5sum: 6dfa74b3652fec207b93feedc04de702
-SHA1: ba7c8517d15cdaa789537d9c797fc95b48fbe05c
-SHA256: b3219a24384e5e938f5b3d3763cb9b8e800558a9d61bca20107d1dfec641d438
+Filename: pool/universe/r/ruby1.8/ruby1.8-full_1.8.7.352-2ubuntu1.2_all.deb
+Size: 2582
+MD5sum: e8c451348f22fb304e62fb7c71c7907a
+SHA1: d14b57f2ac31b67facc4e6d53c39dec935a6b6b1
+SHA256: c898f95b0fd216e673f0f04cb88c3c8c709fb7111622c54249f60a3c1c1dab32
 Description: Ruby 1.8 full installation
 Homepage: http://www.ruby-lang.org/
 Description-md5: cf5acbfe4fad5f89b4c0a264a8fb4566
@@ -18938,14 +19216,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: all
 Source: ruby1.9.1
-Version: 1.9.3.0-1ubuntu2.5
-Depends: ruby1.9.1 (>= 1.9.3.0-1ubuntu2.5), libruby1.9.1-dbg (>= 1.9.3.0-1ubuntu2.5), ruby1.9.1-dev (>= 1.9.3.0-1ubuntu2.5), ruby1.9.1-examples (>= 1.9.3.0-1ubuntu2.5), ri1.9.1 (>= 1.9.3.0-1ubuntu2.5)
-Recommends: libtcltk-ruby1.9.1 (>= 1.9.3.0-1ubuntu2.5)
-Filename: pool/universe/r/ruby1.9.1/ruby1.9.1-full_1.9.3.0-1ubuntu2.5_all.deb
+Version: 1.9.3.0-1ubuntu2.6
+Depends: ruby1.9.1 (>= 1.9.3.0-1ubuntu2.6), libruby1.9.1-dbg (>= 1.9.3.0-1ubuntu2.6), ruby1.9.1-dev (>= 1.9.3.0-1ubuntu2.6), ruby1.9.1-examples (>= 1.9.3.0-1ubuntu2.6), ri1.9.1 (>= 1.9.3.0-1ubuntu2.6)
+Recommends: libtcltk-ruby1.9.1 (>= 1.9.3.0-1ubuntu2.6)
+Filename: pool/universe/r/ruby1.9.1/ruby1.9.1-full_1.9.3.0-1ubuntu2.6_all.deb
 Size: 2970
-MD5sum: d425b75713d879e4c8bc5bcaf08ca9b4
-SHA1: 91581934cd6fe41c97caa7b5d816be5e7673502c
-SHA256: 471108698f2345654fe2c489ce9864a7f8d9f33c5328bd6c9746c4007f18a9be
+MD5sum: 3cd9020616814a2db6212dfd6f0f0fc1
+SHA1: 8438c7aef8c38f9ba317653201f0e000230cec24
+SHA256: 58c588f0b4647d1dbcf792f42525f0b0262e1d204a0270351f02843b24f3a2b5
 Description: Ruby 1.9.1 full installation
 Homepage: http://www.ruby-lang.org/
 Description-md5: 504440781902afe6d8f91131f9a13760
@@ -18955,19 +19233,19 @@ Origin: Ubuntu
 Package: ruby1.9.3
 Priority: optional
 Section: universe/ruby
-Installed-Size: 186
+Installed-Size: 187
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: all
 Source: ruby1.9.1
-Version: 1.9.3.0-1ubuntu2.5
-Depends: ruby1.9.1 (>= 1.9.3.0-1ubuntu2.5)
-Recommends: ruby1.9.1-full (>= 1.9.3.0-1ubuntu2.5)
-Filename: pool/universe/r/ruby1.9.1/ruby1.9.3_1.9.3.0-1ubuntu2.5_all.deb
-Size: 13184
-MD5sum: 509e0287d04a883e1f157f2f31975cf5
-SHA1: 8b51481ff04ed24c7f74fcab9b838e142020472f
-SHA256: 32641a24358e27536c84a9ead63e10a1847f5ed669caca3a2b90454b89574e54
+Version: 1.9.3.0-1ubuntu2.6
+Depends: ruby1.9.1 (>= 1.9.3.0-1ubuntu2.6)
+Recommends: ruby1.9.1-full (>= 1.9.3.0-1ubuntu2.6)
+Filename: pool/universe/r/ruby1.9.1/ruby1.9.3_1.9.3.0-1ubuntu2.6_all.deb
+Size: 13244
+MD5sum: 2c13e48e336cffdd47b2e3000bd4fcd7
+SHA1: d235ca661de10cf6f9f5187b7e83b1ca4bfc6202
+SHA256: 3f26e7b2794bd6036b4871803cb27d865d8ce51c2447e43515d1dce5685d0f7f
 Description: Interpreter of object-oriented scripting language Ruby, version 1.9.3
 Homepage: http://www.ruby-lang.org/
 Description-md5: aa611a7522ee6c493d69294af0dd1d4b
@@ -18998,19 +19276,19 @@ Origin: Ubuntu
 Package: samba-tools
 Priority: optional
 Section: universe/net
-Installed-Size: 33058
+Installed-Size: 33059
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: amd64
 Source: samba
-Version: 2:3.6.3-2ubuntu2.3
+Version: 2:3.6.3-2ubuntu2.4
 Depends: libacl1 (>= 2.2.51-5), libattr1 (>= 1:2.4.46-5), libc6 (>= 2.15), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libcups2 (>= 1.4.0), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libreadline6 (>= 6.0), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (>= 2:3.6.0~pre3), zlib1g (>= 1:1.1.4)
 Conflicts: samba4, samba4-testsuite
-Filename: pool/universe/s/samba/samba-tools_3.6.3-2ubuntu2.3_amd64.deb
-Size: 11585440
-MD5sum: 6ecd30e47d3bee01199832b1eb836363
-SHA1: 1107a54a327859a7aec606e6ce57dbbe21bf3947
-SHA256: c8b45e4d9fef536e71f599be56496a1a3eb72d125c7f21b2ed112400a60f95d1
+Filename: pool/universe/s/samba/samba-tools_3.6.3-2ubuntu2.4_amd64.deb
+Size: 11589358
+MD5sum: 05fe6e1d141204e4f2c8c9ac3d5a5c53
+SHA1: c065117428d27d1b9f3db2a0ee3ea52d0eb93da4
+SHA256: 22b176afdc4b01e68688e5f8205d88b9fee7e5c2ca2fd4091a7e4aefb5417e4e
 Description: Samba testing utilities
 Homepage: http://www.samba.org
 Description-md5: e2a81a28e5322f5eb71f94b5b89163fa
@@ -19339,14 +19617,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: amd64
 Source: samba
-Version: 2:3.6.3-2ubuntu2.3
-Depends: samba (= 2:3.6.3-2ubuntu2.3), libc6 (>= 2.15), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libcups2 (>= 1.4.0), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (>= 2:3.6.0~pre3), zlib1g (>= 1:1.1.4), openbsd-inetd | inet-superserver
-Recommends: samba-doc (= 2:3.6.3-2ubuntu2.3)
-Filename: pool/universe/s/samba/swat_3.6.3-2ubuntu2.3_amd64.deb
-Size: 2204634
-MD5sum: 7f625a67051b5320df0009315cbf0e4c
-SHA1: 6c7776ae702ab251b09fa14f99c8f0da00491afd
-SHA256: fc272ce565e13ec3a769b0165d2c83c11823c202b035a496e8602057b53e06b4
+Version: 2:3.6.3-2ubuntu2.4
+Depends: samba (= 2:3.6.3-2ubuntu2.4), libc6 (>= 2.15), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libcups2 (>= 1.4.0), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (>= 2:3.6.0~pre3), zlib1g (>= 1:1.1.4), openbsd-inetd | inet-superserver
+Recommends: samba-doc (= 2:3.6.3-2ubuntu2.4)
+Filename: pool/universe/s/samba/swat_3.6.3-2ubuntu2.4_amd64.deb
+Size: 2206238
+MD5sum: 32e75c3da2c3ea39b3fa0510e27ac6c6
+SHA1: 4ed4bc3e74a809f08c58c75438c1cb457852b798
+SHA256: dd1e68867cc93c234f0aecb3c0f94230919376035b9a743b062e7cbf822416fc
 Description: Samba Web Administration Tool
 Homepage: http://www.samba.org
 Description-md5: 522e805bdee5e0ab517ba107d1ef406a
@@ -20051,6 +20329,28 @@ Description-md5: 58159d0b01effb75809ef72b24b1ab72
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: ubuntu-dev-tools
+Priority: optional
+Section: universe/devel
+Installed-Size: 623
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ubuntu Developers <ubuntu-dev-team@lists.alioth.debian.org>
+Architecture: all
+Version: 0.141ubuntu0.1
+Depends: binutils, dctrl-tools, devscripts (>= 2.11.0~), diffstat, distro-info (>= 0.2~), dpkg-dev, lsb-release, python-apt (>= 0.7.93~), python-debian (>= 0.1.20~), python-distro-info (>= 0.4~), python-httplib2, python-launchpadlib (>= 1.5.7), python-lazr.restfulclient, sudo, perl, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8)
+Recommends: bzr, bzr-builddeb, ca-certificates, debian-archive-keyring, debian-keyring, debootstrap, dput, genisoimage, libwww-perl, lintian, patch, pbuilder | cowdancer | sbuild, perl-modules, python-dns, python-gnupginterface, python-soappy, quilt, reportbug (>= 3.39ubuntu1)
+Suggests: ipython, qemu-user-static
+Filename: pool/universe/u/ubuntu-dev-tools/ubuntu-dev-tools_0.141ubuntu0.1_all.deb
+Size: 158732
+MD5sum: 8dfb4c8b588215ff2b987c18644c11c9
+SHA1: d53c1c29986109d03a87e54f54e4f7d02f107650
+SHA256: 9d47ed6c8e0e37c35b1335509d1ef9034044bb24ee79d6a70fa88213fd840b05
+Description: useful tools for Ubuntu developers
+Homepage: https://launchpad.net/ubuntu-dev-tools
+Description-md5: a9db2ba224bfe460aab3d1d5ead4e915
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: ubuntu-vm-builder
 Priority: extra
 Section: universe/utils
@@ -20141,13 +20441,13 @@ Installed-Size: 152
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: gwibber
-Version: 3.4.2-0ubuntu2.1
+Version: 3.4.2-0ubuntu2.2
 Depends: libc6 (>= 2.2.5), libdee-1.0-4 (>= 1.0.2), libgee2 (>= 0.5.0), libglib2.0-0 (>= 2.28.0), libgwibber2 (>= 3.1.4.1), libunity9 (>= 5.0.0), gwibber-service (>= 2.91.91)
-Filename: pool/universe/g/gwibber/unity-lens-gwibber_3.4.2-0ubuntu2.1_amd64.deb
-Size: 23388
-MD5sum: 3bb0c7a96e17490ebb54c634b1df8403
-SHA1: f761e0c9488ce74ce85a96c4bc09a4cee8f26f29
-SHA256: d6f60b3293a65447969b42c5bfb0bc4d1973f1c768718b281f63ccd07f1acaa0
+Filename: pool/universe/g/gwibber/unity-lens-gwibber_3.4.2-0ubuntu2.2_amd64.deb
+Size: 23496
+MD5sum: d5fbea1f6d7049a4b15c9ee8f40c14e5
+SHA1: b8acc57fdf3ff1bcde86ebeec216b6ff31f1b9bb
+SHA256: d8999b2b229d97bf924b908cb1395ebe6a8a1076ab4e228a8787a30ad82e40b0
 Description: Gwibber Lens for unity
 Homepage: https://launchpad.net/gwibber
 Description-md5: 0c7bec9e769a349b674f2a06bcbfdc98
@@ -22534,6 +22834,25 @@ SHA256: 9817f40dd2abefbe28a3274010e9430bca2e3a0625723f8c814578d02d31c9dc
 Description: graphical user interface for wpa_supplicant
 Homepage: http://w1.fi/wpa_supplicant/
 Description-md5: ff6f6b78c6e933f8b6abafcd0fce9276
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: xchat-indicator
+Priority: optional
+Section: universe/misc
+Installed-Size: 66
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.3.10-0ubuntu4.1
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.24.0), libindicate5 (>= 0.4.90), libunity9 (>= 3.4.6), xchat
+Filename: pool/universe/x/xchat-indicator/xchat-indicator_0.3.10-0ubuntu4.1_amd64.deb
+Size: 8952
+MD5sum: 5ffdc93a5b323d2dccab849f7f31c676
+SHA1: 519e0e2b4d733c96ac610a7901a8ec63ce359106
+SHA256: 80813040e007d0a438dc2b3e71b69b6d00353407449fe11e16b70990a26a5a9e
+Description: XChat Indicator Plugin
+Homepage: https://launchpad.net/xchat-indicator
+Description-md5: 6a1b56ad5640699d1dc82efd54c06151
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 

@@ -93,13 +93,13 @@ Installed-Size: 29
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: i386
-Version: 2.2.22-1ubuntu1.2
-Depends: apache2-mpm-worker (= 2.2.22-1ubuntu1.2) | apache2-mpm-prefork (= 2.2.22-1ubuntu1.2) | apache2-mpm-event (= 2.2.22-1ubuntu1.2) | apache2-mpm-itk (= 2.2.22-1ubuntu1.2), apache2.2-common (= 2.2.22-1ubuntu1.2)
-Filename: pool/main/a/apache2/apache2_2.2.22-1ubuntu1.2_i386.deb
-Size: 1496
-MD5sum: 67b0ee825dc5b77ff3ebaae8635c4015
-SHA1: 6daacdd2839ca73412f97ad3f876bfa3844323d1
-SHA256: 80ad09b6070d59f152737d24240b664f4b20f536236ea23bfbe24423ea698d1e
+Version: 2.2.22-1ubuntu1.3
+Depends: apache2-mpm-worker (= 2.2.22-1ubuntu1.3) | apache2-mpm-prefork (= 2.2.22-1ubuntu1.3) | apache2-mpm-event (= 2.2.22-1ubuntu1.3) | apache2-mpm-itk (= 2.2.22-1ubuntu1.3), apache2.2-common (= 2.2.22-1ubuntu1.3)
+Filename: pool/main/a/apache2/apache2_2.2.22-1ubuntu1.3_i386.deb
+Size: 1490
+MD5sum: 9c5d4d3d924264ae3920fde8fba88137
+SHA1: 6ba5ce0dc10c07d03e39b97b9d93952b01338efc
+SHA256: 671a88cb771f15b54f7a80196fd1278754ffe4b612f7b9d15c25fd498f08f293
 Description: Apache HTTP Server metapackage
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -118,12 +118,12 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: all
 Source: apache2
-Version: 2.2.22-1ubuntu1.2
-Filename: pool/main/a/apache2/apache2-doc_2.2.22-1ubuntu1.2_all.deb
-Size: 2614722
-MD5sum: 8e91ff8dd92890034f234f8f6fe91090
-SHA1: 86c7a56f764a3300915ff20c87c6841ebabdc326
-SHA256: ae9d7a5a7f355039eec3d1e0d61d0b20e3de89ac4d3109b6da69b2ed3e356108
+Version: 2.2.22-1ubuntu1.3
+Filename: pool/main/a/apache2/apache2-doc_2.2.22-1ubuntu1.3_all.deb
+Size: 2617900
+MD5sum: a741c7e4e4a51d936200a55266164b89
+SHA1: 8d5c24bdcbe78196fb7681e98dd01fa350f499bf
+SHA256: ecd69e31e471fc256057f8307e809baa3da8ac1489fd48af8cbd1be6b0a585f2
 Description: Apache HTTP Server documentation
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -141,15 +141,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: i386
 Source: apache2
-Version: 2.2.22-1ubuntu1.2
+Version: 2.2.22-1ubuntu1.3
 Provides: apache2, apache2-mpm, httpd, httpd-cgi
-Depends: apache2.2-common (= 2.2.22-1ubuntu1.2), apache2.2-bin (= 2.2.22-1ubuntu1.2)
+Depends: apache2.2-common (= 2.2.22-1ubuntu1.3), apache2.2-bin (= 2.2.22-1ubuntu1.3)
 Conflicts: apache2-common, apache2-mpm
-Filename: pool/main/a/apache2/apache2-mpm-event_2.2.22-1ubuntu1.2_i386.deb
-Size: 2376
-MD5sum: 5a3a1ac338a3892287123ccfc42f420e
-SHA1: 8afd9d11339e47b53195ef248dc9b2b29ab156da
-SHA256: cbff877de35d87b2bc609f1604dd85f351d392cdef5c68723db870ea8717ff6f
+Filename: pool/main/a/apache2/apache2-mpm-event_2.2.22-1ubuntu1.3_i386.deb
+Size: 2356
+MD5sum: 8dda9d5648b791f01cfa16744a1c818c
+SHA1: b387d30d5bb98796255c0270729f22c116f61d00
+SHA256: 0c21812419b61dac531eb817f4225b2337503fa9d0a9a9e59076183bdbcd7cc3
 Description: Apache HTTP Server - event driven model
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -167,15 +167,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: i386
 Source: apache2
-Version: 2.2.22-1ubuntu1.2
+Version: 2.2.22-1ubuntu1.3
 Provides: apache2, apache2-mpm, httpd, httpd-cgi
-Depends: apache2.2-common (= 2.2.22-1ubuntu1.2), apache2.2-bin (= 2.2.22-1ubuntu1.2)
+Depends: apache2.2-common (= 2.2.22-1ubuntu1.3), apache2.2-bin (= 2.2.22-1ubuntu1.3)
 Conflicts: apache2-common, apache2-mpm
-Filename: pool/main/a/apache2/apache2-mpm-prefork_2.2.22-1ubuntu1.2_i386.deb
-Size: 2416
-MD5sum: 0fd2839944f1b211fb33c1528dfeee19
-SHA1: 0b263717c35f477bc3b6f5c8f1328c9c77c2fd02
-SHA256: 3f0c5eebc848a756e0bc7e6739cb66ed243272c1b9ab335c308edfe7b168d5c2
+Filename: pool/main/a/apache2/apache2-mpm-prefork_2.2.22-1ubuntu1.3_i386.deb
+Size: 2398
+MD5sum: ddfe9b01a1601cf1fb910c4050b41bb4
+SHA1: 39ae33ef01a445e885ee7c066b897633262caa7d
+SHA256: 4a23d256d0cfc5edf74b821bf8c377549cb7f6a00b7e9f671665f7daca2cd2f7
 Description: Apache HTTP Server - traditional non-threaded model
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -194,15 +194,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: i386
 Source: apache2
-Version: 2.2.22-1ubuntu1.2
+Version: 2.2.22-1ubuntu1.3
 Provides: apache2, apache2-mpm, httpd, httpd-cgi
-Depends: apache2.2-common (= 2.2.22-1ubuntu1.2), apache2.2-bin (= 2.2.22-1ubuntu1.2)
+Depends: apache2.2-common (= 2.2.22-1ubuntu1.3), apache2.2-bin (= 2.2.22-1ubuntu1.3)
 Conflicts: apache2-common, apache2-mpm
-Filename: pool/main/a/apache2/apache2-mpm-worker_2.2.22-1ubuntu1.2_i386.deb
-Size: 2304
-MD5sum: ec9999b7583105f82d3eb2dd33668afb
-SHA1: aef2dae913a004ceba0098d3f38f85fe9453a875
-SHA256: 40182dba2e5a85c38ddce7c16ddefc13fb80e41c02645b8284354619067521e5
+Filename: pool/main/a/apache2/apache2-mpm-worker_2.2.22-1ubuntu1.3_i386.deb
+Size: 2288
+MD5sum: 34a409c0bdcb70fe01e3bde1597a7c32
+SHA1: 86630f9a0b73f26f80f3827d9b28eaf29b1e6e4e
+SHA256: 3ca2f25bf00bc43a9afef154a2503cb20358b6e4f06bc86e258f00d3acc52f87
 Description: Apache HTTP Server - high speed threaded model
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -220,14 +220,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: i386
 Source: apache2
-Version: 2.2.22-1ubuntu1.2
-Depends: apache2.2-common (= 2.2.22-1ubuntu1.2), openssl, libaprutil1-dev
+Version: 2.2.22-1ubuntu1.3
+Depends: apache2.2-common (= 2.2.22-1ubuntu1.3), openssl, libaprutil1-dev
 Conflicts: apache2-threaded-dev
-Filename: pool/main/a/apache2/apache2-prefork-dev_2.2.22-1ubuntu1.2_i386.deb
-Size: 138110
-MD5sum: c6e64cbb00fe10351fd8755474e3d0a8
-SHA1: f0a87137a295fbec0b84eeeff585fb7a41eedf20
-SHA256: f012499e332eb18bc9a9bad61a9263668808da446fc4f4ac71bd617ea6d1dd3c
+Filename: pool/main/a/apache2/apache2-prefork-dev_2.2.22-1ubuntu1.3_i386.deb
+Size: 138168
+MD5sum: 44a8dc815bc704410adddd2b654f5d4a
+SHA1: f54e4f647f56fa1b795f6019cab7a4500a192518
+SHA256: a011b17bc5424aea1a4894fc7cba4a1e961c6c54741ff98452a62fd23ea1b6ac
 Description: Apache development headers - non-threaded MPM
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -245,15 +245,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: i386
 Source: apache2
-Version: 2.2.22-1ubuntu1.2
+Version: 2.2.22-1ubuntu1.3
 Provides: apache2-dev
-Depends: apache2.2-common (= 2.2.22-1ubuntu1.2), openssl, libaprutil1-dev
+Depends: apache2.2-common (= 2.2.22-1ubuntu1.3), openssl, libaprutil1-dev
 Conflicts: apache2-prefork-dev
-Filename: pool/main/a/apache2/apache2-threaded-dev_2.2.22-1ubuntu1.2_i386.deb
-Size: 139298
-MD5sum: c0339814e2458d72ee1bf01670a70379
-SHA1: bcb7a252f5a1c963bbd481638817d007505b668d
-SHA256: 8f6fd57e139955650a00b22191c8f2c4b7e03afb92759c1dd9ee31a4c1691c02
+Filename: pool/main/a/apache2/apache2-threaded-dev_2.2.22-1ubuntu1.3_i386.deb
+Size: 139226
+MD5sum: fd82c273c16521116b4b80fb1c2a516c
+SHA1: 3fe1424e6d9961f1a3716c38b210cad249d523ba
+SHA256: 7210af79c57f7a64580ae0150cd05eaccc2eaa26b7ebd99d76d0d851a0db5e8c
 Description: Apache development headers - threaded MPM
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -271,15 +271,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: i386
 Source: apache2
-Version: 2.2.22-1ubuntu1.2
+Version: 2.2.22-1ubuntu1.3
 Replaces: apache-utils (<< 1.3.33-4), apache2-common, apache2.2-bin (<< 2.2.22-1~)
 Depends: libapr1 (>= 1.2.7), libaprutil1 (>= 1.2.7+dfsg), libc6 (>= 2.4), libssl1.0.0 (>= 1.0.0)
 Conflicts: apache-common (<< 1.3.28.0.1-1)
-Filename: pool/main/a/apache2/apache2-utils_2.2.22-1ubuntu1.2_i386.deb
-Size: 91006
-MD5sum: 88e8a59c170761d6b266f7bdb4b8d8c8
-SHA1: 6c4d67e50e54f346231b27558749a6aa8b6fd2bf
-SHA256: 5062c4c1b362976446328b07f213261d1fa4d5a76ea7f3763804e49103de4de4
+Filename: pool/main/a/apache2/apache2-utils_2.2.22-1ubuntu1.3_i386.deb
+Size: 91220
+MD5sum: d4e578ffcbadcbf87389044f565e89e5
+SHA1: 8820a46bc71b2222f57dc04da94c82af6e8d1c1c
+SHA256: 835fca330ff692ff47a40443172635a33733f70876f51776d6c557d78b405fb8
 Description: utility programs for webservers
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -298,15 +298,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: i386
 Source: apache2
-Version: 2.2.22-1ubuntu1.2
+Version: 2.2.22-1ubuntu1.3
 Replaces: apache2.2-common (<< 2.2.14-2~)
 Depends: libapr1 (>= 1.4.2), libaprutil1 (>= 1.3.2+dfsg), libaprutil1-dbd-sqlite3 | libaprutil1-dbd-mysql | libaprutil1-dbd-odbc | libaprutil1-dbd-pgsql | libaprutil1-dbd-freetds, libaprutil1-ldap, libc6 (>= 2.4), libcap2 (>= 2.10), libldap-2.4-2 (>= 2.4.7), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
 Conflicts: apache2.2-common (<< 2.2.11-5~)
-Filename: pool/main/a/apache2/apache2.2-bin_2.2.22-1ubuntu1.2_i386.deb
-Size: 1326128
-MD5sum: 727f239e1692dccd7dd3ac5a03800cc7
-SHA1: 6a61a4bad42446617de1055640d19cbe349b9043
-SHA256: f59a061a1410e095adb851d261255026a91237ade62414c71e320b5e20c9c35e
+Filename: pool/main/a/apache2/apache2.2-bin_2.2.22-1ubuntu1.3_i386.deb
+Size: 1326502
+MD5sum: 1b3e416ca7281e45922564dc1c095035
+SHA1: e55a589c8dd137a916a1a5c2d2c98d947ba1528e
+SHA256: 125abe645c8cd661c354b2bc9fc089ab398bb0510119598f57dda5c09842fd28
 Description: Apache HTTP Server common binary files
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -320,22 +320,22 @@ Task: lamp-server, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slav
 Package: apache2.2-common
 Priority: optional
 Section: web
-Installed-Size: 798
+Installed-Size: 799
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: i386
 Source: apache2
-Version: 2.2.22-1ubuntu1.2
+Version: 2.2.22-1ubuntu1.3
 Replaces: apache2-common
-Depends: apache2.2-bin (= 2.2.22-1ubuntu1.2), apache2-utils, mime-support, lsb-base, procps, perl
+Depends: apache2.2-bin (= 2.2.22-1ubuntu1.3), apache2-utils, mime-support, lsb-base, procps, perl
 Recommends: ssl-cert
 Suggests: www-browser, apache2-doc, apache2-suexec | apache2-suexec-custom, ufw
 Conflicts: apache, apache2-common
-Filename: pool/main/a/apache2/apache2.2-common_2.2.22-1ubuntu1.2_i386.deb
-Size: 227012
-MD5sum: 74fd826a64ed941c89b8af966a0aebc0
-SHA1: bd6ae97eabfd839bee87edb15d420a53c755e9bc
-SHA256: df971c6549d0f934d0fc85b3a932ecc98dacf84b31dc22cbc345a8ba47a9463b
+Filename: pool/main/a/apache2/apache2.2-common_2.2.22-1ubuntu1.3_i386.deb
+Size: 226162
+MD5sum: c6b1719b70ccb1dd07f41cca70e3e0a0
+SHA1: f320e79f3e385c530bdf429b2672e6d784c42361
+SHA256: 009a44e97e0733cf8cc2f8de1ac02fe828e57ccfb308016234382947a65a9e5a
 Description: Apache HTTP Server common files
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -1168,19 +1168,19 @@ Task: kubuntu-full, kubuntu-active-full, kubuntu-active
 Package: clamav
 Priority: optional
 Section: utils
-Installed-Size: 562
+Installed-Size: 563
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: i386
-Version: 0.97.5+dfsg-1ubuntu0.12.04.3
-Depends: libc6 (>= 2.15), libclamav6 (>= 0.97.5+dfsg), zlib1g (>= 1:1.1.4), clamav-freshclam | clamav-data
+Version: 0.97.7+dfsg-1ubuntu0.12.04.1
+Depends: libc6 (>= 2.15), libclamav6 (>= 0.97.7+dfsg), zlib1g (>= 1:1.1.4), clamav-freshclam | clamav-data
 Recommends: clamav-base
 Suggests: clamav-docs
-Filename: pool/main/c/clamav/clamav_0.97.5+dfsg-1ubuntu0.12.04.3_i386.deb
-Size: 128090
-MD5sum: 73ccc244e9c2f7b30210179adf783c78
-SHA1: 6a7e09dc169779ac356758570433cb95f2b60d5c
-SHA256: 3431ebc8ea73d6d58592b7b9148acd5375994678b7cb7d8db146ed9b9d23bbc5
+Filename: pool/main/c/clamav/clamav_0.97.7+dfsg-1ubuntu0.12.04.1_i386.deb
+Size: 128354
+MD5sum: de53f6a95dc4f012e68aeea64704b4b6
+SHA1: 85c36be1e331007f31ede30f25e215efde21ee0f
+SHA256: 678cf80c3b7b760eadede432f8e9eb1bb8a59945b5563a8b5d7ecce26683296d
 Description: anti-virus utility for Unix - command-line interface
 Homepage: http://www.clamav.net/
 Description-md5: 25816a2f56a0c214a484e117fd9fe0b1
@@ -1191,19 +1191,19 @@ Supported: 5y
 Package: clamav-base
 Priority: optional
 Section: utils
-Installed-Size: 488
+Installed-Size: 498
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: all
 Source: clamav
-Version: 0.97.5+dfsg-1ubuntu0.12.04.3
+Version: 0.97.7+dfsg-1ubuntu0.12.04.1
 Depends: debconf (>= 0.5) | debconf-2.0, adduser, ucf, logrotate
 Recommends: clamav
-Filename: pool/main/c/clamav/clamav-base_0.97.5+dfsg-1ubuntu0.12.04.3_all.deb
-Size: 102148
-MD5sum: f536356d9ffca8605bbbda66bc6655dc
-SHA1: a8a1094aa0c00ea19c2b855d4b9bd828e1b3a096
-SHA256: 495bb649bf44f6df2414fcd62a6730e5bcb1154bb7d96af14b02489d60997fc6
+Filename: pool/main/c/clamav/clamav-base_0.97.7+dfsg-1ubuntu0.12.04.1_all.deb
+Size: 101950
+MD5sum: eeffd3abe5f2607ffaa13a81a60955a0
+SHA1: f0bc7151f4d6e0269a839ad65206360b6cd5f4a2
+SHA256: 97feb56f29560925aaf9a67f7fcba6e8b9184b60ba58ba21acc40e7c6b1d19e4
 Description: anti-virus utility for Unix - base package
 Homepage: http://www.clamav.net/
 Description-md5: 36333c8001fa330971bb9bf732bd846d
@@ -1214,19 +1214,19 @@ Supported: 5y
 Package: clamav-daemon
 Priority: optional
 Section: utils
-Installed-Size: 805
+Installed-Size: 806
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: clamav
-Version: 0.97.5+dfsg-1ubuntu0.12.04.3
-Depends: libc6 (>= 2.15), libclamav6 (>= 0.97.5+dfsg), libncurses5 (>= 5.5-5~), libtinfo5, zlib1g (>= 1:1.2.0.2), clamav-base (= 0.97.5+dfsg-1ubuntu0.12.04.3), clamav-freshclam | clamav-data, lsb-base (>= 3.2-13), ucf
+Version: 0.97.7+dfsg-1ubuntu0.12.04.1
+Depends: libc6 (>= 2.15), libclamav6 (>= 0.97.7+dfsg), libncurses5 (>= 5.5-5~), libtinfo5, zlib1g (>= 1:1.2.0.2), clamav-base (= 0.97.7+dfsg-1ubuntu0.12.04.1), clamav-freshclam | clamav-data, lsb-base (>= 3.2-13), ucf
 Suggests: daemon, clamav-docs, apparmor (>= 2.3+1289)
-Filename: pool/main/c/clamav/clamav-daemon_0.97.5+dfsg-1ubuntu0.12.04.3_i386.deb
-Size: 221434
-MD5sum: 0ed5f35d7f35bbd1dc9b89b60457ff59
-SHA1: 07e485366a4c645a5ab34351468f41a38ee56638
-SHA256: e87366d99b18887ad9fc0f19044165e1f117e97f8e334541dc2ba0ca939136e0
+Filename: pool/main/c/clamav/clamav-daemon_0.97.7+dfsg-1ubuntu0.12.04.1_i386.deb
+Size: 221890
+MD5sum: 8c3d45e1742ac2d7f991d0a446b59d5d
+SHA1: 18fbf36484de592dbcfcb653cbec52c3f6c853fc
+SHA256: 82aa0710cba7bdf430760456c17d7b85ed9ada95b6543529b081a91563049f97
 Description: anti-virus utility for Unix - scanner daemon
 Homepage: http://www.clamav.net/
 Description-md5: 67066a5cf6ee89fc8ce3ae691827a9ad
@@ -1237,18 +1237,18 @@ Supported: 5y
 Package: clamav-dbg
 Priority: extra
 Section: debug
-Installed-Size: 83367
+Installed-Size: 83376
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: clamav
-Version: 0.97.5+dfsg-1ubuntu0.12.04.3
-Depends: libclamav6, clamav (= 0.97.5+dfsg-1ubuntu0.12.04.3)
-Filename: pool/main/c/clamav/clamav-dbg_0.97.5+dfsg-1ubuntu0.12.04.3_i386.deb
-Size: 32074888
-MD5sum: 0e2230c06af1a28b2bea758b63af99f8
-SHA1: e82823b803e7208267b7847ba23dfab81b5225e9
-SHA256: 9a89a6adf0cbd197194e83644159a5cf8cf1f80f97b3e5a626de2146ad6eb6e3
+Version: 0.97.7+dfsg-1ubuntu0.12.04.1
+Depends: libclamav6, clamav (= 0.97.7+dfsg-1ubuntu0.12.04.1)
+Filename: pool/main/c/clamav/clamav-dbg_0.97.7+dfsg-1ubuntu0.12.04.1_i386.deb
+Size: 32024268
+MD5sum: b4ce3e126b8e8282df9d8a5cfb94f39f
+SHA1: 80160499d68f2bbd62a770ce89f4284d04377d00
+SHA256: b830bafe57f20913918786ac245aa4797bd705e9904c90ac9eb55b758cbf4ace
 Description: debug symbols for ClamAV
 Homepage: http://www.clamav.net/
 Description-md5: 33a33cc71dce345b4a0ce175ebeca8c7
@@ -1259,17 +1259,17 @@ Supported: 18m
 Package: clamav-docs
 Priority: optional
 Section: doc
-Installed-Size: 1557
+Installed-Size: 1558
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: all
 Source: clamav
-Version: 0.97.5+dfsg-1ubuntu0.12.04.3
-Filename: pool/main/c/clamav/clamav-docs_0.97.5+dfsg-1ubuntu0.12.04.3_all.deb
-Size: 1069164
-MD5sum: b01ce5c0a4339c2b485ead9d78ea2e21
-SHA1: 4ef0945281c86befa183387a125740037e96e930
-SHA256: ccb558a741147293e061d9cd69d6a5b7c58db5108eb59e163302a831cb1a89e9
+Version: 0.97.7+dfsg-1ubuntu0.12.04.1
+Filename: pool/main/c/clamav/clamav-docs_0.97.7+dfsg-1ubuntu0.12.04.1_all.deb
+Size: 1066648
+MD5sum: 0058a269cdfb17734deffd1a6da960f7
+SHA1: a6dff8b4c191516055e4f0c7cb480e2f35009ed8
+SHA256: 8d0be44cdc53220a7acd01c8372395f699a6b348ec5998f2b05067288a48e7ba
 Description: anti-virus utility for Unix - documentation
 Homepage: http://www.clamav.net/
 Description-md5: e2412f6e57d4fb282e22d549e939cb72
@@ -1280,21 +1280,21 @@ Supported: 18m
 Package: clamav-freshclam
 Priority: optional
 Section: utils
-Installed-Size: 611
+Installed-Size: 612
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: clamav
-Version: 0.97.5+dfsg-1ubuntu0.12.04.3
+Version: 0.97.7+dfsg-1ubuntu0.12.04.1
 Provides: clamav-data
-Depends: debconf (>= 0.5) | debconf-2.0, clamav-base (>= 0.97.5+dfsg-1ubuntu0.12.04.3), libc6 (>= 2.15), libclamav6 (>= 0.97.5+dfsg), zlib1g (>= 1:1.1.4), ucf, logrotate, lsb-base (>= 3.2-13)
+Depends: debconf (>= 0.5) | debconf-2.0, clamav-base (>= 0.97.7+dfsg-1ubuntu0.12.04.1), libc6 (>= 2.15), libclamav6 (>= 0.97.7+dfsg), zlib1g (>= 1:1.1.4), ucf, logrotate, lsb-base (>= 3.2-13)
 Suggests: clamav-docs, apparmor (>= 2.3+1289)
 Conflicts: clamav-data, libclamav2, libclamav3
-Filename: pool/main/c/clamav/clamav-freshclam_0.97.5+dfsg-1ubuntu0.12.04.3_i386.deb
-Size: 113742
-MD5sum: 84514b2b5ef396e308f3ff841d7897b6
-SHA1: 3315e0d61eff948380c3f0b770657a0207d11757
-SHA256: 401c1df74385c2ba87f178f13c053e0504923449d3777c1a07e7ecc7a48429bf
+Filename: pool/main/c/clamav/clamav-freshclam_0.97.7+dfsg-1ubuntu0.12.04.1_i386.deb
+Size: 113676
+MD5sum: dad0682b376132ee080fc162f8788c31
+SHA1: 0963cedf4ba433e9e21f70261f6fdd3aa2563467
+SHA256: 085362482f3f8517153c419aaa8e49011e8caf93d7040f129c9beab5ddf99b37
 Description: anti-virus utility for Unix - virus database update utility
 Homepage: http://www.clamav.net/
 Description-md5: 824a85afc618e1467a907719e4edd7bb
@@ -4217,6 +4217,28 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: gir1.2-goa-1.0
+Priority: optional
+Section: gnome
+Installed-Size: 68
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Source: gnome-online-accounts
+Version: 3.4.0-0ubuntu1.1
+Depends: gir1.2-glib-2.0, libgoa-1.0-0 (>= 3.3.0)
+Filename: pool/main/g/gnome-online-accounts/gir1.2-goa-1.0_3.4.0-0ubuntu1.1_i386.deb
+Size: 9316
+MD5sum: 0af5a11d9e0551f41014cf0d7f80ec36
+SHA1: 9b17e3ff4a54e6a5a17de97b4482ee5e96882d29
+SHA256: f075f2cb91144f0a07c1ff24a051f115e8da833d4cead3c1189e1c9a7da6c37d
+Description: Introspection data for GNOME Online Accounts
+Homepage: https://live.gnome.org/OnlineAccounts
+Description-md5: 32742d5948429e16ebbc1aef9ea991b1
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: gir1.2-javascriptcoregtk-1.0
 Priority: optional
 Section: libs
@@ -4493,6 +4515,29 @@ Description-md5: a18f034f12bb433c4170fa9c5b4621ec
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
+
+Package: gnome-online-accounts
+Priority: optional
+Section: gnome
+Installed-Size: 204
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Version: 3.4.0-0ubuntu1.1
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.30.0), libgoa-1.0-0 (= 3.4.0-0ubuntu1.1), libnotify4 (>= 0.7.0), librest-0.7-0 (>= 0.7), libsoup2.4-1 (>= 2.4.0)
+Recommends: gnome-control-center
+Filename: pool/main/g/gnome-online-accounts/gnome-online-accounts_3.4.0-0ubuntu1.1_i386.deb
+Size: 77408
+MD5sum: 4f01192403e1bed11f279d9b3cc55fca
+SHA1: 6423bb149c8b84d135bf73eba87e2852b9717e0e
+SHA256: 32712b76285c8e3ecc4f2f6744d982ef21ad62728c611bfb5c744edb13379ccf
+Description: GNOME Online Accounts
+Homepage: https://live.gnome.org/OnlineAccounts
+Description-md5: fab27d4f23d8bb1141d68ba95c8a6412
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb
 
 Package: gnupg
 Priority: important
@@ -7357,18 +7402,18 @@ Task: kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full
 Package: libclamav-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 293
+Installed-Size: 294
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: clamav
-Version: 0.97.5+dfsg-1ubuntu0.12.04.3
-Depends: libclamav6 (= 0.97.5+dfsg-1ubuntu0.12.04.3), libssl-dev, libidn11-dev, libc6-dev | libc-dev, zlib1g-dev, libbz2-dev, libtommath-dev
-Filename: pool/main/c/clamav/libclamav-dev_0.97.5+dfsg-1ubuntu0.12.04.3_i386.deb
-Size: 13282
-MD5sum: 69fded2e43c0475cc674b7c07c3f7e2d
-SHA1: b4354da81f2de4296f7ac69a78058b5f82b1550b
-SHA256: ea123daae236ad6cb1074878f28a00dc31536b9f755d8680c895e5513f4a565b
+Version: 0.97.7+dfsg-1ubuntu0.12.04.1
+Depends: libclamav6 (= 0.97.7+dfsg-1ubuntu0.12.04.1), libssl-dev, libidn11-dev, libc6-dev | libc-dev, zlib1g-dev, libbz2-dev, libtommath-dev
+Filename: pool/main/c/clamav/libclamav-dev_0.97.7+dfsg-1ubuntu0.12.04.1_i386.deb
+Size: 13244
+MD5sum: 48983fd3259c5c3e5c1b67084f39ebf5
+SHA1: 2e74f1eb4bd2264806f9c5bf394fcddbae955d78
+SHA256: 6425d0c7e4ef328a0fb96e8e2ecbc9e655c63c5dcb8c0a2318f353a399990bc7
 Description: anti-virus utility for Unix - development files
 Homepage: http://www.clamav.net/
 Description-md5: f9403f3147d4d160269156db01264656
@@ -7379,19 +7424,19 @@ Supported: 18m
 Package: libclamav6
 Priority: optional
 Section: libs
-Installed-Size: 10277
+Installed-Size: 10271
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: clamav
-Version: 0.97.5+dfsg-1ubuntu0.12.04.3
+Version: 0.97.7+dfsg-1ubuntu0.12.04.1
 Depends: libbz2-1.0, libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libltdl7 (>= 2.4.2), libstdc++6 (>= 4.2.1), libtommath0, zlib1g (>= 1:1.1.4)
 Suggests: libclamunrar6
-Filename: pool/main/c/clamav/libclamav6_0.97.5+dfsg-1ubuntu0.12.04.3_i386.deb
-Size: 4037442
-MD5sum: dfbbe558780a7e031524f867783777ae
-SHA1: 2a618ef5ef15a623b5850747c207977bbe3727ec
-SHA256: f3a9b53bbee11c11d56af1d6a635968597a855288c8be50cea992198072cf7fd
+Filename: pool/main/c/clamav/libclamav6_0.97.7+dfsg-1ubuntu0.12.04.1_i386.deb
+Size: 4036120
+MD5sum: a7db7d7d67b99ce3632f940d718f50ea
+SHA1: 99d68d6d4b1bd9aea5ec3ce456d8044ac9b17031
+SHA256: 871b40aa6f32502d9e8d9fcdc4ad57c407b4154cae55cd7df3b77749e19caa0d
 Description: anti-virus utility for Unix - library
 Homepage: http://www.clamav.net/
 Description-md5: 8eec48379ead2492f2f06feeb97a6a2f
@@ -9049,6 +9094,100 @@ Description: GNU TLS library - C++ runtime library
 Multi-Arch: same
 Homepage: http://www.gnutls.org/
 Description-md5: afe5e834531764319ee8050592126f1d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgoa-1.0-0
+Priority: optional
+Section: libs
+Installed-Size: 303
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Source: gnome-online-accounts
+Version: 3.4.0-0ubuntu1.1
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.31.8), libgnome-keyring0 (>= 2.22.2), libgtk-3-0 (>= 3.0.0), libjson-glib-1.0-0 (>= 0.12.0), libpango1.0-0 (>= 1.14.0), librest-0.7-0 (>= 0.7), libsoup-gnome2.4-1 (>= 2.27.4), libsoup2.4-1 (>= 2.32.2), libwebkitgtk-3.0-0 (>= 1.3.10), libgoa-1.0-common (= 3.4.0-0ubuntu1.1)
+Pre-Depends: multiarch-support
+Filename: pool/main/g/gnome-online-accounts/libgoa-1.0-0_3.4.0-0ubuntu1.1_i386.deb
+Size: 95674
+MD5sum: 76c04df9a67e09ee782e07c065a5d161
+SHA1: 22b4b3e9da07c35f3e3858dfc719580f7519ad6c
+SHA256: a967a9455fe699e464a2ab6ba126a64c3341da36f9f7340c1f67ba41c31e79bc
+Description: library for GNOME Online Accounts
+Multi-Arch: same
+Homepage: https://live.gnome.org/OnlineAccounts
+Description-md5: 552490d3e14a107decec4ee36ed111f2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb
+
+Package: libgoa-1.0-common
+Priority: optional
+Section: libs
+Installed-Size: 44
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Architecture: all
+Source: gnome-online-accounts
+Version: 3.4.0-0ubuntu1.1
+Filename: pool/main/g/gnome-online-accounts/libgoa-1.0-common_3.4.0-0ubuntu1.1_all.deb
+Size: 6534
+MD5sum: ff2ccf2c683485279440dcc3b48d77cf
+SHA1: 83910169d38a33a97d2e8e2d4caedbd96188901f
+SHA256: 8c5e6fc10761bed225f562e830a7236d9a930ded9a8e8633f68eb98ab66c30b5
+Description: library for GNOME Online Accounts - common files
+Multi-Arch: foreign
+Homepage: https://live.gnome.org/OnlineAccounts
+Description-md5: 2842d00135dfd07a49e67517e0da8c5e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb
+
+Package: libgoa-1.0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 514
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Source: gnome-online-accounts
+Version: 3.4.0-0ubuntu1.1
+Depends: libgoa-1.0-0 (= 3.4.0-0ubuntu1.1), libglib2.0-dev, gir1.2-goa-1.0 (= 3.4.0-0ubuntu1.1)
+Suggests: libgoa-1.0-doc
+Filename: pool/main/g/gnome-online-accounts/libgoa-1.0-dev_3.4.0-0ubuntu1.1_i386.deb
+Size: 35226
+MD5sum: 3152ad195205e620d2137544562b23b3
+SHA1: ddc18d361adc478f425dfded95bc5ff43fdc0fff
+SHA256: dd6c18bdb586f11ae73f8efa26970a71c2442540664a4d3344be37a716a4c00c
+Description: library for GNOME Online Accounts - development files
+Homepage: https://live.gnome.org/OnlineAccounts
+Description-md5: 9bea771687b36e66a35d8eb109b74a84
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgoa-1.0-doc
+Priority: optional
+Section: doc
+Installed-Size: 1371
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Architecture: all
+Source: gnome-online-accounts
+Version: 3.4.0-0ubuntu1.1
+Recommends: libglib2.0-doc
+Suggests: devhelp
+Filename: pool/main/g/gnome-online-accounts/libgoa-1.0-doc_3.4.0-0ubuntu1.1_all.deb
+Size: 124026
+MD5sum: bbdd415fcf1376d642242ddb03d6e0d6
+SHA1: 2daa170b17d7be83c1a313a757aa063e534f85e7
+SHA256: c6e62d8713e4a4eef5721546905f3fc2808caa32dad69a99f99b0c40b090a2c6
+Description: library for GNOME Online Accounts - documentation files
+Homepage: https://live.gnome.org/OnlineAccounts
+Description-md5: 6e6a90b593144637e1e2aadec6654557
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
@@ -15092,13 +15231,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Niko Tyni <ntyni@debian.org>
 Architecture: i386
 Source: perl
-Version: 5.14.2-6ubuntu2.2
-Depends: perl (= 5.14.2-6ubuntu2.2), libperl5.14 (= 5.14.2-6ubuntu2.2), libc6-dev | libc-dev
-Filename: pool/main/p/perl/libperl-dev_5.14.2-6ubuntu2.2_i386.deb
-Size: 2687754
-MD5sum: c63e3e2d6c95ac6ec8ba14d995e5ff9b
-SHA1: 9537b338d4753bcf4dc074c3e1ae771766b44a4f
-SHA256: 7170baa656f9bd457820df3e754ad2eb9d980f0c45fc1fe7922296a6604e8935
+Version: 5.14.2-6ubuntu2.3
+Depends: perl (= 5.14.2-6ubuntu2.3), libperl5.14 (= 5.14.2-6ubuntu2.3), libc6-dev | libc-dev
+Filename: pool/main/p/perl/libperl-dev_5.14.2-6ubuntu2.3_i386.deb
+Size: 2687510
+MD5sum: b1a9f8c41105c03218928314838ede10
+SHA1: dc80279c2a60286b16ca5e165241988f46e276b1
+SHA256: a539abe948789c1076ba170f9aab439c0d46defbb95d2ffb0a86ebf383c6288e
 Description: Perl library: development files
 Description-md5: 493158c7ca91f27f024cd9c2d9d421aa
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -15113,15 +15252,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Niko Tyni <ntyni@debian.org>
 Architecture: i386
 Source: perl
-Version: 5.14.2-6ubuntu2.2
+Version: 5.14.2-6ubuntu2.3
 Replaces: perl-base (<= 5.8.7-4)
-Depends: libc6 (>= 2.11), perl-base (= 5.14.2-6ubuntu2.2)
+Depends: libc6 (>= 2.11), perl-base (= 5.14.2-6ubuntu2.3)
 Conflicts: doc-base (<< 0.10.3), libxml-sax-perl (<< 0.99+dfsg-1ubuntu0.1)
-Filename: pool/main/p/perl/libperl5.14_5.14.2-6ubuntu2.2_i386.deb
-Size: 720250
-MD5sum: 791786a1ec1206d7df0e98db2fd14445
-SHA1: 6735598eebcb1a7cf11e1931b44864928e813b1f
-SHA256: 90cc0f70c7191312203d5308039c7ec82998b2041884ae28f2b946dacb1bf556
+Filename: pool/main/p/perl/libperl5.14_5.14.2-6ubuntu2.3_i386.deb
+Size: 720342
+MD5sum: 63574a91999408d4f3b7a0482f7b8b10
+SHA1: 2b5cdf9555bc8378119b313029e84ccca7f553a1
+SHA256: a36c9d331e2465f00d50084da1dddb4234f30c8d865487155471ea94f14a1b25
 Description: shared Perl library
 Description-md5: 201a341014bbc42f83ce4b74bbb7da77
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -20198,21 +20337,21 @@ Supported: 5y
 Package: libruby1.8
 Priority: optional
 Section: libs
-Installed-Size: 6145
+Installed-Size: 6146
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: i386
 Source: ruby1.8
-Version: 1.8.7.352-2ubuntu1.1
+Version: 1.8.7.352-2ubuntu1.2
 Replaces: irb1.8, libbigdecimal-ruby1.8, libcurses-ruby1.8, libdbm-ruby1.8, libdl-ruby1.8, libdrb-ruby1.8, liberb-ruby1.8, libgdbm-ruby1.8, libiconv-ruby1.8, libopenssl-ruby1.8, libpty-ruby1.8, libracc-runtime-ruby1.8, libreadline-ruby1.8, librexml-ruby1.8, libsdbm-ruby1.8, libsoap-ruby1.8, libstrscan-ruby1.8, libsyslog-ruby1.8, libtest-unit-ruby1.8, libwebrick-ruby1.8, libxmlrpc-ruby1.8, libyaml-ruby1.8, libzlib-ruby1.8, rdoc1.8
 Provides: libbigdecimal-ruby1.8, libcurses-ruby1.8, libdbm-ruby1.8, libdl-ruby1.8, libdrb-ruby1.8, liberb-ruby1.8, libgdbm-ruby1.8, libiconv-ruby1.8, libopenssl-ruby1.8, libpty-ruby1.8, libracc-runtime-ruby1.8, libreadline-ruby1.8, librexml-ruby1.8, libsdbm-ruby1.8, libsoap-ruby1.8, libstrscan-ruby1.8, libsyslog-ruby1.8, libtest-unit-ruby1.8, libwebrick-ruby1.8, libxmlrpc-ruby1.8, libyaml-ruby1.8, libzlib-ruby1.8
 Depends: libc6 (>= 2.15), libgdbm3 (>= 1.8.3), libncurses5 (>= 5.5-5~), libreadline5 (>= 5.2), libssl1.0.0 (>= 1.0.0), libtinfo5, zlib1g (>= 1:1.1.4)
 Conflicts: irb1.8 (<< 1.8.7.249-3~), libbigdecimal-ruby1.8, libcurses-ruby1.8, libdbm-ruby1.8, libdl-ruby1.8, libdrb-ruby1.8, liberb-ruby1.8, libgdbm-ruby1.8, libiconv-ruby1.8, libopenssl-ruby1.8, libpty-ruby1.8, libracc-runtime-ruby1.8, libreadline-ruby1.8, librexml-ruby1.8, libsdbm-ruby1.8, libsoap-ruby1.8, libstrscan-ruby1.8, libsyslog-ruby1.8, libtest-unit-ruby1.8, libwebrick-ruby1.8, libxmlrpc-ruby1.8, libyaml-ruby1.8, libzlib-ruby1.8, rdoc1.8 (<< 1.8.7.249-3~)
-Filename: pool/main/r/ruby1.8/libruby1.8_1.8.7.352-2ubuntu1.1_i386.deb
-Size: 1782484
-MD5sum: b98c325c55de94841e7ab69146b06b6a
-SHA1: d65769aa9b13b694087b660964dc5968e3d2aa06
-SHA256: c32eb6fc198fbe6d16df3b22bce178b76acc2585bc40b6c9da77594594d6144c
+Filename: pool/main/r/ruby1.8/libruby1.8_1.8.7.352-2ubuntu1.2_i386.deb
+Size: 1786664
+MD5sum: 30ba18878746303ad4d42298e95f9f07
+SHA1: c2e389cd89142b6af892daecd0fdf10810c08e35
+SHA256: 6c8d6dc84d1a1f5e4cba854f85a078705107c95c43d5332dacc7cbc3591a1080
 Description: Libraries necessary to run Ruby 1.8
 Homepage: http://www.ruby-lang.org/
 Description-md5: 2f5d4d6df73a4cfebb8c805abca4ad07
@@ -20224,18 +20363,18 @@ Task: kubuntu-active
 Package: libruby1.8-dbg
 Priority: extra
 Section: libdevel
-Installed-Size: 3699
+Installed-Size: 3599
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: i386
 Source: ruby1.8
-Version: 1.8.7.352-2ubuntu1.1
-Depends: libruby1.8 (= 1.8.7.352-2ubuntu1.1)
-Filename: pool/main/r/ruby1.8/libruby1.8-dbg_1.8.7.352-2ubuntu1.1_i386.deb
-Size: 1415240
-MD5sum: 44989d418b1ac44171e9c4aadf2c4d83
-SHA1: ce0a22e0b8daacf86f9f6a0e6020a258a3556134
-SHA256: e314d627a7239ebb1ac5bbbceb59bfb1593461470f3dfd3c70ae6515c0197f3f
+Version: 1.8.7.352-2ubuntu1.2
+Depends: libruby1.8 (= 1.8.7.352-2ubuntu1.2)
+Filename: pool/main/r/ruby1.8/libruby1.8-dbg_1.8.7.352-2ubuntu1.2_i386.deb
+Size: 1382116
+MD5sum: 090665887c934d48846445b3c36ca567
+SHA1: 0419151f003d357eea43eb2ad6b5aab562d33a78
+SHA256: 8181e84e6a57de6cfe13eb2f87accdb54acea1e54d6f99c7608db64836ff3e06
 Description: Debugging symbols for Ruby 1.8
 Homepage: http://www.ruby-lang.org/
 Description-md5: de482e970401cf7197e3a53c77351306
@@ -20246,21 +20385,21 @@ Supported: 18m
 Package: libruby1.9.1
 Priority: optional
 Section: libs
-Installed-Size: 12583
+Installed-Size: 12584
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: i386
 Source: ruby1.9.1
-Version: 1.9.3.0-1ubuntu2.5
+Version: 1.9.3.0-1ubuntu2.6
 Replaces: irb1.8, libdbm-ruby1.9.1, libgdbm-ruby1.9.1, libopenssl-ruby1.9.1, libreadline-ruby1.9.1, rdoc1.8
 Provides: libdbm-ruby1.9.1, libgdbm-ruby1.9.1, libopenssl-ruby1.9.1, libreadline-ruby1.9.1
 Depends: ca-certificates, libc6 (>= 2.15), libffi6 (>= 3.0.4), libgdbm3 (>= 1.8.3), libncursesw5 (>= 5.6+20070908), libreadline6 (>= 6.0), libssl1.0.0 (>= 1.0.0), libtinfo5, libyaml-0-2, zlib1g (>= 1:1.2.3.3.dfsg)
 Conflicts: irb1.8 (<< 1.9.1.378-2~), libdbm-ruby1.9.1, libgdbm-ruby1.9.1, libopenssl-ruby1.9.1, libreadline-ruby1.9.1, rdoc1.8 (<< 1.9.1.378-2~)
-Filename: pool/main/r/ruby1.9.1/libruby1.9.1_1.9.3.0-1ubuntu2.5_i386.deb
-Size: 4210140
-MD5sum: 25eb13851838f1a1061d14c1e6f4a776
-SHA1: 429c4199a98852184712e810e39392f8c63de6cd
-SHA256: 2845bb6a5eab5c8e91c3c11e73e6378f69f6f69cfe8dca8ae1d4ea05112a2f42
+Filename: pool/main/r/ruby1.9.1/libruby1.9.1_1.9.3.0-1ubuntu2.6_i386.deb
+Size: 4210234
+MD5sum: a777f13458eb97907d3d6c669c1b22e2
+SHA1: 616bec27bd1947c183a93678644a815b0fbe5ea3
+SHA256: 8f19ea7078b0e9c0b93f94945940ff4dd44e28a743060b0096cdd88e9a39dea4
 Description: Libraries necessary to run Ruby 1.9.1
 Homepage: http://www.ruby-lang.org/
 Description-md5: 311ad9570aaaa1e7d8a40da9af0fd26d
@@ -20271,18 +20410,18 @@ Supported: 18m
 Package: libruby1.9.1-dbg
 Priority: extra
 Section: debug
-Installed-Size: 4827
+Installed-Size: 4828
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: i386
 Source: ruby1.9.1
-Version: 1.9.3.0-1ubuntu2.5
-Depends: libruby1.9.1 (= 1.9.3.0-1ubuntu2.5)
-Filename: pool/main/r/ruby1.9.1/libruby1.9.1-dbg_1.9.3.0-1ubuntu2.5_i386.deb
-Size: 3606064
-MD5sum: f2445779d44a83e204aca6206333eec1
-SHA1: e0839cb544de4048d168bcd04da22c6ad86b994a
-SHA256: 467aefac29105fba581e405899345779a5b5cd09c0edde99eda1a0872ac26e93
+Version: 1.9.3.0-1ubuntu2.6
+Depends: libruby1.9.1 (= 1.9.3.0-1ubuntu2.6)
+Filename: pool/main/r/ruby1.9.1/libruby1.9.1-dbg_1.9.3.0-1ubuntu2.6_i386.deb
+Size: 3606000
+MD5sum: a91e4c5125f8ff75b3be69773fbba290
+SHA1: 6527d952380f063145d35d921f25cec2ce9f43d5
+SHA256: 3ad1a46f1bad3b6e229a4212f82c010299c69004f8179bb05a738a772e564104
 Description: Debugging symbols for Ruby 1.9.1
 Homepage: http://www.ruby-lang.org/
 Description-md5: 51575fc8b43a3947fe9f91f839afdfca
@@ -20626,19 +20765,19 @@ Supported: 18m
 Package: libssl-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 4813
+Installed-Size: 4822
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: openssl
-Version: 1.0.1-4ubuntu5.7
-Depends: libssl1.0.0 (= 1.0.1-4ubuntu5.7), zlib1g-dev
+Version: 1.0.1-4ubuntu5.8
+Depends: libssl1.0.0 (= 1.0.1-4ubuntu5.8), zlib1g-dev
 Recommends: libssl-doc
-Filename: pool/main/o/openssl/libssl-dev_1.0.1-4ubuntu5.7_i386.deb
-Size: 1423680
-MD5sum: 001217ebb687f4d73e8ba6dcbda69285
-SHA1: 024949d2a437ed372fa80f100ea5707e2d0a14a7
-SHA256: 55aff4a9fa3352b5d0ba3e986554741521ea4f40afaa1466b344956eff9ea0b6
+Filename: pool/main/o/openssl/libssl-dev_1.0.1-4ubuntu5.8_i386.deb
+Size: 1423704
+MD5sum: b1faf4a6fee5f2b121b560ccb594e48c
+SHA1: 6d39d6bc1576516745a645c49cd97f47df66249b
+SHA256: d91e7a1e68815de9ecf3b19fe7694b62aaa0f682ca56e0d386d94fa2d42630eb
 Description: SSL development libraries, header files and documentation
 Description-md5: 3f77df7ec43dcb3f3b73c312168c730e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -20648,20 +20787,20 @@ Supported: 5y
 Package: libssl-doc
 Priority: optional
 Section: doc
-Installed-Size: 1425
+Installed-Size: 1426
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: all
 Source: openssl
-Version: 1.0.1-4ubuntu5.7
+Version: 1.0.1-4ubuntu5.8
 Replaces: libssl-dev (<< 1.0.0), openssl-doc
 Conflicts: openssl-doc
 Breaks: libssl-dev (<< 1.0.0)
-Filename: pool/main/o/openssl/libssl-doc_1.0.1-4ubuntu5.7_all.deb
-Size: 1034574
-MD5sum: c2c5d23c082d1e917c4297444e09791c
-SHA1: 4491f4b34a266eac6b418e0577da30bc806db905
-SHA256: 7ee3cc58705b91fd9c233fa0021db28423cb69fc2ac2fd60eabe28500af638c7
+Filename: pool/main/o/openssl/libssl-doc_1.0.1-4ubuntu5.8_all.deb
+Size: 1033964
+MD5sum: dd53814f79342fc7fdf270c1ffd731d3
+SHA1: fb9dfd1d87bf6860319bbcbdaaa6742eec763831
+SHA256: 7ad1d626938d08bbb4946c8d92d3eccf8a220043edb57d7b79276b0ba3d02c24
 Description: SSL development documentation documentation
 Description-md5: 59333bc869a0fa9208d500d5cabc20fd
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -20671,20 +20810,20 @@ Supported: 5y
 Package: libssl1.0.0
 Priority: required
 Section: libs
-Installed-Size: 2679
+Installed-Size: 2684
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: openssl
-Version: 1.0.1-4ubuntu5.7
+Version: 1.0.1-4ubuntu5.8
 Depends: libc6 (>= 2.7), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0
 Pre-Depends: multiarch-support
 Breaks: openssh-client (<< 1:5.9p1-4), openssh-server (<< 1:5.9p1-4)
-Filename: pool/main/o/openssl/libssl1.0.0_1.0.1-4ubuntu5.7_i386.deb
-Size: 1004310
-MD5sum: 974499918a7c4eb2ce72da7f6f49d563
-SHA1: 69fb0f823c7a76175b6bcb9f03439eef279fab05
-SHA256: c4ff5ecfa2799be84d2b5082f7e9f607cf73087a690697a4a4655a1aae5e924f
+Filename: pool/main/o/openssl/libssl1.0.0_1.0.1-4ubuntu5.8_i386.deb
+Size: 1006070
+MD5sum: 32cade0c806981d14452af3a43e18468
+SHA1: 12da0f920ed285aa7ca3ca463a35ba92d01ec83d
+SHA256: 8a11d216099dcc56c35b963639c3c0f9a5ff224af7f1619a62dcf3f79e65c388
 Description: SSL shared libraries
 Multi-Arch: same
 Description-md5: 2e9416e72fb31714d9b26021a3ee7e85
@@ -20696,18 +20835,18 @@ Task: minimal
 Package: libssl1.0.0-dbg
 Priority: extra
 Section: debug
-Installed-Size: 6011
+Installed-Size: 6046
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: openssl
-Version: 1.0.1-4ubuntu5.7
-Depends: libssl1.0.0 (= 1.0.1-4ubuntu5.7)
-Filename: pool/main/o/openssl/libssl1.0.0-dbg_1.0.1-4ubuntu5.7_i386.deb
-Size: 1970802
-MD5sum: a13f2aa5bcff5f3285278a6ee2acf9a2
-SHA1: 477475ba1418dbe9dda9f133c634f92dc26b616a
-SHA256: eb1b1f112252aeca2d651e043deeadd6f76785cf7154111d2282a65aba256cf0
+Version: 1.0.1-4ubuntu5.8
+Depends: libssl1.0.0 (= 1.0.1-4ubuntu5.8)
+Filename: pool/main/o/openssl/libssl1.0.0-dbg_1.0.1-4ubuntu5.8_i386.deb
+Size: 1988358
+MD5sum: ff09437f1c9b77b5cb0d7dd13b949326
+SHA1: 63c2099cfd8690c8c48e5d59302cc29b51a0fdd6
+SHA256: af35f1f0e5fcd862a91b4d337a87a84693bb57cdd030e2d3f691d8ab03ff91fe
 Description: Symbol tables for libssl and libcrypto
 Multi-Arch: same
 Description-md5: fedfa89ced3aa67317f9dac7ba5308da
@@ -22078,13 +22217,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-image (= 3.2.0.38.46)
-Filename: pool/main/l/linux-meta/linux_3.2.0.38.46_i386.deb
-Size: 1690
-MD5sum: d0faf35cfcab8723cfabccd177c1706b
-SHA1: 48c3325eb4ef091dcd75e05f54139bc3320e576e
-SHA256: 0f075e5f36358ef363bbcdc68f51b9fe6e30a6188fc8aa87a1df1d651bfd86f4
+Version: 3.2.0.39.47
+Depends: linux-image (= 3.2.0.39.47)
+Filename: pool/main/l/linux-meta/linux_3.2.0.39.47_i386.deb
+Size: 1696
+MD5sum: 0a4db91f279e5dfdaf264e0cacd99335
+SHA1: 75e0e9dfdc84c6945eb705767187320f4cf1dc70
+SHA256: 44015a9b5ea1d3c1fcebc3d645f18aeb49cd9fac688d925f01f6247d0b6da68c
 Description: Generic complete Linux kernel.
 Description-md5: e1f3af50c53d3b40815e9810a03f60ee
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -22677,7 +22816,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 73db8ef2303125c9047e40e1fe3e2ee3
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.3-3.2.0-38-generic-pae
 Priority: optional
@@ -22698,7 +22837,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86
 Description-md5: c0f3bf127dc10561d470fa49e4b507ff
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.3-3.2.0-38-virtual
 Priority: optional
@@ -22719,6 +22858,69 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 00ffa7648ab3e2c8c1e6663d8aad0014
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
+
+Package: linux-backports-modules-cw-3.3-3.2.0-39-generic
+Priority: optional
+Section: admin
+Installed-Size: 7630
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Depends: linux-image-3.2.0-39-generic
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.3-3.2.0-39-generic_3.2.0-39.26_i386.deb
+Size: 2743948
+MD5sum: 4955da8ea2a3f73e60e8a86c72baecc8
+SHA1: 636406a471e2bdcd776c236bea2a5efcc533f505
+SHA256: 8441309651808786de9e0e0c7c1e98c7a88268e100d56792ba17be5564c86908
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: 73db8ef2303125c9047e40e1fe3e2ee3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-backports-modules-cw-3.3-3.2.0-39-generic-pae
+Priority: optional
+Section: admin
+Installed-Size: 7637
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Depends: linux-image-3.2.0-39-generic-pae
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.3-3.2.0-39-generic-pae_3.2.0-39.26_i386.deb
+Size: 2749944
+MD5sum: 80c4ab5f97284e0f32de60790192392c
+SHA1: 8b86c7be25308829a11ca60d5c06e5138a12be63
+SHA256: 76dae0339be78a36f135ee3bae1fc0edac95b1762f04d708722ea52646f94b1e
+Description: compat-wireless Linux modules for version 3.2.0 on x86
+Description-md5: c0f3bf127dc10561d470fa49e4b507ff
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-backports-modules-cw-3.3-3.2.0-39-virtual
+Priority: optional
+Section: admin
+Installed-Size: 7636
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Depends: linux-image-3.2.0-39-virtual
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.3-3.2.0-39-virtual_3.2.0-39.26_i386.deb
+Size: 2749768
+MD5sum: 67861eedd8a48f0790e389a8f35a54a8
+SHA1: 60b579ef2e6b55273e3cb7408dfe19b0650a6944
+SHA256: 1e6b82f6cf40b022db42d73c4eeb6b331f795c03a29188ce437aa696716552f2
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: 00ffa7648ab3e2c8c1e6663d8aad0014
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
 Supported: 5y
 
 Package: linux-backports-modules-cw-3.3-precise-generic
@@ -22728,13 +22930,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-backports-modules-cw-3.3-3.2.0-38-generic
-Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.3-precise-generic_3.2.0.38.46_i386.deb
-Size: 2670
-MD5sum: 9084e979a571ae489f009b60762791e0
-SHA1: bd3fe17b3b1d59e820045dc47bf17ae4ddcf4557
-SHA256: b73d78f4b40abedc157c37771fcaf03f1f45e582e71f1e1c6d74590b91d2df48
+Version: 3.2.0.39.47
+Depends: linux-backports-modules-cw-3.3-3.2.0-39-generic
+Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.3-precise-generic_3.2.0.39.47_i386.deb
+Size: 2672
+MD5sum: 0d705386ac524a3996d6e3ddc1143363
+SHA1: 2d210a6d9a909a6c3796d66ba175ed1988e0dc5a
+SHA256: 7388590cba6eeadbbf5c149bf3f3f9605527ef5197cc384117806e4bbf5f334b
 Description: Backported wireless drivers for generic kernel image
 Description-md5: 6e90ffb34dee52ff16abcc8827260d34
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -22748,13 +22950,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-backports-modules-cw-3.3-3.2.0-38-generic-pae
-Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.3-precise-generic-pae_3.2.0.38.46_i386.deb
+Version: 3.2.0.39.47
+Depends: linux-backports-modules-cw-3.3-3.2.0-39-generic-pae
+Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.3-precise-generic-pae_3.2.0.39.47_i386.deb
 Size: 2674
-MD5sum: c93f55f487c1bc9e9f85cc1771482787
-SHA1: 5810ffe3874a080b49aedafeeeda911ae7ffe538
-SHA256: 8a5afbb72201bd59bff3a019d59b69602286a64cb30250daad011c608c696b7c
+MD5sum: bf71900849649f85405f224944838fe9
+SHA1: 71a67b544bc1bdf3d65278b6ac5e5f113ea69e62
+SHA256: 2e3dd95085330b85f12afadb75df758ffde663ee53095949068c41329ced8198
 Description: Backported wireless drivers for generic-pae kernel image
 Description-md5: 160b777fe8d492857e4453c6d7a012df
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -23179,7 +23381,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 9a436bc04bffb78038f22b6b3fca07e9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.4-3.2.0-38-generic-pae
 Priority: optional
@@ -23200,7 +23402,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86
 Description-md5: 635f803949145cc57e66124c9ced3685
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.4-3.2.0-38-virtual
 Priority: optional
@@ -23221,6 +23423,69 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 619b8cfa92495a39b56a5a0d43236544
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
+
+Package: linux-backports-modules-cw-3.4-3.2.0-39-generic
+Priority: optional
+Section: admin
+Installed-Size: 7649
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Depends: linux-image-3.2.0-39-generic
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.4-3.2.0-39-generic_3.2.0-39.26_i386.deb
+Size: 2764924
+MD5sum: 62f345fe4ea4a48e2e2e1735815a65a1
+SHA1: f1cde7beebdb468c9427e0e25bd753d838a8176a
+SHA256: ce349d3c670d55779e74da4aa74a9f803ceaf6693bf3c96bcdeaab376543798d
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: 9a436bc04bffb78038f22b6b3fca07e9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-backports-modules-cw-3.4-3.2.0-39-generic-pae
+Priority: optional
+Section: admin
+Installed-Size: 7657
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Depends: linux-image-3.2.0-39-generic-pae
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.4-3.2.0-39-generic-pae_3.2.0-39.26_i386.deb
+Size: 2769464
+MD5sum: abfd71fd139abfd0f76b0b8f2ac766f4
+SHA1: 8101db467f23dbf1c3497e3e137e9f21786b140b
+SHA256: 812047e4793bd70ea9b406b3d9afb515cc4acf2246e73c61cb1530369c7b4443
+Description: compat-wireless Linux modules for version 3.2.0 on x86
+Description-md5: 635f803949145cc57e66124c9ced3685
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-backports-modules-cw-3.4-3.2.0-39-virtual
+Priority: optional
+Section: admin
+Installed-Size: 7655
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Depends: linux-image-3.2.0-39-virtual
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.4-3.2.0-39-virtual_3.2.0-39.26_i386.deb
+Size: 2769346
+MD5sum: b3c3d741d699fbb57ec5989dfffc65bc
+SHA1: e4b4dc278122909914c82c2e9520314286f5e8e7
+SHA256: 11899f1d6722e7bc1a88a5f61d151f82f21070ace8a81117bbbe5a3dd4dd3fc4
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: 619b8cfa92495a39b56a5a0d43236544
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
 Supported: 5y
 
 Package: linux-backports-modules-cw-3.4-precise-generic
@@ -23230,13 +23495,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-backports-modules-cw-3.4-3.2.0-38-generic
-Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.4-precise-generic_3.2.0.38.46_i386.deb
-Size: 2668
-MD5sum: ad7ff25bc7bbdc8e3ba4ea37297e970c
-SHA1: e824f163c7e0b1cebcd2822942e6a3220fc6f185
-SHA256: ba5875782e32088d49897e05705e489b5672d43cb0a3970a0990d6728bcd37f3
+Version: 3.2.0.39.47
+Depends: linux-backports-modules-cw-3.4-3.2.0-39-generic
+Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.4-precise-generic_3.2.0.39.47_i386.deb
+Size: 2674
+MD5sum: f73ee9ae30e3741018c5ea2e0bce0622
+SHA1: 857df208cb6f3db7b6f389c1e3ecde63b6351ce4
+SHA256: 84bce8edba3c0114416e696fb5b221ec9ebed63f28343f2c5827455dd7a7d6d1
 Description: Backported wireless drivers for generic kernel image
 Description-md5: 6e90ffb34dee52ff16abcc8827260d34
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -23250,13 +23515,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-backports-modules-cw-3.4-3.2.0-38-generic-pae
-Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.4-precise-generic-pae_3.2.0.38.46_i386.deb
+Version: 3.2.0.39.47
+Depends: linux-backports-modules-cw-3.4-3.2.0-39-generic-pae
+Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.4-precise-generic-pae_3.2.0.39.47_i386.deb
 Size: 2674
-MD5sum: 045478d1f3caded1bd14f02126bde3d3
-SHA1: b7e29f7d866243567780d223cfbfc48485fd2e2c
-SHA256: fef6559b7efbe4b778cfa4599509685e498d0919f920d86e66449674c43d29bd
+MD5sum: df301c1a68e7adc4fe76d510d896e2b2
+SHA1: 3cad0959de0405aad5d247a0bcec9993f13df3b6
+SHA256: d6c81a85ece2f0899d78090c75b6aa2923793ea4b7777441349ccb7ea6920ed6
 Description: Backported wireless drivers for generic-pae kernel image
 Description-md5: 160b777fe8d492857e4453c6d7a012df
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -23555,7 +23820,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 5b4d2a2590e892983edb3216437319ef
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.5-3.2.0-38-generic-pae
 Priority: optional
@@ -23576,7 +23841,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86
 Description-md5: ee5bfe5fac7ca8be9fe5067317f79623
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.5-3.2.0-38-virtual
 Priority: optional
@@ -23597,6 +23862,69 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 17a5043ec6a46b4b3f1fdbd386019b9c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
+
+Package: linux-backports-modules-cw-3.5-3.2.0-39-generic
+Priority: optional
+Section: admin
+Installed-Size: 7683
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Depends: linux-image-3.2.0-39-generic
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.5-3.2.0-39-generic_3.2.0-39.26_i386.deb
+Size: 2773418
+MD5sum: 18d93e83692e204bb6dd8cdb8f6bd580
+SHA1: 9579f3e42e1af309818ae70a7d5fb05de9e814af
+SHA256: 76fd53777357428e198abbab9f466a1e3e43d6ec8b4b6d070604de002caac6b6
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: 5b4d2a2590e892983edb3216437319ef
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-backports-modules-cw-3.5-3.2.0-39-generic-pae
+Priority: optional
+Section: admin
+Installed-Size: 7690
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Depends: linux-image-3.2.0-39-generic-pae
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.5-3.2.0-39-generic-pae_3.2.0-39.26_i386.deb
+Size: 2775982
+MD5sum: 3136806f537becf918cb168d6b5053a6
+SHA1: e084ffa03a83ebb7901aaee1d9f00b5a14c55d42
+SHA256: 327050662a9812c01055bdce00376e1cd1a7589195fadf998d40a1ae3841e6e4
+Description: compat-wireless Linux modules for version 3.2.0 on x86
+Description-md5: ee5bfe5fac7ca8be9fe5067317f79623
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-backports-modules-cw-3.5-3.2.0-39-virtual
+Priority: optional
+Section: admin
+Installed-Size: 7689
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Depends: linux-image-3.2.0-39-virtual
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.5-3.2.0-39-virtual_3.2.0-39.26_i386.deb
+Size: 2776696
+MD5sum: 6adfd71ef3681b77acc8d0b50a085160
+SHA1: ae5fc4e4bf7a698fb24d51aaa07600efdf6181e3
+SHA256: 71e301de1731fce568f1b5ffa000f38784ef89bed78842a1b3a69ada4ebe4315
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: 17a5043ec6a46b4b3f1fdbd386019b9c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
 Supported: 5y
 
 Package: linux-backports-modules-cw-3.5-precise-generic
@@ -23606,13 +23934,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-backports-modules-cw-3.5-3.2.0-38-generic
-Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.5-precise-generic_3.2.0.38.46_i386.deb
-Size: 2682
-MD5sum: 8079b364956e7039703cdcb3ca078816
-SHA1: 6cc9c1506dc5803c134ccab8357cd59df41c66f5
-SHA256: 5c6c578251b58cd422375efccf5b6032135213db00eebfdc0a8e64d90eee4608
+Version: 3.2.0.39.47
+Depends: linux-backports-modules-cw-3.5-3.2.0-39-generic
+Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.5-precise-generic_3.2.0.39.47_i386.deb
+Size: 2670
+MD5sum: 91a105c590b9491587ad40180c2df540
+SHA1: 45340f97ec8fb704bbc28ebb408fd82884b93b0c
+SHA256: 502900441c11b1f823b1da3a55dfbf4da0c539c1e306eb7d32ecbc9987171d2a
 Description: Backported wireless drivers for generic kernel image
 Description-md5: 6e90ffb34dee52ff16abcc8827260d34
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -23626,13 +23954,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-backports-modules-cw-3.5-3.2.0-38-generic-pae
-Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.5-precise-generic-pae_3.2.0.38.46_i386.deb
-Size: 2690
-MD5sum: 51886829930c822f604d4cd2d855eacf
-SHA1: 9eb7ca99147bd66ddb43e6af26bfc8ec659bc85c
-SHA256: 9999a2c655ac12dc6a3f9969b32f8872a7e05e7711e39b5223aae2c8e570f619
+Version: 3.2.0.39.47
+Depends: linux-backports-modules-cw-3.5-3.2.0-39-generic-pae
+Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.5-precise-generic-pae_3.2.0.39.47_i386.deb
+Size: 2674
+MD5sum: 7d630bc03162287085a292e1c45bef0f
+SHA1: a46baf1a402fa084470c3f3bd238424fb111197c
+SHA256: dbc365d2fface123c8038fdd4102b9c0cba2e75f0187f1f7332d7d9a870f3e3f
 Description: Backported wireless drivers for generic-pae kernel image
 Description-md5: 160b777fe8d492857e4453c6d7a012df
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -23931,7 +24259,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 6865b8508f4a1ed3d2809094857d6bb8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.6-3.2.0-38-generic-pae
 Priority: optional
@@ -23952,7 +24280,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86
 Description-md5: d484be944f48d0898e8f0233cc5c539d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.6-3.2.0-38-virtual
 Priority: optional
@@ -23973,6 +24301,69 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: eb82d22f23a4d6b9dcc378052bc62dd4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
+
+Package: linux-backports-modules-cw-3.6-3.2.0-39-generic
+Priority: optional
+Section: admin
+Installed-Size: 7757
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Depends: linux-image-3.2.0-39-generic
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.6-3.2.0-39-generic_3.2.0-39.26_i386.deb
+Size: 2790192
+MD5sum: 758f54e02f8784807c2438f1128b501b
+SHA1: 3c102049f196299c2f1b207e50ead412eef857cc
+SHA256: 87843e108cd180874ae44ffd6a0cf031d953879870c4d4f3abcbc29759cda91d
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: 6865b8508f4a1ed3d2809094857d6bb8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-backports-modules-cw-3.6-3.2.0-39-generic-pae
+Priority: optional
+Section: admin
+Installed-Size: 7765
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Depends: linux-image-3.2.0-39-generic-pae
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.6-3.2.0-39-generic-pae_3.2.0-39.26_i386.deb
+Size: 2794408
+MD5sum: 92f270842fcb3f0de5899accd70ff453
+SHA1: 1a04824ea0c5af8b2a92128fa5ce4b89e2834382
+SHA256: 4c29e3fa315eb1bb7225a986fec7a9627a5f9d0015451478a135645253f3d1b7
+Description: compat-wireless Linux modules for version 3.2.0 on x86
+Description-md5: d484be944f48d0898e8f0233cc5c539d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-backports-modules-cw-3.6-3.2.0-39-virtual
+Priority: optional
+Section: admin
+Installed-Size: 7764
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Depends: linux-image-3.2.0-39-virtual
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.6-3.2.0-39-virtual_3.2.0-39.26_i386.deb
+Size: 2794390
+MD5sum: 01cb692bb0a860bf241bbc45bbe3c83d
+SHA1: 5b90716b8f576d8b838eb0607b1e458183164e8b
+SHA256: 2eeda79e3b40f20c4b883b23ccfe533913f0300cb20773183e1abd1d8d21979a
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: eb82d22f23a4d6b9dcc378052bc62dd4
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
 Supported: 5y
 
 Package: linux-backports-modules-cw-3.6-precise-generic
@@ -23982,13 +24373,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-backports-modules-cw-3.6-3.2.0-38-generic
-Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.6-precise-generic_3.2.0.38.46_i386.deb
+Version: 3.2.0.39.47
+Depends: linux-backports-modules-cw-3.6-3.2.0-39-generic
+Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.6-precise-generic_3.2.0.39.47_i386.deb
 Size: 2668
-MD5sum: 008300db093384a8d6f3c5e8d08faab9
-SHA1: cf3cf5bedaa787a7d70f24a063bafc97216e2ec0
-SHA256: 9caabe8b54985f22354c8468bcc6ec30c6dd8f4469faaecf2b6c6fee5ee2f3a6
+MD5sum: 1f44447f80fbeef38cb64fcd2942bca0
+SHA1: fe1d97b126251c86e29c9daf96bca67f926fd771
+SHA256: bc3f3de9a012570825f405d282902247f0e5f2a7eaed608c231e49bacf949c05
 Description: Backported wireless drivers for generic kernel image
 Description-md5: 6e90ffb34dee52ff16abcc8827260d34
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -24002,13 +24393,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-backports-modules-cw-3.6-3.2.0-38-generic-pae
-Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.6-precise-generic-pae_3.2.0.38.46_i386.deb
-Size: 2674
-MD5sum: 6958041e9172e8076ec842e7dca94d39
-SHA1: 6997c07a96a0771ff92f89f7f842c6c01b9754ea
-SHA256: c7bb8d6be2ea6b38a40e62abead2b88a3d64a857dc8066a52fda7e448b9ace18
+Version: 3.2.0.39.47
+Depends: linux-backports-modules-cw-3.6-3.2.0-39-generic-pae
+Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.6-precise-generic-pae_3.2.0.39.47_i386.deb
+Size: 2682
+MD5sum: d638cb0e0f3b64e1f3fa3f52413b8bdb
+SHA1: 5cb670a52d72610103ff9df1bdc22c9ea5e71b5c
+SHA256: 44fe546018632b8bfa9a718a17cbd133daaa74dcc28c884c024e163fff9402e4
 Description: Backported wireless drivers for generic-pae kernel image
 Description-md5: 160b777fe8d492857e4453c6d7a012df
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -24022,13 +24413,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-headers-lbm-3.2.0-38-generic
-Filename: pool/main/l/linux-meta/linux-backports-modules-headers-precise-generic_3.2.0.38.46_i386.deb
+Version: 3.2.0.39.47
+Depends: linux-headers-lbm-3.2.0-39-generic
+Filename: pool/main/l/linux-meta/linux-backports-modules-headers-precise-generic_3.2.0.39.47_i386.deb
 Size: 2668
-MD5sum: c76229940a3125f6f878ce38dd95dcce
-SHA1: 2f9c59b55df52abee25fd2d2688ec81651574d57
-SHA256: 4f8c4aa3d326f9f0ed4c99dc62cf39ec3f1b52ee97f45b9b5f62d84806601eef
+MD5sum: f6c4d417a41fd0644ba69fdf25e3bda0
+SHA1: f03b31084ad9bdb25b4329f42672d0399e18227e
+SHA256: 45ab989438c47f9aecb7fbd45ff38627b5ec4f1da6c014ffee9d7501e12c5959
 Description: Backported driver headers for generic kernel image
 Description-md5: 38b01bce005d6624bbcdea6014e5278a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -24042,13 +24433,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-headers-lbm-3.2.0-38-generic-pae
-Filename: pool/main/l/linux-meta/linux-backports-modules-headers-precise-generic-pae_3.2.0.38.46_i386.deb
-Size: 2676
-MD5sum: 16143d678b2552edbb15f11fe927c461
-SHA1: 5ba8fecc70757230e7ced98bedd3c2e1ee7bfced
-SHA256: e7db27000874a49047fb842a7a35fb3b37831e094d0ab7b383e1726149eba29e
+Version: 3.2.0.39.47
+Depends: linux-headers-lbm-3.2.0-39-generic-pae
+Filename: pool/main/l/linux-meta/linux-backports-modules-headers-precise-generic-pae_3.2.0.39.47_i386.deb
+Size: 2672
+MD5sum: ea83fd5ead8bb9ec7ddc73e44a776a0e
+SHA1: 79038ccb0aef4dc535a725b5315226c180e82b72
+SHA256: e52d8ab99bb087c72dcc808a24e823605454b958749b8c92e2cbbd0a0a2cfca9
 Description: Backported driver headers for generic-pae kernel image
 Description-md5: 265ff458dd27acc2f529bdd6275f520a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -24263,7 +24654,7 @@ Description: Linux Hyper-V updates for version 3.2.0 on x86/x86_64
 Description-md5: 584d26d2fb9d908b1347de788f4c1d7c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-hv-3.2.0-38-generic-pae
 Priority: optional
@@ -24284,7 +24675,7 @@ Description: Linux Hyper-V updates for version 3.2.0 on x86
 Description-md5: 9effa5e4cb60d20d2db08d715ddb7411
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-hv-3.2.0-38-virtual
 Priority: optional
@@ -24305,6 +24696,69 @@ Description: Linux Hyper-V updates for version 3.2.0 on x86/x86_64
 Description-md5: ea71f70aba46c0a7c65b47def1ba8e9d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
+
+Package: linux-backports-modules-hv-3.2.0-39-generic
+Priority: optional
+Section: admin
+Installed-Size: 205
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Depends: linux-image-3.2.0-39-generic
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-hv-3.2.0-39-generic_3.2.0-39.26_i386.deb
+Size: 50964
+MD5sum: 74e039d305b4548b479c29c6d5e3708c
+SHA1: 1644c16b5da94abb2e8d4d31114c0c279ff7f491
+SHA256: 8935db7338858aea0ce502c151ab7f788bbb29d040b4389327bcc3f0e40caac1
+Description: Linux Hyper-V updates for version 3.2.0 on x86/x86_64
+Description-md5: 584d26d2fb9d908b1347de788f4c1d7c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-backports-modules-hv-3.2.0-39-generic-pae
+Priority: optional
+Section: admin
+Installed-Size: 205
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Depends: linux-image-3.2.0-39-generic-pae
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-hv-3.2.0-39-generic-pae_3.2.0-39.26_i386.deb
+Size: 50972
+MD5sum: 5b1d70fdbf3a064022743cc9991d26e8
+SHA1: 779ae726cc94e08afdba1167b7d14859b79e85b8
+SHA256: 2ba6435fa885ec69c180614b75110c5210652935ea21121109bc4b321ffb6c8e
+Description: Linux Hyper-V updates for version 3.2.0 on x86
+Description-md5: 9effa5e4cb60d20d2db08d715ddb7411
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-backports-modules-hv-3.2.0-39-virtual
+Priority: optional
+Section: admin
+Installed-Size: 205
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Depends: linux-image-3.2.0-39-virtual
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-hv-3.2.0-39-virtual_3.2.0-39.26_i386.deb
+Size: 51030
+MD5sum: 598329f053097f990233c4ad0b1d1613
+SHA1: 89a7c1eac49fd07fdee85ca31544578e228fbac0
+SHA256: 9983aad355769c7e602d7623aaedf4c7e1805b779555c34e3151286f01c8c8e2
+Description: Linux Hyper-V updates for version 3.2.0 on x86/x86_64
+Description-md5: ea71f70aba46c0a7c65b47def1ba8e9d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
 Supported: 5y
 
 Package: linux-backports-modules-hv-precise-generic
@@ -24314,13 +24768,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-backports-modules-hv-3.2.0-38-generic
-Filename: pool/main/l/linux-meta/linux-backports-modules-hv-precise-generic_3.2.0.38.46_i386.deb
-Size: 2670
-MD5sum: aa9cc95ab3449248233d625ed6a2e37c
-SHA1: b8fe25e2866bb061695c66afbe4733f2f2c3e3fb
-SHA256: 2cce9386a15839ef6b2cde4a0c666fba2c8e62052eec3cd45fef1b6ce35905a1
+Version: 3.2.0.39.47
+Depends: linux-backports-modules-hv-3.2.0-39-generic
+Filename: pool/main/l/linux-meta/linux-backports-modules-hv-precise-generic_3.2.0.39.47_i386.deb
+Size: 2658
+MD5sum: cd6797abeafe00e9b4db7f74a68c146e
+SHA1: d481e0cae9bd98da7120f5ffde32169219b88bd9
+SHA256: e038dd6b687dc6f2d13733b21f63ccf6f2311f30ee403ce419305cc3cc01cec3
 Description: Backported Hyper-V hypervisor interfaces
 Description-md5: 05fc1d38a9d2411d8bf8f7a29223a7e5
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -24334,13 +24788,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-backports-modules-hv-3.2.0-38-generic-pae
-Filename: pool/main/l/linux-meta/linux-backports-modules-hv-precise-generic-pae_3.2.0.38.46_i386.deb
-Size: 2676
-MD5sum: 3d4c86028fa3239ab941dcba9fdde1d3
-SHA1: 3530478c948ac3916ce475cb451507a4b4d21124
-SHA256: 795b6624529a35e7a8364375740a290c9df517e9b0e191971d24aa1c6187951f
+Version: 3.2.0.39.47
+Depends: linux-backports-modules-hv-3.2.0-39-generic-pae
+Filename: pool/main/l/linux-meta/linux-backports-modules-hv-precise-generic-pae_3.2.0.39.47_i386.deb
+Size: 2666
+MD5sum: 00760d58de0f536e6b02860032a9ff75
+SHA1: ae1b59fb65e95a8571848dead2ad169fc65a5f63
+SHA256: 4b9d11a5323a6209791daf96b7dffd271622daacd6382fc788858d733ca040ee
 Description: Backported Hyper-V hypervisor interfaces
 Description-md5: 05fc1d38a9d2411d8bf8f7a29223a7e5
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -24354,13 +24808,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-backports-modules-hv-3.2.0-38-virtual
-Filename: pool/main/l/linux-meta/linux-backports-modules-hv-precise-virtual_3.2.0.38.46_i386.deb
-Size: 2668
-MD5sum: cb8753003e2da2d8ee24a74ce18d5896
-SHA1: 063fc2afeed29393bd709e8eab54f703d6adfaa2
-SHA256: 38cab4a8be1514590028d412b3b03c229a3506959506fd9cd0d9367deef23540
+Version: 3.2.0.39.47
+Depends: linux-backports-modules-hv-3.2.0-39-virtual
+Filename: pool/main/l/linux-meta/linux-backports-modules-hv-precise-virtual_3.2.0.39.47_i386.deb
+Size: 2662
+MD5sum: 587a5106044aaf899b8e5de19237fcae
+SHA1: c5d21a93cffb635cb41914899691a1228d6c9f61
+SHA256: da7bc45ff1fe26b8b5caf51d2d3bcbef1992a7d7905b33e5a37b789ce0bb7d28
 Description: Backported Hyper-V hypervisor interfaces
 Description-md5: 05fc1d38a9d2411d8bf8f7a29223a7e5
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -24953,7 +25407,7 @@ Description: Linux ethernet modules for version 3.2.0 on x86/x86_64
 Description-md5: 4d4431774a9f24406f76ad316b7cf886
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-net-3.2.0-38-generic-pae
 Priority: optional
@@ -24974,7 +25428,7 @@ Description: Linux ethernet modules for version 3.2.0 on x86
 Description-md5: 7ccd4ca55ca84885ede7c9bc4a9307d0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-net-3.2.0-38-virtual
 Priority: optional
@@ -24995,6 +25449,69 @@ Description: Linux ethernet modules for version 3.2.0 on x86/x86_64
 Description-md5: cf911955d3cf668358081fb8e8acd9f6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
+
+Package: linux-backports-modules-net-3.2.0-39-generic
+Priority: optional
+Section: admin
+Installed-Size: 305
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Depends: linux-image-3.2.0-39-generic
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-net-3.2.0-39-generic_3.2.0-39.26_i386.deb
+Size: 114186
+MD5sum: 3bd182b035724f5e12f7c93bba983425
+SHA1: f1c15af28a4237daba3e53234d9483ce041ad198
+SHA256: 58377be5475cb09d1f34f39f92ecf92b6c379723fda5dd8a60743d6e17b13409
+Description: Linux ethernet modules for version 3.2.0 on x86/x86_64
+Description-md5: 4d4431774a9f24406f76ad316b7cf886
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-backports-modules-net-3.2.0-39-generic-pae
+Priority: optional
+Section: admin
+Installed-Size: 305
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Depends: linux-image-3.2.0-39-generic-pae
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-net-3.2.0-39-generic-pae_3.2.0-39.26_i386.deb
+Size: 114588
+MD5sum: 621c1effbc86133b8ce634c4cf22a467
+SHA1: 4c7b5c9a2d820184c4eca4918ba4b10edcbb2e09
+SHA256: d9def27d8e0c07e10891faf92b08cf52f9ae50078f848b723ee2913a16ae22c8
+Description: Linux ethernet modules for version 3.2.0 on x86
+Description-md5: 7ccd4ca55ca84885ede7c9bc4a9307d0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-backports-modules-net-3.2.0-39-virtual
+Priority: optional
+Section: admin
+Installed-Size: 305
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Depends: linux-image-3.2.0-39-virtual
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-net-3.2.0-39-virtual_3.2.0-39.26_i386.deb
+Size: 114632
+MD5sum: d9345363882aea826e44a10183c0a5a4
+SHA1: a9330ac357e49a19493176c8e97fc9856d6521c4
+SHA256: de098698ff9f8a0e7473f810686696dcdf39a99ad97a380e81048dff63fe8964
+Description: Linux ethernet modules for version 3.2.0 on x86/x86_64
+Description-md5: cf911955d3cf668358081fb8e8acd9f6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
 Supported: 5y
 
 Package: linux-backports-modules-net-precise-generic
@@ -25004,13 +25521,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-backports-modules-net-3.2.0-38-generic
-Filename: pool/main/l/linux-meta/linux-backports-modules-net-precise-generic_3.2.0.38.46_i386.deb
-Size: 2668
-MD5sum: ca453a33823903b0048dcb6a2c70a872
-SHA1: 19d2395988074817e07950e825546b833cc74a8c
-SHA256: 42be33e4002df61292f9d1bd0073109740728aa40e58313d4bee0197055812b5
+Version: 3.2.0.39.47
+Depends: linux-backports-modules-net-3.2.0-39-generic
+Filename: pool/main/l/linux-meta/linux-backports-modules-net-precise-generic_3.2.0.39.47_i386.deb
+Size: 2666
+MD5sum: b02cb1cab7efb48028c7f16d931826c3
+SHA1: 4df9ca9009f2e59ca02cc3209638f2f0b4f2c5c4
+SHA256: 7381b0ad9d1405389bdebe1215e39c1d394f32c10093bd4c88dd8fbdc57564ce
 Description: Backported ethernet drivers for generic kernel image.
 Description-md5: b01565259fae53bc1bfec65911d3bb47
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -25024,13 +25541,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-backports-modules-net-3.2.0-38-generic-pae
-Filename: pool/main/l/linux-meta/linux-backports-modules-net-precise-generic-pae_3.2.0.38.46_i386.deb
+Version: 3.2.0.39.47
+Depends: linux-backports-modules-net-3.2.0-39-generic-pae
+Filename: pool/main/l/linux-meta/linux-backports-modules-net-precise-generic-pae_3.2.0.39.47_i386.deb
 Size: 2674
-MD5sum: d480094667c3ab08324f06dfe372c32f
-SHA1: b3783dd275b1365b5938ce9cea5bc2e18cfae4ef
-SHA256: 5f0e0426b1e13e7429659a9db5d3a683ce3740f5210f9a3c926d5000581de48e
+MD5sum: 0deca1e7ffbee3bdb67174ea68870326
+SHA1: b33d6157bb41ba71207460638479244159206dc9
+SHA256: 3c2b235aa77961bfbe24fcb9879e7f209b5cbf338fac6391ee1f7a6888ca6302
 Description: Backported ethernet drivers for generic kernel image.
 Description-md5: b01565259fae53bc1bfec65911d3bb47
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -25044,13 +25561,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-backports-modules-net-3.2.0-38-generic-pae
-Filename: pool/main/l/linux-meta/linux-backports-modules-net-precise-server_3.2.0.38.46_i386.deb
-Size: 2686
-MD5sum: b36b50fc27af788a3b15e31e436a83f4
-SHA1: 6d6d198293b968f7a25e0c2a3b5440156b6f216a
-SHA256: 655c562bfcfcacdec4a48f60e625f70fb3f59dcbb0ab06296e23885afba6bfc5
+Version: 3.2.0.39.47
+Depends: linux-backports-modules-net-3.2.0-39-generic-pae
+Filename: pool/main/l/linux-meta/linux-backports-modules-net-precise-server_3.2.0.39.47_i386.deb
+Size: 2676
+MD5sum: 3565f619701893a487ca9530556e8a3a
+SHA1: 2ee1922f1050e0019da4ee25d9120217f0287cce
+SHA256: bb6411bbf027563609cbce214d6c7b6abeeaa73f9b13509f20917702929c02c4
 Description: Backported ethernet drivers for generic kernel image.
 Description-md5: b01565259fae53bc1bfec65911d3bb47
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -25064,15 +25581,15 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
+Version: 3.2.0.39.47
 Depends: kexec-tools, makedumpfile, grub-pc (>= 1.96+20090611-1ubuntu2) | grub-efi-ia32 | grub-efi-amd64 | grub (>= 0.97-29ubuntu24)
 Recommends: apport
 Suggests: crash
-Filename: pool/main/l/linux-meta/linux-crashdump_3.2.0.38.46_i386.deb
-Size: 2872
-MD5sum: d462def922a931a670ecb1c5a9241b22
-SHA1: aeddcb5dba4fafd64bfd7b4b51a2cbcc79fe1d7e
-SHA256: 5a4413b75e58179c639913f93a9b2c7991fb623600f9dce9d9ff19d5baca1669
+Filename: pool/main/l/linux-meta/linux-crashdump_3.2.0.39.47_i386.deb
+Size: 2862
+MD5sum: c32ffe34c22408ac0996075b3cbd3ce8
+SHA1: de2d7f25fbbac5cbceb4c6c1aae199686ef849d1
+SHA256: 0cb3faf2044551c6c75498b4bb2e1b2301302cbab6703d57745e15daa4284a28
 Description: Linux kernel crashdump setup for the latest generic kernel
 Description-md5: 786b3d1e77e0097cb2c8f2ab16f83875
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -25086,13 +25603,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
+Version: 3.2.0.39.47
 Depends: linux-hwe-generic
-Filename: pool/main/l/linux-meta/linux-current-generic_3.2.0.38.46_i386.deb
-Size: 1742
-MD5sum: 51de69e5e75e43995c7d9418844ab44b
-SHA1: 1b98c56430cbd0095d2716d7a630afdbbdd90712
-SHA256: 1634139ec3b1dcd6054a72508ec4682a32437275f4e918f789e7bbfe5757f94f
+Filename: pool/main/l/linux-meta/linux-current-generic_3.2.0.39.47_i386.deb
+Size: 1736
+MD5sum: 0436adcf1c621df3dd2ce1efc3b8c048
+SHA1: 4221349146d1afc91413242be6fdcc1c9d54873a
+SHA256: 0a6702b30e0eb6243ac72b9a0cafcda92102941eb94ee7711d77fbff56fb6787
 Description: Depends on the most recently released generic kernel image and headers.
 Description-md5: 91c34f8ac5e684a4fb359b76335a5f39
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -25372,6 +25889,27 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-doc
+Priority: optional
+Section: doc
+Installed-Size: 25245
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: all
+Source: linux
+Version: 3.2.0-39.62
+Replaces: linux-doc-3
+Conflicts: linux-doc-3
+Filename: pool/main/l/linux/linux-doc_3.2.0-39.62_all.deb
+Size: 7996778
+MD5sum: 734b3142524437d527c21c6a1f470f4f
+SHA1: 9800170e2b82936f974bd53b6cda4a239ef19fd9
+SHA256: 1d5a5e0adfb4e19807740ea32a9f6313c9ce5d6c66d21467be60849573042c8d
+Description: Linux kernel specific documentation for version 3.2.0
+Description-md5: 365a268af6664f22aa7f5a328114a50b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
 Package: linux-generic
 Priority: optional
 Section: metapackages
@@ -25379,13 +25917,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-image-generic (= 3.2.0.38.46), linux-headers-generic (= 3.2.0.38.46)
-Filename: pool/main/l/linux-meta/linux-generic_3.2.0.38.46_i386.deb
-Size: 1720
-MD5sum: 78d366bbee4711ab01410555b849248b
-SHA1: 593888fccb2e06e6923dac992cb85f0246eaf047
-SHA256: b216612ea0d9033e7d46a19913919c0cfd5915006b88713ec5a46b418ac34425
+Version: 3.2.0.39.47
+Depends: linux-image-generic (= 3.2.0.39.47), linux-headers-generic (= 3.2.0.39.47)
+Filename: pool/main/l/linux-meta/linux-generic_3.2.0.39.47_i386.deb
+Size: 1718
+MD5sum: 518677307cda093de0189df75b3563f6
+SHA1: e7c636be01a3b728d730f74f9a20c66a15037fb4
+SHA256: 2483360fd638cc384b6c5772d4877d9f99307e351935f63c9a5336c47eaf1906
 Description: Complete Generic Linux kernel
 Description-md5: 5d722da329763b9342d322f5a140005c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -25399,13 +25937,13 @@ Installed-Size: 27
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta-lts-quantal
-Version: 3.5.0.25.32
+Version: 3.5.0.26.33
 Depends: linux-image-generic-lts-quantal, linux-headers-generic-lts-quantal
-Filename: pool/main/l/linux-meta-lts-quantal/linux-generic-lts-quantal_3.5.0.25.32_i386.deb
-Size: 1742
-MD5sum: 50910e704035bb4f050b1994e36269e1
-SHA1: 4c4f50ade1c4229008e6a56c4d4ff5cf284eae2b
-SHA256: 08cd7050d3763f895b8f5164e346926b394f3cb8416f59e7e21086d754b7b79f
+Filename: pool/main/l/linux-meta-lts-quantal/linux-generic-lts-quantal_3.5.0.26.33_i386.deb
+Size: 1748
+MD5sum: 543a7e5fc9797f31a9756c88cd22c35b
+SHA1: 1d3ed6b0b7882316b4d0f6b98df8f933bf0f4174
+SHA256: a1dc7342792ad561b8979023e35947a035da72cf1d086670f0654079f4f2d38e
 Description: Generic Linux kernel image and headers
 Description-md5: 25f903038c92ee94e474b11119858716
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -25419,13 +25957,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-image-generic-pae (= 3.2.0.38.46), linux-headers-generic-pae (= 3.2.0.38.46)
-Filename: pool/main/l/linux-meta/linux-generic-pae_3.2.0.38.46_i386.deb
-Size: 1728
-MD5sum: 29804b27974f51a446315519f9969098
-SHA1: 88293fb099a076b3659c34e57720a18fa727d868
-SHA256: 07191d5bedbda9a8f8deadc81e84d28230d5d8c750ba776fbd2459f9c3ae6704
+Version: 3.2.0.39.47
+Depends: linux-image-generic-pae (= 3.2.0.39.47), linux-headers-generic-pae (= 3.2.0.39.47)
+Filename: pool/main/l/linux-meta/linux-generic-pae_3.2.0.39.47_i386.deb
+Size: 1730
+MD5sum: d120acc697f206e1c512ecf5376d6d40
+SHA1: 6cb7c950293dd1eb0b252b81f3eaa6f7afcb28f9
+SHA256: a113a16883cbc3b41b6a7f11b653a0132abd4bfdf5216aa043a05137b83c9720
 Description: Complete Generic Linux kernel
 Description-md5: 5d722da329763b9342d322f5a140005c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -26459,7 +26997,7 @@ Description: Header files related to Linux kernel version 3.2.0
 Description-md5: dfaf7f8b5d6956c8fef828ed1eb12d4c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-3.2.0-38-generic
 Priority: optional
@@ -26480,7 +27018,7 @@ Description: Linux kernel headers for version 3.2.0 on 32 bit x86 SMP
 Description-md5: 3f23e7d44205523893bc061dd3fb0da4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-3.2.0-38-generic-pae
 Priority: optional
@@ -26501,7 +27039,7 @@ Description: Linux kernel headers for version 3.2.0 on 32 bit x86 SMP
 Description-md5: 3f23e7d44205523893bc061dd3fb0da4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-3.2.0-38-virtual
 Priority: optional
@@ -26520,6 +27058,90 @@ SHA1: 2cc8cdf5d2af48c2a19e045d97e4402033c770b1
 SHA256: 6594cd52f6884cb0a2df57452a749951f686ddacb88f84dc72b8269fdb0f3d01
 Description: Linux kernel headers for version 3.2.0 on 32 bit x86 Virtual Guests
 Description-md5: b7c1e57b3689def1896a81ae62be2e28
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: linux-headers-3.2.0-39
+Priority: optional
+Section: devel
+Installed-Size: 54959
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: all
+Source: linux
+Version: 3.2.0-39.62
+Provides: linux-headers, linux-headers-3
+Depends: coreutils | fileutils (>= 4.0)
+Filename: pool/main/l/linux/linux-headers-3.2.0-39_3.2.0-39.62_all.deb
+Size: 11695426
+MD5sum: d5e08bfbf41f53592f1155c9fcfebdd2
+SHA1: 0bd9b80ca17c6498b516fa90562f6526a10d1097
+SHA256: af960bbc9bba820a3af6532b2ea994ab47584828f66c5fb4f9d4e647378ee257
+Description: Header files related to Linux kernel version 3.2.0
+Description-md5: 29449546e02f60ca4bb46dae79080e25
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-headers-3.2.0-39-generic
+Priority: optional
+Section: devel
+Installed-Size: 10956
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux
+Version: 3.2.0-39.62
+Provides: linux-headers, linux-headers-3.0
+Depends: linux-headers-3.2.0-39, libc6 (>= 2.11)
+Filename: pool/main/l/linux/linux-headers-3.2.0-39-generic_3.2.0-39.62_i386.deb
+Size: 981382
+MD5sum: 651791616c9d6f43beebb42fc059aa8f
+SHA1: 91a081f1333af19c9d4fd9eb0e04eb373023e548
+SHA256: 49ab0fe77656bab5b06108b5d8f4c61ffbf3444d17da62a053ec3381e8f4ceab
+Description: Linux kernel headers for version 3.2.0 on 32 bit x86 SMP
+Description-md5: dd01383d261824005ea0c391e937fccb
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-headers-3.2.0-39-generic-pae
+Priority: optional
+Section: devel
+Installed-Size: 11022
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux
+Version: 3.2.0-39.62
+Provides: linux-headers, linux-headers-3.0
+Depends: linux-headers-3.2.0-39, libc6 (>= 2.11)
+Filename: pool/main/l/linux/linux-headers-3.2.0-39-generic-pae_3.2.0-39.62_i386.deb
+Size: 984764
+MD5sum: e031006ca72fd8adf472c9cb88a2e2e7
+SHA1: 2f729efb0d9b5c84b3f6ea9a317e7346b626c8ff
+SHA256: ab241ee9782e45b12d6f3c43e3f7b996910414269859f4baf9d1797a0001b448
+Description: Linux kernel headers for version 3.2.0 on 32 bit x86 SMP
+Description-md5: dd01383d261824005ea0c391e937fccb
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-headers-3.2.0-39-virtual
+Priority: optional
+Section: devel
+Installed-Size: 11022
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux
+Version: 3.2.0-39.62
+Provides: linux-headers, linux-headers-3.0
+Depends: linux-headers-3.2.0-39, libc6 (>= 2.11)
+Filename: pool/main/l/linux/linux-headers-3.2.0-39-virtual_3.2.0-39.62_i386.deb
+Size: 984268
+MD5sum: f9240d8b8fd32eeba610d6b248733a4b
+SHA1: ef49919a7f08a1574bac407849089d23faee2716
+SHA256: 3f5e4ce77e3b036e5b11df18a914c9a9446d4aa83f7081e5359570f3281f9e07
+Description: Linux kernel headers for version 3.2.0 on 32 bit x86 Virtual Guests
+Description-md5: 207067c4aaa04e13222b9f836af95046
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
@@ -26724,6 +27346,46 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: linux-headers-3.5.0-26
+Priority: optional
+Section: devel
+Installed-Size: 57409
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: all
+Source: linux-lts-quantal
+Version: 3.5.0-26.42~precise1
+Depends: coreutils | fileutils (>= 4.0)
+Filename: pool/main/l/linux-lts-quantal/linux-headers-3.5.0-26_3.5.0-26.42~precise1_all.deb
+Size: 12109240
+MD5sum: bb80f595b8ae4c414e9d7979eb616fa4
+SHA1: 0b656cbab5f8d8635be9e920450d36fd70f5a505
+SHA256: 42fb984d826a088aec50f14e9b2e5e59da39cc3230736ef1a9a1854a706b9664
+Description: Header files related to Linux kernel version 3.5.0
+Description-md5: 1b3eb4c7198051bd451b3fb73b08462b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: linux-headers-3.5.0-26-generic
+Priority: optional
+Section: devel
+Installed-Size: 10956
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-lts-quantal
+Version: 3.5.0-26.42~precise1
+Depends: linux-headers-3.5.0-26, libc6 (>= 2.11)
+Filename: pool/main/l/linux-lts-quantal/linux-headers-3.5.0-26-generic_3.5.0-26.42~precise1_i386.deb
+Size: 950140
+MD5sum: c2455ec278d9de16a6343d0edf044af2
+SHA1: e931a3fb9d6954ffbf11d04ac3ab2e211dab7234
+SHA256: eb1bb8e4a9560f9a2c3d0736cd9682431f2c599988697e7937a1d737a1c0c03b
+Description: Linux kernel headers for version 3.5.0 on 32 bit x86 SMP
+Description-md5: e3370f635ab3207325ce1b2247bbcca0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: linux-headers-generic
 Priority: optional
 Section: devel
@@ -26731,13 +27393,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-headers-3.2.0-38-generic
-Filename: pool/main/l/linux-meta/linux-headers-generic_3.2.0.38.46_i386.deb
+Version: 3.2.0.39.47
+Depends: linux-headers-3.2.0-39-generic
+Filename: pool/main/l/linux-meta/linux-headers-generic_3.2.0.39.47_i386.deb
 Size: 2590
-MD5sum: 3216fcaea5f756bd512c9e83bd840afa
-SHA1: 0634cdf9c2e8abeb58e9062c72751fbe39679f3a
-SHA256: f75c090b7509111bb965a9b73d38c674792eceb0371ae299056550c812faa4e7
+MD5sum: 9e42bc4e8a1b1a74e41428b2442286e3
+SHA1: 3ba15c3c9491dd5e2bc6f7ba25e13efe22a4c86b
+SHA256: 8d80c864f40285ef5208aefce7a2d4cb0dfb2476187b520a6f13ccb0fea3b542
 Description: Generic Linux kernel headers
 Description-md5: 9c9742ab9c289b1e900fab477bc0070d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -26752,13 +27414,13 @@ Installed-Size: 27
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta-lts-quantal
-Version: 3.5.0.25.32
-Depends: linux-headers-3.5.0-25-generic
-Filename: pool/main/l/linux-meta-lts-quantal/linux-headers-generic-lts-quantal_3.5.0.25.32_i386.deb
-Size: 2586
-MD5sum: d1ac05cfce325878c9bc3c6e1e798697
-SHA1: c06976cc8b1a397a361a7b4a3782620477216feb
-SHA256: e66fdf0b3dc5e88f2ae3b8282eaafcd1771f30fcd5fae28c01a3c741e82b2767
+Version: 3.5.0.26.33
+Depends: linux-headers-3.5.0-26-generic
+Filename: pool/main/l/linux-meta-lts-quantal/linux-headers-generic-lts-quantal_3.5.0.26.33_i386.deb
+Size: 2498
+MD5sum: f959d92d8bdee42858bdfa37042dcf4c
+SHA1: 6c1602738d85a7c9ad2ea9832598fa664f267859
+SHA256: 4b46be8925f8dfbb0068fdbcabb20b2b24ff94e25d62738186e4c7e82ad31abf
 Description: Generic Linux kernel headers
 Description-md5: 49b52776080593de169d30338dd93a48
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -26772,13 +27434,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-headers-3.2.0-38-generic-pae
-Filename: pool/main/l/linux-meta/linux-headers-generic-pae_3.2.0.38.46_i386.deb
-Size: 2602
-MD5sum: c819e683ab2e251eb408d1ee3d30c51b
-SHA1: 64223057ce8634a7b9eec4cdfd355b90dd508dcb
-SHA256: b378ac16ed1b138bb06d7ccc4f87b95a1f389cf90b833c9c17a384d5aa40c5b7
+Version: 3.2.0.39.47
+Depends: linux-headers-3.2.0-39-generic-pae
+Filename: pool/main/l/linux-meta/linux-headers-generic-pae_3.2.0.39.47_i386.deb
+Size: 2598
+MD5sum: 2065a9c45fe223f552a9f3d7aab44080
+SHA1: 6d7aaccfe1c69e6e121feaf2d9746400f800ff9d
+SHA256: b337fa51e2c425ddc8c074fe1d909cd36f7b0f3007e1a8e5e40fe4ac191f23a7
 Description: Generic Linux kernel headers
 Description-md5: 9c9742ab9c289b1e900fab477bc0070d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -27372,7 +28034,7 @@ Description: Header files related to linux-backports-modules version 3.2.0
 Description-md5: 6f48ac1f30b77b54d4d83a22802a758c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-lbm-3.2.0-38-generic-pae
 Priority: optional
@@ -27393,7 +28055,7 @@ Description: Header files related to linux-backports-modules version 3.2.0
 Description-md5: 6f48ac1f30b77b54d4d83a22802a758c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-lbm-3.2.0-38-virtual
 Priority: optional
@@ -27414,6 +28076,69 @@ Description: Header files related to linux-backports-modules version 3.2.0
 Description-md5: 6f48ac1f30b77b54d4d83a22802a758c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
+
+Package: linux-headers-lbm-3.2.0-39-generic
+Priority: optional
+Section: devel
+Installed-Size: 43
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Provides: linux-headers-lbm, linux-headers-lbm-2.6
+Depends: coreutils | fileutils (>= 4.0), linux-headers-3.2.0-39-generic
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-headers-lbm-3.2.0-39-generic_3.2.0-39.26_i386.deb
+Size: 2756
+MD5sum: b13252eaf8779f6eacd053efb8f7dc88
+SHA1: a0bf7b2765fff6b711233f17dffb18a99c0aff43
+SHA256: 3b0e287109cab43e156f45b1683a84c9d478779325bcefc831822b551a57aa07
+Description: Header files related to linux-backports-modules version 3.2.0
+Description-md5: dfade877117e32bd48498fb9012fee26
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-headers-lbm-3.2.0-39-generic-pae
+Priority: optional
+Section: devel
+Installed-Size: 43
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Provides: linux-headers-lbm, linux-headers-lbm-2.6
+Depends: coreutils | fileutils (>= 4.0), linux-headers-3.2.0-39-generic-pae
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-headers-lbm-3.2.0-39-generic-pae_3.2.0-39.26_i386.deb
+Size: 2772
+MD5sum: 8ceb7dffaa4c974d01f1a3becb6aee99
+SHA1: 959e8d4cb6ef83bc5d7d57abaa5d087a6540f323
+SHA256: 0952b29f135b3147787693d3cb1911df004619f199c9fc105233afa90b4dbd1e
+Description: Header files related to linux-backports-modules version 3.2.0
+Description-md5: dfade877117e32bd48498fb9012fee26
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-headers-lbm-3.2.0-39-virtual
+Priority: optional
+Section: devel
+Installed-Size: 43
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-39.26
+Provides: linux-headers-lbm, linux-headers-lbm-2.6
+Depends: coreutils | fileutils (>= 4.0), linux-headers-3.2.0-39-virtual
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-headers-lbm-3.2.0-39-virtual_3.2.0-39.26_i386.deb
+Size: 2748
+MD5sum: 05fd699a517a1ec91c4366ed7b253a30
+SHA1: 269a3614107da3df91ca615e72be62d3ae697dc9
+SHA256: c661608cdc31701b520c22dd2b31816ec02bd1246c7718db857ed2b77a1924ff
+Description: Header files related to linux-backports-modules version 3.2.0
+Description-md5: dfade877117e32bd48498fb9012fee26
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
 Supported: 5y
 
 Package: linux-headers-server
@@ -27423,13 +28148,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
+Version: 3.2.0.39.47
 Depends: linux-headers-generic-pae
-Filename: pool/main/l/linux-meta/linux-headers-server_3.2.0.38.46_i386.deb
-Size: 1726
-MD5sum: 420d6b1626065bb85f0069072efcb283
-SHA1: 7ae5479aab924fc307fe9bc939048e999d8f744d
-SHA256: 1acef75a57a6e42974f0ebf302a8e027e6c85f13aae0b80ac168592f9c030be6
+Filename: pool/main/l/linux-meta/linux-headers-server_3.2.0.39.47_i386.deb
+Size: 1724
+MD5sum: c38d53789272db1f173bc911b3392eac
+SHA1: c90463e2d4e291a9dc489e83cd654e591594568f
+SHA256: f864f570a7511df9ac62f8742b01c88d094f51d2b52d9ff3cae61e71509e43a0
 Description: Linux kernel headers on Server Equipment.
 Description-md5: 274496832062104176ecb45f5162109f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -27443,13 +28168,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-headers-3.2.0-38-virtual
-Filename: pool/main/l/linux-meta/linux-headers-virtual_3.2.0.38.46_i386.deb
-Size: 2604
-MD5sum: 3ce8b8c222a7e2c2dc1989b3d5eca905
-SHA1: 2e3c7c2fc49312f2d97e1b7b758d210c69ca2033
-SHA256: b8c65fa30b3897d1026f51d4dd74b33c4167031e4ee546528998d2cc8a44513a
+Version: 3.2.0.39.47
+Depends: linux-headers-3.2.0-39-virtual
+Filename: pool/main/l/linux-meta/linux-headers-virtual_3.2.0.39.47_i386.deb
+Size: 2594
+MD5sum: e1b6fe659502211efb1fd98ca2f74541
+SHA1: 38876e4b77eae7c043df563b45182ec4a8086cf8
+SHA256: fa2c20ef956fcbc2dc01635a38701ca4a7233153baa7f967a3fcf90a6bfcd64d
 Description: Linux kernel headers for virtual machines
 Description-md5: 9b3654ef6387cd2a6e2896508941e3db
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -27463,13 +28188,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-image-hwe-generic, linux-headers-generic-pae
-Filename: pool/main/l/linux-meta/linux-hwe-generic_3.2.0.38.46_i386.deb
-Size: 1724
-MD5sum: ae45b246fa6883b07195a11064bc95c3
-SHA1: 8b5bd21eeb8745de6cc9ba13ac585073d9ba7b45
-SHA256: 5b80e09cc81648cfe0e494658ec2f1dde7d99a8d62df81d705dbc498fb4c97ee
+Version: 3.2.0.39.47
+Depends: linux-image-hwe-generic, linux-headers-generic-lts-quantal
+Filename: pool/main/l/linux-meta/linux-hwe-generic_3.2.0.39.47_i386.deb
+Size: 1728
+MD5sum: 2acf7051c77d37c5afb94d5f90b397a5
+SHA1: 53b17455b2712665df5901a6aa051174dfe075f5
+SHA256: 1079dda02937f35b8c558afb7d9872026cecffd66f081b8124414deffb4f3c38
 Description: Depends on the generic hardware enablement kernel image and headers.
 Description-md5: 0133504a9e92acd2e36722616ba9e9d9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -27483,13 +28208,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-image-generic-pae (= 3.2.0.38.46)
-Filename: pool/main/l/linux-meta/linux-image_3.2.0.38.46_i386.deb
-Size: 1712
-MD5sum: a7f2b679c0555f58f3cfcfd31d2270f0
-SHA1: c151a606c53ff880b824319d854e43a88a9298cc
-SHA256: e381d43df358ae88c13512aeed3747c7215cdbffb8469b7369c9315b9d8cb43c
+Version: 3.2.0.39.47
+Depends: linux-image-generic-pae (= 3.2.0.39.47)
+Filename: pool/main/l/linux-meta/linux-image_3.2.0.39.47_i386.deb
+Size: 1708
+MD5sum: 01600193a06ceb4e868e54b11639d01b
+SHA1: dd5f10dc8b8adab77358baab4a5dfb6ba07eef26
+SHA256: b73c10481b5cb786b16c8c7e0442e2018a579441bb29c262b4327d3e61984f2c
 Description: Generic Linux kernel image.
 Description-md5: bbb651153b198d4cc1090132ccf7582b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -28419,7 +29144,7 @@ Description: Linux kernel image for version 3.2.0 on 32 bit x86 SMP
 Description-md5: a9da3266ff97ecb0976fd0ca6b39ba7a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-image-3.2.0-38-generic-pae
 Priority: optional
@@ -28444,7 +29169,7 @@ Description: Linux kernel image for version 3.2.0 on 32 bit x86 SMP
 Description-md5: 6933e2e147995585ec031363c324e950
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-image-3.2.0-38-virtual
 Priority: optional
@@ -28465,6 +29190,81 @@ Size: 12090898
 MD5sum: ed5e26c46c0c2c03dc1ca47f9b592022
 SHA1: fae81276cb7ca3c1e8135d3b0bb3ae33929e9f60
 SHA256: 1ec183b6368fb80ae4a0cc41d9a3b9e771f25db465efab62c6390d424d3bd17d
+Description: Linux kernel image for version 3.2.0 on 32 bit x86 Virtual Guests
+Description-md5: 80e56a3feb0e9c87f2bead9765fd50a9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: linux-image-3.2.0-39-generic
+Priority: optional
+Section: kernel
+Installed-Size: 110211
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux
+Version: 3.2.0-39.62
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, linux-image-3.0, redhat-cluster-modules
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3), crda (>= 1.1.1-1ubuntu2) | wireless-crda
+Pre-Depends: dpkg (>= 1.10.24)
+Recommends: grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo (>= 19.1)
+Suggests: fdutils, linux-doc-3.2.0 | linux-source-3.2.0, linux-tools
+Conflicts: hotplug (<< 0.0.20040105-1)
+Filename: pool/main/l/linux/linux-image-3.2.0-39-generic_3.2.0-39.62_i386.deb
+Size: 38015300
+MD5sum: c2724701b879cdb13ae013b5b8d89665
+SHA1: 20f8fb66ecb46480dbc04d637c47ec0827e427da
+SHA256: 16fc6d60a508fe9777f09d22cbae028616a5afc06f1bb2d630891fd27b5842ad
+Description: Linux kernel image for version 3.2.0 on 32 bit x86 SMP
+Description-md5: a9da3266ff97ecb0976fd0ca6b39ba7a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-image-3.2.0-39-generic-pae
+Priority: optional
+Section: kernel
+Installed-Size: 110510
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux
+Version: 3.2.0-39.62
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, linux-image-3.0, redhat-cluster-modules
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3), crda (>= 1.1.1-1ubuntu2) | wireless-crda
+Pre-Depends: dpkg (>= 1.10.24)
+Recommends: grub-pc | grub | lilo (>= 19.1)
+Suggests: fdutils, linux-doc-3.2.0 | linux-source-3.2.0, linux-tools
+Conflicts: hotplug (<< 0.0.20040105-1)
+Filename: pool/main/l/linux/linux-image-3.2.0-39-generic-pae_3.2.0-39.62_i386.deb
+Size: 38237176
+MD5sum: fc944298098ae4eeb4bd8ee75e0712ef
+SHA1: d4324fa740fc9bca008f4bdf0882525638641e65
+SHA256: 00f301a88df43845b35335d85aa5c89f36c7c1a908fb1b693bbbae16ed9d7ccc
+Description: Linux kernel image for version 3.2.0 on 32 bit x86 SMP
+Description-md5: 6933e2e147995585ec031363c324e950
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: linux-image-3.2.0-39-virtual
+Priority: optional
+Section: kernel
+Installed-Size: 26480
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux
+Version: 3.2.0-39.62
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, linux-image-3.0, redhat-cluster-modules
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3), crda (>= 1.1.1-1ubuntu2) | wireless-crda
+Pre-Depends: dpkg (>= 1.10.24)
+Recommends: grub-pc | grub | lilo (>= 19.1)
+Suggests: fdutils, linux-doc-3.2.0 | linux-source-3.2.0, linux-tools
+Conflicts: hotplug (<< 0.0.20040105-1)
+Filename: pool/main/l/linux/linux-image-3.2.0-39-virtual_3.2.0-39.62_i386.deb
+Size: 12111794
+MD5sum: e597cacf8da26adfc9515f4b4880283a
+SHA1: 1c780c5786fd4f889abd213fc005a79fb8a02cc6
+SHA256: cdb3c21580605eef49d1c7ea5d93ca221620e005e54aaa19560184ecbdebf681
 Description: Linux kernel image for version 3.2.0 on 32 bit x86 Virtual Guests
 Description-md5: 80e56a3feb0e9c87f2bead9765fd50a9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -28591,6 +29391,30 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: linux-image-3.5.0-26-generic
+Priority: optional
+Section: kernel
+Installed-Size: 115208
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-lts-quantal
+Version: 3.5.0-26.42~precise1
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3), crda (>= 1.1.1-1ubuntu2) | wireless-crda
+Pre-Depends: dpkg (>= 1.10.24)
+Recommends: grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo (>= 19.1)
+Suggests: fdutils, linux-lts-quantal-doc-3.5.0 | linux-lts-quantal-source-3.5.0, linux-lts-quantal-tools
+Conflicts: hotplug (<< 0.0.20040105-1)
+Filename: pool/main/l/linux-lts-quantal/linux-image-3.5.0-26-generic_3.5.0-26.42~precise1_i386.deb
+Size: 40096574
+MD5sum: 84e0e172038f806224ac0f5aa8a36d59
+SHA1: de3f9ede5ae794792a5355e78eaaffd28b023ec9
+SHA256: 85151952bb0b88ffcc3a30c562ba85177022316169bd6a2ed769d826756ae168
+Description: Linux kernel image for version 3.5.0 on 32 bit x86 SMP
+Description-md5: eeaa119f302f70c1a8950e18fdeea032
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: linux-image-current-generic
 Priority: optional
 Section: kernel
@@ -28598,13 +29422,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
+Version: 3.2.0.39.47
 Depends: linux-image-hwe-generic
-Filename: pool/main/l/linux-meta/linux-image-current-generic_3.2.0.38.46_i386.deb
-Size: 1746
-MD5sum: 6d31c6f93f41d62ee27c5702e838bbd7
-SHA1: 0947fa92995f0ef8b4d4405fa5daa49b1e8122a3
-SHA256: d9c52bafbf014f271463ed560a012cbfffafd76f447e958d4e03ff96fd09738a
+Filename: pool/main/l/linux-meta/linux-image-current-generic_3.2.0.39.47_i386.deb
+Size: 1742
+MD5sum: 748478a92584c326fa2ac0fffe35cbac
+SHA1: 0c2620cfd6a1637027685bb63b32f6d155fd14d0
+SHA256: 2db9078b62b42ed5d80fc439cf87243dd21c169be2689d7cf61b49ea137610ed
 Description: Depends on the most recently released generic kernel image and headers.
 Description-md5: 91c34f8ac5e684a4fb359b76335a5f39
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -28869,6 +29693,26 @@ Description: Linux kernel image for version 3.2.0 on 32 bit x86 Virtual Guests
 Description-md5: 80e56a3feb0e9c87f2bead9765fd50a9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
+
+Package: linux-image-extra-3.2.0-39-virtual
+Priority: optional
+Section: kernel
+Installed-Size: 84480
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux
+Version: 3.2.0-39.62
+Depends: linux-image-3.2.0-39-virtual
+Filename: pool/main/l/linux/linux-image-extra-3.2.0-39-virtual_3.2.0-39.62_i386.deb
+Size: 26007844
+MD5sum: affb2ca5655d146eb04abc9ad2ddebfb
+SHA1: 8a41f71f7c8d4796dbff6f20b777d617d48f58cb
+SHA256: 74b3c2f874114d93479b0dcb28bb67b3a26c6c8bf765d452b9744c39bc18b8fe
+Description: Linux kernel image for version 3.2.0 on 32 bit x86 Virtual Guests
+Description-md5: 80e56a3feb0e9c87f2bead9765fd50a9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
 Supported: 5y
 
 Package: linux-image-extra-virtual
@@ -28878,13 +29722,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-image-virtual (= 3.2.0.38.46), linux-image-extra-3.2.0-38-virtual
-Filename: pool/main/l/linux-meta/linux-image-extra-virtual_3.2.0.38.46_i386.deb
-Size: 1738
-MD5sum: b30f02e0e8d97d58b43dc3f20d1b8f74
-SHA1: a59104ef722bf6a5fdec30c20a6740f072698dba
-SHA256: 61f101aa8b71f47170ba3b0830ba9985f195aa60bbb9adec698bdc05d22f80ef
+Version: 3.2.0.39.47
+Depends: linux-image-virtual (= 3.2.0.39.47), linux-image-extra-3.2.0-39-virtual
+Filename: pool/main/l/linux-meta/linux-image-extra-virtual_3.2.0.39.47_i386.deb
+Size: 1736
+MD5sum: 6e77ec0e141588504ef94bd3c5b63e5c
+SHA1: 9fdbfcb0944a9c16d9a243a17cdf06e74dc4d0c4
+SHA256: 559c6083b79509c3015d027a13c26c5bf360126ced2b6a1a4f11d937ba34a43f
 Description: Linux kernel extra modules for virtual machines
 Description-md5: 8b358406a04de4def86647c7a7506e59
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -28898,13 +29742,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-image-3.2.0-38-generic, linux-firmware
-Filename: pool/main/l/linux-meta/linux-image-generic_3.2.0.38.46_i386.deb
-Size: 2608
-MD5sum: 5ce92b4a584ddaab12120f02837d219a
-SHA1: 2f48a62a0ececad214abbaa08af9498a7b48972c
-SHA256: feb637a6be81511d87aabcb46963b982edb30f926e55e7980ccca13d8fce25a5
+Version: 3.2.0.39.47
+Depends: linux-image-3.2.0-39-generic, linux-firmware
+Filename: pool/main/l/linux-meta/linux-image-generic_3.2.0.39.47_i386.deb
+Size: 2592
+MD5sum: ee7a8216216921b53f2ca1863c69947e
+SHA1: eac1684caf3098e95fd2a77cbabc748dfb55f625
+SHA256: 95bc38160c483850556e42128872c36510b2a29d4b365cd7b4b6c0ff85d873b5
 Description: Generic Linux kernel image
 Description-md5: 6d632579c673704f44b290b16e7dbfd1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -28918,13 +29762,13 @@ Installed-Size: 27
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta-lts-quantal
-Version: 3.5.0.25.32
-Depends: linux-image-3.5.0-25-generic, linux-firmware
-Filename: pool/main/l/linux-meta-lts-quantal/linux-image-generic-lts-quantal_3.5.0.25.32_i386.deb
-Size: 2590
-MD5sum: 2b75c0b1aedb5e3d9fb8696ecdfe68f9
-SHA1: 4dfe659a856b5f0efe89320a4b2567cea7bcbb5b
-SHA256: dfc65cb0d4d61eaf4e3a62be55e39298880482b51a1b29b9e12a6be51a3b7b68
+Version: 3.5.0.26.33
+Depends: linux-image-3.5.0-26-generic, linux-firmware
+Filename: pool/main/l/linux-meta-lts-quantal/linux-image-generic-lts-quantal_3.5.0.26.33_i386.deb
+Size: 2502
+MD5sum: 48fd85aa3dea0b569e5cc17aabd917cd
+SHA1: dbcd763224f809b12cf9fd4d7bb9d05f09bfb904
+SHA256: fa5321bd79193f300c41ba7c2b3976b7aec35c7ae08e32067a6c3539489b0561
 Description: Generic Linux kernel image
 Description-md5: c7e4fbc023632f2e538ff93b600ef34c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -28938,13 +29782,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-image-3.2.0-38-generic-pae, linux-firmware
-Filename: pool/main/l/linux-meta/linux-image-generic-pae_3.2.0.38.46_i386.deb
-Size: 2616
-MD5sum: ea99d3ce5c7b4595894899c5bddbc509
-SHA1: 5a31b982feb579bfe9d07e5594ed4cc7d0ccaa84
-SHA256: d8c8fd8c51c6d3b639001369e58ac7ec64f884ab6421e304a87451eac668ba90
+Version: 3.2.0.39.47
+Depends: linux-image-3.2.0-39-generic-pae, linux-firmware
+Filename: pool/main/l/linux-meta/linux-image-generic-pae_3.2.0.39.47_i386.deb
+Size: 2600
+MD5sum: 025589879986796f17fce2bbf03b6538
+SHA1: d3ae9c0ae3c7e4219d5dbbdb707dac5eb0843566
+SHA256: a28802d20f2e7d9ae4e6118a0931bcb142469b04ab80e483307a642b32a74c76
 Description: Generic Linux kernel image
 Description-md5: 6d632579c673704f44b290b16e7dbfd1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -28958,13 +29802,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-image-generic-pae
-Filename: pool/main/l/linux-meta/linux-image-hwe-generic_3.2.0.38.46_i386.deb
-Size: 1720
-MD5sum: 656ca008026b4d1aac9daed6582f609c
-SHA1: c31ab8a3e8a26234b2a1c19d1ab13f71f490976c
-SHA256: a6e233a506e12dbdb59cc310ee14d93a14ec7f03f12be3434d7c4f1624614107
+Version: 3.2.0.39.47
+Depends: linux-image-generic-lts-quantal
+Filename: pool/main/l/linux-meta/linux-image-hwe-generic_3.2.0.39.47_i386.deb
+Size: 2610
+MD5sum: 2233b2187b7fd945ccd500d7cfe904b3
+SHA1: 7f0b397ffab5e3cc7ea9f899013f86dc8c772e39
+SHA256: 9e146212d3f1d6cc9cc947f8da4a0b8a71bde19c6cf4752ccc12e7060d6c5b1c
 Description: Depends on the generic hardware enablement kernel image and headers.
 Description-md5: 0133504a9e92acd2e36722616ba9e9d9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -28978,13 +29822,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
+Version: 3.2.0.39.47
 Depends: linux-image-generic-pae
-Filename: pool/main/l/linux-meta/linux-image-server_3.2.0.38.46_i386.deb
-Size: 1724
-MD5sum: 472b37ad10577a8ccd4314b7bf4f41fb
-SHA1: 645dfcd9cb29ba1eec41be63d383df42cc852172
-SHA256: db32af83b0c718e851eeb3525bbac4e1e9e1fef2c9e7490c7600b51822e91783
+Filename: pool/main/l/linux-meta/linux-image-server_3.2.0.39.47_i386.deb
+Size: 1722
+MD5sum: cfb7ffcc4dd968e97051024a7ba183d4
+SHA1: 8c00c1271bc292ca3438a3b79a0549f26a9b44f9
+SHA256: 2ca63d6c32abe8224523e1284c9450f8061d846ab5b88c6c48cb730c784ec6f0
 Description: Linux kernel image on Server Equipment.
 Description-md5: 007bbe2f78b35f829de192081a692f99
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -28998,13 +29842,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-image-3.2.0-38-virtual, linux-firmware
-Filename: pool/main/l/linux-meta/linux-image-virtual_3.2.0.38.46_i386.deb
-Size: 2640
-MD5sum: fc8362d3a5c9b75de0bf4ab59c146d8c
-SHA1: 129a34f1d48dbc4b24f6139ce65fc62238de38d8
-SHA256: feea1f17018cc18ecfd8ea66ca3c62823445d1909f92d7f20ae150771af37368
+Version: 3.2.0.39.47
+Depends: linux-image-3.2.0-39-virtual, linux-firmware
+Filename: pool/main/l/linux-meta/linux-image-virtual_3.2.0.39.47_i386.deb
+Size: 2632
+MD5sum: 5ec5f30f979dba8633a8cb8949ee24df
+SHA1: e5e815dcab594b2d6109e206dad320e7d00df11f
+SHA256: 7888fa5f87454f879917c2df8b981af81987fcf038b8893433900d919793181d
 Description: Linux kernel image for virtual machines
 Description-md5: 65a968707ca747ae6fda15d15c871cf4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -29014,19 +29858,19 @@ Supported: 5y
 Package: linux-libc-dev
 Priority: optional
 Section: devel
-Installed-Size: 3027
+Installed-Size: 3032
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux
-Version: 3.2.0-38.61
+Version: 3.2.0-39.62
 Replaces: dvb-dev (<< 1.0.1-6), libc6-dev (<< 2.3.2.ds1-6), libc6.1-dev (<< 2.3.2.ds1-6), libdrm-dev, linux-kernel-headers
 Provides: linux-kernel-headers
 Conflicts: amd64-libs-dev (<= 1.1), dvb-dev (<< 1.0.1-6), libc6-dev (<< 2.3.2.ds1-6), libc6.1-dev (<< 2.3.2.ds1-6), linux-kernel-headers
-Filename: pool/main/l/linux/linux-libc-dev_3.2.0-38.61_i386.deb
-Size: 861960
-MD5sum: 109cd6c3baa19b6870f060abc872811a
-SHA1: bf664d14d11ca981957ee2d875f3c235ae9e03c0
-SHA256: ed1c201b162cdf7a7a3b89c3285ae6b1b66200378424be1ffc720fd4396db878
+Filename: pool/main/l/linux/linux-libc-dev_3.2.0-39.62_i386.deb
+Size: 866142
+MD5sum: cd1115a0c93fdbeea0d83cf74b1689ef
+SHA1: 5c2fe59cc4a73c112577e219e44d3e41a8f9fb4b
+SHA256: 99c368a45ff1dcc00d5dfc73cb495e33918263242eaadbfca5d34b2361990050
 Description: Linux Kernel Headers for development
 Multi-Arch: same
 Description-md5: d5d143e6dffc891f04a85464446f9451
@@ -29043,13 +29887,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
+Version: 3.2.0.39.47
 Depends: linux-generic-pae
-Filename: pool/main/l/linux-meta/linux-server_3.2.0.38.46_i386.deb
-Size: 1730
-MD5sum: 070070b0c20a28d358bd10ef21aa494b
-SHA1: d970dcb96ce82d897a13941506326659e2faab8d
-SHA256: ec5701cc9e778bdd335969df3bb3e0bebed9ef609893779adf18341fa903b75e
+Filename: pool/main/l/linux-meta/linux-server_3.2.0.39.47_i386.deb
+Size: 1726
+MD5sum: 127857146e6e39b8dae84005730f7ff9
+SHA1: 1df5b7127594c2ea5bb8df7ce7468ae1c9555f70
+SHA256: e05bb1586e52f78bc0bbb333fc9f7f500e7fc3ff4fd8b128ab8cf06020afcc18
 Description: Complete Linux kernel on Server Equipment.
 Description-md5: 6950f6655c5c3d907600f4f90177a042
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -29063,13 +29907,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: all
 Source: linux-meta
-Version: 3.2.0.38.46
+Version: 3.2.0.39.47
 Depends: linux-source-3.2.0
-Filename: pool/main/l/linux-meta/linux-source_3.2.0.38.46_all.deb
-Size: 2594
-MD5sum: 9aac25f46a8a8afd26675c19139dcab0
-SHA1: 37e2141e5cf609634bf4604204c309d0fd8d8a7b
-SHA256: bfdac41bcf2efe92c09ea7b9c7e60bc0add25947943e82fd001f9361745b9b88
+Filename: pool/main/l/linux-meta/linux-source_3.2.0.39.47_all.deb
+Size: 2590
+MD5sum: 83132aa79c57326478cfee31e56a3042
+SHA1: cc020df0313fe5788b4e07e5c680838d27c0a06e
+SHA256: f38ee5594ae789e41bffd80f5f304bb229bfd291d0e5e8dc9df4fac015523c20
 Description: Linux kernel source with Ubuntu patches
 Description-md5: 1cac084d2ae18dfd06b96585b4be564d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -29375,6 +30219,29 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-source-3.2.0
+Priority: optional
+Section: devel
+Installed-Size: 87322
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: all
+Source: linux
+Version: 3.2.0-39.62
+Provides: linux-source, linux-source-3
+Depends: binutils, bzip2, coreutils | fileutils (>= 4.0)
+Recommends: libc-dev, gcc, make
+Suggests: libncurses-dev | ncurses-dev, kernel-package, libqt3-dev
+Filename: pool/main/l/linux/linux-source-3.2.0_3.2.0-39.62_all.deb
+Size: 81980852
+MD5sum: 01b8a8a43d8426c07b88d3db1a519c1b
+SHA1: d2c884d32824f39a2d522678b6e5bebc8d614466
+SHA256: d3d93eff9ca2bbaf151dca422816af43e9d1fcff2e876b0b618b76ac4c4e9d25
+Description: Linux kernel source for version 3.2.0 with Ubuntu patches
+Description-md5: 4bcc942bb238c969d25361770106e5e8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
 Package: linux-tools
 Priority: optional
 Section: metapackages
@@ -29382,13 +30249,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-tools-3.2.0-38
-Filename: pool/main/l/linux-meta/linux-tools_3.2.0.38.46_i386.deb
-Size: 2604
-MD5sum: 628a974794c2a4f0da8446e126b97444
-SHA1: 1f3e0b512146b685bb125963ea3a0cf0b9619309
-SHA256: 023d50e2de901853a836f2cb6c5463b112156a96037920285e6d5522f11aefe0
+Version: 3.2.0.39.47
+Depends: linux-tools-3.2.0-39
+Filename: pool/main/l/linux-meta/linux-tools_3.2.0.39.47_i386.deb
+Size: 2600
+MD5sum: 4857e3b0128b4a1867afb0c698e4a749
+SHA1: 08643c47633d97205a906b7f784b858bc8938b21
+SHA256: 3c0d2caf5f5b729cb035b6507e3149568ba4b3a64ff445f4a970e1acdde518d5
 Description: Linux kernel versioned Tools
 Description-md5: ea15db5fd6e3e3cff13446d5e28af7c8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -29653,6 +30520,26 @@ Description: Linux kernel version specific tools for version 3.2.0-38
 Description-md5: 2448761a3da2f3256702b6dc2f72e751
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
+
+Package: linux-tools-3.2.0-39
+Priority: optional
+Section: devel
+Installed-Size: 859
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux
+Version: 3.2.0-39.62
+Depends: libc6 (>= 2.8), libdw1 (>= 0.143), libelf1 (>= 0.131), libnewt0.52, libslang2 (>= 2.0.7-1), linux-tools-common
+Filename: pool/main/l/linux/linux-tools-3.2.0-39_3.2.0-39.62_i386.deb
+Size: 336640
+MD5sum: 644818ea37d191f57d029393f7515fdb
+SHA1: ed0a34d7a8163ef6da26e38ce7d39339ca33075d
+SHA256: 7d87a357b9095b2083a1f0cc5fdf451d83bc2062fecedf18960ec3d6be5c3e3f
+Description: Linux kernel version specific tools for version 3.2.0-39
+Description-md5: cb7a54beeea4805068fd8f1b80f19373
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
 Supported: 5y
 
 Package: linux-tools-3.5.0-23
@@ -29691,6 +30578,26 @@ SHA1: b08383e4272107a093bcff87125f0fb0f96ddac2
 SHA256: 6a23951c5c51c5601ece882021f1544426747642d0cb48b7821d47719dd3ffcc
 Description: Linux kernel version specific tools for version 3.5.0-25
 Description-md5: 2baf36c969de3e68ff019ec7f6007f45
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: linux-tools-3.5.0-26
+Priority: optional
+Section: devel
+Installed-Size: 1001
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-lts-quantal
+Version: 3.5.0-26.42~precise1
+Depends: libc6 (>= 2.8), libdw1 (>= 0.143), libelf1 (>= 0.131), libnewt0.52, libslang2 (>= 2.0.7-1), linux-tools-common
+Filename: pool/main/l/linux-lts-quantal/linux-tools-3.5.0-26_3.5.0-26.42~precise1_i386.deb
+Size: 399680
+MD5sum: 27a97d52ef5490a6cc3fe699510f9c32
+SHA1: a6cf7d9a11638c86a6c4919b9dbd7508f256c52e
+SHA256: 533afa1a963acc2cb9f4eac537fe17e1f02b5cf1649a866b3d67f0310924524e
+Description: Linux kernel version specific tools for version 3.5.0-26
+Description-md5: 860ea3bea1b75851edc1786b6e8a69c2
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
@@ -29955,6 +30862,26 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-tools-common
+Priority: optional
+Section: kernel
+Installed-Size: 229
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: all
+Source: linux
+Version: 3.2.0-39.62
+Replaces: linux-tools (<= 2.6.32-16.25)
+Filename: pool/main/l/linux/linux-tools-common_3.2.0-39.62_all.deb
+Size: 76432
+MD5sum: 3d931eaa4bd7bb95891b1afd0e811f94
+SHA1: 1ec1f861bf160231a9ed45d0db69e3caec5f67aa
+SHA256: 567db55a7e23c8b6542c77ee3b33415faf9c0673c779aa4cf1802fc4ae1807c5
+Description: Linux kernel version specific tools for version 3.2.0
+Description-md5: bb157dbc2ad1792e43aba537834eef67
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
 Package: linux-tools-lts-quantal
 Priority: optional
 Section: kernel
@@ -29962,13 +30889,13 @@ Installed-Size: 27
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta-lts-quantal
-Version: 3.5.0.25.32
-Depends: linux-tools-3.5.0-25
-Filename: pool/main/l/linux-meta-lts-quantal/linux-tools-lts-quantal_3.5.0.25.32_i386.deb
-Size: 2576
-MD5sum: 02150a7a22bb184fd5273159675ef6bd
-SHA1: d6e3f3c85e14d350a48d7449a34776c0aad77426
-SHA256: 236d0a66b7908f1d4a852481bf917b0bc7bd5b674c9cf31132a011b588a49c95
+Version: 3.5.0.26.33
+Depends: linux-tools-3.5.0-26
+Filename: pool/main/l/linux-meta-lts-quantal/linux-tools-lts-quantal_3.5.0.26.33_i386.deb
+Size: 2494
+MD5sum: da5d10699779cf0081acf6bca250a7c5
+SHA1: 9e0242ae0a9854b59c594de7e849a35c315a6f03
+SHA256: 65adb3ccb994f24c8cff911907436cc860c4082bb25edcd371cd80ef7db50d08
 Description: Linux kernel versioned Tools
 Description-md5: ea15db5fd6e3e3cff13446d5e28af7c8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -29982,13 +30909,13 @@ Installed-Size: 31
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: i386
 Source: linux-meta
-Version: 3.2.0.38.46
-Depends: linux-image-virtual (= 3.2.0.38.46), linux-headers-virtual (= 3.2.0.38.46)
-Filename: pool/main/l/linux-meta/linux-virtual_3.2.0.38.46_i386.deb
+Version: 3.2.0.39.47
+Depends: linux-image-virtual (= 3.2.0.39.47), linux-headers-virtual (= 3.2.0.39.47)
+Filename: pool/main/l/linux-meta/linux-virtual_3.2.0.39.47_i386.deb
 Size: 1756
-MD5sum: 4d0fbe95dc3b734b29039eff116621a9
-SHA1: c21fed533fe7ebb230069ed11396ea86b464aade
-SHA256: 2c4d5fdaaad0dfcd708516806a1f3f5348c10f729244dd753a4e1619c390fc51
+MD5sum: d8edca0f47521d4b6128d4fb8bd8bd79
+SHA1: 93c9ed224fa40673a87b0a9ccb28a9e5705ec955
+SHA256: 9c1ddd08181c5da65031f13e10917a3e29158eeffed2bd815a896904893d6045
 Description: Complete Linux kernel for virtual machines
 Description-md5: 1fcefd4617bb67b6504e23a73590a356
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -30636,13 +31563,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python, upstart-job
-Filename: pool/main/n/nova/nova-api_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 4372
-MD5sum: 3b1806e349e6270ab0b33cc686e5fa36
-SHA1: e533192b2ffd4e57299b39f0040369d1e81f00e0
-SHA256: da8205232c15993b444946400a574cc49bf835eba8a71ecf9dfd8338ccbce323
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
+Filename: pool/main/n/nova/nova-api_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 4380
+MD5sum: e354f7803a1ddf5123da77958601fb13
+SHA1: dd1d7c4ea11e2a498ffa0fd12b8c048833fbd432
+SHA256: bede146c71eb439e8a40420f127ca17cc6e52c05fff27edb3e5a970ba4e532b9
 Description: OpenStack Compute - API frontend
 Homepage: http://launchpad.net/nova
 Description-md5: 93751a4c42a717b98a076fc37e614e1c
@@ -30658,13 +31585,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python, upstart-job
-Filename: pool/main/n/nova/nova-cert_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 4436
-MD5sum: e3f360b273df69c69afd5218a8393378
-SHA1: 2a25dc225398e88173bbe07c7774c7e2be6bf83e
-SHA256: 95a0aa7660416ad164b0cd35fa047bd9fac513d2cb5b79a6a9dfcf6756388a74
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
+Filename: pool/main/n/nova/nova-cert_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 4442
+MD5sum: 683107ac910d412cc5c31be71122ae8b
+SHA1: 481e6a146049037eef7764324d615367e424b269
+SHA256: 41352e6dcdc23320ab8fe08b5842f7fb69e94711818dda3e1b31c4c72e4333ad
 Description: OpenStack Compute - certificate management
 Homepage: http://launchpad.net/nova
 Description-md5: 171b61c56d67b812f80c5642bfa0d1d2
@@ -30680,14 +31607,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
-Depends: python-amqplib, python-nova (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python, adduser
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Depends: python-amqplib, python-nova (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, adduser
 Suggests: python-keystone
-Filename: pool/main/n/nova/nova-common_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 26542
-MD5sum: 1cf33c7b393f118214b4d656cd6e30be
-SHA1: 7c8008d78a9ee0f026106e5a8322d6ca66574469
-SHA256: 8d862efc7d4588117373a167a4a9c16aa6c3ea6f28c4715960010fc1a85491fd
+Filename: pool/main/n/nova/nova-common_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 26664
+MD5sum: e187ad5fba1f3253269927246cd4599a
+SHA1: 1ef017eb7e8ad86df18345fc58acb067a42a3b2b
+SHA256: 718f9655d2bcc9b65d5307984443189bae75f3c7a0b2f22fd5faf6f7a9d782a4
 Description: OpenStack Compute - common files
 Homepage: http://launchpad.net/nova
 Description-md5: ca300a4c4a13a67629e52754451325a3
@@ -30703,13 +31630,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
-Depends: lsb-base (>= 3.0.6), nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), qemu-utils, kpartx, curl, parted, vlan, ebtables, gawk, iptables, open-iscsi, nova-compute-kvm | nova-compute-hypervisor, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), upstart-job
-Filename: pool/main/n/nova/nova-compute_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 6638
-MD5sum: ffea51f80d5952ce71f340c498bf7c59
-SHA1: 1c6676d67592aba94355afe236536e1b86203859
-SHA256: cb9dece46dd0ee36a01323a03ef9a1950520f2a0b4ebc1aea792e309ec5fef9b
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Depends: lsb-base (>= 3.0.6), nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), qemu-utils, kpartx, curl, parted, vlan, ebtables, gawk, iptables, open-iscsi, nova-compute-kvm | nova-compute-hypervisor, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), upstart-job
+Filename: pool/main/n/nova/nova-compute_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 6646
+MD5sum: 5881e9edc245f05049bc57ecc080b323
+SHA1: 7916eb97f0d78a7d7de0924751913e6d7e23f63a
+SHA256: 73eb042abec866b45d2ddaa38311b0f4e0003d74d75cc047a393cc5c6af64d44
 Description: OpenStack Compute - compute node
 Homepage: http://launchpad.net/nova
 Description-md5: 4ede856ba4b4b8796676686d84f6183b
@@ -30725,15 +31652,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
 Provides: nova-compute-hypervisor
-Depends: nova-compute (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python-libvirt, libvirt-bin, kvm
+Depends: nova-compute (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python-libvirt, libvirt-bin, kvm
 Conflicts: nova-compute-hypervisor
-Filename: pool/main/n/nova/nova-compute-kvm_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 2776
-MD5sum: af4c4ae69c236eabc70851e46feeabeb
-SHA1: 96fbbf637654528128dc1061836cb59491f7ce0e
-SHA256: bf378b6a56d847b7ac8404682b9379be9c8d44c958cac94e967cb1e3c002f913
+Filename: pool/main/n/nova/nova-compute-kvm_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 2772
+MD5sum: 24c55b709689e49d383ee33eaf866e81
+SHA1: 01ced8c35d24a4c208dbb5f0465a2cd13d8f2c00
+SHA256: 32f8197df65c4656ef54f2fbe0bb5b4db03c48110f23b7b23a764a1a85b4d761
 Description: OpenStack Compute - compute node (KVM)
 Homepage: http://launchpad.net/nova
 Description-md5: 3a3f4fc6eb0e0d1a1a52636f4a84daa1
@@ -30749,15 +31676,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
 Provides: nova-compute-hypervisor
-Depends: nova-compute (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python-libvirt, libvirt-bin
+Depends: nova-compute (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python-libvirt, libvirt-bin
 Conflicts: nova-compute-hypervisor
-Filename: pool/main/n/nova/nova-compute-lxc_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 2778
-MD5sum: 952664c21014b243f9ee5e98f2fe90ab
-SHA1: 3d68d99b1be9386332ae91b045babb5c25427327
-SHA256: 0b7e353e54e5b5dcc75622dc41702aa0701d2375a465025ade37e4dad6a94bc1
+Filename: pool/main/n/nova/nova-compute-lxc_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 2772
+MD5sum: f1000d3b9b25850169318fa6bd033ec8
+SHA1: 224db0f056771c81105124d321ef555fbf6aae14
+SHA256: a379d5bf792ca94e72297413f5fc9937934bbb33a058b287b7bb4c2b42831525
 Description: OpenStack Compute - compute node (LXC)
 Homepage: http://launchpad.net/nova
 Description-md5: 8c74b0f3d56b3da8c70cf752f98f7869
@@ -30768,18 +31695,18 @@ Supported: 5y
 Package: nova-doc
 Priority: extra
 Section: doc
-Installed-Size: 8870
+Installed-Size: 8873
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
 Recommends: libjs-jquery
-Filename: pool/main/n/nova/nova-doc_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 1707922
-MD5sum: 5f981c6035c02f1d12775e408836a8e7
-SHA1: 70a2a4729b047a8bf70f49349316ce2faecad969
-SHA256: 95189c1ea193d2fffb67ecc8286b6c42256482c1339cb5d658960e7cd4efdf83
+Filename: pool/main/n/nova/nova-doc_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 1711564
+MD5sum: 98df5781c5a97fb68a8106eac2b93ed8
+SHA1: 942d30b808bbb116615d3b3b7d32648d32f5c964
+SHA256: 62fc92e1d47737b12e76a96785659a804e8c9bdeb1decad506a36b34211c4da6
 Description: OpenStack Compute - documentation
 Homepage: http://launchpad.net/nova
 Description-md5: 1c367fcc5afa32969a8f351c6365dd1c
@@ -30795,14 +31722,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
-Depends: netcat, vlan, bridge-utils, dnsmasq-base, iputils-arping, dnsmasq-utils, nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), upstart-job
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Depends: netcat, vlan, bridge-utils, dnsmasq-base, iputils-arping, dnsmasq-utils, nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), upstart-job
 Suggests: radvd
-Filename: pool/main/n/nova/nova-network_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 7054
-MD5sum: 47c2e454ee2e1494625dfd7a3d0003b6
-SHA1: f204202422721d4c0feadee54a24c34d149211c3
-SHA256: 72807541211010406dd383cb1e637d39626422c87b12b712b25d4f7decdac93f
+Filename: pool/main/n/nova/nova-network_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 7066
+MD5sum: 0b7dc394e8268fc2ee867053f6442f23
+SHA1: d592de61f951887de307521bc9d355c81fb5d622
+SHA256: 6eccb8ec69221e26b5217f742beb847ad598e5c1f45b0169685521a471ebe54f
 Description: OpenStack Compute - Network manager
 Homepage: http://launchpad.net/nova
 Description-md5: ce3e77d724d3353406c26c4d4af8c565
@@ -30818,13 +31745,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python, upstart-job
-Filename: pool/main/n/nova/nova-objectstore_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 4540
-MD5sum: dc65a0ba7c65857779fdaf1d7c131248
-SHA1: 251976a84470fb3e222d18743af5488e89af003a
-SHA256: dded3bf754cf73d0532e17882c2812bfdbf27aee72018d73c15b18c7501cc72b
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
+Filename: pool/main/n/nova/nova-objectstore_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 4554
+MD5sum: cc4e2670b9ee4d2e02a5d2499f9961a6
+SHA1: 8cfd87e0e4b06e7f4fdcd6debb4e3de865f7a2f3
+SHA256: a0abfd0180f2ded92fb4c8f9df861f7c88432f216d670df9dd0e2f4181d02c67
 Description: OpenStack Compute - object store
 Homepage: http://launchpad.net/nova
 Description-md5: 25cb037ff1b6bb2f705647605954cac3
@@ -30840,13 +31767,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python, upstart-job
-Filename: pool/main/n/nova/nova-scheduler_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 4470
-MD5sum: 517a30b471fc3b55f49b3bd6e5250124
-SHA1: 7b85cb79a86c101ee431ea4bc58fd34c5e183522
-SHA256: 3d013bccc1c8fd4d36b92e4b589f75ad45875dcda72bb71aea204646f706655b
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
+Filename: pool/main/n/nova/nova-scheduler_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 4480
+MD5sum: 6ee9564c47b170ee6d9e48a6c3b987b8
+SHA1: 833ead391fd0c56eebd23a56848129990b8e31ab
+SHA256: 2efd4b18faa23bcc26e2fa1931be2a3bb33b19eff4903a4031b9a74efb1448c2
 Description: OpenStack Compute - virtual machine scheduler
 Homepage: http://launchpad.net/nova
 Description-md5: 8edec11a409c894d59bffef4d16d21b6
@@ -30862,14 +31789,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), python, upstart-job
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
 Conflicts: novnc
-Filename: pool/main/n/nova/nova-vncproxy_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 4402
-MD5sum: 9e5766ce7ed6c664faaef95de9ed9aeb
-SHA1: 441bc804453126d2545033d6b64ae68104605432
-SHA256: b6a609c607d390b2fb10cffcdfdd1f2d93dd9b09bd08c8455305a742737c126e
+Filename: pool/main/n/nova/nova-vncproxy_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 4416
+MD5sum: 9fde8e0843881e86866de315a2764d3a
+SHA1: 155471d47965ab865105f6d598795db78b8c40c5
+SHA256: 41eabe37c3d2a51f30462874cf1bec72012e80e3220302b69990da069f4e6dc0
 Description: OpenStack Compute - VNC proxy
 Homepage: http://launchpad.net/nova
 Description-md5: 6c983632d4f89ef7ae892c667cdca8ac
@@ -30885,14 +31812,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2), lvm2, tgt, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), upstart-job
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), lvm2, tgt, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), upstart-job
 Suggests: sheepdog
-Filename: pool/main/n/nova/nova-volume_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 5362
-MD5sum: bcacfddd351960967b2003fe8e5059c0
-SHA1: cc3fc45333fcf99003f653db4c4a6daa9f6f554a
-SHA256: f06b58a43372ba1c4e264d1fec6f57dd0ccbda4368c04260079823e7cd059839
+Filename: pool/main/n/nova/nova-volume_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 5386
+MD5sum: cf7e3f9199f54a09dee0d6b192b725ec
+SHA1: 0d630f25c4041e7f5f9d62fea87d987abaca8b65
+SHA256: 81c7eda641ce8d6c3903e8537de18c41f2b2305136ddd95d8cee0836697b45f4
 Description: OpenStack Compute - storage
 Homepage: http://launchpad.net/nova
 Description-md5: 892604663ba498beb13b0a04ea537629
@@ -31281,14 +32208,14 @@ Installed-Size: 898
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: i386
-Version: 1.0.1-4ubuntu5.7
+Version: 1.0.1-4ubuntu5.8
 Depends: libc6 (>= 2.15), libssl1.0.0 (>= 1.0.1)
 Suggests: ca-certificates
-Filename: pool/main/o/openssl/openssl_1.0.1-4ubuntu5.7_i386.deb
-Size: 518830
-MD5sum: d24740fc7ab3ca75c81fafe9ba982641
-SHA1: 021a83fbb2cb2fa0663165feacb53eaba02f2532
-SHA256: 18554be8b4adff1cd293924a13e5c008975789c38d9ba9d9ebbb6a0c5ddf9a91
+Filename: pool/main/o/openssl/openssl_1.0.1-4ubuntu5.8_i386.deb
+Size: 519360
+MD5sum: 7e829de5e8512a38905500ef82c1c4d0
+SHA1: 36dab4c63f0094710dac6a0683d2b83882d23de7
+SHA256: 70993d6ab8e5c432f972595331925815a0ae8cc5e497ce34081e622be9fb236e
 Description: Secure Socket Layer (SSL) binary and related cryptographic tools
 Description-md5: 977022bc5545601176b69704acc5df9b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -31347,19 +32274,19 @@ Installed-Size: 11259
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Niko Tyni <ntyni@debian.org>
 Architecture: i386
-Version: 5.14.2-6ubuntu2.2
+Version: 5.14.2-6ubuntu2.3
 Replaces: libarchive-tar-perl (<= 1.38-2), libcompress-raw-bzip2-perl, libcompress-raw-zlib-perl, libcompress-zlib-perl, libdevel-dprof-perl, libdigest-md5-perl, libdigest-sha-perl, libencode-perl, libio-compress-base-perl, libio-compress-bzip2-perl, libio-compress-perl, libio-compress-zlib-perl, libmime-base64-perl, libmodule-corelist-perl (<< 2.14-2), libstorable-perl, libsys-syslog-perl, libthreads-perl, libthreads-shared-perl, libtime-hires-perl, libtime-piece-perl, perl-base (<< 5.10.1-12), perl-doc (<< 5.8.0-1), perl-modules (<< 5.8.1-1)
 Provides: data-dumper, libcompress-raw-bzip2-perl, libcompress-raw-zlib-perl, libcompress-zlib-perl, libdevel-dprof-perl, libdigest-md5-perl, libdigest-sha-perl, libencode-perl, libio-compress-base-perl, libio-compress-bzip2-perl, libio-compress-perl, libio-compress-zlib-perl, libmime-base64-perl, libstorable-perl, libsys-syslog-perl, libthreads-perl, libthreads-shared-perl, libtime-hires-perl, libtime-piece-perl, perl5
-Depends: perl-base (= 5.14.2-6ubuntu2.2), perl-modules (>= 5.14.2-6ubuntu2.2), libbz2-1.0, libc6 (>= 2.11), libdb5.1, libgdbm3 (>= 1.8.3), zlib1g (>= 1:1.2.3.3.dfsg)
+Depends: perl-base (= 5.14.2-6ubuntu2.3), perl-modules (>= 5.14.2-6ubuntu2.3), libbz2-1.0, libc6 (>= 2.11), libdb5.1, libgdbm3 (>= 1.8.3), zlib1g (>= 1:1.2.3.3.dfsg)
 Recommends: netbase
 Suggests: perl-doc, libterm-readline-gnu-perl | libterm-readline-perl-perl, make
 Conflicts: doc-base (<< 0.10.3), libjson-pp-perl (<< 2.27200-2), libxml-sax-perl (<< 0.99+dfsg-1ubuntu0.1), mono-gac (<< 2.10.8.1-1)
 Breaks: libcompress-raw-bzip2-perl (<< 2.033), libcompress-raw-zlib-perl (<< 2.033), libcompress-zlib-perl (<< 2.033), libdevel-dprof-perl (<< 20110228.00), libdigest-md5-perl (<< 2.51), libdigest-sha-perl (<< 5.61), libencode-perl (<< 2.42.01), libio-compress-base-perl (<< 2.033), libio-compress-bzip2-perl (<< 2.033), libio-compress-perl (<< 2.033), libio-compress-zlib-perl (<< 2.033), libmime-base64-perl (<< 3.13), libstorable-perl (<< 2.27), libsys-syslog-perl (<< 0.27), libthreads-perl (<< 1.83), libthreads-shared-perl (<< 1.37), libtime-hires-perl (<< 1.9721.01), libtime-piece-perl (<< 1.20.01), mrtg (<< 2.16.3-3.1), perl-doc (<< 5.14.2-1)
-Filename: pool/main/p/perl/perl_5.14.2-6ubuntu2.2_i386.deb
-Size: 3695328
-MD5sum: 26826a7cab2d6c0bafc40a403cf3a390
-SHA1: 6bd18434eb5755d344f20918975d83f764f26402
-SHA256: 97167d2707e26a72395a918b77d4acdbaecc142c4a909f0a8ffa4ed306f0ea5e
+Filename: pool/main/p/perl/perl_5.14.2-6ubuntu2.3_i386.deb
+Size: 3696528
+MD5sum: 296f1bff0e41b23161211e38719de80f
+SHA1: e16d433f15bda59c8259ee02e236a0a49204ae55
+SHA256: 46a044d7fb4ad556144335e82687f805459c3f64a9935d39230d575e93642a50
 Description: Larry Wall's Practical Extraction and Report Language
 Description-md5: 72b5a936c16f145661f38ca7be7856d3
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -31377,18 +32304,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Niko Tyni <ntyni@debian.org>
 Architecture: i386
 Source: perl
-Version: 5.14.2-6ubuntu2.2
+Version: 5.14.2-6ubuntu2.3
 Replaces: libperl5.8 (<< 5.8.0-20), libscalar-list-utils-perl, libxsloader-perl, perl (<< 5.10.1-12), perl-modules (<< 5.10.1-1)
 Provides: libscalar-list-utils-perl, libxsloader-perl, perl5-base, perlapi-5.14.2
 Pre-Depends: libc6 (>= 2.11), dpkg (>= 1.14.20)
 Suggests: perl
 Conflicts: doc-base (<< 0.10.3), libxml-sax-perl (<< 0.99+dfsg-1ubuntu0.1), mono-gac (<< 2.10.8.1-1ubuntu1), safe-rm (<< 0.8), update-inetd (<< 4.41)
 Breaks: autoconf2.13 (<< 2.13-45), libfile-spec-perl (<< 3.3300), libmarc-charset-perl (<< 1.2), libscalar-list-utils-perl (<< 1:1.23), libxsloader-perl (<< 0.13)
-Filename: pool/main/p/perl/perl-base_5.14.2-6ubuntu2.2_i386.deb
-Size: 1480326
-MD5sum: 82cee4575156d67423418788cf12489f
-SHA1: 8dda82cbaf4060158970960218a9f7bf0ccc212a
-SHA256: 2fd33ade7137b7c8a76fff1759a4239580f32a117d7c04d8fe7244c61cfca990
+Filename: pool/main/p/perl/perl-base_5.14.2-6ubuntu2.3_i386.deb
+Size: 1471226
+MD5sum: f14ce6bfecf55bc4390a1f99a4da519a
+SHA1: 7d9163e82058dcceeb0ff982a6e4ab02cdfc1980
+SHA256: b9fa072b2da938c2ad7803660880aa724c6c73eb834e64b53db191c794eaf706
 Description: minimal Perl system
 Description-md5: 7c818331fe8bc53134bb22330b07f5ae
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -31399,18 +32326,18 @@ Task: minimal
 Package: perl-debug
 Priority: optional
 Section: perl
-Installed-Size: 18429
+Installed-Size: 18428
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Niko Tyni <ntyni@debian.org>
 Architecture: i386
 Source: perl
-Version: 5.14.2-6ubuntu2.2
-Depends: perl (= 5.14.2-6ubuntu2.2), libc6 (>= 2.11)
-Filename: pool/main/p/perl/perl-debug_5.14.2-6ubuntu2.2_i386.deb
-Size: 7791442
-MD5sum: bb9287608a905898d45529e219c2e790
-SHA1: 4dd888a90d7f8ea5d6df2ebba598bb1d4de1496c
-SHA256: 672436f110b00b6610a6c64e985b1e2f517533c6dd400a7868c618749872681d
+Version: 5.14.2-6ubuntu2.3
+Depends: perl (= 5.14.2-6ubuntu2.3), libc6 (>= 2.11)
+Filename: pool/main/p/perl/perl-debug_5.14.2-6ubuntu2.3_i386.deb
+Size: 7791706
+MD5sum: 04225f0f98f8e91bc9b768f59546bd92
+SHA1: f1a2026a338cee013a7417c9372f027c9f8af747
+SHA256: 5c72f91ed6e0fd2ce261d97eee9faba08ab748374487f6877c16ce0be67fa048
 Description: debug-enabled Perl interpreter
 Description-md5: d74923b33864cae938866649204c3496
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -31425,14 +32352,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Niko Tyni <ntyni@debian.org>
 Architecture: all
 Source: perl
-Version: 5.14.2-6ubuntu2.2
+Version: 5.14.2-6ubuntu2.3
 Depends: perl (>= 5.14.2-1)
 Suggests: man-browser, groff
-Filename: pool/main/p/perl/perl-doc_5.14.2-6ubuntu2.2_all.deb
-Size: 8119586
-MD5sum: 6fba2e2dc97c48f2575e144f49562069
-SHA1: f8e1baf823fa89989361c3af7b198d28c6d7a537
-SHA256: d9fc5e6a4a2b93500e3fdf200af94ea5e76965c3137a935e3eaada0f2d4304df
+Filename: pool/main/p/perl/perl-doc_5.14.2-6ubuntu2.3_all.deb
+Size: 8119196
+MD5sum: 23e821f4df054779e3bfe86b1da5df60
+SHA1: ab61409c829e3395c317216e9e435fb6acd48ae8
+SHA256: 442e89a0e1e7de2b23f673e4cae916880d5adeb4654f1af43577a3b457e4c8c4
 Description: Perl documentation
 Description-md5: 6cd25412f32c953589ef8fcaf1f5f46d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -31447,18 +32374,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Niko Tyni <ntyni@debian.org>
 Architecture: all
 Source: perl
-Version: 5.14.2-6ubuntu2.2
+Version: 5.14.2-6ubuntu2.3
 Replaces: libansicolor-perl, libarchive-tar-perl, libattribute-handlers-perl, libautodie-perl, libcgi-pm-perl, libcpan-meta-perl, libcpan-meta-yaml-perl, libcpanplus-perl, libdigest-perl, libextutils-cbuilder-perl, libextutils-command-perl, libextutils-install-perl, libextutils-parsexs-perl, libfile-path-perl, libfile-spec-perl, libfile-temp-perl, libhttp-tiny-perl, libi18n-langtags-perl, libio-zlib-perl, libjson-pp-perl, liblocale-codes-perl, liblocale-maketext-perl, liblocale-maketext-simple-perl, libmath-bigint-perl, libmath-complex-perl, libmodule-build-perl, libmodule-corelist-perl, libmodule-load-conditional-perl, libmodule-load-perl, libmodule-metadata-perl, libmodule-pluggable-perl, libnet-perl, libnet-ping-perl, libparams-check-perl, libparent-perl, libparse-cpan-meta-perl, libperl-ostype-perl, libperl4-corelibs-perl, libpod-escapes-perl, libpod-parser-perl, libpod-simple-perl, libshell-perl, libtest-harness-perl, libtest-simple-perl, libthread-queue-perl, libtime-local-perl, libunicode-collate-perl, libversion-perl, libversion-requirements-perl, podlators-perl
 Provides: libansicolor-perl, libarchive-tar-perl, libattribute-handlers-perl, libautodie-perl, libcgi-pm-perl, libcpan-meta-perl, libcpan-meta-yaml-perl, libcpanplus-perl, libdigest-perl, libextutils-cbuilder-perl, libextutils-command-perl, libextutils-install-perl, libextutils-parsexs-perl, libfile-path-perl, libfile-spec-perl, libfile-temp-perl, libhttp-tiny-perl, libi18n-langtags-perl, libio-zlib-perl, libjson-pp-perl, liblocale-codes-perl, liblocale-maketext-perl, liblocale-maketext-simple-perl, libmath-bigint-perl, libmath-complex-perl, libmodule-build-perl, libmodule-corelist-perl, libmodule-load-conditional-perl, libmodule-load-perl, libmodule-metadata-perl, libmodule-pluggable-perl, libnet-perl, libnet-ping-perl, libparams-check-perl, libparent-perl, libparse-cpan-meta-perl, libperl-ostype-perl, libperl4-corelibs-perl, libpod-escapes-perl, libpod-parser-perl, libpod-simple-perl, libshell-perl, libtest-harness-perl, libtest-simple-perl, libthread-queue-perl, libtime-local-perl, libunicode-collate-perl, libversion-perl, libversion-requirements-perl, podlators-perl
 Depends: perl (>= 5.14.2-1), libswitch-perl, libclass-isa-perl
 Suggests: libpod-plainer-perl
 Conflicts: doc-base (<< 0.10.3), libxml-sax-perl (<< 0.99+dfsg-1ubuntu0.1), mono-gac (<< 2.10.8.1-1)
 Breaks: libansicolor-perl (<< 3.00), libarchive-tar-perl (<< 1.76), libattribute-handlers-perl (<< 0.89), libautodie-perl (<< 2.10.01), libcgi-pm-perl (<< 3.52), libcpan-meta-perl (<< 2.110440), libcpan-meta-yaml-perl (<< 0.003), libcpanplus-perl (<< 0.9103), libdigest-perl (<< 1.16), libextutils-cbuilder-perl (<< 0.280203), libextutils-command-perl (<< 1.17), libextutils-install-perl (<< 1.56), libextutils-parsexs-perl (<< 2.221000), libfile-path-perl (<< 2.08.01), libfile-spec-perl (<< 3.3300), libfile-temp-perl (<< 0.22), libhttp-tiny-perl (<< 0.012), libi18n-langtags-perl (<< 0.35.01), libio-zlib-perl (<< 1.10), libjson-pp-perl (<< 2.27105), liblocale-codes-perl (<< 3.16), liblocale-maketext-perl (<< 1.19), liblocale-maketext-simple-perl (<< 0.21), libmath-bigint-perl (<< 1.994), libmath-complex-perl (<< 1.56), libmodule-build-perl (<< 0.380000), libmodule-corelist-perl (<< 2.49.02), libmodule-load-conditional-perl (<< 0.44), libmodule-load-perl (<< 0.18), libmodule-metadata-perl (<< 1.000004), libmodule-pluggable-perl (<< 3.9), libnet-perl (<= 1:1.22), libnet-ping-perl (<< 2.38), libparams-check-perl (<< 0.28), libparent-perl (<< 0.225), libparse-cpan-meta-perl (<< 1.4401), libperl-ostype-perl (<< 1.002), libpod-escapes-perl (<< 1.04), libpod-parser-perl (<< 1.37), libpod-simple-perl (<< 3.16), libshell-perl (<< 0.72.01), libtest-harness-perl (<< 3.23), libtest-simple-perl (<< 0.98), libthread-queue-perl (<< 2.12), libtime-local-perl (<< 1.2000), libunicode-collate-perl (<< 0.73), libversion-perl (<< 1:0.8800), libversion-requirements-perl (<< 0.101020), podlators-perl (<< 2.3.1)
-Filename: pool/main/p/perl/perl-modules_5.14.2-6ubuntu2.2_all.deb
-Size: 3391256
-MD5sum: 7a17318f113ea16bf4424e17a0349743
-SHA1: ba4cad17ce41ce32b3375bb50b7292e961b68a53
-SHA256: 22f9b916d9f45214871f50c58a04a4f82aa70b27fe2e469054697ddffefe5d06
+Filename: pool/main/p/perl/perl-modules_5.14.2-6ubuntu2.3_all.deb
+Size: 3388936
+MD5sum: f8c4d301ae4866879122c3ad1df4b4ce
+SHA1: d0276c9128a2b98f0f503ea0922ad28243ff863d
+SHA256: f47c3b9da296202b3db1aecc1b9f37178f244a88a3c083d9349828be90f99952
 Description: Core Perl modules
 Description-md5: c6e30002bf62266bdbe810bfbeaf9586
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -32974,22 +33901,22 @@ Supported: 5y
 Package: python-nova
 Priority: extra
 Section: python
-Installed-Size: 10455
+Installed-Size: 10463
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2
+Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
 Provides: python2.7-nova
 Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), openssh-client, openssl, python-boto, python-m2crypto, python-pycurl, python-daemon, python-carrot, python-kombu, python-lockfile, python-gflags, python-libxml2, python-ldap, python-sqlalchemy-ext | python-sqlalchemy (<< 0.6.3-2), python-eventlet, python-routes, python-webob, python-cheetah, python-netaddr, python-paste, python-pastedeploy, python-tempita, python-migrate, python-glance, python-novaclient, python-simplejson, python-lxml, python-feedparser, python-xattr, python-suds, python-iso8601, sudo
 Recommends: python-mysqldb
 Suggests: python-suds (>= 0.4.0)
 Conflicts: python-cjson
-Filename: pool/main/n/nova/python-nova_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.2_all.deb
-Size: 1761426
-MD5sum: fdfc2a6dc2cdf9e2d98f54c708ed51d3
-SHA1: 8b3b1be578fd1ca754ae7f8afe524a16e404d9d8
-SHA256: 8ca17627b7edd5ec93128934a33b2ed17c9c555a00f078becc85b3472fd11839
+Filename: pool/main/n/nova/python-nova_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Size: 1762234
+MD5sum: d04649faab376b3b0c829ac83ce9ad8e
+SHA1: fac7de8fec8b311bc88b3811892f4edd05527f95
+SHA256: 4fbb0c2380dd91a5cce80bf93803d27b7d089f286c306fc3dedad804c777cc78
 Description: OpenStack Compute Python libraries
 Homepage: http://launchpad.net/nova
 Python-Version: 2.7
@@ -34048,17 +34975,17 @@ Installed-Size: 361
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: i386
-Version: 1.8.7.352-2ubuntu1.1
+Version: 1.8.7.352-2ubuntu1.2
 Replaces: irb1.8, rdoc1.8
 Provides: irb1.8, rdoc1.8, ruby, ruby-interpreter
-Depends: libc6 (>= 2.0), libruby1.8 (= 1.8.7.352-2ubuntu1.1)
+Depends: libc6 (>= 2.0), libruby1.8 (= 1.8.7.352-2ubuntu1.2)
 Suggests: ruby1.8-examples, ri1.8
 Conflicts: irb1.8 (<< 1.8.7.249-3~), rdoc1.8 (<< 1.8.7.249-3~), ri (<= 4.5), ri1.8 (<< 1.8.7.334-4~), ruby (<= 4.5)
-Filename: pool/main/r/ruby1.8/ruby1.8_1.8.7.352-2ubuntu1.1_i386.deb
-Size: 33780
-MD5sum: 66837db7cfc66b8e3b65c20f73436f6c
-SHA1: 0f635c5e7feca704064cc06a9415fc7a475dbd59
-SHA256: 22dc8a874259b5c78c105d443ab8f82ca1f7e42a7dacb16d491ed944371ce8b9
+Filename: pool/main/r/ruby1.8/ruby1.8_1.8.7.352-2ubuntu1.2_i386.deb
+Size: 34236
+MD5sum: 54b520b6b0d51e427081253b3ab4fb69
+SHA1: cf6d2a70e6f6f3ea01300f1ddcde99c310feeccd
+SHA256: fbfe1cc88d9af820aae33776d7d7cb17dd7d5cdc12b8a0569b20f53965abb6ff
 Description: Interpreter of object-oriented scripting language Ruby 1.8
 Homepage: http://www.ruby-lang.org/
 Description-md5: cbc9f752f927d3142d295011d81f88fc
@@ -34075,15 +35002,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: i386
 Source: ruby1.8
-Version: 1.8.7.352-2ubuntu1.1
+Version: 1.8.7.352-2ubuntu1.2
 Provides: ruby-dev
-Depends: libruby1.8 (= 1.8.7.352-2ubuntu1.1), libc6-dev
-Recommends: ruby1.8 (= 1.8.7.352-2ubuntu1.1)
-Filename: pool/main/r/ruby1.8/ruby1.8-dev_1.8.7.352-2ubuntu1.1_i386.deb
-Size: 626354
-MD5sum: bbc0902e32dca7d0ca59c9287f434355
-SHA1: 3b6efca8121f776d31a0520994faa46c19030766
-SHA256: e1e1f34459d8b8244ad7bdef5cd725c343e1ebbde4984a56addb61e9f22e7a7e
+Depends: libruby1.8 (= 1.8.7.352-2ubuntu1.2), libc6-dev
+Recommends: ruby1.8 (= 1.8.7.352-2ubuntu1.2)
+Filename: pool/main/r/ruby1.8/ruby1.8-dev_1.8.7.352-2ubuntu1.2_i386.deb
+Size: 626172
+MD5sum: bfa99db991681761ec33a8b527a07d99
+SHA1: e2500c5e7647134b1e6fd5e135bb8e54469877b5
+SHA256: 7c3986354c68a9305e39bf00b70027473ef02b44e59c18de69f653fac1d59c3c
 Description: Header files for compiling extension modules for the Ruby 1.8
 Homepage: http://www.ruby-lang.org/
 Description-md5: d50680834c728bf1cfb025fc5d1b40c1
@@ -34094,18 +35021,18 @@ Supported: 18m
 Package: ruby1.8-examples
 Priority: optional
 Section: interpreters
-Installed-Size: 529
+Installed-Size: 530
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: all
 Source: ruby1.8
-Version: 1.8.7.352-2ubuntu1.1
-Suggests: ruby1.8 (>= 1.8.7.352-2ubuntu1.1)
-Filename: pool/main/r/ruby1.8/ruby1.8-examples_1.8.7.352-2ubuntu1.1_all.deb
-Size: 73650
-MD5sum: 990873b72ebfcb3809c7c9b573e4ddb8
-SHA1: cd11d2d41281ff67c56f9ee623d8f6e86e941ae5
-SHA256: 6cd233eda1f888001d13826cbe731789f955d2fb690bebc5702a31917cf6a56e
+Version: 1.8.7.352-2ubuntu1.2
+Suggests: ruby1.8 (>= 1.8.7.352-2ubuntu1.2)
+Filename: pool/main/r/ruby1.8/ruby1.8-examples_1.8.7.352-2ubuntu1.2_all.deb
+Size: 73968
+MD5sum: acb43d572ae71ce092e90c2aeb9a2e1c
+SHA1: 143c2a221c5ef5c8a22ab50c328852007950d1ae
+SHA256: c5fafa2f9f7cb8d6d1b59eafdcd0210ee2ca137b556b4ec9d41fca27e436b7f9
 Description: Examples for Ruby 1.8
 Homepage: http://www.ruby-lang.org/
 Description-md5: aae2269a8f6e1c54a5eb29b21495e7cb
@@ -34120,17 +35047,17 @@ Installed-Size: 234
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: i386
-Version: 1.9.3.0-1ubuntu2.5
+Version: 1.9.3.0-1ubuntu2.6
 Replaces: irb1.9.1, rdoc1.9.1, rubygems1.9.1
 Provides: irb1.9.1, rdoc1.9.1, ruby-interpreter, rubygems1.9.1
-Depends: libruby1.9.1 (= 1.9.3.0-1ubuntu2.5), libc6 (>= 2.0)
+Depends: libruby1.9.1 (= 1.9.3.0-1ubuntu2.6), libc6 (>= 2.0)
 Suggests: ruby1.9.1-examples, ri1.9.1, graphviz, ruby1.9.1-dev
 Conflicts: irb1.9.1 (<< 1.9.1.378-2~), rdoc1.9.1 (<< 1.9.1.378-2~), ri (<= 4.5), ri1.9.1 (<< 1.9.2.180-3~), ruby (<= 4.5), rubygems1.9.1
-Filename: pool/main/r/ruby1.9.1/ruby1.9.1_1.9.3.0-1ubuntu2.5_i386.deb
-Size: 36942
-MD5sum: da69e34c41b9ad9d691855683376a85f
-SHA1: 948e31c1489c29bbbd3c37cc64d849874026dbd8
-SHA256: da6e875a5716c5d736dfcaeef0f91e7b26d4216abf398a0533507d6df9a64e64
+Filename: pool/main/r/ruby1.9.1/ruby1.9.1_1.9.3.0-1ubuntu2.6_i386.deb
+Size: 36954
+MD5sum: 7fc6257d6848eee1b80ed1e85e8e6c78
+SHA1: 9e4941b502f480647d14beba851fb052dac66020
+SHA256: 8c37062627e254a6382dc0cdf1bc252028b35e548eccb9cd21ea5f16b9fe8280
 Description: Interpreter of object-oriented scripting language Ruby
 Homepage: http://www.ruby-lang.org/
 Description-md5: 5a3bebf22800260bf542248151806d7c
@@ -34146,14 +35073,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: i386
 Source: ruby1.9.1
-Version: 1.9.3.0-1ubuntu2.5
-Depends: libruby1.9.1 (= 1.9.3.0-1ubuntu2.5), libc6-dev
-Recommends: ruby1.9.1 (= 1.9.3.0-1ubuntu2.5)
-Filename: pool/main/r/ruby1.9.1/ruby1.9.1-dev_1.9.3.0-1ubuntu2.5_i386.deb
-Size: 1223232
-MD5sum: cb8c9fa9af5ac9b0ee4abb2b2b54a0a2
-SHA1: cf57f7cf96ad730711fb29106e50b417f9d393d1
-SHA256: cc863394ea107f62c364c2a5bbe635b7be8be94a8928c27c365edd9941a0c392
+Version: 1.9.3.0-1ubuntu2.6
+Depends: libruby1.9.1 (= 1.9.3.0-1ubuntu2.6), libc6-dev
+Recommends: ruby1.9.1 (= 1.9.3.0-1ubuntu2.6)
+Filename: pool/main/r/ruby1.9.1/ruby1.9.1-dev_1.9.3.0-1ubuntu2.6_i386.deb
+Size: 1223244
+MD5sum: d1760cb9ee3d1c2cb6c6bed82791355e
+SHA1: 4c90b5757e8fb10dcabf98022ab01dbdb632d5a4
+SHA256: 944bb48e30f62387198c9b63f97c52cfb1de066cb0d77572a868dfeef8284377
 Description: Header files for compiling extension modules for the Ruby 1.9.1
 Homepage: http://www.ruby-lang.org/
 Description-md5: fe8ab5416b13f294f4b46835c51da0b1
@@ -34164,18 +35091,18 @@ Supported: 18m
 Package: ruby1.9.1-examples
 Priority: optional
 Section: ruby
-Installed-Size: 404
+Installed-Size: 405
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: all
 Source: ruby1.9.1
-Version: 1.9.3.0-1ubuntu2.5
-Suggests: ruby1.9.1 (>= 1.9.3.0-1ubuntu2.5)
-Filename: pool/main/r/ruby1.9.1/ruby1.9.1-examples_1.9.3.0-1ubuntu2.5_all.deb
-Size: 74862
-MD5sum: 7483f4efb3d1f4a42f4b8df04ec6124f
-SHA1: e780bf11df362c316e880fd3aa4fd82448eda6f7
-SHA256: 5d2bc8966f7ca7b5e0e8cdc74c220196a3f48238d6fee78a72353fceb1e1f588
+Version: 1.9.3.0-1ubuntu2.6
+Suggests: ruby1.9.1 (>= 1.9.3.0-1ubuntu2.6)
+Filename: pool/main/r/ruby1.9.1/ruby1.9.1-examples_1.9.3.0-1ubuntu2.6_all.deb
+Size: 74928
+MD5sum: 92d41f738954d999913f67e1950738cb
+SHA1: 21c08988a99ba637afe38714f9768f792652b931
+SHA256: 8c0403ee57cd0d04f4ec61193634912a777ad2f45cbe48b986f07e3c000ad2a5
 Description: Examples for Ruby 1.9
 Homepage: http://www.ruby-lang.org/
 Description-md5: f8048bc94c205859758877fee5353b32
