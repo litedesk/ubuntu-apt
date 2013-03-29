@@ -717,16 +717,16 @@ Installed-Size: 940
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
-Version: 1:9.8.1.dfsg.P1-4ubuntu0.5
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.6
 Replaces: apparmor-profiles (<< 2.1+1075-0ubuntu4), bind, dnsutils (<< 1:9.1.0-3)
-Depends: libbind9-80 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), libc6 (>= 2.14), libcap2 (>= 2.10), libdns81 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), libisc83 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), libisccc80 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), libisccfg82 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), liblwres80 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), libxml2 (>= 2.7.4), debconf (>= 0.5) | debconf-2.0, netbase, adduser, lsb-base (>= 3.2-14), bind9utils (= 1:9.8.1.dfsg.P1-4ubuntu0.5), net-tools
+Depends: libbind9-80 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), libc6 (>= 2.14), libcap2 (>= 2.10), libdns81 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), libisc83 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), libisccc80 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), libisccfg82 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), liblwres80 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), libxml2 (>= 2.7.4), debconf (>= 0.5) | debconf-2.0, netbase, adduser, lsb-base (>= 3.2-14), bind9utils (= 1:9.8.1.dfsg.P1-4ubuntu0.6), net-tools
 Suggests: dnsutils, bind9-doc, resolvconf, ufw
 Conflicts: apparmor-profiles (<< 2.1+1075-0ubuntu4), bind
-Filename: pool/main/b/bind9/bind9_9.8.1.dfsg.P1-4ubuntu0.5_amd64.deb
-Size: 342700
-MD5sum: 69d34de30c422dcb32713dec1f394d98
-SHA1: dc8614fde79590f87d45fae75514d41a656bbb7e
-SHA256: e06ad7f33f5fb0fdec24faec123b497e6080b2502fcc823d93bd36169977a22b
+Filename: pool/main/b/bind9/bind9_9.8.1.dfsg.P1-4ubuntu0.6_amd64.deb
+Size: 339608
+MD5sum: 402d299571503dfb874ddf830149de48
+SHA1: aa825a1d10a7b84b8bd7438c4dfa35ef1a304974
+SHA256: 6d0f5082f815893bdbfeb75b174b04acc5c212559c860a25dc5e182aff59848c
 Description: Internet Domain Name Server
 Description-md5: 4d39ed3fc4e2e72497683d779dfdcd38
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -742,12 +742,12 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: all
 Source: bind9
-Version: 1:9.8.1.dfsg.P1-4ubuntu0.5
-Filename: pool/main/b/bind9/bind9-doc_9.8.1.dfsg.P1-4ubuntu0.5_all.deb
-Size: 224382
-MD5sum: 9c27e1572fbc32ec833c36de9d5fd85d
-SHA1: d99044fa7fd500b7b95444ec5800f84a3f786693
-SHA256: 9d07d1abbae4f38cbf03aa5bc9c10d57d85fb9db37c011ad4d1e89fbfb594bcb
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.6
+Filename: pool/main/b/bind9/bind9-doc_9.8.1.dfsg.P1-4ubuntu0.6_all.deb
+Size: 222674
+MD5sum: a145a7c5bc2534a4b10f9b8a9c80c8d3
+SHA1: a358c3225d91668ce2b284d7136388f44c58b177
+SHA256: 7693628736b1f17d3430b628f5610313e6d38108192aa4998c2ed8f5326b5986
 Description: Documentation for BIND
 Description-md5: 329b8ef5cf9ad3d51ce47e6d8d13d75e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -763,16 +763,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.8.1.dfsg.P1-4ubuntu0.5
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.6
 Replaces: dnsutils (<< 1:9.0.0), host (<< 1:9.7.0)
 Provides: host
-Depends: libbind9-80 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), libc6 (>= 2.14), libdns81 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), libisc83 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), libisccfg82 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), liblwres80 (= 1:9.8.1.dfsg.P1-4ubuntu0.5)
+Depends: libbind9-80 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), libc6 (>= 2.14), libdns81 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), libisc83 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), libisccfg82 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), liblwres80 (= 1:9.8.1.dfsg.P1-4ubuntu0.6)
 Conflicts: dnsutils (<< 1:9.0.0), host (<< 1:9.7.0)
-Filename: pool/main/b/bind9/bind9-host_9.8.1.dfsg.P1-4ubuntu0.5_amd64.deb
-Size: 55332
-MD5sum: 6ae32097990f1183234f10fc5dc5b4a6
-SHA1: f0da3069c7c4076a1f563eb97a89a119490fb881
-SHA256: 52fb0118ab53a6d3a60baab89d6d4cba47152d3a277c3d6d70c119043381a15b
+Filename: pool/main/b/bind9/bind9-host_9.8.1.dfsg.P1-4ubuntu0.6_amd64.deb
+Size: 55330
+MD5sum: d16d72ea05aefa696c3273ffac526ee1
+SHA1: 8e150f156a8e5f562c51e8c45897fcf55736af92
+SHA256: 5d5fa5f2bba1f57ad36121327cd9e2539af8c25630550428da0489eb83c3a8d3
 Description: Version of 'host' bundled with BIND 9.X
 Description-md5: acdae162c721f5d2986f557bdefa1e70
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -788,14 +788,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.8.1.dfsg.P1-4ubuntu0.5
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.6
 Replaces: bind9 (<= 1:9.5.0~b2-1)
 Depends: libbind9-80, libc6 (>= 2.14), libdns81, libisc83, libisccc80, libisccfg82
-Filename: pool/main/b/bind9/bind9utils_9.8.1.dfsg.P1-4ubuntu0.5_amd64.deb
-Size: 103938
-MD5sum: 67a61f5e3fa5d5c304ba22d38ec6da87
-SHA1: 2b023898a6f3baeba38f044fc6aef3763b7442f1
-SHA256: 490d13bae494e1f08dde74aa1bd2a5411a7ddcf3da2938618e3ba95554801aa7
+Filename: pool/main/b/bind9/bind9utils_9.8.1.dfsg.P1-4ubuntu0.6_amd64.deb
+Size: 106428
+MD5sum: 152281bf4230504d0d387f6d2391a3ca
+SHA1: 134f2b67802a29e71041747b933d2a8b7ec38586
+SHA256: b7f649558e5b0e58f2a7fb00048fdc6460736f0034071432be0c8e5c7f54d098
 Description: Utilities for BIND
 Description-md5: 5f6f5621a6edd04ef33a0fe5d2d5bff8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -1667,16 +1667,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.8.1.dfsg.P1-4ubuntu0.5
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.6
 Replaces: bind, bind9 (<< 1:9.1.0-3)
-Depends: libbind9-80 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), libc6 (>= 2.14), libdns81 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), libisc83 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), libisccfg82 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), libkrb5-3 (>= 1.6.dfsg.2), liblwres80 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), bind9-host | host
+Depends: libbind9-80 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), libc6 (>= 2.14), libdns81 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), libisc83 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), libisccfg82 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), libkrb5-3 (>= 1.6.dfsg.2), liblwres80 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), bind9-host | host
 Suggests: rblcheck
 Conflicts: netstd (<< 2.00)
-Filename: pool/main/b/bind9/dnsutils_9.8.1.dfsg.P1-4ubuntu0.5_amd64.deb
-Size: 147466
-MD5sum: 6529e79c6b2b9595ecb15251a8a8ccff
-SHA1: 9471b3c94863faf2254af8cf2af511ca9a49cb3a
-SHA256: 995ce9c5863987cfd33243d04bf38eb7b96dbdcba1ea92ddc9473f0b48b011e7
+Filename: pool/main/b/bind9/dnsutils_9.8.1.dfsg.P1-4ubuntu0.6_amd64.deb
+Size: 147452
+MD5sum: 0fdf0bc7f1a3094499d17ce371d907ac
+SHA1: e32c436239366aa7d04411bff9de1c0f4627f03f
+SHA256: 1a38a57c873ebeed2c3b5b7e04b62de28621c3e5bfc8c17951da07bf22176673
 Description: Clients provided with BIND
 Description-md5: 9fac1cb37cd005e52aa0e22df64994e1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -7030,20 +7030,20 @@ Task: mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backe
 Package: libbind-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 5530
+Installed-Size: 5529
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.8.1.dfsg.P1-4ubuntu0.5
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.6
 Replaces: bind-dev
-Depends: libdns81 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), libisccfg82 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), libisc83 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), liblwres80 (= 1:9.8.1.dfsg.P1-4ubuntu0.5), libbind9-80 (= 1:9.8.1.dfsg.P1-4ubuntu0.5)
+Depends: libdns81 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), libisccfg82 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), libisc83 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), liblwres80 (= 1:9.8.1.dfsg.P1-4ubuntu0.6), libbind9-80 (= 1:9.8.1.dfsg.P1-4ubuntu0.6)
 Conflicts: bind-dev
-Filename: pool/main/b/bind9/libbind-dev_9.8.1.dfsg.P1-4ubuntu0.5_amd64.deb
-Size: 1530182
-MD5sum: 5f9c80c5c87a00815c59478bc674e7f9
-SHA1: 41a31d32acd98fbc9d3e7c4ec0a34e604a1146fa
-SHA256: d6ec743cc87ca4cfd612d502d7c06af89111ef06c8288760722d3efdc6de113a
+Filename: pool/main/b/bind9/libbind-dev_9.8.1.dfsg.P1-4ubuntu0.6_amd64.deb
+Size: 1531736
+MD5sum: f62afef7a5f1d5f3df4434e66556f41a
+SHA1: f06068957022c10a996b3d0c8d0e189bd7a5e27b
+SHA256: 2b4e17631d4f68f1e1cde8055e09edeb05c08534739fe8cb3d17421ca75722da
 Description: Static Libraries and Headers used by BIND
 Description-md5: 2224f8c1f8613ab53bfc2393a6add6a6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -7058,15 +7058,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.8.1.dfsg.P1-4ubuntu0.5
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.6
 Replaces: libbind0
 Depends: libc6 (>= 2.14), libdns81, libisc83, libisccfg82
 Conflicts: libbind0, libbind9-41
-Filename: pool/main/b/bind9/libbind9-80_9.8.1.dfsg.P1-4ubuntu0.5_amd64.deb
-Size: 24290
-MD5sum: b59d802a19c97aaf5ec0805e84bddc0e
-SHA1: 15f5af8b27e9aeb77ec2aeaae17e717920f2a649
-SHA256: 088bf939c1541b5bc1458d23593e305594d40fd76fc2560220c133a66850fc95
+Filename: pool/main/b/bind9/libbind9-80_9.8.1.dfsg.P1-4ubuntu0.6_amd64.deb
+Size: 24258
+MD5sum: 741223cdeadcf92aef8e0d7dbf3749f6
+SHA1: f8a113abadb3246e4c90acb4cced0832ff23bfac
+SHA256: 6cc1983a17b2b8dda2b090fca311d780e73148ef96794283c1647e6b4ba0f585
 Description: BIND9 Shared Library used by BIND
 Description-md5: 54e2889a8502320ca468efcbd1b48934
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -7839,15 +7839,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.8.1.dfsg.P1-4ubuntu0.5
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.6
 Replaces: libbind0
 Depends: libc6 (>= 2.14), libgeoip1 (>= 1.4.8+dfsg), libgssapi-krb5-2 (>= 1.10+dfsg~), libisc83, libssl1.0.0 (>= 1.0.0)
 Conflicts: libbind0, libbind9-41
-Filename: pool/main/b/bind9/libdns81_9.8.1.dfsg.P1-4ubuntu0.5_amd64.deb
-Size: 704920
-MD5sum: 05841cebf34c9a82e6c0bf99589b8d7c
-SHA1: 9490a1fffa7dd67a6c9a1ae2a4206aa5d37b5247
-SHA256: f16048bc3e13a8824eb1d468fc731df92a2564f7db6815721e9a45917939c4f6
+Filename: pool/main/b/bind9/libdns81_9.8.1.dfsg.P1-4ubuntu0.6_amd64.deb
+Size: 704188
+MD5sum: 441e03a2d253c4bc466db1217c431d4b
+SHA1: 15b4d4bb27631e41bbf7642703b18173bfe8bb6e
+SHA256: 9d8b886b27f2468cda967dcf48cb9628cca68b99a95532074467432c16210a15
 Description: DNS Shared Library used by BIND
 Description-md5: 08196e0b2c6fd4d0c818845ca28dbe39
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -9283,15 +9283,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.8.1.dfsg.P1-4ubuntu0.5
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.6
 Replaces: libbind0
 Depends: libc6 (>= 2.15), libxml2 (>= 2.7.4)
 Conflicts: libbind0, libbind9-41
-Filename: pool/main/b/bind9/libisc83_9.8.1.dfsg.P1-4ubuntu0.5_amd64.deb
-Size: 160998
-MD5sum: 048ab8fb1df303da7259cd80a73651c5
-SHA1: 630800cb11bb9fa390134cc4f7e4fe9a2a8ab3e3
-SHA256: 3c34f8edb03871a72fcc9f1256752714283e13cf2e9fad851c1324696e672cc4
+Filename: pool/main/b/bind9/libisc83_9.8.1.dfsg.P1-4ubuntu0.6_amd64.deb
+Size: 161276
+MD5sum: 41161b9fdc9ed86315496686d7758228
+SHA1: d4243324ebe87716734f15023bc27dfd88ac604a
+SHA256: a69b21f8b011e805ba650037297c5f97930ec332f5b032121c5e410ebd2ad699
 Description: ISC Shared Library used by BIND
 Description-md5: 6530db41bb53f0f9fc50d6f397950e53
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -9307,15 +9307,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.8.1.dfsg.P1-4ubuntu0.5
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.6
 Replaces: libbind0
 Depends: libc6 (>= 2.14), libisc83
 Conflicts: libbind0, libbind9-41
-Filename: pool/main/b/bind9/libisccc80_9.8.1.dfsg.P1-4ubuntu0.5_amd64.deb
-Size: 17582
-MD5sum: 20d448766e2583ed0d23de1c55448df8
-SHA1: 07b41fdbc6d92a4151c2aeccbc6a6552e75734ee
-SHA256: c018acc38e6fe954de8091025654f95a48f3c37325cc9d9757504510b03f8794
+Filename: pool/main/b/bind9/libisccc80_9.8.1.dfsg.P1-4ubuntu0.6_amd64.deb
+Size: 17580
+MD5sum: 5799e0bb2475f1302e6c7dc65bab5483
+SHA1: d4fac886af984e9e7946673c572b9ac101305190
+SHA256: 0464d9103d761163eeeab579a633f3677be869ca2b23e8d9f6f0b41f81c1ae98
 Description: Command Channel Library used by BIND
 Description-md5: da6a1a2a1fbcd8229f24523ae8ae7b33
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -9331,15 +9331,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.8.1.dfsg.P1-4ubuntu0.5
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.6
 Replaces: libbind0
 Depends: libc6 (>= 2.14), libdns81, libisc83, libisccc80
 Conflicts: libbind0, libbind9-41
-Filename: pool/main/b/bind9/libisccfg82_9.8.1.dfsg.P1-4ubuntu0.5_amd64.deb
-Size: 43484
-MD5sum: 3289d402e6332bcae6931fc6455f76b4
-SHA1: 25a1057b4a7be57269d4a5fc8dc752b09c85e544
-SHA256: 08e87b59ac5bbdcac9a4b62bcbb31fc2c6fd9086671355b671b8adf2126c4a4b
+Filename: pool/main/b/bind9/libisccfg82_9.8.1.dfsg.P1-4ubuntu0.6_amd64.deb
+Size: 43356
+MD5sum: f44c28bb4e0655d2a40f2847017bd35d
+SHA1: 8e42c0bd16c4736c29884cb5bd160ea06f55fded
+SHA256: 3f22c29be23d84b282031a60e7d974040f79be81887e757f1b22fdced64df23c
 Description: Config File Handling Library used by BIND
 Description-md5: 3a890bff8c41bd92ac3e542818fb7f79
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -11088,15 +11088,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Source: bind9
-Version: 1:9.8.1.dfsg.P1-4ubuntu0.5
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.6
 Replaces: libbind0
 Depends: libc6 (>= 2.15)
 Conflicts: libbind0
-Filename: pool/main/b/bind9/liblwres80_9.8.1.dfsg.P1-4ubuntu0.5_amd64.deb
-Size: 38230
-MD5sum: b258da622782560add1fb7efdbe51f66
-SHA1: 6ad6809d8d639a12311b98203e81afb1662acb8b
-SHA256: 0dec0c05dafafff655cacbbc278227305498c5388ac14d9721e932da02c63771
+Filename: pool/main/b/bind9/liblwres80_9.8.1.dfsg.P1-4ubuntu0.6_amd64.deb
+Size: 38040
+MD5sum: 8248c9c23a8d3b56b6a5d2e2d339cefb
+SHA1: c42132fec15ea3db71571b237cefcae0f13655e2
+SHA256: 2af01f99283b99d503318d906e6c46058652cde3e7d4048adb82ef3d049b6094
 Description: Lightweight Resolver Library used by BIND
 Description-md5: 73843c094de7b4dfcc9ed1e36cc6d546
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
