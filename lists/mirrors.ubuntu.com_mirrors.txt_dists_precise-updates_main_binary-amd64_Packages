@@ -7581,6 +7581,29 @@ Origin: Ubuntu
 Supported: 5y
 Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full, kubuntu-active, edubuntu-desktop, edubuntu-usb, edubuntu-desktop-kde, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, ubuntustudio-desktop
 
+Package: geoclue-ubuntu-geoip
+Priority: optional
+Section: gnome
+Installed-Size: 67
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Architecture: amd64
+Source: ubuntu-geoip
+Version: 0.0.2-0ubuntu6.3
+Provides: geoclue-provider
+Depends: libc6 (>= 2.2.5), libgeoclue0 (>= 0.12.0), libglib2.0-0 (>= 2.16.0), libnm-glib4 (>= 0.7.999), libsoup-gnome2.4-1 (>= 2.27.4), libsoup2.4-1 (>= 2.24.3), geoclue
+Filename: pool/main/u/ubuntu-geoip/geoclue-ubuntu-geoip_0.0.2-0ubuntu6.3_amd64.deb
+Size: 10234
+MD5sum: 087d0c6e1d54c2e3843dfd110c907e1e
+SHA1: dd0d469900e38f83dc78c16ec8f1df71d3658322
+SHA256: d5de378b1fbd7640fc3dc8128ad741b17c2dbcac2435edbaf473635ee09ed5fa
+Description: Provide positioning for GeoClue via Ubuntu GeoIP services
+Homepage: https://launchpad.net/ubuntu-geoip
+Description-md5: df34267f7cce5e55cfbdebfaa4496638
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb
+
 Package: gfxboot-theme-ubuntu
 Priority: optional
 Section: utils
