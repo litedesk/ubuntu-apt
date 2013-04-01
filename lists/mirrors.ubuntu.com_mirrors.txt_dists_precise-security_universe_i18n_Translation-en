@@ -1569,6 +1569,27 @@ Description-en: Network Security Service tools
   * ssltap: proxy requests for an SSL server and display the contents of
     the messages exchanged between the client and server.
 
+Package: libopenjpeg-dev
+Description-md5: 320c070e692730858f06e088ce6dea05
+Description-en: development files for libopenjpeg2, a JPEG 2000 image library
+ Libopenjpeg2 is a library for handling the JPEG 2000 image compression format.
+ JPEG 2000 is a wavelet-based image compression standard and permits progressive
+ transmission by pixel and resolution accuracy for progressive downloads of an
+ encoded image. It supports lossless and lossy compression, supports higher
+ compression than JPEG 1991, and has resilience to errors in the image.
+
+Package: libopenjpeg2
+Description-md5: 3fae031db518d294ca7b0765f460c213
+Description-en: JPEG 2000 image compression/decompression library
+ Libopenjpeg2 is a library for handling the JPEG 2000 image compression format.
+
+Package: libopenjpeg2-dbg
+Description-md5: 5cedd1a1ddc46988f750e4c3a97e579d
+Description-en: debug symbols for libopenjpeg2, a JPEG 2000 image library
+ This package contains the debug symbols to match the runtime component of the
+ libopenjpeg2 library, allowing debugging of a program using libopenjpeg2 to
+ access debugging details within the library itself.
+
 Package: libotr2-bin
 Description-md5: 78ef6006b824c58ca931c333d058ed4d
 Description-en: toolkit for Off-the-Record Messaging library
@@ -1817,6 +1838,24 @@ Description-en: LibreOffice extension for working with MediaWiki articles
  This package contains an extension to create/edit/publish MediaWiki
  articles with LibreOffice
 
+Package: libservlet3.0-java
+Description-md5: 53f7075916141a8eb225df97286c9451
+Description-en: Servlet 3.0 and JSP 2.2 Java API classes
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains the Java Servlet and JSP library.
+
+Package: libservlet3.0-java-doc
+Description-md5: 105d3349377c356c2f157766657d4639
+Description-en: Servlet 3.0 and JSP 2.2 Java API documentation
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains the documentation for the Java Servlet and JSP library.
+
 Package: libsnmp-python
 Description-md5: 5c78ea4471c165a17eb0e76db000842a
 Description-en: SNMP (Simple Network Management Protocol) Python support
@@ -1868,6 +1907,16 @@ Description-en: TIFF manipulation and conversion tools
  contains libtiff tools that depend upon opengl.  It complements the
  libtiff-tools package, which contains the libtiff tools that don't
  depend upon opengl.
+
+Package: libtomcat7-java
+Description-md5: 7a2563c1a7c79379004bc6464d285af0
+Description-en: Servlet and JSP engine -- core libraries
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains the Tomcat core classes which can be used by other
+ Java applications to embed Tomcat.
 
 Package: libupnp-dev
 Description-md5: 3fefe24a52873e6abb61a3d43ef48ecd
@@ -2243,6 +2292,94 @@ Description-md5: cb5bf96b1082b91fa3c57f015993ee54
 Description-en: Wrapper for lynx-cur (transitional package)
  This is a transitional package and can safely be removed; see the
  lynx-cur package instead.
+
+Package: mongodb
+Description-md5: d1344c7c8f78f6ae79d9893ebf1ffb4c
+Description-en: object/document-oriented database (metapackage)
+ MongoDB is a high-performance, open source, schema-free
+ document-oriented  data store that's easy to deploy, manage
+ and use. It's network accessible, written in C++ and offers
+ the following features :
+ .
+    * Collection oriented storage - easy storage of object-
+      style data
+    * Full index support, including on inner objects
+    * Query profiling
+    * Replication and fail-over support
+    * Efficient storage of binary data including large
+      objects (e.g. videos)
+    * Auto-sharding for cloud-level scalability (Q209)
+ .
+ High performance, scalability, and reasonable depth of
+ functionality are the goals for the project.
+ .
+ This is a metapackage that depends on all the mongodb parts.
+
+Package: mongodb-clients
+Description-md5: 6bfa08eb778f4675f6a0703e45d565c1
+Description-en: object/document-oriented database (client apps)
+ MongoDB is a high-performance, open source, schema-free
+ document-oriented  data store that's easy to deploy, manage
+ and use. It's network accessible, written in C++ and offers
+ the following features :
+ .
+    * Collection oriented storage - easy storage of object-
+      style data
+    * Full index support, including on inner objects
+    * Query profiling
+    * Replication and fail-over support
+    * Efficient storage of binary data including large
+      objects (e.g. videos)
+    * Auto-sharding for cloud-level scalability (Q209)
+ .
+ High performance, scalability, and reasonable depth of
+ functionality are the goals for the project.
+ .
+ This package contains the various client applications.
+
+Package: mongodb-dev
+Description-md5: c66901de0fa448ee6f33ee0ab7c6b4ff
+Description-en: object/document-oriented database (development)
+ MongoDB is a high-performance, open source, schema-free
+ document-oriented  data store that's easy to deploy, manage
+ and use. It's network accessible, written in C++ and offers
+ the following features :
+ .
+    * Collection oriented storage - easy storage of object-
+      style data
+    * Full index support, including on inner objects
+    * Query profiling
+    * Replication and fail-over support
+    * Efficient storage of binary data including large
+      objects (e.g. videos)
+    * Auto-sharding for cloud-level scalability (Q209)
+ .
+ High performance, scalability, and reasonable depth of
+ functionality are the goals for the project.
+ .
+ Development headers and libraries.
+
+Package: mongodb-server
+Description-md5: 9de83fb4d08c01bee9d235a4565f3b00
+Description-en: object/document-oriented database (server package)
+ MongoDB is a high-performance, open source, schema-free
+ document-oriented  data store that's easy to deploy, manage
+ and use. It's network accessible, written in C++ and offers
+ the following features :
+ .
+    * Collection oriented storage - easy storage of object-
+      style data
+    * Full index support, including on inner objects
+    * Query profiling
+    * Replication and fail-over support
+    * Efficient storage of binary data including large
+      objects (e.g. videos)
+    * Auto-sharding for cloud-level scalability (Q209)
+ .
+ High performance, scalability, and reasonable depth of
+ functionality are the goals for the project.
+ .
+ This package contains the server itself.
 
 Package: mono-2.0-gac
 Description-md5: e97bb45e4d1284263140c1ad35a973d6
@@ -2797,6 +2934,17 @@ Description-en: OpenJDK Development Kit (JDK) source files
  .
  The packages are built using the IcedTea build support and patches
  from the IcedTea project.
+
+Package: openjpeg-tools
+Description-md5: dda905c39ef43ba0faf867ba38b472e3
+Description-en: command-line tools using the JPEG 2000 library
+ This package provides with command-line tools allowing for conversions between
+ several formats:
+  - j2k_to_image: decodes j2k, jp2, and jpt files to pgm, ppm, pnm,
+                  pgx, and bmp.
+  - image_to_j2k: encodes pnm, pgm, pgx, bmp, and ppm files to j2k,
+                  and jp2.
+  - index_create: create jp2 with JPIP index file from a j2k file.
 
 Package: openoffice.org-dtd-officedocument1.0
 Description-md5: da628816224a3d119a9040f51575aae3
@@ -3845,6 +3993,68 @@ Description-en: Servlet and JSP engine -- additional components
  (Currently only catalina-jmx-remote.jar.)
 
 Package: tomcat6-user
+Description-md5: f0f735a1a5d3acaabdc873d63b8b405b
+Description-en: Servlet and JSP engine -- tools to create user instances
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains files needed to create a user Tomcat instance.
+ This user Tomcat instance can be started and stopped using the scripts
+ provided in the Tomcat instance directory.
+
+Package: tomcat7
+Description-md5: 71d2a54f759941814ab4cf7873094b26
+Description-en: Servlet and JSP engine
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains only the startup scripts for the system-wide daemon.
+ No documentation or web applications are included here, please install
+ the tomcat7-docs and tomcat7-examples packages if you want them.
+ Install the authbind package if you need to use Tomcat on ports 1-1023.
+ Install tomcat7-user instead of this package if you don't want Tomcat to
+ start as a service.
+
+Package: tomcat7-admin
+Description-md5: 07b3738a38d2448ee2c0b77d4dbd745d
+Description-en: Servlet and JSP engine -- admin web applications
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains the administrative web interfaces.
+
+Package: tomcat7-common
+Description-md5: f1b8817985b6e745bfe6216aa2086c4b
+Description-en: Servlet and JSP engine -- common files
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains common files needed by the tomcat7 and tomcat7-user
+ packages (Tomcat 6 scripts and libraries).
+
+Package: tomcat7-docs
+Description-md5: 523c216160e93c3df0c2e38305883e9c
+Description-en: Servlet and JSP engine -- documentation
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains the online documentation web application.
+
+Package: tomcat7-examples
+Description-md5: 3fd8302e7ffe454afd9ba42730f7a01a
+Description-en: Servlet and JSP engine -- example web applications
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains the default Tomcat example webapps.
+
+Package: tomcat7-user
 Description-md5: f0f735a1a5d3acaabdc873d63b8b405b
 Description-en: Servlet and JSP engine -- tools to create user instances
  Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
