@@ -5678,6 +5678,27 @@ Description-en: AFS distributed filesystem development libraries
  This package provides static development libraries and headers
  needed to compile AFS applications.
 
+Package: libopenjpeg-dev
+Description-md5: 320c070e692730858f06e088ce6dea05
+Description-en: development files for libopenjpeg2, a JPEG 2000 image library
+ Libopenjpeg2 is a library for handling the JPEG 2000 image compression format.
+ JPEG 2000 is a wavelet-based image compression standard and permits progressive
+ transmission by pixel and resolution accuracy for progressive downloads of an
+ encoded image. It supports lossless and lossy compression, supports higher
+ compression than JPEG 1991, and has resilience to errors in the image.
+
+Package: libopenjpeg2
+Description-md5: 3fae031db518d294ca7b0765f460c213
+Description-en: JPEG 2000 image compression/decompression library
+ Libopenjpeg2 is a library for handling the JPEG 2000 image compression format.
+
+Package: libopenjpeg2-dbg
+Description-md5: 5cedd1a1ddc46988f750e4c3a97e579d
+Description-en: debug symbols for libopenjpeg2, a JPEG 2000 image library
+ This package contains the debug symbols to match the runtime component of the
+ libopenjpeg2 library, allowing debugging of a program using libopenjpeg2 to
+ access debugging details within the library itself.
+
 Package: libotr2-bin
 Description-md5: 78ef6006b824c58ca931c333d058ed4d
 Description-en: toolkit for Off-the-Record Messaging library
@@ -6996,6 +7017,94 @@ Description-md5: 8de03be14c6a847a7943ac239245721f
 Description-en: coreutils mktemp transitional package
  Empty package to facilitate upgrades, can be safely removed.
 
+Package: mongodb
+Description-md5: d1344c7c8f78f6ae79d9893ebf1ffb4c
+Description-en: object/document-oriented database (metapackage)
+ MongoDB is a high-performance, open source, schema-free
+ document-oriented  data store that's easy to deploy, manage
+ and use. It's network accessible, written in C++ and offers
+ the following features :
+ .
+    * Collection oriented storage - easy storage of object-
+      style data
+    * Full index support, including on inner objects
+    * Query profiling
+    * Replication and fail-over support
+    * Efficient storage of binary data including large
+      objects (e.g. videos)
+    * Auto-sharding for cloud-level scalability (Q209)
+ .
+ High performance, scalability, and reasonable depth of
+ functionality are the goals for the project.
+ .
+ This is a metapackage that depends on all the mongodb parts.
+
+Package: mongodb-clients
+Description-md5: 6bfa08eb778f4675f6a0703e45d565c1
+Description-en: object/document-oriented database (client apps)
+ MongoDB is a high-performance, open source, schema-free
+ document-oriented  data store that's easy to deploy, manage
+ and use. It's network accessible, written in C++ and offers
+ the following features :
+ .
+    * Collection oriented storage - easy storage of object-
+      style data
+    * Full index support, including on inner objects
+    * Query profiling
+    * Replication and fail-over support
+    * Efficient storage of binary data including large
+      objects (e.g. videos)
+    * Auto-sharding for cloud-level scalability (Q209)
+ .
+ High performance, scalability, and reasonable depth of
+ functionality are the goals for the project.
+ .
+ This package contains the various client applications.
+
+Package: mongodb-dev
+Description-md5: c66901de0fa448ee6f33ee0ab7c6b4ff
+Description-en: object/document-oriented database (development)
+ MongoDB is a high-performance, open source, schema-free
+ document-oriented  data store that's easy to deploy, manage
+ and use. It's network accessible, written in C++ and offers
+ the following features :
+ .
+    * Collection oriented storage - easy storage of object-
+      style data
+    * Full index support, including on inner objects
+    * Query profiling
+    * Replication and fail-over support
+    * Efficient storage of binary data including large
+      objects (e.g. videos)
+    * Auto-sharding for cloud-level scalability (Q209)
+ .
+ High performance, scalability, and reasonable depth of
+ functionality are the goals for the project.
+ .
+ Development headers and libraries.
+
+Package: mongodb-server
+Description-md5: 9de83fb4d08c01bee9d235a4565f3b00
+Description-en: object/document-oriented database (server package)
+ MongoDB is a high-performance, open source, schema-free
+ document-oriented  data store that's easy to deploy, manage
+ and use. It's network accessible, written in C++ and offers
+ the following features :
+ .
+    * Collection oriented storage - easy storage of object-
+      style data
+    * Full index support, including on inner objects
+    * Query profiling
+    * Replication and fail-over support
+    * Efficient storage of binary data including large
+      objects (e.g. videos)
+    * Auto-sharding for cloud-level scalability (Q209)
+ .
+ High performance, scalability, and reasonable depth of
+ functionality are the goals for the project.
+ .
+ This package contains the server itself.
+
 Package: mono-2.0-gac
 Description-md5: e97bb45e4d1284263140c1ad35a973d6
 Description-en: Mono GAC tool (for CLI 2.0)
@@ -8004,6 +8113,17 @@ Description-en: OpenJDK Development Kit (JDK) source files
  .
  The packages are built using the IcedTea build support and patches
  from the IcedTea project.
+
+Package: openjpeg-tools
+Description-md5: dda905c39ef43ba0faf867ba38b472e3
+Description-en: command-line tools using the JPEG 2000 library
+ This package provides with command-line tools allowing for conversions between
+ several formats:
+  - j2k_to_image: decodes j2k, jp2, and jpt files to pgm, ppm, pnm,
+                  pgx, and bmp.
+  - image_to_j2k: encodes pnm, pgm, pgx, bmp, and ppm files to j2k,
+                  and jp2.
+  - index_create: create jp2 with JPIP index file from a j2k file.
 
 Package: openoffice.org-dtd-officedocument1.0
 Description-md5: da628816224a3d119a9040f51575aae3

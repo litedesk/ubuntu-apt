@@ -11038,6 +11038,70 @@ Description-md5: b6f316eebfa1cc038bb9afed528de9fc
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: libopenjpeg-dev
+Priority: extra
+Section: universe/libdevel
+Installed-Size: 244
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: openjpeg
+Version: 1.3+dfsg-4+squeeze1build0.12.04.1
+Depends: libopenjpeg2 (= 1.3+dfsg-4+squeeze1build0.12.04.1)
+Filename: pool/universe/o/openjpeg/libopenjpeg-dev_1.3+dfsg-4+squeeze1build0.12.04.1_i386.deb
+Size: 79132
+MD5sum: 0976a9b8c23f67fdd777f4d980778ba8
+SHA1: 4c3b3f655f1a9f36181924844cfd84680813f7a4
+SHA256: a0ac0290ef02000ee11e436d224bd3b9ef7d97b73a42206914019da532ded95e
+Description: development files for libopenjpeg2, a JPEG 2000 image library
+Homepage: http://www.openjpeg.org
+Description-md5: 320c070e692730858f06e088ce6dea05
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libopenjpeg2
+Priority: extra
+Section: universe/libs
+Installed-Size: 175
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: openjpeg
+Version: 1.3+dfsg-4+squeeze1build0.12.04.1
+Depends: libc6 (>= 2.15)
+Filename: pool/universe/o/openjpeg/libopenjpeg2_1.3+dfsg-4+squeeze1build0.12.04.1_i386.deb
+Size: 69008
+MD5sum: 2c81f8fb41865b884920df4b815518a8
+SHA1: 27dcbd2c81fa40d4d4e86784d4524b4d705c3f26
+SHA256: c8a80796f8a4d27c106d29be1a165d2ace29685e83f45046a7caf5174037f27f
+Description: JPEG 2000 image compression/decompression library
+Homepage: http://www.openjpeg.org
+Description-md5: 3fae031db518d294ca7b0765f460c213
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Task: ubuntustudio-generation, ubuntustudio-video, ubuntustudio-recording
+
+Package: libopenjpeg2-dbg
+Priority: extra
+Section: universe/libdevel
+Installed-Size: 942
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: openjpeg
+Version: 1.3+dfsg-4+squeeze1build0.12.04.1
+Depends: libopenjpeg2 (= 1.3+dfsg-4+squeeze1build0.12.04.1)
+Filename: pool/universe/o/openjpeg/libopenjpeg2-dbg_1.3+dfsg-4+squeeze1build0.12.04.1_i386.deb
+Size: 368554
+MD5sum: f836a4ce6cda09cdfc25554f252cb18b
+SHA1: 400316c08228cb1acf94f1066ccf5ad57863841c
+SHA256: 410c9ba6e548afa220cfd1cb220dcc491e6dddc0bd553fb1b38480027c060bf1
+Description: debug symbols for libopenjpeg2, a JPEG 2000 image library
+Homepage: http://www.openjpeg.org
+Description-md5: 5cedd1a1ddc46988f750e4c3a97e579d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: libotr2-bin
 Priority: optional
 Section: universe/misc
@@ -11851,17 +11915,17 @@ Origin: Ubuntu
 Package: libservlet3.0-java
 Priority: optional
 Section: universe/java
-Installed-Size: 405
+Installed-Size: 406
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: tomcat7
-Version: 7.0.26-1ubuntu1.1
-Filename: pool/universe/t/tomcat7/libservlet3.0-java_7.0.26-1ubuntu1.1_all.deb
-Size: 291478
-MD5sum: a31d1783df248fcaa54b6c0e0f2923bb
-SHA1: 4278f82991825838ac7d192e3524b45c05a6273e
-SHA256: 46fa880c521f2f3275589db44de31d4ec3900e72b782b8412e7fa8b3b499eaca
+Version: 7.0.26-1ubuntu1.2
+Filename: pool/universe/t/tomcat7/libservlet3.0-java_7.0.26-1ubuntu1.2_all.deb
+Size: 291872
+MD5sum: 7e78401604455c14cf13deb1f704c49e
+SHA1: 8c8b7298b9d406465c3220d01b21bc24cdd2a87d
+SHA256: bef48e29e53d3865cba34bb72bb11c6fb241b7c910c06f8a82b3384431cd1e6d
 Description: Servlet 3.0 and JSP 2.2 Java API classes
 Homepage: http://tomcat.apache.org
 Description-md5: 53f7075916141a8eb225df97286c9451
@@ -11876,13 +11940,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: tomcat7
-Version: 7.0.26-1ubuntu1.1
-Suggests: libservlet3.0-java (>= 7.0.26-1ubuntu1.1)
-Filename: pool/universe/t/tomcat7/libservlet3.0-java-doc_7.0.26-1ubuntu1.1_all.deb
-Size: 291414
-MD5sum: 99dcde66c5e66a0c910031877ee1dfd1
-SHA1: ba6e2adfd80195c0a3b2578abd7469b4f2ee67f9
-SHA256: f655ba212e478022f329b306f9ee7099f4c3cbbc74c24bdba5215208c51853d2
+Version: 7.0.26-1ubuntu1.2
+Suggests: libservlet3.0-java (>= 7.0.26-1ubuntu1.2)
+Filename: pool/universe/t/tomcat7/libservlet3.0-java-doc_7.0.26-1ubuntu1.2_all.deb
+Size: 291898
+MD5sum: b8937020710edb93782f54ea6d83dc06
+SHA1: 09feac5f1ab179e067c627ac94f98e39f933fb09
+SHA256: 073f3bb3f1c48d2a1156fbb8cc00319d9027ddac0eead94acb03157556f35c9b
 Description: Servlet 3.0 and JSP 2.2 Java API documentation
 Homepage: http://tomcat.apache.org
 Description-md5: 105d3349377c356c2f157766657d4639
@@ -12117,20 +12181,20 @@ Origin: Ubuntu
 Package: libtomcat7-java
 Priority: optional
 Section: universe/java
-Installed-Size: 3817
+Installed-Size: 3819
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: tomcat7
-Version: 7.0.26-1ubuntu1.1
-Depends: libecj-java, libcommons-pool-java, libcommons-dbcp-java, libservlet3.0-java (>= 7.0.26-1ubuntu1.1)
-Suggests: tomcat7 (>= 7.0.26-1ubuntu1.1)
+Version: 7.0.26-1ubuntu1.2
+Depends: libecj-java, libcommons-pool-java, libcommons-dbcp-java, libservlet3.0-java (>= 7.0.26-1ubuntu1.2)
+Suggests: tomcat7 (>= 7.0.26-1ubuntu1.2)
 Conflicts: libtomcat6-java
-Filename: pool/universe/t/tomcat7/libtomcat7-java_7.0.26-1ubuntu1.1_all.deb
-Size: 3416688
-MD5sum: ee31a2aae0f93346adb521071f62b68b
-SHA1: c40dca781a3338f9b462c3bab92bdf74af36cf72
-SHA256: 6797bf0db96726ed45aa4730a70b3d833ddefd37e787ee5be162e1ed929875e8
+Filename: pool/universe/t/tomcat7/libtomcat7-java_7.0.26-1ubuntu1.2_all.deb
+Size: 3418394
+MD5sum: 99871cbe256672c22a22c712aafad932
+SHA1: caeee691e272547db0d5cd525da3253b33bdaf96
+SHA256: faa4a62231da6d96b316790e3091e06d5cd004da4151790f1d9aa105a1333ad1
 Description: Servlet and JSP engine -- core libraries
 Homepage: http://tomcat.apache.org
 Description-md5: 7a2563c1a7c79379004bc6464d285af0
@@ -14247,6 +14311,92 @@ Description-md5: 8de03be14c6a847a7943ac239245721f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: mongodb
+Priority: optional
+Section: universe/database
+Installed-Size: 40
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Antonin Kral <A.Kral@sh.cvut.cz>
+Architecture: i386
+Version: 1:2.0.4-1ubuntu2.1
+Depends: mongodb-server, mongodb-dev
+Filename: pool/universe/m/mongodb/mongodb_2.0.4-1ubuntu2.1_i386.deb
+Size: 5144
+MD5sum: 2b2509ca62139e341e21a21e06f7ed36
+SHA1: e4642a5d07be6a2885b76b88d8e3e247156afab7
+SHA256: f86ed2f414ea273de08c81cd8736c8c1f48fbbf76931ff30518bb5b8ece635a5
+Description: object/document-oriented database (metapackage)
+Homepage: http://www.mongodb.org
+Description-md5: d1344c7c8f78f6ae79d9893ebf1ffb4c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: mongodb-clients
+Priority: optional
+Section: universe/database
+Installed-Size: 39208
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Antonin Kral <A.Kral@sh.cvut.cz>
+Architecture: i386
+Source: mongodb
+Version: 1:2.0.4-1ubuntu2.1
+Replaces: mongodb (<= 1:1.4.2-2)
+Depends: libboost-filesystem1.46.1 (>= 1.46.1-1), libboost-program-options1.46.1 (>= 1.46.1-1), libboost-system1.46.1 (>= 1.46.1-1), libboost-thread1.46.1 (>= 1.46.1-1), libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libpcre3 (>= 8.10), libpcrecpp0 (>= 7.7), libstdc++6 (>= 4.6)
+Filename: pool/universe/m/mongodb/mongodb-clients_2.0.4-1ubuntu2.1_i386.deb
+Size: 16870458
+MD5sum: 9af64bdb26b47f723d6439593dbf1054
+SHA1: b6584828c135811e32dd7f0da4925c23818d60bc
+SHA256: 89addc6045ffba5d949df949fc3013644bd4163c8bcd6e1a0c3ddf75dfeecdb3
+Description: object/document-oriented database (client apps)
+Homepage: http://www.mongodb.org
+Description-md5: 6bfa08eb778f4675f6a0703e45d565c1
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: mongodb-dev
+Priority: optional
+Section: universe/libdevel
+Installed-Size: 6501
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Antonin Kral <A.Kral@sh.cvut.cz>
+Architecture: i386
+Source: mongodb
+Version: 1:2.0.4-1ubuntu2.1
+Replaces: mongodb (<= 1:1.4.2-2)
+Depends: mongodb-server, libboost-dev
+Filename: pool/universe/m/mongodb/mongodb-dev_2.0.4-1ubuntu2.1_i386.deb
+Size: 1684648
+MD5sum: b8d93ed8ab96958b133b0e73c8c3ac9b
+SHA1: f5a56566ffee29abc625e587f635a3547bbb1382
+SHA256: 86243789ab7f21b02e6a0ec4cf8c0c5508b816bd23a2a2dd1390caca977cc1b4
+Description: object/document-oriented database (development)
+Homepage: http://www.mongodb.org
+Description-md5: c66901de0fa448ee6f33ee0ab7c6b4ff
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: mongodb-server
+Priority: optional
+Section: universe/database
+Installed-Size: 10033
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Antonin Kral <A.Kral@sh.cvut.cz>
+Architecture: i386
+Source: mongodb
+Version: 1:2.0.4-1ubuntu2.1
+Replaces: mongodb (<= 1:1.4.2-2)
+Depends: mongodb-clients, libboost-filesystem1.46.1 (>= 1.46.1-1), libboost-program-options1.46.1 (>= 1.46.1-1), libboost-system1.46.1 (>= 1.46.1-1), libboost-thread1.46.1 (>= 1.46.1-1), libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libpcre3 (>= 8.10), libpcrecpp0 (>= 7.7), libstdc++6 (>= 4.6), upstart-job, adduser
+Filename: pool/universe/m/mongodb/mongodb-server_2.0.4-1ubuntu2.1_i386.deb
+Size: 4268352
+MD5sum: 011de0199f43a88dbbe9ec9ce88b5e29
+SHA1: 0233cb606dda21b15ebe5f21fbaf6726439fe7c3
+SHA256: d709eed36a4450909873d3af59146603fe017ae52bad75e69089d9a45ddd345f
+Description: object/document-oriented database (server package)
+Homepage: http://www.mongodb.org
+Description-md5: 9de83fb4d08c01bee9d235a4565f3b00
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: mono-2.0-gac
 Priority: optional
 Section: universe/cli-mono
@@ -15978,6 +16128,27 @@ SHA256: 2439ebf37431e14f99c373f832fda0264b963c37f00848e3a18c1ea1d44aac6a
 Description: OpenJDK Development Kit (JDK) source files
 Homepage: http://openjdk.java.net/
 Description-md5: 328263bb6fbf81f04f5d459d67244ea0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: openjpeg-tools
+Priority: extra
+Section: universe/graphics
+Installed-Size: 482
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: openjpeg
+Version: 1.3+dfsg-4+squeeze1build0.12.04.1
+Depends: libc6 (>= 2.15), libtiff4
+Filename: pool/universe/o/openjpeg/openjpeg-tools_1.3+dfsg-4+squeeze1build0.12.04.1_i386.deb
+Size: 192782
+MD5sum: 89b4d92cdbfb63dc292356993259c7ca
+SHA1: 8c8740bd79e5d1e04786eefe048d69f556a98201
+SHA256: 33e0cf50f5531eda2c6bdfb2a16e7468c16b5bb112229e71f0265e39d707853a
+Description: command-line tools using the JPEG 2000 library
+Homepage: http://www.openjpeg.org
+Description-md5: dda905c39ef43ba0faf867ba38b472e3
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
@@ -20182,19 +20353,19 @@ Origin: Ubuntu
 Package: tomcat7
 Priority: optional
 Section: universe/java
-Installed-Size: 348
+Installed-Size: 349
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
-Version: 7.0.26-1ubuntu1.1
-Depends: tomcat7-common (>= 7.0.26-1ubuntu1.1), ucf, adduser, debconf (>= 0.5) | debconf-2.0
+Version: 7.0.26-1ubuntu1.2
+Depends: tomcat7-common (>= 7.0.26-1ubuntu1.2), ucf, adduser, debconf (>= 0.5) | debconf-2.0
 Recommends: authbind
-Suggests: tomcat7-docs (>= 7.0.26-1ubuntu1.1), tomcat7-admin (>= 7.0.26-1ubuntu1.1), tomcat7-examples (>= 7.0.26-1ubuntu1.1), tomcat7-user (>= 7.0.26-1ubuntu1.1), libtcnative-1
-Filename: pool/universe/t/tomcat7/tomcat7_7.0.26-1ubuntu1.1_all.deb
-Size: 37278
-MD5sum: ac996fa7b0b42487bfa176de4dcd9800
-SHA1: 8ddb82b39a1884e2949b9c9ce7b7ac9d0047b724
-SHA256: c748ea504b6ef59575a01816627e6f76a9620105acc1a0d25dbff9630dce057c
+Suggests: tomcat7-docs (>= 7.0.26-1ubuntu1.2), tomcat7-admin (>= 7.0.26-1ubuntu1.2), tomcat7-examples (>= 7.0.26-1ubuntu1.2), tomcat7-user (>= 7.0.26-1ubuntu1.2), libtcnative-1
+Filename: pool/universe/t/tomcat7/tomcat7_7.0.26-1ubuntu1.2_all.deb
+Size: 37276
+MD5sum: bdbda500c91d7a8f9aec5b31905759b8
+SHA1: 4bfbed486b0971a6239d4d2237a5ae12985ad9bd
+SHA256: 90ba0f26a819a67bce58ae9e9196c506d529949980775ed0f91368c53a44cf4d
 Description: Servlet and JSP engine
 Homepage: http://tomcat.apache.org
 Description-md5: 71d2a54f759941814ab4cf7873094b26
@@ -20204,18 +20375,18 @@ Origin: Ubuntu
 Package: tomcat7-admin
 Priority: optional
 Section: universe/java
-Installed-Size: 185
+Installed-Size: 186
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: tomcat7
-Version: 7.0.26-1ubuntu1.1
-Depends: tomcat7-common (>= 7.0.26-1ubuntu1.1)
-Filename: pool/universe/t/tomcat7/tomcat7-admin_7.0.26-1ubuntu1.1_all.deb
-Size: 40946
-MD5sum: 8969e19f06d18d7fc69567ee575c2029
-SHA1: 8ec3e93c51a8a6fe9c43b670789656ed0b409795
-SHA256: 5b6692a6a3a2754992730db03bf0fc485fb2893572ff75e24bfe9a462ec146e5
+Version: 7.0.26-1ubuntu1.2
+Depends: tomcat7-common (>= 7.0.26-1ubuntu1.2)
+Filename: pool/universe/t/tomcat7/tomcat7-admin_7.0.26-1ubuntu1.2_all.deb
+Size: 41314
+MD5sum: d79957eaf44c78ef6376eaf2c8b9307b
+SHA1: 6a220b477a71b588e874097f718e9458e9144dab
+SHA256: 575375e9f271ca5c09a60938ae190a7360be9ccbc4747bb3e9d95c1af5869c23
 Description: Servlet and JSP engine -- admin web applications
 Homepage: http://tomcat.apache.org
 Description-md5: 07b3738a38d2448ee2c0b77d4dbd745d
@@ -20230,13 +20401,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: tomcat7
-Version: 7.0.26-1ubuntu1.1
-Depends: libtomcat7-java (>= 7.0.26-1ubuntu1.1), default-jre-headless | java6-runtime-headless | java6-runtime | java-6-runtime
-Filename: pool/universe/t/tomcat7/tomcat7-common_7.0.26-1ubuntu1.1_all.deb
-Size: 49138
-MD5sum: aa0d6577ed9c77943c9a552fb8a7565a
-SHA1: 348292aa921c236471f7d4595cf8430ffc5f76aa
-SHA256: 908cb61f6f64b4bae528f5f499c43e9ccecf025eb3bbbb4894296f5406677e05
+Version: 7.0.26-1ubuntu1.2
+Depends: libtomcat7-java (>= 7.0.26-1ubuntu1.2), default-jre-headless | java6-runtime-headless | java6-runtime | java-6-runtime
+Filename: pool/universe/t/tomcat7/tomcat7-common_7.0.26-1ubuntu1.2_all.deb
+Size: 49136
+MD5sum: e78a372b7eb069a6f2ffa0ed979773bf
+SHA1: 6a6ac0885bc4a99e600f82369877e5464bbef2f1
+SHA256: c14e4f178f7d57b0b9d56ec7b8a7a252816d7e20fd69d12c32a49cfb945732e7
 Description: Servlet and JSP engine -- common files
 Homepage: http://tomcat.apache.org
 Description-md5: f1b8817985b6e745bfe6216aa2086c4b
@@ -20251,13 +20422,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: tomcat7
-Version: 7.0.26-1ubuntu1.1
-Depends: tomcat7-common (>= 7.0.26-1ubuntu1.1)
-Filename: pool/universe/t/tomcat7/tomcat7-docs_7.0.26-1ubuntu1.1_all.deb
-Size: 618918
-MD5sum: dd48c4224dafe31f940247ba8f978e37
-SHA1: 40421f3ebb9cc00f1204b6001553bfa076064307
-SHA256: 0c042c871d070d548ca3553832413f926fdd6f6a56cdcd63c52a71fc2cb49497
+Version: 7.0.26-1ubuntu1.2
+Depends: tomcat7-common (>= 7.0.26-1ubuntu1.2)
+Filename: pool/universe/t/tomcat7/tomcat7-docs_7.0.26-1ubuntu1.2_all.deb
+Size: 619350
+MD5sum: 9f81e3146b13b5411688fcb6e1ff5f78
+SHA1: e30c637041a5479de2b98497337381d5791fad06
+SHA256: 439b9a2bd6f3cbe615d5d22a5aaa9e20c7c0bbf5f446e291d1a90743a3711958
 Description: Servlet and JSP engine -- documentation
 Homepage: http://tomcat.apache.org
 Description-md5: 523c216160e93c3df0c2e38305883e9c
@@ -20272,13 +20443,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: tomcat7
-Version: 7.0.26-1ubuntu1.1
-Depends: tomcat7-common (>= 7.0.26-1ubuntu1.1)
-Filename: pool/universe/t/tomcat7/tomcat7-examples_7.0.26-1ubuntu1.1_all.deb
-Size: 167532
-MD5sum: 1c775a5f78e3dd2f21ece833bfa21a1a
-SHA1: 1851490d01273ecc1a9c1df9e23231b6d3a9cc7d
-SHA256: 765d099b9ebae91cfdf85913d82aa9ae058011ecbe5ed343cf42cfef3efe59bb
+Version: 7.0.26-1ubuntu1.2
+Depends: tomcat7-common (>= 7.0.26-1ubuntu1.2)
+Filename: pool/universe/t/tomcat7/tomcat7-examples_7.0.26-1ubuntu1.2_all.deb
+Size: 167984
+MD5sum: 555f7f2b4470b3c6571823b161032f47
+SHA1: ec439c0cd7cafe4a8ff3fec021d50e6bc15738ee
+SHA256: 3078ae06fab5c4e8ae01b2923591c2668aebaf21190baa53af8f4e620c56a52c
 Description: Servlet and JSP engine -- example web applications
 Homepage: http://tomcat.apache.org
 Description-md5: 3fd8302e7ffe454afd9ba42730f7a01a
@@ -20293,14 +20464,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: tomcat7
-Version: 7.0.26-1ubuntu1.1
-Depends: tomcat7-common (>= 7.0.26-1ubuntu1.1), netcat
-Suggests: tomcat7-docs (>= 7.0.26-1ubuntu1.1), tomcat7-admin (>= 7.0.26-1ubuntu1.1), tomcat7-examples (>= 7.0.26-1ubuntu1.1), tomcat7 (>= 7.0.26-1ubuntu1.1)
-Filename: pool/universe/t/tomcat7/tomcat7-user_7.0.26-1ubuntu1.1_all.deb
-Size: 26252
-MD5sum: 2fd34adfa02b67a11782d2ea9b6e390d
-SHA1: 949b919482e209d05bd6abfb00a636a7e161c697
-SHA256: acebdfb29b556a7ade790852dea6015cedd6f9e8157b14592d2a1bfa1ec93641
+Version: 7.0.26-1ubuntu1.2
+Depends: tomcat7-common (>= 7.0.26-1ubuntu1.2), netcat
+Suggests: tomcat7-docs (>= 7.0.26-1ubuntu1.2), tomcat7-admin (>= 7.0.26-1ubuntu1.2), tomcat7-examples (>= 7.0.26-1ubuntu1.2), tomcat7 (>= 7.0.26-1ubuntu1.2)
+Filename: pool/universe/t/tomcat7/tomcat7-user_7.0.26-1ubuntu1.2_all.deb
+Size: 26250
+MD5sum: b01958750a1a7d31dcfff3f5a0efb3d9
+SHA1: 852db32cb58f2248631e40eada0e5adb2d38af76
+SHA256: 118a27dd994c04cdfcd4e55151700a7b39623417df06e8f9362dd75ae381138e
 Description: Servlet and JSP engine -- tools to create user instances
 Homepage: http://tomcat.apache.org
 Description-md5: f0f735a1a5d3acaabdc873d63b8b405b
