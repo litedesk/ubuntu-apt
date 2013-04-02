@@ -8527,18 +8527,18 @@ Supported: 18m
 Package: gir1.2-poppler-0.18
 Priority: optional
 Section: introspection
-Installed-Size: 88
+Installed-Size: 89
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Loic Minier <lool@dooz.org>
 Architecture: i386
 Source: poppler
-Version: 0.18.4-1ubuntu3
+Version: 0.18.4-1ubuntu3.1
 Depends: gir1.2-freedesktop, gir1.2-glib-2.0, libpoppler-glib8 (>= 0.18)
-Filename: pool/main/p/poppler/gir1.2-poppler-0.18_0.18.4-1ubuntu3_i386.deb
-Size: 16090
-MD5sum: 820a853a56fed4d49f94927c804877b1
-SHA1: e26e2e53293e3e83dc4eeb0300316cbcf770d421
-SHA256: e70bd04f5debfd8d4f6a630eb79d8933c8603cb54439ca44ab9ac226d101ac0d
+Filename: pool/main/p/poppler/gir1.2-poppler-0.18_0.18.4-1ubuntu3.1_i386.deb
+Size: 16094
+MD5sum: b22b06aa837285ba70c8e3adb5ef7f8e
+SHA1: ead5c6b9b829935c440581913129ec9c375d381d
+SHA256: 2cc0a5fb8f69f04b141d87844c570067107858643375f621a735cb4d61b66106
 Description: GObject introspection data for poppler-glib
 Homepage: http://poppler.freedesktop.org/
 Description-md5: 6b6381807b3c5b1b31f06935b5817c74
@@ -55198,18 +55198,18 @@ Supported: 18m
 Package: libpoppler-cpp-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 184
+Installed-Size: 185
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Loic Minier <lool@dooz.org>
 Architecture: i386
 Source: poppler
-Version: 0.18.4-1ubuntu3
-Depends: libpoppler-cpp0 (= 0.18.4-1ubuntu3), libpoppler-dev (= 0.18.4-1ubuntu3)
-Filename: pool/main/p/poppler/libpoppler-cpp-dev_0.18.4-1ubuntu3_i386.deb
-Size: 40256
-MD5sum: d30d82b7e734e02ee2e850f7de070381
-SHA1: 0fd91da2d78c3a9f803b22d0d3d860dc88cbf1e0
-SHA256: 3b20057e5fdcbf86d9d00b74fb578d6e4d85543fad01997b99629b865eabcd8b
+Version: 0.18.4-1ubuntu3.1
+Depends: libpoppler-cpp0 (= 0.18.4-1ubuntu3.1), libpoppler-dev (= 0.18.4-1ubuntu3.1)
+Filename: pool/main/p/poppler/libpoppler-cpp-dev_0.18.4-1ubuntu3.1_i386.deb
+Size: 40622
+MD5sum: f38c9d22cef2f92ea41db73dcd7a46fb
+SHA1: ff1aae8aa57326f0625b858a6a46a4083af53f63
+SHA256: 272bc251710f2e32acbbbd4d49699381848d16f331cc36055183039eb06058cd
 Description: PDF rendering library -- development files (CPP interface)
 Homepage: http://poppler.freedesktop.org/
 Description-md5: b8ccf7d2887aa9a8117d5795dcfa8442
@@ -55225,14 +55225,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Loic Minier <lool@dooz.org>
 Architecture: i386
 Source: poppler
-Version: 0.18.4-1ubuntu3
+Version: 0.18.4-1ubuntu3.1
 Depends: libc6 (>= 2.4), libpoppler19, libstdc++6 (>= 4.2.1)
 Pre-Depends: multiarch-support
-Filename: pool/main/p/poppler/libpoppler-cpp0_0.18.4-1ubuntu3_i386.deb
-Size: 34976
-MD5sum: 7d0dc476ed823a6a94a3a4a115f1c994
-SHA1: 17d967b10e33410aaeaa6fa5fe527d23cef60b0e
-SHA256: a5e26009dc6661cc272eedfb4e359c1d6ade205d8524bbc3c3ba572547ae4473
+Filename: pool/main/p/poppler/libpoppler-cpp0_0.18.4-1ubuntu3.1_i386.deb
+Size: 34914
+MD5sum: 3362445fb3b70e1c3ed76c0c1552ac24
+SHA1: 0a3c69edc46d6965d5f35e8c0acd77133faeb50c
+SHA256: 7d22a034a9f6b97b3b0e499cb31dd05a25a1526209593e4421f21a93408549d8
 Description: PDF rendering library (CPP shared library)
 Multi-Arch: same
 Homepage: http://poppler.freedesktop.org/
@@ -55244,18 +55244,18 @@ Supported: 18m
 Package: libpoppler-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 3576
+Installed-Size: 3577
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Loic Minier <lool@dooz.org>
 Architecture: i386
 Source: poppler
-Version: 0.18.4-1ubuntu3
-Depends: libpoppler19 (= 0.18.4-1ubuntu3), libfontconfig1-dev
-Filename: pool/main/p/poppler/libpoppler-dev_0.18.4-1ubuntu3_i386.deb
-Size: 1046246
-MD5sum: 1b78c5a07941b3ee9a8acce0b69a9c4e
-SHA1: 6816bafcae9edb8b98fb360fcc055c655c52b36e
-SHA256: e06ebb347e234b768995d9463d2f298f6d9af441b74eb7fe41b06ed426e8bc0c
+Version: 0.18.4-1ubuntu3.1
+Depends: libpoppler19 (= 0.18.4-1ubuntu3.1), libfontconfig1-dev
+Filename: pool/main/p/poppler/libpoppler-dev_0.18.4-1ubuntu3.1_i386.deb
+Size: 1049432
+MD5sum: 0eceb035e0385b942078497b594da61b
+SHA1: 3cd5caf9a20d2241182d9637665d1b2e72fb1200
+SHA256: 9004fcb667667c3566af353de7edebb46c529b513c3ab8a2e186cb2c341bf049
 Description: PDF rendering library -- development files
 Homepage: http://poppler.freedesktop.org/
 Description-md5: b1196794044a1e320e6b8073a66c58a6
@@ -55266,18 +55266,18 @@ Supported: 18m
 Package: libpoppler-glib-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 1367
+Installed-Size: 1368
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Loic Minier <lool@dooz.org>
 Architecture: i386
 Source: poppler
-Version: 0.18.4-1ubuntu3
-Depends: libpoppler-glib8 (= 0.18.4-1ubuntu3), libpoppler-dev (= 0.18.4-1ubuntu3), gir1.2-poppler-0.18 (= 0.18.4-1ubuntu3), libglib2.0-dev (>= 2.18), libcairo2-dev (>= 1.10.0)
-Filename: pool/main/p/poppler/libpoppler-glib-dev_0.18.4-1ubuntu3_i386.deb
-Size: 210388
-MD5sum: ab5cce8ef6f8baba919905685dfe339d
-SHA1: 37e16b8673c74eb23fad73bea37ffb8f0498f82b
-SHA256: 5df7428ab05f742d210ed3d95ffdc157bf8759242eaae6d82ea513523d12a813
+Version: 0.18.4-1ubuntu3.1
+Depends: libpoppler-glib8 (= 0.18.4-1ubuntu3.1), libpoppler-dev (= 0.18.4-1ubuntu3.1), gir1.2-poppler-0.18 (= 0.18.4-1ubuntu3.1), libglib2.0-dev (>= 2.18), libcairo2-dev (>= 1.10.0)
+Filename: pool/main/p/poppler/libpoppler-glib-dev_0.18.4-1ubuntu3.1_i386.deb
+Size: 210672
+MD5sum: b9c41d912861749e234571a3579c5dd3
+SHA1: a2fe38e1b514635dca84f8dcb12051781faf7c94
+SHA256: 112dc72cefae350b4c34262205caa031769cf24648b40063dcb188101ca5454d
 Description: PDF rendering library -- development files (GLib interface)
 Homepage: http://poppler.freedesktop.org/
 Description-md5: 4483b544bc64264785fa77d6466a341f
@@ -55293,14 +55293,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Loic Minier <lool@dooz.org>
 Architecture: i386
 Source: poppler
-Version: 0.18.4-1ubuntu3
+Version: 0.18.4-1ubuntu3.1
 Depends: libc6 (>= 2.4), libcairo2 (>= 1.10.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.24.0), libpoppler19, libstdc++6 (>= 4.1.1)
 Pre-Depends: multiarch-support
-Filename: pool/main/p/poppler/libpoppler-glib8_0.18.4-1ubuntu3_i386.deb
-Size: 89730
-MD5sum: 229dd0634d60cbc013dd096462a2fa1f
-SHA1: 1ce40e040142dcf80e7ec67f0c4293dee4892660
-SHA256: 979f40348913e0e143837915fc9b1e3c87ee1dec9f6d667a49deb5f457810fa3
+Filename: pool/main/p/poppler/libpoppler-glib8_0.18.4-1ubuntu3.1_i386.deb
+Size: 89802
+MD5sum: 6d3486e4e9a17efd089ef50ff94b3862
+SHA1: cc20f17bdfd9168e59640aa73bade9716feb39e8
+SHA256: a2439e07964bc74e53d4274fd92083c3e7ce0b2ec1d7c3a4e9dab2e07a81d4c9
 Description: PDF rendering library (GLib-based shared library)
 Multi-Arch: same
 Homepage: http://poppler.freedesktop.org/
@@ -55318,14 +55318,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Loic Minier <lool@dooz.org>
 Architecture: i386
 Source: poppler
-Version: 0.18.4-1ubuntu3
-Depends: libpoppler-dev (= 0.18.4-1ubuntu3)
+Version: 0.18.4-1ubuntu3.1
+Depends: libpoppler-dev (= 0.18.4-1ubuntu3.1)
 Suggests: libfreetype6-dev, libopenjpeg-dev, libpng-dev, libtiff-dev
-Filename: pool/main/p/poppler/libpoppler-private-dev_0.18.4-1ubuntu3_i386.deb
-Size: 3686
-MD5sum: 3adc477e7410411b0aa9d36f6841fda1
-SHA1: 6bd0a6d284d473ec23e4fb68e8ca09897385709c
-SHA256: 73de05b9279657afde0f49d6e21c4a9ddaeb27e768134670d957b6db0190ee0c
+Filename: pool/main/p/poppler/libpoppler-private-dev_0.18.4-1ubuntu3.1_i386.deb
+Size: 3698
+MD5sum: 44fa9b77909287f30113bcd4ddecec68
+SHA1: 811d5d26db7040af9db8d6f8f5502c2aa41fc48f
+SHA256: ea6be253eab78dc4cb437d3f0965b3cd9d189c35465c45578295d8293572e9f2
 Description: PDF rendering library -- private development files
 Homepage: http://poppler.freedesktop.org/
 Description-md5: 2ba34af08b97788f1984202e02507f2e
@@ -55341,14 +55341,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Loic Minier <lool@dooz.org>
 Architecture: i386
 Source: poppler
-Version: 0.18.4-1ubuntu3
+Version: 0.18.4-1ubuntu3.1
 Depends: libc6 (>= 2.4), libpoppler19, libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.1.1)
 Pre-Depends: multiarch-support
-Filename: pool/main/p/poppler/libpoppler-qt4-3_0.18.4-1ubuntu3_i386.deb
-Size: 131210
-MD5sum: 183689e839673f4d16ec9d403ae72c18
-SHA1: 6f13c21b650636e87f1785be85c4e97a6f1a1dc1
-SHA256: a73ad8858de741a7d66942f112c0d11de73bc3694f05ca27b717495a75b97694
+Filename: pool/main/p/poppler/libpoppler-qt4-3_0.18.4-1ubuntu3.1_i386.deb
+Size: 131346
+MD5sum: 3cde51ce84dc697eb1353eb2717da732
+SHA1: c916d65f1884e34c88ce139ee1838345891bef56
+SHA256: 25d65f3ce654d86fd35f25b5fbd5dd9c9fdca825645e33d27f3c91a8c3680476
 Description: PDF rendering library (Qt 4 based shared library)
 Multi-Arch: same
 Homepage: http://poppler.freedesktop.org/
@@ -55366,13 +55366,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Loic Minier <lool@dooz.org>
 Architecture: i386
 Source: poppler
-Version: 0.18.4-1ubuntu3
-Depends: libpoppler-qt4-3 (= 0.18.4-1ubuntu3), libpoppler-dev (= 0.18.4-1ubuntu3), libqt4-dev (>= 4.4.0)
-Filename: pool/main/p/poppler/libpoppler-qt4-dev_0.18.4-1ubuntu3_i386.deb
-Size: 177346
-MD5sum: 9fc4ae5415bd3123bbd3418bfbfc4837
-SHA1: 3d3f9d0e8d7d1cf8bcd34cf1608f1580c3fb5772
-SHA256: 8dd195e2a092adbfb6d5bb33e4b187f0a856c4873e559654ff595371254d951d
+Version: 0.18.4-1ubuntu3.1
+Depends: libpoppler-qt4-3 (= 0.18.4-1ubuntu3.1), libpoppler-dev (= 0.18.4-1ubuntu3.1), libqt4-dev (>= 4.4.0)
+Filename: pool/main/p/poppler/libpoppler-qt4-dev_0.18.4-1ubuntu3.1_i386.deb
+Size: 177852
+MD5sum: 07aa77110a3143875689ba46266fd996
+SHA1: ae275011f03b2dbe638a5cc39efd9c70454a455a
+SHA256: f59d6e0b2edca29323119263ef66709a57fb62fec1662f3039fecb2cfd8de537
 Description: PDF rendering library -- development files (Qt 4 interface)
 Homepage: http://poppler.freedesktop.org/
 Description-md5: 49af48187cf9e04b62ac9215438d6465
@@ -55388,15 +55388,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Loic Minier <lool@dooz.org>
 Architecture: i386
 Source: poppler
-Version: 0.18.4-1ubuntu3
+Version: 0.18.4-1ubuntu3.1
 Depends: libc6 (>= 2.11), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libjpeg8 (>= 8c), liblcms2-2 (>= 2.2+git20110628-2), libpng12-0 (>= 1.2.13-4), libstdc++6 (>= 4.1.1), libtiff4
 Pre-Depends: multiarch-support
 Suggests: poppler-data
-Filename: pool/main/p/poppler/libpoppler19_0.18.4-1ubuntu3_i386.deb
-Size: 752808
-MD5sum: 0e6da05a523f7f522126b4d723cb031f
-SHA1: 8e1f162d957f6f753469fd0cda5800a8c5e60b5a
-SHA256: 933dc782dee32c2dab2cd6f6d71c29b3642d83680c8ce0a800b2c58b37dcc9c6
+Filename: pool/main/p/poppler/libpoppler19_0.18.4-1ubuntu3.1_i386.deb
+Size: 752382
+MD5sum: 9ac0bf0f8850e31d61ed7dc1574836bd
+SHA1: 6248abdd335d5324e9fcc11997fd1bca038916ae
+SHA256: fe440a0cff76d607dc44ea312ae13eb991504e2ad841a57d6180fbc61a3d9eac
 Description: PDF rendering library
 Multi-Arch: same
 Homepage: http://poppler.freedesktop.org/
@@ -66149,13 +66149,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: i386
 Source: libxslt
-Version: 1.1.26-8ubuntu1.2
-Depends: libxslt1.1 (= 1.1.26-8ubuntu1.2)
-Filename: pool/main/libx/libxslt/libxslt1-dbg_1.1.26-8ubuntu1.2_i386.deb
-Size: 294310
-MD5sum: 620fa2e3203f70e92a30e3d45e6d634a
-SHA1: 7aef5e8ce223c9f57a82a9fa5c6f2e31105c4438
-SHA256: 53a10f0d9473cc34586ca75e3d22fe4caa7332c415688d52e6abd1fbf5a3b64e
+Version: 1.1.26-8ubuntu1.3
+Depends: libxslt1.1 (= 1.1.26-8ubuntu1.3)
+Filename: pool/main/libx/libxslt/libxslt1-dbg_1.1.26-8ubuntu1.3_i386.deb
+Size: 294456
+MD5sum: b9092107d0e5032ef07cb9bd9fef3d40
+SHA1: 22dd28e07b0f002464eeabf91b2a9376b31c26ac
+SHA256: 84ada275681fb875fecf45cfaceaf1ec58cbc8efdd3ae8064db8f33d0439350e
 Description: XSLT 1.0 processing library - debugging symbols
 Homepage: http://xmlsoft.org/xslt/
 Description-md5: 07d298272e95c3b2975184f478cc6006
@@ -66166,19 +66166,19 @@ Supported: 18m
 Package: libxslt1-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 2192
+Installed-Size: 2193
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: i386
 Source: libxslt
-Version: 1.1.26-8ubuntu1.2
+Version: 1.1.26-8ubuntu1.3
 Provides: libxslt-dev
-Depends: libxslt1.1 (= 1.1.26-8ubuntu1.2), libxml2-dev (>= 2.6.26)
-Filename: pool/main/libx/libxslt/libxslt1-dev_1.1.26-8ubuntu1.2_i386.deb
-Size: 558026
-MD5sum: 2f7d003fc1f745b51062787dd9788fac
-SHA1: 5e238f34d04b381e65c13b044aa3a57ab58ed484
-SHA256: 7ca598123d59a4c49b129732d726399d52f04f510b1c5106296e57302fbc40dc
+Depends: libxslt1.1 (= 1.1.26-8ubuntu1.3), libxml2-dev (>= 2.6.26)
+Filename: pool/main/libx/libxslt/libxslt1-dev_1.1.26-8ubuntu1.3_i386.deb
+Size: 558076
+MD5sum: 46034bdd7984224ac882b17081e6f4a4
+SHA1: dff822f1939804ef59e66e39a7f2b996b2c1544d
+SHA256: 606da72009024344cbb645343b90fa64fea1abd76b6551d1b963c987dc611c93
 Description: XSLT 1.0 processing library - development kit
 Homepage: http://xmlsoft.org/xslt/
 Description-md5: f51e27fa123abbb4132b189b0ee706c8
@@ -66194,14 +66194,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: i386
 Source: libxslt
-Version: 1.1.26-8ubuntu1.2
+Version: 1.1.26-8ubuntu1.3
 Depends: libc6 (>= 2.4), libgcrypt11 (>= 1.4.5), libxml2 (>= 2.7.4)
 Pre-Depends: multiarch-support
-Filename: pool/main/libx/libxslt/libxslt1.1_1.1.26-8ubuntu1.2_i386.deb
-Size: 164910
-MD5sum: e0e362feb70ea440103c8e78818a0b93
-SHA1: c9f91561274bcd89173cfb1cfbbeb18350a35eea
-SHA256: 0114860bd5201298cff0a5cebbdc14f11a2260e481675dee1f62d83723e940d6
+Filename: pool/main/libx/libxslt/libxslt1.1_1.1.26-8ubuntu1.3_i386.deb
+Size: 164998
+MD5sum: 774b24bfcb7d47b09438e0d89171dfaa
+SHA1: 6a69e503180e4f7be071a056bb04d8f4f82c47ce
+SHA256: 9d5a91c72cd16c152537a1a18a64ced141ba360b0489c41fb0a6ac66b6087a0f
 Description: XSLT 1.0 processing library - runtime library
 Multi-Arch: same
 Homepage: http://xmlsoft.org/xslt/
@@ -80469,18 +80469,18 @@ Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, edubuntu-deskt
 Package: poppler-dbg
 Priority: extra
 Section: debug
-Installed-Size: 4873
+Installed-Size: 4869
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Loic Minier <lool@dooz.org>
 Architecture: i386
 Source: poppler
-Version: 0.18.4-1ubuntu3
-Depends: libpoppler19 (= 0.18.4-1ubuntu3)
-Filename: pool/main/p/poppler/poppler-dbg_0.18.4-1ubuntu3_i386.deb
-Size: 4496470
-MD5sum: cd821622659575da1ea7114efed0d5f3
-SHA1: 7feb293ff23e69267ec507b3615ff3444e8d511c
-SHA256: 90c6ca2231ea450faed8e3990adaa53dda06013e87205b336aa7f1193b3c6e7c
+Version: 0.18.4-1ubuntu3.1
+Depends: libpoppler19 (= 0.18.4-1ubuntu3.1)
+Filename: pool/main/p/poppler/poppler-dbg_0.18.4-1ubuntu3.1_i386.deb
+Size: 4496912
+MD5sum: 565bf63d719747a547260229fd0e4a8d
+SHA1: 2428f116f847bb06cdeb25db2781d9c10a44113c
+SHA256: 8b16f71b01a1b588e0752af3418565ad866ec33bfa4c9f157522f5f65d8740bc
 Description: PDF rendering library -- debugging symbols
 Homepage: http://poppler.freedesktop.org/
 Description-md5: ab22a1743f8f5dc1f00b9db139334fe2
@@ -80491,23 +80491,23 @@ Supported: 18m
 Package: poppler-utils
 Priority: optional
 Section: utils
-Installed-Size: 368
+Installed-Size: 369
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Loic Minier <lool@dooz.org>
 Architecture: i386
 Source: poppler
-Version: 0.18.4-1ubuntu3
+Version: 0.18.4-1ubuntu3.1
 Replaces: pdftohtml, xpdf-reader, xpdf-utils (<< 3.02-2~)
 Provides: pdftohtml, xpdf-utils
 Depends: libc6 (>= 2.4), libcairo2 (>= 1.10.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), liblcms2-2 (>= 2.2+git20110628-2), libpoppler19, libstdc++6 (>= 4.1.1)
 Recommends: ghostscript
 Conflicts: pdftohtml
 Breaks: xpdf-utils (<< 3.02-2~)
-Filename: pool/main/p/poppler/poppler-utils_0.18.4-1ubuntu3_i386.deb
-Size: 136654
-MD5sum: ee1299059e7936085c1ff33ea6638401
-SHA1: 07a53e54b72663004acc091114a7cb42ccf639b3
-SHA256: 47be8c356c528c1f50d661aec4dde55ac60822e5b0eddfa61d2e9d8f89c76c43
+Filename: pool/main/p/poppler/poppler-utils_0.18.4-1ubuntu3.1_i386.deb
+Size: 135672
+MD5sum: ff0eb0096059b0b8477eab0ff4e79b63
+SHA1: c755baa27cd03328959c3e91b2f780bb12bf6173
+SHA256: e4bb4826b9a89734f02992d056fbf535c409d52941d8bdcfbdb917f08e60f91d
 Description: PDF utilities (based on Poppler)
 Multi-Arch: foreign
 Homepage: http://poppler.freedesktop.org/
@@ -82945,14 +82945,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: i386
 Source: libxslt
-Version: 1.1.26-8ubuntu1.2
+Version: 1.1.26-8ubuntu1.3
 Provides: python2.7-libxslt1
 Depends: libc6 (>= 2.3.4), libxslt1.1 (>= 1.1.25), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-libxml2
-Filename: pool/main/libx/libxslt/python-libxslt1_1.1.26-8ubuntu1.2_i386.deb
-Size: 40638
-MD5sum: ac826372b66acc5eea0c8ace244387f3
-SHA1: 83ae7be3814945fc8693f9210e55146cad843625
-SHA256: dc7bc15a43cab1d5ae2b58745fc47461f0c9e29f62c7c75b4e4e07af9961d3d0
+Filename: pool/main/libx/libxslt/python-libxslt1_1.1.26-8ubuntu1.3_i386.deb
+Size: 40646
+MD5sum: c4746b3831746f29bcf2be2ff0fc71f2
+SHA1: 81a8bf300bf536c22090b2aee151c9969f114759
+SHA256: 64166d73dd8fdded54f66652e592669f98cdc5e8850dab160aab931ddc6a9a23
 Description: Python bindings for libxslt1
 Homepage: http://xmlsoft.org/xslt/
 Description-md5: e2cc4c037db99774d273c35b21c8c8b9
@@ -82968,14 +82968,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: i386
 Source: libxslt
-Version: 1.1.26-8ubuntu1.2
+Version: 1.1.26-8ubuntu1.3
 Provides: python2.7-libxslt1-dbg
-Depends: python-dbg, python-libxslt1 (= 1.1.26-8ubuntu1.2), libc6 (>= 2.1.3), libxslt1.1 (>= 1.1.25), python-libxml2-dbg
-Filename: pool/main/libx/libxslt/python-libxslt1-dbg_1.1.26-8ubuntu1.2_i386.deb
-Size: 134424
-MD5sum: 9dfbe9300b933d5b34d68084a6f88873
-SHA1: 5233e55a5b6797fe80040af4b2e21b571dec7d4e
-SHA256: 13716e64b8acdc763c5d50390c1c393aad98cce5572db773cef19114a1b070d8
+Depends: python-dbg, python-libxslt1 (= 1.1.26-8ubuntu1.3), libc6 (>= 2.1.3), libxslt1.1 (>= 1.1.25), python-libxml2-dbg
+Filename: pool/main/libx/libxslt/python-libxslt1-dbg_1.1.26-8ubuntu1.3_i386.deb
+Size: 134458
+MD5sum: 94f74a8ab272e6a526ca88ecbcf0ccbd
+SHA1: c9ce8e51209c7fd7682979d8594c68760564665c
+SHA256: 3413c47e7ba3711c6a95163eb8929caf761fcd8c4f569b205087fb1d1a575d3a
 Description: Python bindings for libxslt1 (debug extension)
 Homepage: http://xmlsoft.org/xslt/
 Description-md5: dd55b04fde37de4e907cfd65cd22e216
@@ -92132,18 +92132,18 @@ Task: kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full
 Package: xsltproc
 Priority: optional
 Section: text
-Installed-Size: 160
+Installed-Size: 161
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: i386
 Source: libxslt
-Version: 1.1.26-8ubuntu1.2
+Version: 1.1.26-8ubuntu1.3
 Depends: libc6 (>= 2.3.4), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25)
-Filename: pool/main/libx/libxslt/xsltproc_1.1.26-8ubuntu1.2_i386.deb
-Size: 14384
-MD5sum: 9308fc584517978b66987d16a30fac4c
-SHA1: 2a7af4db6c1ec899fb4bc5c04195078070bd5473
-SHA256: fc50041cb2b385929a946b647f37964a1005453f85c2327774e2043e8e5e2d5c
+Filename: pool/main/libx/libxslt/xsltproc_1.1.26-8ubuntu1.3_i386.deb
+Size: 14386
+MD5sum: 0b61353f78a08a48b4a8b5a3d262cf5f
+SHA1: 446d20087371d901fc1df6e115d8f8c169596632
+SHA256: c06bff50fe514b623ca4cac66f35f52f4d627e77e468814b11dbe478daa302d8
 Description: XSLT 1.0 command line processor
 Multi-Arch: foreign
 Homepage: http://xmlsoft.org/xslt/

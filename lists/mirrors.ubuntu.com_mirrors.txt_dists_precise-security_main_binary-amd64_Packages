@@ -4286,6 +4286,28 @@ Origin: Ubuntu
 Supported: 5y
 Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-live, ubuntustudio-desktop
 
+Package: gir1.2-poppler-0.18
+Priority: optional
+Section: introspection
+Installed-Size: 89
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Loic Minier <lool@dooz.org>
+Architecture: amd64
+Source: poppler
+Version: 0.18.4-1ubuntu3.1
+Depends: gir1.2-freedesktop, gir1.2-glib-2.0, libpoppler-glib8 (>= 0.18)
+Filename: pool/main/p/poppler/gir1.2-poppler-0.18_0.18.4-1ubuntu3.1_amd64.deb
+Size: 16090
+MD5sum: b753cc012f1bf5214e91afc2ff86fe68
+SHA1: f880bb3b13ceb208329cc8e9cca97bb6c24591fe
+SHA256: 43ed835e37b97276fc430f47a5793abe10a5f726ad6ba94e2f4304816e89bce4
+Description: GObject introspection data for poppler-glib
+Homepage: http://poppler.freedesktop.org/
+Description-md5: 6b6381807b3c5b1b31f06935b5817c74
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: gir1.2-rb-3.0
 Priority: optional
 Section: introspection
@@ -15246,6 +15268,217 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 Task: kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop-kde, edubuntu-desktop-gnome
+
+Package: libpoppler-cpp-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 210
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Loic Minier <lool@dooz.org>
+Architecture: amd64
+Source: poppler
+Version: 0.18.4-1ubuntu3.1
+Depends: libpoppler-cpp0 (= 0.18.4-1ubuntu3.1), libpoppler-dev (= 0.18.4-1ubuntu3.1)
+Filename: pool/main/p/poppler/libpoppler-cpp-dev_0.18.4-1ubuntu3.1_amd64.deb
+Size: 43006
+MD5sum: 1a285271fc281747c15c26adcf8deb6b
+SHA1: d1b07af14c7e82a979f3bf665e0757fbf8dfc01e
+SHA256: 8f449383840891abb13cfc911f4a34be2c11777cba90ebbd707919f22c6b925c
+Description: PDF rendering library -- development files (CPP interface)
+Homepage: http://poppler.freedesktop.org/
+Description-md5: b8ccf7d2887aa9a8117d5795dcfa8442
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libpoppler-cpp0
+Priority: optional
+Section: libs
+Installed-Size: 121
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Loic Minier <lool@dooz.org>
+Architecture: amd64
+Source: poppler
+Version: 0.18.4-1ubuntu3.1
+Depends: libc6 (>= 2.14), libpoppler19, libstdc++6 (>= 4.2.1)
+Pre-Depends: multiarch-support
+Filename: pool/main/p/poppler/libpoppler-cpp0_0.18.4-1ubuntu3.1_amd64.deb
+Size: 33622
+MD5sum: 13a20eda0cfa65124afbd243f7c6b696
+SHA1: 9b6f3ee04e265e78b7cc202b4a9bbc5467b98b55
+SHA256: 7e637ce92008930129bc0558fa153fae7346ddc20237612dd10661fbf813e7d4
+Description: PDF rendering library (CPP shared library)
+Multi-Arch: same
+Homepage: http://poppler.freedesktop.org/
+Description-md5: bd2c0f6fbd7019f0ce9ff23bdb5a718d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libpoppler-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 4377
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Loic Minier <lool@dooz.org>
+Architecture: amd64
+Source: poppler
+Version: 0.18.4-1ubuntu3.1
+Depends: libpoppler19 (= 0.18.4-1ubuntu3.1), libfontconfig1-dev
+Filename: pool/main/p/poppler/libpoppler-dev_0.18.4-1ubuntu3.1_amd64.deb
+Size: 1098978
+MD5sum: 185cafb431e9afca64b18f03f60fcdb7
+SHA1: 6a97e9d884bce104299ffbebb54293a71f2b64f4
+SHA256: 70c43c55cdb44a6585b3979be483328a5d1fdc2cbbd4c152b9600ecbba35a01b
+Description: PDF rendering library -- development files
+Homepage: http://poppler.freedesktop.org/
+Description-md5: b1196794044a1e320e6b8073a66c58a6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libpoppler-glib-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 1463
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Loic Minier <lool@dooz.org>
+Architecture: amd64
+Source: poppler
+Version: 0.18.4-1ubuntu3.1
+Depends: libpoppler-glib8 (= 0.18.4-1ubuntu3.1), libpoppler-dev (= 0.18.4-1ubuntu3.1), gir1.2-poppler-0.18 (= 0.18.4-1ubuntu3.1), libglib2.0-dev (>= 2.18), libcairo2-dev (>= 1.10.0)
+Filename: pool/main/p/poppler/libpoppler-glib-dev_0.18.4-1ubuntu3.1_amd64.deb
+Size: 214190
+MD5sum: f162274656ac8d5e4528873b5fd4085c
+SHA1: 996c5087292bb0d7635e4a620c2829bd2ea64488
+SHA256: 1644dbc26c834176bb4ea53fdde3197ed4a4363a020971c44417ca13f4a5a401
+Description: PDF rendering library -- development files (GLib interface)
+Homepage: http://poppler.freedesktop.org/
+Description-md5: 4483b544bc64264785fa77d6466a341f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libpoppler-glib8
+Priority: optional
+Section: libs
+Installed-Size: 288
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Loic Minier <lool@dooz.org>
+Architecture: amd64
+Source: poppler
+Version: 0.18.4-1ubuntu3.1
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.10.0), libfreetype6 (>= 2.2.1), libglib2.0-0 (>= 2.24.0), libpoppler19, libstdc++6 (>= 4.1.1)
+Pre-Depends: multiarch-support
+Filename: pool/main/p/poppler/libpoppler-glib8_0.18.4-1ubuntu3.1_amd64.deb
+Size: 89852
+MD5sum: baf3f8c30612a2915a432136f9a86328
+SHA1: ae75d42c938a1391ae5a229e698dd08b7c037f17
+SHA256: 2c2511bf0f2cb80a3eba795d473d55e2b018f4706d569556af90707ce2aad6f5
+Description: PDF rendering library (GLib-based shared library)
+Multi-Arch: same
+Homepage: http://poppler.freedesktop.org/
+Description-md5: 3d73daa08a49dca5cd4c25e32862c41e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, edubuntu-desktop-kde, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, lubuntu-desktop, ubuntustudio-desktop
+
+Package: libpoppler-private-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 50
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Loic Minier <lool@dooz.org>
+Architecture: amd64
+Source: poppler
+Version: 0.18.4-1ubuntu3.1
+Depends: libpoppler-dev (= 0.18.4-1ubuntu3.1)
+Suggests: libfreetype6-dev, libopenjpeg-dev, libpng-dev, libtiff-dev
+Filename: pool/main/p/poppler/libpoppler-private-dev_0.18.4-1ubuntu3.1_amd64.deb
+Size: 3700
+MD5sum: 281dabaa3cc9107de9fbf837247f6bc0
+SHA1: 01f4a17db00ce97c8fc30df060752c97697c3108
+SHA256: 3e7e7ae9301fa8fc7a3bb98968723eebd93d0b69327d25452bfef9730eec2fa3
+Description: PDF rendering library -- private development files
+Homepage: http://poppler.freedesktop.org/
+Description-md5: 2ba34af08b97788f1984202e02507f2e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libpoppler-qt4-3
+Priority: optional
+Section: libs
+Installed-Size: 395
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Loic Minier <lool@dooz.org>
+Architecture: amd64
+Source: poppler
+Version: 0.18.4-1ubuntu3.1
+Depends: libc6 (>= 2.14), libpoppler19, libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.1.1)
+Pre-Depends: multiarch-support
+Filename: pool/main/p/poppler/libpoppler-qt4-3_0.18.4-1ubuntu3.1_amd64.deb
+Size: 126574
+MD5sum: f313ebf077825994226ac5ffdee740f8
+SHA1: 84419347a21e1748d72c39f9303bd7486b60f388
+SHA256: 1788f44f54d02d85898b61edb5369f5aac25ec4b51e3b21fd71ba263b6a25fb1
+Description: PDF rendering library (Qt 4 based shared library)
+Multi-Arch: same
+Homepage: http://poppler.freedesktop.org/
+Description-md5: 7aba3c6a3f8bfa6fa8e6d9ea66a1433d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full, edubuntu-desktop-kde
+
+Package: libpoppler-qt4-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 825
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Loic Minier <lool@dooz.org>
+Architecture: amd64
+Source: poppler
+Version: 0.18.4-1ubuntu3.1
+Depends: libpoppler-qt4-3 (= 0.18.4-1ubuntu3.1), libpoppler-dev (= 0.18.4-1ubuntu3.1), libqt4-dev (>= 4.4.0)
+Filename: pool/main/p/poppler/libpoppler-qt4-dev_0.18.4-1ubuntu3.1_amd64.deb
+Size: 183100
+MD5sum: 939c4d9e9b4e07afdcf145891f8fd0e3
+SHA1: 90db254b53b30c7d49e4909c728728dda97e8472
+SHA256: 89a88060dfd4f517045735e4effc5c9937a099dcf8a1243a9ece72129b88b0ae
+Description: PDF rendering library -- development files (Qt 4 interface)
+Homepage: http://poppler.freedesktop.org/
+Description-md5: 49af48187cf9e04b62ac9215438d6465
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libpoppler19
+Priority: optional
+Section: libs
+Installed-Size: 2116
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Loic Minier <lool@dooz.org>
+Architecture: amd64
+Source: poppler
+Version: 0.18.4-1ubuntu3.1
+Depends: libc6 (>= 2.14), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libjpeg8 (>= 8c), liblcms2-2 (>= 2.2+git20110628-2), libpng12-0 (>= 1.2.13-4), libstdc++6 (>= 4.1.1), libtiff4
+Pre-Depends: multiarch-support
+Suggests: poppler-data
+Filename: pool/main/p/poppler/libpoppler19_0.18.4-1ubuntu3.1_amd64.deb
+Size: 773386
+MD5sum: 88d27130f204102cb6a0ac3c206d16a4
+SHA1: 990d9b35de75929833324e56788e085858820781
+SHA256: bde2cc8bcdcd6f0b981ea146581ffea5b3b760ff94e56b97c79e2accf76daf5d
+Description: PDF rendering library
+Multi-Arch: same
+Homepage: http://poppler.freedesktop.org/
+Description-md5: 74b6b371a9886bca4fc2c2761b5a2fec
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, print-server, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
 
 Package: libpostproc-dev
 Priority: optional
@@ -30751,6 +30984,57 @@ Description-md5: af83e0e901b4b7dc8524c8bb96a1c5d2
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
+
+Package: poppler-dbg
+Priority: extra
+Section: debug
+Installed-Size: 5113
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Loic Minier <lool@dooz.org>
+Architecture: amd64
+Source: poppler
+Version: 0.18.4-1ubuntu3.1
+Depends: libpoppler19 (= 0.18.4-1ubuntu3.1)
+Filename: pool/main/p/poppler/poppler-dbg_0.18.4-1ubuntu3.1_amd64.deb
+Size: 4656132
+MD5sum: 66ac9de134726a186cd20eee9231f8d4
+SHA1: f06e086d0c25d8fce4ab388b2a547e19338776ea
+SHA256: 3624665ae0e0722b161a0ec08260a8142979ba8f408c9cef721504552e1d013a
+Description: PDF rendering library -- debugging symbols
+Homepage: http://poppler.freedesktop.org/
+Description-md5: ab22a1743f8f5dc1f00b9db139334fe2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: poppler-utils
+Priority: optional
+Section: utils
+Installed-Size: 402
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Loic Minier <lool@dooz.org>
+Architecture: amd64
+Source: poppler
+Version: 0.18.4-1ubuntu3.1
+Replaces: pdftohtml, xpdf-reader, xpdf-utils (<< 3.02-2~)
+Provides: pdftohtml, xpdf-utils
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.10.0), libfreetype6 (>= 2.2.1), liblcms2-2 (>= 2.2+git20110628-2), libpoppler19, libstdc++6 (>= 4.1.1)
+Recommends: ghostscript
+Conflicts: pdftohtml
+Breaks: xpdf-utils (<< 3.02-2~)
+Filename: pool/main/p/poppler/poppler-utils_0.18.4-1ubuntu3.1_amd64.deb
+Size: 139050
+MD5sum: e70925904cc0a4a239f58b94775bc193
+SHA1: 25d5a3c03eaa5562a7bfbdba4dcca434a3681d7b
+SHA256: b78dad79061f94491e23c9f341f1d994979d6212bfd445453945baaa40fe4dec
+Description: PDF utilities (based on Poppler)
+Multi-Arch: foreign
+Homepage: http://poppler.freedesktop.org/
+Description-md5: cd43e3ed14322253876488d6f9911888
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, print-server, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, lubuntu-core, ubuntustudio-desktop
 
 Package: postgresql-9.1
 Priority: optional
