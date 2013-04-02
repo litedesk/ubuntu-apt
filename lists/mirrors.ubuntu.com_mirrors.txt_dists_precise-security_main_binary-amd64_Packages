@@ -22081,13 +22081,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Source: libxslt
-Version: 1.1.26-8ubuntu1.2
-Depends: libxslt1.1 (= 1.1.26-8ubuntu1.2)
-Filename: pool/main/libx/libxslt/libxslt1-dbg_1.1.26-8ubuntu1.2_amd64.deb
-Size: 314334
-MD5sum: 2512bb657bccd36e41457b8192ebfafd
-SHA1: 9cb0d07454f7234b3c33eef6e07f19c87b9e5b3f
-SHA256: 9102ba6be55415684714ecdb9a23cf93f38de82e13aa8360047c8d9f9aa01626
+Version: 1.1.26-8ubuntu1.3
+Depends: libxslt1.1 (= 1.1.26-8ubuntu1.3)
+Filename: pool/main/libx/libxslt/libxslt1-dbg_1.1.26-8ubuntu1.3_amd64.deb
+Size: 313716
+MD5sum: b2c8e13c400a05cb616603e9f26adbab
+SHA1: f483b99f1b087b33ccff725debb048102bad1ae5
+SHA256: 2f2542d98fe7b33bb4299e32fcff67c7ab570e792297c1ee1c9b975a155631d4
 Description: XSLT 1.0 processing library - debugging symbols
 Homepage: http://xmlsoft.org/xslt/
 Description-md5: 07d298272e95c3b2975184f478cc6006
@@ -22098,19 +22098,19 @@ Supported: 18m
 Package: libxslt1-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 2331
+Installed-Size: 2332
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Source: libxslt
-Version: 1.1.26-8ubuntu1.2
+Version: 1.1.26-8ubuntu1.3
 Provides: libxslt-dev
-Depends: libxslt1.1 (= 1.1.26-8ubuntu1.2), libxml2-dev (>= 2.6.26)
-Filename: pool/main/libx/libxslt/libxslt1-dev_1.1.26-8ubuntu1.2_amd64.deb
-Size: 565346
-MD5sum: ad08fd25ff241fcbbfee0400a56559e8
-SHA1: 84209bd01479081d8fdfcafa9cc0dbca547cac40
-SHA256: f3e71b75dcdaf7535c33d93d5c60176ca65174f47465db79839d73c8dc8b4d1d
+Depends: libxslt1.1 (= 1.1.26-8ubuntu1.3), libxml2-dev (>= 2.6.26)
+Filename: pool/main/libx/libxslt/libxslt1-dev_1.1.26-8ubuntu1.3_amd64.deb
+Size: 563704
+MD5sum: f7a5f4107f56d155767d8580f4ac32fe
+SHA1: f822ba56e4e709df8e8b6a96fd06a9dc56022d55
+SHA256: 9288e5f131128e144d3950405fc1808dbedf5417cfc4125d202f9708cff493ba
 Description: XSLT 1.0 processing library - development kit
 Homepage: http://xmlsoft.org/xslt/
 Description-md5: f51e27fa123abbb4132b189b0ee706c8
@@ -22126,14 +22126,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Source: libxslt
-Version: 1.1.26-8ubuntu1.2
+Version: 1.1.26-8ubuntu1.3
 Depends: libc6 (>= 2.14), libgcrypt11 (>= 1.4.5), libxml2 (>= 2.7.4)
 Pre-Depends: multiarch-support
-Filename: pool/main/libx/libxslt/libxslt1.1_1.1.26-8ubuntu1.2_amd64.deb
-Size: 166940
-MD5sum: 418de8ac5093b715b0e7bbecc5349001
-SHA1: d1c907592475e71be2ae2d1af2271606b6f465c8
-SHA256: 1c1e5030c6d888d72b629c7784a312d733e154f3f34833a5fa3cf0642c5e6a4b
+Filename: pool/main/libx/libxslt/libxslt1.1_1.1.26-8ubuntu1.3_amd64.deb
+Size: 166914
+MD5sum: 19f565cd88226ffe8ed037fd5b71d460
+SHA1: a5a2463dd03b93cbf77240894a60403168d08c9f
+SHA256: d518e599a73d3001053aa683742ec33d206772476ecf4d3b02b2e4c6a613cea1
 Description: XSLT 1.0 processing library - runtime library
 Multi-Arch: same
 Homepage: http://xmlsoft.org/xslt/
@@ -31590,14 +31590,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Source: libxslt
-Version: 1.1.26-8ubuntu1.2
+Version: 1.1.26-8ubuntu1.3
 Provides: python2.7-libxslt1
 Depends: libc6 (>= 2.3.4), libxslt1.1 (>= 1.1.25), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-libxml2
-Filename: pool/main/libx/libxslt/python-libxslt1_1.1.26-8ubuntu1.2_amd64.deb
-Size: 41338
-MD5sum: 9571b8da5d06f4376bbaf0679d941b1d
-SHA1: cfed4a7a6d1f9750e4b61693b55f7cccfbfa0378
-SHA256: 321756d310c4211ad597ccfffde498945c9437cde0b2dafba5b751c60b49f08d
+Filename: pool/main/libx/libxslt/python-libxslt1_1.1.26-8ubuntu1.3_amd64.deb
+Size: 40858
+MD5sum: 1d67d34d8a78a26b7aa3747493a87079
+SHA1: 9bffbb1df87674bfe0d6e49a756dd625d677954c
+SHA256: 00563ef3f465db9e5ae83682d6c1eb0553502efe80bb2045882af3be5dabdfba
 Description: Python bindings for libxslt1
 Homepage: http://xmlsoft.org/xslt/
 Description-md5: e2cc4c037db99774d273c35b21c8c8b9
@@ -31613,14 +31613,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Source: libxslt
-Version: 1.1.26-8ubuntu1.2
+Version: 1.1.26-8ubuntu1.3
 Provides: python2.7-libxslt1-dbg
-Depends: python-dbg, python-libxslt1 (= 1.1.26-8ubuntu1.2), libc6 (>= 2.2.5), libxslt1.1 (>= 1.1.25), python-libxml2-dbg
-Filename: pool/main/libx/libxslt/python-libxslt1-dbg_1.1.26-8ubuntu1.2_amd64.deb
-Size: 140336
-MD5sum: b5a52e19336c787061465eefc9e40252
-SHA1: ca1af88acab6ea161a0a27240263609e7bd51346
-SHA256: 7a024234927820114b32691b30f925830af3fbe8b205019e840172d86a6b36ec
+Depends: python-dbg, python-libxslt1 (= 1.1.26-8ubuntu1.3), libc6 (>= 2.2.5), libxslt1.1 (>= 1.1.25), python-libxml2-dbg
+Filename: pool/main/libx/libxslt/python-libxslt1-dbg_1.1.26-8ubuntu1.3_amd64.deb
+Size: 140366
+MD5sum: 7c9f4f5698febb42ac6f22fb2f117a18
+SHA1: a0649c1fa2b626b035dd5563e6f24536c47e560b
+SHA256: 70a4bcc052a7f44501a8a469cf2c2a4534380361a120cafc4af63f87d2376085
 Description: Python bindings for libxslt1 (debug extension)
 Homepage: http://xmlsoft.org/xslt/
 Description-md5: dd55b04fde37de4e907cfd65cd22e216
@@ -35930,13 +35930,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Source: libxslt
-Version: 1.1.26-8ubuntu1.2
+Version: 1.1.26-8ubuntu1.3
 Depends: libc6 (>= 2.3.4), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25)
-Filename: pool/main/libx/libxslt/xsltproc_1.1.26-8ubuntu1.2_amd64.deb
-Size: 15064
-MD5sum: 541f7e62e404b5657c6509599c6cad2e
-SHA1: 6acf979d158a66e8d20d8704fc27f5f9660439c0
-SHA256: 997d4b18d1bd3b2f348ca29f1c758d1717859ce635f7aefe9a70d6d3eb63dc4b
+Filename: pool/main/libx/libxslt/xsltproc_1.1.26-8ubuntu1.3_amd64.deb
+Size: 15066
+MD5sum: 98fb61427647a6bd37e5be68cefe2afe
+SHA1: d1c0541dc174927ca82346202fb72890ca96feb2
+SHA256: 9535153732f95e1dfcf6a5dcb989ebfc50680a6b5200cb4d171856e8e889f353
 Description: XSLT 1.0 command line processor
 Multi-Arch: foreign
 Homepage: http://xmlsoft.org/xslt/
