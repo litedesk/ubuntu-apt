@@ -4940,13 +4940,13 @@ Installed-Size: 44
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
 Architecture: all
-Version: 4.76-3ubuntu3.1
+Version: 4.76-3ubuntu3.2
 Depends: debconf (>= 0.5) | debconf-2.0, debconf (>= 1.4.69) | cdebconf (>= 0.39), exim4-base (>= 4.76), exim4-daemon-light | exim4-daemon-heavy | exim4-daemon-custom
-Filename: pool/main/e/exim4/exim4_4.76-3ubuntu3.1_all.deb
-Size: 7866
-MD5sum: 68f0cd976a20e80e7d9d49838609b6b8
-SHA1: 1080d55ddc40fb1ece9a71f5d95edf69a41e7a93
-SHA256: a0e1896b8b261c677ab0a87795a4260ed3621255e65c7aa1f0ffa258130b18ff
+Filename: pool/main/e/exim4/exim4_4.76-3ubuntu3.2_all.deb
+Size: 7874
+MD5sum: f389bab0b5ef6b96ff4d77a08cdaedaf
+SHA1: 70f8bf8e2553531fec6118a6eed74ec1c6316e85
+SHA256: 7da2016640af519985a33fe4920e21fbf72adb2800aa0ed0712b69c652f93d54
 Description: metapackage to ease Exim MTA (v4) installation
 Homepage: http://www.exim.org/
 Description-md5: 458592f74d76e446735736c1d55ce615
@@ -4962,18 +4962,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: exim4
-Version: 4.76-3ubuntu3.1
+Version: 4.76-3ubuntu3.2
 Replaces: exim, exim-tls, exim4-daemon-custom, exim4-daemon-heavy, exim4-daemon-light
 Depends: libc6 (>= 2.14), libdb5.1, debconf (>= 0.5) | debconf-2.0, cron | fcron, exim4-config (>= 4.30) | exim4-config-2, adduser, netbase, lsb-base (>= 3.0-6)
 Recommends: psmisc, mailx, perl-modules
 Suggests: mail-reader, eximon4, exim4-doc-html | exim4-doc-info, gnutls-bin | openssl, file, spf-tools-perl, swaks
 Conflicts: exim, exim-tls
 Breaks: exim4-daemon-custom (<< 4.76), exim4-daemon-heavy (<< 4.76), exim4-daemon-light (<< 4.76)
-Filename: pool/main/e/exim4/exim4-base_4.76-3ubuntu3.1_amd64.deb
-Size: 867148
-MD5sum: 0b2111c2ef3b0c10d65f2fde17d470bc
-SHA1: 7bf9698d7b3401f3e18410ed02fecef569db8572
-SHA256: 89319281d702a442751e1512541e7c8f1fcb47a9f221e9a4d2300abf48871893
+Filename: pool/main/e/exim4/exim4-base_4.76-3ubuntu3.2_amd64.deb
+Size: 867296
+MD5sum: 1803775fda53bfbc79057bba4b4b41c1
+SHA1: 6263ad8de01532d5a70c3b24884be22b8f3a637f
+SHA256: d5af109deb8ecd7c8a73332d42edd69e30b405fefb98f8f9f128969cbeda64db
 Description: support files for all Exim MTA (v4) packages
 Homepage: http://www.exim.org/
 Description-md5: ab23a802a5e7dee33641329abf2b6565
@@ -4989,16 +4989,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: exim4
-Version: 4.76-3ubuntu3.1
+Version: 4.76-3ubuntu3.2
 Provides: exim4-config-2
 Depends: debconf (>= 0.5) | debconf-2.0, adduser
 Conflicts: courier-mta, esmtp-run, exim, exim-tls, exim4-config, exim4-config-2, hula-mta, masqmail, mta-dummy, nullmailer, postfix, sendmail-bin, smail, ssmtp, xmail, zmailer
 Breaks: exim4-daemon-heavy (<< 4.69.1), exim4-daemon-light (<< 4.69.1)
-Filename: pool/main/e/exim4/exim4-config_4.76-3ubuntu3.1_all.deb
-Size: 319958
-MD5sum: 4099a84a4287899bfcfd296f254fc233
-SHA1: 549f989fd584524878649cfb5fc9e78599238c5e
-SHA256: 5841604d62fc50508b232c50848303b48e744cf3db93553689e4d6f61d6c04af
+Filename: pool/main/e/exim4/exim4-config_4.76-3ubuntu3.2_all.deb
+Size: 319744
+MD5sum: 2c309ae442b64ea9b077f206facc43fb
+SHA1: fc490f65d4a9ad6f42dc14936e316f614ced6ad1
+SHA256: fb1b66ce813ed3db371e6fbb7faac217911c5fca932a2396db3cee76e07095f3
 Description: configuration for the Exim MTA (v4)
 Homepage: http://www.exim.org/
 Description-md5: 32395c972fcf7f5014c06bce8ee1c59a
@@ -5014,17 +5014,17 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: exim4
-Version: 4.76-3ubuntu3.1
+Version: 4.76-3ubuntu3.2
 Replaces: exim4-base (<= 4.61-1), mail-transport-agent
 Provides: exim4-localscanapi-1.0, exim4-localscanapi-1.1, mail-transport-agent
-Depends: exim4-base (>= 4.76), libc6 (>= 2.15), libdb5.1, libgnutls26 (>= 2.12.6.1-0), libldap-2.4-2 (>= 2.4.7), libmysqlclient18 (>= 5.5.13-1), libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libperl5.14 (>= 5.14.2), libpq5, libsasl2-2, libsqlite3-0 (>= 3.5.9), debconf (>= 0.5) | debconf-2.0
+Depends: exim4-base (>= 4.76), libc6 (>= 2.15), libdb5.1, libgnutls26 (>= 2.12.6.1-0), libldap-2.4-2 (>= 2.4.7), libmysqlclient18 (>= 5.5.13-1), libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libperl5.14 (>= 5.14.2), libpq5, libsasl2-2 (>= 2.1.24), libsqlite3-0 (>= 3.5.9), debconf (>= 0.5) | debconf-2.0
 Conflicts: mail-transport-agent
 Breaks: clamav-daemon (<< 0.95)
-Filename: pool/main/e/exim4/exim4-daemon-heavy_4.76-3ubuntu3.1_amd64.deb
-Size: 539252
-MD5sum: 870fc21a71ef70a551f9afa067f8a8a5
-SHA1: 454d6aed8c01c7f5aac0591dae8a9f3dbc311cb5
-SHA256: 75c0b7bc1990932cf09d5420c37b8f370aa647fe42984a3bf5564f998fe37641
+Filename: pool/main/e/exim4/exim4-daemon-heavy_4.76-3ubuntu3.2_amd64.deb
+Size: 539240
+MD5sum: fd17aacb1ee7131f7ceaaf8e4bc7e662
+SHA1: 29f397198caf6616849942d15a19d640cb080fe8
+SHA256: 7f566d235a38af979d74989e3eef5fceddbf01f2be541b1aaf3391735bf5e1d2
 Description: Exim MTA (v4) daemon with extended features, including exiscan-acl
 Homepage: http://www.exim.org/
 Description-md5: 29c4b395a92bdc12932f151c3643a602
@@ -5040,13 +5040,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: exim4
-Version: 4.76-3ubuntu3.1
+Version: 4.76-3ubuntu3.2
 Depends: exim4-daemon-heavy
-Filename: pool/main/e/exim4/exim4-daemon-heavy-dbg_4.76-3ubuntu3.1_amd64.deb
-Size: 944420
-MD5sum: 3f73b4673a49fd314bc90b1883d0e377
-SHA1: a91c2af4acfb61c29826acb1eaec7ddf9f61544e
-SHA256: ee5986eda49c5051c0d31872ff7dee828714711adbd7e40a441a260a158e9204
+Filename: pool/main/e/exim4/exim4-daemon-heavy-dbg_4.76-3ubuntu3.2_amd64.deb
+Size: 944400
+MD5sum: 26206019d8817c35aefd6ada70da3a87
+SHA1: eb25a632274fb5f7f3f160689f82ecef2d77e142
+SHA256: 5688bc2a6ac4221169cd11ec8af2a2bdf2b1dfab3dc1bf583343b9ee7ace1cc1
 Description: debugging symbols for the Exim MTA "heavy" daemon
 Homepage: http://www.exim.org/
 Description-md5: c42822621e1df91a52982b923c500d4d
@@ -5057,21 +5057,21 @@ Supported: 18m
 Package: exim4-daemon-light
 Priority: extra
 Section: mail
-Installed-Size: 1092
+Installed-Size: 1093
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: exim4
-Version: 4.76-3ubuntu3.1
+Version: 4.76-3ubuntu3.2
 Replaces: exim4-base (<= 4.61-1), mail-transport-agent
 Provides: exim4-localscanapi-1.0, exim4-localscanapi-1.1, mail-transport-agent
 Depends: exim4-base (>= 4.76), libc6 (>= 2.15), libdb5.1, libgnutls26 (>= 2.12.6.1-0), libpcre3 (>= 8.10), debconf (>= 0.5) | debconf-2.0
 Conflicts: mail-transport-agent
-Filename: pool/main/e/exim4/exim4-daemon-light_4.76-3ubuntu3.1_amd64.deb
+Filename: pool/main/e/exim4/exim4-daemon-light_4.76-3ubuntu3.2_amd64.deb
 Size: 481588
-MD5sum: 31b5393a814831061a0d8fb7d1c8d00b
-SHA1: 7f73c0240e58c5cb9926ada69c9bf0e8f7264e1a
-SHA256: da58b6fde73fbf5eb3b1e9070d4a70e024db64087358772b71746a836f21a41c
+MD5sum: f974ff820bd4c66909d6ce43e910d5b4
+SHA1: 59afb07cbbff9143882f4f2216c9104e25f7e2ff
+SHA256: ad962736b4b55ce153a73e2d3336c1a811ef91c5945b1495b1defa461c123204
 Description: lightweight Exim MTA (v4) daemon
 Homepage: http://www.exim.org/
 Description-md5: 3f5190a801cb3e11718c951f768c4d54
@@ -5087,13 +5087,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: exim4
-Version: 4.76-3ubuntu3.1
+Version: 4.76-3ubuntu3.2
 Depends: exim4-daemon-light
-Filename: pool/main/e/exim4/exim4-daemon-light-dbg_4.76-3ubuntu3.1_amd64.deb
-Size: 831712
-MD5sum: 87c208aeea7c56e378ab786106aa44ea
-SHA1: 3b6b6794d22bd8635f462a46c4b64b185e35104a
-SHA256: b447fa03b779f96231bf21e42f4568ef742293587eff367d967752a3981f8017
+Filename: pool/main/e/exim4/exim4-daemon-light-dbg_4.76-3ubuntu3.2_amd64.deb
+Size: 831708
+MD5sum: 2a9074b697d43eb255bb7cec9ff15583
+SHA1: 0c0d48e560441fe1a9b8ce282ba50615de3c1b3a
+SHA256: c592d52e18ce44b20cde62cd4f7a967fd4bab8801a65cb998825ea101bf77013
 Description: debugging symbols for the Exim MTA "light" daemon
 Homepage: http://www.exim.org/
 Description-md5: dff44febf1a413d05a89808719c665f0
@@ -5109,14 +5109,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: exim4
-Version: 4.76-3ubuntu3.1
+Version: 4.76-3ubuntu3.2
 Depends: exim4-base, exim4-config
 Recommends: eximon4
-Filename: pool/main/e/exim4/exim4-dbg_4.76-3ubuntu3.1_amd64.deb
-Size: 245868
-MD5sum: 8965a53bf671423f6e2178b878f8dba5
-SHA1: 87d17b12c5784eb19933d3caebeddfd182fa3f9f
-SHA256: e8e97b091d9864a5ab5c0af1ce7fc4ffc6f3049f8707913fe8040eefabaccac3
+Filename: pool/main/e/exim4/exim4-dbg_4.76-3ubuntu3.2_amd64.deb
+Size: 245872
+MD5sum: 8d0a71e55ee92ae1f0bbb6301fddf90b
+SHA1: 30875ea562cabc4619ec6c7d15987673c3d51fee
+SHA256: aa36357dd75f434708ca5936970550076f5f6e1edcc46047020919ad2019d895
 Description: debugging symbols for the Exim MTA (utilities)
 Homepage: http://www.exim.org/
 Description-md5: 5cf2fe8a21737e0585d95be54f8ada23
@@ -5132,12 +5132,12 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: exim4
-Version: 4.76-3ubuntu3.1
-Filename: pool/main/e/exim4/exim4-dev_4.76-3ubuntu3.1_amd64.deb
-Size: 15706
-MD5sum: e12e9332a83509ac813bcf107ed9f9da
-SHA1: ce02c0dbdeda9a2a5b774f5922480a8768bd0433
-SHA256: ed820c216348736b49d80caa74073d45463c4ed54e90cf64a0f32be2f5c767fe
+Version: 4.76-3ubuntu3.2
+Filename: pool/main/e/exim4/exim4-dev_4.76-3ubuntu3.2_amd64.deb
+Size: 15860
+MD5sum: 8f925aa4a5996843800120428c427ff1
+SHA1: 6b8f4050f05ba7330057698994a423ea0fbc018f
+SHA256: 4c7f9137c4381d9df9bbe14280a660d785718bcbd13763c830647cbf0e283384
 Description: header files for the Exim MTA (v4) packages
 Homepage: http://www.exim.org/
 Description-md5: d5a123381ab67fa02f35533169e299d5
@@ -5153,15 +5153,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: exim4
-Version: 4.76-3ubuntu3.1
+Version: 4.76-3ubuntu3.2
 Replaces: eximon
 Depends: libc6 (>= 2.14), libpcre3 (>= 8.10), libx11-6, libxaw7, libxmu6, libxt6, exim4-base (>= 4.10)
 Conflicts: eximon
-Filename: pool/main/e/exim4/eximon4_4.76-3ubuntu3.1_amd64.deb
-Size: 50914
-MD5sum: d4e4089f6dca7e130f4f9aa3fd9ad10a
-SHA1: 298b146d2e6ed2ab393dff7a98caf2575a689c45
-SHA256: 6bf8a27b22acdf3ce8ab949c11143f2f72c5d2caa7942a94370399b3145c1a31
+Filename: pool/main/e/exim4/eximon4_4.76-3ubuntu3.2_amd64.deb
+Size: 50920
+MD5sum: 7d7ab1ccd8f73bf10f708108f08307c1
+SHA1: 915ac3d00b6b90fed53cc519dbfa71e48c78092b
+SHA256: 10576ddad0fee422b6e533a332816a579db808bb461b29ad5dfcdc83b15a8e16
 Description: monitor application for the Exim MTA (v4) (X11 interface)
 Homepage: http://www.exim.org/
 Description-md5: 9d049018af5088cbceaa2af23692d02a

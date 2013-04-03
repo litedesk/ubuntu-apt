@@ -1892,6 +1892,16 @@ Description-en: GObject introspection data for the GTK+-based JavaScriptCore lib
  It can be used by packages using the GIRepository format to generate
  dynamic bindings.
 
+Package: gir1.2-poppler-0.18
+Description-md5: 6b6381807b3c5b1b31f06935b5817c74
+Description-en: GObject introspection data for poppler-glib
+ Poppler is a PDF rendering library based on Xpdf PDF viewer.
+ .
+ This package contains introspection data for poppler-glib.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
 Package: gir1.2-rb-3.0
 Description-md5: 43faa5bf87ed9c2f0ca8769fadf80dd4
 Description-en: GObject introspection data for the rhythmbox music player
@@ -6919,6 +6929,79 @@ Description-en: Plasma Library for the KDE Platform
  appealing while easing work flow.
  .
  It is part of the KDE Development Platform libraries module.
+
+Package: libpoppler-cpp-dev
+Description-md5: b8ccf7d2887aa9a8117d5795dcfa8442
+Description-en: PDF rendering library -- development files (CPP interface)
+ Poppler is a PDF rendering library based on Xpdf PDF viewer.
+ .
+ This package contains the headers and development libraries needed to
+ build applications using the C++ Poppler interface.
+
+Package: libpoppler-cpp0
+Description-md5: bd2c0f6fbd7019f0ce9ff23bdb5a718d
+Description-en: PDF rendering library (CPP shared library)
+ Poppler is a PDF rendering library based on Xpdf PDF viewer.
+ .
+ This package provides the CPP shared library for applications
+ using a simple C++ interface (using STL, and no other dependency) to Poppler.
+
+Package: libpoppler-dev
+Description-md5: b1196794044a1e320e6b8073a66c58a6
+Description-en: PDF rendering library -- development files
+ Poppler is a PDF rendering library based on Xpdf PDF viewer.
+ .
+ This package contains the headers and development libraries needed to
+ build applications using Poppler.
+
+Package: libpoppler-glib-dev
+Description-md5: 4483b544bc64264785fa77d6466a341f
+Description-en: PDF rendering library -- development files (GLib interface)
+ Poppler is a PDF rendering library based on Xpdf PDF viewer.
+ .
+ This package contains the headers and development libraries needed to
+ build applications using the GLib-based Poppler interface.
+
+Package: libpoppler-glib8
+Description-md5: 3d73daa08a49dca5cd4c25e32862c41e
+Description-en: PDF rendering library (GLib-based shared library)
+ Poppler is a PDF rendering library based on Xpdf PDF viewer.
+ .
+ This package provides the GLib-based shared library for applications
+ using the GLib interface to Poppler.
+
+Package: libpoppler-private-dev
+Description-md5: 2ba34af08b97788f1984202e02507f2e
+Description-en: PDF rendering library -- private development files
+ Poppler is a PDF rendering library based on Xpdf PDF viewer.
+ .
+ This package contains the private and unstable headers needed to build
+ applications using the private Poppler core library.
+ (At the moment this package is empty, allowing the migration of sources
+ to this package instead of libpoppler-dev.)
+
+Package: libpoppler-qt4-3
+Description-md5: 7aba3c6a3f8bfa6fa8e6d9ea66a1433d
+Description-en: PDF rendering library (Qt 4 based shared library)
+ Poppler is a PDF rendering library based on Xpdf PDF viewer.
+ .
+ This package provides the Qt 4 based shared library for applications
+ using the Qt 4 interface to Poppler.
+
+Package: libpoppler-qt4-dev
+Description-md5: 49af48187cf9e04b62ac9215438d6465
+Description-en: PDF rendering library -- development files (Qt 4 interface)
+ Poppler is a PDF rendering library based on Xpdf PDF viewer.
+ .
+ This package contains the headers and development libraries needed to
+ build applications using the Qt 4-based Poppler interface.
+
+Package: libpoppler19
+Description-md5: 74b6b371a9886bca4fc2c2761b5a2fec
+Description-en: PDF rendering library
+ Poppler is a PDF rendering library based on Xpdf PDF viewer.
+ .
+ This package contains the shared core library.
 
 Package: libpostproc-dev
 Description-md5: 86f863657363a4743bdf715ad27d245e
@@ -14391,6 +14474,33 @@ Description-en: multi-protocol instant messaging client - development files
  .
  If you are creating a pidgin plugin package, please be sure to read
  /usr/share/doc/pidgin-dev/README.Debian.dev after installing pidgin-dev.
+
+Package: poppler-dbg
+Description-md5: ab22a1743f8f5dc1f00b9db139334fe2
+Description-en: PDF rendering library -- debugging symbols
+ Poppler is a PDF rendering library based on Xpdf PDF viewer.
+ .
+ This package contains the debugging symbols for all the Poppler libraries
+ and the utilities.
+
+Package: poppler-utils
+Description-md5: cd43e3ed14322253876488d6f9911888
+Description-en: PDF utilities (based on Poppler)
+ Poppler is a PDF rendering library based on Xpdf PDF viewer.
+ .
+ This package contains command line utilities (based on Poppler) for getting
+ information of PDF documents, convert them to other formats, or manipulate
+ them:
+  * pdffonts -- font analyzer
+  * pdfimages -- image extractor
+  * pdfinfo -- document information
+  * pdfseparate -- page extraction tool
+  * pdftocairo -- PDF to PNG/JPEG/PDF/PS/EPS/SVG converter using Cairo
+  * pdftohtml -- PDF to HTML converter
+  * pdftoppm -- PDF to PPM/PNG/JPEG image converter
+  * pdftops -- PDF to PostScript (PS) converter
+  * pdftotext -- text extraction
+  * pdfunite -- document merging tool
 
 Package: postgresql-9.1
 Description-md5: c487fe4e86f0eac09ed9847282436059
