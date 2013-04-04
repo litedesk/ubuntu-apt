@@ -40776,18 +40776,18 @@ Supported: 18m
 Package: libecpg-compat3
 Priority: optional
 Section: libs
-Installed-Size: 453
+Installed-Size: 459
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-9.1
-Version: 9.1.8-0ubuntu12.04
+Version: 9.1.9-0ubuntu12.04
 Depends: libc6 (>= 2.3.6-6~), libecpg6 (>= 9.0~), libpgtypes3
-Filename: pool/main/p/postgresql-9.1/libecpg-compat3_9.1.8-0ubuntu12.04_i386.deb
-Size: 12526
-MD5sum: 3f79286728560fb178b07ebb2cd6a9ea
-SHA1: 3e15105d68dc6d8cc04603e1019cb2f58a5c4928
-SHA256: 2d483374a379e644f6c0c3dc3b94fc035c3ce2383d3c2630cdb1cfe7ca85387b
+Filename: pool/main/p/postgresql-9.1/libecpg-compat3_9.1.9-0ubuntu12.04_i386.deb
+Size: 12532
+MD5sum: cc3cd0b0feb1a0b0d10e4d10515dd149
+SHA1: 84dc5649a6d0ff0d9206a82348be7466a22aa220
+SHA256: 2ef73b330b0eef790096eb3bf34f59eee20a744d7b48a9c643790fdc46a98006
 Description: older version of run-time library for ECPG programs
 Homepage: http://www.postgresql.org/
 Description-md5: 66ce228306ea5636e1cb757bd540255b
@@ -40798,19 +40798,19 @@ Supported: 18m
 Package: libecpg-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 1392
+Installed-Size: 1398
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-9.1
-Version: 9.1.8-0ubuntu12.04
-Depends: libc6 (>= 2.4), libpq-dev, libecpg6 (= 9.1.8-0ubuntu12.04), libecpg-compat3 (= 9.1.8-0ubuntu12.04), libpgtypes3 (= 9.1.8-0ubuntu12.04)
+Version: 9.1.9-0ubuntu12.04
+Depends: libc6 (>= 2.4), libpq-dev, libecpg6 (= 9.1.9-0ubuntu12.04), libecpg-compat3 (= 9.1.9-0ubuntu12.04), libpgtypes3 (= 9.1.9-0ubuntu12.04)
 Conflicts: libecpg3-dev, postgresql-dev
-Filename: pool/main/p/postgresql-9.1/libecpg-dev_9.1.8-0ubuntu12.04_i386.deb
-Size: 258548
-MD5sum: 47cd1f72087f0d8c6205dea8126d4972
-SHA1: 510d944757d0b552162b3782a7704ab601c734f9
-SHA256: 579583ea1f31b170947bec49eafdfcdc1ba9c2e825c08e1d77dcee854fe54776
+Filename: pool/main/p/postgresql-9.1/libecpg-dev_9.1.9-0ubuntu12.04_i386.deb
+Size: 258848
+MD5sum: 679893561a8356320691695d9a2c03d4
+SHA1: ca10a5b85b85f3edf05563d860c0830260e32e9d
+SHA256: b1462deefdc87018cfbef139295ac1916739839649a1e0051c72b2155a9c52d2
 Description: development files for ECPG (Embedded PostgreSQL for C)
 Homepage: http://www.postgresql.org/
 Description-md5: 5eb928e68d1075508e3d6a4d7fc6f514
@@ -40821,18 +40821,18 @@ Supported: 18m
 Package: libecpg6
 Priority: optional
 Section: libs
-Installed-Size: 540
+Installed-Size: 552
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-9.1
-Version: 9.1.8-0ubuntu12.04
+Version: 9.1.9-0ubuntu12.04
 Depends: libc6 (>= 2.4), libpgtypes3, libpq5
-Filename: pool/main/p/postgresql-9.1/libecpg6_9.1.8-0ubuntu12.04_i386.deb
-Size: 40600
-MD5sum: 8f09273ecb244af2db55f9063e0d26f5
-SHA1: ef70a8a7c455eca2eec35911198ef59da80aabae
-SHA256: cd644a8db20a97213c2d274d7b50e318dfb515c1361f0a797d97de45de841df7
+Filename: pool/main/p/postgresql-9.1/libecpg6_9.1.9-0ubuntu12.04_i386.deb
+Size: 40624
+MD5sum: af4c6088a084aad3b011de616d244e01
+SHA1: ad59f45d3abcc9cf882c6b3f7a9fcc8bee1e832d
+SHA256: be8caba202512ba4019a51bb58ffde909429e5625e2895d2a491145f3bd29535
 Description: run-time library for ECPG programs
 Homepage: http://www.postgresql.org/
 Description-md5: 51ed6df58b24baddae9952acb91903bd
@@ -54894,18 +54894,18 @@ Task: ubuntu-desktop, print-server, ubuntu-usb, kubuntu-desktop, kubuntu-active-
 Package: libpgtypes3
 Priority: optional
 Section: libs
-Installed-Size: 501
+Installed-Size: 508
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-9.1
-Version: 9.1.8-0ubuntu12.04
+Version: 9.1.9-0ubuntu12.04
 Depends: libc6 (>= 2.4)
-Filename: pool/main/p/postgresql-9.1/libpgtypes3_9.1.8-0ubuntu12.04_i386.deb
-Size: 51370
-MD5sum: 2865099ae947f4b6cae5dbe0334391f4
-SHA1: 5628da212ba43f3cc766a8b5b027cee396d59086
-SHA256: ed0d72bc4512c09b4f6875bb4bdacd27371336abae20d81be635554dcc448e17
+Filename: pool/main/p/postgresql-9.1/libpgtypes3_9.1.9-0ubuntu12.04_i386.deb
+Size: 51882
+MD5sum: 21100a83960bfe0e00a607f2496d1d00
+SHA1: 6dcfb559d6aeeb5841f9f0f224106215d6e0a9fc
+SHA256: 39b81431b08da1ebfe4e7d1d8db21cc46b58c48d1e154dbafbf7ae77b2c34fad
 Description: shared library libpgtypes for PostgreSQL 9.1
 Homepage: http://www.postgresql.org/
 Description-md5: 3001cc8e6d64fb4ef5e037ade675d7d4
@@ -55456,21 +55456,21 @@ Task: mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backe
 Package: libpq-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 1172
+Installed-Size: 1188
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-9.1
-Version: 9.1.8-0ubuntu12.04
+Version: 9.1.9-0ubuntu12.04
 Replaces: postgresql-dev
-Depends: libc6 (>= 2.4), libpq5 (= 9.1.8-0ubuntu12.04), libssl-dev, libkrb5-dev, comerr-dev
+Depends: libc6 (>= 2.4), libpq5 (= 9.1.9-0ubuntu12.04), libssl-dev, libkrb5-dev, comerr-dev
 Suggests: postgresql-doc-9.1
 Conflicts: postgresql-dev (<< 7.5)
-Filename: pool/main/p/postgresql-9.1/libpq-dev_9.1.8-0ubuntu12.04_i386.deb
-Size: 215240
-MD5sum: baebff2d561a2e2e14b32d55ad2e9d06
-SHA1: 8f234193caf91bc4b859feba68cc63d3713b6d2b
-SHA256: f3ec07d257ac3969c7500bd663c0205f05ca44bc23f1df499c4518131333fbfc
+Filename: pool/main/p/postgresql-9.1/libpq-dev_9.1.9-0ubuntu12.04_i386.deb
+Size: 215466
+MD5sum: e6dad96033613d33d38c2e6f42a2ce6d
+SHA1: 1b4316dcfe8ad7bbffa791c5bee755a96ae4ef5b
+SHA256: a1e8cb43bf8c4668f7f328eba3926babfc039a62ec2ac002eda166bda573ef6c
 Description: header files for libpq5 (PostgreSQL library)
 Homepage: http://www.postgresql.org/
 Description-md5: 7f4362b106aae6b219ccc880faa1f04c
@@ -55481,18 +55481,18 @@ Supported: 18m
 Package: libpq5
 Priority: optional
 Section: libs
-Installed-Size: 628
+Installed-Size: 640
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-9.1
-Version: 9.1.8-0ubuntu12.04
+Version: 9.1.9-0ubuntu12.04
 Depends: libc6 (>= 2.4), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libssl1.0.0 (>= 1.0.0)
-Filename: pool/main/p/postgresql-9.1/libpq5_9.1.8-0ubuntu12.04_i386.deb
-Size: 97530
-MD5sum: c713d20254e5a26a30752d6930082f9a
-SHA1: c787b104a2d29b00091e26eae348ac7c77f61c76
-SHA256: d39517ee6c3f0a486f0cc8297819d64f33318ec3adfad4a5e327387f9ec3421f
+Filename: pool/main/p/postgresql-9.1/libpq5_9.1.9-0ubuntu12.04_i386.deb
+Size: 98014
+MD5sum: 5c32486101174ccea5f7471e8464cc4a
+SHA1: 37be18c55265414023bd38729448a5f957cd9a95
+SHA256: 3836d37594f6b565ee9dd752c3efbea046072c8dcd01c55b54696936865fe827
 Description: PostgreSQL C client library
 Homepage: http://www.postgresql.org/
 Description-md5: 4109d08c168c8058d09c0cc8bf8b18b1
@@ -80715,21 +80715,21 @@ Task: postgresql-server
 Package: postgresql-9.1
 Priority: optional
 Section: database
-Installed-Size: 11296
+Installed-Size: 11392
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
-Version: 9.1.8-0ubuntu12.04
-Replaces: postgresql-contrib-9.1 (<< 9.1~beta1-3~), postgresql-plpython-9.1 (<< 9.1.8-0ubuntu12.04)
+Version: 9.1.9-0ubuntu12.04
+Replaces: postgresql-contrib-9.1 (<< 9.1~beta1-3~), postgresql-plpython-9.1 (<< 9.1.9-0ubuntu12.04)
 Depends: libc6 (>= 2.15), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.8+dfsg), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpq5 (>= 9.1~), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), postgresql-client-9.1, postgresql-common (>= 115~), tzdata, ssl-cert, locales
 Suggests: oidentd | ident-server, locales-all
 Conflicts: postgresql (<< 7.5)
-Breaks: postgresql-plpython-9.1 (<< 9.1.8-0ubuntu12.04)
-Filename: pool/main/p/postgresql-9.1/postgresql-9.1_9.1.8-0ubuntu12.04_i386.deb
-Size: 4310712
-MD5sum: e8b7d635216e444f714ca54f045ea5e4
-SHA1: bd480537ec3a327d41729aacd49fdf1a02365f4d
-SHA256: 979bd551b944741050dc1cbf6505bf544459cb10f170738eaef9c4f2c85b1195
+Breaks: postgresql-plpython-9.1 (<< 9.1.9-0ubuntu12.04)
+Filename: pool/main/p/postgresql-9.1/postgresql-9.1_9.1.9-0ubuntu12.04_i386.deb
+Size: 4314338
+MD5sum: 398fccbde4a6c6b883098fd6fedec039
+SHA1: 077aed6d9c6e70cd43803bf462787bf112c091bc
+SHA256: d61e2b804148255ed07b980da623b0d418b26fd5a85f48800409381b1c37a8d1
 Description: object-relational SQL database, version 9.1 server
 Homepage: http://www.postgresql.org/
 Description-md5: c487fe4e86f0eac09ed9847282436059
@@ -80741,19 +80741,19 @@ Task: postgresql-server
 Package: postgresql-9.1-dbg
 Priority: extra
 Section: debug
-Installed-Size: 20256
+Installed-Size: 20267
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-9.1
-Version: 9.1.8-0ubuntu12.04
+Version: 9.1.9-0ubuntu12.04
 Replaces: postgresql-9.0-dbg
-Depends: postgresql-9.1 (= 9.1.8-0ubuntu12.04)
-Filename: pool/main/p/postgresql-9.1/postgresql-9.1-dbg_9.1.8-0ubuntu12.04_i386.deb
-Size: 8311874
-MD5sum: 5abe6010471f09c0ae244a99a53e48d2
-SHA1: 5c36b2dab84c186683deedf7e2bc145c27979e00
-SHA256: 0dd193435b71bdfd6df38f199b15f9e521ffa2f3b347e2f0305405ac26f39439
+Depends: postgresql-9.1 (= 9.1.9-0ubuntu12.04)
+Filename: pool/main/p/postgresql-9.1/postgresql-9.1-dbg_9.1.9-0ubuntu12.04_i386.deb
+Size: 8319762
+MD5sum: 69aa466e53ac91ddbcf959e2c25586f8
+SHA1: c18674981ecd03205c08a7684137941816d6d1c9
+SHA256: 9ce0c6c6cfe37a80348b756cd304f6ee0ea812530e6f49052fb4cd2ad73ef8ca
 Description: debug symbols for postgresql-9.1
 Homepage: http://www.postgresql.org/
 Description-md5: c6e0ff14b6f247b18dd692146951ea3c
@@ -80786,23 +80786,23 @@ Task: postgresql-server
 Package: postgresql-client-9.1
 Priority: optional
 Section: database
-Installed-Size: 2712
+Installed-Size: 2744
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-9.1
-Version: 9.1.8-0ubuntu12.04
-Replaces: postgresql-9.1 (<< 9.1.8-0ubuntu12.04)
+Version: 9.1.9-0ubuntu12.04
+Replaces: postgresql-9.1 (<< 9.1.9-0ubuntu12.04)
 Provides: postgresql-client
 Depends: libc6 (>= 2.11), libedit2 (>= 2.11-20080614-1), libpq5 (>= 9.0~), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.2.3.3.dfsg), postgresql-client-common (>= 115~)
 Suggests: postgresql-9.1, postgresql-doc-9.1
 Conflicts: postgresql (<< 7.5)
-Breaks: postgresql-9.1 (<< 9.1.8-0ubuntu12.04)
-Filename: pool/main/p/postgresql-9.1/postgresql-client-9.1_9.1.8-0ubuntu12.04_i386.deb
-Size: 962232
-MD5sum: 8a35ca1d270230af342927aa7bb6011b
-SHA1: d355663bcbbd00cef87ae9aff62b990f492f6c37
-SHA256: 65c0ac164690e186051f3a036e9903c2b9a87f1450aaa0fdf9eba7cc118a8031
+Breaks: postgresql-9.1 (<< 9.1.9-0ubuntu12.04)
+Filename: pool/main/p/postgresql-9.1/postgresql-client-9.1_9.1.9-0ubuntu12.04_i386.deb
+Size: 962124
+MD5sum: fcfdcac9d6d492be8b72470e2f7284fe
+SHA1: 6d7bf2118d5a858bff81562ba75f816514227c9e
+SHA256: c904961f94f39d6ffa950cd1b171cd5503bda631c0e87a73085b0fcfa344df94
 Description: front-end programs for PostgreSQL 9.1
 Homepage: http://www.postgresql.org/
 Description-md5: d10f0cd30a6d2795ffb7635bd161d343
@@ -80881,20 +80881,20 @@ Task: postgresql-server
 Package: postgresql-contrib-9.1
 Priority: optional
 Section: database
-Installed-Size: 1868
+Installed-Size: 1874
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-9.1
-Version: 9.1.8-0ubuntu12.04
-Depends: postgresql-9.1 (= 9.1.8-0ubuntu12.04), libc6 (>= 2.15), libossp-uuid16, libpq5 (>= 9.0~), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4), postgresql-common (>= 115~)
+Version: 9.1.9-0ubuntu12.04
+Depends: postgresql-9.1 (= 9.1.9-0ubuntu12.04), libc6 (>= 2.15), libossp-uuid16, libpq5 (>= 9.0~), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4), postgresql-common (>= 115~)
 Suggests: libdbd-pg-perl
 Conflicts: postgresql-contrib (<< 7.5)
-Filename: pool/main/p/postgresql-9.1/postgresql-contrib-9.1_9.1.8-0ubuntu12.04_i386.deb
-Size: 453886
-MD5sum: f20e1b3a204374ae79138099be68114e
-SHA1: 0e282c5eef853cbcfd79ec8d6410044769603527
-SHA256: 5dfb2727d3237fef69516c7973a3e242f588631aa3cc6c6faf71bd7b78c526b8
+Filename: pool/main/p/postgresql-9.1/postgresql-contrib-9.1_9.1.9-0ubuntu12.04_i386.deb
+Size: 454932
+MD5sum: 724d9a29a58c11761289a6726cacc827
+SHA1: f940c71856395609958c70e58a55a5df6178a2b3
+SHA256: 2b4fbb1f35ded0ab53d54a63d7c06ab5667b67523c0c7eb2e245f4ec2a9daf26
 Description: additional facilities for PostgreSQL
 Homepage: http://www.postgresql.org/
 Description-md5: 39314d25e69756d51cd5bd0a1e447fdc
@@ -80928,18 +80928,18 @@ Task: postgresql-server
 Package: postgresql-doc-9.1
 Priority: optional
 Section: doc
-Installed-Size: 12035
+Installed-Size: 12075
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: all
 Source: postgresql-9.1
-Version: 9.1.8-0ubuntu12.04
+Version: 9.1.9-0ubuntu12.04
 Conflicts: postgresql-doc (<< 7.5)
-Filename: pool/main/p/postgresql-9.1/postgresql-doc-9.1_9.1.8-0ubuntu12.04_all.deb
-Size: 2597796
-MD5sum: 6ff3e387131c6d5dbbccfa74da8fadbd
-SHA1: 66dfb0f29fc6dc001458e52e4f80e11646c0e9a7
-SHA256: 48f0e3917cd618e4f42693c93a6741d9a311e098a5a03fb62a9260af9e798da6
+Filename: pool/main/p/postgresql-9.1/postgresql-doc-9.1_9.1.9-0ubuntu12.04_all.deb
+Size: 2604748
+MD5sum: 3e8621b53ebb23e4a488109535360b89
+SHA1: 30adb740711f6395f667c9af2a2b78fb40366062
+SHA256: 6884ddcd8879f8e087d7c234060a30f2be3d92497c4bb48f3ab3f293d61c182d
 Description: documentation for the PostgreSQL database management system
 Homepage: http://www.postgresql.org/
 Description-md5: db66112eca2ed30bbea72deea62c48f0
@@ -80951,20 +80951,20 @@ Task: postgresql-server
 Package: postgresql-plperl-9.1
 Priority: optional
 Section: database
-Installed-Size: 596
+Installed-Size: 608
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-9.1
-Version: 9.1.8-0ubuntu12.04
+Version: 9.1.9-0ubuntu12.04
 Replaces: postgresql-contrib-9.1 (<< 9.1~beta1-3~)
 Provides: postgresql-plperl
-Depends: libc6 (>= 2.4), libperl5.14 (>= 5.14.2), postgresql-9.1 (= 9.1.8-0ubuntu12.04), perl
-Filename: pool/main/p/postgresql-9.1/postgresql-plperl-9.1_9.1.8-0ubuntu12.04_i386.deb
-Size: 45416
-MD5sum: 5d61de013cd98de2aa67405d9a2ad09d
-SHA1: 82a082bf3953359bc73ca846756634aa10f1f048
-SHA256: 3dd87da69e02062e8b52e6979aa7a52cac0b0398c22efc80a51cb5a5d250e870
+Depends: libc6 (>= 2.4), libperl5.14 (>= 5.14.2), postgresql-9.1 (= 9.1.9-0ubuntu12.04), perl
+Filename: pool/main/p/postgresql-9.1/postgresql-plperl-9.1_9.1.9-0ubuntu12.04_i386.deb
+Size: 45566
+MD5sum: a1add672b3d96f2f3be023c1e9343915
+SHA1: 10dd1f4c2459c4e1ae433fe98699201ac683b27e
+SHA256: 2f64e60361285bd4b3645ed3fd6abdf3272b6b1808d0fb4fa7e32d10edc62b43
 Description: PL/Perl procedural language for PostgreSQL 9.1
 Homepage: http://www.postgresql.org/
 Description-md5: d28fe3528dc6eb7990cf84c27ec33d41
@@ -80975,20 +80975,20 @@ Supported: 18m
 Package: postgresql-plpython-9.1
 Priority: optional
 Section: database
-Installed-Size: 547
+Installed-Size: 553
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-9.1
-Version: 9.1.8-0ubuntu12.04
+Version: 9.1.9-0ubuntu12.04
 Replaces: postgresql-contrib-9.1 (<< 9.1~beta1-3~)
 Provides: postgresql-plpython
-Depends: libc6 (>= 2.4), libpython2.7 (>= 2.7), postgresql-9.1 (= 9.1.8-0ubuntu12.04)
-Filename: pool/main/p/postgresql-9.1/postgresql-plpython-9.1_9.1.8-0ubuntu12.04_i386.deb
-Size: 40586
-MD5sum: 76a3ee3635d3a5c0749e4c8a75404655
-SHA1: a46e036668a49a19766a16d5541b979f0d52e04b
-SHA256: e2490a2d2afd9c0842aaac9146207dd550fb5511a6bb693810e27a456ac55695
+Depends: libc6 (>= 2.4), libpython2.7 (>= 2.7), postgresql-9.1 (= 9.1.9-0ubuntu12.04)
+Filename: pool/main/p/postgresql-9.1/postgresql-plpython-9.1_9.1.9-0ubuntu12.04_i386.deb
+Size: 40592
+MD5sum: 0ffbd0dcc56c08383395c504ee15ba30
+SHA1: 24f8b8305df152aaea6589f9342994dd8fe08fdd
+SHA256: 0c18e48b285cc0c10c168f4a03b18909555ac61d38deb28d65b51909b2efd510
 Description: PL/Python procedural language for PostgreSQL 9.1
 Homepage: http://www.postgresql.org/
 Description-md5: ccc8c07b819b3f7c5ac6ef4ed25c6fe2
@@ -80999,21 +80999,21 @@ Supported: 18m
 Package: postgresql-plpython3-9.1
 Priority: optional
 Section: database
-Installed-Size: 546
+Installed-Size: 552
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-9.1
-Version: 9.1.8-0ubuntu12.04
-Replaces: postgresql-plpython-9.1 (<< 9.1.8-0ubuntu12.04)
+Version: 9.1.9-0ubuntu12.04
+Replaces: postgresql-plpython-9.1 (<< 9.1.9-0ubuntu12.04)
 Provides: postgresql-plpython3
-Depends: libc6 (>= 2.4), libpython3.2 (>= 3.2~a4), postgresql-9.1 (= 9.1.8-0ubuntu12.04)
-Breaks: postgresql-plpython-9.1 (<< 9.1.8-0ubuntu12.04)
-Filename: pool/main/p/postgresql-9.1/postgresql-plpython3-9.1_9.1.8-0ubuntu12.04_i386.deb
-Size: 40322
-MD5sum: 4b7b3e465ea806e09eda2f2fcf494477
-SHA1: 1a428a4edd624596a19a07898900551c7679cd24
-SHA256: 417bf33782e01bb1795be6809a69fb9272dc88aad49aa0e3c24ed9daff3e74f9
+Depends: libc6 (>= 2.4), libpython3.2 (>= 3.2~a4), postgresql-9.1 (= 9.1.9-0ubuntu12.04)
+Breaks: postgresql-plpython-9.1 (<< 9.1.9-0ubuntu12.04)
+Filename: pool/main/p/postgresql-9.1/postgresql-plpython3-9.1_9.1.9-0ubuntu12.04_i386.deb
+Size: 40332
+MD5sum: 4acc03edd698b2cd8d415942b9d7a249
+SHA1: 34e08cbdbba653a349f78f9d034c985eef2d3b2f
+SHA256: 10a0b89940b95770da89e376913173f829eb9d68da0aae1900f23e326e86eabc
 Description: PL/Python 3 procedural language for PostgreSQL 9.1
 Homepage: http://www.postgresql.org/
 Description-md5: e84e4ebe1deb3134f10ae4ad7649c32c
@@ -81024,20 +81024,20 @@ Supported: 18m
 Package: postgresql-pltcl-9.1
 Priority: optional
 Section: database
-Installed-Size: 560
+Installed-Size: 568
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-9.1
-Version: 9.1.8-0ubuntu12.04
+Version: 9.1.9-0ubuntu12.04
 Replaces: postgresql-contrib-9.1 (<< 9.1~beta1-3~)
 Provides: postgresql-pltcl
-Depends: libc6 (>= 2.4), tcl8.5 (>= 8.5.0), postgresql-9.1 (= 9.1.8-0ubuntu12.04)
-Filename: pool/main/p/postgresql-9.1/postgresql-pltcl-9.1_9.1.8-0ubuntu12.04_i386.deb
-Size: 24508
-MD5sum: ebd761ab917b47f532afd55520e1e72e
-SHA1: 5c0b66119008f6ddaaa1fdf9f5b3174239515a2e
-SHA256: 05eb4ecc0408fbd404280ca3ca9b4b2b712e0663d089e312c0fa798d4ef03785
+Depends: libc6 (>= 2.4), tcl8.5 (>= 8.5.0), postgresql-9.1 (= 9.1.9-0ubuntu12.04)
+Filename: pool/main/p/postgresql-9.1/postgresql-pltcl-9.1_9.1.9-0ubuntu12.04_i386.deb
+Size: 24544
+MD5sum: e5e24ecde27d937660caec2eefbc5782
+SHA1: 62d95e120dc79d533bd88926d5c565dbe034a71e
+SHA256: 0d223dfa178efa03e530c142cf47a42e00e9dddab1bc21209fe58889fefc7c80
 Description: PL/Tcl procedural language for PostgreSQL 9.1
 Homepage: http://www.postgresql.org/
 Description-md5: 76e21b8d06f7d196829d87d594e1e2b1
@@ -81048,18 +81048,18 @@ Supported: 18m
 Package: postgresql-server-dev-9.1
 Priority: optional
 Section: libdevel
-Installed-Size: 3290
+Installed-Size: 3298
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-9.1
-Version: 9.1.8-0ubuntu12.04
+Version: 9.1.9-0ubuntu12.04
 Depends: libc6 (>= 2.4), libpq-dev (>= 9.1~), postgresql-common (>= 117~)
-Filename: pool/main/p/postgresql-9.1/postgresql-server-dev-9.1_9.1.8-0ubuntu12.04_i386.deb
-Size: 683164
-MD5sum: cf363389b5befbcf8cb5b7ed5d28441a
-SHA1: 3a5b604ea7dfd86b2d0f83f5d1107797f825e0fa
-SHA256: 77346b87fa5ff9bab69381cfd31d6c204dcd41298318f80db3d98e90cc4f44b2
+Filename: pool/main/p/postgresql-9.1/postgresql-server-dev-9.1_9.1.9-0ubuntu12.04_i386.deb
+Size: 682780
+MD5sum: cce3ab7c49dbe67a0dd6bc9c36e0ed63
+SHA1: a554dae94a97ba44e2b6c7f3d42762fae72ad81b
+SHA256: 64eaa5fb31a22e2f76e20d25109968c541b5df9948aa920633e4374ac7148a9e
 Description: development files for PostgreSQL 9.1 server-side programming
 Homepage: http://www.postgresql.org/
 Description-md5: 8f99aad87baf6549fb0ed8307a6b1148

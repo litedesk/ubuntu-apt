@@ -1087,18 +1087,37 @@ Origin: Ubuntu
 Package: firefox-mozsymbols
 Priority: extra
 Section: universe/debug
-Installed-Size: 22061
+Installed-Size: 22916
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
 Source: firefox
-Version: 19.0.2+build1-0ubuntu0.12.04.1
-Filename: pool/universe/f/firefox/firefox-mozsymbols_19.0.2+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 22335928
-MD5sum: abe0b2f2709e2e5997162312ef4b7bb7
-SHA1: 2f77a01a47e177634e64fdf01adc9bce5f3f598c
-SHA256: af79dfc9cf340f0367ce1c3c59a5cea62e2783526f9e7f435744392c243b04b2
+Version: 20.0+build1-0ubuntu0.12.04.3
+Filename: pool/universe/f/firefox/firefox-mozsymbols_20.0+build1-0ubuntu0.12.04.3_amd64.deb
+Size: 23198890
+MD5sum: 06d2acdec6cdb3a9155ac6e5787a1efe
+SHA1: 7045722711452ba2e53f09aeafc429810280b015
+SHA256: 1d8731e2f25cafe1124ca62a723f067ee440a21e7251ed21874f9293ea604268
 Description: Safe and easy web browser from Mozilla - Breakpad symbols
 Description-md5: 1398643ad4fb0f820933502f6bba9816
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: firefox-testsuite
+Priority: optional
+Section: universe/web
+Installed-Size: 152177
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Architecture: amd64
+Source: firefox
+Version: 20.0+build1-0ubuntu0.12.04.3
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18), libgtk2.0-0 (>= 2.24.0), libpango1.0-0 (>= 1.14.0), libstdc++6 (>= 4.6), libx11-6, libxext6, firefox (= 20.0+build1-0ubuntu0.12.04.3), python, dbus-x11, xvfb
+Filename: pool/universe/f/firefox/firefox-testsuite_20.0+build1-0ubuntu0.12.04.3_amd64.deb
+Size: 43559900
+MD5sum: 7cf8dce6f3a31ba9f1288369d27e8489
+SHA1: a9f35aede0e4702ec578118fe2b8846e683af87b
+SHA256: 4196eb832906c72fec0d834e8fd5540e93d5e937694e95cf035eba2876006e7e
+Description: Safe and easy web browser from Mozilla - testsuite
+Description-md5: 1c5406dea364e8840846b9dacd3c8955
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
@@ -2376,17 +2395,17 @@ Origin: Ubuntu
 Package: libav-source
 Priority: optional
 Section: universe/devel
-Installed-Size: 26952
+Installed-Size: 26965
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: libav
-Version: 4:0.8.5-0ubuntu0.12.04.1
-Filename: pool/universe/liba/libav/libav-source_0.8.5-0ubuntu0.12.04.1_all.deb
-Size: 27457516
-MD5sum: fd579a5da7d24e0f9944e65fc0edb525
-SHA1: 30c1213c6792df818cf8c1bb93c14babd6f42175
-SHA256: 403e70d2ba89ad3b040c2d0912ff5e14646524804868a6d03e4f2ea74258f5f3
+Version: 4:0.8.6-0ubuntu0.12.04.1
+Filename: pool/universe/liba/libav/libav-source_0.8.6-0ubuntu0.12.04.1_all.deb
+Size: 27469374
+MD5sum: 5c5e4ad53e00ece73a6bb79600596fb9
+SHA1: c8691efd4643a48e0f17941f1afd66f241ba74d5
+SHA256: b347b4a02d6c8f3b61a3b395e86e48bc8cb63e787fb9d33e76d58a00dc45a30c
 Description: Patched Libav sources
 Homepage: http://libav.org/
 Description-md5: 8a0d2d245bbd6e55b0c9cffe1ec99b46
@@ -2396,25 +2415,25 @@ Origin: Ubuntu
 Package: libavcodec-extra-53
 Priority: optional
 Section: universe/libs
-Installed-Size: 6894
+Installed-Size: 6899
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: libav-extra
-Version: 4:0.8.5ubuntu0.12.04.1
+Version: 4:0.8.6ubuntu0.12.04.1
 Replaces: libavcodec53
-Depends: libavutil-extra-51 (>= 4:0.8.5ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.5ubuntu0.12.04.1-99), libc6 (>= 2.14), libdirac-encoder0, libgsm1 (>= 1.0.13), libmp3lame0, libopenjpeg2, libschroedinger-1.0-0 (>= 1.0.0), libspeex1 (>= 1.2~beta3-1), libtheora0 (>= 1.0), libva1 (>> 1.0.15~), libvo-aacenc0 (>= 0.1.0~rc1), libvo-amrwbenc0, libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx1 (>= 1.0.0), libx264-120, libxvidcore4 (>= 1.2.2), zlib1g (>= 1:1.2.0)
+Depends: libavutil-extra-51 (>= 4:0.8.6ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.6ubuntu0.12.04.1-99), libc6 (>= 2.14), libdirac-encoder0, libgsm1 (>= 1.0.13), libmp3lame0, libopenjpeg2, libschroedinger-1.0-0 (>= 1.0.0), libspeex1 (>= 1.2~beta3-1), libtheora0 (>= 1.0), libva1 (>> 1.0.15~), libvo-aacenc0 (>= 0.1.0~rc1), libvo-amrwbenc0, libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx1 (>= 1.0.0), libx264-120, libxvidcore4 (>= 1.2.2), zlib1g (>= 1:1.2.0)
 Pre-Depends: multiarch-support
 Suggests: libfaad0
 Conflicts: libavcodec53
 Breaks: mplayer (<< 2:1.0~rc4.dfsg1+svn34540-1~)
-Filename: pool/universe/liba/libav-extra/libavcodec-extra-53_0.8.5ubuntu0.12.04.1_amd64.deb
-Size: 2929736
-MD5sum: c6297d3cc2ace2531d0be1591167589c
-SHA1: c9e6e9a460dcd4ece3199eed651c024de1e160f7
-SHA256: cfb3d773faf5bf579b6e78e950de149c757fe297bc4f58879ea2ad5ce95ce5a4
+Filename: pool/universe/liba/libav-extra/libavcodec-extra-53_0.8.6ubuntu0.12.04.1_amd64.deb
+Size: 2930734
+MD5sum: d3527247c7e08d79705bcdf28db75b9d
+SHA1: d5b14123c0379cbc446b5a272c1e6e19296f9ba1
+SHA256: 6f558e26f73a6b27e631b04a5bbdb2e7979146ef39a95beb7a20c1d429eddb8a
 Description: Libav codec library
-Built-Using: libav (= 4:0.8.5-0ubuntu0.12.04.1)
+Built-Using: libav (= 4:0.8.6-0ubuntu0.12.04.1)
 Multi-Arch: same
 Homepage: http://libav.org/
 Description-md5: f945e43f249353832cda68af3386877c
@@ -2425,23 +2444,23 @@ Task: ubuntustudio-generation, ubuntustudio-video, ubuntustudio-recording
 Package: libavdevice-extra-53
 Priority: optional
 Section: universe/libs
-Installed-Size: 141
+Installed-Size: 142
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: libav-extra
-Version: 4:0.8.5ubuntu0.12.04.1
+Version: 4:0.8.6ubuntu0.12.04.1
 Replaces: libavdevice53
-Depends: libasound2 (>= 1.0.23), libavcodec-extra-53 (>= 4:0.8.5ubuntu0.12.04.1), libavcodec-extra-53 (<< 4:0.8.5ubuntu0.12.04.1-99), libavformat-extra-53 (>= 4:0.8.5ubuntu0.12.04.1), libavformat-extra-53 (<< 4:0.8.5ubuntu0.12.04.1-99), libavutil-extra-51 (>= 4:0.8.5ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.5ubuntu0.12.04.1-99), libc6 (>= 2.14), libdc1394-22, libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, libx11-6 (>= 2:1.4.99.1), libxext6, libxfixes3
+Depends: libasound2 (>= 1.0.23), libavcodec-extra-53 (>= 4:0.8.6ubuntu0.12.04.1), libavcodec-extra-53 (<< 4:0.8.6ubuntu0.12.04.1-99), libavformat-extra-53 (>= 4:0.8.6ubuntu0.12.04.1), libavformat-extra-53 (<< 4:0.8.6ubuntu0.12.04.1-99), libavutil-extra-51 (>= 4:0.8.6ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.6ubuntu0.12.04.1-99), libc6 (>= 2.14), libdc1394-22, libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, libx11-6 (>= 2:1.4.99.1), libxext6, libxfixes3
 Pre-Depends: multiarch-support
 Conflicts: libavdevice53
-Filename: pool/universe/liba/libav-extra/libavdevice-extra-53_0.8.5ubuntu0.12.04.1_amd64.deb
-Size: 29062
-MD5sum: 780e71efaf6710576e0dcd0e48497d25
-SHA1: 725e6beb279d77d38c44908989d75543983057dd
-SHA256: 1a57ca2fbc87714ca03a6225b3a0e5d5444a81203f82192fd4d572d757fdff27
+Filename: pool/universe/liba/libav-extra/libavdevice-extra-53_0.8.6ubuntu0.12.04.1_amd64.deb
+Size: 29072
+MD5sum: d4f4a82600e8092563b31676e51e7853
+SHA1: e5af12d75307fa2a9ac0479beeb8847492f30a52
+SHA256: 26548f7a3e78916ed735e5c39108a328e749c3bd40b6f1b7a93ef5ec354ca916
 Description: Libav device handling library
-Built-Using: libav (= 4:0.8.5-0ubuntu0.12.04.1)
+Built-Using: libav (= 4:0.8.6-0ubuntu0.12.04.1)
 Multi-Arch: same
 Homepage: http://libav.org/
 Description-md5: 749c8f83866b20c4cc64ea76a0e145de
@@ -2452,23 +2471,23 @@ Task: ubuntustudio-generation, ubuntustudio-video, ubuntustudio-recording
 Package: libavfilter-extra-2
 Priority: optional
 Section: universe/libs
-Installed-Size: 267
+Installed-Size: 268
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: libav-extra
-Version: 4:0.8.5ubuntu0.12.04.1
+Version: 4:0.8.6ubuntu0.12.04.1
 Replaces: libavfilter2
-Depends: libavcodec-extra-53 (>= 4:0.8.5ubuntu0.12.04.1), libavcodec-extra-53 (<< 4:0.8.5ubuntu0.12.04.1-99), libavformat-extra-53 (>= 4:0.8.5ubuntu0.12.04.1), libavformat-extra-53 (<< 4:0.8.5ubuntu0.12.04.1-99), libavutil-extra-51 (>= 4:0.8.5ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.5ubuntu0.12.04.1-99), libc6 (>= 2.14), libfreetype6 (>= 2.2.1), libswscale-extra-2 (>= 4:0.8.5ubuntu0.12.04.1), libswscale-extra-2 (<< 4:0.8.5ubuntu0.12.04.1-99)
+Depends: libavcodec-extra-53 (>= 4:0.8.6ubuntu0.12.04.1), libavcodec-extra-53 (<< 4:0.8.6ubuntu0.12.04.1-99), libavformat-extra-53 (>= 4:0.8.6ubuntu0.12.04.1), libavformat-extra-53 (<< 4:0.8.6ubuntu0.12.04.1-99), libavutil-extra-51 (>= 4:0.8.6ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.6ubuntu0.12.04.1-99), libc6 (>= 2.14), libfreetype6 (>= 2.2.1), libswscale-extra-2 (>= 4:0.8.6ubuntu0.12.04.1), libswscale-extra-2 (<< 4:0.8.6ubuntu0.12.04.1-99)
 Pre-Depends: multiarch-support
 Conflicts: libavfilter2
-Filename: pool/universe/liba/libav-extra/libavfilter-extra-2_0.8.5ubuntu0.12.04.1_amd64.deb
-Size: 80630
-MD5sum: 4c7f2bdb60af26fa0880f6014fb55ff9
-SHA1: 9a7ef7dc186023935298e497ae94ff8f3a9160d8
-SHA256: 0091ad4fb3b4d76c4b564955a7f67524a70ed33834e447b1f1840c903dba7b78
+Filename: pool/universe/liba/libav-extra/libavfilter-extra-2_0.8.6ubuntu0.12.04.1_amd64.deb
+Size: 80632
+MD5sum: 1cc868a9aafc5c9f140386bde602a13f
+SHA1: 4dd301cb5f019e4b2d92f624899e26c6a11cf8b1
+SHA256: 144361343ce5fc79a60849f089a16fbba54975aeeb2f819a2a48fbaf1aa0a30b
 Description: Libav filter library
-Built-Using: libav (= 4:0.8.5-0ubuntu0.12.04.1)
+Built-Using: libav (= 4:0.8.6-0ubuntu0.12.04.1)
 Multi-Arch: same
 Homepage: http://libav.org/
 Description-md5: bbe165af56ee1aee76246fd7b182222a
@@ -2484,18 +2503,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: libav-extra
-Version: 4:0.8.5ubuntu0.12.04.1
+Version: 4:0.8.6ubuntu0.12.04.1
 Replaces: libavformat53
-Depends: libavcodec-extra-53 (>= 4:0.8.5ubuntu0.12.04.1), libavcodec-extra-53 (<< 4:0.8.5ubuntu0.12.04.1-99), libavutil-extra-51 (>= 4:0.8.5ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.5ubuntu0.12.04.1-99), libbz2-1.0, libc6 (>= 2.14), librtmp0 (>= 2.3), zlib1g (>= 1:1.1.4)
+Depends: libavcodec-extra-53 (>= 4:0.8.6ubuntu0.12.04.1), libavcodec-extra-53 (<< 4:0.8.6ubuntu0.12.04.1-99), libavutil-extra-51 (>= 4:0.8.6ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.6ubuntu0.12.04.1-99), libbz2-1.0, libc6 (>= 2.14), librtmp0 (>= 2.3), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
 Conflicts: libavformat53
-Filename: pool/universe/liba/libav-extra/libavformat-extra-53_0.8.5ubuntu0.12.04.1_amd64.deb
-Size: 487514
-MD5sum: 613743c8e1559ef7c4f6109c50dac550
-SHA1: e17087585c8615404a81f4297122901213cf66aa
-SHA256: 484828a71e27fc9f3dace8eaf3ca00cc893fc554a0ffebf762f2c914aa822c91
+Filename: pool/universe/liba/libav-extra/libavformat-extra-53_0.8.6ubuntu0.12.04.1_amd64.deb
+Size: 487556
+MD5sum: 801d4f17917dc48734350f600520cd65
+SHA1: cf0fa0126e3af64a9e4df4973a296c58a6de2888
+SHA256: 7955ab829eaee0e5c2bcb636d824a7de2529ce0a3936731600654d9049937098
 Description: Libav video postprocessing library
-Built-Using: libav (= 4:0.8.5-0ubuntu0.12.04.1)
+Built-Using: libav (= 4:0.8.6-0ubuntu0.12.04.1)
 Multi-Arch: same
 Homepage: http://libav.org/
 Description-md5: fe6cacca5ed4b1bb170d7675f1b5827d
@@ -2506,23 +2525,23 @@ Task: ubuntustudio-generation, ubuntustudio-video, ubuntustudio-recording
 Package: libavutil-extra-51
 Priority: optional
 Section: universe/libs
-Installed-Size: 193
+Installed-Size: 194
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: libav-extra
-Version: 4:0.8.5ubuntu0.12.04.1
+Version: 4:0.8.6ubuntu0.12.04.1
 Replaces: libavutil51
 Depends: libc6 (>= 2.14)
 Pre-Depends: multiarch-support
 Conflicts: libavutil51
-Filename: pool/universe/liba/libav-extra/libavutil-extra-51_0.8.5ubuntu0.12.04.1_amd64.deb
-Size: 67732
-MD5sum: a7de2cf6e593581ca134151215d4559f
-SHA1: b05719d8610a6d8036437fc14f902dcc71aaa1db
-SHA256: d0107b726c8fc9d2a467f8f3dfb69afc42c490798e06aa5c2a23af0c17115c49
+Filename: pool/universe/liba/libav-extra/libavutil-extra-51_0.8.6ubuntu0.12.04.1_amd64.deb
+Size: 67700
+MD5sum: f3d34c9749bc3cd967d2154665f9882f
+SHA1: f09610118fd982395a56475efdca588650b71dc9
+SHA256: 07e53f0e816656d169c9f452fc4c4069cf100e988b8cffab1c363d9871f99121
 Description: Libav utility library
-Built-Using: libav (= 4:0.8.5-0ubuntu0.12.04.1)
+Built-Using: libav (= 4:0.8.6-0ubuntu0.12.04.1)
 Multi-Arch: same
 Homepage: http://libav.org/
 Description-md5: 5474c0d7634f2c2a9b642ce3c78d1c79
@@ -3107,23 +3126,23 @@ Origin: Ubuntu
 Package: libpostproc-extra-52
 Priority: optional
 Section: universe/libs
-Installed-Size: 230
+Installed-Size: 231
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: libav-extra
-Version: 4:0.8.5ubuntu0.12.04.1
+Version: 4:0.8.6ubuntu0.12.04.1
 Replaces: libpostproc52
-Depends: libavutil-extra-51 (>= 4:0.8.5ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.5ubuntu0.12.04.1-99), libc6 (>= 2.14)
+Depends: libavutil-extra-51 (>= 4:0.8.6ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.6ubuntu0.12.04.1-99), libc6 (>= 2.14)
 Pre-Depends: multiarch-support
 Conflicts: libpostproc52
-Filename: pool/universe/liba/libav-extra/libpostproc-extra-52_0.8.5ubuntu0.12.04.1_amd64.deb
-Size: 63354
-MD5sum: 74140751c23cfd223d2ca4453b28b06c
-SHA1: 70852d99ad8eaabcaa3e0937725c2a43eee9216f
-SHA256: 26732a9f1e5a4b9afc203ecd26d8e08eb707b9f01c0074c1077b9e9820f7c1bf
+Filename: pool/universe/liba/libav-extra/libpostproc-extra-52_0.8.6ubuntu0.12.04.1_amd64.deb
+Size: 63358
+MD5sum: cde1ad21591db06a9850ecbe279337c9
+SHA1: 673f9a179fd2d71d89185ca9ffdcf6ec51be735e
+SHA256: 876df822edea7939e6bda94f0a7135be058e81834fa614d95dd9bf191c7b285f
 Description: Libav video postprocessing library
-Built-Using: libav (= 4:0.8.5-0ubuntu0.12.04.1)
+Built-Using: libav (= 4:0.8.6-0ubuntu0.12.04.1)
 Multi-Arch: same
 Homepage: http://libav.org/
 Description-md5: 3052ad99e7f387d07661b0f5efe77dcd
@@ -3738,23 +3757,23 @@ Origin: Ubuntu
 Package: libswscale-extra-2
 Priority: optional
 Section: universe/libs
-Installed-Size: 354
+Installed-Size: 355
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: libav-extra
-Version: 4:0.8.5ubuntu0.12.04.1
+Version: 4:0.8.6ubuntu0.12.04.1
 Replaces: libswscale-extra-1 (>> 4:0.7~), libswscale2
-Depends: libavutil-extra-51 (>= 4:0.8.5ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.5ubuntu0.12.04.1-99), libc6 (>= 2.14)
+Depends: libavutil-extra-51 (>= 4:0.8.6ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.6ubuntu0.12.04.1-99), libc6 (>= 2.14)
 Pre-Depends: multiarch-support
 Conflicts: libswscale-extra-1 (>> 4:0.7~), libswscale2
-Filename: pool/universe/liba/libav-extra/libswscale-extra-2_0.8.5ubuntu0.12.04.1_amd64.deb
-Size: 92114
-MD5sum: e110b27dadab4e0aae07b9d369d0a11a
-SHA1: 8219303a97e1663f788141250722a523226782d0
-SHA256: fc31093500e75392a6fbde9fe7e03b2feded82c20861977aa850b116dc7b42f8
+Filename: pool/universe/liba/libav-extra/libswscale-extra-2_0.8.6ubuntu0.12.04.1_amd64.deb
+Size: 92122
+MD5sum: 718179bb4e04952afaa024490ac54ec8
+SHA1: ea2125e32757a0dcb659274cc91f8db35df75a52
+SHA256: a0ebfcc59c18fac3f76d8a2d9fdf5a2126435c25a92d28edba567d4c56f1c003
 Description: Libav video software scaling library
-Built-Using: libav (= 4:0.8.5-0ubuntu0.12.04.1)
+Built-Using: libav (= 4:0.8.6-0ubuntu0.12.04.1)
 Multi-Arch: same
 Homepage: http://libav.org/
 Description-md5: 6a274089de0c837dbd8bd2fdeb3a1ba3
