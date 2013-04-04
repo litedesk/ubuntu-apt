@@ -1087,18 +1087,37 @@ Origin: Ubuntu
 Package: firefox-mozsymbols
 Priority: extra
 Section: universe/debug
-Installed-Size: 23032
+Installed-Size: 23886
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 19.0.2+build1-0ubuntu0.12.04.1
-Filename: pool/universe/f/firefox/firefox-mozsymbols_19.0.2+build1-0ubuntu0.12.04.1_i386.deb
-Size: 23342142
-MD5sum: c561e64917fc55e1f92edd3a7ecbd42d
-SHA1: 785dc88f5c1f89ecdb4eb3187f1540d70a949f9f
-SHA256: 0f6b1d7789ab63d453cddc5caf57856cf52f9fe2b380e955b08b4cc12da007d0
+Version: 20.0+build1-0ubuntu0.12.04.3
+Filename: pool/universe/f/firefox/firefox-mozsymbols_20.0+build1-0ubuntu0.12.04.3_i386.deb
+Size: 24208862
+MD5sum: b7138c42f2cc6cc942c24716b2214dd1
+SHA1: 3347973013a9c9a9fd6ce0810d6b6dde3b06ce23
+SHA256: e03325a71b14f612e1d07453c26e16dee7a8450a5a72747075e37bc2948e1d00
 Description: Safe and easy web browser from Mozilla - Breakpad symbols
 Description-md5: 1398643ad4fb0f820933502f6bba9816
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: firefox-testsuite
+Priority: optional
+Section: universe/web
+Installed-Size: 152267
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Architecture: i386
+Source: firefox
+Version: 20.0+build1-0ubuntu0.12.04.3
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18), libgtk2.0-0 (>= 2.24.0), libpango1.0-0 (>= 1.14.0), libstdc++6 (>= 4.6), libx11-6, libxext6, firefox (= 20.0+build1-0ubuntu0.12.04.3), python, dbus-x11, xvfb
+Filename: pool/universe/f/firefox/firefox-testsuite_20.0+build1-0ubuntu0.12.04.3_i386.deb
+Size: 43516806
+MD5sum: 3f1d3a5932f801ff17423dadca03be0c
+SHA1: 00c48b9e5fc4a187eb81a01346bd375331ad76ea
+SHA256: 0cc66aef161e3c7a789839f9dcc31ce66f777be447f413f1481e1d933db352f4
+Description: Safe and easy web browser from Mozilla - testsuite
+Description-md5: 1c5406dea364e8840846b9dacd3c8955
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
@@ -2376,17 +2395,17 @@ Origin: Ubuntu
 Package: libav-source
 Priority: optional
 Section: universe/devel
-Installed-Size: 26952
+Installed-Size: 26965
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: libav
-Version: 4:0.8.5-0ubuntu0.12.04.1
-Filename: pool/universe/liba/libav/libav-source_0.8.5-0ubuntu0.12.04.1_all.deb
-Size: 27457516
-MD5sum: fd579a5da7d24e0f9944e65fc0edb525
-SHA1: 30c1213c6792df818cf8c1bb93c14babd6f42175
-SHA256: 403e70d2ba89ad3b040c2d0912ff5e14646524804868a6d03e4f2ea74258f5f3
+Version: 4:0.8.6-0ubuntu0.12.04.1
+Filename: pool/universe/liba/libav/libav-source_0.8.6-0ubuntu0.12.04.1_all.deb
+Size: 27469374
+MD5sum: 5c5e4ad53e00ece73a6bb79600596fb9
+SHA1: c8691efd4643a48e0f17941f1afd66f241ba74d5
+SHA256: b347b4a02d6c8f3b61a3b395e86e48bc8cb63e787fb9d33e76d58a00dc45a30c
 Description: Patched Libav sources
 Homepage: http://libav.org/
 Description-md5: 8a0d2d245bbd6e55b0c9cffe1ec99b46
@@ -2396,25 +2415,25 @@ Origin: Ubuntu
 Package: libavcodec-extra-53
 Priority: optional
 Section: universe/libs
-Installed-Size: 14341
+Installed-Size: 14345
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Source: libav-extra
-Version: 4:0.8.5ubuntu0.12.04.1
+Version: 4:0.8.6ubuntu0.12.04.1
 Replaces: libavcodec53
-Depends: libavutil-extra-51 (>= 4:0.8.5ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.5ubuntu0.12.04.1-99), libc6 (>= 2.7), libdirac-encoder0, libgsm1 (>= 1.0.13), libmp3lame0, libopenjpeg2, libschroedinger-1.0-0 (>= 1.0.0), libspeex1 (>= 1.2~beta3-1), libtheora0 (>= 1.0), libva1 (>> 1.0.15~), libvo-aacenc0 (>= 0.1.0~rc1), libvo-amrwbenc0, libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx1 (>= 1.0.0), libx264-120, libxvidcore4 (>= 1.2.2), zlib1g (>= 1:1.2.0)
+Depends: libavutil-extra-51 (>= 4:0.8.6ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.6ubuntu0.12.04.1-99), libc6 (>= 2.7), libdirac-encoder0, libgsm1 (>= 1.0.13), libmp3lame0, libopenjpeg2, libschroedinger-1.0-0 (>= 1.0.0), libspeex1 (>= 1.2~beta3-1), libtheora0 (>= 1.0), libva1 (>> 1.0.15~), libvo-aacenc0 (>= 0.1.0~rc1), libvo-amrwbenc0, libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx1 (>= 1.0.0), libx264-120, libxvidcore4 (>= 1.2.2), zlib1g (>= 1:1.2.0)
 Pre-Depends: multiarch-support
 Suggests: libfaad0
 Conflicts: libavcodec53
 Breaks: mplayer (<< 2:1.0~rc4.dfsg1+svn34540-1~)
-Filename: pool/universe/liba/libav-extra/libavcodec-extra-53_0.8.5ubuntu0.12.04.1_i386.deb
-Size: 5823908
-MD5sum: 87f06abc020b497ad56a02376ddb9dca
-SHA1: 8f704fdef291c3d536a6db3a0249b3e21b6036f1
-SHA256: c5ef35d94e03e73851252f1a34db2cade2b818c57bbddc85a318e9ecc5902bcb
+Filename: pool/universe/liba/libav-extra/libavcodec-extra-53_0.8.6ubuntu0.12.04.1_i386.deb
+Size: 5825768
+MD5sum: e4bb575d0a91d3ffa7cc5a24b3c584a8
+SHA1: b5db4e53616616746f6cedb3c555b059a0c730a6
+SHA256: f3e5c88f9f5d5ee8c04184ba438572a25678bbbc771af8a5a37ee8f5c442ccf2
 Description: Libav codec library
-Built-Using: libav (= 4:0.8.5-0ubuntu0.12.04.1)
+Built-Using: libav (= 4:0.8.6-0ubuntu0.12.04.1)
 Multi-Arch: same
 Homepage: http://libav.org/
 Description-md5: f945e43f249353832cda68af3386877c
@@ -2425,23 +2444,23 @@ Task: ubuntustudio-generation, ubuntustudio-video, ubuntustudio-recording
 Package: libavdevice-extra-53
 Priority: optional
 Section: universe/libs
-Installed-Size: 201
+Installed-Size: 202
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Source: libav-extra
-Version: 4:0.8.5ubuntu0.12.04.1
+Version: 4:0.8.6ubuntu0.12.04.1
 Replaces: libavdevice53
-Depends: libasound2 (>= 1.0.23), libavcodec-extra-53 (>= 4:0.8.5ubuntu0.12.04.1), libavcodec-extra-53 (<< 4:0.8.5ubuntu0.12.04.1-99), libavformat-extra-53 (>= 4:0.8.5ubuntu0.12.04.1), libavformat-extra-53 (<< 4:0.8.5ubuntu0.12.04.1-99), libavutil-extra-51 (>= 4:0.8.5ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.5ubuntu0.12.04.1-99), libc6 (>= 2.7), libdc1394-22, libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, libx11-6 (>= 2:1.4.99.1), libxext6, libxfixes3
+Depends: libasound2 (>= 1.0.23), libavcodec-extra-53 (>= 4:0.8.6ubuntu0.12.04.1), libavcodec-extra-53 (<< 4:0.8.6ubuntu0.12.04.1-99), libavformat-extra-53 (>= 4:0.8.6ubuntu0.12.04.1), libavformat-extra-53 (<< 4:0.8.6ubuntu0.12.04.1-99), libavutil-extra-51 (>= 4:0.8.6ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.6ubuntu0.12.04.1-99), libc6 (>= 2.7), libdc1394-22, libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, libx11-6 (>= 2:1.4.99.1), libxext6, libxfixes3
 Pre-Depends: multiarch-support
 Conflicts: libavdevice53
-Filename: pool/universe/liba/libav-extra/libavdevice-extra-53_0.8.5ubuntu0.12.04.1_i386.deb
-Size: 52804
-MD5sum: e65920fb6fbd4ac980c0979fd4e0e3f7
-SHA1: 9fdf5739721739ac16572a1a187541e6c033ea0c
-SHA256: 0124f88cdba7143a171f7fde20425773184ae3e6ca2384fbf0fc0328d5dc7234
+Filename: pool/universe/liba/libav-extra/libavdevice-extra-53_0.8.6ubuntu0.12.04.1_i386.deb
+Size: 52798
+MD5sum: 2f85f569914680824e274eec8511da03
+SHA1: e08c505c813e70e495e0bc7520397fe62be7fd35
+SHA256: 842cfdf5a7689e79b9785a0408a39b2d59bd1b857994c045605f70714315df70
 Description: Libav device handling library
-Built-Using: libav (= 4:0.8.5-0ubuntu0.12.04.1)
+Built-Using: libav (= 4:0.8.6-0ubuntu0.12.04.1)
 Multi-Arch: same
 Homepage: http://libav.org/
 Description-md5: 749c8f83866b20c4cc64ea76a0e145de
@@ -2452,23 +2471,23 @@ Task: ubuntustudio-generation, ubuntustudio-video, ubuntustudio-recording
 Package: libavfilter-extra-2
 Priority: optional
 Section: universe/libs
-Installed-Size: 441
+Installed-Size: 442
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Source: libav-extra
-Version: 4:0.8.5ubuntu0.12.04.1
+Version: 4:0.8.6ubuntu0.12.04.1
 Replaces: libavfilter2
-Depends: libavcodec-extra-53 (>= 4:0.8.5ubuntu0.12.04.1), libavcodec-extra-53 (<< 4:0.8.5ubuntu0.12.04.1-99), libavformat-extra-53 (>= 4:0.8.5ubuntu0.12.04.1), libavformat-extra-53 (<< 4:0.8.5ubuntu0.12.04.1-99), libavutil-extra-51 (>= 4:0.8.5ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.5ubuntu0.12.04.1-99), libc6 (>= 2.7), libfreetype6 (>= 2.2.1), libswscale-extra-2 (>= 4:0.8.5ubuntu0.12.04.1), libswscale-extra-2 (<< 4:0.8.5ubuntu0.12.04.1-99)
+Depends: libavcodec-extra-53 (>= 4:0.8.6ubuntu0.12.04.1), libavcodec-extra-53 (<< 4:0.8.6ubuntu0.12.04.1-99), libavformat-extra-53 (>= 4:0.8.6ubuntu0.12.04.1), libavformat-extra-53 (<< 4:0.8.6ubuntu0.12.04.1-99), libavutil-extra-51 (>= 4:0.8.6ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.6ubuntu0.12.04.1-99), libc6 (>= 2.7), libfreetype6 (>= 2.2.1), libswscale-extra-2 (>= 4:0.8.6ubuntu0.12.04.1), libswscale-extra-2 (<< 4:0.8.6ubuntu0.12.04.1-99)
 Pre-Depends: multiarch-support
 Conflicts: libavfilter2
-Filename: pool/universe/liba/libav-extra/libavfilter-extra-2_0.8.5ubuntu0.12.04.1_i386.deb
-Size: 153576
-MD5sum: 04af922fa857978f67b090fcefb24924
-SHA1: f9fc261a85516f675df4bf5c2614ecbdb4ed262a
-SHA256: 6d1ef8b1b37970587986341082020e3e61d3a2492bcebf91cd92dbd40bc1a555
+Filename: pool/universe/liba/libav-extra/libavfilter-extra-2_0.8.6ubuntu0.12.04.1_i386.deb
+Size: 153648
+MD5sum: 114f85e463864625fa4915296ad1eafb
+SHA1: d3acd178cffcacd6babde581b891675ee9ca632e
+SHA256: 8531819d4945f94d20ef875448344fc1b69a90a9189f067f324f655089ff22b2
 Description: Libav filter library
-Built-Using: libav (= 4:0.8.5-0ubuntu0.12.04.1)
+Built-Using: libav (= 4:0.8.6-0ubuntu0.12.04.1)
 Multi-Arch: same
 Homepage: http://libav.org/
 Description-md5: bbe165af56ee1aee76246fd7b182222a
@@ -2479,23 +2498,23 @@ Task: ubuntustudio-generation, ubuntustudio-video, ubuntustudio-recording
 Package: libavformat-extra-53
 Priority: optional
 Section: universe/libs
-Installed-Size: 2266
+Installed-Size: 2267
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Source: libav-extra
-Version: 4:0.8.5ubuntu0.12.04.1
+Version: 4:0.8.6ubuntu0.12.04.1
 Replaces: libavformat53
-Depends: libavcodec-extra-53 (>= 4:0.8.5ubuntu0.12.04.1), libavcodec-extra-53 (<< 4:0.8.5ubuntu0.12.04.1-99), libavutil-extra-51 (>= 4:0.8.5ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.5ubuntu0.12.04.1-99), libbz2-1.0, libc6 (>= 2.7), librtmp0 (>= 2.3), zlib1g (>= 1:1.1.4)
+Depends: libavcodec-extra-53 (>= 4:0.8.6ubuntu0.12.04.1), libavcodec-extra-53 (<< 4:0.8.6ubuntu0.12.04.1-99), libavutil-extra-51 (>= 4:0.8.6ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.6ubuntu0.12.04.1-99), libbz2-1.0, libc6 (>= 2.7), librtmp0 (>= 2.3), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
 Conflicts: libavformat53
-Filename: pool/universe/liba/libav-extra/libavformat-extra-53_0.8.5ubuntu0.12.04.1_i386.deb
-Size: 1016534
-MD5sum: e02f1d2f38f27984ebd8c03615009576
-SHA1: 4707940524c5d9aa67bacb654d40db438eac0da3
-SHA256: 4f7ca1ea903748a8032e67ba2a993e68e4c497b875340f115bba3e6cc2b8aba7
+Filename: pool/universe/liba/libav-extra/libavformat-extra-53_0.8.6ubuntu0.12.04.1_i386.deb
+Size: 1015982
+MD5sum: 4a41f4335658155f1dd1dd73e03bc09e
+SHA1: 06f00bdeb88eb5bcdd7a1013d16dc00b4ca25b1a
+SHA256: 4327731366ed70b60509f30cd81f5e9c661f7b21cea3329a05a168831fedc641
 Description: Libav video postprocessing library
-Built-Using: libav (= 4:0.8.5-0ubuntu0.12.04.1)
+Built-Using: libav (= 4:0.8.6-0ubuntu0.12.04.1)
 Multi-Arch: same
 Homepage: http://libav.org/
 Description-md5: fe6cacca5ed4b1bb170d7675f1b5827d
@@ -2506,23 +2525,23 @@ Task: ubuntustudio-generation, ubuntustudio-video, ubuntustudio-recording
 Package: libavutil-extra-51
 Priority: optional
 Section: universe/libs
-Installed-Size: 325
+Installed-Size: 326
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Source: libav-extra
-Version: 4:0.8.5ubuntu0.12.04.1
+Version: 4:0.8.6ubuntu0.12.04.1
 Replaces: libavutil51
 Depends: libc6 (>= 2.4)
 Pre-Depends: multiarch-support
 Conflicts: libavutil51
-Filename: pool/universe/liba/libav-extra/libavutil-extra-51_0.8.5ubuntu0.12.04.1_i386.deb
-Size: 133790
-MD5sum: e4d9ebf79c817267b99031a67b267195
-SHA1: 55d0a69f28a2f4016b6608d44a231aa1d8d3fca2
-SHA256: e80e2dd0c30305bfe1dd36b619c1978e6dce377d870d599d333e3aabc58e2820
+Filename: pool/universe/liba/libav-extra/libavutil-extra-51_0.8.6ubuntu0.12.04.1_i386.deb
+Size: 133704
+MD5sum: 3527dd201ac026193528e4598fa10543
+SHA1: ae9ff9ea01474eb767f5ec611145c18708bf5285
+SHA256: ef694205de8dd85064ac7a69fcc7b96a8d8570cb22b09d6da7b8daed86a1ec14
 Description: Libav utility library
-Built-Using: libav (= 4:0.8.5-0ubuntu0.12.04.1)
+Built-Using: libav (= 4:0.8.6-0ubuntu0.12.04.1)
 Multi-Arch: same
 Homepage: http://libav.org/
 Description-md5: 5474c0d7634f2c2a9b642ce3c78d1c79
@@ -3112,18 +3131,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Source: libav-extra
-Version: 4:0.8.5ubuntu0.12.04.1
+Version: 4:0.8.6ubuntu0.12.04.1
 Replaces: libpostproc52
-Depends: libavutil-extra-51 (>= 4:0.8.5ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.5ubuntu0.12.04.1-99), libc6 (>= 2.4)
+Depends: libavutil-extra-51 (>= 4:0.8.6ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.6ubuntu0.12.04.1-99), libc6 (>= 2.4)
 Pre-Depends: multiarch-support
 Conflicts: libpostproc52
-Filename: pool/universe/liba/libav-extra/libpostproc-extra-52_0.8.5ubuntu0.12.04.1_i386.deb
-Size: 116202
-MD5sum: 2c9130d580097e227c95ef0ae1d5d7a4
-SHA1: 6da4944ba6d798dddf47cfa0a25ae4609c99fa10
-SHA256: 391ca1a80c59b79ae5908820854402edbecabd66903b29ddfee938431c941802
+Filename: pool/universe/liba/libav-extra/libpostproc-extra-52_0.8.6ubuntu0.12.04.1_i386.deb
+Size: 116074
+MD5sum: fb917b3b7da3943a11e5fa37cb293574
+SHA1: 256540e35344f3544679c9759d1761f1a8f99486
+SHA256: 850848d2c546a4cf149b27779f776e9f67e1761cba52ac2c9e2295ed0d644f06
 Description: Libav video postprocessing library
-Built-Using: libav (= 4:0.8.5-0ubuntu0.12.04.1)
+Built-Using: libav (= 4:0.8.6-0ubuntu0.12.04.1)
 Multi-Arch: same
 Homepage: http://libav.org/
 Description-md5: 3052ad99e7f387d07661b0f5efe77dcd
@@ -3743,18 +3762,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Source: libav-extra
-Version: 4:0.8.5ubuntu0.12.04.1
+Version: 4:0.8.6ubuntu0.12.04.1
 Replaces: libswscale-extra-1 (>> 4:0.7~), libswscale2
-Depends: libavutil-extra-51 (>= 4:0.8.5ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.5ubuntu0.12.04.1-99), libc6 (>= 2.3.6-6~)
+Depends: libavutil-extra-51 (>= 4:0.8.6ubuntu0.12.04.1), libavutil-extra-51 (<< 4:0.8.6ubuntu0.12.04.1-99), libc6 (>= 2.3.6-6~)
 Pre-Depends: multiarch-support
 Conflicts: libswscale-extra-1 (>> 4:0.7~), libswscale2
-Filename: pool/universe/liba/libav-extra/libswscale-extra-2_0.8.5ubuntu0.12.04.1_i386.deb
-Size: 194914
-MD5sum: 194482de9a54de651ae98560be381b3d
-SHA1: d439ce84ebbea0eebf3ff46a38ec49e71ee4c67b
-SHA256: 22e8b6c3bd5842b236c025baec2ad8da4e9fa9ee50f2e0eb54bb924d473028b2
+Filename: pool/universe/liba/libav-extra/libswscale-extra-2_0.8.6ubuntu0.12.04.1_i386.deb
+Size: 195190
+MD5sum: ff364a0229e1b2af420626a1a8466788
+SHA1: 3c1132939497df208cee9b82034d6c22f85448ee
+SHA256: 1f06d5e5324527b53c1baa52840300d4b570f9dc23dddaab0347f4a37cf4d447
 Description: Libav video software scaling library
-Built-Using: libav (= 4:0.8.5-0ubuntu0.12.04.1)
+Built-Using: libav (= 4:0.8.6-0ubuntu0.12.04.1)
 Multi-Arch: same
 Homepage: http://libav.org/
 Description-md5: 6a274089de0c837dbd8bd2fdeb3a1ba3
@@ -6065,19 +6084,19 @@ Task: xubuntu-desktop
 Package: postgresql-8.4
 Priority: optional
 Section: universe/database
-Installed-Size: 15528
+Installed-Size: 15529
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
-Version: 8.4.16-0ubuntu12.04
+Version: 8.4.17-0ubuntu12.04
 Depends: libc6 (>= 2.15), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.8+dfsg), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpq5 (>= 8.3~rc1-1~), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), postgresql-client-8.4, postgresql-common (>= 129~), tzdata, ssl-cert, locales
 Suggests: oidentd | ident-server
 Conflicts: postgresql (<< 7.5)
-Filename: pool/universe/p/postgresql-8.4/postgresql-8.4_8.4.16-0ubuntu12.04_i386.deb
-Size: 5712028
-MD5sum: 73fd45d1f5639fe05d97f0a2909089f4
-SHA1: e6b92e36eb96c03edd77985721d2d049cbff1e4a
-SHA256: 83a036d4f7b22a0a07d6bc3fbd74972a5b11f0b0650318e934aa4f4678340338
+Filename: pool/universe/p/postgresql-8.4/postgresql-8.4_8.4.17-0ubuntu12.04_i386.deb
+Size: 5708426
+MD5sum: 530a9cc340d7b79ce5c90bde8d297f9a
+SHA1: 2b780a874b2e8a61826eb8ed0c209f4737bae958
+SHA256: 077cf9d6278b034735a17652186c4d6bd4d62b50dceb25d093f659e8832c072c
 Description: object-relational SQL database, version 8.4 server
 Homepage: http://www.postgresql.org/
 Description-md5: c18c39d4d353775729cd939b442a4e7f
@@ -6092,16 +6111,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-8.4
-Version: 8.4.16-0ubuntu12.04
+Version: 8.4.17-0ubuntu12.04
 Provides: postgresql-client
 Depends: libc6 (>= 2.11), libedit2 (>= 2.11-20080614-1), libpq5 (>= 8.3~rc1-1~), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.2.3.3.dfsg), postgresql-client-common (>= 104~)
 Suggests: postgresql-8.4, postgresql-doc-8.4
 Conflicts: postgresql (<< 7.5)
-Filename: pool/universe/p/postgresql-8.4/postgresql-client-8.4_8.4.16-0ubuntu12.04_i386.deb
-Size: 1557642
-MD5sum: 258daccc1e09d3c7992baf70885b4135
-SHA1: 1f38a8b90c66eeb54ccba732f911152d83784ca8
-SHA256: 95fdd5ca5b781d909b6b7f6335b6022a40f01d95f15ce5b18dc17b4c69d3ba60
+Filename: pool/universe/p/postgresql-8.4/postgresql-client-8.4_8.4.17-0ubuntu12.04_i386.deb
+Size: 1563436
+MD5sum: 577b557e00719ebd80e0847e1648ecbe
+SHA1: 382596d12293eb22e2854baefbd107d5f3277753
+SHA256: 7b3423a8d6ba24716a438d77b831e041a26cf0a9c91fd2f5f3f2bdef02983889
 Description: front-end programs for PostgreSQL 8.4
 Homepage: http://www.postgresql.org/
 Description-md5: 05d18e727a33f1dfafb158ddc05def80
@@ -6116,15 +6135,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-8.4
-Version: 8.4.16-0ubuntu12.04
+Version: 8.4.17-0ubuntu12.04
 Depends: postgresql-8.4, libc6 (>= 2.15), libossp-uuid16, libpq5 (>= 8.4~), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4), postgresql-common (>= 109~)
 Suggests: libdbd-pg-perl
 Conflicts: postgresql-contrib (<< 7.5)
-Filename: pool/universe/p/postgresql-8.4/postgresql-contrib-8.4_8.4.16-0ubuntu12.04_i386.deb
-Size: 400834
-MD5sum: 4ba1e3b5b080659c3cb6a3a890a31c10
-SHA1: 9b7f9a60ca25aea9376b2a90aa8fae127263b047
-SHA256: 7ec3905f5d016c6b8cab44143c43e1c8d4673dcc73e1ef1d88cf7f9a6139fefc
+Filename: pool/universe/p/postgresql-8.4/postgresql-contrib-8.4_8.4.17-0ubuntu12.04_i386.deb
+Size: 399176
+MD5sum: fde0f4c207a694fc840a06ea42658656
+SHA1: d6356949700670a9fac414b5a48d4931d7a902ac
+SHA256: 16d7f8d6627f7c340b36c374dbf7b3b2d5861d57bd62ae4b14d99a3e90adf73a
 Description: additional facilities for PostgreSQL
 Homepage: http://www.postgresql.org/
 Description-md5: a4fb14baa1e3d878740878d316d66cdf
@@ -6134,18 +6153,18 @@ Origin: Ubuntu
 Package: postgresql-doc-8.4
 Priority: optional
 Section: universe/doc
-Installed-Size: 10053
+Installed-Size: 10063
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: all
 Source: postgresql-8.4
-Version: 8.4.16-0ubuntu12.04
+Version: 8.4.17-0ubuntu12.04
 Conflicts: postgresql-doc (<< 7.5)
-Filename: pool/universe/p/postgresql-8.4/postgresql-doc-8.4_8.4.16-0ubuntu12.04_all.deb
-Size: 2188368
-MD5sum: 33016cf377718513a2fe413450fa7e9d
-SHA1: 0be12baf1b7f933c4dbe2b38bde653171b7a6169
-SHA256: 1d696f57c95cb4e59e11947d7870d831e9e0a3dc7da00073565c1e7748d3edee
+Filename: pool/universe/p/postgresql-8.4/postgresql-doc-8.4_8.4.17-0ubuntu12.04_all.deb
+Size: 2192402
+MD5sum: 40e2434a32844dd136e912401d44b77c
+SHA1: 5f8d52e292c6c49d803258032a0b3edfa930f59a
+SHA256: 892252c8b716b24af8484cea7998487e73dd5a93cadfabdee1f70cd908a87b50
 Description: documentation for the PostgreSQL database management system
 Homepage: http://www.postgresql.org/
 Description-md5: 55ab4b6910ab4f9204561946ec8dc666
@@ -6155,18 +6174,18 @@ Origin: Ubuntu
 Package: postgresql-plperl-8.4
 Priority: optional
 Section: universe/database
-Installed-Size: 253
+Installed-Size: 254
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-8.4
-Version: 8.4.16-0ubuntu12.04
+Version: 8.4.17-0ubuntu12.04
 Depends: libc6 (>= 2.4), libperl5.14 (>= 5.14.2), postgresql-8.4, perl
-Filename: pool/universe/p/postgresql-8.4/postgresql-plperl-8.4_8.4.16-0ubuntu12.04_i386.deb
-Size: 40176
-MD5sum: 3e58bb168773774459ad58020594b055
-SHA1: fdfbd2c1e3c1cfe93755effd892254524bcd4e2b
-SHA256: 83adaf818808c15812a826b3e69ee1c56524f4377bb52c95678e16fa1a7bb532
+Filename: pool/universe/p/postgresql-8.4/postgresql-plperl-8.4_8.4.17-0ubuntu12.04_i386.deb
+Size: 40356
+MD5sum: f2f338e7fc30e0908dad73e33e16318e
+SHA1: 1c79387e18312bfb42e2ffe622776a056997df3c
+SHA256: 227b8f3da4c1106612ed3166afd93ff1b66ae616ff824ecec55628a3a85debf3
 Description: PL/Perl procedural language for PostgreSQL 8.4
 Homepage: http://www.postgresql.org/
 Description-md5: e84bf5621fe5f6cae2f0918aa1de3525
@@ -6176,18 +6195,18 @@ Origin: Ubuntu
 Package: postgresql-plpython-8.4
 Priority: optional
 Section: universe/database
-Installed-Size: 284
+Installed-Size: 285
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-8.4
-Version: 8.4.16-0ubuntu12.04
+Version: 8.4.17-0ubuntu12.04
 Depends: libc6 (>= 2.4), libpython2.7 (>= 2.7), postgresql-8.4
-Filename: pool/universe/p/postgresql-8.4/postgresql-plpython-8.4_8.4.16-0ubuntu12.04_i386.deb
-Size: 42556
-MD5sum: 4324ac7e9c9c5683c79f71b46893b178
-SHA1: c720ff42e7dcc426c45922c15acaa21d613e7fe8
-SHA256: b733fb0e2f9d4890976880ed3cf166c65adeed1cb08426aaa8cd5ca621f02288
+Filename: pool/universe/p/postgresql-8.4/postgresql-plpython-8.4_8.4.17-0ubuntu12.04_i386.deb
+Size: 42530
+MD5sum: 9c930c1e9c324443b93afd5b4d486bcc
+SHA1: a88273cb8f4f201f0413037a36a1bdad094edebf
+SHA256: d65f97a7c5a0f9057f333d1e5688de7d7402938a7c31e2ff394367ee718c9b81
 Description: PL/Python procedural language for PostgreSQL 8.4
 Homepage: http://www.postgresql.org/
 Description-md5: bbf9e9d8f70d46ee6c5faf3d74855d58
@@ -6197,18 +6216,18 @@ Origin: Ubuntu
 Package: postgresql-pltcl-8.4
 Priority: optional
 Section: universe/database
-Installed-Size: 229
+Installed-Size: 230
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-8.4
-Version: 8.4.16-0ubuntu12.04
+Version: 8.4.17-0ubuntu12.04
 Depends: libc6 (>= 2.4), tcl8.5 (>= 8.5.0), postgresql-8.4
-Filename: pool/universe/p/postgresql-8.4/postgresql-pltcl-8.4_8.4.16-0ubuntu12.04_i386.deb
-Size: 26444
-MD5sum: 146be47dde64a7108e662489b70d6b46
-SHA1: b17a9126a114eed4bb54f8d9baac6a7180722f51
-SHA256: 845e57a6bbe6ae579326f5f60acc35c1607ca5cadfee8d0fafeec1c04ab52191
+Filename: pool/universe/p/postgresql-8.4/postgresql-pltcl-8.4_8.4.17-0ubuntu12.04_i386.deb
+Size: 26422
+MD5sum: 2f9f63c5427139c22c23d4cf9c222908
+SHA1: 5918ed0c7dbaaa8f8c7ae7f30c893ddcea640578
+SHA256: 2b1629b8baa0ddc2731888393317b511167c10b48af35356b7aae139c0cb426d
 Description: PL/Tcl procedural language for PostgreSQL 8.4
 Homepage: http://www.postgresql.org/
 Description-md5: e9929790c4ce7182957d4885fb0bc8b4
@@ -6218,18 +6237,18 @@ Origin: Ubuntu
 Package: postgresql-server-dev-8.4
 Priority: optional
 Section: universe/libdevel
-Installed-Size: 2693
+Installed-Size: 2695
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Martin Pitt <mpitt@debian.org>
 Architecture: i386
 Source: postgresql-8.4
-Version: 8.4.16-0ubuntu12.04
+Version: 8.4.17-0ubuntu12.04
 Depends: libc6 (>= 2.4), libpq-dev (>= 8.4~)
-Filename: pool/universe/p/postgresql-8.4/postgresql-server-dev-8.4_8.4.16-0ubuntu12.04_i386.deb
-Size: 636234
-MD5sum: d58ab73050a0c9df6d69b1f94a6f24b3
-SHA1: 743650c6e92461cd8f5a2f772ad65770c79ad3e7
-SHA256: 751871266a8224023f02e8f5274c10e25e95eab3ae1d185dda848894cd69ef87
+Filename: pool/universe/p/postgresql-8.4/postgresql-server-dev-8.4_8.4.17-0ubuntu12.04_i386.deb
+Size: 636760
+MD5sum: 6a8b01d4d058adf866edd06fae4d4f2c
+SHA1: 7d64055b3d62acff109df44aad5f4d2563fa9d61
+SHA256: d445f217a27708bfc7d5a3c44d92b4744f87d05f863a3cbb3c7ef7b93c954ffb
 Description: development files for PostgreSQL 8.4 server-side programming
 Homepage: http://www.postgresql.org/
 Description-md5: 0c02d22301bf485bff958a5fb413fb4d
