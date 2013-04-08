@@ -4313,6 +4313,26 @@ Description-md5: 5227a7bf4f2907c1a6f6bbb951e71d7f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: linux-headers-3.2.0-40-lowlatency
+Priority: optional
+Section: universe/devel
+Installed-Size: 10927
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-lowlatency
+Version: 3.2.0-40.43
+Provides: linux-headers, linux-headers-3.0
+Depends: coreutils | fileutils (>= 4.0), linux-headers-3.2.0-40, libc6 (>= 2.14)
+Filename: pool/universe/l/linux-lowlatency/linux-headers-3.2.0-40-lowlatency_3.2.0-40.43_amd64.deb
+Size: 990826
+MD5sum: 9589472fbfd6843e404242d032e530ef
+SHA1: 15a04800015316ead903d0d936742c86374c495a
+SHA256: 5f54081801c72fc3fb303dde1d61e47592a4bbc487c15db9888ecca0c5d9a818
+Description: Linux kernel headers for version 3.2.0 on x86/x86_64
+Description-md5: f703d70002bd0c85ef8cc80d8871c42f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-headers-lowlatency
 Priority: optional
 Section: universe/devel
@@ -4320,13 +4340,13 @@ Installed-Size: 27
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-lowlatency
-Version: 3.2.0.39.29
-Depends: linux-headers-3.2.0-39-lowlatency
-Filename: pool/universe/l/linux-meta-lowlatency/linux-headers-lowlatency_3.2.0.39.29_amd64.deb
-Size: 2560
-MD5sum: f2fbdb90a722c8ad8631f466a44ad966
-SHA1: 0e17788ddc7983403519414828970c0b9a99b658
-SHA256: 4526779390a0b18d5eff0b2d83ca28638c9f6f35a621ba86c180564bb1412caa
+Version: 3.2.0.40.32
+Depends: linux-headers-3.2.0-40-lowlatency
+Filename: pool/universe/l/linux-meta-lowlatency/linux-headers-lowlatency_3.2.0.40.32_amd64.deb
+Size: 2430
+MD5sum: 1dc6749d81bc48c6d775555dad84307d
+SHA1: a1c996936812fbb2ac8e5dbad251db71a3855757
+SHA256: 389e4f2dd75bab9f33a4a203edea9436ee9d796efa29701d074d24fb93f58609
 Description: lowlatency Linux kernel headers
 Description-md5: b28bf5c7c758bfbbbd15e31ed4c78ed6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -4477,6 +4497,30 @@ Description-md5: b16e96b0f7c277434a653cb115afc422
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: linux-image-3.2.0-40-lowlatency
+Priority: optional
+Section: universe/admin
+Installed-Size: 145245
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-lowlatency
+Version: 3.2.0-40.43
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, linux-image-3.0, ndiswrapper-modules-1.9, redhat-cluster-modules
+Depends: initramfs-tools (>= 0.36ubuntu6), coreutils | fileutils (>= 4.0), module-init-tools (>= 3.3-pre11-4ubuntu3), crda (>= 1.1.1-1ubuntu2) | wireless-crda, rtirq-init
+Pre-Depends: dpkg (>= 1.10.24)
+Recommends: grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo (>= 19.1)
+Suggests: fdutils, linux-doc-3.2.0 | linux-source-3.2.0, linux-tools
+Conflicts: hotplug (<< 0.0.20040105-1)
+Filename: pool/universe/l/linux-lowlatency/linux-image-3.2.0-40-lowlatency_3.2.0-40.43_amd64.deb
+Size: 38572110
+MD5sum: 4e6bf31b4ca2bc4c3b1ac1ed0daf6ee5
+SHA1: 0d32025843430af1050788132ac3d5385985ec59
+SHA256: ea7fb12439e1c0a194f65a2c3bb8997a0a04ff761ab094c142c6d8b93b08e8f1
+Description: Linux kernel image for version 3.2.0 on x86/x86_64
+Description-md5: b16e96b0f7c277434a653cb115afc422
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-image-lowlatency
 Priority: optional
 Section: universe/kernel
@@ -4484,13 +4528,13 @@ Installed-Size: 27
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-lowlatency
-Version: 3.2.0.39.29
-Depends: linux-image-3.2.0-39-lowlatency, linux-firmware
-Filename: pool/universe/l/linux-meta-lowlatency/linux-image-lowlatency_3.2.0.39.29_amd64.deb
-Size: 2570
-MD5sum: 3aaf77aef007f1959a97e2adbc26b591
-SHA1: 7f43228a753bd79dd4e23868602c0cd94097e8e0
-SHA256: 6af7d43f6aa0cabf772d2d2a79f3e8b440ee80727edda9a475795a8135b056f8
+Version: 3.2.0.40.32
+Depends: linux-image-3.2.0-40-lowlatency, linux-firmware
+Filename: pool/universe/l/linux-meta-lowlatency/linux-image-lowlatency_3.2.0.40.32_amd64.deb
+Size: 2440
+MD5sum: 5adb15bd528be0bd378692bd2cd0d4ee
+SHA1: c69e624acef2daa46e627832665980f6fad5dba4
+SHA256: 0b322b687b5348ecc8eacd0ca5f2f7d70bed4f79c3d9db3c4bfa3337eaa3ebaf
 Description: lowlatency Linux kernel image
 Description-md5: 81c6fc6425f7566aa856ff1be6d8b320
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -4503,13 +4547,13 @@ Installed-Size: 27
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-lowlatency
-Version: 3.2.0.39.29
-Depends: linux-image-lowlatency (= 3.2.0.39.29), linux-headers-lowlatency (= 3.2.0.39.29)
-Filename: pool/universe/l/linux-meta-lowlatency/linux-lowlatency_3.2.0.39.29_amd64.deb
-Size: 1726
-MD5sum: ae1df8016ec82fb4f5f4168820472ed7
-SHA1: f1a881e17acbf2bf202bf3e431a7df61b4266137
-SHA256: ac0b70586cdfea7e15005a920643959cd65a03e949f9f3f1fff9447f2d75e42f
+Version: 3.2.0.40.32
+Depends: linux-image-lowlatency (= 3.2.0.40.32), linux-headers-lowlatency (= 3.2.0.40.32)
+Filename: pool/universe/l/linux-meta-lowlatency/linux-lowlatency_3.2.0.40.32_amd64.deb
+Size: 1722
+MD5sum: bfdaa8a63134f9d36dd546e2be95abe3
+SHA1: 78b174d04c61e70bf12763ffcb627e93f3e59715
+SHA256: 5d4f754e875d3ec84b7855940cd934f27a88d52b947e4684c2ebcca8cc65ab5d
 Description: Complete lowlatency Linux kernel
 Description-md5: b52e19b8044c25aff9dce108f24e2ee9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
