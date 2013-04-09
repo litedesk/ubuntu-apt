@@ -576,6 +576,21 @@ Description-en: Media Management and Playback application - MeeGo extension
  This package contains Banshee's MeeGo interface, optimised for running on
  small devices.
 
+Package: bash-builtins
+Description-md5: af509aa37177542db29bd85c79695512
+Description-en: Bash loadable builtins - headers & examples
+ Bash can dynamically load new builtin commands.  Included are the
+ necessary headers to compile your own builtins and lots of examples.
+
+Package: bash-static
+Description-md5: ae0b688f32951bcf52b5c025ab588a4c
+Description-en: GNU Bourne Again SHell (static version)
+ Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file.  Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+ .
+ Statically linked.
+
 Package: blcr-dkms
 Description-md5: 1802d8f8d5653bcad23e418e24e5508b
 Description-en: DKMS support for BLCR kernel module
@@ -1434,6 +1449,14 @@ Description-en: Enables support for package tags
  .
  This package has been made as a way to deploy and test package tags
  support until it gets integrated in the normal Debian workflow.
+
+Package: dee-tools
+Description-md5: f0d20b38cd1220c4ca3272032662f867
+Description-en: model to synchronize mutiple instances over DBus - tooling
+ libdee is a shared library that provides objects that help
+ having multiple instances communicating over DBus.
+ .
+ This package contains the tooling for introspecting dee data.
 
 Package: deluge
 Description-md5: 1c006fa7b74be6be008fe5ca6d13b9c7
@@ -3445,6 +3468,22 @@ Description-en: Jabber instant messenger server
  server. It has been rewritten from the ground up to be scalable,
  architecturally sound, and to support the latest protocol extensions
  coming out of the XSF.
+
+Package: jackd2
+Description-md5: d236af7f48ea4bfa984ea4189cd1b635
+Description-en: JACK Audio Connection Kit (server and example clients)
+ JACK is a low-latency sound server, allowing multiple applications to
+ connect to one audio device, and to share audio between themselves.
+ .
+ This package contains the daemon jackd as well as some example clients.
+
+Package: jackd2-firewire
+Description-md5: 9dfd1fd2943e615b8306d61e7422d9a5
+Description-en: JACK Audio Connection Kit (FFADO and FreeBoB backends)
+ JACK is a low-latency sound server, allowing multiple applications to
+ connect to one audio device, and to share audio between themselves.
+ .
+ This package contains the IEEE1394 (FireWire) backends FFADO and FreeBoB.
 
 Package: jcc
 Description-md5: 0e9ecaea415e9c5da985ef855e55dbdb

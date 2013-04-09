@@ -779,6 +779,29 @@ Description-en: Debian base system miscellaneous files
  /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, /etc/nsswitch.conf,
  and others, and the text of several common licenses in use on Debian systems.
 
+Package: bash
+Description-md5: 3522aa7b4374048d6450e348a5bb45d9
+Description-en: GNU Bourne Again SHell
+ Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file.  Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+ .
+ Bash is ultimately intended to be a conformant implementation of the
+ IEEE POSIX Shell and Tools specification (IEEE Working Group 1003.2).
+ .
+ The Programmable Completion Code, by Ian Macdonald, is now found in
+ the bash-completion package.
+
+Package: bash-doc
+Description-md5: 87bcd31a74f29447890330d831edb1f7
+Description-en: Documentation and examples for the The GNU Bourne Again SHell
+ Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file.  Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+ .
+ This package contains the distributable documentation, all the
+ examples and the main changelog.
+
 Package: bind9
 Description-md5: 4d39ed3fc4e2e72497683d779dfdcd38
 Description-en: Internet Domain Name Server
@@ -3690,6 +3713,14 @@ Description-en: typelib file for libdbusmenu-gtk3-4
  This package can be used by other packages using the GIRepository format to
  generate dynamic bindings for libdbusmenu-gtk4.
 
+Package: gir1.2-dee-1.0
+Description-md5: 79b0788f2610b4887e4b3afe5e29363c
+Description-en: GObject introspection data for the Dee library
+ This package contains introspection data for the Dee library.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
 Package: gir1.2-ebook-1.2
 Description-md5: eee3f328364fb5b2eb00182c350108b8
 Description-en: GObject introspection for the EBook library
@@ -3731,6 +3762,19 @@ Description-en: GObject introspection data for the libevince library
  When supported by the document, it also allows searching for text,
  copying text to the clipboard, hypertext navigation, and
  table-of-contents bookmarks.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
+Package: gir1.2-gkbd-3.0
+Description-md5: 16f5d54ee1cc6d63963a1713fa8aea2c
+Description-en: GObject introspection data for the GnomeKbd library
+ libgnomekbd offers an API to manage the keyboard in GNOME applications.
+ .
+ libgnomekbdui offers an API to display a graphical user interface for
+ libgnomekbd operations.
+ .
+ This package contains introspection data for the GnomeKbd library.
  .
  It can be used by packages using the GIRepository format to generate
  dynamic bindings.
@@ -4014,6 +4058,14 @@ Description-en: GObject introspection data for the WebKit library
  .
  It can be used by packages using the GIRepository format to generate
  dynamic bindings.
+
+Package: gkbd-capplet
+Description-md5: 92c48b524e722191ce19dd5017839c09
+Description-en: GNOME Panel applet for libgnomekbd
+ libgnomekbd offers an API to manage the keyboard in GNOME applications.
+ .
+ This package contains a configuration applet to select enabled libgnomekbd
+ plugins.
 
 Package: glade
 Description-md5: 7fee85b5998c3b40e065a5d752be3041
@@ -4967,6 +5019,15 @@ Description-en: Init Script for starting hv_kvp_daemon to support KVP Protocol
  on Microsoft Hyper-V instances. The KVP protocol provides key-pair exchanges
  between the kernel and the hyper-visor and is used to report instance
  demographic details back to Hyper-V.
+
+Package: ibus-chewing
+Description-md5: 41b0580d9f7567a74d302851c00d4d6c
+Description-en: Chewing engine for IBus
+ IBus is an Intelligent Input Bus. It is a new input framework for Linux
+ OS. It provides full featured and user friendly input method user interface.
+ It also may help developers to develop input method easily.
+ .
+ IBus-chewing is a IBus based IM Engine for Traditional Chinese
 
 Package: icedtea-6-jre-cacao
 Description-md5: 24efc2093c93b3e7670092d00aea59d9
@@ -17310,6 +17371,38 @@ Description-en: Compiz window decoration library - development files
  This package contains files required for developing window decorators
  compatible with Compiz.
 
+Package: libdee-1.0-4
+Description-md5: 24ce63bdf3687a0a415c08815e89723e
+Description-en: model to synchronize mutiple instances over DBus - shared lib
+ libdee is a shared library that provides objects that help
+ having multiple instances communicating over DBus.
+ .
+ This package contains shared libraries to be used by applications.
+
+Package: libdee-1.0-4-dbg
+Description-md5: 00c31852839aadc42e43391d0479059f
+Description-en: model to synchronize mutiple instances over DBus
+ libdee is a shared library that provides objects that help
+ having multiple instances communicating over DBus.
+ .
+ This package contains the debug files.
+
+Package: libdee-dev
+Description-md5: 30115493b862be043dc4f79d10f844c0
+Description-en: model to synchronize mutiple instances over DBus - dev files
+ libdee is a shared library that provides objects that help
+ having multiple instances communicating over DBus.
+ .
+ This package contains files that are needed to build applications.
+
+Package: libdee-doc
+Description-md5: 5ec25a9d5f3475690f49a2ed19c388db
+Description-en: model to synchronize mutiple instances over DBus - documentation
+ libdee is a shared library that provides objects that help
+ having multiple instances communicating over DBus.
+ .
+ This package contains the documentation
+
 Package: libdevmapper-dev
 Description-md5: 6f164253b7618b4fe6daa7986199ea43
 Description-en: The Linux Kernel Device Mapper header files
@@ -19023,6 +19116,36 @@ Description-en: powerful object-oriented display engine - documentation files
  .
  This package contains documentation files.
 
+Package: libgnomekbd-common
+Description-md5: 5975fb27dd14bb43c79c9935c681f328
+Description-en: GNOME library to manage keyboard configuration - common files
+ libgnomekbd offers an API to manage the keyboard in GNOME applications.
+ .
+ libgnomekbdui offers an API to display a graphical user interface for
+ libgnomekbd operations.
+ .
+ This package contains files common to the various libgnomekbd packages.
+
+Package: libgnomekbd-dev
+Description-md5: 353cd231a62082c6784b7cd9c5727a8c
+Description-en: GNOME library to manage keyboard configuration - development files
+ libgnomekbd offers an API to manage the keyboard in GNOME applications.
+ .
+ libgnomekbdui offers an API to display a graphical user interface for
+ libgnomekbd operations.
+ .
+ This package contains the development files.
+
+Package: libgnomekbd7
+Description-md5: af3a5d9e866a2d8042968d3f6510a8a8
+Description-en: GNOME library to manage keyboard configuration - shared library
+ libgnomekbd offers an API to manage the keyboard in GNOME applications.
+ .
+ libgnomekbdui offers an API to display a graphical user interface for
+ libgnomekbd operations.
+ .
+ This package contains the shared library.
+
 Package: libgnomevfs2-0
 Description-md5: fe613be0e6a5d18afcbb8b9e615566c7
 Description-en: GNOME Virtual File System (runtime libraries)
@@ -19755,6 +19878,23 @@ Description-en: Config File Handling Library used by BIND
  This package delivers the libisccfg shared library used by BIND's daemons
  and clients to read and write ISC-style configuration files like named.conf
  and rndc.conf.
+
+Package: libjack-jackd2-0
+Description-md5: f4743a9e2f04ed05673483cd1fe0eb38
+Description-en: JACK Audio Connection Kit (libraries)
+ JACK is a low-latency sound server, allowing multiple applications to
+ connect to one audio device, and to share audio between themselves.
+ .
+ This package contains the shared libraries.
+
+Package: libjack-jackd2-dev
+Description-md5: 5769772c9db90298e719eeef115bed03
+Description-en: JACK Audio Connection Kit (development files)
+ JACK is a low-latency sound server, allowing multiple applications to
+ connect to one audio device, and to share audio between themselves.
+ .
+ This package contains files needed for the development of JACK applications
+ and an API reference.
 
 Package: libjavascriptcoregtk-1.0-0
 Description-md5: 7ef4805d129bb5fdc7e48bdb68923640
@@ -33681,6 +33821,30 @@ Description-md5: 35ef48de687642aef498e7ed6ce4ec72
 Description-en: MAAS enlistment tool
  Tool for enlisting a host with a MAAS server.
 
+Package: maas-provision
+Description-md5: a0a77a7f75c8ac280108179912eb6332
+Description-en: Install server
+ Cobbler is a network install server. Cobbler supports PXE, virtualized
+ installs, and reinstalling existing Linux machines. The last two modes
+ use a helper tool, 'koan', that integrates with maas-provision. Cobbler's
+ advanced features include importing distributions from DVDs and rsync
+ mirrors, kickstart templating, integrated yum mirroring, and built-in
+ DHCP/DNS Management. Cobbler has a Python and XMLRPC API for
+ integration with other applications. There is also a web interface.
+
+Package: maas-provision-common
+Description-md5: 23ebde46cbe225bbe32505ef76bcaaf2
+Description-en: Cobbler Install server - common files
+ Cobbler is a network install server. Cobbler supports PXE, virtualized
+ installs, and reinstalling existing Linux machines. The last two modes use
+ a helper tool, 'koan', that integrates with maas-provision. Cobbler's advanced
+ features include importing distributions from DVDs and rsync mirrors,
+ kickstart templating, integrated yum mirroring, and built-in DHCP/DNS
+ Management. Cobbler has a Python and XMLRPC API for integration with other
+ applications. There is also a web interface.
+ .
+ This package includes the common files.
+
 Package: mahjongg
 Description-md5: adc178a2d2b4ff75c015f3907a755657
 Description-en: classic Eastern tile game for GNOME
@@ -37008,6 +37172,19 @@ Description-en: Python bindings for libxslt1 (debug extension)
  .
  This package contains Python bindings for libxslt, needed to use
  libxslt in Python programs for use with the Python debug interpreter.
+
+Package: python-maas-provision
+Description-md5: 2b41278d77b6eaf3d96d2c1c7845668e
+Description-en: Install server - python libraries.
+ Cobbler is a network install server. Cobbler supports PXE, virtualized
+ installs, and reinstalling existing Linux machines. The last two modes use
+ a helper tool, 'koan', that integrates with maas-provision. Cobbler's advanced
+ features include importing distributions from DVDs and rsync mirrors,
+ kickstart templating, integrated yum mirroring, and built-in DHCP/DNS
+ Management. Cobbler has a Python and XMLRPC API for integration with other
+ applications. There is also a web interface.
+ .
+ This package includes the maas-provision python modules.
 
 Package: python-moinmoin
 Description-md5: e7e9edb49f7b3a85509d1a40cac0d731

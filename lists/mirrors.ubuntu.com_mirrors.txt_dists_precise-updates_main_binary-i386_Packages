@@ -1729,6 +1729,57 @@ Origin: Ubuntu
 Supported: 5y
 Task: minimal
 
+Package: bash
+Essential: yes
+Priority: required
+Section: shells
+Installed-Size: 1372
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Architecture: i386
+Version: 4.2-2ubuntu2.1
+Replaces: bash-completion (<< 20060301-0), bash-doc (<= 2.05-1)
+Depends: base-files (>= 2.1.12), debianutils (>= 2.15)
+Pre-Depends: dash (>= 0.5.5.1-2.2), libc6 (>= 2.15), libtinfo5
+Recommends: bash-completion (>= 20060301-0)
+Suggests: bash-doc
+Conflicts: bash-completion (<< 20060301-0)
+Filename: pool/main/b/bash/bash_4.2-2ubuntu2.1_i386.deb
+Size: 616144
+MD5sum: 23c7527be70ac3fcc18ef791cf630552
+SHA1: 87bd703ed814881bad445e0ebc0d0742373589b6
+SHA256: 049132f2d7996bebef400449e5f3ffcf2fd3162e9cfa20d52c91edf93400d0b8
+Description: GNU Bourne Again SHell
+Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
+Description-md5: 3522aa7b4374048d6450e348a5bb45d9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: minimal
+
+Package: bash-doc
+Priority: optional
+Section: doc
+Installed-Size: 2005
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Architecture: all
+Source: bash
+Version: 4.2-2ubuntu2.1
+Replaces: bash (<< 3.2-1)
+Depends: dpkg (>= 1.15.4) | install-info
+Filename: pool/main/b/bash/bash-doc_4.2-2ubuntu2.1_all.deb
+Size: 1098824
+MD5sum: 7156011d00e9f5629b5ba859d4194ef4
+SHA1: f9e0c4bd7a9ed325faa1b92f41ca143690ea212b
+SHA256: 5117048a96cc737aa615b56017ce617d07d8c3c6664eec7fd5d8ad6f3b9d492c
+Description: Documentation and examples for the The GNU Bourne Again SHell
+Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
+Description-md5: 87bcd31a74f29447890330d831edb1f7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: bind9
 Priority: optional
 Section: net
@@ -8020,6 +8071,30 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: gir1.2-dee-1.0
+Priority: optional
+Section: libs
+Installed-Size: 124
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: i386
+Source: dee
+Version: 1.0.10-0ubuntu1.1
+Replaces: gir1.2-dee-0.5
+Depends: gir1.2-glib-2.0, libdee-1.0-4 (>= 1.0.6)
+Filename: pool/main/d/dee/gir1.2-dee-1.0_1.0.10-0ubuntu1.1_i386.deb
+Size: 14336
+MD5sum: f7f355292932ddfffe8e02f15107368f
+SHA1: 92efaa2fcfadba45d422535ce40ecb7971f0d664
+SHA256: 4293a4dc490a3f6bb7d922dd007626f35f58d8eff48d809419ef3d966f120525
+Description: GObject introspection data for the Dee library
+Homepage: https://launchpad.net/dee
+Description-md5: 79b0788f2610b4887e4b3afe5e29363c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, ubuntustudio-desktop
+
 Package: gir1.2-ebook-1.2
 Priority: optional
 Section: libs
@@ -8105,6 +8180,29 @@ SHA256: 0b5c75999a341479d6113aa2c0a46d6fae6bc94d5048775934d72b663f9021b3
 Description: GObject introspection data for the libevince library
 Homepage: http://www.gnome.org/projects/evince/
 Description-md5: 023bb27905e1a121cbd9d604bd757a4c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: gir1.2-gkbd-3.0
+Priority: optional
+Section: libs
+Installed-Size: 56
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Source: libgnomekbd
+Version: 3.4.0.2-1ubuntu0.1
+Replaces: gir1.2-gnomekbd-3.0
+Depends: gir1.2-atk-1.0, gir1.2-freedesktop, gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-pango-1.0, gir1.2-xkl-1.0, libgnomekbd7 (>= 3.0.0.1)
+Conflicts: gir1.2-gnomekbd-3.0
+Filename: pool/main/libg/libgnomekbd/gir1.2-gkbd-3.0_3.4.0.2-1ubuntu0.1_i386.deb
+Size: 7328
+MD5sum: c68ef5d0891a49df7da150b760ac0337
+SHA1: 75662e97880bdaedb21fb27e4a4f8341300e154c
+SHA256: 135e9fcfc9c3ea4ea1753f1547df8c7348e1a7a0df1c526a5100b83678f3cb53
+Description: GObject introspection data for the GnomeKbd library
+Description-md5: 16f5d54ee1cc6d63963a1713fa8aea2c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
@@ -8440,15 +8538,15 @@ Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Original-Maintainer: Josselin Mouette <joss@debian.org>
 Architecture: i386
 Source: nautilus
-Version: 1:3.4.2-0ubuntu7
+Version: 1:3.4.2-0ubuntu8
 Replaces: gir1.0-nautilus-3.0
 Depends: gir1.2-atk-1.0, gir1.2-freedesktop, gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-pango-1.0, libnautilus-extension1a (>= 1:2.91)
 Conflicts: gir1.0-nautilus-3.0
-Filename: pool/main/n/nautilus/gir1.2-nautilus-3.0_3.4.2-0ubuntu7_i386.deb
-Size: 6174
-MD5sum: 065a250d9d567e472218b401720f5627
-SHA1: 55839f652f95d8aae93a29ed3c8f87e68326db06
-SHA256: 1ed844c0fbf60c0c84df084b494729a196b70abcee6238d1e466730d575b04fd
+Filename: pool/main/n/nautilus/gir1.2-nautilus-3.0_3.4.2-0ubuntu8_i386.deb
+Size: 6180
+MD5sum: c06d996fa0155ff949d6283e2182078e
+SHA1: ffce0bfdb5ea08ce6bde80c3a78b385fd2d4e5d8
+SHA256: 53f670943d1fd4f81bed5b7e2b8423ccaf8130e706132e0c275640021a327c37
 Description: libraries for nautilus components - gir bindings
 Homepage: http://www.gnome.org/projects/nautilus/
 Description-md5: c96feb0c498fde4a37f1e7aa9514778c
@@ -8736,6 +8834,27 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-live, ubuntustudio-desktop
+
+Package: gkbd-capplet
+Priority: optional
+Section: libs
+Installed-Size: 50
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Source: libgnomekbd
+Version: 3.4.0.2-1ubuntu0.1
+Depends: libc6 (>= 2.3.6-6~), libglib2.0-0 (>= 2.26), libgnomekbd7 (>= 2.91.90), libgtk-3-0 (>= 3.0.0), libxklavier16 (>= 5.0)
+Filename: pool/main/libg/libgnomekbd/gkbd-capplet_3.4.0.2-1ubuntu0.1_i386.deb
+Size: 5288
+MD5sum: 7f5d81c60797b5ac82393d2be0a7b5a5
+SHA1: 554ff4300737ba3c69c6ce23ed2daca79eea4e6e
+SHA256: 1d6ca69016e8904487bfc2bdd1107e8e39784af30c36b1ee5620d2fcd433b153
+Description: GNOME Panel applet for libgnomekbd
+Description-md5: 92c48b524e722191ce19dd5017839c09
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
 
 Package: glade
 Priority: optional
@@ -10791,6 +10910,28 @@ Description-md5: aeee2dcb31829662bc4187eca38f4551
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
+
+Package: ibus-chewing
+Priority: optional
+Section: utils
+Installed-Size: 212
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
+Architecture: i386
+Version: 1.3.10+clean-2ubuntu1
+Depends: libc6 (>= 2.4), libchewing3, libglib2.0-0 (>= 2.24.0), libgtk2.0-0 (>= 2.12.0), libibus-1.0-0, libx11-6, libxtst6, gconf2 (>= 2.28.1-2), ibus (>= 1.3.99.20110419)
+Filename: pool/main/i/ibus-chewing/ibus-chewing_1.3.10+clean-2ubuntu1_i386.deb
+Size: 47062
+MD5sum: e00ffa67e88a8c1396610eb5c81d50a0
+SHA1: dd5eb83e5d4f264e452b9d2a0dfe86c3bccf3301
+SHA256: a2bde0d8239d18bfdee98e9d8940f09350b9609c21b2647f354fa07df49e7c4c
+Description: Chewing engine for IBus
+Homepage: http://code.google.com/p/ibus
+Description-md5: 41b0580d9f7567a74d302851c00d4d6c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-usb, ubuntu-dvd-live, edubuntu-usb
 
 Package: icedtea-6-jre-cacao
 Priority: extra
@@ -39946,6 +40087,96 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: libdee-1.0-4
+Priority: optional
+Section: libs
+Installed-Size: 251
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: i386
+Source: dee
+Version: 1.0.10-0ubuntu1.1
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.31.8), libicu48 (>= 4.8-1)
+Filename: pool/main/d/dee/libdee-1.0-4_1.0.10-0ubuntu1.1_i386.deb
+Size: 83260
+MD5sum: dab7187576ad59050c8146bc0aeef4db
+SHA1: 13ea005e3a53c1c8e65120e52640284c34c7d37a
+SHA256: 9dca6c11e22f999376acde70645682ce894bd2ee91996c9b4b7730b02f8c0f09
+Description: model to synchronize mutiple instances over DBus - shared lib
+Homepage: https://launchpad.net/dee
+Description-md5: 24ce63bdf3687a0a415c08815e89723e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, ubuntustudio-desktop
+
+Package: libdee-1.0-4-dbg
+Priority: extra
+Section: debug
+Installed-Size: 510
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: i386
+Source: dee
+Version: 1.0.10-0ubuntu1.1
+Depends: libdee-1.0-4 (= 1.0.10-0ubuntu1.1)
+Filename: pool/main/d/dee/libdee-1.0-4-dbg_1.0.10-0ubuntu1.1_i386.deb
+Size: 187310
+MD5sum: a9d250db20aa9ca33426963fe79df2bf
+SHA1: 2b31bf013f60994024996dccf8cdf02913004440
+SHA256: d25612c3b4e6d1605216f4d011720be834f6198c6ea3a77aab7a0819ca83d8af
+Description: model to synchronize mutiple instances over DBus
+Homepage: https://launchpad.net/dee
+Description-md5: 00c31852839aadc42e43391d0479059f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libdee-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 496
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: i386
+Source: dee
+Version: 1.0.10-0ubuntu1.1
+Depends: libdee-1.0-4 (= 1.0.10-0ubuntu1.1), libglib2.0-dev (>= 2.22.0), libdbus-glib-1-dev (>= 0.80)
+Suggests: libdee-doc
+Filename: pool/main/d/dee/libdee-dev_1.0.10-0ubuntu1.1_i386.deb
+Size: 51336
+MD5sum: 770c581a42a3858cc6a6a7272297ded6
+SHA1: 90e9c31287e920c496a797282e58e40ca0cb35d5
+SHA256: 241129abee8323081bbe89fcc460f167e1add654490fba4a5f8ff05b32bd7fe9
+Description: model to synchronize mutiple instances over DBus - dev files
+Homepage: https://launchpad.net/dee
+Description-md5: 30115493b862be043dc4f79d10f844c0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libdee-doc
+Priority: optional
+Section: doc
+Installed-Size: 686
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: all
+Source: dee
+Version: 1.0.10-0ubuntu1.1
+Suggests: devhelp
+Filename: pool/main/d/dee/libdee-doc_1.0.10-0ubuntu1.1_all.deb
+Size: 77528
+MD5sum: dd823afe9ffe481362b3e35de6064647
+SHA1: e27f9015eafc073d425199cf6c1994b42a4c21ce
+SHA256: 546e6cd8ed4bad9c2a34742848e42aee72fb78ee05a24c352352022da96642bb
+Description: model to synchronize mutiple instances over DBus - documentation
+Homepage: https://launchpad.net/dee
+Description-md5: 5ec25a9d5f3475690f49a2ed19c388db
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: libdevmapper-dev
 Priority: optional
 Section: libdevel
@@ -43853,6 +44084,73 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: libgnomekbd-common
+Priority: optional
+Section: libs
+Installed-Size: 112
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Architecture: all
+Source: libgnomekbd
+Version: 3.4.0.2-1ubuntu0.1
+Replaces: gkbd-capplet (<= 2.91.2-1)
+Depends: dconf-gsettings-backend | gsettings-backend
+Breaks: gkbd-capplet (<= 2.91.2-1)
+Filename: pool/main/libg/libgnomekbd/libgnomekbd-common_3.4.0.2-1ubuntu0.1_all.deb
+Size: 8550
+MD5sum: d2202dc588d5840916bf28423b629dff
+SHA1: 2f1f7e3ff817155160221a04a39d3dd735b95849
+SHA256: 6568a7b7b452b48822a417b8bc40c18b2b339bbeae195fe8910c9918583bcada
+Description: GNOME library to manage keyboard configuration - common files
+Description-md5: 5975fb27dd14bb43c79c9935c681f328
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, ubuntustudio-desktop
+
+Package: libgnomekbd-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 264
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Source: libgnomekbd
+Version: 3.4.0.2-1ubuntu0.1
+Depends: libgnomekbd7 (= 3.4.0.2-1ubuntu0.1), gir1.2-gkbd-3.0 (= 3.4.0.2-1ubuntu0.1), libglib2.0-dev (>= 2.26), libgtk-3-dev (>= 3.0.0), libxklavier-dev (>= 5.2), libx11-dev
+Filename: pool/main/libg/libgnomekbd/libgnomekbd-dev_3.4.0.2-1ubuntu0.1_i386.deb
+Size: 58160
+MD5sum: 142721a079324045266132f13592937d
+SHA1: ac5d3b3b6e60957dc510d075b5c7f0df3dc15fb2
+SHA256: 3e70c547661e12c422c057bd36b52c8946fd7745cb2f42cc6720371459e71198
+Description: GNOME library to manage keyboard configuration - development files
+Description-md5: 353cd231a62082c6784b7cd9c5727a8c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgnomekbd7
+Priority: optional
+Section: libs
+Installed-Size: 150
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Source: libgnomekbd
+Version: 3.4.0.2-1ubuntu0.1
+Depends: libc6 (>= 2.7), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.26.0), libgtk-3-0 (>= 3.0.0), libpango1.0-0 (>= 1.22.0), libx11-6, libxklavier16 (>= 5.0), libgnomekbd-common (>= 3.4.0.2-1ubuntu0.1), iso-codes
+Filename: pool/main/libg/libgnomekbd/libgnomekbd7_3.4.0.2-1ubuntu0.1_i386.deb
+Size: 54778
+MD5sum: b54a95cfa52eb867feced80d518f06e9
+SHA1: 5d8611230899503c78b49a5ee7952589a45c36d4
+SHA256: 00c5f6758b5c816605387d31380d0bb0ba6699a6b71926b7f966333e2cd1035d
+Description: GNOME library to manage keyboard configuration - shared library
+Description-md5: af3a5d9e866a2d8042968d3f6510a8a8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, ubuntustudio-desktop
+
 Package: libgnomevfs2-0
 Priority: optional
 Section: libs
@@ -45479,6 +45777,61 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 Task: standard, kubuntu-active, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master
+
+Package: libjack-jackd2-0
+Priority: optional
+Section: libs
+Installed-Size: 478
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Source: jackd2
+Version: 1.9.8~dfsg.1-1ubuntu2
+Replaces: libjack-0.116
+Provides: libjack-0.116
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libsamplerate0 (>= 0.1.7), libstdc++6 (>= 4.6)
+Pre-Depends: multiarch-support
+Suggests: jackd2 (= 1.9.8~dfsg.1-1ubuntu2)
+Conflicts: jackd2 (>> 1.9.8~dfsg.1-1ubuntu2), jackd2 (<< 1.9.8~dfsg.1-1ubuntu2), libjack-0.116, libjack0
+Filename: pool/main/j/jackd2/libjack-jackd2-0_1.9.8~dfsg.1-1ubuntu2_i386.deb
+Size: 169762
+MD5sum: 41a2c61f2673242fe246e19535d5ec90
+SHA1: 0c2861df788e0c78656a4c5f6fcba3a44b25fc46
+SHA256: 862b6639a1a3c959ec98fd6967b86308a540220c1921ba82e1b37b5197e926ed
+Description: JACK Audio Connection Kit (libraries)
+Multi-Arch: same
+Homepage: http://jackaudio.org/
+Description-md5: f4743a9e2f04ed05673483cd1fe0eb38
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, edubuntu-desktop-kde, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, lubuntu-desktop, ubuntustudio-generation, ubuntustudio-video, ubuntustudio-recording
+
+Package: libjack-jackd2-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 272
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Source: jackd2
+Version: 1.9.8~dfsg.1-1ubuntu2
+Replaces: libjack0.71.2-0 (<< 0.75.0-1)
+Provides: libjack-dev, libjack-dev-session, libjack0.100.0-dev
+Depends: libjack-jackd2-0 (= 1.9.8~dfsg.1-1ubuntu2), pkg-config, libdbus-1-dev
+Conflicts: libjack-dev, libjack0.100.0-dev (<< 0.102.20-2)
+Filename: pool/main/j/jackd2/libjack-jackd2-dev_1.9.8~dfsg.1-1ubuntu2_i386.deb
+Size: 42538
+MD5sum: bc58dd05a7662035eaa344d5927088a1
+SHA1: e2a159df54d6c21ab7e92d92b3371961aeeddf05
+SHA256: de378a52f94a5c82b59b62137ac8df397f76bf681c5f4a6017bf93201aeb28dc
+Description: JACK Audio Connection Kit (development files)
+Multi-Arch: same
+Homepage: http://jackaudio.org/
+Description-md5: 5769772c9db90298e719eeef115bed03
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
 
 Package: libjavascriptcoregtk-1.0-0
 Priority: optional
@@ -53244,13 +53597,13 @@ Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Original-Maintainer: Josselin Mouette <joss@debian.org>
 Architecture: i386
 Source: nautilus
-Version: 1:3.4.2-0ubuntu7
-Depends: libnautilus-extension1a (= 1:3.4.2-0ubuntu7), gir1.2-nautilus-3.0 (= 1:3.4.2-0ubuntu7), libglib2.0-dev (>= 2.31.9), libgtk-3-dev (>= 3.3.18)
-Filename: pool/main/n/nautilus/libnautilus-extension-dev_3.4.2-0ubuntu7_i386.deb
-Size: 35062
-MD5sum: 86bfdbb5e034dc3f608e6605d7d12e6d
-SHA1: 2517f7eb28c3c30336d6ab254d37c4ce73668ed7
-SHA256: 55a377abdad1bdbcd5e42fc34d681cb368b90cd479681e1aba52a9463935a516
+Version: 1:3.4.2-0ubuntu8
+Depends: libnautilus-extension1a (= 1:3.4.2-0ubuntu8), gir1.2-nautilus-3.0 (= 1:3.4.2-0ubuntu8), libglib2.0-dev (>= 2.31.9), libgtk-3-dev (>= 3.3.18)
+Filename: pool/main/n/nautilus/libnautilus-extension-dev_3.4.2-0ubuntu8_i386.deb
+Size: 36172
+MD5sum: ebe03673db1703764a0598bf25963156
+SHA1: f170d1b642ffb5917d141d81606e542cdada3ef7
+SHA256: 3b78939c115046c46dc2a51d929a5eb863484cf9887391e7cb45606ecb43636c
 Description: libraries for nautilus components - development version
 Homepage: http://www.gnome.org/projects/nautilus/
 Description-md5: 6e87107b9ab479b5113b63b76bd07770
@@ -53266,15 +53619,15 @@ Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Original-Maintainer: Josselin Mouette <joss@debian.org>
 Architecture: i386
 Source: nautilus
-Version: 1:3.4.2-0ubuntu7
+Version: 1:3.4.2-0ubuntu8
 Replaces: libnautilus-extension1
 Depends: libc6 (>= 2.1.3), libglib2.0-0 (>= 2.31.9), libgtk-3-0 (>= 3.0.0)
 Breaks: nautilus (<< 1:3.0)
-Filename: pool/main/n/nautilus/libnautilus-extension1a_3.4.2-0ubuntu7_i386.deb
-Size: 51576
-MD5sum: 1c79b6dfab567c770a5c323d5aaba904
-SHA1: 57f3d648fa1fb66e997201d83813d38bc8a2c123
-SHA256: fe367e0fed3eb598deb005074823e2dcd5557e11c72e2f47056330b3bfdfad91
+Filename: pool/main/n/nautilus/libnautilus-extension1a_3.4.2-0ubuntu8_i386.deb
+Size: 50866
+MD5sum: 6773d16580ad9f4b3c0c5f0fcde68969
+SHA1: a7358d34ff3cb823c1bcafa145672190cf1f55e0
+SHA256: b5a580eece35e789aee4c5eab0f578c32401126af1260fbc02cf1d1225e22d8d
 Description: libraries for nautilus components - runtime version
 Homepage: http://www.gnome.org/projects/nautilus/
 Description-md5: 24d74241fbd9274f58339c68e65e6d46
@@ -67081,7 +67434,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 73db8ef2303125c9047e40e1fe3e2ee3
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.3-3.2.0-39-generic-pae
 Priority: optional
@@ -67102,7 +67455,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86
 Description-md5: c0f3bf127dc10561d470fa49e4b507ff
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.3-3.2.0-39-virtual
 Priority: optional
@@ -67123,7 +67476,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 00ffa7648ab3e2c8c1e6663d8aad0014
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.3-3.2.0-40-generic
 Priority: optional
@@ -67144,6 +67497,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 73db8ef2303125c9047e40e1fe3e2ee3
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.3-3.2.0-40-generic-pae
 Priority: optional
@@ -67164,6 +67518,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86
 Description-md5: c0f3bf127dc10561d470fa49e4b507ff
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.3-3.2.0-40-virtual
 Priority: optional
@@ -67184,6 +67539,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 00ffa7648ab3e2c8c1e6663d8aad0014
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.3-precise-generic
 Priority: optional
@@ -67748,7 +68104,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 9a436bc04bffb78038f22b6b3fca07e9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.4-3.2.0-39-generic-pae
 Priority: optional
@@ -67769,7 +68125,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86
 Description-md5: 635f803949145cc57e66124c9ced3685
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.4-3.2.0-39-virtual
 Priority: optional
@@ -67790,7 +68146,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 619b8cfa92495a39b56a5a0d43236544
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.4-3.2.0-40-generic
 Priority: optional
@@ -67811,6 +68167,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 9a436bc04bffb78038f22b6b3fca07e9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.4-3.2.0-40-generic-pae
 Priority: optional
@@ -67831,6 +68188,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86
 Description-md5: 635f803949145cc57e66124c9ced3685
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.4-3.2.0-40-virtual
 Priority: optional
@@ -67851,6 +68209,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 619b8cfa92495a39b56a5a0d43236544
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.4-precise-generic
 Priority: optional
@@ -68247,7 +68606,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 5b4d2a2590e892983edb3216437319ef
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.5-3.2.0-39-generic-pae
 Priority: optional
@@ -68268,7 +68627,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86
 Description-md5: ee5bfe5fac7ca8be9fe5067317f79623
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.5-3.2.0-39-virtual
 Priority: optional
@@ -68289,7 +68648,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 17a5043ec6a46b4b3f1fdbd386019b9c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.5-3.2.0-40-generic
 Priority: optional
@@ -68310,6 +68669,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 5b4d2a2590e892983edb3216437319ef
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.5-3.2.0-40-generic-pae
 Priority: optional
@@ -68330,6 +68690,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86
 Description-md5: ee5bfe5fac7ca8be9fe5067317f79623
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.5-3.2.0-40-virtual
 Priority: optional
@@ -68350,6 +68711,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 17a5043ec6a46b4b3f1fdbd386019b9c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.5-precise-generic
 Priority: optional
@@ -68746,7 +69108,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 6865b8508f4a1ed3d2809094857d6bb8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.6-3.2.0-39-generic-pae
 Priority: optional
@@ -68767,7 +69129,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86
 Description-md5: d484be944f48d0898e8f0233cc5c539d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.6-3.2.0-39-virtual
 Priority: optional
@@ -68788,7 +69150,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: eb82d22f23a4d6b9dcc378052bc62dd4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.6-3.2.0-40-generic
 Priority: optional
@@ -68809,6 +69171,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 6865b8508f4a1ed3d2809094857d6bb8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.6-3.2.0-40-generic-pae
 Priority: optional
@@ -68829,6 +69192,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86
 Description-md5: d484be944f48d0898e8f0233cc5c539d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.6-3.2.0-40-virtual
 Priority: optional
@@ -68849,6 +69213,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: eb82d22f23a4d6b9dcc378052bc62dd4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.6-precise-generic
 Priority: optional
@@ -69201,7 +69566,7 @@ Description: Linux Hyper-V updates for version 3.2.0 on x86/x86_64
 Description-md5: 584d26d2fb9d908b1347de788f4c1d7c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-hv-3.2.0-39-generic-pae
 Priority: optional
@@ -69222,7 +69587,7 @@ Description: Linux Hyper-V updates for version 3.2.0 on x86
 Description-md5: 9effa5e4cb60d20d2db08d715ddb7411
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-hv-3.2.0-39-virtual
 Priority: optional
@@ -69243,7 +69608,7 @@ Description: Linux Hyper-V updates for version 3.2.0 on x86/x86_64
 Description-md5: ea71f70aba46c0a7c65b47def1ba8e9d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-hv-3.2.0-40-generic
 Priority: optional
@@ -69264,6 +69629,7 @@ Description: Linux Hyper-V updates for version 3.2.0 on x86/x86_64
 Description-md5: 584d26d2fb9d908b1347de788f4c1d7c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-hv-3.2.0-40-generic-pae
 Priority: optional
@@ -69284,6 +69650,7 @@ Description: Linux Hyper-V updates for version 3.2.0 on x86
 Description-md5: 9effa5e4cb60d20d2db08d715ddb7411
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-hv-3.2.0-40-virtual
 Priority: optional
@@ -69304,6 +69671,7 @@ Description: Linux Hyper-V updates for version 3.2.0 on x86/x86_64
 Description-md5: ea71f70aba46c0a7c65b47def1ba8e9d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-hv-precise-generic
 Priority: optional
@@ -70056,7 +70424,7 @@ Description: Linux ethernet modules for version 3.2.0 on x86/x86_64
 Description-md5: 4d4431774a9f24406f76ad316b7cf886
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-net-3.2.0-39-generic-pae
 Priority: optional
@@ -70077,7 +70445,7 @@ Description: Linux ethernet modules for version 3.2.0 on x86
 Description-md5: 7ccd4ca55ca84885ede7c9bc4a9307d0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-net-3.2.0-39-virtual
 Priority: optional
@@ -70098,7 +70466,7 @@ Description: Linux ethernet modules for version 3.2.0 on x86/x86_64
 Description-md5: cf911955d3cf668358081fb8e8acd9f6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-net-3.2.0-40-generic
 Priority: optional
@@ -70119,6 +70487,7 @@ Description: Linux ethernet modules for version 3.2.0 on x86/x86_64
 Description-md5: 4d4431774a9f24406f76ad316b7cf886
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-net-3.2.0-40-generic-pae
 Priority: optional
@@ -70139,6 +70508,7 @@ Description: Linux ethernet modules for version 3.2.0 on x86
 Description-md5: 7ccd4ca55ca84885ede7c9bc4a9307d0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-net-3.2.0-40-virtual
 Priority: optional
@@ -70159,6 +70529,7 @@ Description: Linux ethernet modules for version 3.2.0 on x86/x86_64
 Description-md5: cf911955d3cf668358081fb8e8acd9f6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-net-precise-generic
 Priority: optional
@@ -71875,7 +72246,7 @@ Description: Header files related to Linux kernel version 3.2.0
 Description-md5: 29449546e02f60ca4bb46dae79080e25
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-3.2.0-39-generic
 Priority: optional
@@ -71896,7 +72267,7 @@ Description: Linux kernel headers for version 3.2.0 on 32 bit x86 SMP
 Description-md5: dd01383d261824005ea0c391e937fccb
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-3.2.0-39-generic-pae
 Priority: optional
@@ -71917,7 +72288,7 @@ Description: Linux kernel headers for version 3.2.0 on 32 bit x86 SMP
 Description-md5: dd01383d261824005ea0c391e937fccb
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-3.2.0-39-virtual
 Priority: optional
@@ -71938,7 +72309,7 @@ Description: Linux kernel headers for version 3.2.0 on 32 bit x86 Virtual Guests
 Description-md5: 207067c4aaa04e13222b9f836af95046
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-3.2.0-40
 Priority: optional
@@ -71959,6 +72330,7 @@ Description: Header files related to Linux kernel version 3.2.0
 Description-md5: fe399446215870b8eba5248a0b4bc331
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-3.2.0-40-generic
 Priority: optional
@@ -71979,6 +72351,7 @@ Description: Linux kernel headers for version 3.2.0 on 32 bit x86 SMP
 Description-md5: 15b1274fb19de3debfd06130598b0328
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-3.2.0-40-generic-pae
 Priority: optional
@@ -71999,6 +72372,7 @@ Description: Linux kernel headers for version 3.2.0 on 32 bit x86 SMP
 Description-md5: 15b1274fb19de3debfd06130598b0328
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-3.2.0-40-virtual
 Priority: optional
@@ -72019,6 +72393,7 @@ Description: Linux kernel headers for version 3.2.0 on 32 bit x86 Virtual Guests
 Description-md5: 34e38894b12791ca3ec5fc434d66d3cb
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-3.5.0-18
 Priority: optional
@@ -72358,6 +72733,7 @@ Description: Header files related to Linux kernel version 3.5.0
 Description-md5: 352c4c33882b8c5b49fa4a610673c023
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-headers-3.5.0-27-generic
 Priority: optional
@@ -72377,6 +72753,7 @@ Description: Linux kernel headers for version 3.5.0 on 32 bit x86 SMP
 Description-md5: 175384713c2e800cc6445c4460805c1d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-headers-generic
 Priority: optional
@@ -73131,7 +73508,7 @@ Description: Header files related to linux-backports-modules version 3.2.0
 Description-md5: dfade877117e32bd48498fb9012fee26
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-lbm-3.2.0-39-generic-pae
 Priority: optional
@@ -73152,7 +73529,7 @@ Description: Header files related to linux-backports-modules version 3.2.0
 Description-md5: dfade877117e32bd48498fb9012fee26
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-lbm-3.2.0-39-virtual
 Priority: optional
@@ -73173,7 +73550,7 @@ Description: Header files related to linux-backports-modules version 3.2.0
 Description-md5: dfade877117e32bd48498fb9012fee26
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-lbm-3.2.0-40-generic
 Priority: optional
@@ -73194,6 +73571,7 @@ Description: Header files related to linux-backports-modules version 3.2.0
 Description-md5: 24c1556a62ec9ee2c121cb57e239c0df
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-lbm-3.2.0-40-generic-pae
 Priority: optional
@@ -73214,6 +73592,7 @@ Description: Header files related to linux-backports-modules version 3.2.0
 Description-md5: 24c1556a62ec9ee2c121cb57e239c0df
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-lbm-3.2.0-40-virtual
 Priority: optional
@@ -73234,6 +73613,7 @@ Description: Header files related to linux-backports-modules version 3.2.0
 Description-md5: 24c1556a62ec9ee2c121cb57e239c0df
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-server
 Priority: optional
@@ -74388,7 +74768,7 @@ Description: Linux kernel image for version 3.2.0 on 32 bit x86 SMP
 Description-md5: a9da3266ff97ecb0976fd0ca6b39ba7a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-image-3.2.0-39-generic-pae
 Priority: optional
@@ -74413,7 +74793,7 @@ Description: Linux kernel image for version 3.2.0 on 32 bit x86 SMP
 Description-md5: 6933e2e147995585ec031363c324e950
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-image-3.2.0-39-virtual
 Priority: optional
@@ -74438,7 +74818,7 @@ Description: Linux kernel image for version 3.2.0 on 32 bit x86 Virtual Guests
 Description-md5: 80e56a3feb0e9c87f2bead9765fd50a9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-image-3.2.0-40-generic
 Priority: optional
@@ -74463,6 +74843,7 @@ Description: Linux kernel image for version 3.2.0 on 32 bit x86 SMP
 Description-md5: a9da3266ff97ecb0976fd0ca6b39ba7a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-image-3.2.0-40-generic-pae
 Priority: optional
@@ -74487,6 +74868,7 @@ Description: Linux kernel image for version 3.2.0 on 32 bit x86 SMP
 Description-md5: 6933e2e147995585ec031363c324e950
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-image-3.2.0-40-virtual
 Priority: optional
@@ -74511,6 +74893,7 @@ Description: Linux kernel image for version 3.2.0 on 32 bit x86 Virtual Guests
 Description-md5: 80e56a3feb0e9c87f2bead9765fd50a9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-image-3.5.0-18-generic
 Priority: optional
@@ -74726,6 +75109,7 @@ Description: Linux kernel image for version 3.5.0 on 32 bit x86 SMP
 Description-md5: eeaa119f302f70c1a8950e18fdeea032
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-image-current-generic
 Priority: optional
@@ -75045,7 +75429,7 @@ Description: Linux kernel image for version 3.2.0 on 32 bit x86 Virtual Guests
 Description-md5: 80e56a3feb0e9c87f2bead9765fd50a9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-image-extra-3.2.0-40-virtual
 Priority: optional
@@ -75065,6 +75449,7 @@ Description: Linux kernel image for version 3.2.0 on 32 bit x86 Virtual Guests
 Description-md5: 80e56a3feb0e9c87f2bead9765fd50a9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-image-extra-virtual
 Priority: optional
@@ -75981,7 +76366,7 @@ Description: Linux kernel version specific tools for version 3.2.0-39
 Description-md5: cb7a54beeea4805068fd8f1b80f19373
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-tools-3.2.0-40
 Priority: optional
@@ -76001,6 +76386,7 @@ Description: Linux kernel version specific tools for version 3.2.0-40
 Description-md5: 5402c7a6fb74e0f7af78c8189a706b91
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-tools-3.5.0-23
 Priority: optional
@@ -76100,6 +76486,7 @@ Description: Linux kernel version specific tools for version 3.5.0-27
 Description-md5: c373b4c133bda86bf81fc37206f4ea33
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-tools-common
 Priority: optional
@@ -77088,6 +77475,55 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: maas-provision
+Priority: optional
+Section: misc
+Installed-Size: 205
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Jasper Poppe <jpoppe@ebay.com>
+Architecture: all
+Version: 2.2.2-0ubuntu4.1
+Replaces: cobbler
+Depends: debconf (>= 0.5) | debconf-2.0, upstart-job, python, apache2, hardlink, libapache2-mod-wsgi, lsb-release, openssl, python-twisted, rsync, syslinux | syslinux-common, libapache2-mod-python, maas-provision-common (= 2.2.2-0ubuntu4.1), distro-info
+Recommends: fence-agents, powerwake
+Suggests: createrepo, bind9, debmirror, dhcp3-server, genisoimage, apparmor (>= 2.3), tftpd-hpa
+Conflicts: cobbler
+Filename: pool/main/m/maas-provision/maas-provision_2.2.2-0ubuntu4.1_all.deb
+Size: 25936
+MD5sum: 457654138d5f2cb70acce783f7e8ec26
+SHA1: 0d2ca69ecb7d82f8c9a20d04de0cc43a0d47ce9a
+SHA256: 79a4e0a73930aa103c0efda323553afc8d5f8ba8c9e907cee18004e4430fe495
+Description: Install server
+Homepage: https://fedorahosted.org/maas-provision
+Description-md5: a0a77a7f75c8ac280108179912eb6332
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: maas-provision-common
+Priority: optional
+Section: misc
+Installed-Size: 536
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Jasper Poppe <jpoppe@ebay.com>
+Architecture: all
+Source: maas-provision
+Version: 2.2.2-0ubuntu4.1
+Replaces: cobbler-common
+Depends: python-maas-provision (= 2.2.2-0ubuntu4.1)
+Conflicts: cobbler-common
+Filename: pool/main/m/maas-provision/maas-provision-common_2.2.2-0ubuntu4.1_all.deb
+Size: 68310
+MD5sum: e723cab9937ec4eee6194d947b1c0090
+SHA1: 6ff59df138d63d5f58d9dddddab47c53cd89dc2d
+SHA256: d5df4fa382e8b68cabd42c8ef03a5970b1b734aace0658d7136c604cce955fc1
+Description: Cobbler Install server - common files
+Homepage: https://fedorahosted.org/maas-provision
+Description-md5: 23ebde46cbe225bbe32505ef76bcaaf2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
 Package: mahjongg
 Priority: optional
 Section: games
@@ -78022,17 +78458,17 @@ Installed-Size: 2397
 Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Original-Maintainer: Josselin Mouette <joss@debian.org>
 Architecture: i386
-Version: 1:3.4.2-0ubuntu7
+Version: 1:3.4.2-0ubuntu8
 Replaces: nautilus-data (<< 1:3.2.1-2ubuntu1), nautilus-sendto
 Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbusmenu-glib4 (>= 0.4.2), libexempi3 (>= 2.2.0), libexif12, libgail-3-0 (>= 3.0.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.18), libgnome-desktop-3-2 (>= 3.2.0), libgtk-3-0 (>= 3.3.18), liblaunchpad-integration-3.0-1 (>= 0.1.17), libnautilus-extension1a (>= 1:2.91), libnotify4 (>= 0.7.0), libpango1.0-0 (>= 1.20.0), libunity9 (>= 3.8.4), libx11-6, libxml2 (>= 2.7.4), libzeitgeist-1.0-1 (>= 0.3.14), dconf-gsettings-backend | gsettings-backend, nautilus-data (>= 1:3.4), nautilus-data (<< 1:3.5), shared-mime-info (>= 0.50), desktop-file-utils (>= 0.7), gvfs (>= 1.3.2), libglib2.0-data, gsettings-desktop-schemas
 Recommends: eject, brasero (>= 2.26), librsvg2-common, gvfs-backends
 Suggests: eog, evince | pdf-viewer, totem | mp3-decoder, xdg-user-dirs, gnome-sushi
 Breaks: gnome-bluetooth (<< 3.0), gnome-session (<< 2.28), gnome-volume-manager (<< 2.24), nautilus-sendto-empathy (<< 3.0), rhythmbox (<< 0.12)
-Filename: pool/main/n/nautilus/nautilus_3.4.2-0ubuntu7_i386.deb
-Size: 846378
-MD5sum: 4c3f8a3b3439e8a934342d0b10a32cec
-SHA1: 21b10465f3520640caa6d52694fd342970366434
-SHA256: 9349a5d8b2adb9256f345ab2aec1ef50abc3f4d62e9965f5754d85ca7c3e35be
+Filename: pool/main/n/nautilus/nautilus_3.4.2-0ubuntu8_i386.deb
+Size: 844994
+MD5sum: e1c33a8dcd5b0b2218f6af3bf309c763
+SHA1: 4c3bbe608c80e34c6502512240ccebb58af97546
+SHA256: dfb80ba1f901187e0bc918b551517d385bb8af4b00ff542b1b40d7e1b649b3f1
 Description: file manager and graphical shell for GNOME
 Homepage: http://www.gnome.org/projects/nautilus/
 Description-md5: 007268d365c98355ef914766c16ee43f
@@ -78049,14 +78485,14 @@ Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Original-Maintainer: Josselin Mouette <joss@debian.org>
 Architecture: all
 Source: nautilus
-Version: 1:3.4.2-0ubuntu7
+Version: 1:3.4.2-0ubuntu8
 Depends: dconf-gsettings-backend | gsettings-backend
 Suggests: nautilus
-Filename: pool/main/n/nautilus/nautilus-data_3.4.2-0ubuntu7_all.deb
-Size: 62602
-MD5sum: b676368af2cfafc793c8c5d9a3ca7241
-SHA1: e224ea9b313c8e111b344eb381f209601f085dc4
-SHA256: 9c09041615c91d500abe5088bf398ad4fa5555dfa849bd16c8fd9ac19c3bd5c0
+Filename: pool/main/n/nautilus/nautilus-data_3.4.2-0ubuntu8_all.deb
+Size: 63404
+MD5sum: c4db5307ae180ce6425f9cae0033b75a
+SHA1: 3ba7142c1d54abb588a87e18befb6aade8dbf274
+SHA256: daff4df5deb14dd0f27ac0965f8c7437b60f10e29ee81af8ba44efc6eab132b8
 Description: data files for nautilus
 Homepage: http://www.gnome.org/projects/nautilus/
 Description-md5: d164dca99682ab7c25a900f1754f8f13
@@ -78073,14 +78509,14 @@ Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Original-Maintainer: Josselin Mouette <joss@debian.org>
 Architecture: i386
 Source: nautilus
-Version: 1:3.4.2-0ubuntu7
+Version: 1:3.4.2-0ubuntu8
 Replaces: libnautilus-extension1-dbg
-Depends: nautilus (= 1:3.4.2-0ubuntu7)
-Filename: pool/main/n/nautilus/nautilus-dbg_3.4.2-0ubuntu7_i386.deb
-Size: 2022512
-MD5sum: 37d4a84b9fbf6044560dbd68b2b15217
-SHA1: c76f7b6441ae41d5d41fc089fed8d6c77c4cc7a9
-SHA256: 1493e7c1ab835cb8f1fae9cdae7a1c838c434a4e7ec5267d0fd215cffe2a3b39
+Depends: nautilus (= 1:3.4.2-0ubuntu8)
+Filename: pool/main/n/nautilus/nautilus-dbg_3.4.2-0ubuntu8_i386.deb
+Size: 2021688
+MD5sum: bb266aa3089163e3e48926e33ed6805c
+SHA1: abdb6295db8e4dee4e9bd528498084a6a89c7eda
+SHA256: 6d4fd40f86ff5576f9f47c6bd9d1ddc2c0b01924af923e8068ccbd14831aa8d1
 Description: file manager and graphical shell for GNOME - debugging version
 Homepage: http://www.gnome.org/projects/nautilus/
 Description-md5: 048b5b537db99ce7b3a383a98be1fa23
@@ -83736,6 +84172,31 @@ Description-md5: dd55b04fde37de4e907cfd65cd22e216
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
+
+Package: python-maas-provision
+Priority: optional
+Section: python
+Installed-Size: 987
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Jasper Poppe <jpoppe@ebay.com>
+Architecture: all
+Source: maas-provision
+Version: 2.2.2-0ubuntu4.1
+Replaces: python-cobbler
+Provides: python2.7-maas-provision
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-yaml, python-netaddr, python-cheetah, python-simplejson, python-urlgrabber, python-django (>= 1.2), python-distro-info
+Conflicts: python-cobbler
+Filename: pool/main/m/maas-provision/python-maas-provision_2.2.2-0ubuntu4.1_all.deb
+Size: 222950
+MD5sum: 7748eb4ec5a890315e45d38ad423b981
+SHA1: 7c16b277cd3055f1e5a1e5111d0d2727fcb38877
+SHA256: 355d7eaa3631695611297442608fb1524d8657e7cf939c450f483b86269afa2a
+Description: Install server - python libraries.
+Homepage: https://fedorahosted.org/maas-provision
+Description-md5: 2b41278d77b6eaf3d96d2c1c7845668e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
 
 Package: python-moinmoin
 Priority: optional
