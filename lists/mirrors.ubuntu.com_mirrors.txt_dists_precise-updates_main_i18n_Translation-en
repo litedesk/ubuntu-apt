@@ -5328,6 +5328,54 @@ Description-en: ISC DHCP server for automatic IP address assignment (debug)
  .
  This server can handle multiple ethernet interfaces.
 
+Package: javahelper
+Description-md5: 5b42f8ff863ce95c7113d97a9b4e8bec
+Description-en: Helper scripts for packaging Java programs
+ Javahelper contains several scripts which help in packaging
+ Java programs.
+ .
+ jh_depends searches jars to find which packages they depend on,
+ similar to dh_shlibdeps. It will also add depends on jarwrapper
+ for packages with executable jars.
+ .
+ jh_classpath will register the classpath dependencies for each
+ jar so that they can be automatically loaded when that jar is
+ used by other programs.
+ .
+ jh_manifest updates the manifest in jar files according to
+ a provided spec so that the resultant jar files will work with
+ jarwrapper-enabled packages.
+ .
+ jh_exec looks for symlinks to jars which should be executable
+ and makes them executable
+ .
+ jh_build builds java files to jars for you.
+ .
+ jh_installlibs installs library jars into the correct locations
+ .
+ jh_makepkg generates a template for a Debian Java package for you
+ .
+ jh_installeclipse installs features/plugins built by pde-build.
+ .
+ jh_setupenvironment prepares an out of source built for eclipse builds.
+ .
+ jh_generateorbitdir creates an populates an orbit dir for eclipse builds.
+ .
+ jh_compilefeatures compiles eclipse features based on feature ids.
+ .
+ /usr/share/javahelper/java-vars.mk provides a selection of useful
+ variables such as various JVM paths and the JVM name for the architecture
+ .
+ /usr/share/javahelper/java-arch.sh converts Debian architecture
+ names into java names to locate libjvm.so in non-make build systems
+ .
+ javahelper provides CDBS and dh macros so that it can be used with those
+ package build systems.
+ .
+ Note that some of the eclipse helpers depends on packages not pulled
+ by default (like with devscripts). You can find these scripts in
+ Suggests.
+
 Package: jockey-common
 Description-md5: 0428b583757bfbc2ef1deb74d5d935e9
 Description-en: user interface and desktop integration for driver management

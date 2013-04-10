@@ -3485,6 +3485,26 @@ Description-en: JACK Audio Connection Kit (FFADO and FreeBoB backends)
  .
  This package contains the IEEE1394 (FireWire) backends FFADO and FreeBoB.
 
+Package: jarwrapper
+Description-md5: 3ec7df94fe3bf54bc2eb2bb6ff245986
+Description-en: Run executable Java .jar files
+ Jarwrapper sets up binfmt-misc to run executable jar files
+ using the installed java runtime.
+ .
+ It also includes a /usr/share/jarwrapper/java-arch.sh script
+ to convert Debian architecture names into java names to locate
+ libjvm.so
+
+Package: java-propose-classpath
+Description-md5: 309a04a51c19035f07af976a1ca3370d
+Description-en: Helper script to suggest a classpath for jar files
+ java-propose-classpath analyzes a set of jar files and the installed
+ jars on the system to suggest a correct classpath for use with
+ jh_classpath/jh_manifest
+ .
+ This package should not be in any build-depends since java-propose-classpath
+ cannot be run automatically.
+
 Package: jcc
 Description-md5: 0e9ecaea415e9c5da985ef855e55dbdb
 Description-en: code generator producing a Python extension from Java classes

@@ -6888,6 +6888,46 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Task: ubuntustudio-generation, ubuntustudio-audio-plugins, ubuntustudio-recording
 
+Package: jarwrapper
+Priority: optional
+Section: universe/libs
+Installed-Size: 60
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Architecture: all
+Source: javatools
+Version: 0.40ubuntu1.1
+Depends: binfmt-support, fastjar
+Filename: pool/universe/j/javatools/jarwrapper_0.40ubuntu1.1_all.deb
+Size: 10298
+MD5sum: ffbeb466b046c705cd5f60c866ba51c7
+SHA1: b35be2d470eb42478dc6fa8ff7fbc39b36344ff4
+SHA256: f1bf287c48ad0b92a92259fa0bcd7064dc5536fbe2302d66ef8be7acf76e8d3a
+Description: Run executable Java .jar files
+Description-md5: 3ec7df94fe3bf54bc2eb2bb6ff245986
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: java-propose-classpath
+Priority: optional
+Section: universe/java
+Installed-Size: 53
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Architecture: all
+Source: javatools
+Version: 0.40ubuntu1.1
+Depends: gcj-jdk, javahelper (= 0.40ubuntu1.1), fastjar
+Filename: pool/universe/j/javatools/java-propose-classpath_0.40ubuntu1.1_all.deb
+Size: 5578
+MD5sum: 7d229a62f00d90218a6bb1915d81bd15
+SHA1: d53253038f0b193bf69744b52becd00664ce1ed0
+SHA256: 715fc95cf65133f66ce21cea971d43ea5fee598251914f9ec00e00e3b0aa1d24
+Description: Helper script to suggest a classpath for jar files
+Description-md5: 309a04a51c19035f07af976a1ca3370d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: jcc
 Priority: extra
 Section: universe/python

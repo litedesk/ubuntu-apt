@@ -11675,6 +11675,28 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: javahelper
+Priority: optional
+Section: devel
+Installed-Size: 248
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Architecture: all
+Source: javatools
+Version: 0.40ubuntu1.1
+Depends: debhelper, devscripts, bsdmainutils, dpkg-dev, dctrl-tools, libarchive-zip-perl (>= 1.30-5~)
+Suggests: cvs, gawk, tofrodos
+Filename: pool/main/j/javatools/javahelper_0.40ubuntu1.1_all.deb
+Size: 83962
+MD5sum: 8522f3db3e3fc3e867ae6744bec72f95
+SHA1: 87761791a8783ce7c9d3751d7a5aeef993f2874d
+SHA256: f76598ebb847313a8bdd4e052d889bfad236b85f6303c80ca9af9295ed693bc2
+Description: Helper scripts for packaging Java programs
+Description-md5: 5b42f8ff863ce95c7113d97a9b4e8bec
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: jockey-common
 Priority: optional
 Section: admin
@@ -41334,22 +41356,22 @@ Supported: 18m
 Package: libegl1-mesa-dev-lts-quantal
 Priority: optional
 Section: libdevel
-Installed-Size: 154
+Installed-Size: 155
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libegl1-mesa-dev
 Provides: libegl1-mesa-dev, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libegl1-mesa-lts-quantal (= 9.0.2-0ubuntu0.1~precise1), libegl1-mesa-drivers-lts-quantal (= 9.0.2-0ubuntu0.1~precise1), libdrm-dev (>= 2.4.19), x11proto-dri2-dev (>= 2.1), x11proto-gl-dev (>= 1.4.11), libx11-dev, libxext-dev, libxxf86vm-dev, libxdamage-dev, libxfixes-dev, libxcb-glx0-dev, libx11-xcb-dev
+Depends: libegl1-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise1), libegl1-mesa-drivers-lts-quantal (= 9.0.3-0ubuntu0.1~precise1), libdrm-dev (>= 2.4.19), x11proto-dri2-dev (>= 2.1), x11proto-gl-dev (>= 1.4.11), libx11-dev, libxext-dev, libxxf86vm-dev, libxdamage-dev, libxfixes-dev, libxcb-glx0-dev, libx11-xcb-dev
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: libegl1-mesa-dev
-Filename: pool/main/m/mesa-lts-quantal/libegl1-mesa-dev-lts-quantal_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 15830
-MD5sum: 00e726b1e01414e4f9634442f1b5cc2c
-SHA1: fc954effec28c32e4091581b7e2818639197d53f
-SHA256: 5712b94419c9c139104e803c4ed9165ffb93bb4bc3d3eeff560e305a198109c8
+Filename: pool/main/m/mesa-lts-quantal/libegl1-mesa-dev-lts-quantal_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 15794
+MD5sum: 062ba5748943434dac322ca22676dfd8
+SHA1: eee34c1abfc16a8868f2ebfa62ca5dee01f17947
+SHA256: 9a657b06e688a9d7f814231bc6582e6a0dfcacb582df5829d0448affaf2dcd0f
 Description: free implementation of the EGL API -- development files
 Homepage: http://mesa3d.sourceforge.net/
 Description-md5: 8e7125460d26d2b46c63ba2792ce25e2
@@ -41409,22 +41431,22 @@ Supported: 18m
 Package: libegl1-mesa-drivers-lts-quantal
 Priority: optional
 Section: libs
-Installed-Size: 3803
+Installed-Size: 3807
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libegl1-mesa-drivers, libegl1-mesa-lts-quantal (<= 8.0.1-0ubuntu2)
 Provides: libegl1-mesa-drivers, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libc6 (>= 2.14), libdrm-nouveau2 (>= 2.4.34), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.17), libegl1-mesa-lts-quantal (= 9.0.2-0ubuntu0.1~precise1), libgbm1-lts-quantal (>= 7.11~1), libgcc1 (>= 1:4.1.1), libgl1-mesa-dri-lts-quantal, libllvm3.1, libopenvg1-mesa-lts-quantal (>= 7.9~) | libopenvg1, libstdc++6 (>= 4.6), libudev0 (>= 147), libwayland-ltsq0, libx11-6 (>= 2:1.4.99.1), libxext6, libxfixes3, libglapi-mesa-lts-quantal (= 9.0.2-0ubuntu0.1~precise1)
+Depends: libc6 (>= 2.14), libdrm-nouveau2 (>= 2.4.34), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.17), libegl1-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise1), libgbm1-lts-quantal (>= 7.11~1), libgcc1 (>= 1:4.1.1), libgl1-mesa-dri-lts-quantal, libllvm3.1, libopenvg1-mesa-lts-quantal (>= 7.9~) | libopenvg1, libstdc++6 (>= 4.6), libudev0 (>= 147), libwayland-ltsq0, libx11-6 (>= 2:1.4.99.1), libxext6, libxfixes3, libglapi-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise1)
 Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
 Conflicts: libegl1-mesa-drivers
-Filename: pool/main/m/mesa-lts-quantal/libegl1-mesa-drivers-lts-quantal_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 1033414
-MD5sum: aba7e41c218f8fb27363a8d69e06cb21
-SHA1: 9a50682a1b226ad87d9bd786508a513190e256f3
-SHA256: 27afa7eb487ed14251fac3c1e6fd4e221f88d1442773cde005b052bc173e71b7
+Filename: pool/main/m/mesa-lts-quantal/libegl1-mesa-drivers-lts-quantal_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 1033578
+MD5sum: 22f5a9f5a14626aa9aca021fcff3d4f7
+SHA1: 9b9bdf311d5eb9341ce763b6a868595162fbe305
+SHA256: a03452dadf6bb5cdfae5e3e9b564b7f35e22610eb74d58cbd8afb396704deba2
 Description: free implementation of the EGL API -- hardware drivers
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -41436,22 +41458,22 @@ Supported: 18m
 Package: libegl1-mesa-drivers-lts-quantal-dbg
 Priority: extra
 Section: debug
-Installed-Size: 25696
+Installed-Size: 25708
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libegl1-mesa-drivers-dbg
 Provides: libegl1-mesa-drivers-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libegl1-mesa-drivers-lts-quantal (= 9.0.2-0ubuntu0.1~precise1)
+Depends: libegl1-mesa-drivers-lts-quantal (= 9.0.3-0ubuntu0.1~precise1)
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: libegl1-mesa-drivers-dbg
-Filename: pool/main/m/mesa-lts-quantal/libegl1-mesa-drivers-lts-quantal-dbg_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 5246306
-MD5sum: 9f0b0115474d42bef969a039c0813960
-SHA1: 9947de81fadcbc0f4de6f20dbba8b077516c54cb
-SHA256: 090e93f9b6ecf1c94f856f7044e7f75f8215eeeb338ab64b749658bee978b1e0
+Filename: pool/main/m/mesa-lts-quantal/libegl1-mesa-drivers-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 5249760
+MD5sum: 22ee6b5094c6ac1b13592bd4bcfe3b48
+SHA1: 957f62f58e53a33563c287ffd33abafa705f2894
+SHA256: 737f21b625472ece59c27fce97945087689a249eef8c544b35054d4e7da7ed0c
 Description: free implementation of the EGL API -- driver debugging symbols
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -41468,18 +41490,18 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libegl1-mesa, libegl1-x11
 Provides: libegl1-mesa, libegl1-x11, xorg-renamed-package, xorg-renamed-package-lts-quantal
 Depends: libc6 (>= 2.14), libdrm2 (>= 2.3.1), libgbm1-lts-quantal (>= 7.11~1), libudev0 (>= 147), libwayland-ltsq0, libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-xfixes0, libxcb1
 Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
 Recommends: libegl1-mesa-drivers-lts-quantal
 Conflicts: libegl1-mesa, libegl1-x11
-Filename: pool/main/m/mesa-lts-quantal/libegl1-mesa-lts-quantal_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 54798
-MD5sum: 5503baf0cc97cb3300c58cf78b84ce38
-SHA1: e217ea183d1f62bb39b8a0a5b40ba3ebddbf131c
-SHA256: d2c45e239094459e824f9edb1c79034eefba15a82c847990d6d0591bdd00bc51
+Filename: pool/main/m/mesa-lts-quantal/libegl1-mesa-lts-quantal_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 54706
+MD5sum: db8cc0a2ac354662e2eb0f4faad26da4
+SHA1: 1336dc1b78a0fc98238e6b35950c84caf3779439
+SHA256: d0a161c3961a0f178e2885209be740a3cefeee9f0dd0d4e71ea4fa092f487e75
 Description: free implementation of the EGL API -- runtime
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -41496,17 +41518,17 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libegl1-mesa-dbg
 Provides: libegl1-mesa-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libegl1-mesa-lts-quantal (= 9.0.2-0ubuntu0.1~precise1)
+Depends: libegl1-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise1)
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: libegl1-mesa-dbg
-Filename: pool/main/m/mesa-lts-quantal/libegl1-mesa-lts-quantal-dbg_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 135854
-MD5sum: eba3e995e4845dfd0efdce055a067e40
-SHA1: cd4e6e2566856c3a83609055f826e964f32a4be9
-SHA256: 2669f380da5c89416366406f04652c82ee9076ad3c0fed49528a190c485e3667
+Filename: pool/main/m/mesa-lts-quantal/libegl1-mesa-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 135808
+MD5sum: a6085fd8c323548dcc295a64122b2a63
+SHA1: 897326110f5e8716831a4a66cc01371fc742a09a
+SHA256: 3967c66da29b7e6d44fdf6c434403f48d614e5b950c04e30f187eae824150d46
 Description: free implementation of the EGL API -- debugging symbols
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -42180,17 +42202,17 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libgbm-dev
 Provides: libgbm-dev, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libgbm1-lts-quantal (= 9.0.2-0ubuntu0.1~precise1), libudev-dev
+Depends: libgbm1-lts-quantal (= 9.0.3-0ubuntu0.1~precise1), libudev-dev
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: libgbm-dev
-Filename: pool/main/m/mesa-lts-quantal/libgbm-dev-lts-quantal_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 7228
-MD5sum: efadf25e13d23fc484be9cab7c243656
-SHA1: d0a4602442a415598fb27394d82963f2730d7a18
-SHA256: b7bd6a7a4dfd1cc1e8963e954b73059f6f9264d5d60ec192235dd6992117f4b1
+Filename: pool/main/m/mesa-lts-quantal/libgbm-dev-lts-quantal_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 7216
+MD5sum: 9d5359ee8d35cc99aeb5af7829b3d2c5
+SHA1: efb53d0ae86818e9aee257b496bc5eb872d6f9d0
+SHA256: 888abfddbca1bcc566471d3b689dad5dc2a65f133f9fb3a184bc04833699d2ab
 Description: generic buffer management API -- development files
 Homepage: http://mesa3d.sourceforge.net/
 Description-md5: 97d3ae24c3bec4dfba8e29c665cda9e5
@@ -42249,22 +42271,22 @@ Supported: 18m
 Package: libgbm1-lts-quantal
 Priority: optional
 Section: libs
-Installed-Size: 3390
+Installed-Size: 3394
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libgbm1
 Provides: libgbm1, xorg-renamed-package, xorg-renamed-package-lts-quantal
 Depends: libc6 (>= 2.14), libdrm-nouveau2 (>= 2.4.34), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.3), libgcc1 (>= 1:4.1.1), libgl1-mesa-dri-lts-quantal, libllvm3.1, libstdc++6 (>= 4.6), libudev0 (>= 147), libxcb-dri2-0, libxcb1
 Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
 Conflicts: libgbm1
-Filename: pool/main/m/mesa-lts-quantal/libgbm1-lts-quantal_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 877380
-MD5sum: 31e71d02eda06bd4e9155a09f0ae25ce
-SHA1: 93c136743bf4e06e8788f652f0dfae4526417a2d
-SHA256: 6102e10186fac873aa7d6ef903752cc068ba450fa93d34392f1bc4d2e342b3c1
+Filename: pool/main/m/mesa-lts-quantal/libgbm1-lts-quantal_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 880820
+MD5sum: 3106721cfe4c101ad9a2c9d0b8f06ae7
+SHA1: 5e148655c40b883dfb28d367a369043322df636e
+SHA256: 58e541868bc9e6948a2a08bdb33c70cea9b4f9b1369c170587d86a85c249e614
 Description: generic buffer management API -- runtime
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -42276,22 +42298,22 @@ Supported: 18m
 Package: libgbm1-lts-quantal-dbg
 Priority: extra
 Section: debug
-Installed-Size: 23031
+Installed-Size: 23044
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libgbm1-dbg
 Provides: libgbm1-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libgbm1-lts-quantal (= 9.0.2-0ubuntu0.1~precise1)
+Depends: libgbm1-lts-quantal (= 9.0.3-0ubuntu0.1~precise1)
 Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
 Conflicts: libgbm1-dbg
-Filename: pool/main/m/mesa-lts-quantal/libgbm1-lts-quantal-dbg_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 4769814
-MD5sum: abf10fb46851eccd688d386fd3136926
-SHA1: 4892cdfe8028b5581f28ff1fd39803e9a16ff900
-SHA256: a9c5cb5d2225911daa59ef601f32d0b5924bcee2591dd4c2419aee05fa74d312
+Filename: pool/main/m/mesa-lts-quantal/libgbm1-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 4769270
+MD5sum: b456f755d0f00ad0afe3848b91f07a14
+SHA1: d93c7d96b52d6f4b539ab357307709590fa71dfb
+SHA256: 43d2781919b528f0734bc031b0c4c1aa5346d2204afbe995312b07094287585a
 Description: generic buffer management API -- debugging symbols
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -42639,17 +42661,17 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libgl-dev, libgl1-mesa-dev, libgl1-mesa-dri-dev
 Provides: libgl-dev, libgl1-mesa-dev, libgl1-mesa-dri-dev, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: mesa-common-dev-lts-quantal (= 9.0.2-0ubuntu0.1~precise1), libgl1-mesa-glx-lts-quantal (= 9.0.2-0ubuntu0.1~precise1), libdrm-dev (>= 2.4.24), libx11-dev, libx11-xcb-dev, libxcb-glx0-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxxf86vm-dev, x11proto-dri2-dev (>= 2.6), x11proto-gl-dev (>= 1.4.14)
+Depends: mesa-common-dev-lts-quantal (= 9.0.3-0ubuntu0.1~precise1), libgl1-mesa-glx-lts-quantal (= 9.0.3-0ubuntu0.1~precise1), libdrm-dev (>= 2.4.24), libx11-dev, libx11-xcb-dev, libxcb-glx0-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxxf86vm-dev, x11proto-dri2-dev (>= 2.6), x11proto-gl-dev (>= 1.4.14)
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: libgl-dev, libgl1-mesa-dev, libgl1-mesa-dri-dev
-Filename: pool/main/m/mesa-lts-quantal/libgl1-mesa-dev-lts-quantal_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 5222
-MD5sum: 16a6bc957d04184f9e8ccbbf3bc39772
-SHA1: b6ae32daea4af54c7fe22e78a3f2424eef2a3564
-SHA256: 5c9fdb5f5ca38d897e51658827d016242ab9589e6ca5a7e784241c964f060f62
+Filename: pool/main/m/mesa-lts-quantal/libgl1-mesa-dev-lts-quantal_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 5208
+MD5sum: f0eebd00588ba35c7c37c4de5ea6c94a
+SHA1: 75788fb024fe2c33d5b57bd8b3b3af8f92d3eec7
+SHA256: b72d3c1fee43c489dc185ae654d801301f25b40a92a6b2a69469184cbe6877a1
 Description: free implementation of the OpenGL API -- GLX development files
 Homepage: http://mesa3d.sourceforge.net/
 Description-md5: edeb377b6e64f69c00b2215e4025a28a
@@ -42713,12 +42735,12 @@ Supported: 18m
 Package: libgl1-mesa-dri-lts-quantal
 Priority: optional
 Section: libs
-Installed-Size: 11382
+Installed-Size: 11383
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libgl1-mesa-dri, libgl1-mesa-dri-lts-quantal (<< 7.11.1), xlibmesa-dri (<< 1:7.0.0)
 Provides: libgl1-mesa-dri, xorg-renamed-package, xorg-renamed-package-lts-quantal
 Depends: libc6 (>= 2.14), libdrm-intel1 (>= 2.4.38), libdrm-nouveau2 (>= 2.4.34), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.3), libexpat1 (>= 1.95.8), libgcc1 (>= 1:4.1.1), libglapi-mesa-lts-quantal, libllvm3.1, libstdc++6 (>= 4.6)
@@ -42726,11 +42748,11 @@ Pre-Depends: dpkg (>= 1.15.6~), multiarch-support
 Suggests: libglide3
 Conflicts: libgl1-mesa-dri, xlibmesa-dri (<< 1:7.0.0)
 Breaks: libgl1-mesa-dri-lts-quantal (<< 7.11.1), libgl1-mesa-glx-lts-quantal (<< 7.10.2-4), libgl1-mesa-glx-no-multiarch, xserver-xorg-core-lts-quantal (<< 2:1.10.2-2), xserver-xorg-core-no-multiarch
-Filename: pool/main/m/mesa-lts-quantal/libgl1-mesa-dri-lts-quantal_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 2876036
-MD5sum: 79e184fdfdd9290f41a84e51abfb58ba
-SHA1: df869037909b2989fe33b6553b77de9ca5bb7f09
-SHA256: 8bb19dceac982b523a2b9cfd065d567e81fa06d6eb0af27557a9e35222c960cf
+Filename: pool/main/m/mesa-lts-quantal/libgl1-mesa-dri-lts-quantal_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 2872576
+MD5sum: d96e906a671be05d319f620d077272d4
+SHA1: 6fd8251f3229a2e2dff45d8dd2207e32571b3dbc
+SHA256: 41d1af6eb94caf24dca704066baa7a7205c797e2d95cd37d4c08478949878064
 Description: free implementation of the OpenGL API -- DRI modules
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -42742,22 +42764,22 @@ Supported: 18m
 Package: libgl1-mesa-dri-lts-quantal-dbg
 Priority: extra
 Section: debug
-Installed-Size: 66358
+Installed-Size: 66376
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libgl1-mesa-dri-dbg, libgl1-mesa-dri-experimental-dbg (<< 7.11.1)
 Provides: libgl1-mesa-dri-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libgl1-mesa-dri-lts-quantal (= 9.0.2-0ubuntu0.1~precise1)
+Depends: libgl1-mesa-dri-lts-quantal (= 9.0.3-0ubuntu0.1~precise1)
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: libgl1-mesa-dri-dbg
-Filename: pool/main/m/mesa-lts-quantal/libgl1-mesa-dri-lts-quantal-dbg_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 11457816
-MD5sum: c577cb3bc1bc608f059a728aecfe6abe
-SHA1: d73c20078196f7d4aaa5d16e8ae0da908d049e24
-SHA256: 74ef71ad5721153b3d8b6d1f68b6b953d45b337c966558c704d4e3ea3fc7ac29
+Filename: pool/main/m/mesa-lts-quantal/libgl1-mesa-dri-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 11488614
+MD5sum: f20ce27ec102ae5b1b079ad12a241149
+SHA1: 151b5505c490217d5d75b6577dc9b31043726522
+SHA256: 5ff7489f9883494d890d0d719c6beb302db9e9275290a1eaebf2cfb6d1ca03da
 Description: Debugging symbols for the Mesa DRI modules
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -42828,19 +42850,19 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libgl1, libgl1-mesa-dri-lts-quantal (<< 6.4.0), libgl1-mesa-glx
 Provides: libgl1, libgl1-mesa-glx, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libc6 (>= 2.14), libdrm2 (>= 2.3.1), libglapi-mesa-lts-quantal (= 9.0.2-0ubuntu0.1~precise1), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb-glx0 (>= 1.8), libxcb1, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxxf86vm1
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.3.1), libglapi-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise1), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb-glx0 (>= 1.8), libxcb1, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxxf86vm1
 Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
 Recommends: libgl1-mesa-dri-lts-quantal (>= 7.2), libtxc-dxtn-s2tc0
 Conflicts: libgl1, libgl1-mesa-dri-lts-quantal (<< 6.4.0), libgl1-mesa-glx
 Breaks: fglrx-glx (<< 1:11-6-1), libgl1-nvidia-alternatives (<= 275.09.07-1)
-Filename: pool/main/m/mesa-lts-quantal/libgl1-mesa-glx-lts-quantal_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 109064
-MD5sum: f669bcbbe1ccf7c5aaf38ec479163619
-SHA1: 910a83f8969498a9601f2396228c6c28cfc20c41
-SHA256: 58ab3fa53e067527a205c0159d0ccddef595e8af22670ebcb9e0a5fcc6b3dd86
+Filename: pool/main/m/mesa-lts-quantal/libgl1-mesa-glx-lts-quantal_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 109436
+MD5sum: 4e772384ead4d48b0c0c8c70d4fb5ac8
+SHA1: fe8a505c7f0a7307a865f4293df48873a936fc23
+SHA256: 2cc3137eb644bacf4b7181a61a683db9043f2560196729f6d56965e7a629adbc
 Description: free implementation of the OpenGL API -- GLX runtime
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -42852,22 +42874,22 @@ Supported: 18m
 Package: libgl1-mesa-glx-lts-quantal-dbg
 Priority: extra
 Section: debug
-Installed-Size: 2159
+Installed-Size: 2160
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libgl1-mesa-glx-dbg
 Provides: libgl1-mesa-glx-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libgl1-mesa-glx-lts-quantal (= 9.0.2-0ubuntu0.1~precise1)
+Depends: libgl1-mesa-glx-lts-quantal (= 9.0.3-0ubuntu0.1~precise1)
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: libgl1-mesa-glx-dbg
-Filename: pool/main/m/mesa-lts-quantal/libgl1-mesa-glx-lts-quantal-dbg_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 303196
-MD5sum: 8d908e71157fc5c501c9b1526cf3d0da
-SHA1: 68b01665563e1a1b3e7e84025be17f7bb7ca074b
-SHA256: 3634c82451b5cddf689d2a5023fc5331a10208a04a90ab9ea7262670b174e1d8
+Filename: pool/main/m/mesa-lts-quantal/libgl1-mesa-glx-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 303096
+MD5sum: 8a163197e36f9c3b173582a4136090e2
+SHA1: 1685b8e161f041ba07aea99ffde4afb5bc712f6e
+SHA256: 3d47500b15680ee4d6a2c12a09a25ec6c9550ea658b85d28fa685566d9b0395b
 Description: Debugging symbols for the Mesa GLX runtime
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -43148,17 +43170,17 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libglapi-mesa
 Provides: libglapi-mesa, xorg-renamed-package, xorg-renamed-package-lts-quantal
 Depends: libc6 (>= 2.4)
 Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
 Conflicts: libglapi-mesa
-Filename: pool/main/m/mesa-lts-quantal/libglapi-mesa-lts-quantal_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 21114
-MD5sum: 74d896a3ef95b1e211d17782c9fda760
-SHA1: bfaaa4871c238cb34dd2ffa9c24258c886dfc8b7
-SHA256: 9c7d5e3d6444b3dcc46245a1363941c3e35b44866c0dfebb8244bb0943fcca4a
+Filename: pool/main/m/mesa-lts-quantal/libglapi-mesa-lts-quantal_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 21752
+MD5sum: 82b7a178376edc398a2c63e2ccfee348
+SHA1: 07deb7ed13d821f685b539160626d109924e100f
+SHA256: efb79371cd624a19c4796d61a0f6e70d6fb47c16ef4926e27fe98f50039e8a54
 Description: free implementation of the GL API -- shared library
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -43175,17 +43197,17 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libglapi-mesa-dbg
 Provides: libglapi-mesa-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libglapi-mesa-lts-quantal (= 9.0.2-0ubuntu0.1~precise1)
+Depends: libglapi-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise1)
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: libglapi-mesa-dbg
-Filename: pool/main/m/mesa-lts-quantal/libglapi-mesa-lts-quantal-dbg_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 18704
-MD5sum: 6150a00ca378c4f19f5428e5fee71c2a
-SHA1: 50ffd2d5e321c230605f190e59661223aa3c5540
-SHA256: 59f2a41c2d13aae5ee317dab33237f58861fa2df1de58a3b859d8ffa49721772
+Filename: pool/main/m/mesa-lts-quantal/libglapi-mesa-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 18790
+MD5sum: 7ce1b5c2cdb9a00a86e2e219c11827cf
+SHA1: 556a5475afd15bb12b8f70c118503bf5ca02086f
+SHA256: 195701f7c3da5714f0323f6bc7da46fb31fbcf954bc719abec16a15618f3071c
 Description: free implementation of the GL API -- debugging symbols
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -43275,17 +43297,17 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libgles1-mesa-dev
 Provides: libgles1-mesa-dev, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libgles1-mesa-lts-quantal (= 9.0.2-0ubuntu0.1~precise1), libegl1-mesa-dev-lts-quantal
+Depends: libgles1-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise1), libegl1-mesa-dev-lts-quantal
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: libgles1-mesa-dev
-Filename: pool/main/m/mesa-lts-quantal/libgles1-mesa-dev-lts-quantal_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 16476
-MD5sum: 24ddc44a77066faf750bdd89713d383f
-SHA1: 71104a841e3223163d6b8a9720378c16e7a81cc8
-SHA256: 6fdda0e9a46318c28d3bb52cf1bfd0c88fd6389d1655c67d0acb32ce5018c788
+Filename: pool/main/m/mesa-lts-quantal/libgles1-mesa-dev-lts-quantal_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 16430
+MD5sum: f3ebb8bf81d7d0b311dd5be1be69047e
+SHA1: 3f0529349e3fc7e215035ec059d20c521306c159
+SHA256: ee793d524470f3f9260cdea356bfb9f0aeffc4aa2bcb7e8fa285d809ddafe20f
 Description: free implementation of the OpenGL|ES 1.x API -- development files
 Homepage: http://mesa3d.sourceforge.net/
 Description-md5: 3fc8f0ee3bdb7f86c55dc67a5bbbf86f
@@ -43301,17 +43323,17 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libgles1, libgles1-mesa
 Provides: libgles1, libgles1-mesa, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libglapi-mesa-lts-quantal (= 9.0.2-0ubuntu0.1~precise1), libc6 (>= 2.2.5)
+Depends: libglapi-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise1), libc6 (>= 2.2.5)
 Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
 Conflicts: libgles1, libgles1-mesa
-Filename: pool/main/m/mesa-lts-quantal/libgles1-mesa-lts-quantal_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 11398
-MD5sum: d32c88744bff5d07b51af8c6edf1403e
-SHA1: 198e54361a17003ab7e7a222e111fc827286c835
-SHA256: d72b715cc7b677e69a24e3ac11fd2a4fa837fae2e506a0f665a876974245c820
+Filename: pool/main/m/mesa-lts-quantal/libgles1-mesa-lts-quantal_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 11434
+MD5sum: 45445918e18fb157d9a3d6ccd4ba9544
+SHA1: 6fa48e2349e0588418fe4555c9b1e01591cc371d
+SHA256: 19e2640072cac293d4526de444928f7392264ad912f09350319757717ecd83cf
 Description: free implementation of the OpenGL|ES 1.x API -- runtime
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -43328,17 +43350,17 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libgles1-mesa-dbg
 Provides: libgles1-mesa-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libgles1-mesa-lts-quantal (= 9.0.2-0ubuntu0.1~precise1)
+Depends: libgles1-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise1)
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: libgles1-mesa-dbg
-Filename: pool/main/m/mesa-lts-quantal/libgles1-mesa-lts-quantal-dbg_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 8776
-MD5sum: 9bb671ec9a6bdd2a0aae3df29de6de6a
-SHA1: 0a59352e3bc9970f80a9e7cf107d475e42b4b0be
-SHA256: 869ba0640c04480afd9eab1d1fd8a498f3704c1eb2e859473802781255236cc4
+Filename: pool/main/m/mesa-lts-quantal/libgles1-mesa-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 8772
+MD5sum: ad5bd85f42ad8546598dcf40524a6a70
+SHA1: 3b3ca4d557a46e06a42f3308ce09b86b78644298
+SHA256: 95e7fda2287f831b7101b13f07564529fda9ff69ca0245e63f22e97266e031ff
 Description: free implementation of the OpenGL|ES 1.x API -- debugging symbols
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -43428,17 +43450,17 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libgles2-mesa-dev
 Provides: libgles2-mesa-dev, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libgles2-mesa-lts-quantal (= 9.0.2-0ubuntu0.1~precise1), libegl1-mesa-dev-lts-quantal
+Depends: libgles2-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise1), libegl1-mesa-dev-lts-quantal
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: libgles2-mesa-dev
-Filename: pool/main/m/mesa-lts-quantal/libgles2-mesa-dev-lts-quantal_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 17678
-MD5sum: 62f2fe163711c180810bc31cfffd2f72
-SHA1: 78834760c9bc19c605ca3ee523dddd0931ac4708
-SHA256: 1d18c61fe3981df23ad2bc5cccd776be79091adb4ec40c1476d8b57df5caeef8
+Filename: pool/main/m/mesa-lts-quantal/libgles2-mesa-dev-lts-quantal_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 17692
+MD5sum: 246f33cd71f2142c41b68d38aad25e1a
+SHA1: 577b5083b3f6516e066c0dd138ad339e5170a9c8
+SHA256: cfed9225c7e9ba063e0c7b31ef43e56d4a0bdb5163ac270fe933063fbdd48886
 Description: free implementation of the OpenGL|ES 2.x API -- development files
 Homepage: http://mesa3d.sourceforge.net/
 Description-md5: 7598b085943a2f03c7a2a79086dffcee
@@ -43454,17 +43476,17 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libgles2, libgles2-mesa
 Provides: libgles2, libgles2-mesa, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libglapi-mesa-lts-quantal (= 9.0.2-0ubuntu0.1~precise1), libc6 (>= 2.2.5)
+Depends: libglapi-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise1), libc6 (>= 2.2.5)
 Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
 Conflicts: libgles2, libgles2-mesa
-Filename: pool/main/m/mesa-lts-quantal/libgles2-mesa-lts-quantal_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 10332
-MD5sum: 5ddc575455c8080e0ff8af7f4107118a
-SHA1: 3280206b2da8c6c8c8c9a391e9d78cc6fb0b5066
-SHA256: b6f026f82c035339bbfcdafeda159317734c1cd5d0b015eb813bd5ec5b65e4ae
+Filename: pool/main/m/mesa-lts-quantal/libgles2-mesa-lts-quantal_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 10380
+MD5sum: 8913fe1e4079dc79650398d7c808a239
+SHA1: dc2b74e8775446ff667c307ae02aa562ff229c6b
+SHA256: 135aa5531f7cb84fc1798f28f6caab7ee1e5cf204a240e4aca60bd555d1ec842
 Description: free implementation of the OpenGL|ES 2.x API -- runtime
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -43481,17 +43503,17 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libgles2-mesa-dbg
 Provides: libgles2-mesa-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libgles2-mesa-lts-quantal (= 9.0.2-0ubuntu0.1~precise1)
+Depends: libgles2-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise1)
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: libgles2-mesa-dbg
-Filename: pool/main/m/mesa-lts-quantal/libgles2-mesa-lts-quantal-dbg_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 8372
-MD5sum: b4eb67d5d688fe7b9880f198622d0939
-SHA1: 3f1a04518d9f683475b8edea7f7e2942f877fb29
-SHA256: fe992508bcbd037240e9e2f15f44c87ec0bc5862adc4597b8d71bb3b273e3c8a
+Filename: pool/main/m/mesa-lts-quantal/libgles2-mesa-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 8386
+MD5sum: 558226957d5d103459f21c82d20b0098
+SHA1: 3d8613b037c4cbb548f9f1addaade0d597fff3fe
+SHA256: 3f884911ab038d651ab2eecdfa4359ed636eb2f4e764a1a197ea390d18a6c047
 Description: free implementation of the OpenGL|ES 2.x API -- debugging symbols
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -54049,14 +54071,14 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: network-manager-applet
-Version: 0.9.4.1-0ubuntu2.1
+Version: 0.9.4.1-0ubuntu2.2
 Replaces: network-manager-gnome (<< 0.9.1.90-0ubuntu2)
 Breaks: network-manager-gnome (<< 0.9.1.90-0ubuntu2)
-Filename: pool/main/n/network-manager-applet/libnm-gtk-common_0.9.4.1-0ubuntu2.1_all.deb
-Size: 6292
-MD5sum: 18142638765178de48fd092730ef62cf
-SHA1: e54fec5d0d5b48647c340dfda3472e3241d32bf8
-SHA256: 0e53f4ff7a149985141f528271dd4b6ddd641e4e5f4553f196c44e8d3eec0d7a
+Filename: pool/main/n/network-manager-applet/libnm-gtk-common_0.9.4.1-0ubuntu2.2_all.deb
+Size: 6204
+MD5sum: fe67033ce28e4218e0e2a69d3ddd6e51
+SHA1: cb8cc37f49c4fd000a1a88ea5e4b7414d1f1f888
+SHA256: 1400ccd7a22c7c1e10eb83cd93d11b5e1cffc640160d5e1cedb96515a2e13ed4
 Description: network management framework (common files for wifi and mobile)
 Homepage: http://www.gnome.org/projects/NetworkManager/
 Description-md5: fbef41bb7c8ddc86125e95c0221a6668
@@ -54073,13 +54095,13 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: network-manager-applet
-Version: 0.9.4.1-0ubuntu2.1
-Depends: libnm-gtk0 (= 0.9.4.1-0ubuntu2.1), network-manager (>= 0.9.4), policykit-1-gnome, dbus-x11
-Filename: pool/main/n/network-manager-applet/libnm-gtk-dev_0.9.4.1-0ubuntu2.1_amd64.deb
+Version: 0.9.4.1-0ubuntu2.2
+Depends: libnm-gtk0 (= 0.9.4.1-0ubuntu2.2), network-manager (>= 0.9.4), policykit-1-gnome, dbus-x11
+Filename: pool/main/n/network-manager-applet/libnm-gtk-dev_0.9.4.1-0ubuntu2.2_amd64.deb
 Size: 3738
-MD5sum: 447697f35430175afb98b17431b98bbc
-SHA1: 356df48cb71bd27dc8e22b8fa732b21b61582b4a
-SHA256: ee917ad51d91f59aa30e5445eeeb456f3a4d601f073b344d154ca18c7270bd8d
+MD5sum: 92e818be80c73798af7757ca5f81dfe6
+SHA1: 363a98101563d36d47571f196421be5427b40979
+SHA256: 51488eb6bee70bb08f11f9647ebcf3bae25c7a4ad05e1c6bd3171807be6ef8a9
 Description: network management framework (dialogs development libraries)
 Homepage: http://www.gnome.org/projects/NetworkManager/
 Description-md5: 88955533a0cb56b5f9da136d252557f6
@@ -54095,17 +54117,17 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: network-manager-applet
-Version: 0.9.4.1-0ubuntu2.1
+Version: 0.9.4.1-0ubuntu2.2
 Replaces: network-manager-gnome (<< 0.9.1.90-0ubuntu2)
-Depends: libnm-gtk-common (>= 0.9.4.1-0ubuntu2.1), gconf-service, libc6 (>= 2.4), libgconf-2-4 (>= 2.31.1), libglib2.0-0 (>= 2.16.0), libgnome-keyring0 (>= 3.2.2-2~), libgtk-3-0 (>= 3.0.0), libnm-glib4 (>= 0.8.998), libnm-util2 (>= 0.9.2.0+git201202060518.95b0b72), policykit-1-gnome, dbus-x11
+Depends: libnm-gtk-common (>= 0.9.4.1-0ubuntu2.2), gconf-service, libc6 (>= 2.4), libgconf-2-4 (>= 2.31.1), libglib2.0-0 (>= 2.16.0), libgnome-keyring0 (>= 3.2.2-2~), libgtk-3-0 (>= 3.0.0), libnm-glib4 (>= 0.8.998), libnm-util2 (>= 0.9.2.0+git201202060518.95b0b72), policykit-1-gnome, dbus-x11
 Recommends: network-manager (>= 0.9.4), mobile-broadband-provider-info
 Suggests: network-manager-openvpn-gnome, network-manager-vpnc-gnome, network-manager-pptp-gnome, gnome-bluetooth
 Breaks: network-manager-gnome (<< 0.9.1.90-0ubuntu2)
-Filename: pool/main/n/network-manager-applet/libnm-gtk0_0.9.4.1-0ubuntu2.1_amd64.deb
-Size: 67860
-MD5sum: 48e107bca3f53ab5f139ff9553f4a25c
-SHA1: f624c45d47f227ad4fd87869d6519ba6616eb94d
-SHA256: becfa337a68cce95f462cc09ced07e9191a756ec7a7f875ed99f2e820cb001b4
+Filename: pool/main/n/network-manager-applet/libnm-gtk0_0.9.4.1-0ubuntu2.2_amd64.deb
+Size: 67766
+MD5sum: c7e80efe90bfbd678150b2c28cd11ef9
+SHA1: 28748f9860ee850d881ad7e7fd2f391433051b0a
+SHA256: b7ee6507d8b0aadde876b6aead02c776020f340c493fe811de8f6971b703da2a
 Description: network management framework (GNOME dialogs for wifi and mobile)
 Homepage: http://www.gnome.org/projects/NetworkManager/
 Description-md5: f06791abc90d8c193e836eeb6f9baaf8
@@ -54549,17 +54571,17 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libopenvg1-mesa-dev
 Provides: libopenvg1-mesa-dev, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libopenvg1-mesa-lts-quantal (= 9.0.2-0ubuntu0.1~precise1), libegl1-mesa-dev-lts-quantal
+Depends: libopenvg1-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise1), libegl1-mesa-dev-lts-quantal
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: libopenvg1-mesa-dev
-Filename: pool/main/m/mesa-lts-quantal/libopenvg1-mesa-dev-lts-quantal_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 12036
-MD5sum: 3468097343b0d8582ee77830d642442e
-SHA1: 094e5c880b76c956f4dbd5610166639e60ed798d
-SHA256: 4397be4d9fa1a714ebe68a3a77d912b028fcb23a3c3c20a81046b0c3c82d08b6
+Filename: pool/main/m/mesa-lts-quantal/libopenvg1-mesa-dev-lts-quantal_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 12042
+MD5sum: 0c9345d5e53b6fcc7c1c938d9728cb80
+SHA1: 12284953b675b605f0a82bfce3809c02024997f5
+SHA256: 6d58fcbf6022a83caba11d585ea06585c88eeca5bbe89ac4ced611cd04a34df2
 Description: free implementation of the OpenVG API -- development files
 Homepage: http://mesa3d.sourceforge.net/
 Description-md5: 83d64f6fb398c328ebe1bcc729f426b3
@@ -54575,17 +54597,17 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libopenvg1, libopenvg1-mesa
 Provides: libopenvg1, libopenvg1-mesa, xorg-renamed-package, xorg-renamed-package-lts-quantal
 Depends: libc6 (>= 2.4)
 Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
 Conflicts: libopenvg1, libopenvg1-mesa
-Filename: pool/main/m/mesa-lts-quantal/libopenvg1-mesa-lts-quantal_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 13900
-MD5sum: 219cf94d9c9ec33341964efed196afbe
-SHA1: e103ab0d5d517fe531f0c776b3938b880de9260f
-SHA256: 91d2af8ed042d8a86b7e49d5d7a031584dedd89ca4450e04e435bab171bdc8a1
+Filename: pool/main/m/mesa-lts-quantal/libopenvg1-mesa-lts-quantal_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 13978
+MD5sum: 2b8e45b90103f1a4e9ce581f666d7c6c
+SHA1: a04eabc9d94572fe1644d56525b5bc72bc6397e9
+SHA256: 0dcd53c43b037dc11332cc7b34852b47a0dea8aba547a750b12fedc8080c2bd0
 Description: free implementation of the OpenVG API -- runtime
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -54602,17 +54624,17 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libopenvg1-mesa-dbg
 Provides: libopenvg1-mesa-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libopenvg1-mesa-lts-quantal (= 9.0.2-0ubuntu0.1~precise1)
+Depends: libopenvg1-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise1)
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: libopenvg1-mesa-dbg
-Filename: pool/main/m/mesa-lts-quantal/libopenvg1-mesa-lts-quantal-dbg_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 13956
-MD5sum: 1d4830b0bf81d31d2049d38d84842dc1
-SHA1: 7d784565a36208a04325dc18b84ebd20c5290eaa
-SHA256: 246cf60607c2b4ec599254d80cd7c29600f375122ef8e604fe2ec8695edb0391
+Filename: pool/main/m/mesa-lts-quantal/libopenvg1-mesa-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 13946
+MD5sum: 316cba7d1a99709e6f7178edf2bcf2b0
+SHA1: 393a63bf445698c73e37e7f537d36fc88a0eea45
+SHA256: 3f8d14eb7e0de1d0ab8481b0d4a7fdbac7f3a7ac54c928a5322e151878764863
 Description: free implementation of the OpenVG API -- debugging symbols
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -64178,17 +64200,17 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libxatracker-dev
 Provides: libxatracker-dev, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libxatracker1-lts-quantal (= 9.0.2-0ubuntu0.1~precise1)
+Depends: libxatracker1-lts-quantal (= 9.0.3-0ubuntu0.1~precise1)
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: libxatracker-dev
-Filename: pool/main/m/mesa-lts-quantal/libxatracker-dev-lts-quantal_9.0.2-0ubuntu0.1~precise1_amd64.deb
+Filename: pool/main/m/mesa-lts-quantal/libxatracker-dev-lts-quantal_9.0.3-0ubuntu0.1~precise1_amd64.deb
 Size: 7636
-MD5sum: d1b0d00c05d5ae2a32dadf13d3665e97
-SHA1: 2579ff66a3b5f704ba6cfd5628c5cb30d2d6cc2c
-SHA256: f7e31f3c17151caba5a824db17a2ac78b6c27954a559ae713112a6d2571704c6
+MD5sum: d85a6e0891ee9d217a79a11f4281bf8b
+SHA1: ba38375a89362076a7d68c9b64c39bf1dbc9e88a
+SHA256: 5cc60adabd9903af7e02bfb0b35504472195d30a539729a793b5f0c2d12d7150
 Description: X acceleration library -- development files
 Homepage: http://mesa3d.sourceforge.net/
 Description-md5: acb2dd21dbe796c5f50a1f153cef93e2
@@ -64253,17 +64275,17 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libxatracker1
 Provides: libxatracker1, xorg-renamed-package, xorg-renamed-package-lts-quantal
 Depends: libc6 (>= 2.14), libgl1-mesa-dri-lts-quantal
 Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
 Conflicts: libxatracker1
-Filename: pool/main/m/mesa-lts-quantal/libxatracker1-lts-quantal_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 106936
-MD5sum: 5e5b37a1ea51e84cf5f641137b6b0883
-SHA1: 886bc7ef533ea436f27d48d170d0dcaa7a58c132
-SHA256: 839539dbea724321306984b8804f2ff98a496a5bfffde3d461fddede48521148
+Filename: pool/main/m/mesa-lts-quantal/libxatracker1-lts-quantal_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 106980
+MD5sum: ffc47888578bd63093549fde040a210d
+SHA1: 53d50e689ca2246b7a025131b2805d6c0183d0cf
+SHA256: 1ebb100f277a1d5cc7b243fad18dce2c899d4a1105df9af3fc570ca8583f2886
 Description: X acceleration library -- runtime
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -64275,22 +64297,22 @@ Supported: 18m
 Package: libxatracker1-lts-quantal-dbg
 Priority: extra
 Section: debug
-Installed-Size: 1899
+Installed-Size: 1901
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libxatracker1-dbg
 Provides: libxatracker1-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
-Depends: libxatracker1-lts-quantal (= 9.0.2-0ubuntu0.1~precise1)
+Depends: libxatracker1-lts-quantal (= 9.0.3-0ubuntu0.1~precise1)
 Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
 Conflicts: libxatracker1-dbg
-Filename: pool/main/m/mesa-lts-quantal/libxatracker1-lts-quantal-dbg_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 352426
-MD5sum: 047ebdfd53efef2d7e1567a9158b2781
-SHA1: 118638e08af00a5fccf0c1ce684ceea1d13ca2f4
-SHA256: 3e1427f5727130b0dffdaaed5a684e62bfff70df69e53e5ff66d41927f60a383
+Filename: pool/main/m/mesa-lts-quantal/libxatracker1-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 353870
+MD5sum: 2b1f2b726b9cbf5a748a0cb8c6aed6e8
+SHA1: 1da02b2225d950f76965c4dd503ca842c7912dc3
+SHA256: baaa06956e316a386b1be8afd3cdac47d7784d369208f203ce16715dc71b9ccc
 Description: X acceleration library -- debugging symbols
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -75292,22 +75314,22 @@ Task: kubuntu-full, kubuntu-active-full
 Package: mesa-common-dev-lts-quantal
 Priority: optional
 Section: libdevel
-Installed-Size: 1647
+Installed-Size: 1657
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: mesa-lts-quantal
-Version: 9.0.2-0ubuntu0.1~precise1
+Version: 9.0.3-0ubuntu0.1~precise1
 Replaces: libgl1-mesa-dev-lts-quantal (<< 7.5~rc4-2), libgl1-mesa-swx11-dev (<< 6.5.2), mesa-common-dev, xlibmesa-gl-dev (<< 1:7), xlibosmesa-dev
 Provides: mesa-common-dev, xorg-renamed-package, xorg-renamed-package-lts-quantal
 Depends: libx11-dev, libdrm-dev
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: mesa-common-dev
-Filename: pool/main/m/mesa-lts-quantal/mesa-common-dev-lts-quantal_9.0.2-0ubuntu0.1~precise1_amd64.deb
-Size: 263382
-MD5sum: d79a61381806e9f6ecc54b902266eb7d
-SHA1: 78408464b4a9275abfd086a91ba0b0fc03615969
-SHA256: 12b81558129cfa364afe275b71a48fcba2fe761144f8a33d62b21edf50e023db
+Filename: pool/main/m/mesa-lts-quantal/mesa-common-dev-lts-quantal_9.0.3-0ubuntu0.1~precise1_amd64.deb
+Size: 265578
+MD5sum: 5519d4a998d659d5464ea9abde5e29f8
+SHA1: ec74b5ca41503edf7786d1b1e12d3f640e0fa9bc
+SHA256: 94b7c75ecaf4f0f10f11b0287c89ab1c3d13b978e71d37d0919a58ffa4d83ddd
 Description: Developer documentation for Mesa
 Homepage: http://mesa3d.sourceforge.net/
 Description-md5: 0d9d46ba6861a0a8c404cf51db1e980d
@@ -76142,20 +76164,20 @@ Supported: 18m
 Package: network-manager-gnome
 Priority: optional
 Section: net
-Installed-Size: 1629
+Installed-Size: 1630
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: network-manager-applet
-Version: 0.9.4.1-0ubuntu2.1
+Version: 0.9.4.1-0ubuntu2.2
 Depends: gconf-service, libappindicator3-1 (>= 0.4.90), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.88), libgconf-2-4 (>= 2.31.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgnome-bluetooth8 (>= 2.91.2), libgnome-keyring0 (>= 3.2.2-2~), libgtk-3-0 (>= 3.0.0), libnm-glib-vpn1 (>= 0.7.999), libnm-glib4 (>= 0.9.4.0~git201203162258.69247a0), libnm-gtk0, libnm-util2 (>= 0.9.2.0+git201202060518.95b0b72), libnotify4 (>= 0.7.0), gconf2 (>= 2.28.1-2), network-manager (>= 0.9.4), policykit-1-gnome, gnome-icon-theme, dbus-x11
 Recommends: notification-daemon, mobile-broadband-provider-info
 Suggests: network-manager-openvpn-gnome, network-manager-vpnc-gnome, network-manager-pptp-gnome, gnome-bluetooth
-Filename: pool/main/n/network-manager-applet/network-manager-gnome_0.9.4.1-0ubuntu2.1_amd64.deb
-Size: 403304
-MD5sum: 5a4946182312ebae32c5c480acb779f5
-SHA1: 37321974902c6337299957913d3bb3819e1dad2c
-SHA256: 6855bca4915c8d7fc3f680896b30def2464bdad09129fbc73bc74b54c893fa6d
+Filename: pool/main/n/network-manager-applet/network-manager-gnome_0.9.4.1-0ubuntu2.2_amd64.deb
+Size: 402348
+MD5sum: 1c32d4fd0167196a1dfdedca2115198e
+SHA1: 7c082e059a8cafcbaa6f833d2431df3d8228ec36
+SHA256: 6bd14baae0d0e4104ca3aa1a383e2badf57cac3fe29fd21981e576fbc746be47
 Description: network management framework (GNOME frontend)
 Homepage: http://www.gnome.org/projects/NetworkManager/
 Description-md5: bdee3234d21720f04895a1051744f5d1
@@ -76172,13 +76194,13 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: network-manager-applet
-Version: 0.9.4.1-0ubuntu2.1
-Depends: network-manager-gnome (= 0.9.4.1-0ubuntu2.1) | libnm-gtk0 (= 0.9.4.1-0ubuntu2.1)
-Filename: pool/main/n/network-manager-applet/network-manager-gnome-dbg_0.9.4.1-0ubuntu2.1_amd64.deb
-Size: 766088
-MD5sum: 3f61b810398798904833640ed7570fdc
-SHA1: 1b1a498f3545b90b34109f2f350507de1012fd5f
-SHA256: 71b7954fa10e5f1b507d102126bc6949374bcf0c3e19dc0d45a0d834a98fadc3
+Version: 0.9.4.1-0ubuntu2.2
+Depends: network-manager-gnome (= 0.9.4.1-0ubuntu2.2) | libnm-gtk0 (= 0.9.4.1-0ubuntu2.2)
+Filename: pool/main/n/network-manager-applet/network-manager-gnome-dbg_0.9.4.1-0ubuntu2.2_amd64.deb
+Size: 766438
+MD5sum: 9bac404ba21d71fb888116b7187cabc0
+SHA1: fe4ed3150b2f06b668d230e506ae5a5e2850f0a6
+SHA256: 96f5a9f7a9a46202c4f76e0e6061e9a0f3a19b3dec839b5d54ac0e25f09414ae
 Description: network management framework (debugging symbols)
 Homepage: http://www.gnome.org/projects/NetworkManager/
 Description-md5: fab22ebf7107cdfdeb29ff226f6cf920
@@ -84166,13 +84188,13 @@ Installed-Size: 548
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Alessio Treglia <alessio@debian.org>
 Architecture: amd64
-Version: 3.4.1-0ubuntu1.1
+Version: 3.4.3-0ubuntu1
 Depends: libc6 (>= 2.14), libcairo2 (>= 1.6.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.0.0), libgudev-1.0-0 (>= 147), libjpeg8 (>= 8c), liblaunchpad-integration-3.0-1 (>= 0.1.17), libsane (>= 1.0.11-3), zlib1g (>= 1:1.1.4), gnome-icon-theme, xdg-utils, dconf-gsettings-backend | gsettings-backend
-Filename: pool/main/s/simple-scan/simple-scan_3.4.1-0ubuntu1.1_amd64.deb
-Size: 115008
-MD5sum: 695de3639525f44169765ffb4f5101a8
-SHA1: 70ecc2af1be002c85b69cf93a514880e33a71e1c
-SHA256: debcd16475f7346ce914326245b7dbef190850248322e9fe1523bc66517a9cdf
+Filename: pool/main/s/simple-scan/simple-scan_3.4.3-0ubuntu1_amd64.deb
+Size: 116556
+MD5sum: e56a50fc43a79dbffe0383820696a67d
+SHA1: cd8c3034e78a2682be154c1210d7b3b7367de6fd
+SHA256: cbfb2c49e0c0e2e3a478408345c9800b63d27e06a5b2feff0744e77aa961d2fb
 Description: Simple Scanning Utility
 Homepage: https://launchpad.net/simple-scan
 Description-md5: 0801cb168babf587af56100a43d62a83
