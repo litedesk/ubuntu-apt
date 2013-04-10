@@ -134,6 +134,127 @@ Description-md5: a03e9ebc20ce82c05567d088e79bf750
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: libcublas4
+Priority: extra
+Section: multiverse/libs
+Installed-Size: 123498
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: nvidia-cuda-toolkit
+Version: 4.0.17-3ubuntu0.1
+Depends: libc6 (>= 2.4), libcudart4 (>= 3.2), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Pre-Depends: multiarch-support
+Conflicts: lib32cublas4
+Filename: pool/multiverse/n/nvidia-cuda-toolkit/libcublas4_4.0.17-3ubuntu0.1_i386.deb
+Size: 20914046
+MD5sum: 771dc5da84975a3571be713e5f9667cf
+SHA1: 8e6cd81b0c9d2846dd8682a1d74d1de2813f80ed
+SHA256: f216687ccc92af1980378bc923634e6df831df09166c5cbde0490a984d63f7a8
+Description: NVIDIA CUDA BLAS runtime library
+Multi-Arch: same
+Homepage: http://www.nvidia.com/CUDA
+Description-md5: 45db8a0178cd23e2bd983749760ce542
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libcudart4
+Priority: extra
+Section: multiverse/libs
+Installed-Size: 411
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: nvidia-cuda-toolkit
+Version: 4.0.17-3ubuntu0.1
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Pre-Depends: multiarch-support
+Recommends: nvidia-current (>= 270) | nvidia-current-updates (>= 270) | nvidia-experimental-304 (>= 270) | nvidia-experimental-310 (>= 270)
+Conflicts: lib32cudart4
+Filename: pool/multiverse/n/nvidia-cuda-toolkit/libcudart4_4.0.17-3ubuntu0.1_i386.deb
+Size: 105950
+MD5sum: f26b929f6413798cec8e1f452632aa5b
+SHA1: 89ded33aa4304977e4531a2b25043d3f0a93e96d
+SHA256: 4aa69045cd9f57ddfaa94da0721e4cd11af538706fd2be4ac498e50c5a98e9f2
+Description: NVIDIA CUDA runtime library
+Multi-Arch: same
+Homepage: http://www.nvidia.com/CUDA
+Description-md5: 04039fe955d79d6a7643053c7aaffe45
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libcufft4
+Priority: extra
+Section: multiverse/libs
+Installed-Size: 84154
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: nvidia-cuda-toolkit
+Version: 4.0.17-3ubuntu0.1
+Depends: libc6 (>= 2.4), libcudart4 (>= 3.1), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Pre-Depends: multiarch-support
+Conflicts: lib32cufft4
+Filename: pool/multiverse/n/nvidia-cuda-toolkit/libcufft4_4.0.17-3ubuntu0.1_i386.deb
+Size: 16558848
+MD5sum: 0e49dffd694dfc80c08c6ed1c75b3235
+SHA1: 511dc4d40bac8fe71c621f06c8c421777abe85d3
+SHA256: c6257112a42eacf2ad96b4e0bfb85300bda2ff7f0a9af1f311578362386a709c
+Description: NVIDIA CUDA FFT runtime library
+Multi-Arch: same
+Homepage: http://www.nvidia.com/CUDA
+Description-md5: 4eef387b908002cd6cf9fa8d945590f0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libcurand4
+Priority: extra
+Section: multiverse/libs
+Installed-Size: 24782
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: nvidia-cuda-toolkit
+Version: 4.0.17-3ubuntu0.1
+Depends: libc6 (>= 2.4), libcudart4 (>= 2.0), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Pre-Depends: multiarch-support
+Conflicts: lib32curand4
+Filename: pool/multiverse/n/nvidia-cuda-toolkit/libcurand4_4.0.17-3ubuntu0.1_i386.deb
+Size: 18268750
+MD5sum: e34156c4f2a9ac4f6dc7aa9a2ef2a872
+SHA1: 84d7df697e0ab408d880ee1abc09b05ef9ac78f0
+SHA256: 0635c9fa06041b58f832ff5f20687fcce8402222a552ecc2d2daf719d52ff4a4
+Description: NVIDIA CUDA Random Numbers Generation runtime library
+Multi-Arch: same
+Homepage: http://www.nvidia.com/CUDA
+Description-md5: 65096ad6fa0522e6e5e89fc21e3c9b47
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libcusparse4
+Priority: extra
+Section: multiverse/libs
+Installed-Size: 49046
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: nvidia-cuda-toolkit
+Version: 4.0.17-3ubuntu0.1
+Depends: libc6 (>= 2.4), libcudart4 (>= 3.2), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Pre-Depends: multiarch-support
+Conflicts: lib32cusparse4
+Filename: pool/multiverse/n/nvidia-cuda-toolkit/libcusparse4_4.0.17-3ubuntu0.1_i386.deb
+Size: 5982824
+MD5sum: 55396e0f33fbd0ddabd4839264a66c73
+SHA1: 441e53a8689a9cc62476e28d4f8ad46f671f4108
+SHA256: e3e6b23a9942e677f000c77ed15dae51b5b8710dc51ad783be773c58d579b9a5
+Description: NVIDIA CUDA Sparse Matrix runtime library
+Multi-Arch: same
+Homepage: http://www.nvidia.com/CUDA
+Description-md5: 8b5c0bc101130280c852b365067b7927
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: libmotif-dev
 Priority: extra
 Section: multiverse/devel
@@ -294,6 +415,30 @@ Description-md5: 47f252d2997e94bf2a23b14c005706fe
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Task: mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master
+
+Package: libnpp4
+Priority: extra
+Section: multiverse/libs
+Installed-Size: 43063
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: nvidia-cuda-toolkit
+Version: 4.0.17-3ubuntu0.1
+Depends: libc6 (>= 2.4), libcudart4 (>= 3.2), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Pre-Depends: multiarch-support
+Conflicts: lib32npp4
+Filename: pool/multiverse/n/nvidia-cuda-toolkit/libnpp4_4.0.17-3ubuntu0.1_i386.deb
+Size: 4969008
+MD5sum: 9f5652f021d989126184ec41a4019c17
+SHA1: bcb36fd2b3262324ae425842ec882440564bc095
+SHA256: b39504ec0026d769f641a87e448accc2f7fb456eb33f7cefa023f9a57c47454f
+Description: NVIDIA Performance Primitives runtime library
+Multi-Arch: same
+Homepage: http://developer.nvidia.com/npp
+Description-md5: 47dfcf01d27f66c5b47ab2e9fadd00f0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
 
 Package: libva-cedarview-vaapi-driver
 Priority: extra
@@ -840,6 +985,141 @@ SHA256: 0c082fba1beb2f6ff23cc695d3d15e770c4a60b590df75055762f67b3c9702d0
 Description: view status and display footage recorded with zoneminder
 Homepage: http://www.mythtv.org
 Description-md5: 8d9d41b817bbe7c1bae729f6473e40c3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-compute-profiler
+Priority: extra
+Section: multiverse/devel
+Installed-Size: 2348
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: nvidia-cuda-toolkit
+Version: 4.0.17-3ubuntu0.1
+Replaces: nvidia-cuda-profiler, nvidia-opencl-profiler
+Depends: libc6 (>= 2.4), libcudart4 (>= 2.0), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.12.0), libice6 (>= 1:1.0.0), libqt4-network (>= 4:4.5.3), libqt4-xml (>= 4:4.5.3), libqtassistantclient4 (>= 4.6.3), libqtcore4 (>= 4:4.5.3), libqtgui4 (>= 4:4.5.3), libsm6, libstdc++6 (>= 4.4.0), libx11-6, libxext6, libxrender1, nvidia-current (>= 270) | nvidia-current-updates (>= 270) | nvidia-experimental-304 (>= 270) | nvidia-experimental-310 (>= 270), zlib1g (>= 1:1.1.4)
+Recommends: nvidia-cuda-doc (= 4.0.17-3ubuntu0.1)
+Conflicts: nvidia-cuda-profiler, nvidia-opencl-profiler
+Filename: pool/multiverse/n/nvidia-cuda-toolkit/nvidia-compute-profiler_4.0.17-3ubuntu0.1_i386.deb
+Size: 1023798
+MD5sum: e8395dfa1dab7605de178a2dedb2072c
+SHA1: 6c2bf67684e8ff4f4b51031744e74b9f0c54d32a
+SHA256: 69565cbebf993d49bd43538738a6dedc022ee31585ac84a5a9560878ffe82ffb
+Description: NVIDIA Compute Visual Profiler
+Homepage: http://www.nvidia.com/CUDA
+Description-md5: c5c20f62c04c71bfac76aa9b35a615f3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-cuda-dev
+Priority: extra
+Section: multiverse/libdevel
+Installed-Size: 2532
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: nvidia-cuda-toolkit
+Version: 4.0.17-3ubuntu0.1
+Depends: libcudart4 (= 4.0.17-3ubuntu0.1), libcublas4 (= 4.0.17-3ubuntu0.1), libcufft4 (= 4.0.17-3ubuntu0.1), libcusparse4 (= 4.0.17-3ubuntu0.1), libcurand4 (= 4.0.17-3ubuntu0.1), libnpp4 (= 4.0.17-3ubuntu0.1), libthrust-dev
+Recommends: nvidia-current (>= 270) | nvidia-current-updates (>= 270) | nvidia-experimental-304 (>= 270) | nvidia-experimental-310 (>= 270), libgl1-mesa-dev | libgl-dev, libvdpau-dev
+Filename: pool/multiverse/n/nvidia-cuda-toolkit/nvidia-cuda-dev_4.0.17-3ubuntu0.1_i386.deb
+Size: 359978
+MD5sum: a23e38977708de4f60b759e2a606e535
+SHA1: 848c67719a0fe1faab025563976d342ff088099d
+SHA256: 232ed6532791458d6a1750620cf02acafef619a33825bf813cad322429020d96
+Description: NVIDIA CUDA development files
+Homepage: http://www.nvidia.com/CUDA
+Description-md5: 23a17262479fe7daf1cae67727e949c7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-cuda-doc
+Priority: extra
+Section: multiverse/doc
+Installed-Size: 39449
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: all
+Source: nvidia-cuda-toolkit
+Version: 4.0.17-3ubuntu0.1
+Filename: pool/multiverse/n/nvidia-cuda-toolkit/nvidia-cuda-doc_4.0.17-3ubuntu0.1_all.deb
+Size: 33328712
+MD5sum: 8d8346fa464f693ef15a957f46de44cf
+SHA1: 83e5e1fcdd0df65ce2a42e9c8090f3e711fca54b
+SHA256: bce771c71c2a872ab6503e413d8a9c034c02bbbc195afa308facbfb0306e5e89
+Description: NVIDIA CUDA and OpenCL documentation
+Homepage: http://www.nvidia.com/CUDA
+Description-md5: 1ade4ee74357654b5ef0998d191b1349
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-cuda-gdb
+Priority: extra
+Section: multiverse/devel
+Installed-Size: 3277
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: nvidia-cuda-toolkit
+Version: 4.0.17-3ubuntu0.1
+Replaces: nvidia-cuda-debugger
+Depends: libc6 (>= 2.11), libexpat1 (>= 1.95.8), libncurses5 (>= 5.5-5~), libstdc++6 (>= 4.1.1)
+Recommends: nvidia-cuda-doc (= 4.0.17-3ubuntu0.1)
+Conflicts: nvidia-cuda-debugger
+Filename: pool/multiverse/n/nvidia-cuda-toolkit/nvidia-cuda-gdb_4.0.17-3ubuntu0.1_i386.deb
+Size: 1457152
+MD5sum: 3a58e9558893959d4eb9364ac2c24b15
+SHA1: 02aaf30f8502281f92c5128be27b66a30498c294
+SHA256: 1d939eeedb9ed14de8c3af421f8957c3c7eb580f847c335b20ec9a2e138e7490
+Description: NVIDIA CUDA GDB
+Homepage: http://www.nvidia.com/CUDA
+Description-md5: 453091dc8f1905152f0cd17e8712b571
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-cuda-toolkit
+Priority: extra
+Section: multiverse/devel
+Installed-Size: 48297
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: i386
+Version: 4.0.17-3ubuntu0.1
+Depends: nvidia-cuda-dev (= 4.0.17-3ubuntu0.1), nvidia-opencl-dev (= 4.0.17-3ubuntu0.1), gcc-4.4, g++-4.4, libc6 (>= 2.7), libcudart4 (>= 2.0), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
+Recommends: nvidia-cuda-doc (= 4.0.17-3ubuntu0.1), nvidia-cuda-gdb (= 4.0.17-3ubuntu0.1), nvidia-compute-profiler (= 4.0.17-3ubuntu0.1)
+Filename: pool/multiverse/n/nvidia-cuda-toolkit/nvidia-cuda-toolkit_4.0.17-3ubuntu0.1_i386.deb
+Size: 25536816
+MD5sum: 7565e067bf89ae5a3759820cc18d963c
+SHA1: 325a0fbeb21276559cc576afb89454e77d43a6d9
+SHA256: b684805615ecbb351a07d62e74d3555db6ab70b45e6959bf305e7678ff6f400f
+Description: NVIDIA CUDA toolkit
+Homepage: http://www.nvidia.com/CUDA
+Description-md5: 0cd19be91d76311de487c8042535dcb8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-opencl-dev
+Priority: extra
+Section: multiverse/libdevel
+Installed-Size: 54
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: nvidia-cuda-toolkit
+Version: 4.0.17-3ubuntu0.1
+Provides: opencl-dev
+Depends: nvidia-current | nvidia-current-updates | nvidia-experimental-304 | nvidia-experimental-310 | libopencl1, opencl-headers (>> 1.1)
+Recommends: libgl1-mesa-dev | libgl-dev
+Breaks: nvidia-libopencl1 (<< 195.36.31-90)
+Filename: pool/multiverse/n/nvidia-cuda-toolkit/nvidia-opencl-dev_4.0.17-3ubuntu0.1_i386.deb
+Size: 10964
+MD5sum: 874554199391d9d25d6f973ffa16a846
+SHA1: 3e435af74165b85ad71b8102b21c2ca3ee451b1e
+SHA256: 6e7b2a2b48ff3ed92fb1b04be61002c460a0ddd0b1d007bb759d4cedd3c46a0e
+Description: NVIDIA OpenCL development files
+Homepage: http://www.nvidia.com/CUDA
+Description-md5: 5404c4fac54bb1c7a833b77f92a02e84
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 

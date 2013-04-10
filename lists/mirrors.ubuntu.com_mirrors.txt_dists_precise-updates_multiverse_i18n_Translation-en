@@ -57,6 +57,110 @@ Description-en: Adobe Flash Player plugin installer
  Adobe Flash Player plugin is available at www.adobe.com. Installing this
  Ubuntu package implies that you have accepted the terms of that license.
 
+Package: lib32cublas4
+Description-md5: b719dd06ef708f0f48aec667c1f0933e
+Description-en: NVIDIA CUDA BLAS runtime library (32-bit)
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the CUDA BLAS runtime library (32-bit).
+
+Package: lib32cudart4
+Description-md5: cd97101767d6386068f706ed6c9dc63a
+Description-en: NVIDIA CUDA runtime library (32-bit)
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the runtime library (32-bit).
+
+Package: lib32cufft4
+Description-md5: f5ff7132e62ce77a652f95b4b1a98bff
+Description-en: NVIDIA CUDA FFT runtime library (32-bit)
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the CUDA FFT runtime library (32-bit).
+
+Package: lib32curand4
+Description-md5: ba9fce43ce21bd2cbe5c83e3d1efe60b
+Description-en: NVIDIA CUDA Random Numbers Generation runtime library (32-bit)
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the CUDA Random Numbers Generation runtime library
+ (32-bit).
+
+Package: lib32cusparse4
+Description-md5: 26e560101b8adb8e25d106fc2605393b
+Description-en: NVIDIA CUDA Sparse Matrix runtime library (32-bit)
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the CUDA Sparse Matrix runtime library (32-bit).
+
+Package: lib32npp4
+Description-md5: d45e3737c60e5f97ab3bc6d64d5d9aac
+Description-en: NVIDIA Performance Primitives runtime library (32-bit)
+ NVIDIA NPP is a library of functions for performing CUDA accelerated
+ processing.  The initial set offunctionality in the library focuses on imaging
+ and video processing and is widely applicable for developers in these areas.
+ NPP will evolve over time to encompass more of the compute heavy tasks in a
+ variety of problem domains.  The NPP library is written to maximize
+ flexibility, while maintaining high performance.
+ .
+ This package contains the NVIDIA Performance Primitives runtime library
+ (32-bit).
+
+Package: libcublas4
+Description-md5: 45db8a0178cd23e2bd983749760ce542
+Description-en: NVIDIA CUDA BLAS runtime library
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the CUDA BLAS runtime library.
+
+Package: libcudart4
+Description-md5: 04039fe955d79d6a7643053c7aaffe45
+Description-en: NVIDIA CUDA runtime library
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the runtime library.
+
+Package: libcufft4
+Description-md5: 4eef387b908002cd6cf9fa8d945590f0
+Description-en: NVIDIA CUDA FFT runtime library
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the CUDA FFT runtime library.
+
+Package: libcurand4
+Description-md5: 65096ad6fa0522e6e5e89fc21e3c9b47
+Description-en: NVIDIA CUDA Random Numbers Generation runtime library
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the CUDA Random Numbers Generation runtime library.
+
+Package: libcusparse4
+Description-md5: 8b5c0bc101130280c852b365067b7927
+Description-en: NVIDIA CUDA Sparse Matrix runtime library
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the CUDA Sparse Matrix runtime library.
+
 Package: libmotif-dev
 Description-md5: b67510730f8a9ccc4aaff83f2c1adcd2
 Description-en: Open Motif - development files
@@ -115,6 +219,18 @@ Description-en: A PERL library to access some MythTV features
  .
  This package contains files needed for some PERL MythTV add-ons like
  nuvexport or mythrename.pl.
+
+Package: libnpp4
+Description-md5: 47dfcf01d27f66c5b47ab2e9fadd00f0
+Description-en: NVIDIA Performance Primitives runtime library
+ NVIDIA NPP is a library of functions for performing CUDA accelerated
+ processing.  The initial set offunctionality in the library focuses on imaging
+ and video processing and is widely applicable for developers in these areas.
+ NPP will evolve over time to encompass more of the compute heavy tasks in a
+ variety of problem domains.  The NPP library is written to maximize
+ flexibility, while maintaining high performance.
+ .
+ This package contains the NVIDIA Performance Primitives runtime library.
 
 Package: linux-firmware-nonfree
 Description-md5: 856ad6fa1547f2b2a3005ee38911321a
@@ -332,6 +448,64 @@ Description-en: view status and display footage recorded with zoneminder
  MythZoneMinder interfaces with Zoneminder, a CCTV solution.
  You can view the status of ZoneMinder and watch live camera shots and
  recorded surveillance footage.
+
+Package: nvidia-compute-profiler
+Description-md5: c5c20f62c04c71bfac76aa9b35a615f3
+Description-en: NVIDIA Compute Visual Profiler
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the Compute Visual Profiler.
+
+Package: nvidia-cuda-dev
+Description-md5: 23a17262479fe7daf1cae67727e949c7
+Description-en: NVIDIA CUDA development files
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the development files: headers and libraries.
+
+Package: nvidia-cuda-doc
+Description-md5: 1ade4ee74357654b5ef0998d191b1349
+Description-en: NVIDIA CUDA and OpenCL documentation
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ OpenCL (Open Computing Language) is a multi-vendor open standard for
+ general-purpose parallel programming of heterogeneous systems that include
+ CPUs, GPUs and other processors.
+ .
+ This package contains the developer documentation.
+
+Package: nvidia-cuda-gdb
+Description-md5: 453091dc8f1905152f0cd17e8712b571
+Description-en: NVIDIA CUDA GDB
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the cuda-gdb debugger.
+
+Package: nvidia-cuda-toolkit
+Description-md5: 0cd19be91d76311de487c8042535dcb8
+Description-en: NVIDIA CUDA toolkit
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the nvcc compiler etc.
+
+Package: nvidia-opencl-dev
+Description-md5: 5404c4fac54bb1c7a833b77f92a02e84
+Description-en: NVIDIA OpenCL development files
+ OpenCL (Open Computing Language) is a multi-vendor open standard for
+ general-purpose parallel programming of heterogeneous systems that include
+ CPUs, GPUs and other processors.
+ .
+ This metapackage provides the development files: headers and libraries.
 
 Package: php-mythtv
 Description-md5: cc74af3e7f32031e0ca3aeeac2981c9b
