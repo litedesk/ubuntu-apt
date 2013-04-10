@@ -30575,6 +30575,28 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: nvidia-settings
+Priority: optional
+Section: x11
+Installed-Size: 4058
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Version: 304.88-0ubuntu0.0.2
+Replaces: libxnvctrl-dev
+Depends: python-gtk2, pkg-config, screen-resolution-extra (>= 0.12), libc6 (>= 2.14), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.8.0), libpango1.0-0 (>= 1.14.0), libx11-6 (>= 2:1.4.99.1), libxext6, libxxf86vm1
+Conflicts: libxnvctrl-dev
+Filename: pool/main/n/nvidia-settings/nvidia-settings_304.88-0ubuntu0.0.2_amd64.deb
+Size: 2124756
+MD5sum: 6b1f4702b626045a770c89cc43e5edc2
+SHA1: e782dfe1a4e247b169df8d95597ff05beee3f756
+SHA256: ab710d700eb5c74026abcdd88601f8bd47aaa7adafa4455e8c836ae391b17b4c
+Description: Tool of configuring the NVIDIA graphics driver
+Description-md5: c96f6882a9e1a80c82bef7983a0919b4
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
 Package: oem-config-slideshow-ubuntu
 Priority: optional
 Section: x11
