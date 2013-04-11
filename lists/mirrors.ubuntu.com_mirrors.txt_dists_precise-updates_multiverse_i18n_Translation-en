@@ -232,6 +232,84 @@ Description-en: NVIDIA Performance Primitives runtime library
  .
  This package contains the NVIDIA Performance Primitives runtime library.
 
+Package: libstarpu-contrib-dev
+Description-md5: 967c103c8b3cf3662ee291f422fa5be6
+Description-en: Task scheduler for heterogeneous multicore machines - dev
+ StarPU is a runtime system that offers support for heterogeneous
+ multicore machines. While many efforts are devoted to design efficient
+ computation kernels for those architectures (e.g. to implement BLAS
+ kernels on GPUs or on Cell's SPUs), StarPU not only takes care of
+ offloading such kernels (and implementing data coherency across
+ the machine), but it also makes sure the kernels are executed as
+ efficiently as possible.
+ .
+ This package contains development headers and libraries.
+
+Package: libstarpu-contrib0
+Description-md5: 6e4e8db53b47fb942bef212def2a1e22
+Description-en: Task scheduler for heterogeneous multicore machines
+ StarPU is a runtime system that offers support for heterogeneous
+ multicore machines. While many efforts are devoted to design efficient
+ computation kernels for those architectures (e.g. to implement BLAS
+ kernels on GPUs or on Cell's SPUs), StarPU not only takes care of
+ offloading such kernels (and implementing data coherency across
+ the machine), but it also makes sure the kernels are executed as
+ efficiently as possible.
+ .
+ This package contains the main StarPU library
+
+Package: libstarpu-contribfft0
+Description-md5: a1e84fcd5b7aa1a04d6c8089b0a0ecef
+Description-en: Task scheduler for heterogeneous multicore machines
+ StarPU is a runtime system that offers support for heterogeneous
+ multicore machines. While many efforts are devoted to design efficient
+ computation kernels for those architectures (e.g. to implement BLAS
+ kernels on GPUs or on Cell's SPUs), StarPU not only takes care of
+ offloading such kernels (and implementing data coherency across
+ the machine), but it also makes sure the kernels are executed as
+ efficiently as possible.
+ .
+ This package contains a hybrid CPU+GPU FFT library.
+
+Package: libstarpu-contribmpi0
+Description-md5: a7034f989f1ae2e40b4db1b5bb58bd47
+Description-en: Task scheduler for heterogeneous multicore machines
+ StarPU is a runtime system that offers support for heterogeneous
+ multicore machines. While many efforts are devoted to design efficient
+ computation kernels for those architectures (e.g. to implement BLAS
+ kernels on GPUs or on Cell's SPUs), StarPU not only takes care of
+ offloading such kernels (and implementing data coherency across
+ the machine), but it also makes sure the kernels are executed as
+ efficiently as possible.
+ .
+ This package contains MPI extensions for StarPU.
+
+Package: libviennacl-dev
+Description-md5: a27fa308bc2bf6d90a053f635ae4a276
+Description-en: Scientific computing library written in C++ based on OpenCL
+ The Vienna Computing Library (ViennaCL) is a scientific computing library
+ written in C++ and based on OpenCL. It allows simple, high-level access to the
+ vast computing resources available on parallel architectures such as GPUs and
+ is primarily focused on common linear algebra operations (BLAS levels 1, 2 and
+ 3) and the solution of large systems of equations by means of iterative
+ methods with optional preconditioner.
+ .
+ ViennaCL is header-only with no binary library and projects using it only need
+ to link against a conforming OpenCL implementation.
+
+Package: libviennacl-doc
+Description-md5: 4293ec3da7d14fb3b2a1c3f988fa1e7a
+Description-en: ViennaCL API and user documentation
+ The Vienna Computing Library (ViennaCL) is a scientific computing library
+ written in C++ and based on OpenCL. It allows simple, high-level access to the
+ vast computing resources available on parallel architectures such as GPUs and
+ is primarily focused on common linear algebra operations (BLAS levels 1, 2 and
+ 3) and the solution of large systems of equations by means of iterative
+ methods with optional preconditioner.
+ .
+ This package contains the Doxygen-generated source code and the user
+ documentation.
+
 Package: linux-firmware-nonfree
 Description-md5: 856ad6fa1547f2b2a3005ee38911321a
 Description-en: Non-free firmware for Linux kernel drivers
@@ -540,6 +618,32 @@ Description-md5: 845a03d775cde2c92ef0a0d918bdbf50
 Description-en: debug symbols for the Red Eclipse dedicated server
  This package contains the debugging symbols for the dedicated server of the
  Red Eclipse FPS game.
+
+Package: starpu-contrib-examples
+Description-md5: 601fd3c318d53962421cdbdd364f312b
+Description-en: Task scheduler for heterogeneous multicore machines - exs
+ StarPU is a runtime system that offers support for heterogeneous
+ multicore machines. While many efforts are devoted to design efficient
+ computation kernels for those architectures (e.g. to implement BLAS
+ kernels on GPUs or on Cell's SPUs), StarPU not only takes care of
+ offloading such kernels (and implementing data coherency across
+ the machine), but it also makes sure the kernels are executed as
+ efficiently as possible.
+ .
+ This package contains application examples.
+
+Package: starpu-contrib-tools
+Description-md5: eb2ba87d4cd88833bc91b0cf6b977279
+Description-en: Task scheduler for heterogeneous multicore machines - tools
+ StarPU is a runtime system that offers support for heterogeneous
+ multicore machines. While many efforts are devoted to design efficient
+ computation kernels for those architectures (e.g. to implement BLAS
+ kernels on GPUs or on Cell's SPUs), StarPU not only takes care of
+ offloading such kernels (and implementing data coherency across
+ the machine), but it also makes sure the kernels are executed as
+ efficiently as possible.
+ .
+ This package contains StarPU tools.
 
 Package: cedarview-drm
 Description-md5: fd2f16777328bead3d341a0e233b858d

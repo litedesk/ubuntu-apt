@@ -440,6 +440,94 @@ Description-md5: 47dfcf01d27f66c5b47ab2e9fadd00f0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: libstarpu-contrib-dev
+Priority: extra
+Section: multiverse/libdevel
+Installed-Size: 788
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Samuel Thibault <sthibault@debian.org>
+Architecture: i386
+Source: starpu-contrib
+Version: 0.9.1-3ubuntu0.1
+Depends: libstarpu-contrib0 (= 0.9.1-3ubuntu0.1), install-info
+Conflicts: libstarpu-dev
+Filename: pool/multiverse/s/starpu-contrib/libstarpu-contrib-dev_0.9.1-3ubuntu0.1_i386.deb
+Size: 254318
+MD5sum: d32139b607ee78a8b4e7c9a07f10e737
+SHA1: 3cb6625d9538f24fe88a287997e48e23db54ad53
+SHA256: 787b69d91dca3c91961c1f2adb4d1ca3f07806e2aea5a8e59b8d484dbaf65d42
+Description: Task scheduler for heterogeneous multicore machines - dev
+Homepage: http://starpu.gforge.inria.fr/
+Description-md5: 967c103c8b3cf3662ee291f422fa5be6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libstarpu-contrib0
+Priority: extra
+Section: multiverse/libs
+Installed-Size: 293
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Samuel Thibault <sthibault@debian.org>
+Architecture: i386
+Source: starpu-contrib
+Version: 0.9.1-3ubuntu0.1
+Depends: libc6 (>= 2.4), libglpk0 (>= 4.30), libhwloc4, nvidia-current
+Conflicts: libstarpu0
+Filename: pool/multiverse/s/starpu-contrib/libstarpu-contrib0_0.9.1-3ubuntu0.1_i386.deb
+Size: 115652
+MD5sum: 2b97fa52ecb694a541e7743c29daa340
+SHA1: f187b5acfa1cc1aae10b048bd001c8db3b0d4c88
+SHA256: dba2ed6cb328cacd56adcd47b76852f921014b883f6c6d858f6f92182f2e81ff
+Description: Task scheduler for heterogeneous multicore machines
+Homepage: http://starpu.gforge.inria.fr/
+Description-md5: 6e4e8db53b47fb942bef212def2a1e22
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libstarpu-contribfft0
+Priority: extra
+Section: multiverse/libs
+Installed-Size: 139
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Samuel Thibault <sthibault@debian.org>
+Architecture: i386
+Source: starpu-contrib
+Version: 0.9.1-3ubuntu0.1
+Depends: libc6 (>= 2.4), libfftw3-3, libstarpu-contrib0
+Conflicts: libstarpufft0
+Filename: pool/multiverse/s/starpu-contrib/libstarpu-contribfft0_0.9.1-3ubuntu0.1_i386.deb
+Size: 18988
+MD5sum: 61219bf696dae38d964624b093c2dfab
+SHA1: bdbd64fb1731898c09e4d11417a89497c8fa0132
+SHA256: 447c04571c5ccbd612d28bba8942d2d69100d02519037a17fd4d3c9387b5c331
+Description: Task scheduler for heterogeneous multicore machines
+Homepage: http://starpu.gforge.inria.fr/
+Description-md5: a1e84fcd5b7aa1a04d6c8089b0a0ecef
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libstarpu-contribmpi0
+Priority: extra
+Section: multiverse/libs
+Installed-Size: 59
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Samuel Thibault <sthibault@debian.org>
+Architecture: i386
+Source: starpu-contrib
+Version: 0.9.1-3ubuntu0.1
+Depends: libc6 (>= 2.3.6-6~), libstarpu-contrib0
+Conflicts: libstarpumpi0
+Filename: pool/multiverse/s/starpu-contrib/libstarpu-contribmpi0_0.9.1-3ubuntu0.1_i386.deb
+Size: 13346
+MD5sum: d2ea2cc21e31879418f9637cd67a1daf
+SHA1: 844f5739e47b19cd0b4219175a92398bc2153106
+SHA256: 52c39e76599f132580b0c180cb052fe9a2cfe09933182b412a91e4ccf1c6d64c
+Description: Task scheduler for heterogeneous multicore machines
+Homepage: http://starpu.gforge.inria.fr/
+Description-md5: a7034f989f1ae2e40b4db1b5bb58bd47
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: libva-cedarview-vaapi-driver
 Priority: extra
 Section: multiverse/libs
@@ -456,6 +544,49 @@ SHA1: ddba75ef8f45ad9d663b71eaf66d4abd23b488b9
 SHA256: dcb3740a4c2157e4815f9973cd726710def099cd3c0dbc53b3e7fce853cae74f
 Description: VAAPI driver for Intel GMA3600 (Cedarview ) GPUs.
 Description-md5: 6286031b30b99a9e80b3d67ec3922974
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libviennacl-dev
+Priority: extra
+Section: multiverse/libdevel
+Installed-Size: 1010
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Architecture: all
+Source: viennacl
+Version: 1.1.2-6ubuntu0.1
+Depends: opencl-headers, nvidia-current | libopencl1
+Suggests: libeigen2-dev, libboost-dev, libviennacl-doc
+Filename: pool/multiverse/v/viennacl/libviennacl-dev_1.1.2-6ubuntu0.1_all.deb
+Size: 105474
+MD5sum: 1bb6797f0b1f21827156203544011945
+SHA1: 51e5a3ef3382947d5ae3eddf1ac4b5d12570d7da
+SHA256: 9ce8fb5c4380faf485489a5dbbf3acb838f0825b18ff3c3e7780dfaeeeb1a98d
+Description: Scientific computing library written in C++ based on OpenCL
+Homepage: http://viennacl.sourceforge.net
+Description-md5: a27fa308bc2bf6d90a053f635ae4a276
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libviennacl-doc
+Priority: extra
+Section: multiverse/doc
+Installed-Size: 7795
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Architecture: all
+Source: viennacl
+Version: 1.1.2-6ubuntu0.1
+Suggests: libviennacl-dev
+Filename: pool/multiverse/v/viennacl/libviennacl-doc_1.1.2-6ubuntu0.1_all.deb
+Size: 1212260
+MD5sum: 944688c668103922b4f1aa1b71c5de15
+SHA1: ab33e9f22b6a5dc1034e3bdae6655ecbcb1899ae
+SHA256: d58fceae4f3570cc1cbf77f54453508d31a474161d969775a7745755e1c34bdc
+Description: ViennaCL API and user documentation
+Homepage: http://viennacl.sourceforge.net
+Description-md5: 4293ec3da7d14fb3b2a1c3f988fa1e7a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
@@ -1227,6 +1358,50 @@ SHA256: 80f3afceb8e02ae8915a57fa56f6677c5d4bd125027cb4cc5d63742117bc762b
 Description: debug symbols for the Red Eclipse dedicated server
 Homepage: http://www.redeclipse.net
 Description-md5: 845a03d775cde2c92ef0a0d918bdbf50
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: starpu-contrib-examples
+Priority: extra
+Section: multiverse/science
+Installed-Size: 901
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Samuel Thibault <sthibault@debian.org>
+Architecture: i386
+Source: starpu-contrib
+Version: 0.9.1-3ubuntu0.1
+Depends: freeglut3, libblas3gf | libblas.so.3gf | libatlas3gf-base, libc6 (>= 2.4), libgfortran3 (>= 4.6), libglu1-mesa | libglu1, libnuma1 (>= 2.0.8~rc3), libopenmpi1.3, libstarpu-contrib0, libstarpu-contribmpi0, libx11-6, nvidia-current
+Conflicts: starpu-examples
+Filename: pool/multiverse/s/starpu-contrib/starpu-contrib-examples_0.9.1-3ubuntu0.1_i386.deb
+Size: 212576
+MD5sum: 6dc9f33edeb84cd35fe75419fee31cf8
+SHA1: 0db0d43d7ecd5b8ece4d2bc1cb43e32789f6e21b
+SHA256: da6ba0b6ea78c996ff2de05fd690108552f6b9dd66cbdadacf1c781bdd0b29ba
+Description: Task scheduler for heterogeneous multicore machines - exs
+Homepage: http://starpu.gforge.inria.fr/
+Description-md5: 601fd3c318d53962421cdbdd364f312b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: starpu-contrib-tools
+Priority: extra
+Section: multiverse/utils
+Installed-Size: 77
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Samuel Thibault <sthibault@debian.org>
+Architecture: i386
+Source: starpu-contrib
+Version: 0.9.1-3ubuntu0.1
+Depends: libc6 (>= 2.4), libstarpu-contrib0
+Conflicts: starpu-tools
+Filename: pool/multiverse/s/starpu-contrib/starpu-contrib-tools_0.9.1-3ubuntu0.1_i386.deb
+Size: 14784
+MD5sum: 44c3f3e190be6e6d535489a3461aac5b
+SHA1: 7fae4c877b9cb13ae51c43163b8072d25a77e69d
+SHA256: b5782e22bd186da29ec1c23d3252c07d754246e590541059652676b05e31731c
+Description: Task scheduler for heterogeneous multicore machines - tools
+Homepage: http://starpu.gforge.inria.fr/
+Description-md5: eb2ba87d4cd88833bc91b0cf6b977279
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 

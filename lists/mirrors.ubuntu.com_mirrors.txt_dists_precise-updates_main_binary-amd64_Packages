@@ -63713,20 +63713,20 @@ Task: mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backe
 Package: libvirt-bin
 Priority: optional
 Section: devel
-Installed-Size: 4174
+Installed-Size: 4187
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: libvirt
-Version: 0.9.8-2ubuntu17.7
-Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.15), libcap-ng0, libdevmapper1.02.1 (>= 2:1.02.20), libgnutls26 (>= 2.12.6.1-0), libnl-3-200 (>= 3.2.3), libnuma1 (>= 2.0.8~rc3), libparted0debian1 (>= 2.2-1), libpcap0.8 (>= 0.9.8), libpciaccess0, libreadline6 (>= 6.0), libudev0 (>= 147), libvirt0 (= 0.9.8-2ubuntu17.7), libxml2 (>= 2.7.4), libyajl1 (>= 1.0.5), upstart-job, adduser, bridge-utils, cgroup-lite | cgroup-bin, dnsmasq-base (>= 2.46-1), dbus, gettext-base, iptables (>= 1.4.10), logrotate, netcat-openbsd
+Version: 0.9.8-2ubuntu17.8
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.15), libcap-ng0, libdevmapper1.02.1 (>= 2:1.02.20), libgnutls26 (>= 2.12.6.1-0), libnl-3-200 (>= 3.2.3), libnuma1 (>= 2.0.8~rc3), libparted0debian1 (>= 2.2-1), libpcap0.8 (>= 0.9.8), libpciaccess0, libreadline6 (>= 6.0), libudev0 (>= 147), libvirt0 (= 0.9.8-2ubuntu17.8), libxml2 (>= 2.7.4), libyajl1 (>= 1.0.5), upstart-job, adduser, bridge-utils, cgroup-lite | cgroup-bin, dnsmasq-base (>= 2.46-1), dbus, gettext-base, iptables (>= 1.4.10), logrotate, netcat-openbsd
 Recommends: libxml2-utils, gawk, ebtables, dmidecode, iproute, parted
 Suggests: policykit-1, apparmor, pm-utils, qemu-kvm | qemu (>= 0.9.1), radvd
-Filename: pool/main/libv/libvirt/libvirt-bin_0.9.8-2ubuntu17.7_amd64.deb
-Size: 1210176
-MD5sum: 5fd98cf2e48a53b41b9a43e37f2f95bd
-SHA1: d2b565ba18f9b3edd3569ea4780d8697e2b2bae9
-SHA256: 7ddf636b45970fb2de1614030bb81542b75c34a5334325a8c9df21cbf7b3dc63
+Filename: pool/main/libv/libvirt/libvirt-bin_0.9.8-2ubuntu17.8_amd64.deb
+Size: 1214612
+MD5sum: 7a6060eff0146942d20c8c9e2845c0d2
+SHA1: 9726f0f0ad213cb60da264ccdd197caffd8f4195
+SHA256: d42924b8f4f76705605d7257adf7f507c30a9a181c787d7bc1cb694b63d2cf07
 Description: programs for the libvirt library
 Enhances: qemu, qemu-kvm, xen
 Homepage: http://libvirt.org
@@ -63739,19 +63739,19 @@ Task: virt-host
 Package: libvirt-dev
 Priority: optional
 Section: devel
-Installed-Size: 4864
+Installed-Size: 4869
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: libvirt
-Version: 0.9.8-2ubuntu17.7
-Depends: libvirt0 (= 0.9.8-2ubuntu17.7), libxen-dev
+Version: 0.9.8-2ubuntu17.8
+Depends: libvirt0 (= 0.9.8-2ubuntu17.8), libxen-dev
 Recommends: pkg-config
-Filename: pool/main/libv/libvirt/libvirt-dev_0.9.8-2ubuntu17.7_amd64.deb
-Size: 1019804
-MD5sum: 0cbc208f20164f8fe48e088a0868dd87
-SHA1: 3a00e9ed06091ba46023f4f51b399cf2fadd9586
-SHA256: 61a78bb21e02c7e66d08b6c8ede33d008cc6ed089e9306a731a74d95f6531e45
+Filename: pool/main/libv/libvirt/libvirt-dev_0.9.8-2ubuntu17.8_amd64.deb
+Size: 1021306
+MD5sum: 8a97347873d064a982c5c3d56eef3b9d
+SHA1: 004670453f66467edfdbe1c62f7a9603f644e568
+SHA256: 99e7f00d10c16fb193132400d09ac098454ec2c216219947580f1ba66de6645a
 Description: development files for the libvirt library
 Homepage: http://libvirt.org
 Description-md5: 7e0bab852c890b732dbbdd941dc00165
@@ -63762,18 +63762,18 @@ Supported: 18m
 Package: libvirt-doc
 Priority: optional
 Section: devel
-Installed-Size: 4588
+Installed-Size: 4589
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: libvirt
-Version: 0.9.8-2ubuntu17.7
+Version: 0.9.8-2ubuntu17.8
 Suggests: devhelp
-Filename: pool/main/libv/libvirt/libvirt-doc_0.9.8-2ubuntu17.7_all.deb
-Size: 1117376
-MD5sum: 0344f766371aa9c3310edb4a341402f7
-SHA1: b969a66b8d20342667038241343d9f790edcd0d5
-SHA256: f9afa4eb793b4845f00c1de4cb69ebdbbc6bc2c020f764e6bf980b5b958f93a1
+Filename: pool/main/libv/libvirt/libvirt-doc_0.9.8-2ubuntu17.8_all.deb
+Size: 1117908
+MD5sum: 643048f7c622e202fcbc4cdb490c3001
+SHA1: 71c0b9b508c5bccf4428e28652404c579c03cdf0
+SHA256: 57d9651be725119dc68974a059ee5c7d8b11ea8455960d15d10af24afdf7c142
 Description: documentation for the libvirt library
 Homepage: http://libvirt.org
 Description-md5: 6a786cd039fea1d6785874bfff0aac5f
@@ -63784,19 +63784,19 @@ Supported: 18m
 Package: libvirt0
 Priority: optional
 Section: devel
-Installed-Size: 2817
+Installed-Size: 2822
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: libvirt
-Version: 0.9.8-2ubuntu17.7
-Depends: libapparmor1 (>= 2.6~devel), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.15), libcap-ng0, libdevmapper1.02.1 (>= 2:1.02.20), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.6.1-0), libnl-3-200 (>= 3.2.3), libnuma1 (>= 2.0.8~rc3), libpcap0.8 (>= 0.9.8), libsasl2-2, libxenstore3.0 (>= 3.2.0), libxml2 (>= 2.7.4), libyajl1 (>= 1.0.5)
+Version: 0.9.8-2ubuntu17.8
+Depends: libapparmor1 (>= 2.6~devel), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.15), libcap-ng0, libdevmapper1.02.1 (>= 2:1.02.20), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.6.1-0), libnl-3-200 (>= 3.2.3), libnuma1 (>= 2.0.8~rc3), libpcap0.8 (>= 0.9.8), libsasl2-2 (>= 2.1.24), libxenstore3.0 (>= 3.2.0), libxml2 (>= 2.7.4), libyajl1 (>= 1.0.5)
 Suggests: lvm2
-Filename: pool/main/libv/libvirt/libvirt0_0.9.8-2ubuntu17.7_amd64.deb
-Size: 871034
-MD5sum: 28e5aa818951c4f0916f15e27fb70a53
-SHA1: 14b7c6cd2edf768f98a12ab7ac8c4a4f2e9703d6
-SHA256: 402202aa0d91fd0d80c0367d556643964308a3e5ea1ee49b674e8c1c2e6eb9d8
+Filename: pool/main/libv/libvirt/libvirt0_0.9.8-2ubuntu17.8_amd64.deb
+Size: 874420
+MD5sum: 6172271a991f2f76aa5cd02dba702e34
+SHA1: 719407e68a012eda2e1afaff9b9245fa537ee1a8
+SHA256: 61e3584ee6b47ceb50aa1492c8cfcb688b6dbf543b9b564cb7e0345b26022b8e
 Description: library for interfacing with different virtualization systems
 Homepage: http://libvirt.org
 Description-md5: 048e37ae97123b1566015795d54596dc
@@ -63808,18 +63808,18 @@ Task: virt-host
 Package: libvirt0-dbg
 Priority: optional
 Section: libs
-Installed-Size: 13294
+Installed-Size: 13318
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: libvirt
-Version: 0.9.8-2ubuntu17.7
-Depends: libvirt0 (= 0.9.8-2ubuntu17.7)
-Filename: pool/main/libv/libvirt/libvirt0-dbg_0.9.8-2ubuntu17.7_amd64.deb
-Size: 4327734
-MD5sum: b7ebbdf8c20352ca2865cb262043572b
-SHA1: 220fc41d5b940919f601868c246dc108d2e7de48
-SHA256: 47abf0454d6df078c8cc2f05f159c901b70fd5f647bf3bc090b2d476d4b5667b
+Version: 0.9.8-2ubuntu17.8
+Depends: libvirt0 (= 0.9.8-2ubuntu17.8)
+Filename: pool/main/libv/libvirt/libvirt0-dbg_0.9.8-2ubuntu17.8_amd64.deb
+Size: 4335332
+MD5sum: 4535fec26a9fd07ca52d7b9c9b778d32
+SHA1: 3fa9c42cf2c6b770ae835c87d77ee2b0e3b53a3d
+SHA256: 82394139bc2f646a5fcb718d2d7517626e9849af4c72adc3aa57518e541c5234
 Description: library for interfacing with different virtualization systems
 Homepage: http://libvirt.org
 Description-md5: 5f02416fd3220b9d10c0d33b4cab8a63
@@ -81606,15 +81606,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: libvirt
-Version: 0.9.8-2ubuntu17.7
+Version: 0.9.8-2ubuntu17.8
 Provides: python2.7-libvirt
-Depends: libc6 (>= 2.4), libvirt0 (>= 0.9.8-2ubuntu17.7), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8)
+Depends: libc6 (>= 2.4), libvirt0 (>= 0.9.8-2ubuntu17.8), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8)
 Recommends: libvirt-bin
-Filename: pool/main/libv/libvirt/python-libvirt_0.9.8-2ubuntu17.7_amd64.deb
-Size: 96316
-MD5sum: bf8981c05595a41eda6c1a138ba0202b
-SHA1: ba83cc759834d781603ef5185cc776cdd0b8869b
-SHA256: 68c4bfc778d15f065d697a5dd3fa57d897299398a536f249a20ac2d97b64e27a
+Filename: pool/main/libv/libvirt/python-libvirt_0.9.8-2ubuntu17.8_amd64.deb
+Size: 97060
+MD5sum: 0b5636685e16975b6a33136150978002
+SHA1: 5a150d018474d064be43b78bef194ed6a46cda42
+SHA256: f1eafe42b0b21849e7c3167ed8829564292a11b40294d810179a7c876aa3d7ba
 Description: libvirt Python bindings
 Homepage: http://libvirt.org
 Description-md5: 1ea09e4ec81e360f28623d96cfd449ff
