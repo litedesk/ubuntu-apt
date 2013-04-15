@@ -4733,6 +4733,27 @@ Origin: Ubuntu
 Supported: 5y
 Task: minimal
 
+Package: haproxy
+Priority: optional
+Section: net
+Installed-Size: 886
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Christo Buschek <crito@30loops.net>
+Architecture: amd64
+Version: 1.4.18-0ubuntu1.1
+Depends: libc6 (>= 2.15), libpcre3 (>= 8.10), adduser
+Filename: pool/main/h/haproxy/haproxy_1.4.18-0ubuntu1.1_amd64.deb
+Size: 517448
+MD5sum: 6d4b505868a065eb4ced8556e3e518af
+SHA1: 11b0516c683e721f70cc3052578064cbc67f79a0
+SHA256: b205e54a7ce693d49844cc4ae4f57210ee4e591246a8dea41940fce0486ad2a4
+Description: fast and reliable load balancing reverse proxy
+Homepage: http://haproxy.1wt.eu/
+Description-md5: 29390feb7563fd9f1e74f245bf31a64c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
 Package: hv-kvp-daemon-init
 Priority: extra
 Section: admin
