@@ -10727,6 +10727,27 @@ Origin: Ubuntu
 Supported: 5y
 Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb
 
+Package: haproxy
+Priority: optional
+Section: net
+Installed-Size: 890
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Christo Buschek <crito@30loops.net>
+Architecture: i386
+Version: 1.4.18-0ubuntu1.1
+Depends: libc6 (>= 2.15), libpcre3 (>= 8.10), adduser
+Filename: pool/main/h/haproxy/haproxy_1.4.18-0ubuntu1.1_i386.deb
+Size: 513718
+MD5sum: 89742b7998b64f5beb9dbd75a17975d4
+SHA1: 921df026d477f25f8d8525da84ccc4ef1d0298a7
+SHA256: 6956b6adfc8a7f6841a623ac46b84d9df1c2bd4bfeefba11134e312a8f1a46a3
+Description: fast and reliable load balancing reverse proxy
+Homepage: http://haproxy.1wt.eu/
+Description-md5: 29390feb7563fd9f1e74f245bf31a64c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
 Package: hdparm
 Priority: standard
 Section: admin
