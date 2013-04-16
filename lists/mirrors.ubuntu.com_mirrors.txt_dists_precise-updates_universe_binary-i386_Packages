@@ -424,6 +424,29 @@ Description-md5: a9c6f07a2dd1c93fd399fa41bfd36cee
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: apt-cacher-ng
+Priority: optional
+Section: universe/net
+Installed-Size: 1106
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Eduard Bloch <blade@debian.org>
+Architecture: i386
+Version: 0.7.2-1ubuntu2
+Depends: libbz2-1.0, libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), liblzma5 (>= 5.1.1alpha+20110809), libstdc++6 (>= 4.6), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, adduser
+Pre-Depends: dpkg (>= 1.15.6)
+Recommends: perl (>> 5.8), ed
+Suggests: doc-base, libfuse2 (>= 2.5)
+Filename: pool/universe/a/apt-cacher-ng/apt-cacher-ng_0.7.2-1ubuntu2_i386.deb
+Size: 392918
+MD5sum: 01da371ef3e64721ecdbd1b963e1ed69
+SHA1: 369c77b97ff86e2385b06de39562a4c904a04199
+SHA256: ccaa96f036465539c5bac160abc7f3a7f1d36e73a4e522de0b2ee2a8a536be80
+Description: caching proxy server for software repositories
+Homepage: http://www.unix-ag.uni-kl.de/~bloch/acng/
+Description-md5: b88e5e2d04c76e8d4500fb60880c7d76
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: aptitude-doc-cs
 Priority: optional
 Section: universe/admin
@@ -20012,14 +20035,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: samba
-Version: 2:3.6.3-2ubuntu2.4
+Version: 2:3.6.3-2ubuntu2.5
 Depends: libacl1 (>= 2.2.51-5), libattr1 (>= 1:2.4.46-5), libc6 (>= 2.15), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libcups2 (>= 1.4.0), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libreadline6 (>= 6.0), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (>= 2:3.6.0~pre3), zlib1g (>= 1:1.1.4)
 Conflicts: samba4, samba4-testsuite
-Filename: pool/universe/s/samba/samba-tools_3.6.3-2ubuntu2.4_i386.deb
-Size: 11523708
-MD5sum: 47db31c6e9530a045ec4d096cbd4caa9
-SHA1: c2c17d31b8ec8afd730f8df52f97178cfe5b1b3d
-SHA256: da763e0cfa546f539947335e5cd1dfc5997397864f0b973859f55248dd6db115
+Filename: pool/universe/s/samba/samba-tools_3.6.3-2ubuntu2.5_i386.deb
+Size: 11522574
+MD5sum: 7aa493c8f34b9b3825c822b76a4805b6
+SHA1: 3ff2b901b9b910e6a94063dfa8997e02c8bd0648
+SHA256: 3c0ef125afae5673e68a3dd257e7424b3ac03d7ab57b376ebe70dcaab5983588
 Description: Samba testing utilities
 Homepage: http://www.samba.org
 Description-md5: e2a81a28e5322f5eb71f94b5b89163fa
@@ -20348,14 +20371,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: samba
-Version: 2:3.6.3-2ubuntu2.4
-Depends: samba (= 2:3.6.3-2ubuntu2.4), libc6 (>= 2.15), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libcups2 (>= 1.4.0), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (>= 2:3.6.0~pre3), zlib1g (>= 1:1.1.4), openbsd-inetd | inet-superserver
-Recommends: samba-doc (= 2:3.6.3-2ubuntu2.4)
-Filename: pool/universe/s/samba/swat_3.6.3-2ubuntu2.4_i386.deb
-Size: 2183882
-MD5sum: 09544b2470c0edffbecdb8d6d1a73f77
-SHA1: 8b786091dda7e5a835b841215d881b490fa4bc4a
-SHA256: cc9943e150bc434ff6ed3c77d297d50af14196e3e6c603a9231bd98cf4dacdf0
+Version: 2:3.6.3-2ubuntu2.5
+Depends: samba (= 2:3.6.3-2ubuntu2.5), libc6 (>= 2.15), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libcups2 (>= 1.4.0), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (>= 2:3.6.0~pre3), zlib1g (>= 1:1.1.4), openbsd-inetd | inet-superserver
+Recommends: samba-doc (= 2:3.6.3-2ubuntu2.5)
+Filename: pool/universe/s/samba/swat_3.6.3-2ubuntu2.5_i386.deb
+Size: 2183646
+MD5sum: dd2ad445e1dd662610273c45465cfc39
+SHA1: b23e88c8b0e403a7df932764aa8d4b840d6b758a
+SHA256: 4241730fe78b28d9640a0e3b9b82af998e8c1e029c62c9e9f568854d5520b30e
 Description: Samba Web Administration Tool
 Homepage: http://www.samba.org
 Description-md5: 522e805bdee5e0ab517ba107d1ef406a
