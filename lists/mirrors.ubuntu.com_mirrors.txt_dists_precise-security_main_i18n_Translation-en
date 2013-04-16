@@ -671,6 +671,16 @@ Description-en: Common UNIX Printing System(tm) - PPD manipulation utilities
  .
  This package provides utilities to generate and manipulate PPD files.
 
+Package: curl
+Description-md5: 08143ecc4521a0acfb272b8334edc4d0
+Description-en: Get a file from an HTTP, HTTPS or FTP server
+ curl is a client to get files from servers using any of the supported
+ protocols. The command is designed to work without user interaction
+ or any kind of interactivity.
+ .
+ curl offers a busload of useful tricks like proxy support, user
+ authentication, FTP upload, HTTP post, file transfer resume and more.
+
 Package: d-shlibs
 Description-md5: 0d1d1fb7110a13a9f03a9ac794dd3236
 Description-en: Debian shared library package building helper scripts
@@ -3376,6 +3386,73 @@ Description-en: Common UNIX Printing System(tm) - Development files PPD library
  .
  This package provides the files necessary for developing programs
  using libcupsppdc.
+
+Package: libcurl3
+Description-md5: 7a2342b6fa3c025a02cd15d4b024de31
+Description-en: Multi-protocol file transfer library (OpenSSL)
+ libcurl is designed to be a solid, usable, reliable and portable
+ multi-protocol file transfer library.
+ .
+ SSL support is provided by OpenSSL.
+ .
+ This is the shared version of libcurl.
+
+Package: libcurl3-dbg
+Description-md5: 76bb37b7063b15ca209eea809755ee1c
+Description-en: libcurl compiled with debug symbols
+ This contains the debug symbols of both the OpenSSL, GnuTLS and NSS versions
+ of libcurl3. It might be useful in debug sessions of software which uses
+ libcurl.
+
+Package: libcurl3-gnutls
+Description-md5: 9f980c616639fb4ab2a48d1b596200fc
+Description-en: Multi-protocol file transfer library (GnuTLS)
+ libcurl is designed to be a solid, usable, reliable and portable
+ multi-protocol file transfer library.
+ .
+ SSL support is provided by GnuTLS.
+ .
+ This is the shared version of libcurl.
+
+Package: libcurl3-nss
+Description-md5: 4f9d5792eacd0857482168716f067b0a
+Description-en: Multi-protocol file transfer library (NSS)
+ libcurl is designed to be a solid, usable, reliable and portable
+ multi-protocol file transfer library.
+ .
+ SSL support is provided by NSS.
+ .
+ This is the shared version of libcurl.
+
+Package: libcurl4-gnutls-dev
+Description-md5: 542a849fd833dd4aff3c38a8504ae2b7
+Description-en: Development files and documentation for libcurl (GnuTLS)
+ These files (ie. includes, static library, manual pages) allow to
+ build software which uses libcurl.
+ .
+ SSL support is provided by GnuTLS.
+ .
+ HTML and PDF versions of all the manual pages are also provided.
+
+Package: libcurl4-nss-dev
+Description-md5: d123065049db08c72cafe844f39de216
+Description-en: Development files and documentation for libcurl (NSS)
+ These files (ie. includes, static library, manual pages) allow to
+ build software which uses libcurl.
+ .
+ SSL support is provided by NSS.
+ .
+ HTML and PDF versions of all the manual pages are also provided.
+
+Package: libcurl4-openssl-dev
+Description-md5: f38505d4a9c32a048649c5343b708d98
+Description-en: Development files and documentation for libcurl (OpenSSL)
+ These files (ie. includes, static library, manual pages) allow to
+ build software which uses libcurl.
+ .
+ SSL support is provided by OpenSSL.
+ .
+ HTML and PDF versions of all the manual pages are also provided.
 
 Package: libdbus-1-3
 Description-md5: 394b84dd0007d22bc4bb591ca6b5fa31
