@@ -55183,14 +55183,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: samba
-Version: 2:3.6.3-2ubuntu2.5
-Depends: libc6 (>= 2.15), libcap2 (>= 2.10), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (>= 2:3.6.0~pre3), samba-common (= 2:3.6.3-2ubuntu2.5), libpam-runtime (>= 1.0.1-6)
+Version: 2:3.6.3-2ubuntu2.6
+Depends: libc6 (>= 2.15), libcap2 (>= 2.10), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (>= 2:3.6.0~pre3), samba-common (= 2:3.6.3-2ubuntu2.6), libpam-runtime (>= 1.0.1-6)
 Suggests: samba
-Filename: pool/main/s/samba/libpam-smbpass_3.6.3-2ubuntu2.5_i386.deb
-Size: 760896
-MD5sum: 68a1288f4558c69356df759c3b69b0e7
-SHA1: 1146086c33c601efd71cb8b8dcf75f358cb651cb
-SHA256: 2bf2e03100e3e55c8cff651d24f92fc4135305c2cb4f96e60350d4d9ba26aa7c
+Filename: pool/main/s/samba/libpam-smbpass_3.6.3-2ubuntu2.6_i386.deb
+Size: 761808
+MD5sum: bf4d00f946735ea0554044eef8814a32
+SHA1: 04bc2f383139b52cc5e0e28e5c4c59395a789636
+SHA256: e79cd8f5c571a925957383a8773bf6c1885bcc3c541ae684afa00820d799dfb0
 Description: pluggable authentication module for Samba
 Multi-Arch: same
 Homepage: http://www.samba.org
@@ -55208,15 +55208,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: samba
-Version: 2:3.6.3-2ubuntu2.5
+Version: 2:3.6.3-2ubuntu2.6
 Replaces: samba (<= 2.2.3-2), winbind (<< 2:3.5.11~dfsg-3)
-Depends: libc6 (>= 2.15), libcap2 (>= 2.10), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 1.1.3-2~), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (= 2:3.6.3-2ubuntu2.5), winbind (= 2:3.6.3-2ubuntu2.5), samba-common (= 2:3.6.3-2ubuntu2.5), libpam-runtime (>= 1.0.1-6)
+Depends: libc6 (>= 2.15), libcap2 (>= 2.10), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 1.1.3-2~), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (= 2:3.6.3-2ubuntu2.6), winbind (= 2:3.6.3-2ubuntu2.6), samba-common (= 2:3.6.3-2ubuntu2.6), libpam-runtime (>= 1.0.1-6)
 Breaks: winbind (<< 2:3.5.11~dfsg-3)
-Filename: pool/main/s/samba/libpam-winbind_3.6.3-2ubuntu2.5_i386.deb
-Size: 622468
-MD5sum: c22de9e8de8bbf9e1da537719ef88d0d
-SHA1: 5e8fcbc25d1529738718ede3d145826e92dbfb66
-SHA256: 5ffbe8d50f4011a5905cb6f7eea787b6aaf3cde020dc455712b2e3dafc59c5fe
+Filename: pool/main/s/samba/libpam-winbind_3.6.3-2ubuntu2.6_i386.deb
+Size: 623148
+MD5sum: d689640e167fbb282153a182bcb68249
+SHA1: 4550305f41824a2fba80e8b8cac50a24977cc6c0
+SHA256: 35a7c4abfbaf171bfeaf405be7151739ab4dc47c77fcd3d6c5ddaae51539c31a
 Description: Samba nameservice and authentication integration plugins
 Multi-Arch: same
 Homepage: http://www.samba.org
@@ -61844,14 +61844,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: samba
-Version: 2:3.6.3-2ubuntu2.5
+Version: 2:3.6.3-2ubuntu2.6
 Depends: libc6 (>= 2.15), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (>= 2:3.6.0~pre3), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
-Filename: pool/main/s/samba/libsmbclient_3.6.3-2ubuntu2.5_i386.deb
-Size: 2135646
-MD5sum: 371986d60580f3d012234245b8bb2050
-SHA1: f9ecb1fbf98f3cc949414d57fa8f9cb5e2a64cf7
-SHA256: 372b125b7f37de28ad1daf0ef985d4044925de7191633e4ffa4edc44a2affaf9
+Filename: pool/main/s/samba/libsmbclient_3.6.3-2ubuntu2.6_i386.deb
+Size: 2135466
+MD5sum: d620d3aa5b7176f36c1ccd21857aa492
+SHA1: 04099b116553ea76bac7ba7e4d055f08df9e5ddd
+SHA256: ab6da9d41c344660e4595ce31b44b3cc6c1b6f61ffeb654a4bb44e15c7b115d7
 Description: shared library for communication with SMB/CIFS servers
 Multi-Arch: same
 Homepage: http://www.samba.org
@@ -61869,13 +61869,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: samba
-Version: 2:3.6.3-2ubuntu2.5
-Depends: libsmbclient (= 2:3.6.3-2ubuntu2.5)
-Filename: pool/main/s/samba/libsmbclient-dev_3.6.3-2ubuntu2.5_i386.deb
-Size: 2833278
-MD5sum: 45449858cdcbdf06e9b567ec6d17e43b
-SHA1: de78ddc645d0110db0872b0770591f954819446a
-SHA256: a8637db71f850e5d922a0876be184018fc9c5be519563b8858a86d987f4c4a78
+Version: 2:3.6.3-2ubuntu2.6
+Depends: libsmbclient (= 2:3.6.3-2ubuntu2.6)
+Filename: pool/main/s/samba/libsmbclient-dev_3.6.3-2ubuntu2.6_i386.deb
+Size: 2831756
+MD5sum: 87fd1f7bfb37a7696eefc278787b6877
+SHA1: f2060faf4987b8dd94918f82134f3dc252be0a4f
+SHA256: e0f9fca233b2031f9e0ccc9a0364c4646f6dfc67cca786af800f84ec190cbcea
 Description: development files for libsmbclient
 Multi-Arch: same
 Homepage: http://www.samba.org
@@ -64176,13 +64176,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: samba
-Version: 2:3.6.3-2ubuntu2.5
-Depends: libwbclient0 (= 2:3.6.3-2ubuntu2.5)
-Filename: pool/main/s/samba/libwbclient-dev_3.6.3-2ubuntu2.5_i386.deb
-Size: 9998
-MD5sum: fad3cb61eef80940841df9b64b3906ff
-SHA1: f8b56b445be2e617a8ad337df4b1373705f304a4
-SHA256: d9984a506b890708d36f4849cf58fcd87fb3522373780ff6abe6b5989b672c8e
+Version: 2:3.6.3-2ubuntu2.6
+Depends: libwbclient0 (= 2:3.6.3-2ubuntu2.6)
+Filename: pool/main/s/samba/libwbclient-dev_3.6.3-2ubuntu2.6_i386.deb
+Size: 10226
+MD5sum: 995cfd7a61b7868521369e6f3d6778a1
+SHA1: eeab89c91a05905973cb2b1344362be2df3bed69
+SHA256: ef2d6f28331e3ed8ff6cff671a154d13ff03f2e258eb67ef083b41ceed3fbc5c
 Description: Samba winbind client library - development files
 Multi-Arch: same
 Homepage: http://www.samba.org
@@ -64199,15 +64199,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: samba
-Version: 2:3.6.3-2ubuntu2.5
+Version: 2:3.6.3-2ubuntu2.6
 Depends: libc6 (>= 2.8)
 Pre-Depends: multiarch-support
 Breaks: libpam-smbpass (<< 2:3.4.1), libsmbclient (<< 2:3.4.1), samba (<< 2:3.4.1), samba-common (<< 2:3.4.1), samba-tools (<< 2:3.4.1), smbclient (<< 2:3.4.1), smbfs (<< 2:3.4.1), swat (<< 2:3.4.1), winbind (<< 2:3.4.1)
-Filename: pool/main/s/samba/libwbclient0_3.6.3-2ubuntu2.5_i386.deb
-Size: 31336
-MD5sum: 1cef94a024d5698a174d335fbf19400e
-SHA1: 975fc14128c1bbbf3b2397124bf175c46b749938
-SHA256: f99399e63ecfcd1c5976b47521263a908777324ce2ba25658f50716847d581fd
+Filename: pool/main/s/samba/libwbclient0_3.6.3-2ubuntu2.6_i386.deb
+Size: 31010
+MD5sum: f070727bbea3fd412d0da2e26a5224f7
+SHA1: 8c5f9b3a6e2e6657353fe0bb8c7a33ea98f45cfa
+SHA256: 8f044de53205989ff895ca697de0240984aaa227b76c93f43e16226c352c33f8
 Description: Samba winbind client library
 Multi-Arch: same
 Homepage: http://www.samba.org
@@ -86584,17 +86584,17 @@ Installed-Size: 22380
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: i386
-Version: 2:3.6.3-2ubuntu2.5
+Version: 2:3.6.3-2ubuntu2.6
 Replaces: samba-common (<= 2.0.5a-2)
-Depends: samba-common (= 2:3.6.3-2ubuntu2.5), libwbclient0 (= 2:3.6.3-2ubuntu2.5), libacl1 (>= 2.2.51-5), libattr1 (>= 1:2.4.46-5), libc6 (>= 2.15), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libcups2 (>= 1.4.0), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, upstart-job, libpam-runtime (>= 1.0.1-11), libpam-modules, lsb-base (>= 3.2-13), procps, update-inetd, adduser, samba-common-bin
+Depends: samba-common (= 2:3.6.3-2ubuntu2.6), libwbclient0 (= 2:3.6.3-2ubuntu2.6), libacl1 (>= 2.2.51-5), libattr1 (>= 1:2.4.46-5), libc6 (>= 2.15), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libcups2 (>= 1.4.0), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, upstart-job, libpam-runtime (>= 1.0.1-11), libpam-modules, lsb-base (>= 3.2-13), procps, update-inetd, adduser, samba-common-bin
 Recommends: logrotate, tdb-tools
 Suggests: openbsd-inetd | inet-superserver, smbldap-tools, ldb-tools, ctdb, ufw
 Conflicts: samba4 (<< 4.0.0~alpha6-2)
-Filename: pool/main/s/samba/samba_3.6.3-2ubuntu2.5_i386.deb
-Size: 8019666
-MD5sum: c4fe0ef33626868a28268e61ac084b61
-SHA1: 1099adac0439436d92a96dd922447048bb392847
-SHA256: d3063f94f24339d5cc2e4ca8ef5430298802604b6d8ff0bee1954881fd8ce0cb
+Filename: pool/main/s/samba/samba_3.6.3-2ubuntu2.6_i386.deb
+Size: 8013164
+MD5sum: 2c26092465f54b114041e19172aa2421
+SHA1: c40b6bf892cf0c82b75985022ca0b9729ef7164c
+SHA256: d7f5cd0dbba6e9356b710023fdda7b78d6bb61a3e5a1337f7cff38af372565e9
 Description: SMB/CIFS file, print, and login server for Unix
 Homepage: http://www.samba.org
 Description-md5: 0122ac62ef5f4ae21eb2e195eb45ad1d
@@ -86611,16 +86611,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: all
 Source: samba
-Version: 2:3.6.3-2ubuntu2.5
+Version: 2:3.6.3-2ubuntu2.6
 Replaces: samba (<< 3.0.20b-1), samba4-common (<< 4.0.0~alpha7-1)
 Depends: ucf, debconf (>= 0.5) | debconf-2.0
 Recommends: samba-common-bin
 Conflicts: samba4-common (<< 4.0.0~alpha7-1)
-Filename: pool/main/s/samba/samba-common_3.6.3-2ubuntu2.5_all.deb
-Size: 326078
-MD5sum: a02f71493d885ce0b0aa8a71dfcfd7ab
-SHA1: f5f1ac0fcfd28fb2cc0d1e3258eff54b8c66c240
-SHA256: 0bb881d08b80aa13137199e2e8c795dc23a6bb6cd45f0780d9f928c54daaff25
+Filename: pool/main/s/samba/samba-common_3.6.3-2ubuntu2.6_all.deb
+Size: 325824
+MD5sum: 438f5b59e437084f74449f3fa5cde6b1
+SHA1: 6aef7d85462012643f61aeb67d502c058e12802a
+SHA256: 90d1a4f68dc2942f600592d425a8ac7cd78ddf9a1891795eec4432943fbf6a95
 Description: common files used by both the Samba server and client
 Multi-Arch: foreign
 Homepage: http://www.samba.org
@@ -86638,14 +86638,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: samba
-Version: 2:3.6.3-2ubuntu2.5
+Version: 2:3.6.3-2ubuntu2.6
 Replaces: samba (<< 3.0.20b-1), samba-common (<< 2:3.4.0~pre1-2)
 Depends: libc6 (>= 2.15), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpopt0 (>= 1.14), libreadline6 (>= 6.0), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libuuid1 (>= 2.16), libwbclient0 (>= 2:3.6.0~pre3), zlib1g (>= 1:1.1.4), samba-common (>= 2:3.4.0~pre1-2)
-Filename: pool/main/s/samba/samba-common-bin_3.6.3-2ubuntu2.5_i386.deb
-Size: 6153016
-MD5sum: e6c330fd3a4ff71090f3822997c6e409
-SHA1: c8b84a6168e4268460b499305a201691515e86ad
-SHA256: 95c4b7bd8c77d4defef568637844d1959fef7f4b2191b834fa10c2d47f9fafff
+Filename: pool/main/s/samba/samba-common-bin_3.6.3-2ubuntu2.6_i386.deb
+Size: 6149760
+MD5sum: 21bd6c0851b2337db8ad2f4264b26814
+SHA1: 372408d61648912dbc230553def69bf4a09fa14c
+SHA256: d2b1c9d32996ab045086c27f75821602316fe4bac2b550cf350052cdc04549e7
 Description: common files used by both the Samba server and client
 Multi-Arch: foreign
 Homepage: http://www.samba.org
@@ -86663,13 +86663,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: samba
-Version: 2:3.6.3-2ubuntu2.5
-Depends: samba (= 2:3.6.3-2ubuntu2.5)
-Filename: pool/main/s/samba/samba-dbg_3.6.3-2ubuntu2.5_i386.deb
-Size: 48260722
-MD5sum: adaa8c4ffd49f7541d7dcad25b11f3b6
-SHA1: 4a66b3b36191d3edce4f8da5c11b63f5591cc3c5
-SHA256: 539d082ba4500be3aa6dc0efa343c842ee6755201b287cbe5b993378238c6c49
+Version: 2:3.6.3-2ubuntu2.6
+Depends: samba (= 2:3.6.3-2ubuntu2.6)
+Filename: pool/main/s/samba/samba-dbg_3.6.3-2ubuntu2.6_i386.deb
+Size: 48259630
+MD5sum: 728a2f3335ee0a47df998cd2b1b78d3a
+SHA1: 929c31b01605ba4ca342f7a3558dafbda537cd55
+SHA256: 87447ee103c44f519ca03ff4487a9c4d5beadf28f2456fc477747b55612cd325
 Description: Samba debugging symbols
 Homepage: http://www.samba.org
 Description-md5: f3ad98b58579564228dc9b95ecaca46a
@@ -86685,13 +86685,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: all
 Source: samba
-Version: 2:3.6.3-2ubuntu2.5
+Version: 2:3.6.3-2ubuntu2.6
 Suggests: samba-doc-pdf
-Filename: pool/main/s/samba/samba-doc_3.6.3-2ubuntu2.5_all.deb
-Size: 1689486
-MD5sum: 3dab4edc4095449df37f50ec048863b8
-SHA1: 009e604b2ff25914e543fdeb7d89ddffe46dc224
-SHA256: c37f1d67c11ec8c0fa62a7080e879a0455d0d9e9cbf79260232813f71796588f
+Filename: pool/main/s/samba/samba-doc_3.6.3-2ubuntu2.6_all.deb
+Size: 1686354
+MD5sum: a1460cc09096ced5ee3e4b489ada402b
+SHA1: 8113c86947dbead8b107e4f6356275bdac61587d
+SHA256: 10a57b6899b47e3fd1ec4ebf228bf244492dceff22ea9ef4d559231ed0d40260
 Description: Samba documentation
 Homepage: http://www.samba.org
 Description-md5: a0929c1210df3dd912c15b8d3bdab5ff
@@ -86708,12 +86708,12 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: all
 Source: samba
-Version: 2:3.6.3-2ubuntu2.5
-Filename: pool/main/s/samba/samba-doc-pdf_3.6.3-2ubuntu2.5_all.deb
-Size: 6993512
-MD5sum: 03ff9f66838c7280fd114816a1ec6ad8
-SHA1: e5bc755e6aca54315cbd5e1b6d77ca9f74f88338
-SHA256: ae6520dc5e42336f70ae7a6c4ccf4ea9aede9a3f968316b56cdb837edfd35030
+Version: 2:3.6.3-2ubuntu2.6
+Filename: pool/main/s/samba/samba-doc-pdf_3.6.3-2ubuntu2.6_all.deb
+Size: 6993514
+MD5sum: d1e14112df9bb05730b7de08300b4500
+SHA1: d864ead75c9e2449c55813f9dff5056e62261b0b
+SHA256: bc1df7f7ae87ed681bb6740b7d058569c483d8b053cfa8cf23e4b93aece51930
 Description: Samba documentation in PDF format
 Homepage: http://www.samba.org
 Description-md5: 9a7a9193c0d5ef2aafebcf80d7b2d356
@@ -86977,17 +86977,17 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: samba
-Version: 2:3.6.3-2ubuntu2.5
+Version: 2:3.6.3-2ubuntu2.6
 Replaces: samba (<< 2.999+3.0.alpha21-4), smbget
 Provides: samba-client
-Depends: samba-common (= 2:3.6.3-2ubuntu2.5), libc6 (>= 2.15), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpopt0 (>= 1.14), libreadline6 (>= 6.0), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (>= 2:3.6.0~pre3), zlib1g (>= 1:1.1.4)
+Depends: samba-common (= 2:3.6.3-2ubuntu2.6), libc6 (>= 2.15), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpopt0 (>= 1.14), libreadline6 (>= 6.0), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (>= 2:3.6.0~pre3), zlib1g (>= 1:1.1.4)
 Suggests: cifs-utils
 Conflicts: samba4-clients
-Filename: pool/main/s/samba/smbclient_3.6.3-2ubuntu2.5_i386.deb
-Size: 13959728
-MD5sum: 5c137800b09e3ca7fa4ca89028855cab
-SHA1: 12c0c9dddb8b47116473f58c779c7d786fc1685a
-SHA256: 10c55e71fadeeeb1497a258b9a6c75fb6542842919d51092b62efe623f2064ac
+Filename: pool/main/s/samba/smbclient_3.6.3-2ubuntu2.6_i386.deb
+Size: 13962642
+MD5sum: ac9fc236bfa51dec0bb1441bfde61c20
+SHA1: 94f032cc8698419fec09cc2fbaa4ca00b1469d94
+SHA256: 2d4480597fb43f4ee97fc95bdf62861d4c9ce342355d4b7bd4f8d44dd0003aae
 Description: command-line SMB/CIFS clients for Unix
 Homepage: http://www.samba.org
 Description-md5: 476018eed30b7f1e76b02afe22aaf008
@@ -91550,15 +91550,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: samba
-Version: 2:3.6.3-2ubuntu2.5
+Version: 2:3.6.3-2ubuntu2.6
 Replaces: samba (<= 2.2.3-2)
-Depends: libc6 (>= 2.15), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (= 2:3.6.3-2ubuntu2.5), zlib1g (>= 1:1.1.4), samba-common (= 2:3.6.3-2ubuntu2.5), lsb-base (>= 3.0-6), adduser
+Depends: libc6 (>= 2.15), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (= 2:3.6.3-2ubuntu2.6), zlib1g (>= 1:1.1.4), samba-common (= 2:3.6.3-2ubuntu2.6), lsb-base (>= 3.0-6), adduser
 Recommends: libpam-winbind
-Filename: pool/main/s/samba/winbind_3.6.3-2ubuntu2.5_i386.deb
-Size: 4398866
-MD5sum: 59733c1bab94ab1f5dd2721a6a6d6fbe
-SHA1: 5daa0bd2d733c8502ffd9d67a15ffe7b184bce0d
-SHA256: 5522811ce5e47dd5aa7e5c5e081ac1f4d28fa3ea535d2c78269ff89b6e9181d7
+Filename: pool/main/s/samba/winbind_3.6.3-2ubuntu2.6_i386.deb
+Size: 4393128
+MD5sum: ddd7b089580e183ce9152e4e0a7c0278
+SHA1: 01f7b782d83cb25da058fc5ad2ef2ebed68fc51a
+SHA256: 8651c6a3ce1ace19c0c72050098f08be5f1804cfe1f1297de1b856ba05644709
 Description: Samba nameservice integration server
 Multi-Arch: foreign
 Homepage: http://www.samba.org
