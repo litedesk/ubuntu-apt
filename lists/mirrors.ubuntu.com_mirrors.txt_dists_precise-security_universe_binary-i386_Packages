@@ -8876,18 +8876,18 @@ Origin: Ubuntu
 Package: xdmx
 Priority: optional
 Section: universe/x11
-Installed-Size: 2040
+Installed-Size: 2041
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: i386
 Source: xorg-server
-Version: 2:1.11.4-0ubuntu10.6
-Depends: xserver-common (>= 2:1.11.4-0ubuntu10.6), libc6 (>= 2.15), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.21.6), libx11-6 (>= 2:1.4.99.1), libxau6, libxdmcp6, libxext6, libxfixes3, libxfont1 (>= 1:1.4.2), libxi6, libxmuu1, libxrender1
-Filename: pool/universe/x/xorg-server/xdmx_1.11.4-0ubuntu10.6_i386.deb
-Size: 885592
-MD5sum: 85ed2c698d15e7804e75806fd3bd5650
-SHA1: 4cbfbf1c96054dddfddf9a3024eb69b03687513d
-SHA256: 0e42f6c8979ecb32dc14832893a325d5ee533c03889718f25c0374420c3ec371
+Version: 2:1.11.4-0ubuntu10.13
+Depends: xserver-common (>= 2:1.11.4-0ubuntu10.13), libc6 (>= 2.15), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.21.6), libx11-6 (>= 2:1.4.99.1), libxau6, libxdmcp6, libxext6, libxfixes3, libxfont1 (>= 1:1.4.2), libxi6, libxmuu1, libxrender1
+Filename: pool/universe/x/xorg-server/xdmx_1.11.4-0ubuntu10.13_i386.deb
+Size: 885282
+MD5sum: 161728d1e0a8d3fe1e75e87dd4e84dfe
+SHA1: 49044c0d234cdaaf62a3a4b05e40f3371fba81fb
+SHA256: 60bd5c3f909aa88f899fc62a73f750ad6f23a87030ddc3adcadd81dc680c252b
 Description: distributed multihead X server
 Description-md5: d52dd645b5fa9daf3052065e2345991f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -8896,18 +8896,18 @@ Origin: Ubuntu
 Package: xdmx-tools
 Priority: optional
 Section: universe/x11
-Installed-Size: 380
+Installed-Size: 381
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: i386
 Source: xorg-server
-Version: 2:1.11.4-0ubuntu10.6
+Version: 2:1.11.4-0ubuntu10.13
 Depends: xdmx, libc6 (>= 2.4), libdmx1, libx11-6, libxaw7, libxmu6, libxt6
-Filename: pool/universe/x/xorg-server/xdmx-tools_1.11.4-0ubuntu10.6_i386.deb
-Size: 83548
-MD5sum: 9784b21aeaac9f69da971ef62d0d1bec
-SHA1: fbfcc66a8929319beb56c59483d0f8767e84f0e4
-SHA256: f3b18f881e80286551250f547bc92b21311c317140adadc873a2323dc13e4cde
+Filename: pool/universe/x/xorg-server/xdmx-tools_1.11.4-0ubuntu10.13_i386.deb
+Size: 83564
+MD5sum: cf4033cc16a6e6c016f06a48effc931a
+SHA1: 1d64172f977d46c161c049fa9a2fe5726380839e
+SHA256: 4915fff6735c0b12ec8cdc2316ca496938dc04f09ed3009536338eb61126e35f
 Description: Distributed Multihead X tools
 Description-md5: d19e4657677c5d6dc4d36c168f58a7f4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -9050,20 +9050,20 @@ Origin: Ubuntu
 Package: xserver-xephyr
 Priority: optional
 Section: universe/x11
-Installed-Size: 2313
+Installed-Size: 2314
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: i386
 Source: xorg-server
-Version: 2:1.11.4-0ubuntu10.6
+Version: 2:1.11.4-0ubuntu10.13
 Provides: xserver
-Depends: xserver-common (>= 2:1.11.4-0ubuntu10.6), libc6 (>= 2.15), libgcrypt11 (>= 1.4.5), libgl1-mesa-glx | libgl1, libpixman-1-0 (>= 0.21.6), libx11-6 (>= 2:1.4.99.1), libxau6, libxdmcp6, libxext6, libxfont1 (>= 1:1.4.2), libxv1
+Depends: xserver-common (>= 2:1.11.4-0ubuntu10.13), libc6 (>= 2.15), libgcrypt11 (>= 1.4.5), libgl1-mesa-glx | libgl1, libpixman-1-0 (>= 0.21.6), libx11-6 (>= 2:1.4.99.1), libxau6, libxdmcp6, libxext6, libxfont1 (>= 1:1.4.2), libxv1
 Recommends: libgl1-mesa-dri (>= 7.1~rc1)
-Filename: pool/universe/x/xorg-server/xserver-xephyr_1.11.4-0ubuntu10.6_i386.deb
-Size: 980322
-MD5sum: 3eb9148392bf62e563d984e7652f3035
-SHA1: 56616ecdd82d4be981b80e12a78e203f14e06f10
-SHA256: 25b81fedbbd7dd852d5ef7bca39160f4a044923de172b3837c879b212043b7c2
+Filename: pool/universe/x/xorg-server/xserver-xephyr_1.11.4-0ubuntu10.13_i386.deb
+Size: 980038
+MD5sum: b7064f1d8b6b79102ad93a6e01b97b9b
+SHA1: 867a0a3409af3d5bae77cc5ebb18bc01343b81a1
+SHA256: 98706cc9cddbc00cb691b77a4ef4b7780f22cc0d86d81cfe5d8aa556b64036c8
 Description: nested X server
 Description-md5: 516dc4b8b7e15f13bc99547d4869e159
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -9072,19 +9072,19 @@ Origin: Ubuntu
 Package: xserver-xfbdev
 Priority: optional
 Section: universe/x11
-Installed-Size: 2141
+Installed-Size: 2142
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: i386
 Source: xorg-server
-Version: 2:1.11.4-0ubuntu10.6
+Version: 2:1.11.4-0ubuntu10.13
 Provides: xserver
-Depends: xserver-common (>= 2:1.11.4-0ubuntu10.6), libc6 (>= 2.15), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.21.6), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2)
-Filename: pool/universe/x/xorg-server/xserver-xfbdev_1.11.4-0ubuntu10.6_i386.deb
-Size: 904010
-MD5sum: 3abd3cc9d1583e000170a842a3d46740
-SHA1: d345a990b9261854bfa212fe69fa2986fbef9db2
-SHA256: 2211c97f98a8686c45c4e45b5163a1b14e49ea032aa9225fa19132d4cfdc2f30
+Depends: xserver-common (>= 2:1.11.4-0ubuntu10.13), libc6 (>= 2.15), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.21.6), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2)
+Filename: pool/universe/x/xorg-server/xserver-xfbdev_1.11.4-0ubuntu10.13_i386.deb
+Size: 903612
+MD5sum: 35b34a2facc5c42c2173e143aa4dd23e
+SHA1: 30699a09f723e7d0dccc0f18d253d5e40d8fb88f
+SHA256: 39e865cab66549a01365a4441adea00ed5c854ae91083ef32d41ca6bfcc398cc
 Description: Linux framebuffer device tiny X server
 Description-md5: 952ef27a58e5dee1c023edecc5e03fb8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug

@@ -8108,6 +8108,260 @@ Origin: Ubuntu
 Supported: 5y
 Task: standard, kubuntu-active, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master
 
+Package: libdrm-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 705
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libdrm
+Version: 2.4.39-0ubuntu0.2
+Replaces: linux-libc-dev (<< 2.6.32-10)
+Depends: libdrm2 (= 2.4.39-0ubuntu0.2), libdrm-intel1 (= 2.4.39-0ubuntu0.2), libdrm-radeon1 (= 2.4.39-0ubuntu0.2), libdrm-nouveau1a (= 2.4.39-0ubuntu0.2), libdrm-nouveau2 (= 2.4.39-0ubuntu0.2), libkms1 (= 2.4.39-0ubuntu0.2)
+Filename: pool/main/libd/libdrm/libdrm-dev_2.4.39-0ubuntu0.2_amd64.deb
+Size: 182050
+MD5sum: 3f19e720f893c370051903e0c2672aa5
+SHA1: b4e60c19b8ba4f49f4a89e81be1ce50de6a6772f
+SHA256: 8e51b4cee2b324280833949575272c09fc2f6c24e7dbdf474c1911161d93385e
+Description: Userspace interface to kernel DRM services -- development files
+Description-md5: 26367cfc3b23b21ad8b59e1f0974ff45
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: kubuntu-full, kubuntu-active-full
+
+Package: libdrm-intel1
+Priority: required
+Section: libs
+Installed-Size: 185
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libdrm
+Version: 2.4.39-0ubuntu0.2
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.38), libpciaccess0
+Pre-Depends: multiarch-support
+Filename: pool/main/libd/libdrm/libdrm-intel1_2.4.39-0ubuntu0.2_amd64.deb
+Size: 62736
+MD5sum: 4a6a0a3bd621bdd7c4bbb85919597d51
+SHA1: 5da4b788a8b8a3ec6acda6caa0060e2ac8a45737
+SHA256: 764e8f2158abfa934df9bfb326f42f191ac5082459b390cbe57e66ec125f25a2
+Description: Userspace interface to intel-specific kernel DRM services -- runtime
+Multi-Arch: same
+Description-md5: a0ec25778ef74dfe186d7ace2946e2e9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: minimal
+
+Package: libdrm-intel1-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 146
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libdrm
+Version: 2.4.39-0ubuntu0.2
+Depends: libdrm-intel1 (= 2.4.39-0ubuntu0.2)
+Filename: pool/main/libd/libdrm/libdrm-intel1-dbg_2.4.39-0ubuntu0.2_amd64.deb
+Size: 74902
+MD5sum: 2cbeed34c988e1689037c7c6783c1a78
+SHA1: 1424599b9d2bb58e6797284c3c4da4fcd65e3246
+SHA256: b2f7f0e475103eade644432691a4156768d9fa5ddfe78185b4f47181337c8d55
+Description: Userspace interface to intel-specific kernel DRM services -- debugging symbols
+Multi-Arch: same
+Description-md5: 479d5fd9b792b0e4005a9def65feed19
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libdrm-nouveau1a
+Priority: required
+Section: libs
+Installed-Size: 86
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libdrm
+Version: 2.4.39-0ubuntu0.2
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.3)
+Pre-Depends: multiarch-support
+Conflicts: libdrm-nouveau1
+Filename: pool/main/libd/libdrm/libdrm-nouveau1a_2.4.39-0ubuntu0.2_amd64.deb
+Size: 14008
+MD5sum: 9dfa2f0b046a9a5dd78797dc1e4e7ca2
+SHA1: 2c7b3adbe2f63500f0628c2e31be87f1abb1c088
+SHA256: c95c89215859f5465b3e1a718f3e64518921fda0a2d634c74af744bfb8755ae8
+Description: Userspace interface to nouveau-specific kernel DRM services -- runtime
+Multi-Arch: same
+Description-md5: e9d35521833d93a9e60b0579def3745c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: minimal
+
+Package: libdrm-nouveau1a-dbg
+Priority: extra
+Section: debug
+Installed-Size: 90
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libdrm
+Version: 2.4.39-0ubuntu0.2
+Depends: libdrm-nouveau1a (= 2.4.39-0ubuntu0.2)
+Conflicts: libdrm-nouveau1-dbg
+Filename: pool/main/libd/libdrm/libdrm-nouveau1a-dbg_2.4.39-0ubuntu0.2_amd64.deb
+Size: 26206
+MD5sum: 4bec0a2407174131e70790a3547b50c5
+SHA1: 941934718843da18e76b22eecbfe188987fbbcdc
+SHA256: f3826b092ab106d112889b633810e2c728cda1d5e317241cd2b10eae7822a1f7
+Description: Userspace interface to nouveau-specific kernel DRM -- debugging symbols
+Multi-Arch: same
+Description-md5: 04f3874d8b5416331bb5ae8bf6fd83a2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libdrm-nouveau2
+Priority: optional
+Section: libs
+Installed-Size: 86
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libdrm
+Version: 2.4.39-0ubuntu0.2
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.38)
+Pre-Depends: multiarch-support
+Filename: pool/main/libd/libdrm/libdrm-nouveau2_2.4.39-0ubuntu0.2_amd64.deb
+Size: 15056
+MD5sum: 57b9ca92a34744c9fcec9bd0175ece74
+SHA1: 393e2e056a5ecf50cbdddec5438ed0fe27d42833
+SHA256: e6d4db1aa8fe68080b66bec993805494a4758858ad3755c64c4f388a8f28dbfa
+Description: Userspace interface to nouveau-specific kernel DRM services -- runtime
+Multi-Arch: same
+Description-md5: e9d35521833d93a9e60b0579def3745c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libdrm-nouveau2-dbg
+Priority: extra
+Section: debug
+Installed-Size: 89
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libdrm
+Version: 2.4.39-0ubuntu0.2
+Depends: libdrm-nouveau2 (= 2.4.39-0ubuntu0.2)
+Filename: pool/main/libd/libdrm/libdrm-nouveau2-dbg_2.4.39-0ubuntu0.2_amd64.deb
+Size: 25506
+MD5sum: 8e959f7a0e566e9e55384c3840109dbd
+SHA1: 2a0ec5946279a6ca3979e2816ab35041ab9cc804
+SHA256: 7129f14541e71668a36c6893ca81e8fc08a33e8b760a17e460be6d2a5810a898
+Description: Userspace interface to nouveau-specific kernel DRM -- debugging symbols
+Multi-Arch: same
+Description-md5: bc7863f85d24e4be61774283f8d6e55d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libdrm-radeon1
+Priority: required
+Section: libs
+Installed-Size: 103
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libdrm
+Version: 2.4.39-0ubuntu0.2
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.38)
+Pre-Depends: multiarch-support
+Filename: pool/main/libd/libdrm/libdrm-radeon1_2.4.39-0ubuntu0.2_amd64.deb
+Size: 22636
+MD5sum: 2fc45a5a1f6867aa115bc4b2195db91e
+SHA1: b42fb7f77394e585c1b731e23674bd94810ab5fa
+SHA256: 799b63aca5d1a86b992c6ff417c92f2dce43cf761060eae6e261199b056c734b
+Description: Userspace interface to radeon-specific kernel DRM services -- runtime
+Multi-Arch: same
+Description-md5: fbdefd428f29bf05163182b24d86f2a4
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: minimal
+
+Package: libdrm-radeon1-dbg
+Priority: extra
+Section: debug
+Installed-Size: 101
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libdrm
+Version: 2.4.39-0ubuntu0.2
+Depends: libdrm-radeon1 (= 2.4.39-0ubuntu0.2)
+Filename: pool/main/libd/libdrm/libdrm-radeon1-dbg_2.4.39-0ubuntu0.2_amd64.deb
+Size: 36126
+MD5sum: 4f5763e4284ec67c3e1efec52c20f271
+SHA1: 388918c20e0239c443e7852a9e316021b29bde33
+SHA256: 859e61b83fafe986f2201e892bcf2f1c9c8dfd65ab64396a129f80fa2a85c675
+Description: Userspace interface to radeon-specific kernel DRM services -- debugging symbols
+Multi-Arch: same
+Description-md5: 56a3655eb825ab9851b19faa2d4fad7a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libdrm2
+Priority: required
+Section: libs
+Installed-Size: 101
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libdrm
+Version: 2.4.39-0ubuntu0.2
+Depends: libc6 (>= 2.14)
+Pre-Depends: multiarch-support
+Filename: pool/main/libd/libdrm/libdrm2_2.4.39-0ubuntu0.2_amd64.deb
+Size: 26262
+MD5sum: cdb02e01989a107227f2836773e531ce
+SHA1: 24763006a1af6e81ddf5fac6e65fee899b3636ea
+SHA256: f233ee4dfdab2584ea735fc247c0bb9cf333cda61e8526ee9be1d431d1326e88
+Description: Userspace interface to kernel DRM services -- runtime
+Multi-Arch: same
+Description-md5: aefc4200d84a6f2aee6f342bdd88dc24
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: minimal
+
+Package: libdrm2-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 111
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libdrm
+Version: 2.4.39-0ubuntu0.2
+Depends: libdrm2 (= 2.4.39-0ubuntu0.2)
+Filename: pool/main/libd/libdrm/libdrm2-dbg_2.4.39-0ubuntu0.2_amd64.deb
+Size: 44168
+MD5sum: 299b667c01eb1db8459f6c58f06fcd01
+SHA1: 85e4783cec570dcc5aaa6e8c9dba27425366d143
+SHA256: d0276823dd83cd2379bb10d55f02d400ff9735d78e5b5f69e297687cc439c2e5
+Description: Userspace interface to kernel DRM services -- debugging symbols
+Multi-Arch: same
+Description-md5: 4ca6944e55bdf07eb73a9e7bebdd7276
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: libecpg-compat3
 Priority: optional
 Section: libs
@@ -8249,6 +8503,32 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: libegl1-mesa-dev-lts-quantal
+Priority: optional
+Section: libdevel
+Installed-Size: 155
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libegl1-mesa-dev
+Provides: libegl1-mesa-dev, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libegl1-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise2), libegl1-mesa-drivers-lts-quantal (= 9.0.3-0ubuntu0.1~precise2), libdrm-dev (>= 2.4.19), x11proto-dri2-dev (>= 2.1), x11proto-gl-dev (>= 1.4.11), libx11-dev, libxext-dev, libxxf86vm-dev, libxdamage-dev, libxfixes-dev, libxcb-glx0-dev, libx11-xcb-dev
+Pre-Depends: dpkg (>= 1.15.6~)
+Conflicts: libegl1-mesa-dev
+Filename: pool/main/m/mesa-lts-quantal/libegl1-mesa-dev-lts-quantal_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 15846
+MD5sum: fbd1bb361572bb4b0b9a09ad778732c4
+SHA1: d4d9219498ab8df4596e1960162f220903d88123
+SHA256: 66645bf6bcbb18ed4aab3144a6564097874a9aabe01dc81f58f33516a4a25b65
+Description: free implementation of the EGL API -- development files
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 8e7125460d26d2b46c63ba2792ce25e2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: libegl1-mesa-drivers
 Priority: optional
 Section: libs
@@ -8294,6 +8574,115 @@ Description: free implementation of the EGL API -- driver debugging symbols
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
 Description-md5: 2a77b1ce20257ac2bbd8df0260110ab0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libegl1-mesa-drivers-lts-quantal
+Priority: optional
+Section: libs
+Installed-Size: 3807
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libegl1-mesa-drivers, libegl1-mesa-lts-quantal (<= 8.0.1-0ubuntu2)
+Provides: libegl1-mesa-drivers, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libc6 (>= 2.14), libdrm-nouveau2 (>= 2.4.34), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.17), libegl1-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise2), libgbm1-lts-quantal (>= 7.11~1), libgcc1 (>= 1:4.1.1), libgl1-mesa-dri-lts-quantal, libllvm3.1, libopenvg1-mesa-lts-quantal (>= 7.9~) | libopenvg1, libstdc++6 (>= 4.6), libudev0 (>= 147), libwayland-ltsq0, libx11-6 (>= 2:1.4.99.1), libxext6, libxfixes3, libglapi-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise2)
+Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
+Conflicts: libegl1-mesa-drivers
+Filename: pool/main/m/mesa-lts-quantal/libegl1-mesa-drivers-lts-quantal_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 1034242
+MD5sum: 8dc29dc8b3788e25382fb161c0d1a6ae
+SHA1: e6446b4a76efba8dd05719a9140fdf4179348ba0
+SHA256: c5d9252b1c826a00ce21424dcdd09d6d21202c2175ab3dbe0b36ed798d601855
+Description: free implementation of the EGL API -- hardware drivers
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 6f63ffb98c579f02a36dc4f9945d5353
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libegl1-mesa-drivers-lts-quantal-dbg
+Priority: extra
+Section: debug
+Installed-Size: 25708
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libegl1-mesa-drivers-dbg
+Provides: libegl1-mesa-drivers-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libegl1-mesa-drivers-lts-quantal (= 9.0.3-0ubuntu0.1~precise2)
+Pre-Depends: dpkg (>= 1.15.6~)
+Conflicts: libegl1-mesa-drivers-dbg
+Filename: pool/main/m/mesa-lts-quantal/libegl1-mesa-drivers-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 5249638
+MD5sum: e2b34e0f2830fe54173d46d5a7a93d40
+SHA1: 55f25380e1b5de25ff26be8b4426975691c788ab
+SHA256: a8a990d825a9aced7b247558b11178cbfb8f2e7d99417982ce8a0019089e02ce
+Description: free implementation of the EGL API -- driver debugging symbols
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 2a77b1ce20257ac2bbd8df0260110ab0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libegl1-mesa-lts-quantal
+Priority: optional
+Section: libs
+Installed-Size: 228
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libegl1-mesa, libegl1-x11
+Provides: libegl1-mesa, libegl1-x11, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.3.1), libgbm1-lts-quantal (>= 7.11~1), libudev0 (>= 147), libwayland-ltsq0, libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-xfixes0, libxcb1
+Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
+Recommends: libegl1-mesa-drivers-lts-quantal
+Conflicts: libegl1-mesa, libegl1-x11
+Filename: pool/main/m/mesa-lts-quantal/libegl1-mesa-lts-quantal_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 54742
+MD5sum: 7d6399f395d13fecce6ab3a9785c8ac2
+SHA1: c751161bac36f7af9221f5b30743aeeb2f1ffe8a
+SHA256: 16d6b9d34e85b0025dc8eec2b83516051f4b31f519316d90ef79657030324322
+Description: free implementation of the EGL API -- runtime
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 303131c20d722e28695d1b6357d3c1c6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libegl1-mesa-lts-quantal-dbg
+Priority: extra
+Section: debug
+Installed-Size: 623
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libegl1-mesa-dbg
+Provides: libegl1-mesa-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libegl1-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise2)
+Pre-Depends: dpkg (>= 1.15.6~)
+Conflicts: libegl1-mesa-dbg
+Filename: pool/main/m/mesa-lts-quantal/libegl1-mesa-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 135832
+MD5sum: f6be6164acbe094236f73393de487658
+SHA1: 9cff562897acee4ff5b6cb66343c706d599b6485
+SHA256: ace075c1af277228c26c9600c09d74b03e0e8a0d9966bfbbd74a005ac23ab92e
+Description: free implementation of the EGL API -- debugging symbols
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 2f865519d57e73074704ab36dee31207
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
@@ -8532,6 +8921,32 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: libgbm-dev-lts-quantal
+Priority: optional
+Section: libdevel
+Installed-Size: 98
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libgbm-dev
+Provides: libgbm-dev, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libgbm1-lts-quantal (= 9.0.3-0ubuntu0.1~precise2), libudev-dev
+Pre-Depends: dpkg (>= 1.15.6~)
+Conflicts: libgbm-dev
+Filename: pool/main/m/mesa-lts-quantal/libgbm-dev-lts-quantal_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 7258
+MD5sum: 2394fccc1df5f2d86ce938971ced37e0
+SHA1: c3db094504661eede55157ed6fbb7ed636461361
+SHA256: 9e98db0da53bb1921b87b03e839b5d936f63d56a6a6f958a30ffdde874aeaac3
+Description: generic buffer management API -- development files
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 97d3ae24c3bec4dfba8e29c665cda9e5
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: libgbm1
 Priority: optional
 Section: libs
@@ -8572,6 +8987,60 @@ Size: 3329648
 MD5sum: 5561acce380adcba0943031ffb1b7405
 SHA1: 07c6074eb2abf3db36b0a7e7f50a2d9780c7b42e
 SHA256: 725d9c4765a34d31d8d6729db6d257cc98e6201907216b4e0f9456d5e80ab983
+Description: generic buffer management API -- debugging symbols
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: ff539259b350b2362cba34825ad1a809
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgbm1-lts-quantal
+Priority: optional
+Section: libs
+Installed-Size: 3394
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libgbm1
+Provides: libgbm1, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libc6 (>= 2.14), libdrm-nouveau2 (>= 2.4.34), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.3), libgcc1 (>= 1:4.1.1), libgl1-mesa-dri-lts-quantal, libllvm3.1, libstdc++6 (>= 4.6), libudev0 (>= 147), libxcb-dri2-0, libxcb1
+Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
+Conflicts: libgbm1
+Filename: pool/main/m/mesa-lts-quantal/libgbm1-lts-quantal_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 881680
+MD5sum: 3b3bfb324eaccfbb6190742e04f598b5
+SHA1: e2faffe12acd2291f5f071ac8b4c6749491c625d
+SHA256: 861c9c48346b415fad111725afcce7f4f8d8246cbe797d0d85ac0cd455ca85b9
+Description: generic buffer management API -- runtime
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 9c1f8de2c17715ff7ed9524db86be4dd
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgbm1-lts-quantal-dbg
+Priority: extra
+Section: debug
+Installed-Size: 23044
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libgbm1-dbg
+Provides: libgbm1-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libgbm1-lts-quantal (= 9.0.3-0ubuntu0.1~precise2)
+Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
+Conflicts: libgbm1-dbg
+Filename: pool/main/m/mesa-lts-quantal/libgbm1-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 4774502
+MD5sum: 097e23ce1653048108067de123bba22b
+SHA1: 86f70a402ba07e35d4d664dbf0c7e1e58767c5d6
+SHA256: 3802fd324ce2e43d8950a004a9ea791b026a7812263d925eaaad9c6e6b6f9483
 Description: generic buffer management API -- debugging symbols
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -8722,6 +9191,32 @@ Origin: Ubuntu
 Supported: 5y
 Task: kubuntu-full, kubuntu-active-full
 
+Package: libgl1-mesa-dev-lts-quantal
+Priority: optional
+Section: libdevel
+Installed-Size: 87
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libgl-dev, libgl1-mesa-dev, libgl1-mesa-dri-dev
+Provides: libgl-dev, libgl1-mesa-dev, libgl1-mesa-dri-dev, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: mesa-common-dev-lts-quantal (= 9.0.3-0ubuntu0.1~precise2), libgl1-mesa-glx-lts-quantal (= 9.0.3-0ubuntu0.1~precise2), libdrm-dev (>= 2.4.24), libx11-dev, libx11-xcb-dev, libxcb-glx0-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxxf86vm-dev, x11proto-dri2-dev (>= 2.6), x11proto-gl-dev (>= 1.4.14)
+Pre-Depends: dpkg (>= 1.15.6~)
+Conflicts: libgl-dev, libgl1-mesa-dev, libgl1-mesa-dri-dev
+Filename: pool/main/m/mesa-lts-quantal/libgl1-mesa-dev-lts-quantal_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 5202
+MD5sum: f50953fff921297c4cd8eff408b1e07e
+SHA1: 4a06caead18a9d48c82b37070853942a166605b5
+SHA256: e5a707da71699d9521a9001340d80c457ae47949ba26ce4e935ea0fc55c8fe7a
+Description: free implementation of the OpenGL API -- GLX development files
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: edeb377b6e64f69c00b2215e4025a28a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: libgl1-mesa-dri
 Priority: optional
 Section: libs
@@ -8771,6 +9266,62 @@ Description: Debugging symbols for the Mesa DRI modules
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
 Description-md5: 82591d8a9b32029578092e8555c881c9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgl1-mesa-dri-lts-quantal
+Priority: optional
+Section: libs
+Installed-Size: 11383
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libgl1-mesa-dri, libgl1-mesa-dri-lts-quantal (<< 7.11.1), xlibmesa-dri (<< 1:7.0.0)
+Provides: libgl1-mesa-dri, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libc6 (>= 2.14), libdrm-intel1 (>= 2.4.38), libdrm-nouveau2 (>= 2.4.34), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.3), libexpat1 (>= 1.95.8), libgcc1 (>= 1:4.1.1), libglapi-mesa-lts-quantal, libllvm3.1, libstdc++6 (>= 4.6)
+Pre-Depends: dpkg (>= 1.15.6~), multiarch-support
+Suggests: libglide3
+Conflicts: libgl1-mesa-dri, xlibmesa-dri (<< 1:7.0.0)
+Breaks: libgl1-mesa-dri-lts-quantal (<< 7.11.1), libgl1-mesa-glx-lts-quantal (<< 7.10.2-4), libgl1-mesa-glx-no-multiarch, xserver-xorg-core-lts-quantal (<< 2:1.10.2-2), xserver-xorg-core-no-multiarch
+Filename: pool/main/m/mesa-lts-quantal/libgl1-mesa-dri-lts-quantal_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 2867824
+MD5sum: 0a536de154730fc19e9c0d6b9ebb8d4a
+SHA1: a5665dda71abe582061dbb7c8809c8a73644af2f
+SHA256: 9e686ad74c5e2a42b5310d77f774c944fa79eab27eb7a273be3960676a61a522
+Description: free implementation of the OpenGL API -- DRI modules
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: da6c27328d7c638224ef0acc251a333d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgl1-mesa-dri-lts-quantal-dbg
+Priority: extra
+Section: debug
+Installed-Size: 66376
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libgl1-mesa-dri-dbg, libgl1-mesa-dri-experimental-dbg (<< 7.11.1)
+Provides: libgl1-mesa-dri-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libgl1-mesa-dri-lts-quantal (= 9.0.3-0ubuntu0.1~precise2)
+Pre-Depends: dpkg (>= 1.15.6~)
+Conflicts: libgl1-mesa-dri-dbg
+Filename: pool/main/m/mesa-lts-quantal/libgl1-mesa-dri-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 11296668
+MD5sum: f55ad5e812cc48751372cf92f9701841
+SHA1: 6ef6d1fdc3cee79f37f6345912554d795c0d1e33
+SHA256: b212df19e293e43ff9d046ce5dad06cd81a40510d26110aa164b886341bcdef4
+Description: Debugging symbols for the Mesa DRI modules
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: fb1e2b71da0f9ac97628cc83179582ac
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
@@ -8825,6 +9376,62 @@ Description: Debugging symbols for the Mesa GLX runtime
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
 Description-md5: 34df09109e0d30795811b1cf9c80741a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgl1-mesa-glx-lts-quantal
+Priority: optional
+Section: libs
+Installed-Size: 505
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libgl1, libgl1-mesa-dri-lts-quantal (<< 6.4.0), libgl1-mesa-glx
+Provides: libgl1, libgl1-mesa-glx, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.3.1), libglapi-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise2), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb-glx0 (>= 1.8), libxcb1, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxxf86vm1
+Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
+Recommends: libgl1-mesa-dri-lts-quantal (>= 7.2), libtxc-dxtn-s2tc0
+Conflicts: libgl1, libgl1-mesa-dri-lts-quantal (<< 6.4.0), libgl1-mesa-glx
+Breaks: fglrx-glx (<< 1:11-6-1), libgl1-nvidia-alternatives (<= 275.09.07-1)
+Filename: pool/main/m/mesa-lts-quantal/libgl1-mesa-glx-lts-quantal_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 109228
+MD5sum: c2973d26d7a2f5411c7d5f656ba820d2
+SHA1: d670fe621fa228b8b7abbcd2c6841498e4fff624
+SHA256: 0eddc84186213fbab7f777f80467fd7a8586e61df6885d5cec2d2770c2d89083
+Description: free implementation of the OpenGL API -- GLX runtime
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 55c9cfe284958a4586b3c6b8323ccf0c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgl1-mesa-glx-lts-quantal-dbg
+Priority: extra
+Section: debug
+Installed-Size: 2160
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libgl1-mesa-glx-dbg
+Provides: libgl1-mesa-glx-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libgl1-mesa-glx-lts-quantal (= 9.0.3-0ubuntu0.1~precise2)
+Pre-Depends: dpkg (>= 1.15.6~)
+Conflicts: libgl1-mesa-glx-dbg
+Filename: pool/main/m/mesa-lts-quantal/libgl1-mesa-glx-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 302918
+MD5sum: 7d2d1d6cf69cbee391521695d109a970
+SHA1: 2b766ede8b1a08df0e7ca7254ec6e7fbfe194bcb
+SHA256: 5cfee5eef4c354b1c69442cf309207b6e9f836a0753105ecc956f458f1fdf394
+Description: Debugging symbols for the Mesa GLX runtime
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 164c9f30dd80a2fb1fdca740b3ebe620
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
@@ -8957,6 +9564,60 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: libglapi-mesa-lts-quantal
+Priority: optional
+Section: libs
+Installed-Size: 229
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libglapi-mesa
+Provides: libglapi-mesa, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libc6 (>= 2.4)
+Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
+Conflicts: libglapi-mesa
+Filename: pool/main/m/mesa-lts-quantal/libglapi-mesa-lts-quantal_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 21776
+MD5sum: 4624b4daabe5f19861ee9cdae288fc8e
+SHA1: 1fd0712958e6e3107d09139728801faf5ff32268
+SHA256: f2b799a25b98fbe87f1507001ad5bafdf510680d3dcbf1317c5079f4d62173ba
+Description: free implementation of the GL API -- shared library
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 6da05dae0e50a214ae9b1d095f83c561
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libglapi-mesa-lts-quantal-dbg
+Priority: extra
+Section: debug
+Installed-Size: 298
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libglapi-mesa-dbg
+Provides: libglapi-mesa-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libglapi-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise2)
+Pre-Depends: dpkg (>= 1.15.6~)
+Conflicts: libglapi-mesa-dbg
+Filename: pool/main/m/mesa-lts-quantal/libglapi-mesa-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 18874
+MD5sum: 16e7606fb9aa2e847647f05c8e15beeb
+SHA1: f51e856f44c4ab63ec1ee6b491b57822bf7574da
+SHA256: ead864c60907afc182136c09b6a32e589aac66af9f1c46ed1dd4bdf074ce96a7
+Description: free implementation of the GL API -- debugging symbols
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 06022288c7b9a148961fac43facd60e8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: libgles1-mesa
 Priority: optional
 Section: libs
@@ -9030,6 +9691,86 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: libgles1-mesa-dev-lts-quantal
+Priority: optional
+Section: libdevel
+Installed-Size: 181
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libgles1-mesa-dev
+Provides: libgles1-mesa-dev, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libgles1-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise2), libegl1-mesa-dev-lts-quantal
+Pre-Depends: dpkg (>= 1.15.6~)
+Conflicts: libgles1-mesa-dev
+Filename: pool/main/m/mesa-lts-quantal/libgles1-mesa-dev-lts-quantal_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 16492
+MD5sum: d689d419f394d66620081ec8f9af6eee
+SHA1: ebc952c24bcda7ef59a5bdeaed0d504948e69445
+SHA256: 66027fe206e5ccdd283f6294867c285bb86a943fbb4fab54e8dc589c41813654
+Description: free implementation of the OpenGL|ES 1.x API -- development files
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 3fc8f0ee3bdb7f86c55dc67a5bbbf86f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgles1-mesa-lts-quantal
+Priority: optional
+Section: libs
+Installed-Size: 119
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libgles1, libgles1-mesa
+Provides: libgles1, libgles1-mesa, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libglapi-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise2), libc6 (>= 2.2.5)
+Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
+Conflicts: libgles1, libgles1-mesa
+Filename: pool/main/m/mesa-lts-quantal/libgles1-mesa-lts-quantal_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 11432
+MD5sum: 5977c6d4d760ea60b38ab632e109ae5e
+SHA1: 3b43e6ea33449593870083c70d600ff708603c16
+SHA256: 1d8afdd3411dfa459d51821d6797dec2d2349e2462de74759508f55a0b4d6ac8
+Description: free implementation of the OpenGL|ES 1.x API -- runtime
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 5d45602a19e7c4d5c096452a8c1b6ee3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgles1-mesa-lts-quantal-dbg
+Priority: extra
+Section: debug
+Installed-Size: 128
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libgles1-mesa-dbg
+Provides: libgles1-mesa-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libgles1-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise2)
+Pre-Depends: dpkg (>= 1.15.6~)
+Conflicts: libgles1-mesa-dbg
+Filename: pool/main/m/mesa-lts-quantal/libgles1-mesa-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 8780
+MD5sum: 0824ed9e245b0a788f014cbd055a48dd
+SHA1: 33a36fd08e34f04113b5ce4cb32cd3060c206e69
+SHA256: 12efb1e1db96571f8d81ab4cf339e3c75d159988ca76043b19d9a703058e142d
+Description: free implementation of the OpenGL|ES 1.x API -- debugging symbols
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 4fa9b5bb249bd2e4b78b460050218045
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: libgles2-mesa
 Priority: optional
 Section: libs
@@ -9099,6 +9840,86 @@ SHA256: 99c3625d89b77d638bcbe810a3febb459b31160979861fc2da942e3eb97e7040
 Description: free implementation of the OpenGL|ES 2.x API -- development files
 Homepage: http://mesa3d.sourceforge.net/
 Description-md5: 7598b085943a2f03c7a2a79086dffcee
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgles2-mesa-dev-lts-quantal
+Priority: optional
+Section: libdevel
+Installed-Size: 196
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libgles2-mesa-dev
+Provides: libgles2-mesa-dev, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libgles2-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise2), libegl1-mesa-dev-lts-quantal
+Pre-Depends: dpkg (>= 1.15.6~)
+Conflicts: libgles2-mesa-dev
+Filename: pool/main/m/mesa-lts-quantal/libgles2-mesa-dev-lts-quantal_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 17706
+MD5sum: 1e2019a8a012cfa10949f46a6373a580
+SHA1: 6adb2d71c74d1d4a2b13847409bc5af49851d14f
+SHA256: 11c7d81fd0f38d427b28e7ce9231e4a405dad04a9064814a82af4f26ead31b92
+Description: free implementation of the OpenGL|ES 2.x API -- development files
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 7598b085943a2f03c7a2a79086dffcee
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgles2-mesa-lts-quantal
+Priority: optional
+Section: libs
+Installed-Size: 113
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libgles2, libgles2-mesa
+Provides: libgles2, libgles2-mesa, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libglapi-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise2), libc6 (>= 2.2.5)
+Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
+Conflicts: libgles2, libgles2-mesa
+Filename: pool/main/m/mesa-lts-quantal/libgles2-mesa-lts-quantal_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 10374
+MD5sum: 7dbdf503ff358693b2c83492effea8e3
+SHA1: 4da03d86163e4939412d7609215a17f2a5f15aa5
+SHA256: bc6603fdb24994a0a06871b49cad0118c66af94ce10bc2542a64fa49f71bf2ce
+Description: free implementation of the OpenGL|ES 2.x API -- runtime
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 385f5e9ca66553853ff0600865879832
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgles2-mesa-lts-quantal-dbg
+Priority: extra
+Section: debug
+Installed-Size: 122
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libgles2-mesa-dbg
+Provides: libgles2-mesa-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libgles2-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise2)
+Pre-Depends: dpkg (>= 1.15.6~)
+Conflicts: libgles2-mesa-dbg
+Filename: pool/main/m/mesa-lts-quantal/libgles2-mesa-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 8392
+MD5sum: 710ba0da4218cdf6543c347f6630e6a9
+SHA1: be2e586b8fe2a61d176c465cb5f142fcd9593228
+SHA256: 1fef34cf1caa5eaecdcbd47d3c5641b88746c69fc4a1ff09af4339e51338a51d
+Description: free implementation of the OpenGL|ES 2.x API -- debugging symbols
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: b9ce4487980b8d0298c3fd42c2ad83a6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
@@ -10659,6 +11480,52 @@ Origin: Ubuntu
 Supported: 5y
 Task: kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full, kubuntu-active, edubuntu-desktop-kde, edubuntu-desktop-gnome
 
+Package: libkms1
+Priority: optional
+Section: libs
+Installed-Size: 77
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libdrm
+Version: 2.4.39-0ubuntu0.2
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.25)
+Pre-Depends: multiarch-support
+Filename: pool/main/libd/libdrm/libkms1_2.4.39-0ubuntu0.2_amd64.deb
+Size: 9126
+MD5sum: bdedcac9d5df7612986e118b6f09f3c8
+SHA1: 83586cb0f963848b1b51f254295ef2c5d3f536ac
+SHA256: 253476400a1f47de085a050a4e830639026a8f0fc51b50dc9e1ab4f31cb35cab
+Description: Userspace interface to kernel DRM buffer management
+Multi-Arch: same
+Description-md5: 8c32999bd630c356e352acf3c407ccf5
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: kubuntu-full, kubuntu-active-full
+
+Package: libkms1-dbg
+Priority: extra
+Section: debug
+Installed-Size: 83
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libdrm
+Version: 2.4.39-0ubuntu0.2
+Depends: libkms1 (= 2.4.39-0ubuntu0.2)
+Filename: pool/main/libd/libdrm/libkms1-dbg_2.4.39-0ubuntu0.2_amd64.deb
+Size: 19332
+MD5sum: 67974afcb088a887dc7ab16649e60cc8
+SHA1: 0e52717b5c2db9c8b50e9f6b8ae89025e4e4ce58
+SHA256: dacea82f82609f511acb88be500709976510e3b3ac130ee42a54f6c93a8082da
+Description: Userspace interface to kernel DRM buffer management -- debugging symbols
+Multi-Arch: same
+Description-md5: e9c5159499f85a69eb29fe3e69813557
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: libknewstuff2-4
 Priority: optional
 Section: libs
@@ -11332,6 +12199,56 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 Task: kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full, edubuntu-desktop-kde
+
+Package: libllvm-3.1-ocaml-dev
+Priority: optional
+Section: ocaml
+Installed-Size: 1527
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Source: llvm-3.1
+Version: 3.1-2ubuntu1~12.04.1
+Replaces: libllvm-ocaml-3.1-dev
+Provides: libllvm-3.1-ocaml-dev-o2o68
+Depends: ocaml-nox-3.12.1, llvm-3.1-dev (= 3.1-2ubuntu1~12.04.1)
+Suggests: llvm-3.1-doc
+Conflicts: libllvm-ocaml-3.1-dev
+Filename: pool/main/l/llvm-3.1/libllvm-3.1-ocaml-dev_3.1-2ubuntu1~12.04.1_amd64.deb
+Size: 267708
+MD5sum: 87fa9528274105eb98a4589bfc9760e6
+SHA1: 926641b7ba3d3244a1422ed5a604cb7f5799d708
+SHA256: cc9e2f13ac616e211a40b5bcdefbe330a6838e4e62d6fdb0d16c34b22216f18e
+Description: Low-Level Virtual Machine (LLVM), bindings for OCaml
+Homepage: http://www.llvm.org/
+Description-md5: 7b9de4fe68a2874c8356bace3424a232
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libllvm3.1
+Priority: optional
+Section: libs
+Installed-Size: 20041
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Source: llvm-3.1
+Version: 3.1-2ubuntu1~12.04.1
+Depends: libc6 (>= 2.15), libffi6 (>= 3.0.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6)
+Pre-Depends: multiarch-support
+Filename: pool/main/l/llvm-3.1/libllvm3.1_3.1-2ubuntu1~12.04.1_amd64.deb
+Size: 7352638
+MD5sum: 66dadd955b5c6ef18f9fc05153f4cb82
+SHA1: 5e0684abad49b8b040ee39db1f62780b37bae0b3
+SHA256: 17dd04cb5fb230c5608893b469d4b06c7e30d5dd11bc66722b757fb7bd89bff2
+Description: Low-Level Virtual Machine (LLVM), runtime library
+Multi-Arch: same
+Homepage: http://www.llvm.org/
+Description-md5: 5a4f11789eb9e46abded77096d4ec0d4
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
 
 Package: liblwres80
 Priority: standard
@@ -15231,6 +16148,86 @@ SHA256: 6bc544a79cfbba76e3c712225a2d69872d171354a88bd36d689bcfa4a6a86d51
 Description: free implementation of the OpenVG API -- development files
 Homepage: http://mesa3d.sourceforge.net/
 Description-md5: 83d64f6fb398c328ebe1bcc729f426b3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libopenvg1-mesa-dev-lts-quantal
+Priority: optional
+Section: libdevel
+Installed-Size: 146
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libopenvg1-mesa-dev
+Provides: libopenvg1-mesa-dev, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libopenvg1-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise2), libegl1-mesa-dev-lts-quantal
+Pre-Depends: dpkg (>= 1.15.6~)
+Conflicts: libopenvg1-mesa-dev
+Filename: pool/main/m/mesa-lts-quantal/libopenvg1-mesa-dev-lts-quantal_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 12100
+MD5sum: 0bfc4e1eb5e1ba3af8a90e3d7840ba35
+SHA1: 4f8fc36306af823289bae4bc84bd7f05005a6758
+SHA256: 65da0edc729ebea426ca2f85930b14fc9be5b92e9b9f7523d54652464a3f8878
+Description: free implementation of the OpenVG API -- development files
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 83d64f6fb398c328ebe1bcc729f426b3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libopenvg1-mesa-lts-quantal
+Priority: optional
+Section: libs
+Installed-Size: 123
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libopenvg1, libopenvg1-mesa
+Provides: libopenvg1, libopenvg1-mesa, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libc6 (>= 2.4)
+Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
+Conflicts: libopenvg1, libopenvg1-mesa
+Filename: pool/main/m/mesa-lts-quantal/libopenvg1-mesa-lts-quantal_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 14012
+MD5sum: 53be37d09c88781d50d9ea574caae51e
+SHA1: 3c1895a7e6b92c6a6f7a2b2be9e4825ee9333884
+SHA256: 9eaee41f695e25b21e8bc453ab92163958374aff9de7070b89273f8b71c3203a
+Description: free implementation of the OpenVG API -- runtime
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 23fad5a33ddc86c1ebd79b349b93c466
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libopenvg1-mesa-lts-quantal-dbg
+Priority: extra
+Section: debug
+Installed-Size: 150
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libopenvg1-mesa-dbg
+Provides: libopenvg1-mesa-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libopenvg1-mesa-lts-quantal (= 9.0.3-0ubuntu0.1~precise2)
+Pre-Depends: dpkg (>= 1.15.6~)
+Conflicts: libopenvg1-mesa-dbg
+Filename: pool/main/m/mesa-lts-quantal/libopenvg1-mesa-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 13948
+MD5sum: fec34fbade9a957e0796e5a22609bdaa
+SHA1: bc520d94efe0a9ab528d87725963265eb12fac5c
+SHA256: dbb3f856cbd9e62d850dc029a6df822f4b88d60fbf128a8680e3b083f2717087
+Description: free implementation of the OpenVG API -- debugging symbols
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: e093793928f70f1daa03783f40a7298c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
@@ -21864,6 +22861,73 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: libwayland-dev-lts-quantal
+Priority: extra
+Section: libdevel
+Installed-Size: 373
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: wayland-lts-quantal
+Version: 0.95.0-0ubuntu1~precise2
+Provides: libwayland-dev, libwayland-dev-renamed, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libwayland-ltsq0 (= 0.95.0-0ubuntu1~precise2), libc6 (>= 2.14), libexpat1 (>= 1.95.8)
+Conflicts: libwayland-dev, libwayland-dev-renamed
+Filename: pool/main/w/wayland-lts-quantal/libwayland-dev-lts-quantal_0.95.0-0ubuntu1~precise2_amd64.deb
+Size: 92324
+MD5sum: 5ff0795accfd32236991a4b9bc584df5
+SHA1: 71c3e2568c5c42fd837d082b572d9008b347da86
+SHA256: 46cfc9033e50deb5e6f9a4a786ab65f57b0cfe784a9b8ea9e8071e8b8e696ec1
+Description: wayland compositor infrastructure - development files
+Description-md5: e01fa5a3e98bbc7852e06f4d09b8c1d2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libwayland-ltsq0
+Priority: optional
+Section: libs
+Installed-Size: 164
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: wayland-lts-quantal
+Version: 0.95.0-0ubuntu1~precise2
+Depends: libc6 (>= 2.14), libffi6 (>= 3.0.4)
+Pre-Depends: multiarch-support
+Filename: pool/main/w/wayland-lts-quantal/libwayland-ltsq0_0.95.0-0ubuntu1~precise2_amd64.deb
+Size: 54382
+MD5sum: 52a9785767a4be9c41c65227ba65d65f
+SHA1: 6596f30b9c707e22e2054d6a44c34f4f5503730e
+SHA256: 09410e627550af2db36cc070b9a24921298cbe7022f79dcf3b9e51aa26283c8e
+Description: wayland compositor infrastructure - shared libraries
+Multi-Arch: same
+Description-md5: 4dbd6bb3be80bfda96839d773add232a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libwayland-ltsq0-dbg
+Priority: extra
+Section: debug
+Installed-Size: 206
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: wayland-lts-quantal
+Version: 0.95.0-0ubuntu1~precise2
+Depends: libwayland-ltsq0 (= 0.95.0-0ubuntu1~precise2)
+Filename: pool/main/w/wayland-lts-quantal/libwayland-ltsq0-dbg_0.95.0-0ubuntu1~precise2_amd64.deb
+Size: 121666
+MD5sum: 2b41ffd2cf5fc0e0024dd17f0151e343
+SHA1: 29d6eb38f5b241ebf97f73d152036c960855d577
+SHA256: 7815a5ccd9a929d32ba46e0eb8d90b0618321acb1d5121b4b9f81c57b4f392c4
+Description: wayland compositor infrastructure - shared libraries (debug)
+Description-md5: a49a876e73ca57015a573eb46f66774e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: libwbclient-dev
 Priority: optional
 Section: libdevel
@@ -22137,6 +23201,32 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: libxatracker-dev-lts-quantal
+Priority: optional
+Section: libdevel
+Installed-Size: 99
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libxatracker-dev
+Provides: libxatracker-dev, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libxatracker1-lts-quantal (= 9.0.3-0ubuntu0.1~precise2)
+Pre-Depends: dpkg (>= 1.15.6~)
+Conflicts: libxatracker-dev
+Filename: pool/main/m/mesa-lts-quantal/libxatracker-dev-lts-quantal_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 7658
+MD5sum: 6970e257fef49c13732fd1b9e7efe9d9
+SHA1: b496e77a1b6ccf552e8071e995464d738b2127a2
+SHA256: 787354b2979a3fbbd29fa1ed4d2c30d4425c8701f1262dc88dede51e19ebcb32
+Description: X acceleration library -- development files
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: acb2dd21dbe796c5f50a1f153cef93e2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: libxatracker1
 Priority: optional
 Section: libs
@@ -22178,6 +23268,60 @@ Size: 1103548
 MD5sum: f39b43651df2d93b17325030511021aa
 SHA1: e26e65d9e62af269a07a56d628ebae95b1865597
 SHA256: 5dbbe58be1a783dfd6c6d045f5080c5811e6b5d14d26ddbc96956bea9f03d66f
+Description: X acceleration library -- debugging symbols
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: fe0902eeca3a0d7aa29c9e1bb6de29c2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxatracker1-lts-quantal
+Priority: optional
+Section: libs
+Installed-Size: 344
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libxatracker1
+Provides: libxatracker1, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libc6 (>= 2.14), libgl1-mesa-dri-lts-quantal
+Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
+Conflicts: libxatracker1
+Filename: pool/main/m/mesa-lts-quantal/libxatracker1-lts-quantal_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 107022
+MD5sum: 7f70f7b1753e554efab06aea407a1ba6
+SHA1: b872da1b88f4c992b77448328bafc35786c9da6f
+SHA256: 00f5005815cd9acf0b8042f813a37454dd169aad714ec9d149cd975f139a4319
+Description: X acceleration library -- runtime
+Multi-Arch: same
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 016e30e30b0b6c5bb9448c735436c520
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxatracker1-lts-quantal-dbg
+Priority: extra
+Section: debug
+Installed-Size: 1901
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libxatracker1-dbg
+Provides: libxatracker1-dbg, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libxatracker1-lts-quantal (= 9.0.3-0ubuntu0.1~precise2)
+Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
+Conflicts: libxatracker1-dbg
+Filename: pool/main/m/mesa-lts-quantal/libxatracker1-lts-quantal-dbg_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 354316
+MD5sum: 0f403ecf25d19effe13281112d8574bc
+SHA1: 721e598f81063747b6b8539b0ad13548d69772b5
+SHA256: b67bb788e1b55c07144c97617967d9043df84a7c4585f6c0e9e12a312db9a564
 Description: X acceleration library -- debugging symbols
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -29758,6 +30902,142 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: llvm-3.1
+Priority: optional
+Section: devel
+Installed-Size: 3360
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 3.1-2ubuntu1~12.04.1
+Replaces: llvm (<< 2.7-1)
+Depends: llvm-3.1-runtime (= 3.1-2ubuntu1~12.04.1), libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libllvm3.1, libstdc++6 (>= 4.2.1)
+Recommends: llvm-3.1-dev
+Suggests: llvm-3.1-doc
+Conflicts: llvm (<< 2.7-1)
+Filename: pool/main/l/llvm-3.1/llvm-3.1_3.1-2ubuntu1~12.04.1_amd64.deb
+Size: 1470886
+MD5sum: 50b4097a38a8da42e4785b20f3df8e62
+SHA1: d7a897f0af6b22d989e0d98cbdf34184951e8644
+SHA256: 13fb731ac36c5752f41728fc5308f6e9e5a22113610c4c6f2750cc3bb9b23e9f
+Description: Low-Level Virtual Machine (LLVM)
+Homepage: http://www.llvm.org/
+Description-md5: 7e204bc3dba1b58273be985f67fbc4f3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: llvm-3.1-dev
+Priority: optional
+Section: devel
+Installed-Size: 51593
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Source: llvm-3.1
+Version: 3.1-2ubuntu1~12.04.1
+Replaces: llvm (<< 2.2-3)
+Depends: libc6 (>= 2.14), libllvm3.1, libstdc++6 (>= 4.6), libffi-dev (>= 3.0.9), llvm-3.1 (= 3.1-2ubuntu1~12.04.1)
+Filename: pool/main/l/llvm-3.1/llvm-3.1-dev_3.1-2ubuntu1~12.04.1_amd64.deb
+Size: 13109160
+MD5sum: e94dd366497fc64ee7c28dabd48b4070
+SHA1: ea42f1bd85809db577b63e179ca31c66b2439851
+SHA256: 52c34408fd30704f9e913f24694850ef124f3bf47ba7808188bb7d4fbc6d6b81
+Description: Low-Level Virtual Machine (LLVM), libraries and headers
+Homepage: http://www.llvm.org/
+Description-md5: dbddd190099f91a891e50b25a5534c30
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: llvm-3.1-doc
+Priority: optional
+Section: doc
+Installed-Size: 3017
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: all
+Source: llvm-3.1
+Version: 3.1-2ubuntu1~12.04.1
+Filename: pool/main/l/llvm-3.1/llvm-3.1-doc_3.1-2ubuntu1~12.04.1_all.deb
+Size: 1009304
+MD5sum: cd663cd12328810d851540947e5a2d33
+SHA1: 7c6d1890241c1f81ad4c9107c846b862b1f05d6f
+SHA256: 152a1508006ce3a085ab0530fe49419f3173057074cb9a37f307aaa8e10b1198
+Description: Low-Level Virtual Machine (LLVM), documentation
+Homepage: http://www.llvm.org/
+Description-md5: bd9b8205678375b1bc8bb9d7f0c1775a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: llvm-3.1-examples
+Priority: optional
+Section: doc
+Installed-Size: 278
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: all
+Source: llvm-3.1
+Version: 3.1-2ubuntu1~12.04.1
+Depends: llvm-3.1-dev (>= 3.1-2ubuntu1~12.04.1), llvm-3.1-dev (<< 3.1-2ubuntu1~12.04.1+c~)
+Filename: pool/main/l/llvm-3.1/llvm-3.1-examples_3.1-2ubuntu1~12.04.1_all.deb
+Size: 99394
+MD5sum: c318605233171912c71264c4d2b8cc95
+SHA1: d838b49c6fcf0cab828de9c3d799b978dafd6ef6
+SHA256: b77bec2a678049f591cdb82700297f3f26756fe0175c9c1ec8c0a5b44f7f4fd9
+Description: Low-Level Virtual Machine (LLVM), examples
+Homepage: http://www.llvm.org/
+Description-md5: c3642550eb5501d03992590926f59166
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: llvm-3.1-runtime
+Priority: optional
+Section: devel
+Installed-Size: 130
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Source: llvm-3.1
+Version: 3.1-2ubuntu1~12.04.1
+Replaces: llvm (<< 2.7-1)
+Depends: binfmt-support, libc6 (>= 2.14), libllvm3.1, libstdc++6 (>= 4.1.1)
+Conflicts: llvm (<< 2.7-1)
+Filename: pool/main/l/llvm-3.1/llvm-3.1-runtime_3.1-2ubuntu1~12.04.1_amd64.deb
+Size: 30268
+MD5sum: b6dded55794b21728e476457cd6025de
+SHA1: 0849097523f0415fc86c42041035e93b2d41077a
+SHA256: 3f30a16bf7d521feb109b63ca6d8118767c9ac2aed71fa409ddd5ddf15400980
+Description: Low-Level Virtual Machine (LLVM), bytecode interpreter
+Homepage: http://www.llvm.org/
+Description-md5: cc71b67cee5965263bab53df0cb1b6d6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: llvm-3.1-source
+Priority: optional
+Section: devel
+Installed-Size: 7445
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: all
+Source: llvm-3.1
+Version: 3.1-2ubuntu1~12.04.1
+Filename: pool/main/l/llvm-3.1/llvm-3.1-source_3.1-2ubuntu1~12.04.1_all.deb
+Size: 7582200
+MD5sum: dac946ff779d3a9e194e5622899c3587
+SHA1: a805ff7bc672e86c7c830eb7fe9675350d7b98a1
+SHA256: 6dd339fe81ae9e192c772fa4888ce35290c91640e76b10b817a3903c91a7b26f
+Description: Low-Level Virtual Machine (LLVM), source code
+Homepage: http://www.llvm.org/
+Description-md5: a60937c140f6334950ecb84081070243
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: lynx
 Priority: extra
 Section: web
@@ -29827,6 +31107,32 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 Task: kubuntu-full, kubuntu-active-full
+
+Package: mesa-common-dev-lts-quantal
+Priority: optional
+Section: libdevel
+Installed-Size: 1657
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: mesa-lts-quantal
+Version: 9.0.3-0ubuntu0.1~precise2
+Replaces: libgl1-mesa-dev-lts-quantal (<< 7.5~rc4-2), libgl1-mesa-swx11-dev (<< 6.5.2), mesa-common-dev, xlibmesa-gl-dev (<< 1:7), xlibosmesa-dev
+Provides: mesa-common-dev, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libx11-dev, libdrm-dev
+Pre-Depends: dpkg (>= 1.15.6~)
+Conflicts: mesa-common-dev
+Filename: pool/main/m/mesa-lts-quantal/mesa-common-dev-lts-quantal_9.0.3-0ubuntu0.1~precise2_amd64.deb
+Size: 264924
+MD5sum: 01120ca38c902a388501b37419831ceb
+SHA1: aae25b4de0a50cb6cd7effa904a18bbe51189577
+SHA256: c0a3ae7806d8bcc3c0d42a8d6fc991ace7202c8ec6cd74ce5ae8cf298b61d973
+Description: Developer documentation for Mesa
+Homepage: http://mesa3d.sourceforge.net/
+Description-md5: 0d9d46ba6861a0a8c404cf51db1e980d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
 
 Package: mono-4.0-gac
 Priority: optional
@@ -36890,6 +38196,70 @@ Origin: Ubuntu
 Supported: 5y
 Task: samba-server
 
+Package: x11proto-dri2-dev
+Priority: optional
+Section: x11
+Installed-Size: 61
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: all
+Source: x11proto-dri2
+Version: 2.8-1~precise2
+Filename: pool/main/x/x11proto-dri2/x11proto-dri2-dev_2.8-1~precise2_all.deb
+Size: 12558
+MD5sum: a6470ceeb811b45bca522adf73d09a9b
+SHA1: 63bc934151cbdb8c5078e4ca5c7aa2837c713c8e
+SHA256: 3ae395789f20e6ad5d6765c055a6894741f11b74ed81c30f1b72ad673d615834
+Description: X11 DRI2 extension wire protocol
+Multi-Arch: foreign
+Description-md5: f9fbe5a35c1d1a5259e8ba115300fae3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: x11proto-gl-dev
+Priority: optional
+Section: x11
+Installed-Size: 147
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: all
+Source: x11proto-gl
+Version: 1.4.16-1~precise2
+Replaces: xlibmesa-gl-dev
+Filename: pool/main/x/x11proto-gl/x11proto-gl-dev_1.4.16-1~precise2_all.deb
+Size: 21932
+MD5sum: 671f70ec05f8c8020f632093f12d87d3
+SHA1: bab1ec4f5d2692cf2dfaad1454a6540c77218673
+SHA256: 9b44a789376ebd74a96c9901793f6681e73758220c04ec23e09b31f1211d24bf
+Description: X11 OpenGL extension wire protocol
+Multi-Arch: foreign
+Description-md5: 471f1487ed8f7f211b8c62143e8de0ba
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: x11proto-randr-dev
+Priority: optional
+Section: x11
+Installed-Size: 110
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: all
+Source: x11proto-randr
+Version: 1.4.0+git20120101.is.really.1.4.0-0ubuntu1~precise2
+Filename: pool/main/x/x11proto-randr/x11proto-randr-dev_1.4.0+git20120101.is.really.1.4.0-0ubuntu1~precise2_all.deb
+Size: 33526
+MD5sum: 1e88a051db80e10270a1758240509c56
+SHA1: 58d28b7bb54253c07260246e2c9613ba365cf567
+SHA256: 2fbebbbac908a5afca250b1d989734c3c7ed15e36a6523d6e4bc81e502b43582
+Description: X11 RandR extension wire protocol
+Multi-Arch: foreign
+Description-md5: a90461e9118057b1d9164b079935b319
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
 Package: xdiagnose
 Priority: optional
 Section: python
@@ -36916,20 +38286,20 @@ Task: ubuntu-desktop, ubuntu-usb, kubuntu-full, kubuntu-active-full, edubuntu-de
 Package: xnest
 Priority: optional
 Section: x11
-Installed-Size: 1876
+Installed-Size: 1877
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: xorg-server
-Version: 2:1.11.4-0ubuntu10.6
+Version: 2:1.11.4-0ubuntu10.13
 Provides: xserver
-Depends: xserver-common (>= 2:1.11.4-0ubuntu10.6), libc6 (>= 2.15), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.13.2), libx11-6, libxau6, libxdmcp6, libxext6, libxfont1 (>= 1:1.4.2)
+Depends: xserver-common (>= 2:1.11.4-0ubuntu10.13), libc6 (>= 2.15), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.13.2), libx11-6, libxau6, libxdmcp6, libxext6, libxfont1 (>= 1:1.4.2)
 Recommends: libgl1-mesa-dri (>= 7.1~rc1)
-Filename: pool/main/x/xorg-server/xnest_1.11.4-0ubuntu10.6_amd64.deb
-Size: 783502
-MD5sum: 28880cf18e32c69740e9d5ea07a9e700
-SHA1: 6e73623514cb57ae2b375b844cbf78ec36da1ba5
-SHA256: 5a3fc7a88d7b0d895edf679fe0af00280be01e6bc863b6413b0aee41f6368595
+Filename: pool/main/x/xorg-server/xnest_1.11.4-0ubuntu10.13_amd64.deb
+Size: 783276
+MD5sum: 4e1ab239a3ea567b563b092d897d49fd
+SHA1: 70e4a5193746f42119b8541129600b0727cfee75
+SHA256: e7a97a3f5e06355fbe3eff0847224a45981bf7d728242541b83c835b54cb6949
 Description: Nested X server
 Description-md5: 48a07c59b44bacd1e2bed508f80542b4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -36940,20 +38310,20 @@ Task: kubuntu-full, kubuntu-active-full
 Package: xserver-common
 Priority: optional
 Section: x11
-Installed-Size: 1453
+Installed-Size: 1454
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: all
 Source: xorg-server
-Version: 2:1.11.4-0ubuntu10.6
+Version: 2:1.11.4-0ubuntu10.13
 Replaces: xserver-xorg-core (<< 2:1.5.2)
 Depends: x11-common, xkb-data, x11-xkb-utils
 Recommends: xfonts-base, xauth
-Filename: pool/main/x/xorg-server/xserver-common_1.11.4-0ubuntu10.6_all.deb
-Size: 32010
-MD5sum: 39b2c45058c684711649978bbcd51819
-SHA1: ba6d20d0ea27c8689b74a8dd389515700f4e3bd5
-SHA256: 1f6e0514781d917e9d71a92ef3ed67a36db69db3c421663e93f6a7793a72e19d
+Filename: pool/main/x/xorg-server/xserver-common_1.11.4-0ubuntu10.13_all.deb
+Size: 31482
+MD5sum: 95071108602a54ee35f3c5da3182ac73
+SHA1: 110efea5a7a8f092c6bb937b216a9d88c01756f8
+SHA256: 6144c4f1114b181a27499ad76ea90b88614ba0e277c02f89bda5fabddebb555c
 Description: common files used by various X servers
 Description-md5: be03943b6955ee9fae7163ad516c772f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -36961,25 +38331,50 @@ Origin: Ubuntu
 Supported: 5y
 Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
 
+Package: xserver-common-lts-quantal
+Priority: optional
+Section: x11
+Installed-Size: 1583
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: all
+Source: xorg-server-lts-quantal
+Version: 2:1.13.0-0ubuntu6.1~precise3
+Replaces: xserver-common-renamed, xserver-xorg-core-lts-quantal (<< 2:1.5.2)
+Provides: xorg-renamed-package, xorg-renamed-package-lts-quantal, xserver-common-renamed
+Depends: xserver-common, x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Conflicts: xserver-common-renamed
+Filename: pool/main/x/xorg-server-lts-quantal/xserver-common-lts-quantal_1.13.0-0ubuntu6.1~precise3_all.deb
+Size: 22072
+MD5sum: 52ac04f7c968e0d1eb1615af35a0021f
+SHA1: 70672d00d719b0c99bfeb3afc0af38a7259fcbf3
+SHA256: 75afeb907a033a7faff139c766f22aae47b9749e0357fbfbfa66ce12f722be94
+Description: common files used by various X servers
+Description-md5: be03943b6955ee9fae7163ad516c772f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: xserver-xorg-core
 Priority: optional
 Section: x11
-Installed-Size: 4163
+Installed-Size: 4168
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: xorg-server
-Version: 2:1.11.4-0ubuntu10.6
+Version: 2:1.11.4-0ubuntu10.13
 Provides: xorg-input-abi-16, xorg-video-abi-11
-Depends: xserver-common (>= 2:1.11.4-0ubuntu10.6), keyboard-configuration, udev (>= 149), libc6 (>= 2.15), libdrm2 (>= 2.3.1), libgcrypt11 (>= 1.4.5), libpciaccess0 (>= 0.10.7), libpixman-1-0 (>= 0.21.6), libudev0 (>= 147), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2)
+Depends: xserver-common (>= 2:1.11.4-0ubuntu10.13), keyboard-configuration, udev (>= 149), libc6 (>= 2.15), libdrm2 (>= 2.3.1), libgcrypt11 (>= 1.4.5), libpciaccess0 (>= 0.10.7), libpixman-1-0 (>= 0.21.6), libudev0 (>= 147), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2)
 Recommends: libgl1-mesa-dri (>= 7.10.2-4)
 Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
 Breaks: libgl1-mesa-dri (<< 7.10.2-4), libgl1-mesa-dri-experimental (<< 7.10.2-4), qt4-x11 (<< 4:4.8.0-1ubuntu2), unity (<< 5.0.0), utouch-frame (<< 2.1.0), utouch-geis (<< 2.2.3), xserver-xorg-input, xserver-xorg-input-2, xserver-xorg-input-2.1, xserver-xorg-input-4, xserver-xorg-input-7, xserver-xorg-input-joystick (<= 1:1.5.0-3), xserver-xorg-input-synaptics (<= 1.2.2-1ubuntu4), xserver-xorg-input-tslib (<= 0.0.6-3), xserver-xorg-input-vmmouse (<= 1:12.6.5-4ubuntu2), xserver-xorg-input-wacom (<= 0.10.5+20100415-1), xserver-xorg-video, xserver-xorg-video-1.0, xserver-xorg-video-1.9, xserver-xorg-video-2, xserver-xorg-video-4, xserver-xorg-video-5, xserver-xorg-video-6, xserver-xorg-video-cyrix (<= 1:1.1.0-8), xserver-xorg-video-i810 (<< 2:2.4), xserver-xorg-video-imstt (<= 1:1.1.0-7), xserver-xorg-video-nsc (<= 1:2.8.3-4), xserver-xorg-video-sunbw2 (<= 1:1.1.0-5), xserver-xorg-video-v4l (<< 1:0.2.0), xserver-xorg-video-vga (<= 1:4.1.0-8)
-Filename: pool/main/x/xorg-server/xserver-xorg-core_1.11.4-0ubuntu10.6_amd64.deb
-Size: 1718984
-MD5sum: 49e2f711053ccdf736eacabd1d72b67f
-SHA1: c021573e263f81f896e087d8d45f092894b83923
-SHA256: 53fcc1c2c1996ef43efd3e23f340404a5ecd0fdf757187ac1d454b54ae122f55
+Filename: pool/main/x/xorg-server/xserver-xorg-core_1.11.4-0ubuntu10.13_amd64.deb
+Size: 1718914
+MD5sum: 3f4c17cbc149f764da3a871bedf3511a
+SHA1: 32fd15f564f76689c9a3f0bacc85131953eb299e
+SHA256: cd165de5e74c9283aea6414a5f97df7349022db14057c13fe62efa691e1bc9f2
 Description: Xorg X server - core server
 Description-md5: e3826a765918b79dee4b90ec97f9302c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -36989,19 +38384,70 @@ Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubun
 
 Package: xserver-xorg-core-dbg
 Priority: extra
-Section: debug
-Installed-Size: 18666
+Section: x11
+Installed-Size: 18669
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: xorg-server
-Version: 2:1.11.4-0ubuntu10.6
-Depends: xserver-xorg-core (= 2:1.11.4-0ubuntu10.6)
-Filename: pool/main/x/xorg-server/xserver-xorg-core-dbg_1.11.4-0ubuntu10.6_amd64.deb
-Size: 6286134
-MD5sum: 2b59b7ea135f0702e25fafedc765d1bb
-SHA1: 58ca18f9cbf197632c7f3f1e4862b2be3d624dce
-SHA256: 10a80edbe295ce232e1d5b370f46b16b08dab2f1d37d4e18203c99aadbb69e3e
+Version: 2:1.11.4-0ubuntu10.13
+Depends: xserver-xorg-core (= 2:1.11.4-0ubuntu10.13)
+Filename: pool/main/x/xorg-server/xserver-xorg-core-dbg_1.11.4-0ubuntu10.13_amd64.deb
+Size: 6286790
+MD5sum: 4a3bfbab937976d60ce0ccc52c901a82
+SHA1: 9127a6cacb5232bbeb0c22f743d2021902f4d206
+SHA256: cbf20afb42a3fbd60af94f2f62369576bc1113da683946c45d241f0f3d470162
+Description: Xorg - the X.Org X server (debugging symbols)
+Description-md5: 748963cc445faabee033c53886a8a0cf
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: xserver-xorg-core-lts-quantal
+Priority: optional
+Section: x11
+Installed-Size: 3804
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: xorg-server-lts-quantal
+Version: 2:1.13.0-0ubuntu6.1~precise3
+Replaces: xserver-xorg-core
+Provides: xorg-input-abi-18, xorg-renamed-package, xorg-renamed-package-lts-quantal, xorg-video-abi-13, xserver-xorg-core
+Depends: xserver-common-lts-quantal (>= 2:1.13.0-0ubuntu6.1~precise3), keyboard-configuration, udev (>= 149), libc6 (>= 2.15), libdrm2 (>= 2.3.1), libgcrypt11 (>= 1.4.5), libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.21.6), libudev0 (>= 161), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2)
+Recommends: libgl1-mesa-dri-lts-quantal (>= 7.10.2-4)
+Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
+Conflicts: xserver-xorg-core
+Breaks: libgl1-mesa-dri-lts-quantal (<< 7.10.2-4), qt4-x11 (<< 4:4.8.0-1ubuntu2), unity (<< 5.0.0), utouch-frame (<< 2.1.0), utouch-geis (<< 2.2.3), xserver-xorg-input, xserver-xorg-input-2, xserver-xorg-input-2.1, xserver-xorg-input-4, xserver-xorg-input-7, xserver-xorg-input-joystick (<= 1:1.5.0-3), xserver-xorg-input-synaptics (<= 1.2.2-1ubuntu4), xserver-xorg-input-tslib (<= 0.0.6-3), xserver-xorg-input-vmmouse-lts-quantal (<= 1:12.6.5-4ubuntu2), xserver-xorg-input-wacom-lts-quantal (<= 0.10.5+20100415-1), xserver-xorg-video, xserver-xorg-video-1.0, xserver-xorg-video-1.9, xserver-xorg-video-2, xserver-xorg-video-4, xserver-xorg-video-5, xserver-xorg-video-6, xserver-xorg-video-cyrix (<= 1:1.1.0-8), xserver-xorg-video-i810 (<< 2:2.4), xserver-xorg-video-imstt (<= 1:1.1.0-7), xserver-xorg-video-nsc (<= 1:2.8.3-4), xserver-xorg-video-sunbw2 (<= 1:1.1.0-5), xserver-xorg-video-v4l (<< 1:0.2.0), xserver-xorg-video-vga (<= 1:4.1.0-8)
+Filename: pool/main/x/xorg-server-lts-quantal/xserver-xorg-core-lts-quantal_1.13.0-0ubuntu6.1~precise3_amd64.deb
+Size: 1590204
+MD5sum: 07bb2a65fac1be2d1d8d6b11c00a6743
+SHA1: 1a6ff088a45da565f848817914bbee12a07c9c91
+SHA256: 0dd6691bf79406fdc5b5da3dd9dab8cbeb0064ae89815f67652234c564e5bff6
+Description: Xorg X server - core server
+Description-md5: e3826a765918b79dee4b90ec97f9302c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: xserver-xorg-core-lts-quantal-dbg
+Priority: extra
+Section: debug
+Installed-Size: 17368
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: xorg-server-lts-quantal
+Version: 2:1.13.0-0ubuntu6.1~precise3
+Replaces: xserver-xorg-core-dbg
+Provides: xorg-renamed-package, xorg-renamed-package-lts-quantal, xserver-xorg-core-dbg
+Depends: xserver-xorg-core-lts-quantal (= 2:1.13.0-0ubuntu6.1~precise3)
+Conflicts: xserver-xorg-core-dbg
+Filename: pool/main/x/xorg-server-lts-quantal/xserver-xorg-core-lts-quantal-dbg_1.13.0-0ubuntu6.1~precise3_amd64.deb
+Size: 6012704
+MD5sum: c33cd1782b33da67f89c260c4b491e20
+SHA1: fafa2cdb79c5c913769e683776f8b3af7f8d35a3
+SHA256: 0f5af17d59f9e36def308c1f00172c505175cf2d54d344a31ef4c64f2b322e25
 Description: Xorg - the X.Org X server (debugging symbols)
 Description-md5: 748963cc445faabee033c53886a8a0cf
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37016,13 +38462,37 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: xorg-server
-Version: 2:1.11.4-0ubuntu10.6
+Version: 2:1.11.4-0ubuntu10.13
 Depends: libpixman-1-dev (>= 0.21.8), x11proto-core-dev (>= 7.0.22), x11proto-input-dev (>= 2.1.99.6), x11proto-xext-dev (>= 7.1.99), x11proto-video-dev, x11proto-randr-dev (>= 1.2.99.3), x11proto-render-dev (>= 2:0.11), x11proto-dri2-dev (>= 2.6), x11proto-fonts-dev, x11proto-xinerama-dev, x11proto-kb-dev, libxkbfile-dev, libpciaccess-dev
-Filename: pool/main/x/xorg-server/xserver-xorg-dev_1.11.4-0ubuntu10.6_amd64.deb
-Size: 278344
-MD5sum: 58353505ce1894748b1dc0b7db0d2687
-SHA1: 66090e81d79f37dbbd80f76cdc67ff126bbc17f7
-SHA256: d542f595c2d8fd5c66f286fde696b26c58215d365d3b348b52576bee51201485
+Filename: pool/main/x/xorg-server/xserver-xorg-dev_1.11.4-0ubuntu10.13_amd64.deb
+Size: 278162
+MD5sum: 8f5d66ecce6e3583600d9fdcc1dd9007
+SHA1: f116d6cb4ed238ff599e2cd2c4ec1e20484950ce
+SHA256: 294c0f71199fcd1a9d4ef94ee31eb90330be03f07daacf1edcd6f4cdfce6fa5f
+Description: Xorg X server - development files
+Description-md5: 241552d78aca8911808aea0707649843
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: xserver-xorg-dev-lts-quantal
+Priority: optional
+Section: x11
+Installed-Size: 1426
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: xorg-server-lts-quantal
+Version: 2:1.13.0-0ubuntu6.1~precise3
+Replaces: xserver-xorg-dev
+Provides: xorg-renamed-package, xorg-renamed-package-lts-quantal, xserver-xorg-dev
+Depends: libpixman-1-dev (>= 0.21.8), x11proto-core-dev (>= 7.0.22), x11proto-input-dev (>= 2.1.99.6), x11proto-xext-dev (>= 7.1.99), x11proto-video-dev, x11proto-randr-dev (>= 1.4.0), x11proto-render-dev (>= 2:0.11), x11proto-dri2-dev (>= 2.8), x11proto-gl-dev, x11proto-fonts-dev, x11proto-xinerama-dev, x11proto-kb-dev, x11proto-xf86dri-dev, x11proto-resource-dev, x11proto-scrnsaver-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev-lts-quantal | mesa-common-dev (>= 0~)
+Conflicts: xserver-xorg-dev
+Filename: pool/main/x/xorg-server-lts-quantal/xserver-xorg-dev-lts-quantal_1.13.0-0ubuntu6.1~precise3_amd64.deb
+Size: 273504
+MD5sum: f0cba23e2d3971fffa84b34a5443b730
+SHA1: 1d4c64936d39ab0f0366261d8ec3983ab8a1c4c4
+SHA256: e07c539897c248897064c79de8b1b38e13f277253016cf450df1d64c58cb8a1b
 Description: Xorg X server - development files
 Description-md5: 241552d78aca8911808aea0707649843
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37127,20 +38597,20 @@ Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, edubuntu-deskt
 Package: xvfb
 Priority: optional
 Section: x11
-Installed-Size: 2070
+Installed-Size: 2071
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: xorg-server
-Version: 2:1.11.4-0ubuntu10.6
+Version: 2:1.11.4-0ubuntu10.13
 Provides: xserver
-Depends: xserver-common (>= 2:1.11.4-0ubuntu10.6), libc6 (>= 2.15), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.21.6), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2), xauth, x11-xkb-utils
+Depends: xserver-common (>= 2:1.11.4-0ubuntu10.13), libc6 (>= 2.15), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.21.6), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2), xauth, x11-xkb-utils
 Recommends: libgl1-mesa-dri
-Filename: pool/main/x/xorg-server/xvfb_1.11.4-0ubuntu10.6_amd64.deb
-Size: 885668
-MD5sum: 20708d149c7e53c89ddd99fcacff85cc
-SHA1: 27d788d98c821f53760afe9d502b794746a3ed4e
-SHA256: 0e5b4ceddcf6f41225233894ed45e7c9b2dcee77fc78272154f8e32e9b4f2785
+Filename: pool/main/x/xorg-server/xvfb_1.11.4-0ubuntu10.13_amd64.deb
+Size: 885294
+MD5sum: b95e9f13cb142814ed827e681ab17d63
+SHA1: 4c01abf62cc370f9e6f0a19b7974bd78c4b7a37a
+SHA256: eeed9f438d57c6d3337700de538d6b5c2aec3d19410af1bca9e57a3641eb4581
 Description: Virtual Framebuffer 'fake' X server
 Description-md5: ff95e4399e5ec034de6998347673eb73
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
