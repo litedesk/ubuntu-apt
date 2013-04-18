@@ -3535,6 +3535,111 @@ Description-en: DNS Shared Library used by BIND
  This package delivers the libdns shared library used by BIND's daemons and
  clients.
 
+Package: libdrm-dev
+Description-md5: 26367cfc3b23b21ad8b59e1f0974ff45
+Description-en: Userspace interface to kernel DRM services -- development files
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides the development environment for libdrm.
+
+Package: libdrm-intel1
+Description-md5: a0ec25778ef74dfe186d7ace2946e2e9
+Description-en: Userspace interface to intel-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the intel-specific kernel
+ DRM services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI). The DRI is
+ currently used on Linux to provide hardware-accelerated OpenGL drivers.
+
+Package: libdrm-intel1-dbg
+Description-md5: 479d5fd9b792b0e4005a9def65feed19
+Description-en: Userspace interface to intel-specific kernel DRM services -- debugging symbols
+ This library implements the userspace interface to the kernel DRM services.
+ DRM stands for "Direct Rendering Manager", which is the kernelspace portion
+ of the "Direct Rendering Infrastructure" (DRI). The DRI is currently used on
+ Linux to provide hardware-accelerated OpenGL drivers.
+ .
+ This package provides the debugging symbols for the libdrm-intel1 package.
+
+Package: libdrm-nouveau1a
+Description-md5: e9d35521833d93a9e60b0579def3745c
+Description-en: Userspace interface to nouveau-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the nouveau-specific kernel
+ DRM services. DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI). The DRI is
+ currently used on Linux to provide hardware-accelerated OpenGL drivers.
+
+Package: libdrm-nouveau1a-dbg
+Description-md5: 04f3874d8b5416331bb5ae8bf6fd83a2
+Description-en: Userspace interface to nouveau-specific kernel DRM -- debugging symbols
+ This library implements the userspace interface to the kernel DRM services.
+ DRM stands for "Direct Rendering Manager", which is the kernelspace portion
+ of the "Direct Rendering Infrastructure" (DRI). The DRI is currently used on
+ Linux to provide hardware-accelerated OpenGL drivers.
+ .
+ This package provides the debugging symbols for the libdrm-nouveau1a package.
+
+Package: libdrm-nouveau2
+Description-md5: e9d35521833d93a9e60b0579def3745c
+Description-en: Userspace interface to nouveau-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the nouveau-specific kernel
+ DRM services. DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI). The DRI is
+ currently used on Linux to provide hardware-accelerated OpenGL drivers.
+
+Package: libdrm-nouveau2-dbg
+Description-md5: bc7863f85d24e4be61774283f8d6e55d
+Description-en: Userspace interface to nouveau-specific kernel DRM -- debugging symbols
+ This library implements the userspace interface to the kernel DRM services.
+ DRM stands for "Direct Rendering Manager", which is the kernelspace portion
+ of the "Direct Rendering Infrastructure" (DRI). The DRI is currently used on
+ Linux to provide hardware-accelerated OpenGL drivers.
+ .
+ This package provides the debugging symbols for the libdrm-nouveau2 package.
+
+Package: libdrm-radeon1
+Description-md5: fbdefd428f29bf05163182b24d86f2a4
+Description-en: Userspace interface to radeon-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the radeon-specific kernel
+ DRM services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI). The DRI is
+ currently used on Linux to provide hardware-accelerated OpenGL drivers.
+
+Package: libdrm-radeon1-dbg
+Description-md5: 56a3655eb825ab9851b19faa2d4fad7a
+Description-en: Userspace interface to radeon-specific kernel DRM services -- debugging symbols
+ This library implements the userspace interface to the kernel DRM services.
+ DRM stands for "Direct Rendering Manager", which is the kernelspace portion
+ of the "Direct Rendering Infrastructure" (DRI). The DRI is currently used on
+ Linux to provide hardware-accelerated OpenGL drivers.
+ .
+ This package provides the debugging symbols for the libdrm-radeon1 package.
+
+Package: libdrm2
+Description-md5: aefc4200d84a6f2aee6f342bdd88dc24
+Description-en: Userspace interface to kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides the runtime environment for libdrm.
+
+Package: libdrm2-dbg
+Description-md5: 4ca6944e55bdf07eb73a9e7bebdd7276
+Description-en: Userspace interface to kernel DRM services -- debugging symbols
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides debugging symbols for the libdrm2 package.
+
 Package: libecpg-compat3
 Description-md5: 66ce228306ea5636e1cb757bd540255b
 Description-en: older version of run-time library for ECPG programs
@@ -3594,6 +3699,17 @@ Description-en: free implementation of the EGL API -- development files
  This package provides the development environment for compiling programs
  against the EGL library.
 
+Package: libegl1-mesa-dev-lts-quantal
+Description-md5: 8e7125460d26d2b46c63ba2792ce25e2
+Description-en: free implementation of the EGL API -- development files
+ This package contains the development environment required for compiling
+ programs against EGL native platform graphics interface library.
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES and OpenVG.
+ .
+ This package provides the development environment for compiling programs
+ against the EGL library.
+
 Package: libegl1-mesa-drivers
 Description-md5: 6f63ffb98c579f02a36dc4f9945d5353
 Description-en: free implementation of the EGL API -- hardware drivers
@@ -3613,6 +3729,46 @@ Description-en: free implementation of the EGL API -- driver debugging symbols
  .
  This package contains the debugging symbols for the drivers required for
  hardware accelerated rendering of EGL-based graphics libraries.
+
+Package: libegl1-mesa-drivers-lts-quantal
+Description-md5: 6f63ffb98c579f02a36dc4f9945d5353
+Description-en: free implementation of the EGL API -- hardware drivers
+ This package contains the EGL native platform graphics interface library.
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES and OpenVG.
+ .
+ This package contains the drivers required for hardware accelerated rendering
+ of EGL-based graphics libraries, such as OpenGL|ES and OpenVG.
+
+Package: libegl1-mesa-drivers-lts-quantal-dbg
+Description-md5: 2a77b1ce20257ac2bbd8df0260110ab0
+Description-en: free implementation of the EGL API -- driver debugging symbols
+ This package contains the EGL native platform graphics interface library.
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES and OpenVG.
+ .
+ This package contains the debugging symbols for the drivers required for
+ hardware accelerated rendering of EGL-based graphics libraries.
+
+Package: libegl1-mesa-lts-quantal
+Description-md5: 303131c20d722e28695d1b6357d3c1c6
+Description-en: free implementation of the EGL API -- runtime
+ This package contains the EGL native platform graphics interface library.
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES and OpenVG.
+ .
+ This package contains modules to interface with the existing system GLX or
+ DRI2 drivers to provide OpenGL via EGL.  The libegl1-mesa-drivers package
+ provides drivers to provide hardware-accelerated OpenGL|ES and OpenVG support.
+
+Package: libegl1-mesa-lts-quantal-dbg
+Description-md5: 2f865519d57e73074704ab36dee31207
+Description-en: free implementation of the EGL API -- debugging symbols
+ This package contains the EGL native platform graphics interface library.
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES and OpenVG.
+ .
+ This package contains the debugging symbols for the EGL library.
 
 Package: libeventviews4
 Description-md5: cac01bb6f06d8115e12fb36011f5d6eb
@@ -3728,6 +3884,17 @@ Description-en: generic buffer management API -- development files
  This package provides the development environment for compiling programs
  against the GBM library.
 
+Package: libgbm-dev-lts-quantal
+Description-md5: 97d3ae24c3bec4dfba8e29c665cda9e5
+Description-en: generic buffer management API -- development files
+ This package contains the GBM buffer management library.  It provides a
+ mechanism for allocating buffers for graphics rendering tied to Mesa.
+ .
+ GBM is intended to be used as a native platform for EGL on drm or openwfd.
+ .
+ This package provides the development environment for compiling programs
+ against the GBM library.
+
 Package: libgbm1
 Description-md5: 9c1f8de2c17715ff7ed9524db86be4dd
 Description-en: generic buffer management API -- runtime
@@ -3737,6 +3904,24 @@ Description-en: generic buffer management API -- runtime
  GBM is intended to be used as a native platform for EGL on drm or openwfd.
 
 Package: libgbm1-dbg
+Description-md5: ff539259b350b2362cba34825ad1a809
+Description-en: generic buffer management API -- debugging symbols
+ This package contains the GBM buffer management library.  It provides a
+ mechanism for allocating buffers for graphics rendering tied to Mesa.
+ .
+ GBM is intended to be used as a native platform for EGL on drm or openwfd.
+ .
+ This package contains the debugging symbols for the GBM library.
+
+Package: libgbm1-lts-quantal
+Description-md5: 9c1f8de2c17715ff7ed9524db86be4dd
+Description-en: generic buffer management API -- runtime
+ This package contains the GBM buffer management library.  It provides a
+ mechanism for allocating buffers for graphics rendering tied to Mesa.
+ .
+ GBM is intended to be used as a native platform for EGL on drm or openwfd.
+
+Package: libgbm1-lts-quantal-dbg
 Description-md5: ff539259b350b2362cba34825ad1a809
 Description-en: generic buffer management API -- debugging symbols
  This package contains the GBM buffer management library.  It provides a
@@ -3813,6 +3998,19 @@ Description-en: free implementation of the OpenGL API -- GLX development files
  For a complete description of Mesa, please look at the libgl1-mesa-swx11
  package.
 
+Package: libgl1-mesa-dev-lts-quantal
+Description-md5: edeb377b6e64f69c00b2215e4025a28a
+Description-en: free implementation of the OpenGL API -- GLX development files
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package includes headers and static libraries for compiling
+ programs with Mesa.
+ .
+ For a complete description of Mesa, please look at the libgl1-mesa-glx
+ package.
+
 Package: libgl1-mesa-dri
 Description-md5: 138eae85587ae78f60d36bcba9033eb1
 Description-en: free implementation of the OpenGL API -- DRI modules
@@ -3843,6 +4041,36 @@ Description-en: Debugging symbols for the Mesa DRI modules
  .
  This package contains debugging symbols for the DRI modules.
 
+Package: libgl1-mesa-dri-lts-quantal
+Description-md5: da6c27328d7c638224ef0acc251a333d
+Description-en: free implementation of the OpenGL API -- DRI modules
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package does not include the OpenGL library itself, only the DRI
+ modules for accelerating direct rendering.
+ .
+ For a complete description of Mesa, please look at the
+ libgl1-mesa-glx package.
+ .
+ The tdfx DRI module needs libglide3 to enable direct rendering.
+
+Package: libgl1-mesa-dri-lts-quantal-dbg
+Description-md5: fb1e2b71da0f9ac97628cc83179582ac
+Description-en: Debugging symbols for the Mesa DRI modules
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package does not include the OpenGL library itself, only the DRI
+ modules for accelerating direct rendering.
+ .
+ For a complete description of Mesa, please look at the
+ libgl1-mesa-glx package.
+ .
+ This package contains debugging symbols for the DRI modules.
+
 Package: libgl1-mesa-glx
 Description-md5: f14d0747e501f6641f25adcad5ebe418
 Description-en: free implementation of the OpenGL API -- GLX runtime
@@ -3868,6 +4096,39 @@ Description-en: Debugging symbols for the Mesa GLX runtime
  .
  For a complete description of Mesa, please look at the
  libgl1-mesa-swx11 package.
+ .
+ This package contains debugging symbols for the GL library with GLX and DRI
+ capabilities.
+
+Package: libgl1-mesa-glx-lts-quantal
+Description-md5: 55c9cfe284958a4586b3c6b8323ccf0c
+Description-en: free implementation of the OpenGL API -- GLX runtime
+ Mesa is a 3-D graphics library with an API which is very similar to
+ that of OpenGL.  To the extent that Mesa utilizes the OpenGL command
+ syntax or state machine, it is being used with authorization from
+ Silicon Graphics, Inc.  However, the author makes no claim that Mesa
+ is in any way a compatible replacement for OpenGL or associated with
+ Silicon Graphics, Inc.
+ .
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package does not include the modules themselves: these can be found
+ in the libgl1-mesa-dri package.
+
+Package: libgl1-mesa-glx-lts-quantal-dbg
+Description-md5: 164c9f30dd80a2fb1fdca740b3ebe620
+Description-en: Debugging symbols for the Mesa GLX runtime
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package does not include the modules themselves: these can be found
+ in the libgl1-mesa-dri package.
+ .
+ For a complete description of Mesa, please look at the
+ libgl1-mesa-glx package.
  .
  This package contains debugging symbols for the GL library with GLX and DRI
  capabilities.
@@ -3934,6 +4195,22 @@ Description-en: free implementation of the GL API -- debugging symbols
  .
  This package contains debugging symbols for the GL API library.
 
+Package: libglapi-mesa-lts-quantal
+Description-md5: 6da05dae0e50a214ae9b1d095f83c561
+Description-en: free implementation of the GL API -- shared library
+ The Mesa GL API module is responsible for dispatching all the gl*
+ functions. It is intended to be mainly used by both the libgles1-mesa
+ and libgles2-mesa packages.
+
+Package: libglapi-mesa-lts-quantal-dbg
+Description-md5: 06022288c7b9a148961fac43facd60e8
+Description-en: free implementation of the GL API -- debugging symbols
+ The Mesa GL API module is responsible for dispatching all the gl*
+ functions. It is intended to be mainly used by both the libgles1-mesa
+ and libgles2-mesa packages.
+ .
+ This package contains debugging symbols for the GL API library.
+
 Package: libgles1-mesa
 Description-md5: 5d45602a19e7c4d5c096452a8c1b6ee3
 Description-en: free implementation of the OpenGL|ES 1.x API -- runtime
@@ -3968,6 +4245,41 @@ Description-en: free implementation of the OpenGL|ES 1.x API -- development file
  .
  This package provides a development environment for building programs using
  the OpenGL|ES 1.x APIs.
+
+Package: libgles1-mesa-dev-lts-quantal
+Description-md5: 3fc8f0ee3bdb7f86c55dc67a5bbbf86f
+Description-en: free implementation of the OpenGL|ES 1.x API -- development files
+ OpenGL|ES is a cross-platform API for full-function 2D and 3D graphics on
+ embedded systems - including consoles, phones, appliances and vehicles.
+ It contains a subset of OpenGL plus a number of extensions for the
+ special needs of embedded systems.
+ .
+ OpenGL|ES 1.x provides an API for fixed-function hardware.
+ .
+ This package provides a development environment for building programs using
+ the OpenGL|ES 1.x APIs.
+
+Package: libgles1-mesa-lts-quantal
+Description-md5: 5d45602a19e7c4d5c096452a8c1b6ee3
+Description-en: free implementation of the OpenGL|ES 1.x API -- runtime
+ OpenGL|ES is a cross-platform API for full-function 2D and 3D graphics on
+ embedded systems - including consoles, phones, appliances and vehicles.
+ It contains a subset of OpenGL plus a number of extensions for the
+ special needs of embedded systems.
+ .
+ OpenGL|ES 1.x provides an API for fixed-function hardware.
+
+Package: libgles1-mesa-lts-quantal-dbg
+Description-md5: 4fa9b5bb249bd2e4b78b460050218045
+Description-en: free implementation of the OpenGL|ES 1.x API -- debugging symbols
+ OpenGL|ES is a cross-platform API for full-function 2D and 3D graphics on
+ embedded systems - including consoles, phones, appliances and vehicles.
+ It contains a subset of OpenGL plus a number of extensions for the
+ special needs of embedded systems.
+ .
+ OpenGL|ES 1.x provides an API for fixed-function hardware.
+ .
+ This package contains the debugging symbols for the libGLESv1_CM library.
 
 Package: libgles2-mesa
 Description-md5: 385f5e9ca66553853ff0600865879832
@@ -4006,6 +4318,44 @@ Description-en: free implementation of the OpenGL|ES 2.x API -- development file
  .
  This package provides a development environment for building applications
  using the OpenGL|ES 2.x APIs.
+
+Package: libgles2-mesa-dev-lts-quantal
+Description-md5: 7598b085943a2f03c7a2a79086dffcee
+Description-en: free implementation of the OpenGL|ES 2.x API -- development files
+ OpenGL|ES is a cross-platform API for full-function 2D and 3D graphics on
+ embedded systems - including consoles, phones, appliances and vehicles.
+ It contains a subset of OpenGL plus a number of extensions for the
+ special needs of embedded systems.
+ .
+ OpenGL|ES 2.x provides an API for programmable hardware including vertex
+ and fragment shaders.
+ .
+ This package provides a development environment for building applications
+ using the OpenGL|ES 2.x APIs.
+
+Package: libgles2-mesa-lts-quantal
+Description-md5: 385f5e9ca66553853ff0600865879832
+Description-en: free implementation of the OpenGL|ES 2.x API -- runtime
+ OpenGL|ES is a cross-platform API for full-function 2D and 3D graphics on
+ embedded systems - including consoles, phones, appliances and vehicles.
+ It contains a subset of OpenGL plus a number of extensions for the
+ special needs of embedded systems.
+ .
+ OpenGL|ES 2.x provides an API for programmable hardware including vertex
+ and fragment shaders.
+
+Package: libgles2-mesa-lts-quantal-dbg
+Description-md5: b9ce4487980b8d0298c3fd42c2ad83a6
+Description-en: free implementation of the OpenGL|ES 2.x API -- debugging symbols
+ OpenGL|ES is a cross-platform API for full-function 2D and 3D graphics on
+ embedded systems - including consoles, phones, appliances and vehicles.
+ It contains a subset of OpenGL plus a number of extensions for the
+ special needs of embedded systems.
+ .
+ OpenGL|ES 2.x provides an API for programmable hardware including vertex
+ and fragment shaders.
+ .
+ This package contains the debugging symbols for the libGLESv2 library.
 
 Package: libglu1-mesa
 Description-md5: 63d0accfbf7999146edb3651e6463376
@@ -4648,6 +4998,20 @@ Description-en: library for handling MIME data
  .
  This package is part of the KDE Development Platform PIM libraries module.
 
+Package: libkms1
+Description-md5: 8c32999bd630c356e352acf3c407ccf5
+Description-en: Userspace interface to kernel DRM buffer management
+ This library implements a unified userspace interface to the different buffer
+ management interfaces of the kernel DRM hardware drivers.
+
+Package: libkms1-dbg
+Description-md5: e9c5159499f85a69eb29fe3e69813557
+Description-en: Userspace interface to kernel DRM buffer management -- debugging symbols
+ This library implements a unified userspace interface to the different buffer
+ management interfaces of the kernel DRM hardware drivers.
+ .
+ This package provides the debugging symbols for the libkms1 package.
+
 Package: libknewstuff2-4
 Description-md5: 3b60147847daf44fbccfb1a682258447
 Description-en: "Get Hot New Stuff" v2 Library for the KDE Platform
@@ -4931,6 +5295,31 @@ Description-en: simple XML-RPC client library
  egroupware module of kdepim, but is a complete client and is quite easy to use.
  .
  This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libllvm-3.1-ocaml-dev
+Description-md5: 7b9de4fe68a2874c8356bace3424a232
+Description-en: Low-Level Virtual Machine (LLVM), bindings for OCaml
+ The Low-Level Virtual Machine (LLVM) is a collection of libraries and
+ tools that make it easy to build compilers, optimizers, Just-In-Time
+ code generators, and many other compiler-related programs. LLVM
+ uses a single, language-independent virtual instruction set both
+ as an offline code representation (to communicate code between
+ compiler phases and to run-time systems) and as the compiler internal
+ representation (to analyze and transform programs). This persistent
+ code representation allows a common set of sophisticated compiler
+ techniques to be applied at compile-time, link-time, install-time,
+ run-time, or "idle-time" (between program runs).
+ .
+ This package provides the OCaml bindings to develop applications using llvm.
+
+Package: libllvm3.1
+Description-md5: 5a4f11789eb9e46abded77096d4ec0d4
+Description-en: Low-Level Virtual Machine (LLVM), runtime library
+ The Low-Level Virtual Machine (LLVM) is a collection of libraries and
+ tools that make it easy to build compilers, optimizers, Just-In-Time
+ code generators, and many other compiler-related programs.
+ .
+ This package contains the LLVM runtime library.
 
 Package: liblwres80
 Description-md5: 73843c094de7b4dfcc9ed1e36cc6d546
@@ -6891,6 +7280,38 @@ Description-en: free implementation of the OpenVG API -- development files
  .
  This package contains the development environment required for compiling
  programs against the OpenVG 2D acceleration library.
+
+Package: libopenvg1-mesa-dev-lts-quantal
+Description-md5: 83d64f6fb398c328ebe1bcc729f426b3
+Description-en: free implementation of the OpenVG API -- development files
+ This package contains the mesa implementation of the OpenVG 2D acceleration
+ library.  OpenVG provides a device independent and vendor-neutral interface
+ for sophisticated 2D graphical applications, while allowing device
+ manufacturers to provide hardware acceleration on devices ranging from wrist
+ watches to full microprocessor-based desktop and server machines.
+ .
+ This package contains the development environment required for compiling
+ programs against the OpenVG 2D acceleration library.
+
+Package: libopenvg1-mesa-lts-quantal
+Description-md5: 23fad5a33ddc86c1ebd79b349b93c466
+Description-en: free implementation of the OpenVG API -- runtime
+ This package contains the mesa implementation of the OpenVG 2D acceleration
+ library.  OpenVG provides a device independent and vendor-neutral interface
+ for sophisticated 2D graphical applications, while allowing device
+ manufacturers to provide hardware acceleration on devices ranging from wrist
+ watches to full microprocessor-based desktop and server machines.
+
+Package: libopenvg1-mesa-lts-quantal-dbg
+Description-md5: e093793928f70f1daa03783f40a7298c
+Description-en: free implementation of the OpenVG API -- debugging symbols
+ This package contains the mesa implementation of the OpenVG 2D acceleration
+ library.  OpenVG provides a device independent and vendor-neutral interface
+ for sophisticated 2D graphical applications, while allowing device
+ manufacturers to provide hardware acceleration on devices ranging from wrist
+ watches to full microprocessor-based desktop and server machines.
+ .
+ This package contains the debugging symbols for the OpenVG library.
 
 Package: libosmesa6
 Description-md5: e0dd0508dd95a809bb554369d28e278c
@@ -10383,6 +10804,47 @@ Description-en: library for interfacing with different virtualization systems
  .
  This package contains the debugging symbols.
 
+Package: libwayland-dev-lts-quantal
+Description-md5: e01fa5a3e98bbc7852e06f4d09b8c1d2
+Description-en: wayland compositor infrastructure - development files
+ Wayland is a protocol for a compositor to talk to its clients as well
+ as a C library implementation of that protocol. The compositor can be
+ a standalone display server running on Linux kernel modesetting and
+ evdev input devices, an X application, or a wayland client
+ itself. The clients can be traditional applications, X servers
+ (rootless or fullscreen) or other display servers.
+ .
+ This package contains the development headers for the libraries found
+ in libwayland0. Non-developers likely have little use for this package.
+
+Package: libwayland-ltsq0
+Description-md5: 4dbd6bb3be80bfda96839d773add232a
+Description-en: wayland compositor infrastructure - shared libraries
+ Wayland is a protocol for a compositor to talk to its clients as well
+ as a C library implementation of that protocol. The compositor can be
+ a standalone display server running on Linux kernel modesetting and
+ evdev input devices, an X application, or a wayland client
+ itself. The clients can be traditional applications, X servers
+ (rootless or fullscreen) or other display servers.
+ .
+ This is an experimental library package, neither ABI or API are fixed
+ right now. As a consequence, generated dependencies are made as
+ strict as possible. It should only be used by mesa and weston for
+ the time being.
+
+Package: libwayland-ltsq0-dbg
+Description-md5: a49a876e73ca57015a573eb46f66774e
+Description-en: wayland compositor infrastructure - shared libraries (debug)
+ Wayland is a protocol for a compositor to talk to its clients as well
+ as a C library implementation of that protocol. The compositor can be
+ a standalone display server running on Linux kernel modesetting and
+ evdev input devices, an X application, or a wayland client
+ itself. The clients can be traditional applications, X servers
+ (rootless or fullscreen) or other display servers.
+ .
+ This package contains the debug version of the libraries found in
+ libwayland0. Non-developers likely have little use for this package.
+
 Package: libwbclient-dev
 Description-md5: 2fd42f0ef62fe1cc8cfee6fb03d4b884
 Description-en: Samba winbind client library - development files
@@ -10520,6 +10982,17 @@ Description-en: X acceleration library -- development files
  This package provides the development environment for compiling programs
  against the xatracker library.
 
+Package: libxatracker-dev-lts-quantal
+Description-md5: acb2dd21dbe796c5f50a1f153cef93e2
+Description-en: X acceleration library -- development files
+ This package contains the XA (X acceleration) library.  It is used exclusively
+ by the X server to do render, copy and video acceleration.
+ .
+ XA is intended to be used by the vmware driver for virtualized X acceleration.
+ .
+ This package provides the development environment for compiling programs
+ against the xatracker library.
+
 Package: libxatracker1
 Description-md5: 016e30e30b0b6c5bb9448c735436c520
 Description-en: X acceleration library -- runtime
@@ -10529,6 +11002,24 @@ Description-en: X acceleration library -- runtime
  XA is intended to be used by the vmware driver for virtualized X acceleration.
 
 Package: libxatracker1-dbg
+Description-md5: fe0902eeca3a0d7aa29c9e1bb6de29c2
+Description-en: X acceleration library -- debugging symbols
+ This package contains the XA (X acceleration) library.  It is used exclusively
+ by the X server to do render, copy and video acceleration.
+ .
+ XA is intended to be used by the vmware driver for virtualized X acceleration.
+ .
+ This package contains the debugging symbols for the xatracker library.
+
+Package: libxatracker1-lts-quantal
+Description-md5: 016e30e30b0b6c5bb9448c735436c520
+Description-en: X acceleration library -- runtime
+ This package contains the XA (X acceleration) library.  It is used exclusively
+ by the X server to do render, copy and video acceleration.
+ .
+ XA is intended to be used by the vmware driver for virtualized X acceleration.
+
+Package: libxatracker1-lts-quantal-dbg
 Description-md5: fe0902eeca3a0d7aa29c9e1bb6de29c2
 Description-en: X acceleration library -- debugging symbols
  This package contains the XA (X acceleration) library.  It is used exclusively
@@ -13729,6 +14220,116 @@ Description-en: Complete Linux kernel for virtual machines
  for virtual machines. Install linux-image-extra-virtual to get all
  available kernel modules.
 
+Package: llvm-3.1
+Description-md5: 7e204bc3dba1b58273be985f67fbc4f3
+Description-en: Low-Level Virtual Machine (LLVM)
+ The Low-Level Virtual Machine (LLVM) is a collection of libraries and
+ tools that make it easy to build compilers, optimizers, Just-In-Time
+ code generators, and many other compiler-related programs. LLVM
+ uses a single, language-independent virtual instruction set both
+ as an offline code representation (to communicate code between
+ compiler phases and to run-time systems) and as the compiler internal
+ representation (to analyze and transform programs). This persistent
+ code representation allows a common set of sophisticated compiler
+ techniques to be applied at compile-time, link-time, install-time,
+ run-time, or "idle-time" (between program runs).
+ .
+ The strengths of the LLVM infrastructure are its extremely
+ simple design (which makes it easy to understand and use),
+ source-language independence, powerful mid-level optimizer, automated
+ compiler debugging support, extensibility, and its stability and
+ reliability. LLVM is currently being used to host a wide variety of
+ academic research projects and commercial projects. LLVM includes C
+ and C++ front-ends, a front-end for a Forth-like language (Stacker),
+ a young scheme front-end, and Java support is in development. LLVM can
+ generate code for X86, SparcV9, PowerPC, or it can emit C code.
+ .
+ LLVM is the key component of the clang compiler and the gcc plugin called
+ dragonegg.
+
+Package: llvm-3.1-dev
+Description-md5: dbddd190099f91a891e50b25a5534c30
+Description-en: Low-Level Virtual Machine (LLVM), libraries and headers
+ The Low-Level Virtual Machine (LLVM) is a collection of libraries and
+ tools that make it easy to build compilers, optimizers, Just-In-Time
+ code generators, and many other compiler-related programs. LLVM
+ uses a single, language-independent virtual instruction set both
+ as an offline code representation (to communicate code between
+ compiler phases and to run-time systems) and as the compiler internal
+ representation (to analyze and transform programs). This persistent
+ code representation allows a common set of sophisticated compiler
+ techniques to be applied at compile-time, link-time, install-time,
+ run-time, or "idle-time" (between program runs).
+ .
+ This package provides the libraries and headers to develop applications
+ using llvm.
+
+Package: llvm-3.1-doc
+Description-md5: bd9b8205678375b1bc8bb9d7f0c1775a
+Description-en: Low-Level Virtual Machine (LLVM), documentation
+ The Low-Level Virtual Machine (LLVM) is a collection of libraries and
+ tools that make it easy to build compilers, optimizers, Just-In-Time
+ code generators, and many other compiler-related programs. LLVM
+ uses a single, language-independent virtual instruction set both
+ as an offline code representation (to communicate code between
+ compiler phases and to run-time systems) and as the compiler internal
+ representation (to analyze and transform programs). This persistent
+ code representation allows a common set of sophisticated compiler
+ techniques to be applied at compile-time, link-time, install-time,
+ run-time, or "idle-time" (between program runs).
+ .
+ This package contains all documentation (extensive).
+
+Package: llvm-3.1-examples
+Description-md5: c3642550eb5501d03992590926f59166
+Description-en: Low-Level Virtual Machine (LLVM), examples
+ The Low-Level Virtual Machine (LLVM) is a collection of libraries and
+ tools that make it easy to build compilers, optimizers, Just-In-Time
+ code generators, and many other compiler-related programs. LLVM
+ uses a single, language-independent virtual instruction set both
+ as an offline code representation (to communicate code between
+ compiler phases and to run-time systems) and as the compiler internal
+ representation (to analyze and transform programs). This persistent
+ code representation allows a common set of sophisticated compiler
+ techniques to be applied at compile-time, link-time, install-time,
+ run-time, or "idle-time" (between program runs).
+ .
+ This package contains examples for using LLVM, both in developing
+ extensions to LLVM and in using it to compile code.
+
+Package: llvm-3.1-runtime
+Description-md5: cc71b67cee5965263bab53df0cb1b6d6
+Description-en: Low-Level Virtual Machine (LLVM), bytecode interpreter
+ The Low-Level Virtual Machine (LLVM) is a collection of libraries and
+ tools that make it easy to build compilers, optimizers, Just-In-Time
+ code generators, and many other compiler-related programs. LLVM
+ uses a single, language-independent virtual instruction set both
+ as an offline code representation (to communicate code between
+ compiler phases and to run-time systems) and as the compiler internal
+ representation (to analyze and transform programs). This persistent
+ code representation allows a common set of sophisticated compiler
+ techniques to be applied at compile-time, link-time, install-time,
+ run-time, or "idle-time" (between program runs).
+ .
+ This package provides the minimal required to execute programs in LLVM
+ format.
+
+Package: llvm-3.1-source
+Description-md5: a60937c140f6334950ecb84081070243
+Description-en: Low-Level Virtual Machine (LLVM), source code
+ The Low-Level Virtual Machine (LLVM) is a collection of libraries and
+ tools that make it easy to build compilers, optimizers, Just-In-Time
+ code generators, and many other compiler-related programs. LLVM
+ uses a single, language-independent virtual instruction set both
+ as an offline code representation (to communicate code between
+ compiler phases and to run-time systems) and as the compiler internal
+ representation (to analyze and transform programs). This persistent
+ code representation allows a common set of sophisticated compiler
+ techniques to be applied at compile-time, link-time, install-time,
+ run-time, or "idle-time" (between program runs).
+ .
+ This package contains the llvm source code.
+
 Package: lynx
 Description-md5: 97e502859f1b830fc1dd337e582aed20
 Description-en: Text-mode WWW Browser (transitional package)
@@ -13748,6 +14349,13 @@ Description-en: Text-mode WWW Browser with NLS support (development version)
  This package contains a development version of lynx.
 
 Package: mesa-common-dev
+Description-md5: 0d9d46ba6861a0a8c404cf51db1e980d
+Description-en: Developer documentation for Mesa
+ This package includes the specifications for the Mesa-specific OpenGL
+ extensions, the complete set of release notes and the development header
+ files common to all Mesa packages.
+
+Package: mesa-common-dev-lts-quantal
 Description-md5: 0d9d46ba6861a0a8c404cf51db1e980d
 Description-en: Developer documentation for Mesa
  This package includes the specifications for the Mesa-specific OpenGL
@@ -16935,6 +17543,42 @@ Description-en: Samba nameservice integration server
  /etc/nsswitch.conf, and authentication is integrated using the winbind
  module for PAM.
 
+Package: x11proto-dri2-dev
+Description-md5: f9fbe5a35c1d1a5259e8ba115300fae3
+Description-en: X11 DRI2 extension wire protocol
+ This package provides development headers describing the wire protocol
+ for the DRI2 extension, used to organise direct rendering support
+ for 3D clients, and replace the XFree86-DRI extension.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org dri2proto proto module.
+
+Package: x11proto-gl-dev
+Description-md5: 471f1487ed8f7f211b8c62143e8de0ba
+Description-en: X11 OpenGL extension wire protocol
+ This package provides development headers describing the wire protocol
+ for OpenGL-related extensions, used to enable the rendering of
+ applications using OpenGL.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org glproto proto module.
+
+Package: x11proto-randr-dev
+Description-md5: a90461e9118057b1d9164b079935b319
+Description-en: X11 RandR extension wire protocol
+ This package provides development headers describing the wire protocol
+ for the RandR extension, used to change display properties such as
+ resolution, rotation, reflection, et al, on the fly.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org randrproto proto module.
+
 Package: xdiagnose
 Description-md5: ceca96828e411b7ecc73f81dd97854fb
 Description-en: X.org diagnosis tool
@@ -16957,6 +17601,11 @@ Description-en: Nested X server
  This package is built from the X.org xserver module.
 
 Package: xserver-common
+Description-md5: be03943b6955ee9fae7163ad516c772f
+Description-en: common files used by various X servers
+ This package provides files necessary for all X.Org based X servers.
+
+Package: xserver-common-lts-quantal
 Description-md5: be03943b6955ee9fae7163ad516c772f
 Description-en: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
@@ -16987,7 +17636,50 @@ Description-en: Xorg - the X.Org X server (debugging symbols)
  This package provides debugging symbols for the Xorg X server and associated
  modules.
 
+Package: xserver-xorg-core-lts-quantal
+Description-md5: e3826a765918b79dee4b90ec97f9302c
+Description-en: Xorg X server - core server
+ The Xorg X server is an X server for several architectures and operating
+ systems, which is derived from the XFree86 4.x series of X servers.
+ .
+ The Xorg server supports most modern graphics hardware from most vendors,
+ and supersedes all XFree86 X servers.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xserver-xorg-core-lts-quantal-dbg
+Description-md5: 748963cc445faabee033c53886a8a0cf
+Description-en: Xorg - the X.Org X server (debugging symbols)
+ The Xorg X server is an X server for several architectures and operating
+ systems, which is derived from the XFree86 4.x series of X servers.
+ .
+ The Xorg server supports most modern graphics hardware from most vendors,
+ and supersedes all XFree86 X servers.
+ .
+ This package provides debugging symbols for the Xorg X server and associated
+ modules.
+
 Package: xserver-xorg-dev
+Description-md5: 241552d78aca8911808aea0707649843
+Description-en: Xorg X server - development files
+ This package provides development files for the X.Org ('Xorg') X server.
+ This is not quite the same as the DDK (Driver Development Kit) from the
+ XFree86 4.x and X.Org 6.7, 6.8 and 6.9 series of servers; it provides
+ headers and a pkg-config file for drivers using autotools to build
+ against.
+ .
+ Unless you are developing or building a driver, you probably want
+ xserver-xorg and/or xserver-xorg-core instead.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xserver-xorg-dev-lts-quantal
 Description-md5: 241552d78aca8911808aea0707649843
 Description-en: Xorg X server - development files
  This package provides development files for the X.Org ('Xorg') X server.
@@ -17094,6 +17786,24 @@ Description-en: Embedded GNU C Library: ARM hard float development libraries for
  Contains the symlinks and object files needed to compile and link programs
  which use the standard C library. This is the ARM hard float version of the
  library, meant for armel systems.
+
+Package: libdrm-omap1
+Description-md5: 66a6df4c7ba595e7c6964e50f981fe56
+Description-en: Userspace interface to omap-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the omap-specific kernel
+ DRM services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI). The DRI is
+ currently used on Linux to provide hardware-accelerated OpenGL drivers.
+
+Package: libdrm-omap1-dbg
+Description-md5: b2f68323b175f99817a763bb957798ee
+Description-en: Userspace interface to omap-specific kernel DRM services -- debugging symbols
+ This library implements the userspace interface to the kernel DRM services.
+ DRM stands for "Direct Rendering Manager", which is the kernelspace portion
+ of the "Direct Rendering Infrastructure" (DRI). The DRI is currently used on
+ Linux to provide hardware-accelerated OpenGL drivers.
+ .
+ This package provides the debugging symbols for the libdrm-omap1 package.
 
 Package: linux-headers-3.2.0-1413
 Description-md5: 6866ba8d08ed0bff30c3de01016bab72
