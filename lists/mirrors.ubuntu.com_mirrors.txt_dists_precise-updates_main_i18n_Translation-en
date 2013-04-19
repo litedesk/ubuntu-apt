@@ -2030,6 +2030,20 @@ Description-en: The Linux Kernel Device Mapper userspace library
  .
  This package contains a utility for modifying device mappings.
 
+Package: dnsmasq-base
+Description-md5: 1f9c3f0c557ca377bcc6c659e4694437
+Description-en: Small caching DNS proxy and DHCP/TFTP server
+ This package contains the dnsmasq executable and documentation, but
+ not the infrastructure required to run it as a system daemon. For
+ that, install the dnsmasq package.
+
+Package: dnsmasq-utils
+Description-md5: c01626c0b1b5fea18d3a8d04fbe44ea7
+Description-en: Utilities for manipulating DHCP leases
+ Small utilities to query a DHCP server's lease database and
+ remove leases from it. These programs are distributed with dnsmasq
+ and may not work correctly with other DHCP servers.
+
 Package: dnsutils
 Description-md5: 9fac1cb37cd005e52aa0e22df64994e1
 Description-en: Clients provided with BIND
@@ -35248,6 +35262,54 @@ Description-en: OpenJDK Development Kit (JDK) source files
  The packages are built using the IcedTea build support and patches
  from the IcedTea project.
 
+Package: openssh-client
+Description-md5: 8cde3280ebad71c16b3e8c661dae6c6d
+Description-en: secure shell (SSH) client, for secure access to remote machines
+ This is the portable version of OpenSSH, a free implementation of
+ the Secure Shell protocol as specified by the IETF secsh working
+ group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine
+ and for executing commands on a remote machine.
+ It provides secure encrypted communications between two untrusted
+ hosts over an insecure network. X11 connections and arbitrary TCP/IP
+ ports can also be forwarded over the secure channel.
+ It can be used to provide applications with a secure communication
+ channel.
+ .
+ This package provides the ssh, scp and sftp clients, the ssh-agent
+ and ssh-add programs to make public key authentication more convenient,
+ and the ssh-keygen, ssh-keyscan, ssh-copy-id and ssh-argv0 utilities.
+ .
+ In some countries it may be illegal to use any encryption at all
+ without a special permit.
+ .
+ ssh replaces the insecure rsh, rcp and rlogin programs, which are
+ obsolete for most purposes.
+
+Package: openssh-server
+Description-md5: 842cc998cae371b9d8106c1696373919
+Description-en: secure shell (SSH) server, for secure access from remote machines
+ This is the portable version of OpenSSH, a free implementation of
+ the Secure Shell protocol as specified by the IETF secsh working
+ group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine
+ and for executing commands on a remote machine.
+ It provides secure encrypted communications between two untrusted
+ hosts over an insecure network. X11 connections and arbitrary TCP/IP
+ ports can also be forwarded over the secure channel.
+ It can be used to provide applications with a secure communication
+ channel.
+ .
+ This package provides the sshd server.
+ .
+ In some countries it may be illegal to use any encryption at all
+ without a special permit.
+ .
+ sshd replaces the insecure rshd program, which is obsolete for most
+ purposes.
+
 Package: openssl
 Description-md5: 977022bc5545601176b69704acc5df9b
 Description-en: Secure Socket Layer (SSL) binary and related cryptographic tools
@@ -37339,6 +37401,28 @@ Description-en: Python clone of WikiWiki - library
  is a Python WikiClone that allows you to easily set up your own wiki,
  only requiring a Web server and a Python installation.
 
+Package: python-mysqldb
+Description-md5: aedcc69848aa784241ee4321e0bdea79
+Description-en: Python interface to MySQL
+ MySQLdb is an interface to the popular MySQL database server for
+ Python. The design goals are:
+ .
+  + Compliance with Python database API version 2.0
+  + Thread-safety
+  + Thread-friendliness (threads will not block each other)
+  + Compatibility with MySQL-3.23 and later
+ .
+ This package contains modules for all Python versions supported in Debian.
+
+Package: python-mysqldb-dbg
+Description-md5: 20af5dc562902823ee301a1e4b9e2edf
+Description-en: Python interface to MySQL (debug extension)
+ MySQLdb is an interface to the popular MySQL database server for
+ Python.
+ .
+ This package contains modules for all Python versions supported in
+ Debian built for Python debug interpreter.
+
 Package: python-nova
 Description-md5: 9e7471c108af7843da4a920afe750d19
 Description-en: OpenStack Compute Python libraries
@@ -38609,6 +38693,22 @@ Description-en: Full featured Web Proxy cache (HTTP proxy) - Debug symbols
  new features including ICAP and ESI support.
  .
  This package contains debugging symbols for binaries in squid3.
+
+Package: ssh
+Description-md5: b00e309365895c14a10af55945efb136
+Description-en: secure shell client and server (metapackage)
+ This metapackage is a convenient way to install both the OpenSSH client
+ and the OpenSSH server. It provides nothing in and of itself, so you
+ may remove it if nothing depends on it.
+
+Package: ssh-askpass-gnome
+Description-md5: e888e7e8e5a6ee7b30f000dc22ed083f
+Description-en: interactive X program to prompt users for a passphrase for ssh-add
+ This has been split out of the main openssh-client package so that
+ openssh-client does not need to depend on GTK+.
+ .
+ You probably want the ssh-askpass package instead, but this is
+ provided to add to your choice and/or confusion.
 
 Package: sshfs
 Description-md5: 53290533db24b88f6a76ffb069dba11c

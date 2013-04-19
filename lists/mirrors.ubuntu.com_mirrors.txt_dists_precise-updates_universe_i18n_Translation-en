@@ -1680,6 +1680,18 @@ Description-en: The Linux Kernel Device Mapper userspace library
  .
  This package contains a daemon to monitor events of devmapper devices.
 
+Package: dnsmasq
+Description-md5: d4d0c88134cc703150a59b83cb68304c
+Description-en: Small caching DNS proxy and DHCP/TFTP server
+ Dnsmasq is a lightweight, easy to configure, DNS forwarder and DHCP
+ server. It is designed to provide DNS and optionally, DHCP, to a
+ small network. It can serve the names of local machines which are
+ not in the global DNS. The DHCP server integrates with the DNS
+ server and allows machines with DHCP-allocated addresses
+ to appear in the DNS with names configured either in each host or
+ in a central configuration file. Dnsmasq supports static and dynamic
+ DHCP leases and BOOTP/TFTP for network booting of diskless machines.
+
 Package: dovecot-common
 Description-md5: af438df4e34c67abfeb6948b5b680581
 Description-en: Transitional package for dovecot
@@ -1809,6 +1821,20 @@ Description-en: code browser for Emacs supporting several languages
  minor-mode which displays a couple of windows that can
  be used to browse directories, files and methods.
  It supports method parsing for Java, C, C++, Elisp etc.
+
+Package: eclipse-rse
+Description-md5: 238e55b33a060bc80a8e678f48e67e65
+Description-en: Eclipse Remote System Explorer (RSE)
+ Remote System Explorer is a framework and toolkit in Eclipse Workbench
+ that allows you to connect and work with a variety of remote systems.
+ .
+ RSE is a framework and toolkit in Eclipse Workbench, that allows you
+ to connect and work with a variety of remote systems, including
+ .
+    * remote file systems through SSH, FTP or dstore agents,
+    * remote shell access (compiling with error navigation),
+    * remote process handling through dstore agents,
+    * and remote debugging through CDT / gdb.
 
 Package: edubuntu-artwork
 Description-md5: ce0d4bffb6df1950f1151d239c638fb4
@@ -2467,6 +2493,22 @@ Description-en: The GNU Debugger (remote server)
  .
  This package contains gdbserver.  Install this to debug remotely
  from another system where GDB is installed.
+
+Package: gdm
+Description-md5: 600b18d60203b7c3d77056cfbf3b2c50
+Description-en: GNOME Display Manager
+ GDM provides the equivalent of a "login:" prompt for X displays: it
+ asks for a login and starts X sessions.
+ .
+ It provides all the functionality of XDM, including XDMCP support for
+ managing remote displays, and extends it with the ability to start X
+ servers on demand.
+ .
+ The greeter is written using the GNOME libraries and hence looks like a
+ GNOME application - even to the extent of supporting themes!
+ .
+ This package contains the next generation GDM, which was developed
+ using the technologies on which GNOME 3 is based.
 
 Package: geis-tools
 Description-md5: 32f36eb668194701fb29ca06b17e402a
@@ -9078,6 +9120,22 @@ Description-en: python bindings for libgeis
  This package provides native bindings so that you can use GEIS from
  a Python program.
 
+Package: python-gnutls
+Description-md5: bae30b17c02271af88bddcde8084c854
+Description-en: Python wrapper for the GNUTLS library
+ This package provides a high level object oriented wrapper around
+ libgnutls, as well as low level bindings to the GNUTLS types and
+ functions via ctypes. The high level wrapper hides the details of
+ accessing the GNUTLS library via ctypes behind a set of classes
+ that encapsulate GNUTLS sessions, certificates and credentials and
+ expose them to Python applications using a simple API.
+ .
+ The package also includes a Twisted interface that has seamless
+ intergration with Twisted, providing connectTLS and listenTLS
+ methods on the Twisted reactor once imported (the methods are
+ automatically attached to the reactor by simply importing the
+ GNUTLS Twisted interface module).
+
 Package: python-grip
 Description-md5: 8e8838f88716445f10c3aeceaa1dfe36
 Description-en: python bindings for libgrip
@@ -10330,6 +10388,14 @@ Description-en: Full featured Web Proxy cache (HTTP proxy) - control utility
  .
  This package contains a small utility that can be used to get URLs from the
  command line. It needs to talk to a `squid' proxy server.
+
+Package: ssh-krb5
+Description-md5: 97f2344812bdc3899f4e9dd9a1b4f5fe
+Description-en: secure shell client and server (transitional package)
+ This is a transitional package depending on the regular Debian OpenSSH
+ client and server, which now support GSSAPI natively. It will add the
+ necessary GSSAPI options to the server configuration file. You can
+ remove it once the upgrade is complete and nothing depends on it.
 
 Package: sssd
 Description-md5: 4ddf7b359eafd4fb7fd0a93f8de33426

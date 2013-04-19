@@ -3014,6 +3014,27 @@ Description-md5: bc8f50011d7d368b15fac19b824076d4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: dnsmasq
+Priority: optional
+Section: universe/net
+Installed-Size: 108
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Simon Kelley <simon@thekelleys.org.uk>
+Architecture: all
+Version: 2.59-4ubuntu0.1
+Depends: netbase, adduser, dnsmasq-base (>= 2.59-4ubuntu0.1)
+Suggests: resolvconf
+Conflicts: resolvconf (<< 1.15)
+Filename: pool/universe/d/dnsmasq/dnsmasq_2.59-4ubuntu0.1_all.deb
+Size: 15062
+MD5sum: ff98a5cd5424a15829b6e877fcfbc97a
+SHA1: 93fc33bb38deca27dc787fea282af9ad77d88451
+SHA256: e34ee5910edf8e52bd201e6f708d60259cd3adaed7a35645a5ec7960f237265e
+Description: Small caching DNS proxy and DHCP/TFTP server
+Description-md5: d4d0c88134cc703150a59b83cb68304c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: dovecot-common
 Priority: optional
 Section: universe/mail
@@ -3286,6 +3307,26 @@ SHA256: 49901c9ac8cfac15b11c6304a989f2de6857189d1b763723715d3860785fda09
 Description: code browser for Emacs supporting several languages
 Homepage: http://ecb.sourceforge.net
 Description-md5: eb01e05dbb8fd69368b80ec471810c0c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: eclipse-rse
+Priority: optional
+Section: universe/java
+Installed-Size: 18222
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Orbital Alignment Team <pkg-java-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 3.1.2-1build0.12.04.1
+Depends: default-jre | java5-runtime | java6-runtime, eclipse-emf (>= 2.0.8), eclipse-platform (>= 3.5.2), libcommons-net2-java (>= 2.2-1ubuntu1)
+Filename: pool/universe/e/eclipse-rse/eclipse-rse_3.1.2-1build0.12.04.1_all.deb
+Size: 16411210
+MD5sum: 222d1efaaeb6333eba2344f3bb6c4e0b
+SHA1: 7516d0da5603fcd474858927a7ea2d41e13ee02c
+SHA256: 42dfa89b05da62b8396e8ef209f667cfdf36424773bcf996e85e0c68c02b6183
+Description: Eclipse Remote System Explorer (RSE)
+Homepage: http://www.eclipse.org/dsdp/tm/
+Description-md5: 238e55b33a060bc80a8e678f48e67e65
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
@@ -4691,6 +4732,30 @@ SHA1: 4032911deb74159bf6b5e277e85b7f4b9caaaa40
 SHA256: f167b56e28630c38e893dbb8f0dae369d575bc9b6e3b8c931571fa17e7bb93a5
 Description: The GNU Debugger (remote server)
 Description-md5: 6170a097d61440116f2b435e1e4a6195
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: gdm
+Priority: optional
+Section: universe/gnome
+Installed-Size: 6826
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 3.0.4-0ubuntu15.1
+Provides: x-display-manager
+Depends: gconf-service, libaccountsservice0 (>= 0.6.8), libc6 (>= 2.14), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.88), libfontconfig1 (>= 2.8.0), libgconf-2-4 (>= 2.31.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.27.4), libgtk-3-0 (>= 3.0.0), libpam0g (>= 0.99.7.1), libpango1.0-0 (>= 1.14.0), libupower-glib1 (>= 0.9.0), libwrap0 (>= 7.6-4~), libx11-6, libxau6, libxdmcp6, libxrandr2 (>= 2:1.2.99.3), debconf (>= 0.5) | debconf-2.0, gconf2 (>= 2.28.1-2), upstart-job, adduser, libpam-modules (>= 0.72-1), libpam-runtime (>= 0.76-13.1), accountsservice (>= 0.6.12), gnome-session-bin, kbd | console-tools, udev (>= 166-0ubuntu4)
+Pre-Depends: dpkg (>= 1.15.7.2)
+Recommends: xserver-xorg, metacity | x-window-manager, gnome-settings-daemon | xfconf
+Suggests: libpam-gnome-keyring, locales, uswsusp, gnome-power-manager, gnome-mag, gnome-orca, gok
+Breaks: gdm-guest-session, usplash
+Filename: pool/universe/g/gdm/gdm_3.0.4-0ubuntu15.1_amd64.deb
+Size: 1742498
+MD5sum: a103ca5dbbd2be4aca493d74ce9a8042
+SHA1: 392ca60fb665fa3f77b746225e5f5509768d8e68
+SHA256: dce00ee32308a09ae15d36d64ba707514dfffd1654d0147a040ca208febc493b
+Description: GNOME Display Manager
+Description-md5: 600b18d60203b7c3d77056cfbf3b2c50
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
@@ -8444,13 +8509,13 @@ Section: universe/admin
 Installed-Size: 48
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
-Version: 0.79.2
+Version: 0.79.3
 Depends: language-selector-gnome
-Filename: pool/universe/l/language-selector/language-selector_0.79.2_all.deb
-Size: 1188
-MD5sum: 253cccab9122e35133a54a66aaef42b4
-SHA1: fb99779efb349c60b690f447ccd7afa85c485c4e
-SHA256: 3cf1e90634b7edd6cbc69c2aab730850f216c7a4c8fbb414b4af4efc98a23597
+Filename: pool/universe/l/language-selector/language-selector_0.79.3_all.deb
+Size: 1190
+MD5sum: ea332ed07458cc8efb00c8cd07122e19
+SHA1: b02b6a890c42bbf68766621b94a7d534dabaffff
+SHA256: bf8ec726c65ac2f837e8dfbfaa2e74c854eb2ecb5a20503f4746746c0c3dd4dd
 Description: Language selector for Ubuntu (transitional package)
 Description-md5: 5f3515bb80b05cebb53b281af4072a60
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -17673,6 +17738,28 @@ Description-md5: 6dea0341c7e10bb4e778bf7770cc2b58
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: python-gnutls
+Priority: optional
+Section: universe/python
+Installed-Size: 292
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1.2.0-2.1ubuntu0.1
+Provides: python2.7-gnutls
+Depends: python (<< 2.8), python (>= 2.7), python-support (>= 0.90.0), libc6 (>= 2.2.5), libgnutls26 (>= 2.4.1)
+Recommends: python-twisted-core
+Filename: pool/universe/p/python-gnutls/python-gnutls_1.2.0-2.1ubuntu0.1_amd64.deb
+Size: 45584
+MD5sum: c3a9c5150f729df6786d28e23395bbf7
+SHA1: 6e04649c7b79f10ca88d134b342eb7094ee68dda
+SHA256: 12529cb9b910ea9e108d28e597864ec2aefac43a487c64247e6c2f7a30f5b898
+Description: Python wrapper for the GNUTLS library
+Homepage: http://cheeseshop.python.org/pypi/python-gnutls
+Description-md5: bae30b17c02271af88bddcde8084c854
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: python-grip
 Priority: optional
 Section: universe/python
@@ -19949,6 +20036,27 @@ SHA256: 0b583592ddd49b828ae0ac45a145f6a8fe523b20d7b60475821bc51bc1a4217b
 Description: Full featured Web Proxy cache (HTTP proxy) - control utility
 Homepage: http://www.squid-cache.org
 Description-md5: c9e6995c03d1bf142ed460e45f80e6ff
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: ssh-krb5
+Priority: extra
+Section: universe/oldlibs
+Installed-Size: 96
+Maintainer: Colin Watson <cjwatson@ubuntu.com>
+Original-Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
+Architecture: all
+Source: openssh
+Version: 1:5.9p1-5ubuntu1.1
+Depends: openssh-client, openssh-server
+Filename: pool/universe/o/openssh/ssh-krb5_5.9p1-5ubuntu1.1_all.deb
+Size: 8520
+MD5sum: baae14679ac80d6805bff8e8acd142bd
+SHA1: 79438ca26b97e17ea7c7c0bbed90d8df0d9c11e8
+SHA256: a60541f57a2e2a9b5642dc769cc2ff1adec7e86f6e904f3d9dc8cc5787d56495
+Description: secure shell client and server (transitional package)
+Homepage: http://www.openssh.org/
+Description-md5: 97f2344812bdc3899f4e9dd9a1b4f5fe
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 

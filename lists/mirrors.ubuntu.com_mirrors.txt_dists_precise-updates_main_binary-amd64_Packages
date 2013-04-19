@@ -701,19 +701,19 @@ Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-full, kubuntu-active-
 Package: apport
 Priority: optional
 Section: utils
-Installed-Size: 968
+Installed-Size: 972
 Maintainer: Martin Pitt <martin.pitt@ubuntu.com>
 Architecture: all
-Version: 2.0.1-0ubuntu17.1
+Version: 2.0.1-0ubuntu17.2
 Replaces: python-apport (<< 1.17.2-0ubuntu3), ubiquity
-Depends: python (>= 2.6), python-apport (>= 2.0.1-0ubuntu17.1), lsb-base (>= 3.0-6), python-gi, gir1.2-glib-2.0 (>= 1.29.17), sysv-rc (>= 2.86.ds1-14.1ubuntu2), upstart-job
+Depends: python (>= 2.6), python-apport (>= 2.0.1-0ubuntu17.2), lsb-base (>= 3.0-6), python-gi, gir1.2-glib-2.0 (>= 1.29.17), sysv-rc (>= 2.86.ds1-14.1ubuntu2), upstart-job
 Recommends: apport-symptoms
 Suggests: apport-gtk | apport-kde
-Filename: pool/main/a/apport/apport_2.0.1-0ubuntu17.1_all.deb
-Size: 145814
-MD5sum: 89eecfec9ce9c0598092a9d39e22700e
-SHA1: b352d7081291cdc5c588f39b78812c121c0d3e77
-SHA256: c1a085add844a3b8948539e67901634a7d64a78ab6c13042b8a84ba2cfad0390
+Filename: pool/main/a/apport/apport_2.0.1-0ubuntu17.2_all.deb
+Size: 146056
+MD5sum: 136b6144ab16037340edf35ab3ecad44
+SHA1: 1d54b8dac23c5b5221a009587702f4070465c7d6
+SHA256: ad772853d1b03737c3ced4541a85bcd08189de299e8e5d49b4de6a92b0af669f
 Description: automatically generate crash reports for debugging
 Homepage: https://wiki.ubuntu.com/Apport
 Description-md5: c04626471654f9246cf5e28b560d262e
@@ -729,14 +729,14 @@ Installed-Size: 181
 Maintainer: Martin Pitt <martin.pitt@ubuntu.com>
 Architecture: all
 Source: apport
-Version: 2.0.1-0ubuntu17.1
-Depends: python (>= 2.4), python-apport (>= 2.0.1-0ubuntu17.1), gir1.2-gtk-3.0 (>= 3.1.90), python-gi, python-xdg, apport (>= 0.41), procps
+Version: 2.0.1-0ubuntu17.2
+Depends: python (>= 2.4), python-apport (>= 2.0.1-0ubuntu17.2), gir1.2-gtk-3.0 (>= 3.1.90), python-gi, python-xdg, apport (>= 0.41), procps
 Recommends: update-notifier, gdb
-Filename: pool/main/a/apport/apport-gtk_2.0.1-0ubuntu17.1_all.deb
-Size: 9218
-MD5sum: 5b594779b355f92b035b243982dfea65
-SHA1: 3865f2fe2f0f95ecdff9f089b0fe6a314ffc5c66
-SHA256: a17ee84553249d7f7c313761acce94f13e2351be9d43173f8142dcea1f5a5f17
+Filename: pool/main/a/apport/apport-gtk_2.0.1-0ubuntu17.2_all.deb
+Size: 9220
+MD5sum: 4bba52b6dd6e3ed4b70cb2fb450ea904
+SHA1: d922e2867d7448e5fa01dfaafd48735faebdbd03
+SHA256: c88d4067c18e879718f8bfdd0e51fa963b5a49de8ffde98e09c38808bf0d2835
 Description: GTK+ frontend for the apport crash report system
 Homepage: https://wiki.ubuntu.com/Apport
 Description-md5: 2f45e17d5bf22355d7921dba196ae6dd
@@ -752,14 +752,14 @@ Installed-Size: 186
 Maintainer: Martin Pitt <martin.pitt@ubuntu.com>
 Architecture: all
 Source: apport
-Version: 2.0.1-0ubuntu17.1
-Depends: python (>= 2.4), python-apport (>= 2.0.1-0ubuntu17.1), python-kde4, python-xdg, apport (>= 0.41), procps
+Version: 2.0.1-0ubuntu17.2
+Depends: python (>= 2.4), python-apport (>= 2.0.1-0ubuntu17.2), python-kde4, python-xdg, apport (>= 0.41), procps
 Recommends: kubuntu-notification-helper, gdb
-Filename: pool/main/a/apport/apport-kde_2.0.1-0ubuntu17.1_all.deb
-Size: 19836
-MD5sum: 025e5033d9120d1199d21a531e8535d4
-SHA1: 3d4cc42a9f8cae40157984f165ded34449358ce8
-SHA256: 6631f6936ba51f2c520114b414506f3f819e84004e23767d6d3eb4cc60a310d2
+Filename: pool/main/a/apport/apport-kde_2.0.1-0ubuntu17.2_all.deb
+Size: 19838
+MD5sum: a4e0303bd7fe2c52b8c7c281b8c5407c
+SHA1: 67653716a8c9a6b4ce93917484a4c9a6b3d8acaa
+SHA256: f3b243e350a012b631bd33d9d04a50427563950d20a1170970c07272734fbbd5
 Description: KDE frontend for the apport crash report system
 Homepage: https://wiki.ubuntu.com/Apport
 Description-md5: c8fd570a74a013e8fc3c502dd64152ce
@@ -775,13 +775,13 @@ Installed-Size: 164
 Maintainer: Martin Pitt <martin.pitt@ubuntu.com>
 Architecture: all
 Source: apport
-Version: 2.0.1-0ubuntu17.1
-Depends: python (>= 2.4), python-apport (>= 2.0.1-0ubuntu17.1), python-apt (>= 0.7.9), apt, binutils, dpkg-dev, gdb
-Filename: pool/main/a/apport/apport-retrace_2.0.1-0ubuntu17.1_all.deb
-Size: 13794
-MD5sum: 7a7b28fdc1b67f3a20eebce00b80a6c4
-SHA1: b0a342089843fba86ac9be63f5ce14c02a9d6bbf
-SHA256: aacdb578355ca7195a9d499f4d1d168e492de691dfb9bf63dd390a76818bfda9
+Version: 2.0.1-0ubuntu17.2
+Depends: python (>= 2.4), python-apport (>= 2.0.1-0ubuntu17.2), python-apt (>= 0.7.9), apt, binutils, dpkg-dev, gdb
+Filename: pool/main/a/apport/apport-retrace_2.0.1-0ubuntu17.2_all.deb
+Size: 13796
+MD5sum: 3010b9cda9ffec1f3b11f3f79ffa385a
+SHA1: 6e58ae08afb887fceaf82d7abdf4f66af119cb2c
+SHA256: 844c7da16e28052f79543e530a4d572fe2409bf91afd116c02e5ea84f3a69f3f
 Description: tools for reprocessing Apport crash reports
 Homepage: https://wiki.ubuntu.com/Apport
 Description-md5: 2cde6d4a79d4b84ca98c69106e46dd27
@@ -3972,17 +3972,17 @@ Supported: 5y
 Package: dh-apport
 Priority: optional
 Section: devel
-Installed-Size: 152
+Installed-Size: 153
 Maintainer: Martin Pitt <martin.pitt@ubuntu.com>
 Architecture: all
 Source: apport
-Version: 2.0.1-0ubuntu17.1
+Version: 2.0.1-0ubuntu17.2
 Depends: perl
-Filename: pool/main/a/apport/dh-apport_2.0.1-0ubuntu17.1_all.deb
-Size: 7290
-MD5sum: d1d7ccc0be3eced620658795d404b5c8
-SHA1: 4625ff028c1ca89694e15949a56af440b6598813
-SHA256: a1a4da5276554ea28f294daa17d12283fe226ef9edd934d05b1016c59810c08f
+Filename: pool/main/a/apport/dh-apport_2.0.1-0ubuntu17.2_all.deb
+Size: 6902
+MD5sum: 4ac1af273f24450d50e8efe03707b867
+SHA1: 58c7a2ebfb24fcc7bc8a89236c05506d7e067f46
+SHA256: 3b75c2bd6b5723074542b1bed1a4e57de9ef23fbba397a7404bee96ffedb812d
 Description: debhelper extension for the apport crash report system
 Multi-Arch: foreign
 Homepage: https://wiki.ubuntu.com/Apport
@@ -4100,6 +4100,52 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 Task: minimal
+
+Package: dnsmasq-base
+Priority: optional
+Section: net
+Installed-Size: 512
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Simon Kelley <simon@thekelleys.org.uk>
+Architecture: amd64
+Source: dnsmasq
+Version: 2.59-4ubuntu0.1
+Replaces: dnsmasq (<< 2.59-4ubuntu0)
+Depends: libc6 (>= 2.15), libdbus-1-3 (>= 1.1.1), libidn11 (>= 1.13), libnetfilter-conntrack3 (>= 0.9.1)
+Breaks: dnsmasq (<< 2.59-4ubuntu0)
+Filename: pool/main/d/dnsmasq/dnsmasq-base_2.59-4ubuntu0.1_amd64.deb
+Size: 213436
+MD5sum: 2af1b08b6fe69aa1fd6b7142cd403c27
+SHA1: be062fb64d623d6f019a10167dc9cf37758ba5d2
+SHA256: a5b413e6f4f95e4d1ef059a6f613d5d0f06c9b4d9db69f75163f2a95f150cc86
+Description: Small caching DNS proxy and DHCP/TFTP server
+Description-md5: 1f9c3f0c557ca377bcc6c659e4694437
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: virt-host, ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full, kubuntu-active, edubuntu-desktop, edubuntu-usb, edubuntu-desktop-kde, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, lubuntu-desktop, ubuntustudio-desktop
+
+Package: dnsmasq-utils
+Priority: optional
+Section: net
+Installed-Size: 69
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Simon Kelley <simon@thekelleys.org.uk>
+Architecture: amd64
+Source: dnsmasq
+Version: 2.59-4ubuntu0.1
+Depends: libc6 (>= 2.14)
+Conflicts: dnsmasq (<< 2.40)
+Filename: pool/main/d/dnsmasq/dnsmasq-utils_2.59-4ubuntu0.1_amd64.deb
+Size: 9898
+MD5sum: be0632cc01633e6623d327fd74b96a54
+SHA1: 4bf75a3ba139708becacca663d6ba81eb7cc82b2
+SHA256: 4a2bf78f3bea5c54b1cc249f2fde0b5c11c6ca7f1b787ebc5583b8c84c1c56bd
+Description: Utilities for manipulating DHCP leases
+Description-md5: c01626c0b1b5fea18d3a8d04fbe44ea7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
 
 Package: dnsutils
 Priority: standard
@@ -36686,14 +36732,14 @@ Installed-Size: 2610
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: language-selector
-Version: 0.79.2
+Version: 0.79.3
 Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), iso-codes, python-apt (>= 0.7.12.0), python-dbus, dbus, accountsservice (>= 0.6.15-2ubuntu9.5)
 Pre-Depends: dpkg (>= 1.15.7.2)
-Filename: pool/main/l/language-selector/language-selector-common_0.79.2_all.deb
-Size: 356412
-MD5sum: fed478b09dac5a7a70ed3e5f294dd121
-SHA1: 623df99113604ef28c5118d94bcb6c2417ed501f
-SHA256: 35a9cd5bdc4658659d0f2467b8d655c56abf083a6f7dfc9c07d76dbdf7ec50b0
+Filename: pool/main/l/language-selector/language-selector-common_0.79.3_all.deb
+Size: 364940
+MD5sum: 2a4fce0975ba85eca736b687e17b9df5
+SHA1: 56f53db249120540b7c1c8955c91200877e286a2
+SHA256: 06daa1a51b120fc72a155164e3f6b48cf4cc979edc9df3c8bb893232f8887877
 Description: Language selector for Ubuntu
 Python-Version: 2.7
 Description-md5: 2289b4df765931b87d6dfc592bc87ebc
@@ -36709,15 +36755,15 @@ Installed-Size: 181
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: language-selector
-Version: 0.79.2
+Version: 0.79.3
 Replaces: language-selector (<< 0.17)
-Depends: language-selector-common (= 0.79.2), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-gi, gir1.2-gtk-3.0, gir1.2-vte-2.90, python-apt (>= 0.6.12), aptdaemon (>= 0.40+bzr527), python-aptdaemon.gtk3widgets, im-switch
+Depends: language-selector-common (= 0.79.3), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-gi, gir1.2-gtk-3.0, gir1.2-vte-2.90, python-apt (>= 0.6.12), aptdaemon (>= 0.40+bzr527), python-aptdaemon.gtk3widgets, im-switch
 Conflicts: language-selector (<< 0.17)
-Filename: pool/main/l/language-selector/language-selector-gnome_0.79.2_all.deb
-Size: 20324
-MD5sum: 1d576d2aac0c9f38ce81f0a5d2eda804
-SHA1: d6b1a708c0617f182737008fa5dfd43795054b58
-SHA256: e4e3ad2fb6cc545275ac64def84383331fd92fd778504bc1440e8e813b25a498
+Filename: pool/main/l/language-selector/language-selector-gnome_0.79.3_all.deb
+Size: 20334
+MD5sum: 1aaba60e8ff5882f001b7d25367c08b6
+SHA1: f326b2702546ec99c79ea505f3fa866a922c7598
+SHA256: 60296d6ff90a0440ae346542cd148dcbf1d67b6f19e3a7a8fe48390a390e79ed
 Description: Language selector for Ubuntu
 Python-Version: 2.7
 Description-md5: 788d18b75f9a70e3ac7605d12641951d
@@ -36733,15 +36779,15 @@ Installed-Size: 133
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: language-selector
-Version: 0.79.2
+Version: 0.79.3
 Replaces: language-selector-qt (<< 0.16)
-Depends: language-selector-common (= 0.79.2), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-qt4, python-kde4, qapt-batch, python-apt
+Depends: language-selector-common (= 0.79.3), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-qt4, python-kde4, qapt-batch, python-apt
 Conflicts: language-selector-qt (<< 0.16)
-Filename: pool/main/l/language-selector/language-selector-kde_0.79.2_all.deb
-Size: 11602
-MD5sum: 8cad86974067d7dd459ccfff60659e1a
-SHA1: cafe6eedd3aa47f0d12398a4efd04a1d31e80edc
-SHA256: 8b6e494b765e7613d8740d45eb0535e9d12e83795e83ca6e34c64586e380129b
+Filename: pool/main/l/language-selector/language-selector-kde_0.79.3_all.deb
+Size: 11548
+MD5sum: 6c66a2b2dfb29ac4e071bf4c4e3d7442
+SHA1: cecdfd02cd0b590417462bd3434f2bca22d80b65
+SHA256: 5810b53e3626e1a734f03b648f55e9d6e90be09a3164b5b145d8464e36bf0983
 Description: Language selector for Kubuntu
 Python-Version: 2.7
 Description-md5: dc4267038df09e2a6fccc15a4438e6ba
@@ -36757,13 +36803,13 @@ Installed-Size: 48
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: language-selector
-Version: 0.79.2
+Version: 0.79.3
 Depends: language-selector-kde
-Filename: pool/main/l/language-selector/language-selector-qt_0.79.2_all.deb
-Size: 1192
-MD5sum: e718f1900607b21611437d356fdb40e0
-SHA1: dd31ff170dc0e51d5e494361697f8c780d5d8a31
-SHA256: d29e71663c69098ce9dc8f5b6850549e21cfd2cc4f968102d490ecd78b813726
+Filename: pool/main/l/language-selector/language-selector-qt_0.79.3_all.deb
+Size: 1194
+MD5sum: 56699e0a4c97ddba9c79f317f8a45005
+SHA1: a87ca5a0762b2f2e88d05a5d8836304178fe9f67
+SHA256: 4261b037e38578f9f2c3f2337beb96110ee088da4dd043ddd4ec4a10c82dec81
 Description: Language selector for Kubuntu (transitional package)
 Description-md5: 543d7a310b13b48b64d4bc12661325c9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -77734,6 +77780,64 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: openssh-client
+Priority: standard
+Section: net
+Installed-Size: 2278
+Maintainer: Colin Watson <cjwatson@ubuntu.com>
+Original-Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
+Architecture: amd64
+Source: openssh
+Version: 1:5.9p1-5ubuntu1.1
+Replaces: ssh, ssh-krb5
+Provides: rsh-client, ssh-client
+Depends: libc6 (>= 2.15), libedit2 (>= 2.11-20080614-1), libgssapi-krb5-2 (>= 1.10+dfsg~), libselinux1 (>= 1.32), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4), debconf (>= 1.2.0) | debconf-2.0, adduser (>= 3.10), dpkg (>= 1.7.0), passwd
+Recommends: xauth
+Suggests: ssh-askpass, libpam-ssh, keychain, monkeysphere, openssh-blacklist, openssh-blacklist-extra
+Conflicts: rsh-client (<< 0.16.1-1), sftp, ssh (<< 1:3.8.1p1-9), ssh-krb5 (<< 1:4.3p2-7)
+Filename: pool/main/o/openssh/openssh-client_5.9p1-5ubuntu1.1_amd64.deb
+Size: 942260
+MD5sum: 4309d69660c48a69c2b9307777474ea2
+SHA1: d28ea4adc692a2768d205b6f114d3ab7dfb984a4
+SHA256: 66323667c4b13360d8d025899ea1088c4820c6386a1aa38e68639a4a59a3a191
+Description: secure shell (SSH) client, for secure access to remote machines
+Multi-Arch: foreign
+Homepage: http://www.openssh.org/
+Description-md5: 8cde3280ebad71c16b3e8c661dae6c6d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: standard, kubuntu-active, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master
+
+Package: openssh-server
+Priority: optional
+Section: net
+Installed-Size: 807
+Maintainer: Colin Watson <cjwatson@ubuntu.com>
+Original-Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
+Architecture: amd64
+Source: openssh
+Version: 1:5.9p1-5ubuntu1.1
+Replaces: openssh-client (<< 1:3.8.1p1-11), ssh, ssh-krb5
+Provides: ssh-server
+Depends: libc6 (>= 2.15), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libkrb5-3 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.0 (>= 1.0.0), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), debconf (>= 1.2.0) | debconf-2.0, openssh-client (= 1:5.9p1-5ubuntu1.1), upstart-job, libpam-runtime (>= 0.76-14), libpam-modules (>= 0.72-9), adduser (>= 3.9), dpkg (>= 1.9.0), lsb-base (>= 3.2-13), procps
+Recommends: xauth, ssh-import-id
+Suggests: ssh-askpass, rssh, molly-guard, openssh-blacklist, openssh-blacklist-extra, ufw, monkeysphere
+Conflicts: rsh-client (<< 0.16.1-1), sftp, ssh (<< 1:3.8.1p1-9), ssh-krb5 (<< 1:4.3p2-7), ssh-nonfree (<< 2), ssh-socks, ssh2
+Filename: pool/main/o/openssh/openssh-server_5.9p1-5ubuntu1.1_amd64.deb
+Size: 339094
+MD5sum: 09ea211e84dfe11db89ed251a1f50c8c
+SHA1: 9061debbd5455d5a9361b21729dcea6821c227c3
+SHA256: 21881d0a7c61330357dc9812bc994a17c7b60c46022326a677c936e94ccc71a5
+Description: secure shell (SSH) server, for secure access from remote machines
+Multi-Arch: foreign
+Homepage: http://www.openssh.org/
+Description-md5: 842cc998cae371b9d8106c1696373919
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: virt-host, cloud-image, openssh-server, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master
+
 Package: openssl
 Priority: standard
 Section: utils
@@ -80784,17 +80888,17 @@ Supported: 5y
 Package: python-apport
 Priority: optional
 Section: python
-Installed-Size: 471
+Installed-Size: 476
 Maintainer: Martin Pitt <martin.pitt@ubuntu.com>
 Architecture: all
 Source: apport
-Version: 2.0.1-0ubuntu17.1
+Version: 2.0.1-0ubuntu17.2
 Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-apt (>= 0.7.9), python-problem-report (>= 0.94), python-launchpadlib (>= 1.5.7), lsb-release
-Filename: pool/main/a/apport/python-apport_2.0.1-0ubuntu17.1_all.deb
-Size: 81354
-MD5sum: 2c601cebde969143fd22a28f823e98f0
-SHA1: 62d3586d714faf1337560db3aafcd2e633bbcb35
-SHA256: 3ce7d32cc4025a0cb475d5d130c90d01e99a304a8b24433428f4a8f4cae5681c
+Filename: pool/main/a/apport/python-apport_2.0.1-0ubuntu17.2_all.deb
+Size: 81536
+MD5sum: e4efea9522574558fe792236e9542ed0
+SHA1: ef888dcc2238f57bb5d738da3c14e7eebbe075ee
+SHA256: 77331afddfb842bacd286e90594a6f801165772ad52f9499a39ce1f5275063c8
 Description: apport crash report handling library
 Homepage: https://wiki.ubuntu.com/Apport
 Description-md5: 9428e123d2c8046f4fdef7af1c60baee
@@ -81998,6 +82102,56 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: python-mysqldb
+Priority: optional
+Section: python
+Installed-Size: 216
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1.2.3-1ubuntu0.1
+Replaces: python2.3-mysqldb, python2.4-mysqldb
+Provides: python2.7-mysqldb
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), libc6 (>= 2.4), libmysqlclient18 (>= 5.5.13-1)
+Suggests: python-egenix-mxdatetime, mysql-server-5.1 | mysql-server, python-mysqldb-dbg
+Conflicts: python2.3-mysqldb, python2.4-mysqldb
+Filename: pool/main/p/python-mysqldb/python-mysqldb_1.2.3-1ubuntu0.1_amd64.deb
+Size: 64016
+MD5sum: 04fbdb8cb3f386c413434c8eb434cbfc
+SHA1: dad3c06512f355fe5155ecd3dc024549557f7d79
+SHA256: 08909dfbeb5bdc445b578fd5d317646a25a82dbbaab2b16cfe7e86b52fd0d65f
+Description: Python interface to MySQL
+Homepage: http://mysql-python.sourceforge.net/
+Python-Version: 2.7
+Description-md5: aedcc69848aa784241ee4321e0bdea79
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master
+
+Package: python-mysqldb-dbg
+Priority: extra
+Section: python
+Installed-Size: 310
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Architecture: amd64
+Source: python-mysqldb
+Version: 1.2.3-1ubuntu0.1
+Depends: python-mysqldb (= 1.2.3-1ubuntu0.1), python-dbg, libc6 (>= 2.4), libmysqlclient18 (>= 5.5.13-1)
+Suggests: python-egenix-mxdatetime-dbg
+Filename: pool/main/p/python-mysqldb/python-mysqldb-dbg_1.2.3-1ubuntu0.1_amd64.deb
+Size: 93040
+MD5sum: b35495d52d48b299d4b4fd9e00f3df34
+SHA1: cc8033866879129fa5e972ef7cdbfb500b760365
+SHA256: 149fc0a735306c441f9f42f9bf0ee17b078f68ac26a7d42ac29602ffe214115c
+Description: Python interface to MySQL (debug extension)
+Homepage: http://mysql-python.sourceforge.net/
+Description-md5: 20af5dc562902823ee301a1e4b9e2edf
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: python-nova
 Priority: extra
 Section: python
@@ -82051,17 +82205,17 @@ Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, xubuntu-deskto
 Package: python-problem-report
 Priority: optional
 Section: python
-Installed-Size: 156
+Installed-Size: 157
 Maintainer: Martin Pitt <martin.pitt@ubuntu.com>
 Architecture: all
 Source: apport
-Version: 2.0.1-0ubuntu17.1
+Version: 2.0.1-0ubuntu17.2
 Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8)
-Filename: pool/main/a/apport/python-problem-report_2.0.1-0ubuntu17.1_all.deb
-Size: 9776
-MD5sum: 48023d75de174dfe8ddaea0718dc0670
-SHA1: 9151f2a0f66544f2f74fcf290af9c34e2a63219c
-SHA256: b66fbb690ce20fb00f53613c8ea3d0690fd0956e3bbf93c5a69706482bb76748
+Filename: pool/main/a/apport/python-problem-report_2.0.1-0ubuntu17.2_all.deb
+Size: 9342
+MD5sum: 37dfc3db4a1ee4ac44a318a63d42cdd6
+SHA1: 2c1cb1467335391c57b7aec23e88dd8f7e7bdece
+SHA256: c689c8ab80e42c20b506ae4a7847253f186c199a2d2ab1fc6bc9d7de9fd9469f
 Description: Python library to handle problem reports
 Homepage: https://wiki.ubuntu.com/Apport
 Description-md5: 06dbdefca60b63fb6c44c8daf9a9cc5f
@@ -84872,6 +85026,53 @@ Description-md5: d5c14e1471912f644f9014560978dd12
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
+
+Package: ssh
+Priority: optional
+Section: net
+Installed-Size: 29
+Maintainer: Colin Watson <cjwatson@ubuntu.com>
+Original-Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
+Architecture: all
+Source: openssh
+Version: 1:5.9p1-5ubuntu1.1
+Depends: openssh-client, openssh-server
+Filename: pool/main/o/openssh/ssh_5.9p1-5ubuntu1.1_all.deb
+Size: 1278
+MD5sum: 4576184b528a5b5aaf80b0a79c2fe1e5
+SHA1: 5b90ae6538fe03e90d154f010a5278e57d26404b
+SHA256: 9b4d7d7ca15f586ef2c8c69b52e940a81f5bb5b0e73d15cb19aa0a02fc55bb54
+Description: secure shell client and server (metapackage)
+Homepage: http://www.openssh.org/
+Description-md5: b00e309365895c14a10af55945efb136
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: ssh-askpass-gnome
+Priority: optional
+Section: gnome
+Installed-Size: 127
+Maintainer: Colin Watson <cjwatson@ubuntu.com>
+Original-Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
+Architecture: amd64
+Source: openssh
+Version: 1:5.9p1-5ubuntu1.1
+Replaces: ssh (<< 1:3.5p1-3)
+Provides: ssh-askpass
+Depends: libc6 (>= 2.2.5), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.8.0), libx11-6, openssh-client | ssh (>= 1:1.2pre7-4) | ssh-krb5
+Filename: pool/main/o/openssh/ssh-askpass-gnome_5.9p1-5ubuntu1.1_amd64.deb
+Size: 16022
+MD5sum: fd67591f44dabca1eaf6e0796b283161
+SHA1: f2d4bc2edac3d474ec440540c0498c7d92dc04a3
+SHA256: 6e0d09fa3ccef808a7dbc81241e1206971237eb3ac89e6400983e9d1b493888b
+Description: interactive X program to prompt users for a passphrase for ssh-add
+Homepage: http://www.openssh.org/
+Description-md5: e888e7e8e5a6ee7b30f000dc22ed083f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, ubuntustudio-desktop
 
 Package: sshfs
 Priority: optional
