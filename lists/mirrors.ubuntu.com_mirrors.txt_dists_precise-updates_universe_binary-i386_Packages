@@ -14118,13 +14118,13 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: marble
-Version: 4:4.8.5-0ubuntu0.1
-Depends: libc6 (>= 2.1.3), libmarblewidget13 (= 4:4.8.5-0ubuntu0.1), libqt4-declarative (>= 4:4.7.0~beta2), libqtcore4 (>= 4:4.5.3), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.1.1), marble-data (>= 4:4.8.5-0ubuntu0.1), marble-plugins (= 4:4.8.5-0ubuntu0.1)
-Filename: pool/universe/m/marble/marble-touch_4.8.5-0ubuntu0.1_i386.deb
-Size: 168500
-MD5sum: 7ee4fc70f8377e0b926a88f85e40a7d3
-SHA1: a57c7ff1f9e9a3315a8e4eec6003235bff939cb4
-SHA256: 100cb72f2a9842d3c2dbe7d76b070ae7c6ee78912d72a34f5e371e754cf54f41
+Version: 4:4.8.5-0ubuntu0.2
+Depends: libc6 (>= 2.1.3), libmarblewidget13 (= 4:4.8.5-0ubuntu0.2), libqt4-declarative (>= 4:4.7.0~beta2), libqtcore4 (>= 4:4.5.3), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.1.1), marble-data (>= 4:4.8.5-0ubuntu0.2), marble-plugins (= 4:4.8.5-0ubuntu0.2)
+Filename: pool/universe/m/marble/marble-touch_4.8.5-0ubuntu0.2_i386.deb
+Size: 168562
+MD5sum: 147f551c8d8948743822abf2e2bd304a
+SHA1: 36871eca7bbe2cba3321394fad368ddb906c6870
+SHA256: 20cb37009be263dc962ad036f16314772fe341995aefce0a890b4028911854f3
 Description: globe and map widget for tablets
 Homepage: http://edu.kde.org/
 Description-md5: e8c4aa9575ee615ef53925557f0de2ca
@@ -17041,6 +17041,27 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Task: xubuntu-desktop
 
+Package: pithos
+Priority: optional
+Section: universe/gnome
+Installed-Size: 519
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Luke Faraone <lfaraone@debian.org>
+Architecture: all
+Version: 0.3.14-1ubuntu12.0.1
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-xdg, python-gobject, python-gst0.10, python-notify, python-gtk2, python-dbus, gstreamer0.10-plugins-good, gstreamer0.10-plugins-bad
+Filename: pool/universe/p/pithos/pithos_0.3.14-1ubuntu12.0.1_all.deb
+Size: 134256
+MD5sum: a798f6001351b613b2acd6e857f96247
+SHA1: 8b1e60a736ec9b7514766238954a24c0896662b7
+SHA256: b82e11444c4b6ef5782327fd4331f2f456aa890f6278646ffadd815e5df215c4
+Description: Pandora Radio client for the GNOME desktop
+Homepage: http://kevinmehall.net/p/pithos/
+Python-Version: 2.7
+Description-md5: f0162f34434f77452601d62b41d8b316
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: plasma-desktopthemes-artwork
 Priority: optional
 Section: universe/kde
@@ -17747,18 +17768,18 @@ Origin: Ubuntu
 Package: python-aptdaemon-gtk
 Priority: extra
 Section: universe/python
-Installed-Size: 38
+Installed-Size: 39
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Julian Andres Klode <jak@debian.org>
 Architecture: all
 Source: aptdaemon
-Version: 0.43+bzr805-0ubuntu8
-Depends: python-aptdaemon.gtkwidgets (= 0.43+bzr805-0ubuntu8), python-aptdaemon.gtk3widgets (= 0.43+bzr805-0ubuntu8)
-Filename: pool/universe/a/aptdaemon/python-aptdaemon-gtk_0.43+bzr805-0ubuntu8_all.deb
-Size: 1678
-MD5sum: 34d8ba65959dea21f28b01d66921715b
-SHA1: 37ad668f54c852e72ab20e2d3ebfaee9534cccc1
-SHA256: 78f83a058225d7c50cbee1e429a0b66bf3415c4592cefa59635fc36b5514e46f
+Version: 0.43+bzr805-0ubuntu9
+Depends: python-aptdaemon.gtkwidgets (= 0.43+bzr805-0ubuntu9), python-aptdaemon.gtk3widgets (= 0.43+bzr805-0ubuntu9)
+Filename: pool/universe/a/aptdaemon/python-aptdaemon-gtk_0.43+bzr805-0ubuntu9_all.deb
+Size: 1674
+MD5sum: f98e4ae3aa1cc55be1d4787ea3d45cf3
+SHA1: 8038146b2a4c2360c4fd1159d5b1e18ca1fd6cf9
+SHA256: 0a633258d9704d6447d53033382489db968ac85a7c5634dc9258ef8528acf8c0
 Description: Transitional dummy package
 Homepage: https://launchpad.net/aptdaemon
 Description-md5: 34e143ec2eec625373a4f8568c0819c5
@@ -17774,15 +17795,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Julian Andres Klode <jak@debian.org>
 Architecture: all
 Source: aptdaemon
-Version: 0.43+bzr805-0ubuntu8
+Version: 0.43+bzr805-0ubuntu9
 Replaces: python-aptdaemon-gtk (<< 0.41+bzr582-0ubuntu1)
-Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-aptdaemon (= 0.43+bzr805-0ubuntu8), python-gtk2, python-vte, aptdaemon-data
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-aptdaemon (= 0.43+bzr805-0ubuntu9), python-gtk2, python-vte, aptdaemon-data
 Conflicts: python-aptdaemon-gtk (<< 0.41+bzr582-0ubuntu1)
-Filename: pool/universe/a/aptdaemon/python-aptdaemon.gtkwidgets_0.43+bzr805-0ubuntu8_all.deb
-Size: 13930
-MD5sum: 7ff047cf225a1e4256af7ca3efb09c00
-SHA1: 10ee967942b95d4df3688c79316e286dfacf1cbc
-SHA256: 9fbe9895c7e5ca1d99f8b480168bf69baf861e10b4ef3bb3be0d5ff6ebb89430
+Filename: pool/universe/a/aptdaemon/python-aptdaemon.gtkwidgets_0.43+bzr805-0ubuntu9_all.deb
+Size: 14064
+MD5sum: 3baea6d6ea3df03ac104df7ec34fdee0
+SHA1: 899635ae15b0962dce45ee6f6ddf989394965b3c
+SHA256: f663476d882fe4f5bddc4e538d7e326c06657afec8a1567fe2d9497cf8b27b53
 Description: Python GTK+ 2 widgets to run an aptdaemon client
 Homepage: https://launchpad.net/aptdaemon
 Python-Version: 2.7
@@ -17799,13 +17820,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Julian Andres Klode <jak@debian.org>
 Architecture: all
 Source: aptdaemon
-Version: 0.43+bzr805-0ubuntu8
-Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-aptdaemon (= 0.43+bzr805-0ubuntu8)
-Filename: pool/universe/a/aptdaemon/python-aptdaemon.test_0.43+bzr805-0ubuntu8_all.deb
-Size: 80526
-MD5sum: a4bf69318f46267fa160229d5560b2fc
-SHA1: 3851efe765b8058cd7ba42e47e90fbfc454b3b40
-SHA256: 432e441298172433eabcc174671ea1154d198b09dd78f639833c018335735728
+Version: 0.43+bzr805-0ubuntu9
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-aptdaemon (= 0.43+bzr805-0ubuntu9)
+Filename: pool/universe/a/aptdaemon/python-aptdaemon.test_0.43+bzr805-0ubuntu9_all.deb
+Size: 80894
+MD5sum: 4f8398a707b876243ce0e5c44810dde9
+SHA1: 6e1f69731fb95c5f4e5482eb2aa6b18e62eb0352
+SHA256: 36bdb8c9d97a4192b490fcdef18028b321380fd257be3d7cd7f6a5cfdffdb36a
 Description: Test environment for aptdaemon clients
 Homepage: https://launchpad.net/aptdaemon
 Python-Version: 2.7
