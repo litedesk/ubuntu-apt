@@ -45,14 +45,14 @@ Installed-Size: 312
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Alessio Treglia <alessio@debian.org>
 Architecture: i386
-Version: 0.6.15-2ubuntu9.5
-Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.88), libglib2.0-0 (>= 2.25.11), libpolkit-gobject-1-0 (>= 0.99), libaccountsservice0 (= 0.6.15-2ubuntu9.5), dbus
+Version: 0.6.15-2ubuntu9.6
+Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.88), libglib2.0-0 (>= 2.25.11), libpolkit-gobject-1-0 (>= 0.99), libaccountsservice0 (= 0.6.15-2ubuntu9.6), dbus
 Suggests: gnome-control-center
-Filename: pool/main/a/accountsservice/accountsservice_0.6.15-2ubuntu9.5_i386.deb
-Size: 43674
-MD5sum: 9be78833f88424ac64396dca30157ada
-SHA1: 6101e4a35c863676f741e87e5b1d08728c4bff11
-SHA256: 05ea3e7249e1b83704bd3bcc5ca5827d53c6c4c28d3dceed5c69e32ec579bf07
+Filename: pool/main/a/accountsservice/accountsservice_0.6.15-2ubuntu9.6_i386.deb
+Size: 43714
+MD5sum: 77c337e54ad09c6629a8bf3944d81308
+SHA1: cf961314440a6c3db71a2581fb020ee0f82ea5f0
+SHA256: 0c8153844d6f8996f9d444b6f774d67aa582e8124d8a0d68637b02951d1a3e09
 Description: query and manipulate user account information
 Homepage: http://cgit.freedesktop.org/accountsservice/
 Description-md5: 8aeed0a03c7cd494f0c4b8d977483d7e
@@ -7964,15 +7964,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Alessio Treglia <alessio@debian.org>
 Architecture: i386
 Source: accountsservice
-Version: 0.6.15-2ubuntu9.5
+Version: 0.6.15-2ubuntu9.6
 Replaces: gir1.2-accountservice-1.0 (<< 0.6.12-4)
 Depends: gir1.2-freedesktop, gir1.2-glib-2.0, libaccountsservice0 (>= 0.6.15-2ubuntu3~)
 Breaks: gir1.2-accountservice-1.0 (<< 0.6.12-4)
-Filename: pool/main/a/accountsservice/gir1.2-accountsservice-1.0_0.6.15-2ubuntu9.5_i386.deb
+Filename: pool/main/a/accountsservice/gir1.2-accountsservice-1.0_0.6.15-2ubuntu9.6_i386.deb
 Size: 4326
-MD5sum: d8a0b00a166b2993733d2435c56fe421
-SHA1: 2c0b18577d8ae44fd3d9ec9364c6ef35c2569226
-SHA256: d76382c935e78a260e1cdfe7728be987af00d65b1e6fb2695da21e2303306454
+MD5sum: 10f92940ac7e1e15d4f2bab251f3b5d5
+SHA1: b917aa7a65d1949d21d42210908ca8618ab92ab3
+SHA256: 8b13deb2da4ea9d11efbe7b33148903b3fdb2317903cee83656828012b4a64b1
 Description: GObject introspection data for AccountService
 Homepage: http://cgit.freedesktop.org/accountsservice/
 Description-md5: 3e307108d5acfea1c79fd66a238baaf2
@@ -37012,13 +37012,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Alessio Treglia <alessio@debian.org>
 Architecture: i386
 Source: accountsservice
-Version: 0.6.15-2ubuntu9.5
-Depends: libaccountsservice0 (= 0.6.15-2ubuntu9.5), libdbus-glib-1-dev, libpolkit-gobject-1-dev, libglib2.0-dev (>= 2.25.11), libgirepository1.0-dev (>= 0.9.12)
-Filename: pool/main/a/accountsservice/libaccountsservice-dev_0.6.15-2ubuntu9.5_i386.deb
-Size: 8048
-MD5sum: 8da9dce2eff6368906d662fd27be24d0
-SHA1: aafc3829c6703929743bd72bfcce377e9a968e45
-SHA256: f464dcf766f84edbd3e0bc64ca76c0d89c9883a0aa79febd2da2a6e4a6bf5991
+Version: 0.6.15-2ubuntu9.6
+Depends: libaccountsservice0 (= 0.6.15-2ubuntu9.6), libdbus-glib-1-dev, libpolkit-gobject-1-dev, libglib2.0-dev (>= 2.25.11), libgirepository1.0-dev (>= 0.9.12)
+Filename: pool/main/a/accountsservice/libaccountsservice-dev_0.6.15-2ubuntu9.6_i386.deb
+Size: 8042
+MD5sum: 8a0453c5a0aaebdc07f073dacc0ed9f9
+SHA1: 08c81a64d3242907af8a94c31d13544380e85732
+SHA256: 165a7705c82eb4e779c2993a7c1e001ba01fa5761ea778fcaa964aecf4c5c7a8
 Description: query and manipulate user account information - header files
 Homepage: http://cgit.freedesktop.org/accountsservice/
 Description-md5: d0607148cea2974f2cc311a5e0bab4f9
@@ -37034,14 +37034,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Alessio Treglia <alessio@debian.org>
 Architecture: i386
 Source: accountsservice
-Version: 0.6.15-2ubuntu9.5
+Version: 0.6.15-2ubuntu9.6
 Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libglib2.0-0 (>= 2.25.11)
 Breaks: accountsservice (<< 0.6.5)
-Filename: pool/main/a/accountsservice/libaccountsservice0_0.6.15-2ubuntu9.5_i386.deb
-Size: 29470
-MD5sum: 11765b0c9d22995ae5ef786b77deb61d
-SHA1: 3ca2f4c05b068928b29f32e42da8235ad3bfb138
-SHA256: f3202672f9cc6aa2f6142f31e0779b417aed2e156cc4fe8e8db0ab3de201f4bf
+Filename: pool/main/a/accountsservice/libaccountsservice0_0.6.15-2ubuntu9.6_i386.deb
+Size: 29482
+MD5sum: f06267614a5a0951ca5aeaa62b5f66e9
+SHA1: 9994763c3b3c4f7f3fa04ce058e728f4946cb82b
+SHA256: 85b09d50b6931c1c15683523c8f86463c7b3fb3b79da04d6b936f31419b464fe
 Description: query and manipulate user account information - shared libraries
 Homepage: http://cgit.freedesktop.org/accountsservice/
 Description-md5: d536aa425d73c3ead2f37bd9a771e648
