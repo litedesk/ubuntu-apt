@@ -9162,16 +9162,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: all
 Source: eglibc
-Version: 2.15-0ubuntu10.3
+Version: 2.15-0ubuntu10.4
 Replaces: glibc-doc-reference
 Provides: glibc-doc-reference
 Depends: dpkg (>= 1.15.4) | install-info
 Conflicts: glibc-doc-reference
-Filename: pool/main/e/eglibc/glibc-doc_2.15-0ubuntu10.3_all.deb
-Size: 1893310
-MD5sum: f3e61ef5ef8e7856a15ddaaf19f56074
-SHA1: f984d6de82c355425b7dfcfd4cf64b40edd67972
-SHA256: c0bdd75701f13b1dd017cc0e406bee6e9aee149fc402c364c4071f6c9fcd7589
+Filename: pool/main/e/eglibc/glibc-doc_2.15-0ubuntu10.4_all.deb
+Size: 1893478
+MD5sum: 20bc2e119ec0e9c202acf1b712db28b4
+SHA1: 753cadd04221e21dcee7116900405f6737d2e27e
+SHA256: 946e187d76b03aa87c1410815775a3ab7bbf19a398469c9f3df7632c5c341ce2
 Description: Embedded GNU C Library: Documentation
 Homepage: http://www.eglibc.org
 Description-md5: a18f034f12bb433c4170fa9c5b4621ec
@@ -38363,14 +38363,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: i386
 Source: eglibc
-Version: 2.15-0ubuntu10.3
+Version: 2.15-0ubuntu10.4
 Replaces: libc0.1, libc0.3, libc6, libc6.1
 Breaks: libc0.1 (<< 2.10), libc0.3 (<< 2.10), libc6 (<< 2.10), libc6.1 (<< 2.10)
-Filename: pool/main/e/eglibc/libc-bin_2.15-0ubuntu10.3_i386.deb
-Size: 1131080
-MD5sum: b5612d8eb10879fe06d1c43818d745bc
-SHA1: a95053634bdbd180bedb719884d365f83926b0ca
-SHA256: 82fb2ff8fb51671de0cf7a56728b110b7aed637b2ddfe67d8aeae9a946147773
+Filename: pool/main/e/eglibc/libc-bin_2.15-0ubuntu10.4_i386.deb
+Size: 1131444
+MD5sum: bdb82bbc51f24b8a55e5233461a685cd
+SHA1: 153bcf757d05c83a080af5c42e0616728184ee05
+SHA256: c9c35ec1b521bc0265ae90b77abfc5de12dbd63a4d31e1e3349de3fae31b485f
 Description: Embedded GNU C Library: Binaries
 Multi-Arch: foreign
 Homepage: http://www.eglibc.org
@@ -38388,15 +38388,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: i386
 Source: eglibc
-Version: 2.15-0ubuntu10.3
+Version: 2.15-0ubuntu10.4
 Replaces: libc0.1-dev, libc0.3-dev, libc6-dev, libc6.1-dev
 Depends: libc6 (>> 2.15), libc6 (<< 2.16)
 Recommends: manpages-dev
-Filename: pool/main/e/eglibc/libc-dev-bin_2.15-0ubuntu10.3_i386.deb
-Size: 77720
-MD5sum: 817c86a160f3ea378ba34b86181d1fbd
-SHA1: 14ff26cf2850e75b6e77ce337c16a7ad7c175e06
-SHA256: 6e0849bd90ae2c76289ba4d6c3661a329ed40a26b14769418358a3d39880f792
+Filename: pool/main/e/eglibc/libc-dev-bin_2.15-0ubuntu10.4_i386.deb
+Size: 77724
+MD5sum: 2c2e6a65299357630bfa4221e86cf6a2
+SHA1: 1fdfbe00edcdc9b7937869ba735b4fa20711849e
+SHA256: af88f4a8400824a4f5797ffd9a2f55cc92f3b4c09373cdaae9bf91c63df3c043
 Description: Embedded GNU C Library: Development binaries
 Multi-Arch: foreign
 Homepage: http://www.eglibc.org
@@ -38415,18 +38415,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: i386
 Source: eglibc
-Version: 2.15-0ubuntu10.3
+Version: 2.15-0ubuntu10.4
 Replaces: belocs-locales-bin, libc6-i386
 Provides: glibc-2.13-1, libc6-i686
-Depends: libc-bin (= 2.15-0ubuntu10.3), libgcc1, tzdata
+Depends: libc-bin (= 2.15-0ubuntu10.4), libgcc1, tzdata
 Suggests: glibc-doc, debconf | debconf-2.0, locales
 Conflicts: belocs-locales-bin, libc6-i686, prelink (<< 0.0.20090925), tzdata (<< 2007k-1), tzdata-etch
 Breaks: libhwloc0, liblouis0 (<< 2.3.0-2), liblouisxml1 (<< 2.4.0-2), nscd (<< 2.15)
-Filename: pool/main/e/eglibc/libc6_2.15-0ubuntu10.3_i386.deb
-Size: 3940262
-MD5sum: 3a3c361e2fef2409f52f450a1683b4b4
-SHA1: 04856d7d32be5ee6e0aa31d3494ef775f23d5d48
-SHA256: b80902cf9564e868f021ea233861785a6283c802dc53e8ba585f27da64bff678
+Filename: pool/main/e/eglibc/libc6_2.15-0ubuntu10.4_i386.deb
+Size: 3940552
+MD5sum: 8d8b34d41deb2953470d26975f510af4
+SHA1: df01a6b476c808a91bef15928d01e47715779c77
+SHA256: 2d27202caf94494bb738ecc087ae1796fb0907d90daafa9e905f3f34f0fcf701
 Description: Embedded GNU C Library: Shared libraries
 Multi-Arch: same
 Homepage: http://www.eglibc.org
@@ -38444,14 +38444,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: i386
 Source: eglibc
-Version: 2.15-0ubuntu10.3
-Depends: libc6 (= 2.15-0ubuntu10.3)
+Version: 2.15-0ubuntu10.4
+Depends: libc6 (= 2.15-0ubuntu10.4)
 Conflicts: amd64-libs (<= 1.2)
-Filename: pool/main/e/eglibc/libc6-amd64_2.15-0ubuntu10.3_i386.deb
-Size: 4615230
-MD5sum: d176e4ab8ffce42d752ad636d746e6f3
-SHA1: 8b71b7d1bc64841b2b06436ef324071507406a6e
-SHA256: b6b45a9fd5f1320f0a6545094a97e36776aec9606e20f9bc186c8ad3dc42b01b
+Filename: pool/main/e/eglibc/libc6-amd64_2.15-0ubuntu10.4_i386.deb
+Size: 4615250
+MD5sum: 06d5d575430c7edd54570352849a6b4c
+SHA1: bf5136d3d3f01d97c723328e373d09608c998239
+SHA256: fbf90bfe0553e5de3412ff07e03e6af230977ba381544589c909f437aea379b0
 Description: Embedded GNU C Library: 64bit Shared libraries for AMD64
 Homepage: http://www.eglibc.org
 Description-md5: 5e871a82fe5ae12250669afab6662439
@@ -38462,20 +38462,20 @@ Supported: 5y
 Package: libc6-dbg
 Priority: extra
 Section: debug
-Installed-Size: 25000
+Installed-Size: 25002
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: i386
 Source: eglibc
-Version: 2.15-0ubuntu10.3
+Version: 2.15-0ubuntu10.4
 Provides: libc-dbg
-Depends: libc6 (= 2.15-0ubuntu10.3)
+Depends: libc6 (= 2.15-0ubuntu10.4)
 Pre-Depends: dpkg (>= 1.15.6)
-Filename: pool/main/e/eglibc/libc6-dbg_2.15-0ubuntu10.3_i386.deb
-Size: 2575218
-MD5sum: 7eb0ee99156198441600d5c2a679aafa
-SHA1: b338006b73d855dcb802741644e1b6585befe26e
-SHA256: a94d04814b464ae24b7cff7ba59465147dd45a8917a9d61a6e5cb5deb3131b9e
+Filename: pool/main/e/eglibc/libc6-dbg_2.15-0ubuntu10.4_i386.deb
+Size: 2574722
+MD5sum: ccef5e47d29c772ff5e96a180a9a0b28
+SHA1: d13202bba0e3ada23d5f97cd9cb7b92d91e099d3
+SHA256: e5d24aaeb2611359e81fa4bcee5b918d7bdf79727d9c722720685d45ae96929d
 Description: Embedded GNU C Library: detached debugging symbols
 Multi-Arch: same
 Homepage: http://www.eglibc.org
@@ -38487,22 +38487,22 @@ Supported: 5y
 Package: libc6-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 19611
+Installed-Size: 19607
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: i386
 Source: eglibc
-Version: 2.15-0ubuntu10.3
+Version: 2.15-0ubuntu10.4
 Provides: libc-dev
-Depends: libc6 (= 2.15-0ubuntu10.3), libc-dev-bin (= 2.15-0ubuntu10.3), linux-libc-dev
+Depends: libc6 (= 2.15-0ubuntu10.4), libc-dev-bin (= 2.15-0ubuntu10.4), linux-libc-dev
 Recommends: gcc | c-compiler
 Suggests: glibc-doc, manpages-dev
 Breaks: binutils (<< 2.20.1-1), binutils-gold (<< 2.20.1-11), cmake (<< 2.8.4+dfsg.1-5), gcc-4.4 (<< 4.4.6-3ubuntu1), gcc-4.4-base (<< 4.4.6-3ubuntu1), gcc-4.5 (<< 4.5.3-1ubuntu2), gcc-4.5-base (<< 4.5.3-1ubuntu2), gcc-4.6 (<< 4.6.0-12), gcj-4.4-base (<< 4.4.6-2ubuntu2), gcj-4.5-base (<< 4.5.3-1ubuntu2), gnat-4.4-base (<< 4.4.6-1ubuntu3), libhwloc-dev (<< 1.2-3), libjna-java (<< 3.2.7-4), liblouis-dev (<< 2.3.0-2), liblouisxml-dev (<< 2.4.0-2), make (<< 3.81-8.1), pkg-config (<< 0.26-1)
-Filename: pool/main/e/eglibc/libc6-dev_2.15-0ubuntu10.3_i386.deb
-Size: 5099912
-MD5sum: 73c6ba995b034854e4e04c0676d617eb
-SHA1: 9f7740d329192009ec4773c59420c25f083170f5
-SHA256: b283d212273091894a12ff0901e9583bf7ad3303c66833c482124f271633ae7e
+Filename: pool/main/e/eglibc/libc6-dev_2.15-0ubuntu10.4_i386.deb
+Size: 5098074
+MD5sum: e928c156f3b26df88812071d3e7879c1
+SHA1: 43dedf27d968cd58c13f6c527bc7981227cf90ce
+SHA256: 0ec41f920389e1843372da54428dea1a6fb04f92520117d0fbb0d069b5e6e698
 Description: Embedded GNU C Library: Development Libraries and Header Files
 Multi-Arch: same
 Homepage: http://www.eglibc.org
@@ -38516,22 +38516,22 @@ Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, edubuntu-deskt
 Package: libc6-dev-amd64
 Priority: optional
 Section: libdevel
-Installed-Size: 9700
+Installed-Size: 9699
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: i386
 Source: eglibc
-Version: 2.15-0ubuntu10.3
+Version: 2.15-0ubuntu10.4
 Replaces: amd64-libs-dev (<= 1.2), libc6-dev (<< 2.13-11)
 Provides: lib64c-dev
-Depends: libc6-amd64 (= 2.15-0ubuntu10.3), libc6-dev (= 2.15-0ubuntu10.3)
+Depends: libc6-amd64 (= 2.15-0ubuntu10.4), libc6-dev (= 2.15-0ubuntu10.4)
 Recommends: gcc-multilib
 Conflicts: libc6-dev (<< 2.13-14)
-Filename: pool/main/e/eglibc/libc6-dev-amd64_2.15-0ubuntu10.3_i386.deb
-Size: 2483582
-MD5sum: 6028d627a9e087b49d30a5a45cbae885
-SHA1: 20633942c2607dda7cc2631cab0450f36959e163
-SHA256: 9c082e9252701b57d5f24ed3aac43b53366e46d9cfe7e0b25dbe8da3cdbf0281
+Filename: pool/main/e/eglibc/libc6-dev-amd64_2.15-0ubuntu10.4_i386.deb
+Size: 2483426
+MD5sum: cd646366ae6e9729e75d2b71ba890d16
+SHA1: 7a61b6f7131e2759c735b7e379286929dd50f6a0
+SHA256: 4a14755bbc5b87fa6ae0f7da9b28da97ca2a610299d7898f07badac0a7b10fdf
 Description: Embedded GNU C Library: 64bit Development Libraries for AMD64
 Homepage: http://www.eglibc.org
 Description-md5: e56f2cd3094aab960377d26a5ed4ab90
@@ -38542,20 +38542,20 @@ Supported: 5y
 Package: libc6-pic
 Priority: optional
 Section: libdevel
-Installed-Size: 5247
+Installed-Size: 5248
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: i386
 Source: eglibc
-Version: 2.15-0ubuntu10.3
+Version: 2.15-0ubuntu10.4
 Provides: glibc-pic, libc-pic
-Depends: libc6 (= 2.15-0ubuntu10.3)
+Depends: libc6 (= 2.15-0ubuntu10.4)
 Conflicts: libc-pic
-Filename: pool/main/e/eglibc/libc6-pic_2.15-0ubuntu10.3_i386.deb
-Size: 1276522
-MD5sum: 8b3c21b438a95934e418a0c148ac0d4d
-SHA1: c86f16a51b5f7758da5b571f8cbd16a1982bae30
-SHA256: 0d574649d60b985ba21b969e4ae199bcbff34c1790d17a23c16ae1319e50ad8a
+Filename: pool/main/e/eglibc/libc6-pic_2.15-0ubuntu10.4_i386.deb
+Size: 1276688
+MD5sum: 0899c6bad4a8f61719b6bc4673daa2b9
+SHA1: 9ec158877ce11d82061c558251b84e15369045c0
+SHA256: eb17f49ef092444148daeaafd562eca5539cfa8093265ffbea3b8d1128c87a54
 Description: Embedded GNU C Library: PIC archive library
 Multi-Arch: same
 Homepage: http://www.eglibc.org
@@ -38572,13 +38572,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: i386
 Source: eglibc
-Version: 2.15-0ubuntu10.3
-Depends: libc6 (= 2.15-0ubuntu10.3)
-Filename: pool/main/e/eglibc/libc6-prof_2.15-0ubuntu10.3_i386.deb
-Size: 1516126
-MD5sum: 81120cd8367b08366eae46c9b3999299
-SHA1: 3a63a1c918b8615f473ce29439df2c68890363e4
-SHA256: 0459bcdfd42e23a0a65a1ff80fec063aab95563f2b802191871936079083f68d
+Version: 2.15-0ubuntu10.4
+Depends: libc6 (= 2.15-0ubuntu10.4)
+Filename: pool/main/e/eglibc/libc6-prof_2.15-0ubuntu10.4_i386.deb
+Size: 1515996
+MD5sum: d83eda176053383c3c1368093234f144
+SHA1: 2e7947cc7342362c9dc3b1d0e53dd1b9230c4d3a
+SHA256: 5d3326fad93025d26e32262315f89987b1c999c9144f8e6cc7d133646c8a93e0
 Description: Embedded GNU C Library: Profiling Libraries
 Multi-Arch: same
 Homepage: http://www.eglibc.org
@@ -38595,13 +38595,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: i386
 Source: eglibc
-Version: 2.15-0ubuntu10.3
-Pre-Depends: libc6 (= 2.15-0ubuntu10.3)
-Filename: pool/main/e/eglibc/libc6-xen_2.15-0ubuntu10.3_i386.deb
-Size: 1240158
-MD5sum: e30ccb4fa32b70a0dedfa85558280a4c
-SHA1: 183e881de1fadc4ced9634208e44457dd47f57ec
-SHA256: 86cc4b8f550eb617f98f73c4735bc13eab40ac564c32d97f8688f4d7842d737a
+Version: 2.15-0ubuntu10.4
+Pre-Depends: libc6 (= 2.15-0ubuntu10.4)
+Filename: pool/main/e/eglibc/libc6-xen_2.15-0ubuntu10.4_i386.deb
+Size: 1240544
+MD5sum: c2d4aa87184bfc65ffeaa482c8c54274
+SHA1: e76ee27939e66cfc0af747ea68abcb534be5ef2f
+SHA256: befd0121e0427acf5f2c853e21f2f6054a8c8b13fb9db6fff9a4e27f307eb4bc
 Description: Embedded GNU C Library: Shared libraries [Xen version]
 Multi-Arch: same
 Homepage: http://www.eglibc.org
@@ -78459,13 +78459,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: i386
 Source: eglibc
-Version: 2.15-0ubuntu10.3
+Version: 2.15-0ubuntu10.4
 Depends: libc6 (>= 2.13-0ubuntu6)
-Filename: pool/main/e/eglibc/multiarch-support_2.15-0ubuntu10.3_i386.deb
-Size: 4478
-MD5sum: bdf7038255792806f0c5c004c485b16b
-SHA1: 1b68723365246305c84fb61bf094a2d91b6183b2
-SHA256: a7b3c93d80bc8f764170a6e31dad3ec30eb23a99a83ebddb8fda87a49e5edc8f
+Filename: pool/main/e/eglibc/multiarch-support_2.15-0ubuntu10.4_i386.deb
+Size: 4482
+MD5sum: 887f8b63dae1da032a4041698e488d94
+SHA1: 5dce556b6a5e36c85711da4d4fa1b62e660ebb80
+SHA256: bd9664b8f4b2f9b9cac807abe9735127a7cacc621bae67a3f71264410770eb9d
 Description: Transitional package to ensure multiarch compatibility
 Multi-Arch: foreign
 Homepage: http://www.eglibc.org

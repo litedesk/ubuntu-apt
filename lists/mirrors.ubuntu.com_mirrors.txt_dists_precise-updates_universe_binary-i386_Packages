@@ -431,16 +431,16 @@ Installed-Size: 1106
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Eduard Bloch <blade@debian.org>
 Architecture: i386
-Version: 0.7.2-1ubuntu2
+Version: 0.7.2-1ubuntu2.1
 Depends: libbz2-1.0, libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), liblzma5 (>= 5.1.1alpha+20110809), libstdc++6 (>= 4.6), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, adduser
 Pre-Depends: dpkg (>= 1.15.6)
 Recommends: perl (>> 5.8), ed
 Suggests: doc-base, libfuse2 (>= 2.5)
-Filename: pool/universe/a/apt-cacher-ng/apt-cacher-ng_0.7.2-1ubuntu2_i386.deb
-Size: 392918
-MD5sum: 01da371ef3e64721ecdbd1b963e1ed69
-SHA1: 369c77b97ff86e2385b06de39562a4c904a04199
-SHA256: ccaa96f036465539c5bac160abc7f3a7f1d36e73a4e522de0b2ee2a8a536be80
+Filename: pool/universe/a/apt-cacher-ng/apt-cacher-ng_0.7.2-1ubuntu2.1_i386.deb
+Size: 392152
+MD5sum: 98c042e3d777d3dcbdacedfce6e3a063
+SHA1: 78cfac068ee682779f2253f6394ba66c1e6db0bc
+SHA256: cfb336addca2385da53369130c4e309a70800a6ec06ba2d9c418bf5725413d2f
 Description: caching proxy server for software repositories
 Homepage: http://www.unix-ag.uni-kl.de/~bloch/acng/
 Description-md5: b88e5e2d04c76e8d4500fb60880c7d76
@@ -3414,18 +3414,18 @@ Origin: Ubuntu
 Package: eglibc-source
 Priority: optional
 Section: universe/devel
-Installed-Size: 21215
+Installed-Size: 21226
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: all
 Source: eglibc
-Version: 2.15-0ubuntu10.3
+Version: 2.15-0ubuntu10.4
 Recommends: xz-utils
-Filename: pool/universe/e/eglibc/eglibc-source_2.15-0ubuntu10.3_all.deb
-Size: 13581812
-MD5sum: ca53ef3f7491984419794d626a0db4ab
-SHA1: f6c04a455bd8d69264090ed2dc77d45e3cdc67d8
-SHA256: ce1c47c0b251f5d43adf508c4140de8ddd215e2dca8a24eb888fb660b6c96bd8
+Filename: pool/universe/e/eglibc/eglibc-source_2.15-0ubuntu10.4_all.deb
+Size: 13581646
+MD5sum: 29471330283ab3a60733812ebe6f5907
+SHA1: 7dfd6d440925d604503d2f5ac3999966122f2ca1
+SHA256: 4e028441e4fde86eab55e0126c8c32fe583e9fdc04ab6378cc1686a9ce26c6d0
 Description: Embedded GNU C Library: sources
 Homepage: http://www.eglibc.org
 Description-md5: e4d1c2960e50de66688b8a889117873c
@@ -15837,18 +15837,18 @@ Origin: Ubuntu
 Package: nscd
 Priority: optional
 Section: universe/admin
-Installed-Size: 374
+Installed-Size: 375
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: i386
 Source: eglibc
-Version: 2.15-0ubuntu10.3
+Version: 2.15-0ubuntu10.4
 Depends: libc6 (>> 2.15), libc6 (<< 2.16)
-Filename: pool/universe/e/eglibc/nscd_2.15-0ubuntu10.3_i386.deb
-Size: 72526
-MD5sum: fd1b41eece7dd5baa55f7456010cfa06
-SHA1: 32728f99bd4de7c9e8409f892128e0b23d1ae03a
-SHA256: dc87278a32b9d3cf247f7e503b2573d04ee8961f6082b593568ef1b2feb2f37e
+Filename: pool/universe/e/eglibc/nscd_2.15-0ubuntu10.4_i386.deb
+Size: 72554
+MD5sum: 1b8507d35b09fcb993e8fd5527d4bf46
+SHA1: 182adf1ac74aa0d26365947dbeaa51fb1597f9e2
+SHA256: e8cc45952e0e4171c1105467c5fa42c4ff991ecab9866fc3df1966ff14538371
 Description: Embedded GNU C Library: Name Service Cache Daemon
 Multi-Arch: foreign
 Homepage: http://www.eglibc.org
