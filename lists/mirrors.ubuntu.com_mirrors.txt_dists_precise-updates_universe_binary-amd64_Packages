@@ -6528,18 +6528,18 @@ Origin: Ubuntu
 Package: icedtea-7-jre-cacao
 Priority: extra
 Section: universe/java
-Installed-Size: 208
+Installed-Size: 209
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: amd64
 Source: openjdk-7
-Version: 7u15-2.3.7-0ubuntu1~12.04.1
-Depends: openjdk-7-jre-headless (= 7u15-2.3.7-0ubuntu1~12.04.1)
-Filename: pool/universe/o/openjdk-7/icedtea-7-jre-cacao_7u15-2.3.7-0ubuntu1~12.04.1_amd64.deb
-Size: 36974
-MD5sum: 7ee229cf39f387a67d2b8cd4ac082c19
-SHA1: 6484b382ff4b50902fb3c3ffcf9906b02fe11a0f
-SHA256: 87fc1dd158ac8c3d1b8db31512e9403a3ff162ea1c3ed64ef0c353f8d5d46e56
+Version: 7u21-2.3.9-0ubuntu0.12.04.1
+Depends: openjdk-7-jre-headless (= 7u21-2.3.9-0ubuntu0.12.04.1)
+Filename: pool/universe/o/openjdk-7/icedtea-7-jre-cacao_7u21-2.3.9-0ubuntu0.12.04.1_amd64.deb
+Size: 36968
+MD5sum: c1f9baf379c4e8f0a6be40b49343326a
+SHA1: 19367f3ebd16c8dd96253fb12da5585a97aa2072
+SHA256: f8a4b2e6aebaf7c534a2c96faa944b82f830242f10c2a09a0e28ec59ea39b688
 Description: Transitional package for obsolete Cacao JVM for OpenJDK
 Multi-Arch: same
 Homepage: http://openjdk.java.net/
@@ -6550,18 +6550,18 @@ Origin: Ubuntu
 Package: icedtea-7-jre-jamvm
 Priority: extra
 Section: universe/java
-Installed-Size: 1617
+Installed-Size: 1618
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: amd64
 Source: openjdk-7
-Version: 7u15-2.3.7-0ubuntu1~12.04.1
-Depends: openjdk-7-jre-headless (= 7u15-2.3.7-0ubuntu1~12.04.1), libc6 (>= 2.14), zlib1g (>= 1:1.1.4)
-Filename: pool/universe/o/openjdk-7/icedtea-7-jre-jamvm_7u15-2.3.7-0ubuntu1~12.04.1_amd64.deb
-Size: 515104
-MD5sum: db4076034bdeefa8fc447cfe8dee4b5b
-SHA1: a1599baca1cfc37be4f68baea09b1d014e61fec6
-SHA256: 61aa5ce45c88bc8ce2d9f94a7bb1451e5146beb529a719531ccb4096fdf69adb
+Version: 7u21-2.3.9-0ubuntu0.12.04.1
+Depends: openjdk-7-jre-headless (= 7u21-2.3.9-0ubuntu0.12.04.1), libc6 (>= 2.14), zlib1g (>= 1:1.1.4)
+Filename: pool/universe/o/openjdk-7/icedtea-7-jre-jamvm_7u21-2.3.9-0ubuntu0.12.04.1_amd64.deb
+Size: 515088
+MD5sum: 17aaae4d8d0121e104d3a29eb508d621
+SHA1: c30d143408c418077fdc1c0c5fcedb70a9f348b9
+SHA256: 6511d771f2b049afd4bc313317f7fafe691af349457189ebb1fe5d82095e52be
 Description: Alternative JVM for OpenJDK, using JamVM
 Multi-Arch: same
 Homepage: http://openjdk.java.net/
@@ -15912,20 +15912,20 @@ Origin: Ubuntu
 Package: openjdk-7-dbg
 Priority: extra
 Section: universe/debug
-Installed-Size: 342148
+Installed-Size: 341770
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: amd64
 Source: openjdk-7
-Version: 7u15-2.3.7-0ubuntu1~12.04.1
-Depends: openjdk-7-jre-headless (= 7u15-2.3.7-0ubuntu1~12.04.1)
-Recommends: openjdk-7-jre (= 7u15-2.3.7-0ubuntu1~12.04.1)
-Suggests: openjdk-7-jdk (= 7u15-2.3.7-0ubuntu1~12.04.1)
-Filename: pool/universe/o/openjdk-7/openjdk-7-dbg_7u15-2.3.7-0ubuntu1~12.04.1_amd64.deb
-Size: 147887656
-MD5sum: 9489245996fbae725a35302f95df3456
-SHA1: ba78ac7e4cf655b9d286090bddd32b083aa65036
-SHA256: 13cdd411875fa9f9e6f10e2c14a4d92bd278d2c8fa9361dc885d4ac9561090c3
+Version: 7u21-2.3.9-0ubuntu0.12.04.1
+Depends: openjdk-7-jre-headless (= 7u21-2.3.9-0ubuntu0.12.04.1)
+Recommends: openjdk-7-jre (= 7u21-2.3.9-0ubuntu0.12.04.1)
+Suggests: openjdk-7-jdk (= 7u21-2.3.9-0ubuntu0.12.04.1)
+Filename: pool/universe/o/openjdk-7/openjdk-7-dbg_7u21-2.3.9-0ubuntu0.12.04.1_amd64.deb
+Size: 147874158
+MD5sum: e0214602e62d733e6f29a82fdd1c4bdf
+SHA1: f98679558d5401852f7a1225e58fd382ae971d8b
+SHA256: 729bf18113c01b66275d348f011a368a55b8b637cd6175be08239db0d52f328e
 Description: Java runtime based on OpenJDK (debugging symbols)
 Multi-Arch: same
 Homepage: http://openjdk.java.net/
@@ -15941,13 +15941,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: amd64
 Source: openjdk-7
-Version: 7u15-2.3.7-0ubuntu1~12.04.1
-Depends: openjdk-7-jre (= 7u15-2.3.7-0ubuntu1~12.04.1), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
-Filename: pool/universe/o/openjdk-7/openjdk-7-demo_7u15-2.3.7-0ubuntu1~12.04.1_amd64.deb
-Size: 2477630
-MD5sum: 93e5ed3db2cff7f907f0b5d3a288e339
-SHA1: 663ca487f3db679fabc36935460937bf32793173
-SHA256: c0fdec05c6d8362ec250576af5aea3a9f923c2f3266944d338154a9a13e2c247
+Version: 7u21-2.3.9-0ubuntu0.12.04.1
+Depends: openjdk-7-jre (= 7u21-2.3.9-0ubuntu0.12.04.1), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Filename: pool/universe/o/openjdk-7/openjdk-7-demo_7u21-2.3.9-0ubuntu0.12.04.1_amd64.deb
+Size: 2479408
+MD5sum: c186f4a900ccd657fc267f10d3c0ec20
+SHA1: d16e8922be9e5dfde90b3f54a5828008d7258b73
+SHA256: aefe388bb4edeea1fc2e74142a3284d4168300db2fa53b24eab9e454174efb0e
 Description: Java runtime based on OpenJDK (demos and examples)
 Homepage: http://openjdk.java.net/
 Description-md5: c2a5624aa60e4de3025a249886fa82d7
@@ -15957,18 +15957,18 @@ Origin: Ubuntu
 Package: openjdk-7-doc
 Priority: extra
 Section: universe/doc
-Installed-Size: 240325
+Installed-Size: 240315
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: all
 Source: openjdk-7
-Version: 7u15-2.3.7-0ubuntu1~12.04.1
+Version: 7u21-2.3.9-0ubuntu0.12.04.1
 Suggests: openjdk-7-jdk
-Filename: pool/universe/o/openjdk-7/openjdk-7-doc_7u15-2.3.7-0ubuntu1~12.04.1_all.deb
-Size: 22050788
-MD5sum: c33e350b5048bad101de0449275559e0
-SHA1: 3c812ba83a4130b3b2b7bcd0a1a2677e6f4c548e
-SHA256: 1de4c9a23551250762ad459503b35b5c025497e4ded6d5d04c7f11636c813181
+Filename: pool/universe/o/openjdk-7/openjdk-7-doc_7u21-2.3.9-0ubuntu0.12.04.1_all.deb
+Size: 22016306
+MD5sum: 0350f6358a1a22465baadc1fce2b2651
+SHA1: 82dffdc2f16bc022bbacb553392f12ba3f35c236
+SHA256: d67ba81351533f68471921480b266760d6e679bff845677acf253f7c38553648
 Description: OpenJDK Development Kit (JDK) documentation
 Homepage: http://openjdk.java.net/
 Description-md5: c1aebd5e8058a6cce0d5690571eddb7b
@@ -15978,21 +15978,21 @@ Origin: Ubuntu
 Package: openjdk-7-jdk
 Priority: optional
 Section: universe/java
-Installed-Size: 20113
+Installed-Size: 20114
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: amd64
 Source: openjdk-7
-Version: 7u15-2.3.7-0ubuntu1~12.04.1
+Version: 7u21-2.3.9-0ubuntu0.12.04.1
 Provides: java-compiler, java-sdk, java2-sdk, java5-sdk, java6-sdk, java7-jdk
-Depends: openjdk-7-jre (= 7u15-2.3.7-0ubuntu1~12.04.1), libc6 (>= 2.2.5)
+Depends: openjdk-7-jre (= 7u21-2.3.9-0ubuntu0.12.04.1), libc6 (>= 2.2.5)
 Recommends: libxt-dev
 Suggests: openjdk-7-demo, openjdk-7-source, visualvm
-Filename: pool/universe/o/openjdk-7/openjdk-7-jdk_7u15-2.3.7-0ubuntu1~12.04.1_amd64.deb
-Size: 16498782
-MD5sum: fbea65bb2dbad426a7893f587ed82001
-SHA1: 2d589285d1be28316c946ed14b6714b113630379
-SHA256: 41c04b98bdfbecf21118992c68e67db1b10a83be109a96c81cfa28732f2b75f5
+Filename: pool/universe/o/openjdk-7/openjdk-7-jdk_7u21-2.3.9-0ubuntu0.12.04.1_amd64.deb
+Size: 16505362
+MD5sum: 20fc0f2994f378e98bcd2522f661dc2d
+SHA1: 91bf0477ecbc13da6c45d5a9ca6a9b8844b6acb5
+SHA256: 51303e0d92dc1b106aa64f9b00554c0ef06edbaca31916b1e99d4f1bae4d6320
 Description: OpenJDK Development Kit (JDK)
 Multi-Arch: same
 Homepage: http://openjdk.java.net/
@@ -16008,17 +16008,17 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: amd64
 Source: openjdk-7
-Version: 7u15-2.3.7-0ubuntu1~12.04.1
+Version: 7u21-2.3.9-0ubuntu0.12.04.1
 Provides: java-runtime, java2-runtime, java5-runtime, java6-runtime, java7-runtime
-Depends: openjdk-7-jre-headless (= 7u15-2.3.7-0ubuntu1~12.04.1), libasound2 (>= 1.0.23), libc6 (>= 2.14), libcups2 (>= 1.4.0), libfontconfig1 (>= 2.8.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgif4 (>= 4.1.4), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.8.0), libjpeg8 (>= 8c), libpango1.0-0 (>= 1.14.0), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 1:0.99.1), libx11-6, libxext6, libxi6, libxrender1, libxtst6, libxrandr2, libxinerama1, libgl1-mesa-glx | libgl1, libatk-wrapper-java-jni (>= 0.30.4-0ubuntu2)
+Depends: openjdk-7-jre-headless (= 7u21-2.3.9-0ubuntu0.12.04.1), libasound2 (>= 1.0.23), libc6 (>= 2.14), libcups2 (>= 1.4.0), libfontconfig1 (>= 2.8.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgif4 (>= 4.1.4), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.8.0), libjpeg8 (>= 8c), libpango1.0-0 (>= 1.14.0), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 1:0.99.1), libx11-6, libxext6, libxi6, libxrender1, libxtst6, libxrandr2, libxinerama1, libgl1-mesa-glx | libgl1, libatk-wrapper-java-jni (>= 0.30.4-0ubuntu2)
 Recommends: libgnome2-0, libgnomevfs2-0, libgconf2-4, ttf-dejavu-extra
 Suggests: icedtea-7-plugin
 Conflicts: icedtea-gcjwebplugin (<< 1.0-1ubuntu4)
-Filename: pool/universe/o/openjdk-7/openjdk-7-jre_7u15-2.3.7-0ubuntu1~12.04.1_amd64.deb
-Size: 225714
-MD5sum: e72c36c7a2e3916393c547e065f6fd1d
-SHA1: 3b5ac2bf76101c4cd4e21636aa13058731b0f4dc
-SHA256: d10a4c0997d2c7947a80a32892910fea81e03a6a766525deb2d3a7cbc96e11c0
+Filename: pool/universe/o/openjdk-7/openjdk-7-jre_7u21-2.3.9-0ubuntu0.12.04.1_amd64.deb
+Size: 225258
+MD5sum: dba93e383ca93a80787252c8c840964b
+SHA1: a238c09cba9fceaf9fec67ec9dd1b1491cae8c0d
+SHA256: dc5cc9fcc077ed80ba09d36fa01b7178550cac0720b9ccaad045c522eab07966
 Description: OpenJDK Java runtime, using Hotspot JIT
 Multi-Arch: same
 Homepage: http://openjdk.java.net/
@@ -16029,23 +16029,23 @@ Origin: Ubuntu
 Package: openjdk-7-jre-headless
 Priority: optional
 Section: universe/java
-Installed-Size: 48021
+Installed-Size: 48076
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: amd64
 Source: openjdk-7
-Version: 7u15-2.3.7-0ubuntu1~12.04.1
+Version: 7u21-2.3.9-0ubuntu0.12.04.1
 Provides: java-runtime-headless, java2-runtime-headless, java5-runtime-headless, java6-runtime-headless, java7-runtime-headless
-Depends: openjdk-7-jre-lib (= 7u15-2.3.7-0ubuntu1~12.04.1), ca-certificates-java, tzdata-java (>= 2012e-0ubuntu0.12.04.1), java-common (>= 0.28), libcups2 (>= 1.4.0), liblcms2-2 (>= 2.2+git20110628-2), libjpeg8 (>= 8c), libnss3-1d (>= 3.12.9+ckbi-1.82-0ubuntu4), libpcsclite1, libc6 (>= 2.14), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.26.0), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
+Depends: openjdk-7-jre-lib (= 7u21-2.3.9-0ubuntu0.12.04.1), ca-certificates-java, tzdata-java (>= 2012e-0ubuntu0.12.04.1), java-common (>= 0.28), libcups2 (>= 1.4.0), liblcms2-2 (>= 2.2+git20110628-2), libjpeg8 (>= 8c), libnss3-1d (>= 3.12.9+ckbi-1.82-0ubuntu4), libpcsclite1, libc6 (>= 2.14), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.26.0), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
-Recommends: icedtea-7-jre-jamvm (= 7u15-2.3.7-0ubuntu1~12.04.1)
+Recommends: icedtea-7-jre-jamvm (= 7u21-2.3.9-0ubuntu0.12.04.1)
 Suggests: libnss-mdns, sun-java6-fonts, ttf-dejavu-extra, fonts-ipafont-gothic, fonts-ipafont-mincho, ttf-wqy-microhei | ttf-wqy-zenhei, ttf-indic-fonts-core, ttf-telugu-fonts, ttf-oriya-fonts, ttf-kannada-fonts, ttf-bengali-fonts
 Conflicts: icedtea-netx (<< 1.1.1-2~)
-Filename: pool/universe/o/openjdk-7/openjdk-7-jre-headless_7u15-2.3.7-0ubuntu1~12.04.1_amd64.deb
-Size: 35341878
-MD5sum: 4e3694b605db1e79d45660cf4f90f5ae
-SHA1: 3f6522dbf9e0764e4446e64fbcfb934b7157d8f9
-SHA256: 21251e25021fde292f92860d63ba24448ba719568d0374e40f8f0f9dc551afa8
+Filename: pool/universe/o/openjdk-7/openjdk-7-jre-headless_7u21-2.3.9-0ubuntu0.12.04.1_amd64.deb
+Size: 35363004
+MD5sum: c17d8ff67b1fe70497d2d65b90333e43
+SHA1: 51f4644e21866a4aa9888a36d0ba9d58bcfbc4a3
+SHA256: 3f79ffb77ea10618c25cc70de852b1c1507131c97f8720bc5bb3812c8adf59c1
 Description: OpenJDK Java runtime, using Hotspot JIT (headless)
 Multi-Arch: same
 Homepage: http://openjdk.java.net/
@@ -16061,13 +16061,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: all
 Source: openjdk-7
-Version: 7u15-2.3.7-0ubuntu1~12.04.1
+Version: 7u21-2.3.9-0ubuntu0.12.04.1
 Depends: openjdk-7-jre-headless (>= 7~b130~pre0)
-Filename: pool/universe/o/openjdk-7/openjdk-7-jre-lib_7u15-2.3.7-0ubuntu1~12.04.1_all.deb
-Size: 5540410
-MD5sum: f85f659d6dc11b51032018b4f189b73f
-SHA1: bfb3704e551df3b8043b86a6ad4119138ca1c82c
-SHA256: 6b2e6d0f5171fcc5b1f8f3ba6bce7d1d4c4dcd37c856bec6ced243b02adadfb1
+Filename: pool/universe/o/openjdk-7/openjdk-7-jre-lib_7u21-2.3.9-0ubuntu0.12.04.1_all.deb
+Size: 5539780
+MD5sum: 251466b70641ba9c88bd1a10e4c85c67
+SHA1: a8c9ea10972a8081fdd02c83ea964a4b67906562
+SHA256: 68561138198952696d75106767aef11b2b51b4544f2ca84254368c0b4f6d37c3
 Description: OpenJDK Java runtime (architecture independent libraries)
 Multi-Arch: foreign
 Homepage: http://openjdk.java.net/
@@ -16078,18 +16078,18 @@ Origin: Ubuntu
 Package: openjdk-7-jre-zero
 Priority: extra
 Section: universe/java
-Installed-Size: 6125
+Installed-Size: 5957
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: amd64
 Source: openjdk-7
-Version: 7u15-2.3.7-0ubuntu1~12.04.1
-Depends: openjdk-7-jre-headless (= 7u15-2.3.7-0ubuntu1~12.04.1), libc6 (>= 2.14), libstdc++6 (>= 4.1.1)
-Filename: pool/universe/o/openjdk-7/openjdk-7-jre-zero_7u15-2.3.7-0ubuntu1~12.04.1_amd64.deb
-Size: 2332214
-MD5sum: 8df24055b1052bd0a72ef4c731dc3d47
-SHA1: 404c81112df9ef51861afec43b2c64782e5bb7f6
-SHA256: 279c3d637f11337166a278f0bdd749a8cbd5b7b2b5bc514cfcf21410f3d5fe8c
+Version: 7u21-2.3.9-0ubuntu0.12.04.1
+Depends: openjdk-7-jre-headless (= 7u21-2.3.9-0ubuntu0.12.04.1), libc6 (>= 2.14), libstdc++6 (>= 4.1.1)
+Filename: pool/universe/o/openjdk-7/openjdk-7-jre-zero_7u21-2.3.9-0ubuntu0.12.04.1_amd64.deb
+Size: 2263642
+MD5sum: 89ce4c16e8ce3820d2932522cbeb0e67
+SHA1: aaf40a845fc91cb27e07c789c38565b9c3923f77
+SHA256: 75393fd09d44332b07f8a1ebb68cab738b0019c9213bf5496e338c218a96cc4b
 Description: Alternative JVM for OpenJDK, using Zero/Shark
 Multi-Arch: same
 Homepage: http://openjdk.java.net/
@@ -16100,18 +16100,18 @@ Origin: Ubuntu
 Package: openjdk-7-source
 Priority: extra
 Section: universe/java
-Installed-Size: 43610
+Installed-Size: 43598
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: all
 Source: openjdk-7
-Version: 7u15-2.3.7-0ubuntu1~12.04.1
-Depends: openjdk-7-jre (>= 7u15-2.3.7-0ubuntu1~12.04.1), openjdk-7-jdk (>= 7u15-2.3.7-0ubuntu1~12.04.1)
-Filename: pool/universe/o/openjdk-7/openjdk-7-source_7u15-2.3.7-0ubuntu1~12.04.1_all.deb
-Size: 41380038
-MD5sum: 246f94be905b11350868f307a5dcf0d8
-SHA1: 564e3c0f6b78c47234427f140bd8c9ea3a88d553
-SHA256: 2439ebf37431e14f99c373f832fda0264b963c37f00848e3a18c1ea1d44aac6a
+Version: 7u21-2.3.9-0ubuntu0.12.04.1
+Depends: openjdk-7-jre (>= 7u21-2.3.9-0ubuntu0.12.04.1), openjdk-7-jdk (>= 7u21-2.3.9-0ubuntu0.12.04.1)
+Filename: pool/universe/o/openjdk-7/openjdk-7-source_7u21-2.3.9-0ubuntu0.12.04.1_all.deb
+Size: 41361986
+MD5sum: 76179dd3d541928119003055a26e0798
+SHA1: 34ca87eb04dcc563d98b6c8bb8e9ac52d218aaa4
+SHA256: f25468de9f78ce7688aa67e747bdcc2cb06f9627b594520caf95e83923e846bb
 Description: OpenJDK Development Kit (JDK) source files
 Homepage: http://openjdk.java.net/
 Description-md5: 328263bb6fbf81f04f5d459d67244ea0
