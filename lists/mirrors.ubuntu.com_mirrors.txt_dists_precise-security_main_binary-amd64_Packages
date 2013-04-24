@@ -4856,16 +4856,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: amd64
 Source: icedtea-web
-Version: 1.2.3-0ubuntu0.12.04.1
+Version: 1.2.3-0ubuntu0.12.04.2
 Replaces: icedtea-gcjwebplugin, icedtea-plugin (<< 1.2~pre1-1~), openjdk-6-jre (<< 6b18-1.8.7-3)
 Provides: icedtea6-plugin
-Depends: openjdk-6-jre, icedtea-netx (= 1.2.3-0ubuntu0.12.04.1), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.8.0), libstdc++6 (>= 4.6)
+Depends: openjdk-6-jre, icedtea-netx (= 1.2.3-0ubuntu0.12.04.2), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.8.0), libstdc++6 (>= 4.6)
 Conflicts: icedtea-gcjwebplugin (<< 1.0-1ubuntu4), icedtea-plugin (<< 1.2~pre1-1~), icedtea6-plugin (<< 6b21.2~pre1-1~)
-Filename: pool/main/i/icedtea-web/icedtea-6-plugin_1.2.3-0ubuntu0.12.04.1_amd64.deb
-Size: 87740
-MD5sum: d7b270450edff03a0a4bd1c43d5b60b9
-SHA1: a97a1a4d8e27d511ed78584a897985006283494e
-SHA256: 7701b2becf1cf38085ad2d341fc1a7b2c2d7e6417b86ac457b35703f621d71b0
+Filename: pool/main/i/icedtea-web/icedtea-6-plugin_1.2.3-0ubuntu0.12.04.2_amd64.deb
+Size: 87806
+MD5sum: b59ac592b9397c34513c294c870668c2
+SHA1: b56fb80e00e8b46ff8340df7ae777a4295f178bf
+SHA256: 70f2a59bbfff9ec7b1290324e5fd5c63f0e8fd1b8826305e26a9bad471b58ac3
 Description: web browser plugin based on OpenJDK and IcedTea to execute Java applets
 Multi-Arch: same
 Homepage: http://icedtea.classpath.org/wiki/IcedTea-Web
@@ -4887,15 +4887,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: amd64
 Source: icedtea-web
-Version: 1.2.3-0ubuntu0.12.04.1
+Version: 1.2.3-0ubuntu0.12.04.2
 Replaces: openjdk-6-jre (<< 6b18-1.8.7-3), openjdk-6-jre-headless (<< 6b18-1.8.7-3)
-Depends: icedtea-netx-common (>= 1.2.3-0ubuntu0.12.04.1), openjdk-6-jre (>= 6b23~pre10~) | openjdk-7-jre
+Depends: icedtea-netx-common (>= 1.2.3-0ubuntu0.12.04.2), openjdk-6-jre (>= 6b23~pre10~) | openjdk-7-jre
 Conflicts: openjdk-6-jre (<< 6b18-1.8.7-3), openjdk-6-jre-headless (<< 6b18-1.8.7-3)
-Filename: pool/main/i/icedtea-web/icedtea-netx_1.2.3-0ubuntu0.12.04.1_amd64.deb
-Size: 16122
-MD5sum: 64c7fbfffdfafb5f0b12532e00ec5fce
-SHA1: 5e5b1d70ad89eecc7571652876362034bec4d82e
-SHA256: f067ab266c5b116090496327081c194217bf0caadf03075229eb0d3e3eb2c61f
+Filename: pool/main/i/icedtea-web/icedtea-netx_1.2.3-0ubuntu0.12.04.2_amd64.deb
+Size: 16152
+MD5sum: 4b348846a29755516a3a30318e66efa4
+SHA1: 71489cc6bd55896991fdd6cfb732736f62e8ece3
+SHA256: 15147d35f14faceb149cccaa332f7a43885a032eef71c82cae277b81589dd698
 Description: NetX - implementation of the Java Network Launching Protocol (JNLP)
 Multi-Arch: same
 Homepage: http://icedtea.classpath.org/wiki/IcedTea-Web
@@ -4908,19 +4908,19 @@ Task: ubuntu-usb, ubuntu-dvd-live, kubuntu-dvd-live, kubuntu-active-dvd-live, ed
 Package: icedtea-netx-common
 Priority: extra
 Section: java
-Installed-Size: 740
+Installed-Size: 738
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: all
 Source: icedtea-web
-Version: 1.2.3-0ubuntu0.12.04.1
-Replaces: icedtea-6-plugin (<< 1.2.3-0ubuntu0.12.04.1), icedtea-netx (<< 1.2.3-0ubuntu0.12.04.1), icedtea-plugin (<< 1.2-1~), openjdk-6-jre (<< 6b18-1.8.7-3), openjdk-6-jre-headless (<< 6b18-1.8.7-3)
+Version: 1.2.3-0ubuntu0.12.04.2
+Replaces: icedtea-6-plugin (<< 1.2.3-0ubuntu0.12.04.2), icedtea-netx (<< 1.2.3-0ubuntu0.12.04.2), icedtea-plugin (<< 1.2-1~), openjdk-6-jre (<< 6b18-1.8.7-3), openjdk-6-jre-headless (<< 6b18-1.8.7-3)
 Conflicts: openjdk-6-jre (<< 6b18-1.8.7-3), openjdk-6-jre-headless (<< 6b18-1.8.7-3)
-Filename: pool/main/i/icedtea-web/icedtea-netx-common_1.2.3-0ubuntu0.12.04.1_all.deb
-Size: 601990
-MD5sum: 8825af31fec9dac64ab2c1bd0589a267
-SHA1: ae903dfd1d54ac1fdba17cb96782caac0f5cbac2
-SHA256: 0350ea5843bd167550b6e5b57d91e49229fd6d5e79ef77ef43a63458e17ad17a
+Filename: pool/main/i/icedtea-web/icedtea-netx-common_1.2.3-0ubuntu0.12.04.2_all.deb
+Size: 599842
+MD5sum: f2d95bc296f69ed96c475fd56fa53f90
+SHA1: 0d94c3bb078c7336a400ed0f2bc131cff7aa54ba
+SHA256: e1965b7fc495dbd0e53be41f59ae6ecf0f30362dd6ed07c1ba66ea79ba15c7d4
 Description: NetX - implementation of the Java Network Launching Protocol (JNLP)
 Multi-Arch: foreign
 Homepage: http://icedtea.classpath.org/wiki/IcedTea-Web
@@ -4938,13 +4938,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: all
 Source: icedtea-web
-Version: 1.2.3-0ubuntu0.12.04.1
+Version: 1.2.3-0ubuntu0.12.04.2
 Depends: icedtea-6-plugin
-Filename: pool/main/i/icedtea-web/icedtea-plugin_1.2.3-0ubuntu0.12.04.1_all.deb
-Size: 5346
-MD5sum: fe5e066cab3545a6c42501499bb9784c
-SHA1: 758eb4650bd10347806ce46afaa810520b9bea7b
-SHA256: f13ac8ba2a146ceee0331e69cc01d5a21cbe34a81d3ee0bba5b69037a376e938
+Filename: pool/main/i/icedtea-web/icedtea-plugin_1.2.3-0ubuntu0.12.04.2_all.deb
+Size: 5416
+MD5sum: 283be590040c4e346e4c6a7654e6f4c0
+SHA1: 9cdc96a12719d4dcc20207a874c1e3a40cc4fe3f
+SHA256: 198ef69b8247916fd6f0800bffd01bcef19573517d2b21d7280b51add6270396
 Description: web browser plugin to execute Java applets (dependency package)
 Homepage: http://icedtea.classpath.org/wiki/IcedTea-Web
 Description-md5: 6da6e3fbb572567cdab3a35a85e93560
