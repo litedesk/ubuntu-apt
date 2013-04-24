@@ -23915,12 +23915,12 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: all
 Source: xen
-Version: 4.1.2-2ubuntu2.6
-Filename: pool/universe/x/xen/xen-docs-4.1_4.1.2-2ubuntu2.6_all.deb
-Size: 1148926
-MD5sum: c35100fadeab17338a51cfd0db01da5e
-SHA1: cc22f0e69fb556d421139a4bab6ada792f86d927
-SHA256: 2c603a398ad5169a6ba20b8cd2b88f646237020258f15ceab315b3516ce71dbd
+Version: 4.1.2-2ubuntu2.7
+Filename: pool/universe/x/xen/xen-docs-4.1_4.1.2-2ubuntu2.7_all.deb
+Size: 1148928
+MD5sum: 67fa86859d6c65c035fc02b514869bb6
+SHA1: e76c4fab730206ab0fcf6a2df2a2ed83b9ad6058
+SHA256: 7412bdfdcb4fbfdf5663d21f2faf533d057ad2a4566b49f45dc824235a905002
 Description: Documentation for Xen
 Description-md5: 6cae9b51dadf4d0824b74e2b7ff1077f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -23934,15 +23934,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: xen
-Version: 4.1.2-2ubuntu2.6
+Version: 4.1.2-2ubuntu2.7
 Provides: xen-hypervisor, xen-hypervisor-4.1, xen-hypervisor-amd64
 Recommends: xen-utils-4.1
 Suggests: xen-docs-4.1
-Filename: pool/universe/x/xen/xen-hypervisor-4.1-amd64_4.1.2-2ubuntu2.6_i386.deb
-Size: 738738
-MD5sum: e5f59e5ab2535a9732933f856c2b3674
-SHA1: e6b698d06803b5b625bf5df14d5923b6695382db
-SHA256: 1cfbac88ade544a3f12a1fb9be9a7043989f83c7fc6ce6481d8e6b43659ab4f1
+Filename: pool/universe/x/xen/xen-hypervisor-4.1-amd64_4.1.2-2ubuntu2.7_i386.deb
+Size: 738834
+MD5sum: 69439ecba4fe24504a0f17ccfc04471f
+SHA1: 043a9b7845fd63100ab31589306040349dd912bc
+SHA256: 39fd096ee15a442164a620a79938ed21da0d80d989cc7e818b0f2f541a2c4207
 Description: Xen Hypervisor on AMD64
 Description-md5: 30d22c56057f827a5cc3329925199782
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -23956,15 +23956,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: xen
-Version: 4.1.2-2ubuntu2.6
+Version: 4.1.2-2ubuntu2.7
 Provides: xen-hypervisor, xen-hypervisor-4.1, xen-hypervisor-i386
 Recommends: xen-utils-4.1
 Suggests: xen-docs-4.1
-Filename: pool/universe/x/xen/xen-hypervisor-4.1-i386_4.1.2-2ubuntu2.6_i386.deb
-Size: 628660
-MD5sum: 55e934cf5ab7f50ecd6948ec63ee0195
-SHA1: f36a64510d6b07947f53aaecb47ede36dfc86493
-SHA256: 83508c1d46cf79a3c4c9ccc795de17a367a47d94950a890151dd2d2f87f982f0
+Filename: pool/universe/x/xen/xen-hypervisor-4.1-i386_4.1.2-2ubuntu2.7_i386.deb
+Size: 629260
+MD5sum: 3cad252a6e738c55b0d5dd3bb6e94766
+SHA1: 8f9c54abdbacfbe26e481738f22ae1dba4545535
+SHA256: 14b1b27ce4739dc8d456200377ae37fdf082d281d8e2bbca930f56a33beb28d2
 Description: Xen Hypervisor on i386
 Description-md5: 829bcfa57e4b5d520b5b4e141e3e6476
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -23978,18 +23978,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: xen
-Version: 4.1.2-2ubuntu2.6
+Version: 4.1.2-2ubuntu2.7
 Replaces: libxen3 (<= 3.3.0-1ubuntu12), python-xen-3.3 (<= 3.3.0-1ubuntu12), xen-utils-3.3 (<= 3.3.0-1ubuntu12)
 Provides: xen-utils
 Depends: e2fslibs (>= 1.41.99), libc6 (>= 2.15), libgnutls26 (>= 2.12.6.1-0), libncurses5 (>= 5.5-5~), libpci3 (>= 1:3.1.8-2), libtinfo5, libuuid1 (>= 2.16), libxen-4.1 (>= 4.1.2), libxenstore3.0 (>= 4.0.1~rc4), zlib1g (>= 1:1.1.4), python2.7, python (>= 2.7.1-0ubuntu2), xen-utils-common (>= 3.4.2-4)
 Recommends: bridge-utils, libc6-xen, xen-hypervisor-4.1, qemu-keymaps, qemu-utils
 Suggests: xen-docs-4.1
 Conflicts: libxen3 (<= 3.3.0-1ubuntu12), python-xen-3.3 (<= 3.3.0-1ubuntu12), xen-utils-3.3 (<= 3.3.0-1ubuntu12)
-Filename: pool/universe/x/xen/xen-utils-4.1_4.1.2-2ubuntu2.6_i386.deb
-Size: 1629848
-MD5sum: 7f2c790af7dcfeaacbf5dab445e5e88b
-SHA1: 5e3f00f9ffb705e761ce5c541b55cdc865ff482e
-SHA256: f949071359a7703a0cbf48f9756a261494eac0a2a5b494dba4e31ee327640722
+Filename: pool/universe/x/xen/xen-utils-4.1_4.1.2-2ubuntu2.7_i386.deb
+Size: 1628882
+MD5sum: 8c22e0235e8b4a1a8146dc3216c32430
+SHA1: 2c2fda2c3b4ead41c89e5e707c4dd04e3486e655
+SHA256: 6229308cb361844b62eae8a45461c370e11bd2e28255fa75990d3ac6a8a3df04
 Description: XEN administrative tools
 Description-md5: bd953dd4214727fe5759b05287bffcbe
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -24003,15 +24003,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: xen
-Version: 4.1.2-2ubuntu2.6
+Version: 4.1.2-2ubuntu2.7
 Replaces: libxen3 (<= 3.3.0-1ubuntu12), xen-utils-common (<= 3.1.0-1)
 Depends: libc6 (>= 2.4), libxenstore3.0 (>= 4.1.0~rc6)
 Conflicts: libxen3 (<= 3.3.0-1ubuntu12), xen-utils-common (<= 3.1.0-1)
-Filename: pool/universe/x/xen/xenstore-utils_4.1.2-2ubuntu2.6_i386.deb
-Size: 13428
-MD5sum: 52cd60ac388911eca40f4321f1442d12
-SHA1: b51b4f017b90057a90d78c33d13ba3e77c414d95
-SHA256: 3636c000f8e40329ca7e22384a65bee596cff78e60c8ea967bc5d488f3dd3178
+Filename: pool/universe/x/xen/xenstore-utils_4.1.2-2ubuntu2.7_i386.deb
+Size: 13410
+MD5sum: c9a364427d1f9a608a383fff691483bf
+SHA1: 386d07739aef4b24f5281b851638f9a892f98e97
+SHA256: e447c96ce0610a3a7ba271d422c890d09880a686c1cdb3a5030c7daf52ae7c75
 Description: Xenstore utilities for Xen
 Description-md5: cfed1da00b837e11d5cbc87fffd781d4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
