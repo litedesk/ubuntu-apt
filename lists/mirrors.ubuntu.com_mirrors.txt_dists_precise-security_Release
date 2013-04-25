@@ -3,31 +3,31 @@ Label: Ubuntu
 Suite: precise-security
 Version: 12.04
 Codename: precise
-Date: Wed, 24 Apr 2013 19:40:23 UTC
+Date: Wed, 24 Apr 2013 23:18:56 UTC
 Architectures: amd64 armel armhf i386 powerpc
 Components: main restricted universe multiverse
 Description: Ubuntu Precise Security
 MD5Sum:
- 1f58f272a7ab7e78d788b5e0163c4c7a           314845 main/binary-amd64/Packages.gz
- 707a071854a897aa79ba417f1d323a46          1656222 main/binary-amd64/Packages
+ 5fccbc50f5d31843f51dcceaac37a05f           314860 main/binary-amd64/Packages.gz
+ 712000f770b24eee4018c91653752884          1656222 main/binary-amd64/Packages
  c1455cdb1fe2499d43f71c8ce006dbc5              106 main/binary-amd64/Release
- f39e507ca2541570bac166cee171efeb           247985 main/binary-amd64/Packages.bz2
+ 46d994c6356288da3f90f3708840e7e4           248076 main/binary-amd64/Packages.bz2
  eac5d48293e53184cc72dc79c8c466fb              106 main/binary-armel/Release
- 41a3bda0ef0c20fd7d7e1c1353a271aa           292905 main/binary-armel/Packages.gz
- 431b62a4d775a138b9a06248efddfcb1           230011 main/binary-armel/Packages.bz2
- 6be044d44cf52f92334149d130b0e031          1517050 main/binary-armel/Packages
+ 9d15ac77a6c4628c12e5db8434e73097           292914 main/binary-armel/Packages.gz
+ 17a3f6b6a87adce94b3d5e8c34c44287           230354 main/binary-armel/Packages.bz2
+ a3e72063036d908f0526ad55cbfcc358          1517050 main/binary-armel/Packages
  a04f8bf53cbfefc569c35d777be9536b              106 main/binary-armhf/Release
- 2b5b8b64386aa4b75b620242bf99e70e          1554886 main/binary-armhf/Packages
- 0505e4473c97f93a8d8b64f8d06ed5e4           236487 main/binary-armhf/Packages.bz2
- 229ed72d97b61f824c8aa15856d48de1           300882 main/binary-armhf/Packages.gz
- e98968667ec85b60a47c0ad2b225aa42           258958 main/binary-i386/Packages.bz2
- 8e343a211de2792f5f49a4684b321de2           327796 main/binary-i386/Packages.gz
+ 02c0e9f69a6c0737a4179a279832b432          1554886 main/binary-armhf/Packages
+ d01578e3bab8b8bcfd8f2a6db2adc458           236421 main/binary-armhf/Packages.bz2
+ 9e169b155525f081e23448b819979c46           300903 main/binary-armhf/Packages.gz
+ ef53c790ebc61e1c11dbe6de9337ca2b           258891 main/binary-i386/Packages.bz2
+ 293f87cb77ce639648cd4b06da11610b           327798 main/binary-i386/Packages.gz
  227d0e8cec142c910dde192fc315b8b6              105 main/binary-i386/Release
- 678c80c71d3824bb32a31aca0cc2ab1c          1749862 main/binary-i386/Packages
- d475c3868f30213537788c0e73f34524           289279 main/binary-powerpc/Packages.gz
+ 39bb824b11f6c5b53ba7d7d0e02d4837          1749862 main/binary-i386/Packages
+ ccf00e4bb75728468135de2c7c0e2f1a           289274 main/binary-powerpc/Packages.gz
  3b283ce4a814d197baa119f8eb0380f8              108 main/binary-powerpc/Release
- 58fa6380330f21b97ee6cf1be7ca6f00           227282 main/binary-powerpc/Packages.bz2
- 3b989e873e8860dae5500e7ae730c434          1475898 main/binary-powerpc/Packages
+ 94f405a6245c6356dac5a24727eb4509           227335 main/binary-powerpc/Packages.bz2
+ ffd8aa28903a092591f8cd7ddfa50534          1475898 main/binary-powerpc/Packages
  ac3bd75390bd0494b667ba17801cf480           138484 main/debian-installer/binary-amd64/Packages.gz
  1b137eb15a98806cb1ce13e40d8ce12e           795179 main/debian-installer/binary-amd64/Packages
  78f084d7925a55a4659114bc0f1cc02b           107069 main/debian-installer/binary-amd64/Packages.bz2
@@ -44,9 +44,9 @@ MD5Sum:
  e0599fde659709488f5dd7cc588e9797            95905 main/debian-installer/binary-powerpc/Packages.bz2
  32188c7f2e004f4f09ccba26ebd2bf90           123979 main/debian-installer/binary-powerpc/Packages.gz
  b997851a98c3144a691cc4d907af20fa               74 main/i18n/Index
- be89f89c1c124cf0241bd0c44ab77d94           338982 main/source/Sources
- dd04c0d0173bf369a3eed7440b553256            69625 main/source/Sources.bz2
- 9159a7612abeacfc15a9b004123f506c            85910 main/source/Sources.gz
+ 8bc913a5e547f74b8279cd829da7fcae           338982 main/source/Sources
+ 2e035e0d42fdf99cac723a82ec165e47            69637 main/source/Sources.bz2
+ 1418721eaf1afbbdded08740bacb63fc            85910 main/source/Sources.gz
  fc4cc76b4261917fd185902ce72ba55e              107 main/source/Release
  461858e2610df5ba998c76fde859cb6f             2182 multiverse/binary-amd64/Packages.bz2
  93dd6eba82a1f2d51130c183efb24dc6             1962 multiverse/binary-amd64/Packages.gz
@@ -128,25 +128,25 @@ MD5Sum:
  e46a6210b2b75a64ce57499c35e78097             2494 restricted/source/Sources.bz2
  afa639503f589381bb4c74f2e250acdf             2239 restricted/source/Sources.gz
  908d4a790cfdf7397ed931365a69414e              113 restricted/source/Release
- ee26142e8dc1897e720a80c861aa6876           392735 universe/binary-amd64/Packages
- 9cafeb8218c571079ee2959af6fc5921            71385 universe/binary-amd64/Packages.bz2
- 46faf2e7dcae06a65c4391ce15a091e0            88968 universe/binary-amd64/Packages.gz
+ 10654d28882efd8bff00c266956458fb           392735 universe/binary-amd64/Packages
+ f1a93c933cfffef495b5bf000a39255e            71458 universe/binary-amd64/Packages.bz2
+ 7cf07cdb81772de3b3743c80da37330b            88968 universe/binary-amd64/Packages.gz
  39a8604954f2902bd0dfb24dc25e0194              110 universe/binary-amd64/Release
  b012140b2d980bdd06d3c23211863909              110 universe/binary-armel/Release
- e0d7f68cfbaa494c80c7f8494a8e2f77            64403 universe/binary-armel/Packages.bz2
- d2b241dcc6b488ddecb6204dbddc2ed1            80089 universe/binary-armel/Packages.gz
- 2b41538a01f033e99325e91ac9080f30           347543 universe/binary-armel/Packages
- 9150d04ca57b5ec194b6896b2d19f633            79977 universe/binary-armhf/Packages.gz
+ 6fdb39a70f629011dfaeb4c706a281c3            64329 universe/binary-armel/Packages.bz2
+ adab8407a383f1d730885675ff443ee3            80091 universe/binary-armel/Packages.gz
+ 332b2b93cbee4b78155c9e764a0f7a1c           347543 universe/binary-armel/Packages
+ 3aa9abb5696adfde3ec9f7e1a5abe202            79985 universe/binary-armhf/Packages.gz
  93bbfd8b25d1fd7f61d3d81982f379eb              110 universe/binary-armhf/Release
- 9f2cec11ae9c970cb4b1397d94f790c3            64396 universe/binary-armhf/Packages.bz2
- b49b49d5ed10b149ee93978eda695934           349659 universe/binary-armhf/Packages
- 66a2ef5f0d9d7801265c94d2687b6da7            91404 universe/binary-i386/Packages.gz
- 3cc9470117ba2ea74c5a377cc1332ba9           409301 universe/binary-i386/Packages
+ 7739dd8143bbb500195e5ca61c3744c7            64326 universe/binary-armhf/Packages.bz2
+ de0be9ee5d7d559b3c5607e7a97586aa           349659 universe/binary-armhf/Packages
+ c51bba6371b69e2611e40258de4b8e62            91405 universe/binary-i386/Packages.gz
+ 4af36d4bdbb9fab6689fcaaed0687d1c           409301 universe/binary-i386/Packages
  2582f963d2cd028bcf7d53b09dd7403c              109 universe/binary-i386/Release
- bc2a29ae7161cf031c4d607e2c50f3ad            73522 universe/binary-i386/Packages.bz2
- 542c473205dd295800591e3500bca527           343415 universe/binary-powerpc/Packages
- d743606226d739301f68029cb0e71d6b            78934 universe/binary-powerpc/Packages.gz
- e8ea3364aedddbdaf767db37b39fb0aa            63559 universe/binary-powerpc/Packages.bz2
+ d5de26a7f90b2948d45bcfcef8217a1e            73447 universe/binary-i386/Packages.bz2
+ d3e545dd88cf591970688b1709b002fc           343415 universe/binary-powerpc/Packages
+ 8d982acb72df99b2a649c1e628344b95            78931 universe/binary-powerpc/Packages.gz
+ 13294090bb58ecf9b98e2cc027623e47            63684 universe/binary-powerpc/Packages.bz2
  b83ad45932a4e4aa32dce50076d6e6f2              112 universe/binary-powerpc/Release
  8f4d82b8f4c35f537fd34a8118ca1a54             1906 universe/debian-installer/binary-amd64/Packages.bz2
  08705eb511445985662ef615246b2cf0             1795 universe/debian-installer/binary-amd64/Packages.gz
@@ -169,26 +169,26 @@ MD5Sum:
  9d30a5c8f3e7385f08322e0386af62af              111 universe/source/Release
  a768da5cf955f239a760fea921d44f78            26994 universe/source/Sources.gz
 SHA1:
- cb524063cbb0ddf4e19884d396bb028fbd96cf48           314845 main/binary-amd64/Packages.gz
- 35ba4014d25fafdf9539fd9538c32b7d12ee39b4          1656222 main/binary-amd64/Packages
+ fdbcdb8de30029e19ef2dc6d27ca5c9e594ee3a1           314860 main/binary-amd64/Packages.gz
+ 33f4e8978286c59b769ebee7b647e3870f9ed7ca          1656222 main/binary-amd64/Packages
  96cffc982a0cdf4e4feec0cc26e10c38b98c4cee              106 main/binary-amd64/Release
- 101abf2a91f29eb9ffbb7b40022a61d1b751dac4           247985 main/binary-amd64/Packages.bz2
+ c2aebee98a57ccd7f2446ec248b28b9330f7acd4           248076 main/binary-amd64/Packages.bz2
  2b9a5ae8907daa54180a51d737565a288b32b3a3              106 main/binary-armel/Release
- 75ba61779e52f406a91df88acf2910c372ef6545           292905 main/binary-armel/Packages.gz
- 27f35deb7f5392ebbecf6df023005ced275c7240           230011 main/binary-armel/Packages.bz2
- 5ab62fafd45932b13caa697082aee808b96a953c          1517050 main/binary-armel/Packages
+ 1af6251ecadb8a2405de589d49dd2e119ee21907           292914 main/binary-armel/Packages.gz
+ 4e9701903254a59abb65bd9e5becc65bede15855           230354 main/binary-armel/Packages.bz2
+ 3edd87ab2859afe64d6ac832237ca1317d976a4d          1517050 main/binary-armel/Packages
  7326c54c25037b3d534835a0a96d67869c705a53              106 main/binary-armhf/Release
- acc3229f0d2879405ff59ed417bc7849b74eea57          1554886 main/binary-armhf/Packages
- add5b83826dcfb4f987bf85b596e74005709f94b           236487 main/binary-armhf/Packages.bz2
- 6b49e92c387a7167a6772367632c3c4a6a530723           300882 main/binary-armhf/Packages.gz
- 6c69177787e54a08b497a5a5dbe6db5b65f2d3ad           258958 main/binary-i386/Packages.bz2
- 9c8f1f75aa26479454563da48372217b4e1f7517           327796 main/binary-i386/Packages.gz
+ 0240c518b82d6caf4496f7fe1dd85071522f4dc2          1554886 main/binary-armhf/Packages
+ 5b765ec8671d20a309eeaf6e35a81123df811cd0           236421 main/binary-armhf/Packages.bz2
+ e3567eccff5b06a62115e8b0cef477e121d5338c           300903 main/binary-armhf/Packages.gz
+ 12c98f8cf7ca6e8bac44ef9638c476c5264f4a46           258891 main/binary-i386/Packages.bz2
+ f9015eb94c7d8994f7dfee85f03d1d425927e812           327798 main/binary-i386/Packages.gz
  bfd70130bbcb1434fb45ba963c36917713268803              105 main/binary-i386/Release
- fc146c6189d5e209f15fd490aebaaa5e6e41f485          1749862 main/binary-i386/Packages
- 253ce2427d865ddfdb08984a500cf56638654e50           289279 main/binary-powerpc/Packages.gz
+ 2021ca5dda4a667f81873480bd062393050f0752          1749862 main/binary-i386/Packages
+ 4b6eefdfaa7c748ff9beed01b63d1f7ff9b1e4c6           289274 main/binary-powerpc/Packages.gz
  69a689ff815a09b48ba8b755d9e2bebce728c244              108 main/binary-powerpc/Release
- 648918548a94f4448af77620466b51c6b265e39b           227282 main/binary-powerpc/Packages.bz2
- 69f653bdd3090440d219691d679a024082130510          1475898 main/binary-powerpc/Packages
+ b8475782754095acffb527e7661a4754d192d8d4           227335 main/binary-powerpc/Packages.bz2
+ fbb7938a1c8d0f1c3cab7e6bd6e2d7a530529dff          1475898 main/binary-powerpc/Packages
  023f5b17047d32fa93830b66904644925503e049           138484 main/debian-installer/binary-amd64/Packages.gz
  a0d9c912fcc610383e4898c7faeaba02c81910b3           795179 main/debian-installer/binary-amd64/Packages
  2f97b97850256bdbf8cbf96d49a10c69870958d7           107069 main/debian-installer/binary-amd64/Packages.bz2
@@ -205,9 +205,9 @@ SHA1:
  27c0b4531377aeca70b035a203b883d45c4df492            95905 main/debian-installer/binary-powerpc/Packages.bz2
  f67ca642e1bf5ce01b96e8c1314e326d2092b763           123979 main/debian-installer/binary-powerpc/Packages.gz
  fc50ece031ed026e94a6868f7ce27146cc7d8a19               74 main/i18n/Index
- 7202088f731d26d4dc897ed0c9e0e123deb6198f           338982 main/source/Sources
- 198dabc3dd5f26d99e4870465541a3ed6fa386e7            69625 main/source/Sources.bz2
- 22b6adb5a82792d627a4dc85c39b3888733cf570            85910 main/source/Sources.gz
+ eb086505bf662451aadc1f92f50297542b5e5fb4           338982 main/source/Sources
+ 9def225ee3b0c1bf0824ad80aaaca002beb83dab            69637 main/source/Sources.bz2
+ 2e3654b19c21d739737e8e5fd37726eb0a26be72            85910 main/source/Sources.gz
  d1fca9408a385be0dfbec2978f7378aace2f9c7d              107 main/source/Release
  ee08761654f7e408b7c7378d76b2f1b0805fb8af             2182 multiverse/binary-amd64/Packages.bz2
  cbcaecf4bbdc3966c330e3ae3d53a7586f12ed6a             1962 multiverse/binary-amd64/Packages.gz
@@ -289,25 +289,25 @@ SHA1:
  6463d0df28942479210d46947a26f20dd90094a0             2494 restricted/source/Sources.bz2
  4049356d328c94a574b36abcd72a1f8537c434cc             2239 restricted/source/Sources.gz
  1cb44e45c7ac961280eaa591ae294c188ae53ffe              113 restricted/source/Release
- 29c6a405284a3413928a30d2928342578465018f           392735 universe/binary-amd64/Packages
- e63adc36e4fee8c4b2c681fce8d102c973401a2d            71385 universe/binary-amd64/Packages.bz2
- c005dbf4a85f15808fcb2f8ac481366c7d5b6576            88968 universe/binary-amd64/Packages.gz
+ 1914d680d33310452792a460ef8f504a430f7a25           392735 universe/binary-amd64/Packages
+ fc3f3570ef5b184b62cbd1e9c5ce7d94b9392f31            71458 universe/binary-amd64/Packages.bz2
+ 8abfb300eb9d3b4ecdb226d4c5ca1f5907fca503            88968 universe/binary-amd64/Packages.gz
  13d9d8c167651c0d6a7d723f00d8408c0fddcbdb              110 universe/binary-amd64/Release
  fed7bbc29410ce0faf81a66356f1471e3d004023              110 universe/binary-armel/Release
- 366a872e156fbc0ccd5822ae22f7f028e9284d7a            64403 universe/binary-armel/Packages.bz2
- c023cefca4cc174e1c022d501872cedc0b785336            80089 universe/binary-armel/Packages.gz
- b4974f55050ef76b49553bb4a935b3b87fd131e0           347543 universe/binary-armel/Packages
- ff4bc2f8e7b215d70a9ca5a4f2d66512ec5d7ae8            79977 universe/binary-armhf/Packages.gz
+ aecdfe84e6411f36d593b7a9d2ee80e8cece71e8            64329 universe/binary-armel/Packages.bz2
+ 2e6dcb511b828f09730f4861a754a39a167f307b            80091 universe/binary-armel/Packages.gz
+ e6a70dcccd0d7f5f4962d0d95f30686894424213           347543 universe/binary-armel/Packages
+ 160c97af1f4a94cd50ee6f244953da46acebc780            79985 universe/binary-armhf/Packages.gz
  3b5ad0ef9d0e9c053c98acbf1e99810eaaada334              110 universe/binary-armhf/Release
- 3d765cb59ac5fc2dfa279389a923d6bb3214ea4e            64396 universe/binary-armhf/Packages.bz2
- 54a8715a37c582dae8cf008b72e4b9a68241171c           349659 universe/binary-armhf/Packages
- 8a86ac875e80c41f237f034d398363de9d2f0fb0            91404 universe/binary-i386/Packages.gz
- 4f0a32c4228dc469f0cae8dda6b33ea1b54391b7           409301 universe/binary-i386/Packages
+ 3c411c89b9119b204b1364c05f782024f3232f97            64326 universe/binary-armhf/Packages.bz2
+ fe26fc3114c368513c98b0cad3d8100c1f2060ae           349659 universe/binary-armhf/Packages
+ b755b56ae3e33e6c2bf4b4dd515d1069829d7fd3            91405 universe/binary-i386/Packages.gz
+ ca04c4996cdab048ca44f3163c59f9ccb57b30f9           409301 universe/binary-i386/Packages
  3ba29ed9c69adeadfcede7536edc856673566304              109 universe/binary-i386/Release
- c7202160d0bbfdef3cd11896297df504f52de0f1            73522 universe/binary-i386/Packages.bz2
- cba827f30ccb59053294a775becd96c781f8edad           343415 universe/binary-powerpc/Packages
- 0fa13b882426bb1ca5d436dc0025e67b74a311fe            78934 universe/binary-powerpc/Packages.gz
- c29231f0a067f631138f9741d066dc057e6b1cee            63559 universe/binary-powerpc/Packages.bz2
+ 79bd1f468422e61393f8268ffe068ef14646c609            73447 universe/binary-i386/Packages.bz2
+ 06993800720f67effa58729132e839b5e857cbba           343415 universe/binary-powerpc/Packages
+ 71452bb2f911699c3ff84d0aa71cc4eedcf7698c            78931 universe/binary-powerpc/Packages.gz
+ 162ba7d91173dea992ed57b20c2b4d18b35c6c35            63684 universe/binary-powerpc/Packages.bz2
  dec998afc6ad07454a86835b50f6adffa458e3ab              112 universe/binary-powerpc/Release
  41637524736d7c4e6ca714cec120f82513a63f5b             1906 universe/debian-installer/binary-amd64/Packages.bz2
  963cdd44eff3bd1e82c10aea88dd5533392d38e0             1795 universe/debian-installer/binary-amd64/Packages.gz
@@ -330,26 +330,26 @@ SHA1:
  0e304effd4b2c5a066fb94b5bdf4293284859195              111 universe/source/Release
  dea5a8d56bc6d1bc3976fa444e417f552118c63f            26994 universe/source/Sources.gz
 SHA256:
- 58766aec79e2c686c6694adf750abfa09309082304372ac3b7482e839af68502           314845 main/binary-amd64/Packages.gz
- 395749589b5f26c0e99b3dd1dafc7cf2f8fd5e7df6aee75e93b17dd6a2075027          1656222 main/binary-amd64/Packages
+ 71802fbcf735b46d4a1bfc23057820e925be12a9e886b9b7c112ec65b27bfd0c           314860 main/binary-amd64/Packages.gz
+ f2fc38334732fe9ed7e32e5a58730c4859dc5f83ef2ed16520a47ba79cde241b          1656222 main/binary-amd64/Packages
  0a293cf6edde268c7c04c929cb312209f774df3a08ad7942ed9046f7cd03c025              106 main/binary-amd64/Release
- 5ce3cd699655547da496dc2c5c7f1948ee777d6c3448bc190f0b2cb6681ed953           247985 main/binary-amd64/Packages.bz2
+ 419b61403ca2906100ca1839e45c8006aea333fe300ab07135afe869bc1839ae           248076 main/binary-amd64/Packages.bz2
  e62cc8f24dc9d3238f5fbc8b757918a3dbebe8367b23a65f1db96451dd3f3e99              106 main/binary-armel/Release
- b856eac347c66ba477b9682a3b8fc5b38473ccc3313b3a5f56c90d8e8ee3cc82           292905 main/binary-armel/Packages.gz
- 9c896881a6e08293475d952469720efe5988141a013bbef132c3739057245693           230011 main/binary-armel/Packages.bz2
- a463dbfc5c588cb629f8075d308ab3911ab467807244011b4df436d3aaef2d16          1517050 main/binary-armel/Packages
+ db0b6de938e29e6549e35271386aa7512b8025e6365f5a823a40296677166c99           292914 main/binary-armel/Packages.gz
+ b7374d2228807a727c9be80a97a9e1b172eec209b30c65ba5b0be6da8cee6a9d           230354 main/binary-armel/Packages.bz2
+ bf680f81b9a19c66e19271f14a6053bff24ce651b675704b92bb184478d3a2b2          1517050 main/binary-armel/Packages
  8c2b342e783febacc9ee116e754c0bd3a95ceb043c85a864f7fbb3f14c05672a              106 main/binary-armhf/Release
- b330b23b1dfec8c78db32d8831d3c9b1470d271b190a8b305b527e471dce4ada          1554886 main/binary-armhf/Packages
- ba9b7fd060b277c4d1a1b8990b3f8b31367d4682f60192e7227231f7af77feb0           236487 main/binary-armhf/Packages.bz2
- 66787e7ffd3b5d84a9beffb510bbf721b935be9955b033438200f18f7aeacb8c           300882 main/binary-armhf/Packages.gz
- 35b1893014b111a2d0f433d3a696feced05591a2c7f9347d28f5fe7d279db523           258958 main/binary-i386/Packages.bz2
- ee3f9dc5547898e0004cedbecef5f5fbc2bacf69974e9a87c9fb78154725cf50           327796 main/binary-i386/Packages.gz
+ 60b43cfdd9b4ffe9cb972fe7f2a112dcb062f73ca9b08387b29defcb7c3c3b6d          1554886 main/binary-armhf/Packages
+ 5e24b349450f19ad2a066fca456169c26e3a6967650c54fffb79281b12d4f136           236421 main/binary-armhf/Packages.bz2
+ 602ce256a0bfa9fd5fdc6581718b38b9f8b279bf94aedab4d8b8eefdc2b924e5           300903 main/binary-armhf/Packages.gz
+ 7545f6602fe1d453e01e0bbec903516e98c607ea22693e6dd90f95e7af2e7332           258891 main/binary-i386/Packages.bz2
+ b53b3c2fb9711dfd1c6a321eaffb78608f0735255f53f637762b777a018b6973           327798 main/binary-i386/Packages.gz
  6408a84dba58d76351dc995a57b444ba254a4d0eab2a43c7ed3d8b4295a92513              105 main/binary-i386/Release
- 5bb6679311a1db29e0e8a0eeec2517c0968c10288d7a5cb6ea6d012876d98662          1749862 main/binary-i386/Packages
- 2cd42905cd61f45b307a7fb8bff75ce26e25366d0ac75c4c6681abd76f74af7a           289279 main/binary-powerpc/Packages.gz
+ 089e05e48dbc3b5d437332ec725548053621b4bf56f82a41bc6958615e058f85          1749862 main/binary-i386/Packages
+ 11e2ffdcbf209d08effd17861fb03519db115b732837a9360abbef59e9865c30           289274 main/binary-powerpc/Packages.gz
  adfb93df66faa5e796d9d474112fa74fb21c4100bd85ddfad5374cd9b69981f5              108 main/binary-powerpc/Release
- f1e99309e22ac4aeb164c69408327b07548bed706e75039cb4f990aeb83a0ee1           227282 main/binary-powerpc/Packages.bz2
- 148ed22673ec9a5aedabd290f55d9f37c3e77a9d5fb1db348ed6ea26b0289b27          1475898 main/binary-powerpc/Packages
+ 6329d7b3819dd88f7fc554afe0de812cd598604b8875948d1fda3d36cd462128           227335 main/binary-powerpc/Packages.bz2
+ 287a467440b08baf0f61eb851f4bce0eacc870734cbe41f565635a80e2f37d78          1475898 main/binary-powerpc/Packages
  76ae8f83a96b79ca828c37672949c3f2749b69d40f554dd90ae7a614f6e543df           138484 main/debian-installer/binary-amd64/Packages.gz
  64667db4101d907b74b28362e452b829d6c9e0ee2d1c3bcc9ad189f2519446a8           795179 main/debian-installer/binary-amd64/Packages
  23feb0851e0ffb942232159955e13b49fb7fbe4f0abc7f33cfbb2c45c7eb74f8           107069 main/debian-installer/binary-amd64/Packages.bz2
@@ -366,9 +366,9 @@ SHA256:
  7d6bfa16424e467734f163a949206a9c532bd57f15fc17132ed310a169d7ccad            95905 main/debian-installer/binary-powerpc/Packages.bz2
  35bd2fde8b1c6f3a3cec06302af6d52cf894f73bdc0a06d18c709c5b0f5c86c1           123979 main/debian-installer/binary-powerpc/Packages.gz
  8d32d60339df842c33214e34785392ab3bc3bc1c57b3ebe4d4e49da9bf0f181f               74 main/i18n/Index
- d6d34e667f773649bcab4c358d05c9f2148c2bc1ceb24ec55489f4cb2b60d159           338982 main/source/Sources
- 133b7fd92c488b7f6d1d7462c158f89b92ce353a269d8ca48a6ad783fcc369dd            69625 main/source/Sources.bz2
- 90657cd9acdb3a9f3e5444f8709f8321fbf7d16f7037aef8c26091243d487b7c            85910 main/source/Sources.gz
+ 86195270f0de67ed6904242e52a338790267f3d6fe057967e5a5c3ecddde021b           338982 main/source/Sources
+ 934edfac6e7ed92a420030728787595d06467dc4d51c1a3c47a3ec6d2fd3c122            69637 main/source/Sources.bz2
+ faa152ae442f3c759b7ee10567a512e3c89d76b5cc76b46b3ce7206a43281eed            85910 main/source/Sources.gz
  6c695ce4a51ca1c4731f3b362b7e675fdf99e38f8e7734b45491f14896967adf              107 main/source/Release
  dced1d3604a1b7593b68978c29a6ffe165801317f591b647421e9411b97b091a             2182 multiverse/binary-amd64/Packages.bz2
  84ca8cf4d8dcb70f0abbd8e7f18fb69cc37e9d8109f89bbb45de92078fc597a8             1962 multiverse/binary-amd64/Packages.gz
@@ -450,25 +450,25 @@ SHA256:
  a71809de896d3abb52de0ed34490c50087cd6abfcea0aa291843d40463867e71             2494 restricted/source/Sources.bz2
  2b7d6c2896a2e6db48b51c43212e8a9f3cbf338c14ec871e7ccdcd4dcc6ba338             2239 restricted/source/Sources.gz
  43a9b82338472cac66f9d5b3ec203b2523a6fa24eedec4ed234702f5dd181fe0              113 restricted/source/Release
- ca64c1582eaa8c8d7e6d77cfa147a65d5c67f61958e1d9a5a1f0ab86ddb91734           392735 universe/binary-amd64/Packages
- 7b4e1f3e78814b489afc3a3e6d15c862bf6736acca12849348e073f90e684a2c            71385 universe/binary-amd64/Packages.bz2
- 607a2ae3e82a0ce2c52e1c3c67cb4ba0dabe10085f87e1721ea26837f90c928a            88968 universe/binary-amd64/Packages.gz
+ 4f734ab3ed9b51f8d24a060e735b62ae45efddd292694bbd0bcec8bbd5ec63da           392735 universe/binary-amd64/Packages
+ 678725d4a80dcbfc2a77e86fa25add839bbbedc74c67df5f571937bd32545b51            71458 universe/binary-amd64/Packages.bz2
+ 69a538e9b3627bd353b38ecf17d128b6e39e8f96ddb8cafd7ba97f8a126fad56            88968 universe/binary-amd64/Packages.gz
  c2eb01a7be8960045501d2cb3300095b73496f1f35bfd881ea2649ecc56b9689              110 universe/binary-amd64/Release
  b6d6ca150977cc1c338952779b4d43afc8bd36561bf878bf2dbcb2a04b76fd87              110 universe/binary-armel/Release
- 03c51aba8279e537f77a20dea15b8799ca56d6c3ee2dd9cd02042d824f399546            64403 universe/binary-armel/Packages.bz2
- 12ca744583d42bf06571e731b5a475605c0537436128291a945210b0d45977c2            80089 universe/binary-armel/Packages.gz
- 3757e0559d30d46fbda8f874048786f66b0cb3e7dd0131324dcd455c22dbbece           347543 universe/binary-armel/Packages
- 87403acf9e72892e36c9a2b40513c7a8692d1fa0f231abb6618ed0df29fe7ffd            79977 universe/binary-armhf/Packages.gz
+ d708b01612ee017110aa450a257ed2392591d066ec9979c677106201a447526a            64329 universe/binary-armel/Packages.bz2
+ 42eab40501db68e78c9eb07bd1de4b738a8b993431fd8443e82dc16b6d4cc4fe            80091 universe/binary-armel/Packages.gz
+ edeec3607a86c7aa16223677543311a73019a1c8a9a475c59e4e2086e18436dc           347543 universe/binary-armel/Packages
+ c526d51c0cf05066f423216873dac24dc53c6bc0aa25869d76315f0388665efa            79985 universe/binary-armhf/Packages.gz
  d186c174abd59626b4f2b75e28572052bc2097439cb034e83c0917fab295a2f7              110 universe/binary-armhf/Release
- 171838961c6344075312cd687b1145aca1d855e375373b49525325fe6ac0a9ec            64396 universe/binary-armhf/Packages.bz2
- 04c24fd40fe270802a16a45b475ec8a1498b347d0bd5a2c986e45212b2d80cb6           349659 universe/binary-armhf/Packages
- cfcb838bf36e0fb56997f4486811a183cba1b2cb6442c756743ab1075035a293            91404 universe/binary-i386/Packages.gz
- 90e9c6b348a9cdc34461fc0db90ef7dc2b24f5783a01b9f94f20b27194576334           409301 universe/binary-i386/Packages
+ f973e95f218df96b099b76d7d0bbb0049b504a6f6bb757e525c5d9bbe9c83c96            64326 universe/binary-armhf/Packages.bz2
+ 889c866f8b4a73853f74c36a0c65cf03a2f289547a93274d414be7bf427575fa           349659 universe/binary-armhf/Packages
+ 0e1ab2ff55385c2a426e1b439fc268c5be0c750f9ed29cb07684f25626de0281            91405 universe/binary-i386/Packages.gz
+ 87f7617d63aab5f122c2500eecbd92a33b63d8ab25adb2e8474acf4d40fe9f69           409301 universe/binary-i386/Packages
  026e2d6d3af1f2f28fcafcc150ec4e5d352bbebf51013eee3c1cd658ea6e9846              109 universe/binary-i386/Release
- bb0e6d1fd9a06eb574d50c04e4d01e6ddfb8f57b51aba9b75ab8b59a910cbaff            73522 universe/binary-i386/Packages.bz2
- a304d910b715cd6fa0cd7039dbef72c0b21e5cc248ad0619db3602771b3e9f21           343415 universe/binary-powerpc/Packages
- 3638b9d8520b82c20d9d26af214fc38cb48315245c8ad54266dc565f8f950fa8            78934 universe/binary-powerpc/Packages.gz
- f2e5eaee76a7644f528ad604eae2acfb2b35a9639a02568598b457b39d437212            63559 universe/binary-powerpc/Packages.bz2
+ 1e81cd405b8479d7387a3bd8adbaa8899cf4d1ebd928a2672e902ece68437c4d            73447 universe/binary-i386/Packages.bz2
+ 7a2aaab8dad88689f9883fb961819b037a1c7b497317ed30c978b4f168e70d73           343415 universe/binary-powerpc/Packages
+ 7215d462aaa03cd49f5d10546ff20e6a85e616940115ed66497ba37833b73c7d            78931 universe/binary-powerpc/Packages.gz
+ 21dcffb48665d1383aad421bc88495eae5be7858d4703fae13e8df8496860a4f            63684 universe/binary-powerpc/Packages.bz2
  1734b09f6dc62a1899e2d6ece66dab2e0d558ebd3dec91d2d2d03f3b689f97b3              112 universe/binary-powerpc/Release
  dcf952e4999a690719d38f35a930350f3acb2b383e332727b168f59bf76fc572             1906 universe/debian-installer/binary-amd64/Packages.bz2
  2cf04ee2595a157dcfdc00509e33fab802f592178fa674bb374b9911e7129022             1795 universe/debian-installer/binary-amd64/Packages.gz

@@ -15810,21 +15810,21 @@ Supported: 5y
 Package: libmysqlclient-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 4965
+Installed-Size: 4971
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: mysql-5.5
-Version: 5.5.29-0ubuntu0.12.04.1
+Version: 5.5.31-0ubuntu0.12.04.1
 Replaces: libmysqlclient15-dev
 Provides: libmysqlclient15-dev
-Depends: libmysqlclient18 (= 5.5.29-0ubuntu0.12.04.1), zlib1g-dev
+Depends: libmysqlclient18 (= 5.5.31-0ubuntu0.12.04.1), zlib1g-dev
 Conflicts: libmysqlclient10-dev, libmysqlclient12-dev, libmysqlclient14-dev, libmysqlclient15-dev
-Filename: pool/main/m/mysql-5.5/libmysqlclient-dev_5.5.29-0ubuntu0.12.04.1_i386.deb
-Size: 1360124
-MD5sum: 72f0cf769b4992dd136e36ee5e3b37e5
-SHA1: 12462ecb4e90084575b56f54f0ef682912a074c4
-SHA256: 0c748a62f284ff4e16cd9637477bac8f9ac5cc85cbe66fea41ffd36b0dfd89f1
+Filename: pool/main/m/mysql-5.5/libmysqlclient-dev_5.5.31-0ubuntu0.12.04.1_i386.deb
+Size: 1362160
+MD5sum: c7faf997017d548ac15f0b228fe78077
+SHA1: fb8315cf789ce561f7393966b8bc4e0f4f36ddad
+SHA256: db1ede419f85890284a46da250ea8226bcae3c90e8def6d5900bf23c7749121d
 Description: MySQL database development files
 Homepage: http://dev.mysql.com/
 Description-md5: 716f7a81dc4e3e8899c7eaa66b24736d
@@ -15840,14 +15840,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: mysql-5.5
-Version: 5.5.29-0ubuntu0.12.04.1
-Depends: mysql-common (>= 5.5.29-0ubuntu0.12.04.1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), zlib1g (>= 1:1.1.4)
+Version: 5.5.31-0ubuntu0.12.04.1
+Depends: mysql-common (>= 5.5.31-0ubuntu0.12.04.1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
-Filename: pool/main/m/mysql-5.5/libmysqlclient18_5.5.29-0ubuntu0.12.04.1_i386.deb
-Size: 922002
-MD5sum: 0208b47d783fc261baa2b2e58891afa9
-SHA1: cd117cfbf6cc00f87ac91802a6afc240dcae23f8
-SHA256: f74478c61e0118ee902e98d3afab87f6be6a44b4df37ce6ccb683a7bf71b7c36
+Filename: pool/main/m/mysql-5.5/libmysqlclient18_5.5.31-0ubuntu0.12.04.1_i386.deb
+Size: 924162
+MD5sum: 2b729d9e28ec4fe9d2ab99e1a30a333e
+SHA1: 9102f0f578335a30d40fd7b240756b3365c1ed48
+SHA256: adffa62e83ce9db8b430d0b46015242c3004434cbe908527db72990a5a7ed9e3
 Description: MySQL database client library
 Multi-Arch: same
 Homepage: http://dev.mysql.com/
@@ -15860,18 +15860,18 @@ Task: lamp-server, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edub
 Package: libmysqld-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 15362
+Installed-Size: 15376
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: mysql-5.5
-Version: 5.5.29-0ubuntu0.12.04.1
-Depends: libmysqlclient-dev (>= 5.5.29-0ubuntu0.12.04.1)
-Filename: pool/main/m/mysql-5.5/libmysqld-dev_5.5.29-0ubuntu0.12.04.1_i386.deb
-Size: 4643506
-MD5sum: b9a6a16313b47224aae1f28555eac588
-SHA1: 77a8f685bec14fccf5b0e0b95dbb5b1a0bc0e19c
-SHA256: d5b98661611c97423cee1747ffdf89cf29db339afadd2fc92b79f92b3ed6572b
+Version: 5.5.31-0ubuntu0.12.04.1
+Depends: libmysqlclient-dev (>= 5.5.31-0ubuntu0.12.04.1)
+Filename: pool/main/m/mysql-5.5/libmysqld-dev_5.5.31-0ubuntu0.12.04.1_i386.deb
+Size: 4661712
+MD5sum: a768fd37f9cd5ef5b648b48116222215
+SHA1: 0009565c14efc09264657d9d5b2622e6c389f833
+SHA256: eeec7be90ddc0ac757fb87e8ca1f51f2a294b2885b8ec22e2d5124915cb0357f
 Description: MySQL embedded database development files
 Homepage: http://dev.mysql.com/
 Description-md5: 2f06b7e1bfdb9f620d92f9696d24fabc
@@ -15882,18 +15882,18 @@ Supported: 18m
 Package: libmysqld-pic
 Priority: optional
 Section: libdevel
-Installed-Size: 15369
+Installed-Size: 15383
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: mysql-5.5
-Version: 5.5.29-0ubuntu0.12.04.1
-Depends: libmysqlclient-dev (>= 5.5.29-0ubuntu0.12.04.1)
-Filename: pool/main/m/mysql-5.5/libmysqld-pic_5.5.29-0ubuntu0.12.04.1_i386.deb
-Size: 4646416
-MD5sum: 1ccf44dbcbf7399fb9b5ba03a78e8624
-SHA1: 557b3d04337b57c1dbf3f77a87754d63ba7be92d
-SHA256: 974e955879a4693985ee905c8584ab4ed6f2c72c4a36a2a9dc6b45fec5298313
+Version: 5.5.31-0ubuntu0.12.04.1
+Depends: libmysqlclient-dev (>= 5.5.31-0ubuntu0.12.04.1)
+Filename: pool/main/m/mysql-5.5/libmysqld-pic_5.5.31-0ubuntu0.12.04.1_i386.deb
+Size: 4663096
+MD5sum: 7940755fd8f906da2e3dbb6fdfbd7d09
+SHA1: 49061f5d26f31dddc5a2021a766a1865a2e94f00
+SHA256: 6043a9194411eb5509b087b7f41451bac7ad3be61467c517749becb3e677a696
 Description: MySQL database development files
 Homepage: http://dev.mysql.com/
 Description-md5: a6e7a6d26021d6ef468e70ec4ac81167
@@ -33941,13 +33941,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: all
 Source: mysql-5.5
-Version: 5.5.29-0ubuntu0.12.04.1
+Version: 5.5.31-0ubuntu0.12.04.1
 Depends: mysql-client-5.5
-Filename: pool/main/m/mysql-5.5/mysql-client_5.5.29-0ubuntu0.12.04.1_all.deb
-Size: 11556
-MD5sum: e3ecc3ebf090691f9d5ba69658768995
-SHA1: eec4a02dcfa42db092c920098598ab043a7bd962
-SHA256: d8edf2942d9b9d01045ebd3a64d13d4a708a4ee79247d49e41913ddee27faa33
+Filename: pool/main/m/mysql-5.5/mysql-client_5.5.31-0ubuntu0.12.04.1_all.deb
+Size: 11484
+MD5sum: d151f06835b065a7b920cb6f09da2263
+SHA1: 60fd03abdbcae3e59888295afccaa19aa40ade7a
+SHA256: e41c8e46dcfa2793391a8b7c00ead55e4921c858d4f9b20bf6fe5e54f46adbbe
 Description: MySQL database client (metapackage depending on the latest version)
 Homepage: http://dev.mysql.com/
 Description-md5: c1035c33de63147bb387637ae5083656
@@ -33959,22 +33959,22 @@ Task: mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backe
 Package: mysql-client-5.5
 Priority: optional
 Section: database
-Installed-Size: 28483
+Installed-Size: 28530
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: mysql-5.5
-Version: 5.5.29-0ubuntu0.12.04.1
-Replaces: mysql-client (<< 5.5.29-0ubuntu0.12.04.1), mysql-client-5.0, mysql-client-5.1
+Version: 5.5.31-0ubuntu0.12.04.1
+Replaces: mysql-client (<< 5.5.31-0ubuntu0.12.04.1), mysql-client-5.0, mysql-client-5.1
 Provides: mysql-client, mysql-client-4.1, virtual-mysql-client
-Depends: debianutils (>= 1.6), libdbi-perl, libdbd-mysql-perl (>= 1.2202), mysql-common (>= 5.5.29-0ubuntu0.12.04.1), perl, libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), zlib1g (>= 1:1.1.4), mysql-client-core-5.5
+Depends: debianutils (>= 1.6), libdbi-perl, libdbd-mysql-perl (>= 1.2202), mysql-common (>= 5.5.31-0ubuntu0.12.04.1), perl, libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), zlib1g (>= 1:1.1.4), mysql-client-core-5.5
 Suggests: libterm-readkey-perl
-Breaks: mysql-client (<< 5.5.29-0ubuntu0.12.04.1), mysql-client-5.0, mysql-client-5.1
-Filename: pool/main/m/mysql-5.5/mysql-client-5.5_5.5.29-0ubuntu0.12.04.1_i386.deb
-Size: 8056390
-MD5sum: 61fba988c15011bab7cd815fcf966664
-SHA1: d74a96c950b81297640762b55ac583d6d9484b78
-SHA256: 1e370923453ce9733f514506229bcd7d97906832421af6f74077302bb87c2965
+Breaks: mysql-client (<< 5.5.31-0ubuntu0.12.04.1), mysql-client-5.0, mysql-client-5.1
+Filename: pool/main/m/mysql-5.5/mysql-client-5.5_5.5.31-0ubuntu0.12.04.1_i386.deb
+Size: 8116974
+MD5sum: 3e21405d0b452d152bb47318e2050c1b
+SHA1: ec1e50dfc80c9d33c1501656bbc32d932ec3afa6
+SHA256: 60b6f89541ad70cb508aa40f1383f765b54971d75de8f584f6794357b657fce0
 Description: MySQL database client binaries
 Homepage: http://dev.mysql.com/
 Description-md5: 70aef1a292fc318f9af72aa188c17716
@@ -33986,20 +33986,20 @@ Task: lamp-server, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, my
 Package: mysql-client-core-5.5
 Priority: optional
 Section: database
-Installed-Size: 6507
+Installed-Size: 6514
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: mysql-5.5
-Version: 5.5.29-0ubuntu0.12.04.1
-Replaces: mysql-client (<< 5.5.29-0ubuntu0.12.04.1), mysql-client-5.0, mysql-client-core-5.1
+Version: 5.5.31-0ubuntu0.12.04.1
+Replaces: mysql-client (<< 5.5.31-0ubuntu0.12.04.1), mysql-client-5.0, mysql-client-core-5.1
 Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libreadline6 (>= 6.0), zlib1g (>= 1:1.1.4)
-Breaks: mysql-client (<< 5.5.29-0ubuntu0.12.04.1), mysql-client-5.0, mysql-client-core-5.1
-Filename: pool/main/m/mysql-5.5/mysql-client-core-5.5_5.5.29-0ubuntu0.12.04.1_i386.deb
-Size: 1858072
-MD5sum: 392467d16c86ec2ff97a5dbac5d07e6a
-SHA1: e162a95a2c6e6019ed9b1eb1464db15add5a259a
-SHA256: 04332b9d3be5c02159e9b74ca819c3735f3565bdca0bb6e5f4d6bff68450afa1
+Breaks: mysql-client (<< 5.5.31-0ubuntu0.12.04.1), mysql-client-5.0, mysql-client-core-5.1
+Filename: pool/main/m/mysql-5.5/mysql-client-core-5.5_5.5.31-0ubuntu0.12.04.1_i386.deb
+Size: 1873842
+MD5sum: e7982c5de9718f31f2e3de523b4524a8
+SHA1: add56cc93c8aa68fe3ba99988ac241ecc5008b6d
+SHA256: 07403933adcf2b1eb9026dbe5dbcca3e5ef333227c83bc67540d714017aba4bc
 Description: MySQL database core client binaries
 Homepage: http://dev.mysql.com/
 Description-md5: 94a7aede8ba9259b1382d4dfca4cdde0
@@ -34016,16 +34016,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: all
 Source: mysql-5.5
-Version: 5.5.29-0ubuntu0.12.04.1
+Version: 5.5.31-0ubuntu0.12.04.1
 Replaces: mysql-common-4.1
 Provides: mysql-common-4.1
 Conflicts: mysql-common-4.1
 Breaks: mysql-client-5.1, mysql-client-core-5.1, mysql-server-5.1, mysql-server-core-5.1
-Filename: pool/main/m/mysql-5.5/mysql-common_5.5.29-0ubuntu0.12.04.1_all.deb
-Size: 13516
-MD5sum: e293ab4f8bf1b86599e569c2f80f6d99
-SHA1: bb3a4bb42e907277e766e0bf24a3dc15278dc093
-SHA256: 38417956e10a13caf1350e50ca6f7d214a46e2d606a5e440991b39ad2b81fb85
+Filename: pool/main/m/mysql-5.5/mysql-common_5.5.31-0ubuntu0.12.04.1_all.deb
+Size: 13396
+MD5sum: 5f5311d304d57df97df9b4bf75734f55
+SHA1: cc0489af915fd2e4bb3cb32503a52c4a3adf7c70
+SHA256: 10699d19d4416e70702c6b2c1467b896730bbcb9ad43d3ed330b2b06ee05398c
 Description: MySQL database common files, e.g. /etc/mysql/my.cnf
 Multi-Arch: foreign
 Homepage: http://dev.mysql.com/
@@ -34043,13 +34043,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: all
 Source: mysql-5.5
-Version: 5.5.29-0ubuntu0.12.04.1
+Version: 5.5.31-0ubuntu0.12.04.1
 Depends: mysql-server-5.5
-Filename: pool/main/m/mysql-5.5/mysql-server_5.5.29-0ubuntu0.12.04.1_all.deb
-Size: 11678
-MD5sum: 08052fa88316e417ed9e9d3898cd3a9d
-SHA1: 12186c5bea6aefca8f6fd4ea831c86238d9c2aa2
-SHA256: cbb2725a4b567bae543bc88ce102078e919cecbbd277d886892228643b7dc46e
+Filename: pool/main/m/mysql-5.5/mysql-server_5.5.31-0ubuntu0.12.04.1_all.deb
+Size: 11600
+MD5sum: 5ec066a37c7dd10f0d86c585f7fcb050
+SHA1: 9246ed3e62e3264e47f62b3d618618e98522ffe7
+SHA256: 2eb04888c2f6e5a2a03c2035551f440038a4cf65dfc38a804d83c9b4e400ba9d
 Description: MySQL database server (metapackage depending on the latest version)
 Homepage: http://dev.mysql.com/
 Description-md5: e519a9c4f87658afbd1d077af63f9269
@@ -34061,24 +34061,24 @@ Task: lamp-server, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slav
 Package: mysql-server-5.5
 Priority: optional
 Section: database
-Installed-Size: 30578
+Installed-Size: 30622
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: mysql-5.5
-Version: 5.5.29-0ubuntu0.12.04.1
-Replaces: libmysqlclient-dev (<< 5.5.17~), mysql-server (<< 5.5.29-0ubuntu0.12.04.1), mysql-server-4.1, mysql-server-5.0, mysql-server-5.1
+Version: 5.5.31-0ubuntu0.12.04.1
+Replaces: libmysqlclient-dev (<< 5.5.17~), mysql-server (<< 5.5.31-0ubuntu0.12.04.1), mysql-server-4.1, mysql-server-5.0, mysql-server-5.1
 Provides: virtual-mysql-server
-Depends: mysql-client-5.5 (>= 5.5.29-0ubuntu0.12.04.1), libdbi-perl, perl (>= 5.6), libc6 (>= 2.12), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, upstart-job, psmisc, passwd, lsb-base (>= 3.0-10), mysql-server-core-5.5 (= 5.5.29-0ubuntu0.12.04.1), upstart (>= 0.6.7-2)
-Pre-Depends: mysql-common (>= 5.5.29-0ubuntu0.12.04.1), adduser (>= 3.40), debconf
+Depends: mysql-client-5.5 (>= 5.5.31-0ubuntu0.12.04.1), libdbi-perl, perl (>= 5.6), libc6 (>= 2.12), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, upstart-job, psmisc, passwd, lsb-base (>= 3.0-10), mysql-server-core-5.5 (= 5.5.31-0ubuntu0.12.04.1), upstart (>= 0.6.7-2)
+Pre-Depends: mysql-common (>= 5.5.31-0ubuntu0.12.04.1), adduser (>= 3.40), debconf
 Recommends: libhtml-template-perl
 Suggests: tinyca, mailx
-Breaks: libmysqlclient-dev (<< 5.5.17~), mysql-server (<< 5.5.29-0ubuntu0.12.04.1), mysql-server-4.1, mysql-server-5.1
-Filename: pool/main/m/mysql-5.5/mysql-server-5.5_5.5.29-0ubuntu0.12.04.1_i386.deb
-Size: 8719090
-MD5sum: aa3daf4fe8aadc1695d7f7108ffa2985
-SHA1: 4a03ba8edc2e5fd5868f19773bb418dae1b5e532
-SHA256: 23e5a76e010010f701e6eeae0e9d91dcd9d39f7698dd452bced2eac3367959a7
+Breaks: libmysqlclient-dev (<< 5.5.17~), mysql-server (<< 5.5.31-0ubuntu0.12.04.1), mysql-server-4.1, mysql-server-5.1
+Filename: pool/main/m/mysql-5.5/mysql-server-5.5_5.5.31-0ubuntu0.12.04.1_i386.deb
+Size: 8750060
+MD5sum: bc7d7591603c8e9bbc51665f8167e2b7
+SHA1: 34d696c056833c8c7f0e218f95244641b29e05ed
+SHA256: f9833ae7dc325074deea248c557019042c773726c670d41ee915da5287433fa7
 Description: MySQL database server binaries and system database setup
 Homepage: http://dev.mysql.com/
 Description-md5: 3ae11e16f793b3ee84f73a5fa268ad9b
@@ -34090,21 +34090,21 @@ Task: lamp-server, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slav
 Package: mysql-server-core-5.5
 Priority: optional
 Section: database
-Installed-Size: 17820
+Installed-Size: 17865
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: mysql-5.5
-Version: 5.5.29-0ubuntu0.12.04.1
+Version: 5.5.31-0ubuntu0.12.04.1
 Replaces: mysql-server-5.0, mysql-server-5.1, mysql-server-core-5.0, mysql-server-core-5.1
 Provides: mysql-server-core
 Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.2.0)
 Breaks: mysql-server-5.0, mysql-server-5.1, mysql-server-core-5.1
-Filename: pool/main/m/mysql-5.5/mysql-server-core-5.5_5.5.29-0ubuntu0.12.04.1_i386.deb
-Size: 5812384
-MD5sum: a8d2ca8664583bdb02a9d1c6f8545906
-SHA1: 3126d1bef18b659d31dea81b119af2fb9c0273f8
-SHA256: e11ad2ee4c39bfd9efdc53347aed6882b8ba46bdec985187e9d4983e261e2a93
+Filename: pool/main/m/mysql-5.5/mysql-server-core-5.5_5.5.31-0ubuntu0.12.04.1_i386.deb
+Size: 5843118
+MD5sum: aad2ee0528a8175ceec61188cfc2a2ed
+SHA1: 92bada061d3e8fe8ebdea90a54bec2a01775c353
+SHA256: 1796ccb2aea30c7b5a0a04aae8a69d7bb47661bde0b1f306e30d0693fb40b93d
 Description: MySQL database server binaries
 Homepage: http://dev.mysql.com/
 Description-md5: a54aa75db64667c487b6c9d3800b8153
