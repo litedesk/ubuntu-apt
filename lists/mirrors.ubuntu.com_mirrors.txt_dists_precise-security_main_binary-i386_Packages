@@ -27917,6 +27917,28 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-firmware
+Priority: optional
+Section: misc
+Installed-Size: 41289
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: all
+Version: 1.79.4
+Replaces: atmel-firmware, linux-restricted-common
+Provides: atmel-firmware
+Conflicts: atmel-firmware
+Filename: pool/main/l/linux-firmware/linux-firmware_1.79.4_all.deb
+Size: 23128098
+MD5sum: 04e20dec94ca2cbaa3541b537eb70ff5
+SHA1: 1bc34623cf63be1a6772f7b47967650f1c429594
+SHA256: da4f9d73398f5696af647ca396efa9a8f99dcc83548e269f6b15387a349a4655
+Description: Firmware for Linux kernel drivers
+Multi-Arch: foreign
+Description-md5: 7a047bff9e44dce458a300976c12f9da
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
 Package: linux-generic
 Priority: optional
 Section: metapackages
