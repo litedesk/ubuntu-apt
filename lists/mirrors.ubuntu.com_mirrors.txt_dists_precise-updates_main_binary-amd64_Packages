@@ -975,16 +975,16 @@ Installed-Size: 7064
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Aptitude Development Team <aptitude-devel@lists.alioth.debian.org>
 Architecture: amd64
-Version: 0.6.6-1ubuntu1.1
-Depends: libapt-pkg4.12 (>= 0.8.16~exp12ubuntu10.3), libboost-iostreams1.46.1 (>= 1.46.1-1), libc6 (>= 2.14), libcwidget3, libept1.4.12, libgcc1 (>= 1:4.1.1), libncursesw5 (>= 5.6+20070908), libsigc++-2.0-0c2a (>= 2.0.2), libsqlite3-0 (>= 3.6.5), libstdc++6 (>= 4.6), libtinfo5, libxapian22
+Version: 0.6.6-1ubuntu1.2
+Depends: libapt-pkg4.12 (>= 0.8.16~exp12ubuntu10.10), libboost-iostreams1.46.1 (>= 1.46.1-1), libc6 (>= 2.14), libcwidget3, libept1.4.12, libgcc1 (>= 1:4.1.1), libncursesw5 (>= 5.6+20070908), libsigc++-2.0-0c2a (>= 2.0.2), libsqlite3-0 (>= 3.6.5), libstdc++6 (>= 4.6), libtinfo5, libxapian22
 Recommends: sensible-utils, apt-xapian-index, libparse-debianchangelog-perl
 Suggests: aptitude-doc-en | aptitude-doc, tasksel, debtags
 Conflicts: ia32-apt-get (<< 22)
-Filename: pool/main/a/aptitude/aptitude_0.6.6-1ubuntu1.1_amd64.deb
-Size: 2372998
-MD5sum: 157120739fdaa717f80b30aa109863de
-SHA1: 5d6bd4e320dd597e3a169b632833e4cf94cc1fde
-SHA256: 2d2eb90709306892b9225639931b7aeb7b17504ae23e4bdb304ffbe9fb60a909
+Filename: pool/main/a/aptitude/aptitude_0.6.6-1ubuntu1.2_amd64.deb
+Size: 2372238
+MD5sum: 9bf6ff0b4603a6ac0761ee7497fb01de
+SHA1: 6e029f6c430653fe343a0bb7780451e693351bc0
+SHA256: ff262b9a3c189165d907d74c1dde9c8eafef5ef6e551a9d490e744e00f458b70
 Description: terminal-based package manager (terminal interface only)
 Homepage: http://aptitude.alioth.debian.org/
 Description-md5: fb3daa85468f9aca908562f69489704f
@@ -996,19 +996,19 @@ Task: cloud-image
 Package: aptitude-dbg
 Priority: extra
 Section: devel
-Installed-Size: 17089
+Installed-Size: 17093
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Aptitude Development Team <aptitude-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: aptitude
-Version: 0.6.6-1ubuntu1.1
-Depends: aptitude (= 0.6.6-1ubuntu1.1) | aptitude-gtk (= 0.6.6-1ubuntu1.1)
+Version: 0.6.6-1ubuntu1.2
+Depends: aptitude (= 0.6.6-1ubuntu1.2) | aptitude-gtk (= 0.6.6-1ubuntu1.2)
 Recommends: libcwidget3-dbg
-Filename: pool/main/a/aptitude/aptitude-dbg_0.6.6-1ubuntu1.1_amd64.deb
-Size: 16506552
-MD5sum: 935800f19a68c95d77ec694e0bc33d82
-SHA1: 0bb670c606005fac9ea9ab03908f89d2b2d34016
-SHA256: 6f0fd079fabd90f5e481b60bc58fea8b5dfb70c557d0b4f6bab7e0cf026ac39a
+Filename: pool/main/a/aptitude/aptitude-dbg_0.6.6-1ubuntu1.2_amd64.deb
+Size: 16513518
+MD5sum: aa3124cb09f9d10d65d0eb26527ca92d
+SHA1: 10bab63842b08cc2d261b5426ee6bfddcb6f862b
+SHA256: f6a5ea136b33cfe240795f8f9df8f3690d4f93b00e209a1e273615666ef950f6
 Description: Debug symbols for the aptitude package manager
 Homepage: http://aptitude.alioth.debian.org/
 Description-md5: 1113502e17f6968feafa2dabfeba01a0
@@ -1024,14 +1024,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Aptitude Development Team <aptitude-devel@lists.alioth.debian.org>
 Architecture: all
 Source: aptitude
-Version: 0.6.6-1ubuntu1.1
+Version: 0.6.6-1ubuntu1.2
 Provides: aptitude-doc
 Suggests: aptitude
-Filename: pool/main/a/aptitude/aptitude-doc-en_0.6.6-1ubuntu1.1_all.deb
-Size: 313996
-MD5sum: 5be9752e6604fc58fe79eba123f16803
-SHA1: 431cd0ba4efdf357e4a7a40c9ebfe1c983d2d360
-SHA256: 5472ceb5ee5106ea92736895e447163d31dfe4152b74a9ce5ed583e7e74bd83b
+Filename: pool/main/a/aptitude/aptitude-doc-en_0.6.6-1ubuntu1.2_all.deb
+Size: 313106
+MD5sum: 7a8a555aa393c7787b278a2adab078b3
+SHA1: 9cb9cb19430c4899c374780af4a1fd446aa008cf
+SHA256: fc81efa8b3f5b0513ae0a0a09b6a72c5a86e9a127d6f2f6195ce7f04952c904e
 Description: English manual for aptitude, a terminal-based package manager
 Homepage: http://aptitude.alioth.debian.org/
 Description-md5: 2d2da927067ef4b395df37dd2ad5ed3f
@@ -4036,18 +4036,18 @@ Supported: 18m
 Package: distro-info-data
 Priority: optional
 Section: devel
-Installed-Size: 33
+Installed-Size: 34
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Benjamin Drung <bdrung@debian.org>
 Architecture: all
-Version: 0.8ubuntu0.2
+Version: 0.8ubuntu0.3
 Replaces: distro-info (<< 0.3~)
 Breaks: distro-info (<< 0.3~)
-Filename: pool/main/d/distro-info-data/distro-info-data_0.8ubuntu0.2_all.deb
-Size: 4492
-MD5sum: 2357e5143bd91013b6649b224ad47180
-SHA1: bd6f59dc6104e090774a762494e35f65211459e7
-SHA256: 4553ef0bc23f26c334ae812f418c7653037452444ed444a3f93343fd5b4c3920
+Filename: pool/main/d/distro-info-data/distro-info-data_0.8ubuntu0.3_all.deb
+Size: 4546
+MD5sum: d1761d9cf259807e7fb0bc50284f094a
+SHA1: 950678124078823a882d2ff6f7e9ceb697662c37
+SHA256: df63697671c972af93bfa7e9b27dad010f448dad53f64ee6b4f2a4cf64aa21a9
 Description: information about the distributions' releases (data files)
 Description-md5: f7fe06a2e0396bbe8c1c7abad056bf48
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -88654,13 +88654,13 @@ Installed-Size: 79
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: David Calle <davidc@framli.eu>
 Architecture: all
-Version: 0.3.5-0ubuntu2.1
+Version: 0.3.5-0ubuntu2.2
 Depends: python2.7, python (>= 2.7), python (<< 2.8), gir1.2-unity-5.0, gir1.2-dee-1.0, gir1.2-soup-2.4, gir1.2-glib-2.0, python-zeitgeist, gvfs-bin, unity-lens-video
-Filename: pool/main/u/unity-scope-video-remote/unity-scope-video-remote_0.3.5-0ubuntu2.1_all.deb
-Size: 7250
-MD5sum: 56fbe2b68fc750a58326855b167870e2
-SHA1: adf647ec5c6fdfcba7f5bdff2584879e686e6c2f
-SHA256: 9536b2d3c278923e591f11161103242247fbf0136aa1b9f63ac58238951a88cd
+Filename: pool/main/u/unity-scope-video-remote/unity-scope-video-remote_0.3.5-0ubuntu2.2_all.deb
+Size: 7404
+MD5sum: a91564ae12300e204993b3ef0751a606
+SHA1: 6e3141a26ad0fd664564c4ae69e3d3ceddaeef78
+SHA256: c7b7ebdd0e1bf67dff5a54176789b3e605f0a6df8db9ac2a87e5b86429a24ab5
 Description: Remote videos engine
 Enhances: unity-lens-video
 Homepage: https://launchpad.net/unity-lens-videos
