@@ -1172,15 +1172,15 @@ Installed-Size: 595
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: amd64
-Version: 0.97.7+dfsg-1ubuntu0.12.04.1
-Depends: libc6 (>= 2.15), libclamav6 (>= 0.97.7+dfsg), zlib1g (>= 1:1.1.4), clamav-freshclam | clamav-data
+Version: 0.97.8+dfsg-1ubuntu1.12.04.1
+Depends: libc6 (>= 2.15), libclamav6 (>= 0.97.8+dfsg), zlib1g (>= 1:1.1.4), clamav-freshclam | clamav-data
 Recommends: clamav-base
 Suggests: clamav-docs
-Filename: pool/main/c/clamav/clamav_0.97.7+dfsg-1ubuntu0.12.04.1_amd64.deb
-Size: 132672
-MD5sum: 4b9f5e006ee10ab086fc8812089ecddf
-SHA1: e1eeb31bc4b6f53145239c28b3094411fe8ff23c
-SHA256: 3463c877fedcab502731783a5a45f8ecaff95a63ce3873694d254e6b6098779f
+Filename: pool/main/c/clamav/clamav_0.97.8+dfsg-1ubuntu1.12.04.1_amd64.deb
+Size: 132662
+MD5sum: 450d78e5e0b557ff745ab010ed9947e5
+SHA1: c0f38d9276c4f88ca42fd8a5c315b8c723410ebb
+SHA256: aa26140c7e7a68b15429ae5b9a77b2e69fd5e7aca46201c6d231eec1cee714ac
 Description: anti-virus utility for Unix - command-line interface
 Homepage: http://www.clamav.net/
 Description-md5: 25816a2f56a0c214a484e117fd9fe0b1
@@ -1191,19 +1191,19 @@ Supported: 5y
 Package: clamav-base
 Priority: optional
 Section: utils
-Installed-Size: 498
+Installed-Size: 499
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: all
 Source: clamav
-Version: 0.97.7+dfsg-1ubuntu0.12.04.1
+Version: 0.97.8+dfsg-1ubuntu1.12.04.1
 Depends: debconf (>= 0.5) | debconf-2.0, adduser, ucf, logrotate
 Recommends: clamav
-Filename: pool/main/c/clamav/clamav-base_0.97.7+dfsg-1ubuntu0.12.04.1_all.deb
-Size: 101950
-MD5sum: eeffd3abe5f2607ffaa13a81a60955a0
-SHA1: f0bc7151f4d6e0269a839ad65206360b6cd5f4a2
-SHA256: 97feb56f29560925aaf9a67f7fcba6e8b9184b60ba58ba21acc40e7c6b1d19e4
+Filename: pool/main/c/clamav/clamav-base_0.97.8+dfsg-1ubuntu1.12.04.1_all.deb
+Size: 101784
+MD5sum: 1c98745ac0ba39e8e405697acc472b4a
+SHA1: df07466a682d15012baf45441cf57d964743ba95
+SHA256: e141398fed85ce39e3f759587bf548adf55f507ae1972b988f422efe4989725a
 Description: anti-virus utility for Unix - base package
 Homepage: http://www.clamav.net/
 Description-md5: 36333c8001fa330971bb9bf732bd846d
@@ -1219,14 +1219,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: clamav
-Version: 0.97.7+dfsg-1ubuntu0.12.04.1
-Depends: libc6 (>= 2.15), libclamav6 (>= 0.97.7+dfsg), libncurses5 (>= 5.5-5~), libtinfo5, zlib1g (>= 1:1.2.0.2), clamav-base (= 0.97.7+dfsg-1ubuntu0.12.04.1), clamav-freshclam | clamav-data, lsb-base (>= 3.2-13), ucf
+Version: 0.97.8+dfsg-1ubuntu1.12.04.1
+Depends: libc6 (>= 2.15), libclamav6 (>= 0.97.8+dfsg), libncurses5 (>= 5.5-5~), libtinfo5, zlib1g (>= 1:1.2.0.2), clamav-base (= 0.97.8+dfsg-1ubuntu1.12.04.1), clamav-freshclam | clamav-data, lsb-base (>= 3.2-13), ucf
 Suggests: daemon, clamav-docs, apparmor (>= 2.3+1289)
-Filename: pool/main/c/clamav/clamav-daemon_0.97.7+dfsg-1ubuntu0.12.04.1_amd64.deb
-Size: 227640
-MD5sum: d24b48364b5ffb8e23f617f59628f428
-SHA1: 264e7885d7e499480b1fb72178135ff0cfed1b40
-SHA256: 64943b9c308eceda1a14a08aa2c34fdb5d97f140e413d2089ad08bcac3148fc5
+Filename: pool/main/c/clamav/clamav-daemon_0.97.8+dfsg-1ubuntu1.12.04.1_amd64.deb
+Size: 227920
+MD5sum: 4ada565a6301bcd6abebfb72aaed4e44
+SHA1: eb3002a04eebbe1dcbba5a088dff5d719b8f6d2b
+SHA256: 4a5f07b88766de748969482ea361c9bb9d02fc085777ac97f996c23d4df7b1a4
 Description: anti-virus utility for Unix - scanner daemon
 Homepage: http://www.clamav.net/
 Description-md5: 67066a5cf6ee89fc8ce3ae691827a9ad
@@ -1237,18 +1237,18 @@ Supported: 5y
 Package: clamav-dbg
 Priority: extra
 Section: debug
-Installed-Size: 101756
+Installed-Size: 101764
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: clamav
-Version: 0.97.7+dfsg-1ubuntu0.12.04.1
-Depends: libclamav6, clamav (= 0.97.7+dfsg-1ubuntu0.12.04.1)
-Filename: pool/main/c/clamav/clamav-dbg_0.97.7+dfsg-1ubuntu0.12.04.1_amd64.deb
-Size: 32808856
-MD5sum: 999e33283e7733deed4fb880aac88f6e
-SHA1: c1eef4c7d0e45cbf9e243bf8241fef85be252152
-SHA256: 7c4d2686d8a1e181b4687ff2f95a97451eb240e79769c06ef13d1ec3f03cb0ee
+Version: 0.97.8+dfsg-1ubuntu1.12.04.1
+Depends: libclamav6, clamav (= 0.97.8+dfsg-1ubuntu1.12.04.1)
+Filename: pool/main/c/clamav/clamav-dbg_0.97.8+dfsg-1ubuntu1.12.04.1_amd64.deb
+Size: 32820090
+MD5sum: a8af9ffa34aedeb68cfe6d8e7884ab0f
+SHA1: b8e2a174b571d1321ecef8b0c61745b5c45c911a
+SHA256: be6749865a9f1435076aabe08add0872d42e24a794f8aa7ac77a86f974ae00b4
 Description: debug symbols for ClamAV
 Homepage: http://www.clamav.net/
 Description-md5: 33a33cc71dce345b4a0ce175ebeca8c7
@@ -1259,17 +1259,17 @@ Supported: 18m
 Package: clamav-docs
 Priority: optional
 Section: doc
-Installed-Size: 1558
+Installed-Size: 1563
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: all
 Source: clamav
-Version: 0.97.7+dfsg-1ubuntu0.12.04.1
-Filename: pool/main/c/clamav/clamav-docs_0.97.7+dfsg-1ubuntu0.12.04.1_all.deb
-Size: 1066648
-MD5sum: 0058a269cdfb17734deffd1a6da960f7
-SHA1: a6dff8b4c191516055e4f0c7cb480e2f35009ed8
-SHA256: 8d0be44cdc53220a7acd01c8372395f699a6b348ec5998f2b05067288a48e7ba
+Version: 0.97.8+dfsg-1ubuntu1.12.04.1
+Filename: pool/main/c/clamav/clamav-docs_0.97.8+dfsg-1ubuntu1.12.04.1_all.deb
+Size: 1083334
+MD5sum: 02cd7d02feb67f6d3e1f85f5c9c604fe
+SHA1: b4a66e805a4445c73790e442c72762073a70f290
+SHA256: 317c545f13967b1e371fc2d42f68d81cf9fa2c345acda408f35e64415339761a
 Description: anti-virus utility for Unix - documentation
 Homepage: http://www.clamav.net/
 Description-md5: e2412f6e57d4fb282e22d549e939cb72
@@ -1280,21 +1280,21 @@ Supported: 18m
 Package: clamav-freshclam
 Priority: optional
 Section: utils
-Installed-Size: 625
+Installed-Size: 626
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: clamav
-Version: 0.97.7+dfsg-1ubuntu0.12.04.1
+Version: 0.97.8+dfsg-1ubuntu1.12.04.1
 Provides: clamav-data
-Depends: debconf (>= 0.5) | debconf-2.0, clamav-base (>= 0.97.7+dfsg-1ubuntu0.12.04.1), libc6 (>= 2.15), libclamav6 (>= 0.97.7+dfsg), zlib1g (>= 1:1.1.4), ucf, logrotate, lsb-base (>= 3.2-13)
+Depends: debconf (>= 0.5) | debconf-2.0, clamav-base (>= 0.97.8+dfsg-1ubuntu1.12.04.1), libc6 (>= 2.15), libclamav6 (>= 0.97.8+dfsg), zlib1g (>= 1:1.1.4), ucf, logrotate, lsb-base (>= 3.2-13)
 Suggests: clamav-docs, apparmor (>= 2.3+1289)
 Conflicts: clamav-data, libclamav2, libclamav3
-Filename: pool/main/c/clamav/clamav-freshclam_0.97.7+dfsg-1ubuntu0.12.04.1_amd64.deb
-Size: 114914
-MD5sum: af621af1f193e4fafbc30dfdf086fd76
-SHA1: bc923d0231e8e2189adcfcfb8cf2092ac5f579b6
-SHA256: 144cfbfdf06114b32fd17adb684373aa40ebe22af807b999a707141b4580641d
+Filename: pool/main/c/clamav/clamav-freshclam_0.97.8+dfsg-1ubuntu1.12.04.1_amd64.deb
+Size: 116292
+MD5sum: 2f6d9b8779cf5dc68f0fc5d730af1010
+SHA1: 14a31a484811aad16fd291e5b7f9476973744abf
+SHA256: 50a926bb219e0f25f4681d62c2a1b48f8fca70c8d7481fd94a5bc8dd3a323a27
 Description: anti-virus utility for Unix - virus database update utility
 Homepage: http://www.clamav.net/
 Description-md5: 824a85afc618e1467a907719e4edd7bb
@@ -7406,13 +7406,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: clamav
-Version: 0.97.7+dfsg-1ubuntu0.12.04.1
-Depends: libclamav6 (= 0.97.7+dfsg-1ubuntu0.12.04.1), libssl-dev, libidn11-dev, libc6-dev | libc-dev, zlib1g-dev, libbz2-dev, libtommath-dev
-Filename: pool/main/c/clamav/libclamav-dev_0.97.7+dfsg-1ubuntu0.12.04.1_amd64.deb
-Size: 13258
-MD5sum: 62c78cd3df66a05bc9889618e3e4e136
-SHA1: 65dd637bb40b72d87341c1732ad9580c9e8be2f2
-SHA256: d72451186862fb7c3c3d1d8e6262a4cbadf9442b7dbdc7683c58f7d62172a1ce
+Version: 0.97.8+dfsg-1ubuntu1.12.04.1
+Depends: libclamav6 (= 0.97.8+dfsg-1ubuntu1.12.04.1), libssl-dev, libidn11-dev, libc6-dev | libc-dev, zlib1g-dev, libbz2-dev, libtommath-dev
+Filename: pool/main/c/clamav/libclamav-dev_0.97.8+dfsg-1ubuntu1.12.04.1_amd64.deb
+Size: 13414
+MD5sum: 63f73bdd623d424577182bfa6144af06
+SHA1: b37a4a7fd72b2ef98ab7bbbdb23c262c54b520b6
+SHA256: 02f8705d5d1707536ee6ac387f8d5044535388661c9f3e884dad99d29ee72d8d
 Description: anti-virus utility for Unix - development files
 Homepage: http://www.clamav.net/
 Description-md5: f9403f3147d4d160269156db01264656
@@ -7423,19 +7423,19 @@ Supported: 18m
 Package: libclamav6
 Priority: optional
 Section: libs
-Installed-Size: 10426
+Installed-Size: 10414
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: clamav
-Version: 0.97.7+dfsg-1ubuntu0.12.04.1
+Version: 0.97.8+dfsg-1ubuntu1.12.04.1
 Depends: libbz2-1.0, libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libltdl7 (>= 2.4.2), libstdc++6 (>= 4.2.1), libtommath0, zlib1g (>= 1:1.1.4)
 Suggests: libclamunrar6
-Filename: pool/main/c/clamav/libclamav6_0.97.7+dfsg-1ubuntu0.12.04.1_amd64.deb
-Size: 4070050
-MD5sum: 3d607d968b36a3370c69542310d588db
-SHA1: 555594491dd21ebf3c664f183fd22fd71a01d2e7
-SHA256: 177bedbc99c5374fc2011c2976e77585555f9e1a8da188e15919407c8dfe7a68
+Filename: pool/main/c/clamav/libclamav6_0.97.8+dfsg-1ubuntu1.12.04.1_amd64.deb
+Size: 4069038
+MD5sum: 5d902be5215c636a8d4185b1be0dc440
+SHA1: 14244d84b6530e4d68806e69712443f7bfab1d84
+SHA256: 8fa399945226bf9c653601644cb68e9b0ca2a2df710a9444dc4a0bd66143c165
 Description: anti-virus utility for Unix - library
 Homepage: http://www.clamav.net/
 Description-md5: 8eec48379ead2492f2f06feeb97a6a2f
@@ -28192,6 +28192,7 @@ Description: Header files related to Linux kernel version 3.8.0
 Description-md5: d04c3f0b1f48841b47e0c58b293ca940
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-headers-3.8.0-19-generic
 Priority: optional
@@ -28212,6 +28213,7 @@ Description: Linux kernel headers for version 3.8.0 on 64 bit x86 SMP
 Description-md5: a30bb2e0322772add642fdbce010e94f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-headers-generic
 Priority: optional
@@ -29832,6 +29834,7 @@ Description: Linux kernel image for version 3.8.0 on 64 bit x86 SMP
 Description-md5: 8fdb63eed7d5ffa69b80014b40501775
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-image-current-generic
 Priority: optional
@@ -30536,6 +30539,7 @@ Description: Signed kernel image generic
 Description-md5: 58606405946683c4d2ca4f105784fd91
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-signed-image-generic-lts-quantal
 Priority: optional
@@ -31403,6 +31407,7 @@ Description: Linux kernel version specific tools for version 3.8.0-19
 Description-md5: 9c4d8916a7502c27db86951ae7a8e447
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-tools-common
 Priority: optional
