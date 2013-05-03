@@ -54348,14 +54348,14 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: network-manager-applet
-Version: 0.9.4.1-0ubuntu2.2
+Version: 0.9.4.1-0ubuntu2.3
 Replaces: network-manager-gnome (<< 0.9.1.90-0ubuntu2)
 Breaks: network-manager-gnome (<< 0.9.1.90-0ubuntu2)
-Filename: pool/main/n/network-manager-applet/libnm-gtk-common_0.9.4.1-0ubuntu2.2_all.deb
-Size: 6204
-MD5sum: fe67033ce28e4218e0e2a69d3ddd6e51
-SHA1: cb8cc37f49c4fd000a1a88ea5e4b7414d1f1f888
-SHA256: 1400ccd7a22c7c1e10eb83cd93d11b5e1cffc640160d5e1cedb96515a2e13ed4
+Filename: pool/main/n/network-manager-applet/libnm-gtk-common_0.9.4.1-0ubuntu2.3_all.deb
+Size: 5900
+MD5sum: 61d9a8b64b9f25099d0151f898a40799
+SHA1: 183288565fbabbfc75ef94c36869528677b263e4
+SHA256: 31023ab012f6ef58f9c280982f99231ed259258f537bfd27789aa15f303cb2c3
 Description: network management framework (common files for wifi and mobile)
 Homepage: http://www.gnome.org/projects/NetworkManager/
 Description-md5: fbef41bb7c8ddc86125e95c0221a6668
@@ -54372,13 +54372,13 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: network-manager-applet
-Version: 0.9.4.1-0ubuntu2.2
-Depends: libnm-gtk0 (= 0.9.4.1-0ubuntu2.2), network-manager (>= 0.9.4), policykit-1-gnome, dbus-x11
-Filename: pool/main/n/network-manager-applet/libnm-gtk-dev_0.9.4.1-0ubuntu2.2_amd64.deb
-Size: 3738
-MD5sum: 92e818be80c73798af7757ca5f81dfe6
-SHA1: 363a98101563d36d47571f196421be5427b40979
-SHA256: 51488eb6bee70bb08f11f9647ebcf3bae25c7a4ad05e1c6bd3171807be6ef8a9
+Version: 0.9.4.1-0ubuntu2.3
+Depends: libnm-gtk0 (= 0.9.4.1-0ubuntu2.3), network-manager (>= 0.9.4), policykit-1-gnome, dbus-x11
+Filename: pool/main/n/network-manager-applet/libnm-gtk-dev_0.9.4.1-0ubuntu2.3_amd64.deb
+Size: 3740
+MD5sum: 0d162750c6180006ef6ad5dcf5e07cf3
+SHA1: 268c4058cd068ad3287f37eeda08b64f4fa6358b
+SHA256: f1cffe34a6cacc817fe32da58dab36731e4e525c51ca7bf616bc09b1da1aca6f
 Description: network management framework (dialogs development libraries)
 Homepage: http://www.gnome.org/projects/NetworkManager/
 Description-md5: 88955533a0cb56b5f9da136d252557f6
@@ -54394,17 +54394,17 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: network-manager-applet
-Version: 0.9.4.1-0ubuntu2.2
+Version: 0.9.4.1-0ubuntu2.3
 Replaces: network-manager-gnome (<< 0.9.1.90-0ubuntu2)
-Depends: libnm-gtk-common (>= 0.9.4.1-0ubuntu2.2), gconf-service, libc6 (>= 2.4), libgconf-2-4 (>= 2.31.1), libglib2.0-0 (>= 2.16.0), libgnome-keyring0 (>= 3.2.2-2~), libgtk-3-0 (>= 3.0.0), libnm-glib4 (>= 0.8.998), libnm-util2 (>= 0.9.2.0+git201202060518.95b0b72), policykit-1-gnome, dbus-x11
+Depends: libnm-gtk-common (>= 0.9.4.1-0ubuntu2.3), gconf-service, libc6 (>= 2.4), libgconf-2-4 (>= 2.31.1), libglib2.0-0 (>= 2.16.0), libgnome-keyring0 (>= 3.2.2-2~), libgtk-3-0 (>= 3.0.0), libnm-glib4 (>= 0.8.998), libnm-util2 (>= 0.9.2.0+git201202060518.95b0b72), policykit-1-gnome, dbus-x11
 Recommends: network-manager (>= 0.9.4), mobile-broadband-provider-info
 Suggests: network-manager-openvpn-gnome, network-manager-vpnc-gnome, network-manager-pptp-gnome, gnome-bluetooth
 Breaks: network-manager-gnome (<< 0.9.1.90-0ubuntu2)
-Filename: pool/main/n/network-manager-applet/libnm-gtk0_0.9.4.1-0ubuntu2.2_amd64.deb
-Size: 67766
-MD5sum: c7e80efe90bfbd678150b2c28cd11ef9
-SHA1: 28748f9860ee850d881ad7e7fd2f391433051b0a
-SHA256: b7ee6507d8b0aadde876b6aead02c776020f340c493fe811de8f6971b703da2a
+Filename: pool/main/n/network-manager-applet/libnm-gtk0_0.9.4.1-0ubuntu2.3_amd64.deb
+Size: 67512
+MD5sum: 199b90b5ee7b6773a7aefee4286ac987
+SHA1: e75eef0085146508aa86bd86d1d6f08cc56aeceb
+SHA256: 60704e57a9db8ca3f2d178c28ed20d24b32100ead5e5a46a95662f8709b2ba8b
 Description: network management framework (GNOME dialogs for wifi and mobile)
 Homepage: http://www.gnome.org/projects/NetworkManager/
 Description-md5: f06791abc90d8c193e836eeb6f9baaf8
@@ -77316,15 +77316,15 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: network-manager-applet
-Version: 0.9.4.1-0ubuntu2.2
+Version: 0.9.4.1-0ubuntu2.3
 Depends: gconf-service, libappindicator3-1 (>= 0.4.90), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.88), libgconf-2-4 (>= 2.31.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgnome-bluetooth8 (>= 2.91.2), libgnome-keyring0 (>= 3.2.2-2~), libgtk-3-0 (>= 3.0.0), libnm-glib-vpn1 (>= 0.7.999), libnm-glib4 (>= 0.9.4.0~git201203162258.69247a0), libnm-gtk0, libnm-util2 (>= 0.9.2.0+git201202060518.95b0b72), libnotify4 (>= 0.7.0), gconf2 (>= 2.28.1-2), network-manager (>= 0.9.4), policykit-1-gnome, gnome-icon-theme, dbus-x11
 Recommends: notification-daemon, mobile-broadband-provider-info
 Suggests: network-manager-openvpn-gnome, network-manager-vpnc-gnome, network-manager-pptp-gnome, gnome-bluetooth
-Filename: pool/main/n/network-manager-applet/network-manager-gnome_0.9.4.1-0ubuntu2.2_amd64.deb
-Size: 402348
-MD5sum: 1c32d4fd0167196a1dfdedca2115198e
-SHA1: 7c082e059a8cafcbaa6f833d2431df3d8228ec36
-SHA256: 6bd14baae0d0e4104ca3aa1a383e2badf57cac3fe29fd21981e576fbc746be47
+Filename: pool/main/n/network-manager-applet/network-manager-gnome_0.9.4.1-0ubuntu2.3_amd64.deb
+Size: 403974
+MD5sum: 27231f78dcce885cae81a759856fbca5
+SHA1: 5273175afcbb6ad0c5f9fca9404746dbc09d003b
+SHA256: 185f30711ccafa664d9c6c662330a5ec2e56f1776a5f7fbe6065898e4bc33280
 Description: network management framework (GNOME frontend)
 Homepage: http://www.gnome.org/projects/NetworkManager/
 Description-md5: bdee3234d21720f04895a1051744f5d1
@@ -77341,13 +77341,13 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: network-manager-applet
-Version: 0.9.4.1-0ubuntu2.2
-Depends: network-manager-gnome (= 0.9.4.1-0ubuntu2.2) | libnm-gtk0 (= 0.9.4.1-0ubuntu2.2)
-Filename: pool/main/n/network-manager-applet/network-manager-gnome-dbg_0.9.4.1-0ubuntu2.2_amd64.deb
-Size: 766438
-MD5sum: 9bac404ba21d71fb888116b7187cabc0
-SHA1: fe4ed3150b2f06b668d230e506ae5a5e2850f0a6
-SHA256: 96f5a9f7a9a46202c4f76e0e6061e9a0f3a19b3dec839b5d54ac0e25f09414ae
+Version: 0.9.4.1-0ubuntu2.3
+Depends: network-manager-gnome (= 0.9.4.1-0ubuntu2.3) | libnm-gtk0 (= 0.9.4.1-0ubuntu2.3)
+Filename: pool/main/n/network-manager-applet/network-manager-gnome-dbg_0.9.4.1-0ubuntu2.3_amd64.deb
+Size: 766508
+MD5sum: 6317da933da908d13390aebc6ed3c8bf
+SHA1: ceb1816a8a8527c642579a0b458b626fd63ab65c
+SHA256: 635f2c55eb42763d1f8658f2c8dff2a292c36c1946ce1cb3bc8b0fd585f7af0d
 Description: network management framework (debugging symbols)
 Homepage: http://www.gnome.org/projects/NetworkManager/
 Description-md5: fab22ebf7107cdfdeb29ff226f6cf920
