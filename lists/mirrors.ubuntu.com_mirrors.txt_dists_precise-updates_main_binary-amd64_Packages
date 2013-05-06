@@ -62732,19 +62732,19 @@ Supported: 18m
 Package: libssl-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 6046
+Installed-Size: 6148
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: openssl
-Version: 1.0.1-4ubuntu5.8
-Depends: libssl1.0.0 (= 1.0.1-4ubuntu5.8), zlib1g-dev
+Version: 1.0.1-4ubuntu5.9
+Depends: libssl1.0.0 (= 1.0.1-4ubuntu5.9), zlib1g-dev
 Recommends: libssl-doc
-Filename: pool/main/o/openssl/libssl-dev_1.0.1-4ubuntu5.8_amd64.deb
-Size: 1530144
-MD5sum: ca244f1e3fbdaa84901b69bf095fc53b
-SHA1: 59a431af223535b1b31743ebd9d00f132749a4df
-SHA256: 32d27c4b39e20cb96e81415052efa6069d1867c27791f8e10c260759e3acc3cf
+Filename: pool/main/o/openssl/libssl-dev_1.0.1-4ubuntu5.9_amd64.deb
+Size: 1574314
+MD5sum: b601f41596e1af0fcb86e126aac41882
+SHA1: 01c405e7ef4f363c3e3a397c3badb073dab99c0d
+SHA256: 8a48c7375a3b1008adf857bf8e6231c563414a21c9299c313d7c7db96585e9c9
 Description: SSL development libraries, header files and documentation
 Description-md5: 3f77df7ec43dcb3f3b73c312168c730e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -62759,15 +62759,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: all
 Source: openssl
-Version: 1.0.1-4ubuntu5.8
+Version: 1.0.1-4ubuntu5.9
 Replaces: libssl-dev (<< 1.0.0), openssl-doc
 Conflicts: openssl-doc
 Breaks: libssl-dev (<< 1.0.0)
-Filename: pool/main/o/openssl/libssl-doc_1.0.1-4ubuntu5.8_all.deb
-Size: 1033964
-MD5sum: dd53814f79342fc7fdf270c1ffd731d3
-SHA1: fb9dfd1d87bf6860319bbcbdaaa6742eec763831
-SHA256: 7ad1d626938d08bbb4946c8d92d3eccf8a220043edb57d7b79276b0ba3d02c24
+Filename: pool/main/o/openssl/libssl-doc_1.0.1-4ubuntu5.9_all.deb
+Size: 1033168
+MD5sum: 7c198a7bbb769149cab885de9b58fe6c
+SHA1: 80ed194bb7f189658e96d7ddfd1114e634983296
+SHA256: 8c977e4060b8f5137c7142aeed15ff4f9e58a164ac663abe107064e309f615f4
 Description: SSL development documentation documentation
 Description-md5: 59333bc869a0fa9208d500d5cabc20fd
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -62777,20 +62777,20 @@ Supported: 5y
 Package: libssl1.0.0
 Priority: required
 Section: libs
-Installed-Size: 2844
+Installed-Size: 2920
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: openssl
-Version: 1.0.1-4ubuntu5.8
+Version: 1.0.1-4ubuntu5.9
 Depends: libc6 (>= 2.14), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0
 Pre-Depends: multiarch-support
 Breaks: openssh-client (<< 1:5.9p1-4), openssh-server (<< 1:5.9p1-4)
-Filename: pool/main/o/openssl/libssl1.0.0_1.0.1-4ubuntu5.8_amd64.deb
-Size: 1016410
-MD5sum: e5c9fac3651a119a5f333392e3c2055b
-SHA1: be93413409f831f363a85c1f7c51f729f618ba4a
-SHA256: fa137fcc8b068999ad64d59760d09f69dcfe3ced2d0570c05c65df54d414d205
+Filename: pool/main/o/openssl/libssl1.0.0_1.0.1-4ubuntu5.9_amd64.deb
+Size: 1048238
+MD5sum: 15719d229e1cc7760ff9f50ea3b15ec0
+SHA1: 38f52e1abb1b40c066872cb020a9c8a7c1271410
+SHA256: 6f7a5281452cc053d1d152d18973765840076705dc7085248ff38233897db936
 Description: SSL shared libraries
 Multi-Arch: same
 Description-md5: 2e9416e72fb31714d9b26021a3ee7e85
@@ -62802,18 +62802,18 @@ Task: minimal
 Package: libssl1.0.0-dbg
 Priority: extra
 Section: debug
-Installed-Size: 7543
+Installed-Size: 7687
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: openssl
-Version: 1.0.1-4ubuntu5.8
-Depends: libssl1.0.0 (= 1.0.1-4ubuntu5.8)
-Filename: pool/main/o/openssl/libssl1.0.0-dbg_1.0.1-4ubuntu5.8_amd64.deb
-Size: 2163746
-MD5sum: b0554b194cc78ab4176bef36551f185b
-SHA1: 1db9de9c8acdee303d42fdcfeb3df20f6587c175
-SHA256: e892da503710c4b1ec320fbba1802cec3a63b13bfbf44c18ee05f116b7060231
+Version: 1.0.1-4ubuntu5.9
+Depends: libssl1.0.0 (= 1.0.1-4ubuntu5.9)
+Filename: pool/main/o/openssl/libssl1.0.0-dbg_1.0.1-4ubuntu5.9_amd64.deb
+Size: 2205344
+MD5sum: 749fc62a5dc1af60cde6669e594e8e86
+SHA1: 7357501a821f94c1bcbe21a24890bf9346a062ef
+SHA256: bc654208399f9346089cd3ab4ddfcd4e2a7fbd99216dc00d629a4035879cf9e9
 Description: Symbol tables for libssl and libcrypto
 Multi-Arch: same
 Description-md5: fedfa89ced3aa67317f9dac7ba5308da
@@ -78715,14 +78715,14 @@ Installed-Size: 901
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: amd64
-Version: 1.0.1-4ubuntu5.8
+Version: 1.0.1-4ubuntu5.9
 Depends: libc6 (>= 2.15), libssl1.0.0 (>= 1.0.1)
 Suggests: ca-certificates
-Filename: pool/main/o/openssl/openssl_1.0.1-4ubuntu5.8_amd64.deb
-Size: 523772
-MD5sum: 03e464fb8dca131327d9f4d7b68b5746
-SHA1: a20ce178e4c9885c734e8814575030d596cc21ae
-SHA256: b56e695a689ccd25b6aff23b7bcb81f800203fd506e8b020de1fb16dd42972c9
+Filename: pool/main/o/openssl/openssl_1.0.1-4ubuntu5.9_amd64.deb
+Size: 523796
+MD5sum: 677a07ddb7f0ade1107bee6ef75bc230
+SHA1: fcb5814e303a0cff72368b991cdcd1055a8c3007
+SHA256: 4041597b42dcb1d1a7306f0e52406ee6d28713a85c50baae7fc1e4fa36f99c7c
 Description: Secure Socket Layer (SSL) binary and related cryptographic tools
 Description-md5: 977022bc5545601176b69704acc5df9b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
