@@ -11122,6 +11122,90 @@ Description-md5: b90d443397edd0f221692b0339330dd1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: libmosquitto0
+Priority: optional
+Section: universe/net
+Installed-Size: 70
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Roger A. Light <roger@atchoo.org>
+Architecture: amd64
+Source: mosquitto
+Version: 0.15-0ubuntu1.12.04.1
+Depends: libc6 (>= 2.15)
+Filename: pool/universe/m/mosquitto/libmosquitto0_0.15-0ubuntu1.12.04.1_amd64.deb
+Size: 16520
+MD5sum: 916860523b54478658e731f30dd008b2
+SHA1: 3575dfa0a0ae8bf51d37fff258fa49e7ef507d8b
+SHA256: 2831e922f4d25df8c72f6bfca98f285437ffc0f41d0b0e0cac9732030141774c
+Description: MQTT version 3.1 client library
+Homepage: http://mosquitto.org/
+Description-md5: 602c9adf12244ff187c44997cb688dbd
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libmosquitto0-dev
+Priority: optional
+Section: universe/libdevel
+Installed-Size: 78
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Roger A. Light <roger@atchoo.org>
+Architecture: amd64
+Source: mosquitto
+Version: 0.15-0ubuntu1.12.04.1
+Depends: libmosquitto0 (= 0.15-0ubuntu1.12.04.1)
+Filename: pool/universe/m/mosquitto/libmosquitto0-dev_0.15-0ubuntu1.12.04.1_amd64.deb
+Size: 9856
+MD5sum: 77c59fabcdd35d6b9b397416ee586c15
+SHA1: 1a04187a16c04ffe173ad66e361c6d36cef14c22
+SHA256: 35bf4e5ba329b9740dcbbbdfddc3b791553856752a94a2469c51aa6bae77dbac
+Description: MQTT version 3.1 client library, development files
+Homepage: http://mosquitto.org/
+Description-md5: b3c4b0fb05ae0213b196573258e5a996
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libmosquittopp0
+Priority: optional
+Section: universe/net
+Installed-Size: 53
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Roger A. Light <roger@atchoo.org>
+Architecture: amd64
+Source: mosquitto
+Version: 0.15-0ubuntu1.12.04.1
+Depends: libc6 (>= 2.2.5), libmosquitto0 (= 0.15-0ubuntu1.12.04.1), libstdc++6 (>= 4.1.1)
+Filename: pool/universe/m/mosquitto/libmosquittopp0_0.15-0ubuntu1.12.04.1_amd64.deb
+Size: 5984
+MD5sum: bdb0332c68365927f9c72ed206e65aee
+SHA1: f63d4aa2cb2a06db5e0486dc6d83e8b4341f7db2
+SHA256: bc2f3b007b9a01dfc79f35bdf3f4f17df9fd53c8ea8d33e0fd26d3c06debce57
+Description: MQTT version 3.1 client C++ library
+Homepage: http://mosquitto.org/
+Description-md5: c4c701188f1b488648a14ba533212dcc
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libmosquittopp0-dev
+Priority: optional
+Section: universe/libdevel
+Installed-Size: 46
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Roger A. Light <roger@atchoo.org>
+Architecture: amd64
+Source: mosquitto
+Version: 0.15-0ubuntu1.12.04.1
+Depends: libmosquittopp0 (= 0.15-0ubuntu1.12.04.1)
+Filename: pool/universe/m/mosquitto/libmosquittopp0-dev_0.15-0ubuntu1.12.04.1_amd64.deb
+Size: 2900
+MD5sum: ed48f51ef7b2df6c5f26df1463a37112
+SHA1: 2db96391ed98156a0d248a435147bb35a61ffffb
+SHA256: 119fa34d622d07d032698ed663b53b50f3ee242f086209baae3b35dd8e71381c
+Description: MQTT version 3.1 client C++ library, development files
+Homepage: http://mosquitto.org/
+Description-md5: e345f1afd970dbde077b7e0832d592d4
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: libmusicbrainz4-3
 Priority: extra
 Section: universe/libs
@@ -14812,6 +14896,47 @@ Description-md5: fa1e46f6aa31c000a47ce0ccd4a8ca3a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: mosquitto
+Priority: optional
+Section: universe/net
+Installed-Size: 194
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Roger A. Light <roger@atchoo.org>
+Architecture: amd64
+Version: 0.15-0ubuntu1.12.04.1
+Depends: libc6 (>= 2.14), libwrap0 (>= 7.6-4~), upstart-job, adduser (>= 3.10), lsb-base (>= 3.2-13), apparmor
+Filename: pool/universe/m/mosquitto/mosquitto_0.15-0ubuntu1.12.04.1_amd64.deb
+Size: 59362
+MD5sum: a95538ee685d51409810e66e352088e9
+SHA1: 6fc970ba6e90419c88b15a50aea2b46051ada2ba
+SHA256: 897cc7b0a6c4b3f222fb57bac3577a469004de852e410fd580bb2cd342b0fc52
+Description: MQTT version 3.1 compatible message broker
+Homepage: http://mosquitto.org/
+Description-md5: 4655afa8f8390c4a2f94aa46819cdc07
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: mosquitto-clients
+Priority: optional
+Section: universe/net
+Installed-Size: 91
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Roger A. Light <roger@atchoo.org>
+Architecture: amd64
+Source: mosquitto
+Version: 0.15-0ubuntu1.12.04.1
+Depends: libc6 (>= 2.14), libmosquitto0 (= 0.15-0ubuntu1.12.04.1)
+Filename: pool/universe/m/mosquitto/mosquitto-clients_0.15-0ubuntu1.12.04.1_amd64.deb
+Size: 18870
+MD5sum: 3f65883b946cf975035e221a3b28a919
+SHA1: 00f6b7556b53c615519c410ca7fd73fc4b46f631
+SHA256: c4a57f9e1485bcae97cc5c98000dccb7ae278a78a0774513245afb477beb5138
+Description: Mosquitto command line MQTT clients
+Homepage: http://mosquitto.org/
+Description-md5: 33c57218a0b8ff7b7fef48267a1da1fa
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: mozc-server
 Priority: optional
 Section: universe/utils
@@ -18139,6 +18264,27 @@ SHA256: 279d5bf88826d90dca0d20994b1a7a4156e9f8c7bfabd63db60f008d01b7bbdf
 Description: IPAM management service for Openstack - Python library
 Homepage: https://launchpad.net/melange
 Description-md5: a7790d98db11d9eee5731c2752d92631
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: python-mosquitto
+Priority: optional
+Section: universe/python
+Installed-Size: 63
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Roger A. Light <roger@atchoo.org>
+Architecture: amd64
+Source: mosquitto
+Version: 0.15-0ubuntu1.12.04.1
+Depends: python (>= 2.5), python-support (>= 0.90.0), libmosquitto0 (= 0.15-0ubuntu1.12.04.1)
+Filename: pool/universe/m/mosquitto/python-mosquitto_0.15-0ubuntu1.12.04.1_amd64.deb
+Size: 7332
+MD5sum: 61f90c5f878b7f5a3696b4c561d57f28
+SHA1: ec9c97f398518aa661921bed6cea49636bab1d50
+SHA256: 5f766096199a8d5d545ad464cbc804295e724d919111c6ebe7341ad303484340
+Description: MQTT version 3.1 client library, python bindings
+Homepage: http://mosquitto.org/
+Description-md5: 27fd8a86363b9dd6cc5bd52307129a44
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 

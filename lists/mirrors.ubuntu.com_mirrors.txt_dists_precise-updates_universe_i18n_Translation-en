@@ -5737,6 +5737,42 @@ Description-en: Mono profiler libraries
  runtime, which can produce and execute CIL (Common Intermediate Language)
  bytecode (aka assemblies), and a class library.
 
+Package: libmosquitto0
+Description-md5: 602c9adf12244ff187c44997cb688dbd
+Description-en: MQTT version 3.1 client library
+ This is a C library for implementing MQTT version 3.1 clients.
+ .
+ MQTT provides a method of carrying out messaging using a publish/subscribe
+ model. It is lightweight, both in terms of bandwidth usage and ease of
+ implementation. This makes it particularly useful at the edge of the network
+ where a sensor or other simple device may be implemented using an arduino for
+ example.
+
+Package: libmosquitto0-dev
+Description-md5: b3c4b0fb05ae0213b196573258e5a996
+Description-en: MQTT version 3.1 client library, development files
+ This is the header and man page for the libmosquitto0 C library, which is a
+ library for implementing MQTT version 3.1 clients. This package is needed to do
+ development with libmosquitto0.
+
+Package: libmosquittopp0
+Description-md5: c4c701188f1b488648a14ba533212dcc
+Description-en: MQTT version 3.1 client C++ library
+ This is a C++ library for implementing MQTT version 3.1 clients.
+ .
+ MQTT provides a method of carrying out messaging using a publish/subscribe
+ model. It is lightweight, both in terms of bandwidth usage and ease of
+ implementation. This makes it particularly useful at the edge of the network
+ where a sensor or other simple device may be implemented using an arduino for
+ example.
+
+Package: libmosquittopp0-dev
+Description-md5: e345f1afd970dbde077b7e0832d592d4
+Description-en: MQTT version 3.1 client C++ library, development files
+ This is the header and man page for the libmosquittopp0 C++ library, which is
+ a library for implementing MQTT version 3.1 clients. This package is needed to
+ do development with libmosquittopp0.
+
 Package: libmusicbrainz4-3
 Description-md5: dce410a4a9c0099d359abbf7afb97e3f
 Description-en: Library to access the MusicBrainz.org database
@@ -7479,6 +7515,31 @@ Description-en: Media Management and Playback application (developer documentati
  to a CD.
  .
  This package contains the developer documentation for Banshee.
+
+Package: mosquitto
+Description-md5: 4655afa8f8390c4a2f94aa46819cdc07
+Description-en: MQTT version 3.1 compatible message broker
+ This is a message broker that supports version 3.1 of the MQ Telemetry
+ Transport protocol.
+ .
+ MQTT provides a method of carrying out messaging using a publish/subscribe
+ model. It is lightweight, both in terms of bandwidth usage and ease of
+ implementation. This makes it particularly useful at the edge of the network
+ where a sensor or other simple device may be implemented using an arduino for
+ example.
+
+Package: mosquitto-clients
+Description-md5: 33c57218a0b8ff7b7fef48267a1da1fa
+Description-en: Mosquitto command line MQTT clients
+ This is two MQTT version 3.1 command line clients. mosquitto_pub can be used
+ to publish messages to a broker and mosquitto_sub can be used to subscribe to
+ a topic to receive messages.
+ .
+ MQTT provides a method of carrying out messaging using a publish/subscribe
+ model. It is lightweight, both in terms of bandwidth usage and ease of
+ implementation. This makes it particularly useful at the edge of the network
+ where a sensor or other simple device may be implemented using an arduino for
+ example.
 
 Package: mozc-server
 Description-md5: 8c20219f07f38ad45616b5119e58023e
@@ -9298,6 +9359,17 @@ Description-en: IPAM management service for Openstack - Python library
  (Nova zones, Atlas, Quantum).
  .
  This package contains the python libraries.
+
+Package: python-mosquitto
+Description-md5: 27fd8a86363b9dd6cc5bd52307129a44
+Description-en: MQTT version 3.1 client library, python bindings
+ This is a Python module for implementing MQTT version 3.1 clients.
+ .
+ MQTT provides a method of carrying out messaging using a publish/subscribe
+ model. It is lightweight, both in terms of bandwidth usage and ease of
+ implementation. This makes it particularly useful at the edge of the network
+ where a sensor or other simple device may be implemented using an arduino for
+ example.
 
 Package: python-mpi
 Description-md5: 2c6e56c319d258fe4e0df6b2a66d2d3f

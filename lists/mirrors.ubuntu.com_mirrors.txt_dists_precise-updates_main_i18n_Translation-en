@@ -4248,6 +4248,17 @@ Description-en: GNOME Desktop icon theme
  applications, to represent the different applications, files,
  directories, and devices.
 
+Package: gnome-keyring
+Description-md5: ab339ead4844e2dd14c8a8c09473bb75
+Description-en: GNOME keyring services (daemon and tools)
+ gnome-keyring is a daemon in the session, similar to ssh-agent,
+ and other applications can use it to store passwords and other
+ sensitive information.
+ .
+ The program can manage several keyrings, each with its own master
+ password, and there is also a session keyring which is never stored to
+ disk, but forgotten when the session ends.
+
 Package: gnome-media
 Description-md5: 73ed5d555abc7dd9c613f4b2a36df220
 Description-en: GNOME media utilities
@@ -18510,6 +18521,62 @@ Description-en: conservative garbage collector for C and C++
  defaults for everything else. However, it does not work as a drop-in malloc(3)
  replacement.
 
+Package: libgck-1-0
+Description-md5: 295051c0037e672e4d1c6a05313400f6
+Description-en: Glib wrapper library for PKCS#11 - runtime
+ GCK is a wrapper based on GLib implementing the PKCS#11 (Cryptoki)
+ interface.
+ .
+ This package contains the shared libraries needed to run programs
+ built against the GCK library.
+
+Package: libgck-1-dev
+Description-md5: cfa95aba9f3b2a479b52494f03079fe7
+Description-en: GLib wrapper library for PKCS#11 - development
+ GCK is a wrapper based on GLib implementing the PKCS#11 (Cryptoki)
+ interface.
+ .
+ This package contains the static libraries, header files and
+ documentation needed to build applications using the GCK library.
+
+Package: libgck-1-doc
+Description-md5: 1eff4110e2151494884bd0cc3ad14eee
+Description-en: GLib wrapper library for PKCS#11 - documentation
+ GCK is a wrapper based on GLib implementing the PKCS#11 (Cryptoki)
+ interface.
+ .
+ This package contains the API documentation for the GCK library.
+
+Package: libgcr-3-1
+Description-md5: 8a00eb544ac1338960d9775caa5693e1
+Description-en: Library for Crypto UI related task - runtime
+ GCR is a library for crypto UI and related tasks.
+ .
+ This package contains the shared libraries needed to run programs
+ built against the GCR library.
+
+Package: libgcr-3-common
+Description-md5: 62051b31c323709fb93c97d6f25f6bd4
+Description-en: Library for Crypto UI related task - common files
+ GCR is a library for crypto UI and related tasks.
+ .
+ This package contains data files uses by the GCR library.
+
+Package: libgcr-3-dev
+Description-md5: c41f44b419fccfb115b5c40ee21451f0
+Description-en: Library for Crypto UI related task - development
+ GCR is a library for crypto UI and related tasks.
+ .
+ This package contains the static libraries, header files and
+ documentation needed to build applications using the GCR library.
+
+Package: libgcr-3-doc
+Description-md5: f76d82717ef972e8809344431d294c47
+Description-en: Library for Crypto UI related task - documentation
+ GCR is a library for crypto UI and related tasks.
+ .
+ This package contains the API documentation for the GCR library.
+
 Package: libgcrypt11
 Description-md5: 6cb6e549d7896e8d87a0813312b20500
 Description-en: LGPL Crypto library - runtime library
@@ -24058,6 +24125,21 @@ Description-en: changehat AppArmor library as a PAM module
  This provides the PAM module needed to declare various differing
  confinement policies when starting PAM sessions by using the
  changehat abilities exposed through libapparmor.
+
+Package: libpam-gnome-keyring
+Description-md5: 3673d193052d71d8a785db5f957ea3ee
+Description-en: PAM module to unlock the GNOME keyring upon login
+ gnome-keyring is a daemon in the session, similar to ssh-agent,
+ and other applications can use it to store passwords and other
+ sensitive information.
+ .
+ This package contains a PAM module that will automatically unlock the
+ keyrings using your login password, making gnome-keyring usage
+ transparent without losing its security benefits.
+ .
+ When installed, this module will automatically be used by GDM and
+ gnome-screensaver to unlock your keyrings when logging in and when
+ unlocking the screen saver.
 
 Package: libpam-smbpass
 Description-md5: 99a52e9b231c8359c64eb7bde1bc1cb1

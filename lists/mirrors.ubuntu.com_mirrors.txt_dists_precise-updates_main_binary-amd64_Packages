@@ -9369,6 +9369,30 @@ Origin: Ubuntu
 Supported: 5y
 Task: lubuntu-core, ubuntustudio-desktop
 
+Package: gnome-keyring
+Priority: optional
+Section: gnome
+Installed-Size: 4156
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Josselin Mouette <joss@debian.org>
+Architecture: amd64
+Version: 3.2.2-2ubuntu4.1
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.15), libcap-ng0, libdbus-1-3 (>= 1.1.1), libgck-1-0 (>= 2.91.1), libgcr-3-1 (>= 3.2.2), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.0.0), dbus-x11, libcap2-bin
+Recommends: libpam-gnome-keyring
+Breaks: libgnome-keyring0 (<< 3.0), seahorse-plugins (<< 3.0)
+Filename: pool/main/g/gnome-keyring/gnome-keyring_3.2.2-2ubuntu4.1_amd64.deb
+Size: 1419042
+MD5sum: 0d5ee8a70ff0a6bdae5702b4af617210
+SHA1: 3825c61b6d52ec03617ce17e1d9707be1252317c
+SHA256: f58275a6fab2cb97898a07311ddc3c397eb0ca46de1e2e30d894dcb93259f0bb
+Description: GNOME keyring services (daemon and tools)
+Homepage: http://live.gnome.org/GnomeKeyring
+Description-md5: ab339ead4844e2dd14c8a8c09473bb75
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-desktop, ubuntustudio-desktop
+
 Package: gnome-media
 Priority: optional
 Section: gnome
@@ -42646,6 +42670,173 @@ Origin: Ubuntu
 Supported: 5y
 Task: cloud-image, ubuntu-usb, server, edubuntu-usb, edubuntu-desktop-kde, edubuntu-desktop-gnome, ubuntustudio-video, ubuntustudio-graphics
 
+Package: libgck-1-0
+Priority: optional
+Section: libs
+Installed-Size: 384
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Josselin Mouette <joss@debian.org>
+Architecture: amd64
+Source: gnome-keyring
+Version: 3.2.2-2ubuntu4.1
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.25.0), libp11-kit0 (>= 0.11)
+Filename: pool/main/g/gnome-keyring/libgck-1-0_3.2.2-2ubuntu4.1_amd64.deb
+Size: 80532
+MD5sum: c5097d5aa8ab1b12cff330d3fc44965e
+SHA1: 3af2383b1a3d1d17fdc15d11d227c75cf4632ea3
+SHA256: 4a36e638b088abdeb7f13ea1085f51cee96be3ea8e4985b51ec4c4a1a5d8c2ab
+Description: Glib wrapper library for PKCS#11 - runtime
+Homepage: http://live.gnome.org/GnomeKeyring
+Description-md5: 295051c0037e672e4d1c6a05313400f6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-desktop, ubuntustudio-desktop
+
+Package: libgck-1-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 647
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Josselin Mouette <joss@debian.org>
+Architecture: amd64
+Source: gnome-keyring
+Version: 3.2.2-2ubuntu4.1
+Replaces: libgnome-keyring-dev (<< 2.25)
+Depends: libgck-1-0 (= 3.2.2-2ubuntu4.1), libglib2.0-dev (>= 2.25.0), libp11-kit-dev
+Suggests: libgck-1-doc
+Filename: pool/main/g/gnome-keyring/libgck-1-dev_3.2.2-2ubuntu4.1_amd64.deb
+Size: 100688
+MD5sum: 62ec6aa8ccb2f1b3a57dec0c372abdb6
+SHA1: c1a20c81bedc536f425ffacd9eb068f1899300f8
+SHA256: abf23f1409ea01acabbaf191fc0dde8763a60343b79c0c5e1777aa4f4eefbb74
+Description: GLib wrapper library for PKCS#11 - development
+Homepage: http://live.gnome.org/GnomeKeyring
+Description-md5: cfa95aba9f3b2a479b52494f03079fe7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgck-1-doc
+Priority: optional
+Section: doc
+Installed-Size: 883
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Josselin Mouette <joss@debian.org>
+Architecture: all
+Source: gnome-keyring
+Version: 3.2.2-2ubuntu4.1
+Replaces: libgck-dev (<< 3.2.2-1)
+Suggests: devhelp
+Breaks: libgck-dev (<< 3.2.2-1)
+Filename: pool/main/g/gnome-keyring/libgck-1-doc_3.2.2-2ubuntu4.1_all.deb
+Size: 67584
+MD5sum: 3c2187692c2bbbf1d68fcb762bd39b2a
+SHA1: 4e818e39cabfa9ed89028d596faf394982a26b96
+SHA256: 28a19f6fb0e7e04ff1abc706d2f637026b92fa5e067a209bcaefe55bbf694c42
+Description: GLib wrapper library for PKCS#11 - documentation
+Homepage: http://live.gnome.org/GnomeKeyring
+Description-md5: 1eff4110e2151494884bd0cc3ad14eee
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgcr-3-1
+Priority: optional
+Section: libs
+Installed-Size: 760
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Josselin Mouette <joss@debian.org>
+Architecture: amd64
+Source: gnome-keyring
+Version: 3.2.2-2ubuntu4.1
+Depends: libc6 (>= 2.15), libcairo2 (>= 1.2.4), libgck-1-0 (>= 3.2.2), libgcrypt11 (>= 1.4.5), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.1.4), libp11-kit0 (>= 0.6), libpango1.0-0 (>= 1.18.0), libgcr-3-common
+Filename: pool/main/g/gnome-keyring/libgcr-3-1_3.2.2-2ubuntu4.1_amd64.deb
+Size: 202388
+MD5sum: 33ef3e03f2f8a461ebf95fb34e97731b
+SHA1: d0f545e90eda9239eb8afcc630a8beb298032033
+SHA256: 6a413b4886ca16010ce074704ed3a22080dde68462cfbe93d1cbf1b0f5d771eb
+Description: Library for Crypto UI related task - runtime
+Homepage: http://live.gnome.org/GnomeKeyring
+Description-md5: 8a00eb544ac1338960d9775caa5693e1
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-desktop, ubuntustudio-desktop
+
+Package: libgcr-3-common
+Priority: optional
+Section: libs
+Installed-Size: 242
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Josselin Mouette <joss@debian.org>
+Architecture: all
+Source: gnome-keyring
+Version: 3.2.2-2ubuntu4.1
+Replaces: libgcr-3-1 (<< 3.2.2-1)
+Breaks: libgcr-3-1 (<< 3.2.2-1)
+Filename: pool/main/g/gnome-keyring/libgcr-3-common_3.2.2-2ubuntu4.1_all.deb
+Size: 19866
+MD5sum: 4b1b370b0ebcdde5e15dde1e9ceba641
+SHA1: c0aa03c8c34d0e1ddbdb334865a23676e5696917
+SHA256: f1d0026b49a57a1bb0004955394573b642ef7ba05efd8e22c572b44c588e0fd1
+Description: Library for Crypto UI related task - common files
+Homepage: http://live.gnome.org/GnomeKeyring
+Description-md5: 62051b31c323709fb93c97d6f25f6bd4
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-desktop, ubuntustudio-desktop
+
+Package: libgcr-3-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 1419
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Josselin Mouette <joss@debian.org>
+Architecture: amd64
+Source: gnome-keyring
+Version: 3.2.2-2ubuntu4.1
+Replaces: libgcr-dev (<< 3.0.0-2~)
+Depends: libgcr-3-1 (= 3.2.2-2ubuntu4.1), libglib2.0-dev (>= 2.25.0), libgck-1-dev (= 3.2.2-2ubuntu4.1), libgtk-3-dev (>= 3.0.0), libtasn1-3-dev (>= 0.3.4), libtasn1-3-bin, libp11-kit-dev
+Suggests: libgcr-3-doc
+Breaks: libgcr-dev (<< 3.0.0-2~)
+Filename: pool/main/g/gnome-keyring/libgcr-3-dev_3.2.2-2ubuntu4.1_amd64.deb
+Size: 292080
+MD5sum: cff2a475f3d3a13303eae31cda066ec7
+SHA1: f175fb10602a4ebc43aef8e1e8d678eaf8811ef0
+SHA256: d4bfe2fa4b55fd31b6d16ae22a330637e93b620cf54601c2a331e8379d6470bf
+Description: Library for Crypto UI related task - development
+Homepage: http://live.gnome.org/GnomeKeyring
+Description-md5: c41f44b419fccfb115b5c40ee21451f0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgcr-3-doc
+Priority: optional
+Section: doc
+Installed-Size: 837
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Josselin Mouette <joss@debian.org>
+Architecture: all
+Source: gnome-keyring
+Version: 3.2.2-2ubuntu4.1
+Replaces: libgcr-3-dev (<< 3.2.2-1)
+Suggests: devhelp
+Breaks: libgcr-3-dev (<< 3.2.2-1)
+Filename: pool/main/g/gnome-keyring/libgcr-3-doc_3.2.2-2ubuntu4.1_all.deb
+Size: 130270
+MD5sum: 999bed9e7f8ecba78fc69b55ab8c1564
+SHA1: 0a19757b0b613e0ae518d5e75a57b10e34572b14
+SHA256: 8ba56c62c3d80e7ea556fa805449b1afa96ccaa28b9632dfdb35aaa7637c27fc
+Description: Library for Crypto UI related task - documentation
+Homepage: http://live.gnome.org/GnomeKeyring
+Description-md5: f76d82717ef972e8809344431d294c47
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: libgcrypt11
 Priority: standard
 Section: libs
@@ -55177,6 +55368,33 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: libpam-gnome-keyring
+Priority: optional
+Section: admin
+Installed-Size: 280
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Josselin Mouette <joss@debian.org>
+Architecture: amd64
+Source: gnome-keyring
+Version: 3.2.2-2ubuntu4.1
+Replaces: libpam-keyring
+Provides: libpam-keyring
+Depends: libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libpam-runtime (>= 1.0.1-6)
+Recommends: gnome-keyring
+Conflicts: libpam-keyring
+Filename: pool/main/g/gnome-keyring/libpam-gnome-keyring_3.2.2-2ubuntu4.1_amd64.deb
+Size: 37644
+MD5sum: b8c29c58bb5d5e76ff256e42403132e5
+SHA1: c5b9017361e8d9adaff27063dcaccbdea8a688b3
+SHA256: 87ae5d4972a3cbdf4e506d8e3ce7c9636e0c6478ad67b874aa8255b72a6edc0e
+Description: PAM module to unlock the GNOME keyring upon login
+Homepage: http://live.gnome.org/GnomeKeyring
+Description-md5: 3673d193052d71d8a785db5f957ea3ee
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, ubuntustudio-desktop
+
 Package: libpam-smbpass
 Priority: extra
 Section: admin
@@ -63530,18 +63748,18 @@ Task: minimal
 Package: libunity-2d-private-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 227
+Installed-Size: 228
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Olivier Tilloy <olivier.tilloy@canonical.com>
 Architecture: amd64
 Source: unity-2d
-Version: 5.12.0-0ubuntu1.2
-Depends: libunity-2d-private0 (= 5.12.0-0ubuntu1.2), libgtk-3-dev, libwnck-3-dev, libglib2.0-dev, libpango1.0-dev, libxfixes-dev (>= 1:5.0-4ubuntu4)
-Filename: pool/main/u/unity-2d/libunity-2d-private-dev_5.12.0-0ubuntu1.2_amd64.deb
-Size: 36330
-MD5sum: ee8d9de07916b2246723e7fa8c06a819
-SHA1: 4c0eae1ce7f4bcc5cdf92816b80e9061ec747883
-SHA256: 7124c55ea8071de9fb2097bf9e2ab06208d1bdb402a52e28d57b2f9890d21b85
+Version: 5.14.0-0ubuntu1
+Depends: libunity-2d-private0 (= 5.14.0-0ubuntu1), libgtk-3-dev, libwnck-3-dev, libglib2.0-dev, libpango1.0-dev, libxfixes-dev (>= 1:5.0-4ubuntu4)
+Filename: pool/main/u/unity-2d/libunity-2d-private-dev_5.14.0-0ubuntu1_amd64.deb
+Size: 36152
+MD5sum: 17995faa7a5fb726b6b3005cd67573c5
+SHA1: 3c20ed13ac9acf11b3befc571c06fd8fd9675ac7
+SHA256: 7e3fb514d41b11465ca8a870ceba4601f132206f7feecd2f3f7f1f24b8a4d4a4
 Description: Unity 2D shared library - development files
 Description-md5: 8fd4d44664717b24809c922281940c01
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -63551,18 +63769,18 @@ Supported: 18m
 Package: libunity-2d-private0
 Priority: optional
 Section: libs
-Installed-Size: 1496
+Installed-Size: 1500
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Olivier Tilloy <olivier.tilloy@canonical.com>
 Architecture: amd64
 Source: unity-2d
-Version: 5.12.0-0ubuntu1.2
+Version: 5.14.0-0ubuntu1
 Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libdbusmenu-qt2 (>= 0.5.1), libdconf-qt0 (>= 0.0.0.110722), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgeis1 (>= 1.0.8), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.0.0), libindicator3-7, libnux-2.0-0, libpango1.0-0 (>= 1.14.0), libqt4-dbus (>= 4:4.6.1), libqt4-declarative (>= 4:4.7.0~rc1), libqt4-network (>= 4:4.5.3), libqt4-opengl (>= 4:4.5.3), libqtbamf1 (>= 0.2.1), libqtcore4 (>= 4:4.7.0~beta1), libqtdee2 (>= 0.2.4), libqtgui4 (>= 4:4.8.0), libsigc++-2.0-0c2a (>= 2.0.2), libstartup-notification0 (>= 0.2), libstdc++6 (>= 4.6), libunity-core-5.0-5 (>= 4.14.2), libwnck-3-0 (>= 2.91.6), libx11-6, libxcomposite1 (>= 1:0.3-1), libxext6, libxfixes3 (>= 1:5.0-4ubuntu4), libxi6
-Filename: pool/main/u/unity-2d/libunity-2d-private0_5.12.0-0ubuntu1.2_amd64.deb
-Size: 473254
-MD5sum: 64a38a498ee68978554a2d8303a0f21c
-SHA1: 8a0db07a5170f3bb1e5abd276137f51bb831556f
-SHA256: ccdcae23401395f708564a3dbec06b752e1d408bea077c1b630cfdfbc1b8c8b9
+Filename: pool/main/u/unity-2d/libunity-2d-private0_5.14.0-0ubuntu1_amd64.deb
+Size: 472918
+MD5sum: 4d30310f8728799963aeedf137fcb8eb
+SHA1: 01d71f1a04feb516797e02c31fd6846675ec3804
+SHA256: c52b2db9538bf961566232d0ca61c9d6f05619285b43a675f3b776e73ee686ae
 Description: Unity 2D shared library
 Description-md5: df0b49873d96599dca118eca2dce39fa
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -89202,17 +89420,17 @@ Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb
 Package: unity-2d
 Priority: optional
 Section: x11
-Installed-Size: 42
+Installed-Size: 43
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Olivier Tilloy <olivier.tilloy@canonical.com>
 Architecture: all
-Version: 5.12.0-0ubuntu1.2
+Version: 5.14.0-0ubuntu1
 Depends: unity-2d-panel, unity-2d-spread, unity-2d-shell, metacity (>= 1:2.34.1-1ubuntu8)
-Filename: pool/main/u/unity-2d/unity-2d_5.12.0-0ubuntu1.2_all.deb
-Size: 1866
-MD5sum: 30f48f5932ad25eba5809f3cb921e388
-SHA1: 0b5c906f8d8cd236e3c4ff8568fda7ebb659d9b4
-SHA256: 05610c8684d42145eae18a6a749b1faf46791b992012367047e221dfbae3521b
+Filename: pool/main/u/unity-2d/unity-2d_5.14.0-0ubuntu1_all.deb
+Size: 1862
+MD5sum: 0add1f32ca558bfba073be4cb83f33fd
+SHA1: 470f7b0ff960375b455fb02f5e0d6cb4eb6c5e6d
+SHA256: 4cd8174c0f0994f9c33ae7294208fc836ae0e930c278907576025810a72905f9
 Description: Unity interface for non-accelerated graphics cards
 Description-md5: 76a85fb708f4f0881f7562a99b61a552
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -89228,14 +89446,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Olivier Tilloy <olivier.tilloy@canonical.com>
 Architecture: all
 Source: unity-2d
-Version: 5.12.0-0ubuntu1.2
+Version: 5.14.0-0ubuntu1
 Replaces: unity-2d (<< 5.7.0)
 Depends: dconf-gsettings-backend | gsettings-backend
-Filename: pool/main/u/unity-2d/unity-2d-common_5.12.0-0ubuntu1.2_all.deb
-Size: 11202
-MD5sum: 7d075e530a0a034aa6a3b80fff92b089
-SHA1: 333d6725860516552a01a0ef32e73c58eb3095ed
-SHA256: 920e97a83d9b65a46ebf01f9ddc7be5fc50f651ab398250525e25e528601e4c4
+Filename: pool/main/u/unity-2d/unity-2d-common_5.14.0-0ubuntu1_all.deb
+Size: 10370
+MD5sum: e826e78ca590b3443a00e02e4da0a004
+SHA1: e08ef305207e1e5aec667145b6c27bd583d89f86
+SHA256: 6fbdb59df95bbf014aa2df113c88edf710fcf2ce0575adc1e97b20a20e979227
 Description: Common files for Unity 2D Shell
 Description-md5: 80d1eada85bfdd3fde216cc2bb97214f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -89246,18 +89464,18 @@ Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb
 Package: unity-2d-dbg
 Priority: extra
 Section: debug
-Installed-Size: 24360
+Installed-Size: 24372
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Olivier Tilloy <olivier.tilloy@canonical.com>
 Architecture: amd64
 Source: unity-2d
-Version: 5.12.0-0ubuntu1.2
-Depends: unity-2d (= 5.12.0-0ubuntu1.2)
-Filename: pool/main/u/unity-2d/unity-2d-dbg_5.12.0-0ubuntu1.2_amd64.deb
-Size: 8999290
-MD5sum: 51937229084d18b92943826ddbf1fb89
-SHA1: b2a606920063acb4c836c0cfa7f6b51317299981
-SHA256: e6792dc2b2a5e6f1349442042cf24f204c97eef75a1200d802d4873bd8b3bfbe
+Version: 5.14.0-0ubuntu1
+Depends: unity-2d (= 5.14.0-0ubuntu1)
+Filename: pool/main/u/unity-2d/unity-2d-dbg_5.14.0-0ubuntu1_amd64.deb
+Size: 9001002
+MD5sum: a8a6bb908172a3164cf180a5769774f4
+SHA1: cda826cfae136d75f97392604d5c3dd14115b49a
+SHA256: 5aca3c261dc1a2d9730d32a7caf6ce2f7cbd82a15f4f20c14d23a8126f2b6489
 Description: Debugging symbols for unity-2d
 Description-md5: 06adc1b48d68afac347eb4aae01800ba
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -89267,18 +89485,18 @@ Supported: 18m
 Package: unity-2d-launcher
 Priority: optional
 Section: x11
-Installed-Size: 42
+Installed-Size: 43
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Olivier Tilloy <olivier.tilloy@canonical.com>
 Architecture: all
 Source: unity-2d
-Version: 5.12.0-0ubuntu1.2
+Version: 5.14.0-0ubuntu1
 Depends: unity-2d-shell
-Filename: pool/main/u/unity-2d/unity-2d-launcher_5.12.0-0ubuntu1.2_all.deb
-Size: 1708
-MD5sum: ff0d2df20047bd6e23b59a58853ae4d0
-SHA1: 3ee8ecfe673220c1c4d41c9a87ab8cf1457fae11
-SHA256: a1e78aa052a1ba5c26fc223573a41d84c034963b125fe312b8e58b08c64e2ff3
+Filename: pool/main/u/unity-2d/unity-2d-launcher_5.14.0-0ubuntu1_all.deb
+Size: 1702
+MD5sum: f3656f58b9a460315982a6007bc1e7aa
+SHA1: fe091b89ecbf666c472f499a78f0c7a47cad9727
+SHA256: 576c7b5d82f794acc375fc3ab18362e96bb3bf95fa3919539c88723eeae7abe2
 Description: Transitional package for unity-2d-launcher
 Description-md5: fea2ce1a37eb5f06f4801e6c26e34fc7
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -89293,15 +89511,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Olivier Tilloy <olivier.tilloy@canonical.com>
 Architecture: amd64
 Source: unity-2d
-Version: 5.12.0-0ubuntu1.2
+Version: 5.14.0-0ubuntu1
 Provides: indicator-renderer
-Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libdbusmenu-qt2 (>= 0.3.2), libdconf-qt0 (>= 0.0.0.110722), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.0.0), libpango1.0-0 (>= 1.14.0), libqt4-dbus (>= 4:4.5.3), libqtbamf1 (>= 0.1), libqtcore4 (>= 4:4.7.0~beta1), libqtgconf1 (>= 0.1), libqtgui4 (>= 4:4.8.0), libsigc++-2.0-0c2a (>= 2.0.2), libstdc++6 (>= 4.6), libunity-2d-private0 (= 5.12.0-0ubuntu1.2), libunity-core-5.0-5 (>= 4.14.2), libwnck-3-0 (>= 2.91.6), libx11-6, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxfixes3, libxrender1, unity-2d-common (= 5.12.0-0ubuntu1.2)
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libdbusmenu-qt2 (>= 0.3.2), libdconf-qt0 (>= 0.0.0.110722), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.0.0), libpango1.0-0 (>= 1.14.0), libqt4-dbus (>= 4:4.5.3), libqtbamf1 (>= 0.1), libqtcore4 (>= 4:4.7.0~beta1), libqtgconf1 (>= 0.1), libqtgui4 (>= 4:4.8.0), libsigc++-2.0-0c2a (>= 2.0.2), libstdc++6 (>= 4.6), libunity-2d-private0 (= 5.14.0-0ubuntu1), libunity-core-5.0-5 (>= 4.14.2), libwnck-3-0 (>= 2.91.6), libx11-6, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxfixes3, libxrender1, unity-2d-common (= 5.14.0-0ubuntu1)
 Recommends: indicator-application, indicator-appmenu, indicator-datetime, indicator-messages, indicator-session, indicator-sound
-Filename: pool/main/u/unity-2d/unity-2d-panel_5.12.0-0ubuntu1.2_amd64.deb
-Size: 132074
-MD5sum: 0ea3207c55b0c9f5d3247985d4c0bdc4
-SHA1: dbfd08ebd4679a4ccf06f73f8a186d60c1068cf7
-SHA256: d6bebf56df2453df9d4bd529651bacf9133045634f75118078dbf9523b33ef74
+Filename: pool/main/u/unity-2d/unity-2d-panel_5.14.0-0ubuntu1_amd64.deb
+Size: 132092
+MD5sum: 14183d2857986e610dd18d8319d1709a
+SHA1: fd55512789ff204adc0a0c2b0ec90290c669cb3c
+SHA256: 80ae98bf31824dd196a4fb14adafa89672493725245d2c269a97969fc55135dd
 Description: Unity 2D Panel
 Description-md5: fd0f5a57eec63378fba50f66ae6c95d2
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -89312,18 +89530,18 @@ Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb
 Package: unity-2d-places
 Priority: optional
 Section: x11
-Installed-Size: 42
+Installed-Size: 43
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Olivier Tilloy <olivier.tilloy@canonical.com>
 Architecture: all
 Source: unity-2d
-Version: 5.12.0-0ubuntu1.2
+Version: 5.14.0-0ubuntu1
 Depends: unity-2d-shell
-Filename: pool/main/u/unity-2d/unity-2d-places_5.12.0-0ubuntu1.2_all.deb
+Filename: pool/main/u/unity-2d/unity-2d-places_5.14.0-0ubuntu1_all.deb
 Size: 1704
-MD5sum: fce7f91254c9b64a726958683a9ede13
-SHA1: 17f3d4b6737dfbf901728fdec1b0162d58e3c85d
-SHA256: 8d1ab56827450187e5fbf2b67c9487d51bf5ebee416e9b72eec101f467c9141a
+MD5sum: 8610bdfeebde18caa2f97a279ab657fb
+SHA1: 1931824997a5d35b90bdac16b70f503d2080101a
+SHA256: 277df8f2b832d4971c5e0cdb59978edc13210ccd4d3d44ac3aad42347c690090
 Description: Transitional package for unity-2d-places
 Description-md5: 228c183cb7a18c2c10ef9c5bd824e32b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -89333,21 +89551,21 @@ Supported: 18m
 Package: unity-2d-shell
 Priority: optional
 Section: x11
-Installed-Size: 621
+Installed-Size: 626
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Olivier Tilloy <olivier.tilloy@canonical.com>
 Architecture: amd64
 Source: unity-2d
-Version: 5.12.0-0ubuntu1.2
+Version: 5.14.0-0ubuntu1
 Replaces: unity-2d-launcher (<< 5.4~), unity-2d-places (<< 5.4~)
-Depends: libc6 (>= 2.14), libdconf-qt0 (>= 0.0.0.110722), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.12.0), libqt4-dbus (>= 4:4.5.3), libqt4-declarative (>= 4:4.7.0~rc1), libqtbamf1 (>= 0.1), libqtcore4 (>= 4:4.7.0~beta1), libqtgconf1 (>= 0.1), libqtgui4 (>= 4:4.6.1), libstdc++6 (>= 4.1.1), libunity-2d-private0 (= 5.12.0-0ubuntu1.2), libwnck-3-0 (>= 2.91.6), libx11-6, unity-2d-common (= 5.12.0-0ubuntu1.2), unity-asset-pool, libqt4-svg
+Depends: libc6 (>= 2.14), libdconf-qt0 (>= 0.0.0.110722), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.0.0), libqt4-dbus (>= 4:4.5.3), libqt4-declarative (>= 4:4.7.0~rc1), libqtbamf1 (>= 0.1), libqtcore4 (>= 4:4.7.0~beta1), libqtgconf1 (>= 0.1), libqtgui4 (>= 4:4.6.1), libstdc++6 (>= 4.1.1), libunity-2d-private0 (= 5.14.0-0ubuntu1), libwnck-3-0 (>= 2.91.6), libx11-6, unity-2d-common (= 5.14.0-0ubuntu1), unity-asset-pool, libqt4-svg
 Recommends: unity-lens-files, unity-lens-applications, unity-lens-music
 Breaks: gnome-session (<< 3.2.1-0ubuntu5~), unity-2d-launcher (<< 5.4~), unity-2d-places (<< 5.4~)
-Filename: pool/main/u/unity-2d/unity-2d-shell_5.12.0-0ubuntu1.2_amd64.deb
-Size: 277292
-MD5sum: 65edf4c9f01c14a9946755799d877e9a
-SHA1: a320e16ecd795ec48e199264bb149ce5418e4fd7
-SHA256: 90641051d999ecf0f373434a0ecd2686f9a816ea1d401b2fff98bb5867f499e9
+Filename: pool/main/u/unity-2d/unity-2d-shell_5.14.0-0ubuntu1_amd64.deb
+Size: 277538
+MD5sum: b91b49c9e4eb56943a3438cb07a4331f
+SHA1: 02ba66e1e3739c23403be441530b4beebac30c9a
+SHA256: 99915b8670b7292621db6a15799ce076bcd63779ae7cb7b95eda260fb1b3e5cb
 Description: Dash and Launcher for the Unity 2D environment
 Description-md5: 64a8d652ae0a51e34f5b6137a9fcd425
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -89363,13 +89581,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Olivier Tilloy <olivier.tilloy@canonical.com>
 Architecture: amd64
 Source: unity-2d
-Version: 5.12.0-0ubuntu1.2
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libqt4-dbus (>= 4:4.5.3), libqt4-declarative (>= 4:4.7.0~rc1), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.1.1), libunity-2d-private0 (= 5.12.0-0ubuntu1.2), unity-2d-common (= 5.12.0-0ubuntu1.2), libqt4-svg
-Filename: pool/main/u/unity-2d/unity-2d-spread_5.12.0-0ubuntu1.2_amd64.deb
-Size: 33532
-MD5sum: 564d5c61e29ba622daa141ff7c6357d9
-SHA1: 3643fea56c456160298091043487a2f693286977
-SHA256: 8eef35bd7491caceef2201f8bae3d1acb1d275f9f55d093ce9e3da4b2aea7898
+Version: 5.14.0-0ubuntu1
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libqt4-dbus (>= 4:4.5.3), libqt4-declarative (>= 4:4.7.0~rc1), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.1.1), libunity-2d-private0 (= 5.14.0-0ubuntu1), unity-2d-common (= 5.14.0-0ubuntu1), libqt4-svg
+Filename: pool/main/u/unity-2d/unity-2d-spread_5.14.0-0ubuntu1_amd64.deb
+Size: 33526
+MD5sum: b7f69cfa411fe1d278781d9920fdee36
+SHA1: b992db7cadd25b29e8e00557d4b5011694e9820e
+SHA256: 2ec8132c3d0cb525d087dcdaf98f3084a98b27e9365797bcbdbf3c8f16fce7e7
 Description: Unity 2D Spread
 Description-md5: 2c082d968db77fa398b847f487bd47a2
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
