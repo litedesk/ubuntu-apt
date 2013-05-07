@@ -4802,19 +4802,19 @@ Supported: 18m
 Package: icedtea-6-jre-cacao
 Priority: extra
 Section: interpreters
-Installed-Size: 1956
+Installed-Size: 1957
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
 Source: openjdk-6
-Version: 6b27-1.12.3-0ubuntu1~12.04.1
+Version: 6b27-1.12.5-0ubuntu0.12.04.1
 Provides: icedtea6-jre-cacao
-Depends: openjdk-6-jre-headless (= 6b27-1.12.3-0ubuntu1~12.04.1), libc6 (>= 2.11), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), zlib1g (>= 1:1.1.4)
-Filename: pool/main/o/openjdk-6/icedtea-6-jre-cacao_6b27-1.12.3-0ubuntu1~12.04.1_i386.deb
-Size: 770230
-MD5sum: 0de2059ee212dc071dd141d88f4196a0
-SHA1: 0e613502d14b269803134c1145172b846fe92ee6
-SHA256: 0790f694e87a192f507b5c76b257a226d5a64eec86af385ae20f2c993fb53119
+Depends: openjdk-6-jre-headless (= 6b27-1.12.5-0ubuntu0.12.04.1), libc6 (>= 2.11), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), zlib1g (>= 1:1.1.4)
+Filename: pool/main/o/openjdk-6/icedtea-6-jre-cacao_6b27-1.12.5-0ubuntu0.12.04.1_i386.deb
+Size: 771298
+MD5sum: b52396bb53c0dec1df6c29dd905db70a
+SHA1: 890600d272babc3217974dfc32911bfbdacf496b
+SHA256: 9509e3edcf93a22edb190794e8602c9754883400005401f2b343828bc09eb3a7
 Description: Alternative JVM for OpenJDK, using Cacao
 Multi-Arch: same
 Homepage: http://openjdk.java.net/
@@ -4832,13 +4832,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
 Source: openjdk-6
-Version: 6b27-1.12.3-0ubuntu1~12.04.1
-Depends: openjdk-6-jre-headless (= 6b27-1.12.3-0ubuntu1~12.04.1), libc6 (>= 2.4), zlib1g (>= 1:1.1.4)
-Filename: pool/main/o/openjdk-6/icedtea-6-jre-jamvm_6b27-1.12.3-0ubuntu1~12.04.1_i386.deb
-Size: 536080
-MD5sum: b01e4aec792b57681d42f2a549e8839d
-SHA1: 1e9c6c1dea72d3deb61ffe627c8ccd3b9c71f5f6
-SHA256: d8a71810337246853a02443d19545985f76751aa9a2b74c1fc81bbbe2797a7c6
+Version: 6b27-1.12.5-0ubuntu0.12.04.1
+Depends: openjdk-6-jre-headless (= 6b27-1.12.5-0ubuntu0.12.04.1), libc6 (>= 2.4), zlib1g (>= 1:1.1.4)
+Filename: pool/main/o/openjdk-6/icedtea-6-jre-jamvm_6b27-1.12.5-0ubuntu0.12.04.1_i386.deb
+Size: 538134
+MD5sum: 0c42f9c5f3a7f69aaa5ceeac1778da1d
+SHA1: 46b9b880d61c52842f6e6b580b49352d77298670
+SHA256: e415b81faea2aebae2a888bcccaa235cd42d14b25f76eb3cb9aed1f424c5df7a
 Description: Alternative JVM for OpenJDK, using JamVM
 Multi-Arch: same
 Homepage: http://openjdk.java.net/
@@ -35679,21 +35679,21 @@ Supported: 5y
 Package: openjdk-6-dbg
 Priority: extra
 Section: devel
-Installed-Size: 407126
+Installed-Size: 407646
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
 Source: openjdk-6
-Version: 6b27-1.12.3-0ubuntu1~12.04.1
-Depends: openjdk-6-jre-headless (= 6b27-1.12.3-0ubuntu1~12.04.1)
-Recommends: openjdk-6-jre (= 6b27-1.12.3-0ubuntu1~12.04.1)
-Suggests: openjdk-6-jdk (= 6b27-1.12.3-0ubuntu1~12.04.1)
+Version: 6b27-1.12.5-0ubuntu0.12.04.1
+Depends: openjdk-6-jre-headless (= 6b27-1.12.5-0ubuntu0.12.04.1)
+Recommends: openjdk-6-jre (= 6b27-1.12.5-0ubuntu0.12.04.1)
+Suggests: openjdk-6-jdk (= 6b27-1.12.5-0ubuntu0.12.04.1)
 Conflicts: openjdk-6-jre (<< 6b17~pre3-1), openjdk-6-jre-headless (<< 6b17~pre3-1)
-Filename: pool/main/o/openjdk-6/openjdk-6-dbg_6b27-1.12.3-0ubuntu1~12.04.1_i386.deb
-Size: 192146900
-MD5sum: a8c8f03feac2a97bafc49fd5e94a3a94
-SHA1: 1163cb4ff1e979597e8a4a5111fc5ed4f763ff4c
-SHA256: 0d03b7effdbf26066ed4b073eeb0a6513216e3ebe60116c00443b696737963c0
+Filename: pool/main/o/openjdk-6/openjdk-6-dbg_6b27-1.12.5-0ubuntu0.12.04.1_i386.deb
+Size: 192323862
+MD5sum: f68017543d01f9181b201c29be2696a5
+SHA1: 399bb6b1d0cf118f5728cd8f689c37f3a74c2138
+SHA256: e386479eac1e933333e90669f7a540e746127062703cb30c2636d002d2ae93c5
 Description: Java runtime based on OpenJDK (debugging symbols)
 Multi-Arch: same
 Homepage: http://openjdk.java.net/
@@ -35710,14 +35710,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
 Source: openjdk-6
-Version: 6b27-1.12.3-0ubuntu1~12.04.1
-Depends: openjdk-6-jre (>= 6b27-1.12.3-0ubuntu1~12.04.1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Version: 6b27-1.12.5-0ubuntu0.12.04.1
+Depends: openjdk-6-jre (>= 6b27-1.12.5-0ubuntu0.12.04.1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
 Conflicts: openjdk-6-jre (<< 6b17~pre3-1), openjdk-6-jre-headless (<< 6b17~pre3-1)
-Filename: pool/main/o/openjdk-6/openjdk-6-demo_6b27-1.12.3-0ubuntu1~12.04.1_i386.deb
-Size: 2310050
-MD5sum: 20e92d16c3f807d42bf013a5d110bc25
-SHA1: f36b3b8bff966c1edd6424a1cb5d00289cdd73b1
-SHA256: 665f31f68ca25ca38dd096b47d51230b875ec4ff02312074b9608d639133b404
+Filename: pool/main/o/openjdk-6/openjdk-6-demo_6b27-1.12.5-0ubuntu0.12.04.1_i386.deb
+Size: 2301046
+MD5sum: f4d14e7920094838d0d39cc5202a980f
+SHA1: b15c434b72c218e46ac09e8c82d963ed24616a6b
+SHA256: 44dc5258cec2677ba6aa7883f2983825e4ea227e67fdd346fced7af2a9f1547f
 Description: Java runtime based on OpenJDK (demos and examples)
 Homepage: http://openjdk.java.net/
 Description-md5: c2a5624aa60e4de3025a249886fa82d7
@@ -35728,19 +35728,19 @@ Supported: 5y
 Package: openjdk-6-doc
 Priority: extra
 Section: doc
-Installed-Size: 239788
+Installed-Size: 239791
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: all
 Source: openjdk-6
-Version: 6b27-1.12.3-0ubuntu1~12.04.1
+Version: 6b27-1.12.5-0ubuntu0.12.04.1
 Suggests: openjdk-6-jdk
 Conflicts: openjdk-6-jre (<< 6b17~pre3-1), openjdk-6-jre-headless (<< 6b17~pre3-1)
-Filename: pool/main/o/openjdk-6/openjdk-6-doc_6b27-1.12.3-0ubuntu1~12.04.1_all.deb
-Size: 20548540
-MD5sum: 9fe3345f4846c21f028b605513d2d9e1
-SHA1: 02615220c8932483deaf096d8ea4f21747ef25d9
-SHA256: d4361e378122bb973309d3da40c00efc18e756184bec0a9e13f50b82725137f9
+Filename: pool/main/o/openjdk-6/openjdk-6-doc_6b27-1.12.5-0ubuntu0.12.04.1_all.deb
+Size: 20548290
+MD5sum: 56f700d69a21eb66477935aa8f56a1e0
+SHA1: 053430cda56db5db76316842e90cd6c930504ad0
+SHA256: 21cf54a59c2c03db347cab5637df802ffdef080087a16b1e508001bb06a65738
 Description: OpenJDK Development Kit (JDK) documentation
 Homepage: http://openjdk.java.net/
 Description-md5: c1aebd5e8058a6cce0d5690571eddb7b
@@ -35756,17 +35756,17 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
 Source: openjdk-6
-Version: 6b27-1.12.3-0ubuntu1~12.04.1
+Version: 6b27-1.12.5-0ubuntu0.12.04.1
 Provides: java-compiler, java-sdk, java2-sdk, java5-sdk, java6-sdk
-Depends: openjdk-6-jre (>= 6b27-1.12.3-0ubuntu1~12.04.1), libc6 (>= 2.4)
+Depends: openjdk-6-jre (>= 6b27-1.12.5-0ubuntu0.12.04.1), libc6 (>= 2.4)
 Recommends: libxt-dev
 Suggests: openjdk-6-demo, openjdk-6-source, visualvm
 Conflicts: openjdk-6-jre (<< 6b17~pre3-1), openjdk-6-jre-headless (<< 6b17~pre3-1)
-Filename: pool/main/o/openjdk-6/openjdk-6-jdk_6b27-1.12.3-0ubuntu1~12.04.1_i386.deb
-Size: 11101676
-MD5sum: c081ce75b37ce05c067086c19e8db7c2
-SHA1: ad2280cbffd4c530db63c0e39d4f3262fa9bb6de
-SHA256: 8dcbf8e513d9897c1baff92af18601f8ca787925d245a5621eb057ce5b5e8f30
+Filename: pool/main/o/openjdk-6/openjdk-6-jdk_6b27-1.12.5-0ubuntu0.12.04.1_i386.deb
+Size: 11084868
+MD5sum: 5325d63bf1e9ad7df0411f6c75351e55
+SHA1: 78fe2d4a027725d17bba16a5632661cf05ee5e55
+SHA256: 1ba5209002c0961a537248876b3db50b89d2e3b04bb3e332b3390f26a2894d5b
 Description: OpenJDK Development Kit (JDK)
 Multi-Arch: same
 Homepage: http://openjdk.java.net/
@@ -35783,18 +35783,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
 Source: openjdk-6
-Version: 6b27-1.12.3-0ubuntu1~12.04.1
+Version: 6b27-1.12.5-0ubuntu0.12.04.1
 Replaces: openjdk-6-jdk (<< 6b20-1.10~pre2-0ubuntu1), openjdk-6-jre-headless (<< 6b16~pre3)
 Provides: java-runtime, java2-runtime, java5-runtime, java6-runtime
-Depends: openjdk-6-jre-headless (>= 6b27-1.12.3-0ubuntu1~12.04.1), libasound2 (>= 1.0.23), libc6 (>= 2.15), libgif4 (>= 4.1.4), libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 1:0.99.1), libx11-6, libxext6, libxi6, libxrender1, libxtst6, libatk-wrapper-java-jni (>= 0.30.4-0ubuntu2)
+Depends: openjdk-6-jre-headless (>= 6b27-1.12.5-0ubuntu0.12.04.1), libasound2 (>= 1.0.23), libc6 (>= 2.15), libgif4 (>= 4.1.4), libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 1:0.99.1), libx11-6, libxext6, libxi6, libxrender1, libxtst6, libatk-wrapper-java-jni (>= 0.30.4-0ubuntu2)
 Recommends: ttf-dejavu-extra, icedtea-netx
 Suggests: icedtea-plugin
 Conflicts: icedtea-gcjwebplugin (<< 1.0-1ubuntu4), openjdk-6-dbg (<< 6b17~pre3-1), openjdk-6-demo (<< 6b17~pre3-1), openjdk-6-doc (<< 6b17~pre3-1), openjdk-6-jdk (<< 6b17~pre3-1), openjdk-6-jre-headless (<< 6b17~pre3-1), openjdk-6-jre-lib (<< 6b17~pre3-1), openjdk-6-jre-zero (<< 6b17~pre3-1), openjdk-6-source (<< 6b17~pre3-1)
-Filename: pool/main/o/openjdk-6/openjdk-6-jre_6b27-1.12.3-0ubuntu1~12.04.1_i386.deb
-Size: 231992
-MD5sum: 34678d8a9387650af8f56670588e1f5e
-SHA1: 9addfe18d7606e4519f78b4a3103fe009807db00
-SHA256: 54ad5337e058bffcb86ce90b24bbff2bbf69f86d81a43e060b3ab6e0d6b9ce41
+Filename: pool/main/o/openjdk-6/openjdk-6-jre_6b27-1.12.5-0ubuntu0.12.04.1_i386.deb
+Size: 231862
+MD5sum: f54c7477b22c7c7cc88119da3aa77057
+SHA1: 2a13958a1fdec17953c77ea1ea481fb639730393
+SHA256: ba09d3b423bdf907219258af051afc62f8d9669bce70832b35f49b829663ce51
 Description: OpenJDK Java runtime, using Hotspot JIT
 Multi-Arch: same
 Homepage: http://openjdk.java.net/
@@ -35807,24 +35807,24 @@ Task: ubuntu-usb, ubuntu-dvd-live, kubuntu-dvd-live, kubuntu-active-dvd-live, ed
 Package: openjdk-6-jre-headless
 Priority: extra
 Section: interpreters
-Installed-Size: 79855
+Installed-Size: 79947
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
 Source: openjdk-6
-Version: 6b27-1.12.3-0ubuntu1~12.04.1
+Version: 6b27-1.12.5-0ubuntu0.12.04.1
 Replaces: openjdk-6-jdk (<< 6b20-1.9.1-0ubuntu2), openjdk-6-jre (<< 6b23~pre1), openjdk-6-jre-lib (<< 6b23~pre10)
 Provides: java-runtime-headless, java2-runtime-headless, java5-runtime-headless, java6-runtime-headless
-Depends: openjdk-6-jre-lib (>= 6b27-1.12.3-0ubuntu1~12.04.1), ca-certificates-java, tzdata-java, java-common (>= 0.28), libcups2, libjpeg8, libnss3-1d (>= 3.12.9+ckbi-1.82-0ubuntu4), libpcsclite1, libc6 (>= 2.11), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
+Depends: openjdk-6-jre-lib (>= 6b27-1.12.5-0ubuntu0.12.04.1), ca-certificates-java, tzdata-java, java-common (>= 0.28), libcups2, libjpeg8, libnss3-1d (>= 3.12.9+ckbi-1.82-0ubuntu4), libpcsclite1, libc6 (>= 2.11), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
-Recommends: icedtea-6-jre-cacao (= 6b27-1.12.3-0ubuntu1~12.04.1), icedtea-6-jre-jamvm (= 6b27-1.12.3-0ubuntu1~12.04.1)
+Recommends: icedtea-6-jre-cacao (= 6b27-1.12.5-0ubuntu0.12.04.1), icedtea-6-jre-jamvm (= 6b27-1.12.5-0ubuntu0.12.04.1)
 Suggests: libnss-mdns, sun-java6-fonts, ttf-dejavu-extra, fonts-ipafont-gothic, fonts-ipafont-mincho, ttf-wqy-microhei | ttf-wqy-zenhei, ttf-indic-fonts-core, ttf-telugu-fonts, ttf-oriya-fonts, ttf-kannada-fonts, ttf-bengali-fonts
 Conflicts: default-jre-headless (<< 1.6-43~), icedtea-netx (<< 1.1.1-2~), openjdk-6-dbg (<< 6b17~pre3-1), openjdk-6-demo (<< 6b17~pre3-1), openjdk-6-doc (<< 6b17~pre3-1), openjdk-6-jdk (<< 6b17~pre3-1), openjdk-6-jre (<< 6b17~pre3-1), openjdk-6-jre-lib (<< 6b17~pre3-1), openjdk-6-jre-zero (<< 6b17~pre3-1), openjdk-6-source (<< 6b17~pre3-1)
-Filename: pool/main/o/openjdk-6/openjdk-6-jre-headless_6b27-1.12.3-0ubuntu1~12.04.1_i386.deb
-Size: 27319290
-MD5sum: d735e691d6caa9bf097c6cd606f38b6c
-SHA1: 519f55228fa84e65fbdc8765ec589eb70720c5b2
-SHA256: eac9adc8ce730223709988ef799a6434ff3b71bc19e81ef866d9b3b18002297c
+Filename: pool/main/o/openjdk-6/openjdk-6-jre-headless_6b27-1.12.5-0ubuntu0.12.04.1_i386.deb
+Size: 27361530
+MD5sum: 3c122b4113b26e5b6ca28e1bb4c594cb
+SHA1: 32243aef619d3e78891832a1ff0b9fbb54bd5645
+SHA256: a3f348e40b12449f3decf807462a6d0cbec5edaf2b4979ee18da700c9c65ada9
 Description: OpenJDK Java runtime, using Hotspot JIT (headless)
 Multi-Arch: same
 Homepage: http://openjdk.java.net/
@@ -35842,15 +35842,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: all
 Source: openjdk-6
-Version: 6b27-1.12.3-0ubuntu1~12.04.1
+Version: 6b27-1.12.5-0ubuntu0.12.04.1
 Depends: openjdk-6-jre-headless (>= 6b17)
 Conflicts: openjdk-6-jre (<< 6b17~pre3-1), openjdk-6-jre-headless (<< 6b17~pre3-1)
 Breaks: openjdk-6-jre-headless (<< 6b23~pre9-1~)
-Filename: pool/main/o/openjdk-6/openjdk-6-jre-lib_6b27-1.12.3-0ubuntu1~12.04.1_all.deb
-Size: 6144028
-MD5sum: b6074e9db33a4c50a93d7fc61a5ca8e6
-SHA1: 66f5d53218d6eab3e835523a45fc9e60fcff21e4
-SHA256: d46ee738a528692ed354445d172383176de9076a6354f99ab0f8bfed304fba1e
+Filename: pool/main/o/openjdk-6/openjdk-6-jre-lib_6b27-1.12.5-0ubuntu0.12.04.1_all.deb
+Size: 6141714
+MD5sum: c296ee7d89a2e9ea65b9af0e90f6aac6
+SHA1: c2f20739b179fcb7263a7cbda65925cfd6fed56f
+SHA256: e623fc0e9431a54baf9662e9cd141b3e093ae1089085a298a1cd0ee8331e78ae
 Description: OpenJDK Java runtime (architecture independent libraries)
 Multi-Arch: foreign
 Homepage: http://openjdk.java.net/
@@ -35863,19 +35863,19 @@ Task: tomcat-server, ubuntu-usb, ubuntu-dvd-live, kubuntu-dvd-live, kubuntu-acti
 Package: openjdk-6-source
 Priority: extra
 Section: devel
-Installed-Size: 43248
+Installed-Size: 43247
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: all
 Source: openjdk-6
-Version: 6b27-1.12.3-0ubuntu1~12.04.1
-Depends: openjdk-6-jre (>= 6b27-1.12.3-0ubuntu1~12.04.1), openjdk-6-jdk (>= 6b27-1.12.3-0ubuntu1~12.04.1)
+Version: 6b27-1.12.5-0ubuntu0.12.04.1
+Depends: openjdk-6-jre (>= 6b27-1.12.5-0ubuntu0.12.04.1), openjdk-6-jdk (>= 6b27-1.12.5-0ubuntu0.12.04.1)
 Conflicts: openjdk-6-jre (<< 6b17~pre3-1), openjdk-6-jre-headless (<< 6b17~pre3-1)
-Filename: pool/main/o/openjdk-6/openjdk-6-source_6b27-1.12.3-0ubuntu1~12.04.1_all.deb
-Size: 40905956
-MD5sum: 6290358270adfd0dcf598bdee91d715e
-SHA1: 0c1f75914c2d2a3e59dd52493679b5efa4e06105
-SHA256: e5438288d689cb9dd565cdae38b623374ef6557567607ad2fd279dab01acaeec
+Filename: pool/main/o/openjdk-6/openjdk-6-source_6b27-1.12.5-0ubuntu0.12.04.1_all.deb
+Size: 40903286
+MD5sum: 1e6b4cbe9cb3fd05638bdb6d76ccb4ff
+SHA1: c985e72aa0d5f6998d766e2d5be5e5530f285013
+SHA256: 9e7bc990b6673635a8bc874554763b63645b18a012029260ae3d5b3b31888366
 Description: OpenJDK Development Kit (JDK) source files
 Homepage: http://openjdk.java.net/
 Description-md5: 328263bb6fbf81f04f5d459d67244ea0
