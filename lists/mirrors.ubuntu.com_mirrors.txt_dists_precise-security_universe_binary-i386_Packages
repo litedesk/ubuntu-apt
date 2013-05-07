@@ -2641,19 +2641,19 @@ Origin: Ubuntu
 Package: libgl1-mesa-dri-experimental
 Priority: optional
 Section: universe/libs
-Installed-Size: 77
+Installed-Size: 78
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: i386
 Source: mesa
-Version: 8.0.4-0ubuntu0.2
+Version: 8.0.4-0ubuntu0.5
 Depends: libgl1-mesa-dri (>= 7.11.1)
 Breaks: libgl1-mesa-glx (<< 7.11.1), libgl1-mesa-glx-no-multiarch, xserver-xorg-core (<< 2:1.10.2-2), xserver-xorg-core-no-multiarch
-Filename: pool/universe/m/mesa/libgl1-mesa-dri-experimental_8.0.4-0ubuntu0.2_i386.deb
+Filename: pool/universe/m/mesa/libgl1-mesa-dri-experimental_8.0.4-0ubuntu0.5_i386.deb
 Size: 4854
-MD5sum: 11d74defd32f68c04e6ae61aba605be2
-SHA1: 472e6ab58bee58f87350ee453d69b231679cf883
-SHA256: 2258cb53f02ae32eec24d9ccb070f34db30db5f52b7f38fb98a33bdf951036a6
+MD5sum: fa9dbc172042963ddf0431d48f29c855
+SHA1: 8405d9266aa1212b54ef3bd046850f25f702cdc5
+SHA256: c19827bf067fd3908ee1921d28466295fd39e535c00b6e7eee9bdd6e5e33ff0a
 Description: free implementation of the OpenGL API -- Extra DRI modules
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
@@ -2664,19 +2664,19 @@ Origin: Ubuntu
 Package: libgl1-mesa-dri-experimental-dbg
 Priority: extra
 Section: universe/debug
-Installed-Size: 69
+Installed-Size: 70
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: i386
 Source: mesa
-Version: 8.0.4-0ubuntu0.2
-Depends: libgl1-mesa-dri-experimental (= 8.0.4-0ubuntu0.2)
+Version: 8.0.4-0ubuntu0.5
+Depends: libgl1-mesa-dri-experimental (= 8.0.4-0ubuntu0.5)
 Pre-Depends: dpkg (>= 1.15.6~)
-Filename: pool/universe/m/mesa/libgl1-mesa-dri-experimental-dbg_8.0.4-0ubuntu0.2_i386.deb
-Size: 4684
-MD5sum: 39ec22c17954f59c422775e5eee0c171
-SHA1: 789c3c47f8b51caff2eac14aadaa9cdf9b3a4c77
-SHA256: 070a5e403932dfa6002ddd6988f120d7e846bc18405d1c74f0d89463224b5756
+Filename: pool/universe/m/mesa/libgl1-mesa-dri-experimental-dbg_8.0.4-0ubuntu0.5_i386.deb
+Size: 4678
+MD5sum: 2cba3f5833848d35bf36fef5615cb114
+SHA1: 5e24de6e5364289861c9638c131e5db8548c7a91
+SHA256: 9a522855e5341e998e05c58be0385b21b90b494f91cb79d802bc948193c08feb
 Description: Debugging symbols for the experimental Mesa DRI modules
 Multi-Arch: same
 Homepage: http://mesa3d.sourceforge.net/
