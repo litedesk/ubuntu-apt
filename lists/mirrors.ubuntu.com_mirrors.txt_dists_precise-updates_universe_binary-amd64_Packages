@@ -2603,6 +2603,27 @@ Description-md5: f68a5b756df85804375e96bba64d3c18
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: debmirror
+Priority: extra
+Section: universe/net
+Installed-Size: 154
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Joey Hess <joeyh@debian.org>
+Architecture: all
+Version: 1:2.10ubuntu1.1
+Depends: perl (>= 5.10), libnet-perl, libdigest-md5-perl, libdigest-sha-perl, liblockfile-simple-perl, rsync, libcompress-zlib-perl, bzip2, libwww-perl (>= 5.815), libnet-inet6glue-perl
+Recommends: gpgv, patch, ed
+Suggests: gnupg
+Filename: pool/universe/d/debmirror/debmirror_2.10ubuntu1.1_all.deb
+Size: 44496
+MD5sum: 3c557f96f6e22ed67b14b6b3843f017d
+SHA1: 4ba7e24301e2eeef14f94fe923ef28ce721e7b1b
+SHA256: fce1dae073c1048e0a164b4dfe761a8e62373fc2ece5bf88dd0d1b69c701b5bb
+Description: Debian partial mirror script, with ftp and package pool support
+Description-md5: 2b7436d4f5fcda5c9ebcf3fc42599f49
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: debtags
 Priority: optional
 Section: universe/admin

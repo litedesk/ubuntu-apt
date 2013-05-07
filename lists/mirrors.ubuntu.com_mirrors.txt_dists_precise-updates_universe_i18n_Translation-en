@@ -1453,6 +1453,14 @@ Description-en: Emacs helpers specific to Debian users
  See /usr/share/doc/debian-el/README.Debian for a short description of
  all files, or the Info node `debian-el' for details.
 
+Package: debmirror
+Description-md5: 2b7436d4f5fcda5c9ebcf3fc42599f49
+Description-en: Debian partial mirror script, with ftp and package pool support
+ This program downloads and maintains a partial local Debian mirror.
+ It can mirror any combination of architectures, distributions and
+ sections. Files are transferred by ftp, http, hftp or rsync, and package
+ pools are fully supported. It also does locking and updates trace files.
+
 Package: debtags
 Description-md5: 6d63384956db21f1739a404fac784e41
 Description-en: Enables support for package tags
