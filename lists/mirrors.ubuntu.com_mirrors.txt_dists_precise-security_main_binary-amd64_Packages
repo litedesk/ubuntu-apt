@@ -4757,6 +4757,55 @@ Origin: Ubuntu
 Supported: 5y
 Task: minimal
 
+Package: gpsd
+Priority: optional
+Section: misc
+Installed-Size: 224
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bernd Zeimetz <bzed@debian.org>
+Architecture: amd64
+Version: 3.4-2ubuntu0.1
+Depends: netbase | systemd-sysv, lsb-base (>= 3.2-13), libc6 (>= 2.15), libdbus-1-3 (>= 1.0.2), libgps20 (>= 3.3), debconf (>= 0.5) | debconf-2.0
+Recommends: udev, python
+Suggests: gpsd-clients, dbus
+Conflicts: fso-gpsd
+Breaks: udev (<< 136-1)
+Filename: pool/main/g/gpsd/gpsd_3.4-2ubuntu0.1_amd64.deb
+Size: 70372
+MD5sum: b77ad5ce4d59bc2b836e5da895d91e92
+SHA1: f1166e64fb8844d90df061e42a52d1e34346ab8a
+SHA256: 25e64aa63fbafa78183c4adc91befe894a69cb0dd7df13167feb6590c6a2fffa
+Description: Global Positioning System - daemon
+Multi-Arch: foreign
+Homepage: http://www.catb.org/gpsd/
+Description-md5: c27e4861a82769d7dbf1f60e97926430
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full, kubuntu-active, edubuntu-desktop-kde, edubuntu-desktop-gnome
+
+Package: gpsd-dbg
+Priority: extra
+Section: debug
+Installed-Size: 1221
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bernd Zeimetz <bzed@debian.org>
+Architecture: amd64
+Source: gpsd
+Version: 3.4-2ubuntu0.1
+Depends: libc6 (>= 2.14), python2.7-dbg, python-dbg (>= 2.7), python-dbg (<< 2.8), libgps20 (= 3.4-2ubuntu0.1) | gpsd (= 3.4-2ubuntu0.1) | gpsd-clients (= 3.4-2ubuntu0.1) | python-gps (= 3.4-2ubuntu0.1)
+Filename: pool/main/g/gpsd/gpsd-dbg_3.4-2ubuntu0.1_amd64.deb
+Size: 929498
+MD5sum: 49ccf155eea5f31050a3af224208ed04
+SHA1: 5636af30c0c1de67aa424a740480a5e3406a231e
+SHA256: 97f27ae0cd2a41b766e8e7d3b09b2633862649015e0b48ac819db5b592665912
+Description: Global Positioning System - debugging symbols
+Homepage: http://www.catb.org/gpsd/
+Description-md5: 041f80b15ed62343d04f254237bed350
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: haproxy
 Priority: optional
 Section: net
@@ -10222,6 +10271,56 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 Task: kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full, kubuntu-active, edubuntu-desktop-kde
+
+Package: libgps-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 376
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bernd Zeimetz <bzed@debian.org>
+Architecture: amd64
+Source: gpsd
+Version: 3.4-2ubuntu0.1
+Depends: libgps20 (= 3.4-2ubuntu0.1), pkg-config
+Conflicts: gpsd (<< 2.34.dfsg-1)
+Filename: pool/main/g/gpsd/libgps-dev_3.4-2ubuntu0.1_amd64.deb
+Size: 105432
+MD5sum: aa55829180cb9bcdf035c908f7554934
+SHA1: 936108e1e7b50bee031a086ac15492c544dc520f
+SHA256: 2dd025ed4cd42612495b55d46b28de01d8e34b2c1f4737e921395a7f1aec3ca1
+Description: Global Positioning System - development files
+Homepage: http://www.catb.org/gpsd/
+Description-md5: 134afa388f50f3672fe1aadaffd3e556
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgps20
+Priority: optional
+Section: libs
+Installed-Size: 494
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bernd Zeimetz <bzed@debian.org>
+Architecture: amd64
+Source: gpsd
+Version: 3.4-2ubuntu0.1
+Depends: libbluetooth3 (>= 4.91), libc6 (>= 2.15), libdbus-1-3 (>= 1.0.2), libstdc++6 (>= 4.1.1), libusb-1.0-0 (>= 2:1.0.9~rc3)
+Pre-Depends: multiarch-support
+Recommends: gpsd
+Conflicts: fso-gpsd
+Filename: pool/main/g/gpsd/libgps20_3.4-2ubuntu0.1_amd64.deb
+Size: 189100
+MD5sum: 1ea0610ac974a3e8fb967a22dd7ee42b
+SHA1: 29c8d28b335c16f15ecc59d7c211e02979a60bdb
+SHA256: a0297adb3ec37a1b06fbfab35861e9da3fd449f135af375b86fbc0ea72d9bca4
+Description: Global Positioning System - library
+Multi-Arch: same
+Homepage: http://www.catb.org/gpsd/
+Description-md5: dc7f47fc942723b517c23aead9afc361
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full, kubuntu-active, edubuntu-desktop-kde, edubuntu-desktop-gnome
 
 Package: libgssapi-krb5-2
 Priority: standard
@@ -17061,6 +17160,52 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 Task: kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full, kubuntu-active, edubuntu-desktop-kde
+
+Package: libqgpsmm-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 84
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bernd Zeimetz <bzed@debian.org>
+Architecture: amd64
+Source: gpsd
+Version: 3.4-2ubuntu0.1
+Depends: pkg-config, libqgpsmm20 (>= 3.4), libqgpsmm20 (<< 3.4+1~), libgps-dev (>= 3.4), libgps-dev (<< 3.4+1~)
+Filename: pool/main/g/gpsd/libqgpsmm-dev_3.4-2ubuntu0.1_amd64.deb
+Size: 4260
+MD5sum: 8752faf744394a5a63b764e5d6e0c2cc
+SHA1: 9a76e140b9501de2da79aaf68912b6cf6197c49d
+SHA256: d48e8dfd43c01849a188994d742ceebf7e68edadefd181ec6783a44fb7a63de6
+Description: Global Positioning System - Qt wrapper for libgps (development)
+Homepage: http://www.catb.org/gpsd/
+Description-md5: 58dc95e31af1e8f60364cd6d73c81b45
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libqgpsmm20
+Priority: optional
+Section: libs
+Installed-Size: 182
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bernd Zeimetz <bzed@debian.org>
+Architecture: amd64
+Source: gpsd
+Version: 3.4-2ubuntu0.1
+Depends: libc6 (>= 2.14), libdbus-1-3 (>= 1.0.2), libgcc1 (>= 1:4.1.1), libqt4-network (>= 4:4.5.3), libqtcore4 (>= 4:4.7.0~beta1), libstdc++6 (>= 4.1.1)
+Pre-Depends: multiarch-support
+Filename: pool/main/g/gpsd/libqgpsmm20_3.4-2ubuntu0.1_amd64.deb
+Size: 56668
+MD5sum: 942fcf3774c0a644dac21c8bc33fd343
+SHA1: 6a0a9098f245a32d7e5325fedc1d841286470f96
+SHA256: 6b804366ac7bbbe716ee53fd9328c87e8efb967210f4ff8ae7463656631bb259
+Description: Global Positioning System - Qt wrapper for libgps
+Multi-Arch: same
+Homepage: http://www.catb.org/gpsd/
+Description-md5: c10285f0d14c1d7f263002160056c2c5
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
 
 Package: libqt4-dbg
 Priority: extra

@@ -2130,6 +2130,28 @@ Description-en: GNU privacy guard - signature verification tool
  different (and simpler) way to check that the public keys used to
  make the signature are trustworthy.
 
+Package: gpsd
+Description-md5: c27e4861a82769d7dbf1f60e97926430
+Description-en: Global Positioning System - daemon
+ The gpsd service daemon can monitor one or more GPS devices connected to
+ a host computer, making all data on the location and movements of the
+ sensors available to be queried on TCP port 2947.
+ .
+ With gpsd, multiple GPS client applications can share access to devices
+ without contention or loss of data. Also, gpsd responds to queries with a
+ format that is substantially easier to parse than the different standards
+ emitted by GPS devices.
+
+Package: gpsd-dbg
+Description-md5: 041f80b15ed62343d04f254237bed350
+Description-en: Global Positioning System - debugging symbols
+ The gpsd service daemon can monitor one or more GPS devices connected to
+ a host computer, making all data on the location and movements of the
+ sensors available to be queried on TCP port 2947.
+ .
+ This package contains the detached debug symbols for gpsd, gpsd-clients,
+ python-gps, and libgps20.
+
 Package: haproxy
 Description-md5: 29390feb7563fd9f1e74f245bf31a64c
 Description-en: fast and reliable load balancing reverse proxy
@@ -4513,6 +4535,29 @@ Description-en: c++ wrapper library for gpgme
  (GnuPG Made Easy) library.
  .
  This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libgps-dev
+Description-md5: 134afa388f50f3672fe1aadaffd3e556
+Description-en: Global Positioning System - development files
+ The gpsd service daemon can monitor one or more GPS devices connected to
+ a host computer, making all data on the location and movements of the
+ sensors available to be queried on TCP port 2947.
+ .
+ This package contains the header and development files needed to build
+ programs and packages using libgps.
+
+Package: libgps20
+Description-md5: dc7f47fc942723b517c23aead9afc361
+Description-en: Global Positioning System - library
+ The gpsd service daemon can monitor one or more GPS devices connected to
+ a host computer, making all data on the location and movements of the
+ sensors available to be queried on TCP port 2947.
+ .
+ This package provides libgps, a C service library for querying GPS
+ devices. It supports both a low-level interface, which communicates
+ directly with the device to which the GPS is connected, and a high-level
+ interface, which goes through gpsd and is intended for concurrent use by
+ several applications.
 
 Package: libgssapi-krb5-2
 Description-md5: 2dd7fe357b29d0ba6727171c01f0301c
@@ -7651,6 +7696,30 @@ Description-en: library for GpgME++ integration with Qt
  and some Qt datatypes (e.g. QByteArray).
  .
  This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libqgpsmm-dev
+Description-md5: 58dc95e31af1e8f60364cd6d73c81b45
+Description-en: Global Positioning System - Qt wrapper for libgps (development)
+ The gpsd service daemon can monitor one or more GPS devices connected to
+ a host computer, making all data on the location and movements of the
+ sensors available to be queried on TCP port 2947.
+ .
+ This package provides libQgpsmm, the Qt version of libgpsmm.
+ It is a wrapper over libgps, the service library for querying GPS
+ devices. libQgpsmm is available on all platforms which are supported
+ by Qt4.
+
+Package: libqgpsmm20
+Description-md5: c10285f0d14c1d7f263002160056c2c5
+Description-en: Global Positioning System - Qt wrapper for libgps
+ The gpsd service daemon can monitor one or more GPS devices connected to
+ a host computer, making all data on the location and movements of the
+ sensors available to be queried on TCP port 2947.
+ .
+ This package provides libQgpsmm, the Qt version of libgpsmm.
+ It is a wrapper over libgps, the service library for querying GPS
+ devices. libQgpsmm is available on all platforms which are supported
+ by Qt4.
 
 Package: libqt4-dbg
 Description-md5: eb306b2c018309e76cbbf8fad24c95cc

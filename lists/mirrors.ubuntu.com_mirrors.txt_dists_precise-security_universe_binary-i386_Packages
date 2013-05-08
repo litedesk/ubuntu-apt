@@ -1355,6 +1355,29 @@ Description-md5: 55306a4e1e1fd63e577767c1b9f5161c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: gpsd-clients
+Priority: optional
+Section: universe/misc
+Installed-Size: 312
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bernd Zeimetz <bzed@debian.org>
+Architecture: i386
+Source: gpsd
+Version: 3.4-2ubuntu0.1
+Depends: libbluetooth3 (>= 4.91), libc6 (>= 2.15), libgps20 (>= 3.3), libncurses5 (>= 5.5-5~), libtinfo5, python-gps, python-gtk2, python-cairo, python
+Suggests: gpsd
+Conflicts: gps
+Filename: pool/universe/g/gpsd/gpsd-clients_3.4-2ubuntu0.1_i386.deb
+Size: 99270
+MD5sum: d2d68c68a44e3fbdbe8f5cb32cf51c4b
+SHA1: 0dd54c8b2eaa9ce9db24025614ea2f3f1340c71c
+SHA256: 787f329e664bb41f9bd94d3a92e64ebc06ec7d26e7bb0ea96fb653ab0ec7a6cd
+Description: Global Positioning System - clients
+Homepage: http://www.catb.org/gpsd/
+Description-md5: 82a6a897230e9aec640eba7efba8a15d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: host
 Priority: standard
 Section: universe/net
@@ -6590,6 +6613,31 @@ Enhances: python-pylons
 Homepage: http://pypi.python.org/pypi/Beaker
 Python-Version: 2.7
 Description-md5: 3ec4866e63ad668875efce306e972134
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: python-gps
+Priority: optional
+Section: universe/python
+Installed-Size: 255
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bernd Zeimetz <bzed@debian.org>
+Architecture: i386
+Source: gpsd
+Version: 3.4-2ubuntu0.1
+Replaces: gpsd-clients (<< 2.34.dfsg-1)
+Provides: python2.7-gps
+Depends: libc6 (>= 2.4), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8)
+Recommends: gpsd
+Conflicts: python-json
+Filename: pool/universe/g/gpsd/python-gps_3.4-2ubuntu0.1_i386.deb
+Size: 67952
+MD5sum: 14cdace6b939cf5c9794796be87eb451
+SHA1: d37dae0608bfcaafa85db70bff8d2e71afab0ce1
+SHA256: ed991dc15b3b365c8ba5ecdcfbef53d942743fbe21649f39f04907ebe4da59c7
+Description: Global Positioning System - Python libraries
+Homepage: http://www.catb.org/gpsd/
+Description-md5: aa660a07e5137c29eea0851e706c8966
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 

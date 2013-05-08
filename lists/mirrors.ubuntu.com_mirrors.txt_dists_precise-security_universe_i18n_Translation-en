@@ -658,6 +658,16 @@ Description-en: GNU privacy guard - a free PGP replacement (cURL)
  compatible with PGP2, because that uses IDEA (which is patented in
  a number of countries).
 
+Package: gpsd-clients
+Description-md5: 82a6a897230e9aec640eba7efba8a15d
+Description-en: Global Positioning System - clients
+ The gpsd service daemon can monitor one or more GPS devices connected to
+ a host computer, making all data on the location and movements of the
+ sensors available to be queried on TCP port 2947.
+ .
+ This package contains auxiliary tools and example clients for monitoring and
+ testing gpsd.
+
 Package: host
 Description-md5: 3c0b6923194ef2929ab26358ef75c037
 Description-en: Transitional package
@@ -3340,6 +3350,18 @@ Description-en: cache and session library
   * Create functions for automatic call-backs to create new cache copies after
     expiration
   * Fine-grained toggling of back-ends, keys, and expiration per Cache object
+
+Package: python-gps
+Description-md5: aa660a07e5137c29eea0851e706c8966
+Description-en: Global Positioning System - Python libraries
+ The gpsd service daemon can monitor one or more GPS devices connected to
+ a host computer, making all data on the location and movements of the
+ sensors available to be queried on TCP port 2947.
+ .
+ This package contains a Python interface to connect to gpsd, together with
+ a module providing a controlled testing environment. It also ships two tools
+ which utilize the interface: gpsprof for latency-profiling, and gpsfake to
+ simulate a GPS by playing back a logfile.
 
 Package: python-libcloud
 Description-md5: a6adc599312d7effe82aaa12752bfd4a
