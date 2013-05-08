@@ -2920,6 +2920,16 @@ Description-en: Openstreetmap.org viewer / wayfinder / search client
  This package requires additional data files which can be downloaded
  freely from openstreetmap.org.
 
+Package: gpsd-clients
+Description-md5: 82a6a897230e9aec640eba7efba8a15d
+Description-en: Global Positioning System - clients
+ The gpsd service daemon can monitor one or more GPS devices connected to
+ a host computer, making all data on the location and movements of the
+ sensors available to be queried on TCP port 2947.
+ .
+ This package contains auxiliary tools and example clients for monitoring and
+ testing gpsd.
+
 Package: gptsync
 Description-md5: ce07eb99c307f220965af01660567455
 Description-en: GPT and MBR partition tables synchronisation tool
@@ -9315,6 +9325,18 @@ Description-en: Python wrapper for the GNUTLS library
  methods on the Twisted reactor once imported (the methods are
  automatically attached to the reactor by simply importing the
  GNUTLS Twisted interface module).
+
+Package: python-gps
+Description-md5: aa660a07e5137c29eea0851e706c8966
+Description-en: Global Positioning System - Python libraries
+ The gpsd service daemon can monitor one or more GPS devices connected to
+ a host computer, making all data on the location and movements of the
+ sensors available to be queried on TCP port 2947.
+ .
+ This package contains a Python interface to connect to gpsd, together with
+ a module providing a controlled testing environment. It also ships two tools
+ which utilize the interface: gpsprof for latency-profiling, and gpsfake to
+ simulate a GPS by playing back a logfile.
 
 Package: python-grip
 Description-md5: 8e8838f88716445f10c3aeceaa1dfe36
