@@ -23042,22 +23042,22 @@ Task: ubuntustudio-desktop
 Package: virtualbox
 Priority: optional
 Section: universe/misc
-Installed-Size: 45859
+Installed-Size: 45860
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: i386
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Replaces: virtualbox-ose (<< 4.0.6-dfsg-1~)
 Depends: libc6 (>= 2.15), libcurl3 (>= 7.16.2-1), libgcc1 (>= 1:4.1.1), libgsoap1, libpng12-0 (>= 1.2.13-4), libpython2.7 (>= 2.7), libsdl1.2debian (>= 1.2.10-1), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.6), libvncserver0, libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxml2 (>= 2.7.4), libxmu6, libxt6, zlib1g (>= 1:1.1.4), python (>= 2.5), python-central (>= 0.6.11), adduser
-Recommends: virtualbox-dkms (= 4.1.12-dfsg-2ubuntu0.2) | virtualbox-source (= 4.1.12-dfsg-2ubuntu0.2), virtualbox-qt (= 4.1.12-dfsg-2ubuntu0.2), libgl1-mesa-glx | libgl1, libqt4-opengl (>= 4:4.5.3), libqtcore4 (>= 4:4.5.3), libqtgui4 (>= 4:4.5.3)
+Recommends: virtualbox-dkms (= 4.1.12-dfsg-2ubuntu0.3) | virtualbox-source (= 4.1.12-dfsg-2ubuntu0.3), virtualbox-qt (= 4.1.12-dfsg-2ubuntu0.3), libgl1-mesa-glx | libgl1, libqt4-opengl (>= 4:4.5.3), libqtcore4 (>= 4:4.5.3), libqtgui4 (>= 4:4.5.3)
 Suggests: virtualbox-guest-additions-iso, vde2
 Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0
 Breaks: virtualbox-ose (<< 4.0.6-dfsg-1~)
-Filename: pool/universe/v/virtualbox/virtualbox_4.1.12-dfsg-2ubuntu0.2_i386.deb
-Size: 15814856
-MD5sum: 122474d3868e3358c62ca53ae53ea51c
-SHA1: 210caa4f0ae7fb50eed4582963e5af27fa46e346
-SHA256: 95c7a5f82d6638dfaef1c69de45bd845d5bf4963784177e22f1f11ef0627a54d
+Filename: pool/universe/v/virtualbox/virtualbox_4.1.12-dfsg-2ubuntu0.3_i386.deb
+Size: 15819144
+MD5sum: 3a55e6639437571d307ee680940f9696
+SHA1: 0ec2b14e3ecd3dc004666fb76a82425766bf78c5
+SHA256: fd376ec3af32c4d84b317d838e40778ee30f409dc040650ec919de7d098ea529
 Description: x86 virtualization solution - base binaries
 Homepage: http://www.virtualbox.org/
 Python-Version: >= 2.5
@@ -23073,15 +23073,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Replaces: virtualbox-ose-dbg (<< 4.0.6-dfsg-1~)
-Depends: virtualbox (= 4.1.12-dfsg-2ubuntu0.2) | virtualbox-guest-utils (= 4.1.12-dfsg-2ubuntu0.2)
+Depends: virtualbox (= 4.1.12-dfsg-2ubuntu0.3) | virtualbox-guest-utils (= 4.1.12-dfsg-2ubuntu0.3)
 Breaks: virtualbox-ose-dbg (<< 4.0.6-dfsg-1~)
-Filename: pool/universe/v/virtualbox/virtualbox-dbg_4.1.12-dfsg-2ubuntu0.2_i386.deb
-Size: 76987296
-MD5sum: 5e3a50781c22d90ec043931f7a9bf281
-SHA1: 715945648e0841b3038877d11b4ea0735d866a6a
-SHA256: b1370eee040586a7effae7d8f2a651abd177453bab6216bfa033d33411b275f3
+Filename: pool/universe/v/virtualbox/virtualbox-dbg_4.1.12-dfsg-2ubuntu0.3_i386.deb
+Size: 76992544
+MD5sum: b17a9ad1d150b29de0e14cb39e9bfbfb
+SHA1: dd6a0399ac736c03e716b7c58d0bdb88bbec3467
+SHA256: 5257fd6d010501c98b4393db318955ab0f5cc56ac4dc53b91781019f67593563
 Description: x86 virtualization solution - debugging symbols
 Homepage: http://www.virtualbox.org/
 Description-md5: b271b8956187eca407d52354cf368938
@@ -23091,20 +23091,20 @@ Origin: Ubuntu
 Package: virtualbox-dkms
 Priority: optional
 Section: universe/kernel
-Installed-Size: 3807
+Installed-Size: 3808
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Replaces: virtualbox-ose-dkms (<< 4.0.6-dfsg-1~), virtualbox-ose-source (<< 3.1.0-dfsg-1~)
-Depends: dkms (>= 2.1.0.0), virtualbox (>= 4.1.12-dfsg-2ubuntu0.2)
+Depends: dkms (>= 2.1.0.0), virtualbox (>= 4.1.12-dfsg-2ubuntu0.3)
 Breaks: virtualbox-ose-dkms (<< 4.0.6-dfsg-1~)
-Filename: pool/universe/v/virtualbox/virtualbox-dkms_4.1.12-dfsg-2ubuntu0.2_all.deb
-Size: 675170
-MD5sum: 80b4c55021da5103042e9fc1aa9df02d
-SHA1: 2508e53ce5dc18dbfd03ca5052e75838b6c1adf0
-SHA256: 29479eeacab25a457c14e884ef45ed3795ae270bc20729f08508c559cf9bc87a
+Filename: pool/universe/v/virtualbox/virtualbox-dkms_4.1.12-dfsg-2ubuntu0.3_all.deb
+Size: 675582
+MD5sum: 426f841f1760b882ea974234e93c643b
+SHA1: 86ad635bb39ffe1f42f5747cf85b5730c1fbbed9
+SHA256: 8a43284441f66d4582ab1ab632dfbcc3b1f70a635a95e733d328a4f597c58c10
 Description: x86 virtualization solution - kernel module sources for dkms
 Homepage: http://www.virtualbox.org/
 Description-md5: 4d42f0fe51c4a92f2aed5071f84524ae
@@ -23119,15 +23119,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Replaces: virtualbox-ose-fuse (<< 4.0.6-dfsg-1~)
-Depends: libc6 (>= 2.4), libfuse2 (>= 2.8.1), virtualbox (= 4.1.12-dfsg-2ubuntu0.2)
+Depends: libc6 (>= 2.4), libfuse2 (>= 2.8.1), virtualbox (= 4.1.12-dfsg-2ubuntu0.3)
 Breaks: virtualbox-ose-fuse (<< 4.0.6-dfsg-1~)
-Filename: pool/universe/v/virtualbox/virtualbox-fuse_4.1.12-dfsg-2ubuntu0.2_i386.deb
-Size: 31098
-MD5sum: fd12cfde58dbc3b0fbfdd786c7f00075
-SHA1: 807ad6a6cd5ef89d3af29ac8b652a63917b6337a
-SHA256: 82cd8e1496669cbc8040170f9c87138459a2d8baadb726ddfa4cf73b0ff9deaf
+Filename: pool/universe/v/virtualbox/virtualbox-fuse_4.1.12-dfsg-2ubuntu0.3_i386.deb
+Size: 31000
+MD5sum: 66faf4390c33e1d1fcdd9e9735171327
+SHA1: eae3f30b845acbc1de2782b8b3d6fd9cca5d0812
+SHA256: f4de60fc6199b93edad7876993ca717cbd71617dd04ce1723ee661080b530dd8
 Description: x86 virtualization solution - virtual filesystem
 Homepage: http://www.virtualbox.org/
 Description-md5: 2ceb020e632a81a18f883722967558cc
@@ -23137,20 +23137,20 @@ Origin: Ubuntu
 Package: virtualbox-guest-dkms
 Priority: optional
 Section: universe/kernel
-Installed-Size: 3290
+Installed-Size: 3291
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Replaces: virtualbox-ose-guest-dkms (<< 4.0.6-dfsg-1~), virtualbox-ose-guest-source (<< 3.1.0-dfsg-1~)
-Depends: dkms (>= 2.1.0.0), virtualbox-guest-utils (>= 4.1.12-dfsg-2ubuntu0.2)
+Depends: dkms (>= 2.1.0.0), virtualbox-guest-utils (>= 4.1.12-dfsg-2ubuntu0.3)
 Breaks: virtualbox-ose-guest-dkms (<< 4.0.6-dfsg-1~)
-Filename: pool/universe/v/virtualbox/virtualbox-guest-dkms_4.1.12-dfsg-2ubuntu0.2_all.deb
-Size: 596136
-MD5sum: a4eb85f55fc4aadef58f590f98cbb4e4
-SHA1: 231e84f6749849140b47a25e476ce745c5c5e62a
-SHA256: 2c981962b53fbd1cc4162398d033c42e1cf1c11efd097c261ed4b8bc070ba6a3
+Filename: pool/universe/v/virtualbox/virtualbox-guest-dkms_4.1.12-dfsg-2ubuntu0.3_all.deb
+Size: 596446
+MD5sum: 1069483f837102717b1676e55c76c1b2
+SHA1: 72ec0dad5cbf4faade97c88c519ed9eed46ceedf
+SHA256: 99a2bfdb36f8021677b7ce2b815123ac315bdf8097b972e5779f16619cfb3df0
 Description: x86 virtualization solution - guest addition module source for dkms
 Homepage: http://www.virtualbox.org/
 Modaliases: vboxguest(pci:v000080EEd0000CAFEsv00000000sd00000000bc*sc*i*)
@@ -23161,21 +23161,21 @@ Origin: Ubuntu
 Package: virtualbox-guest-source
 Priority: optional
 Section: universe/kernel
-Installed-Size: 599
+Installed-Size: 610
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Replaces: virtualbox-ose-guest-source (<< 4.0.6-dfsg-1~)
 Depends: build-essential, debhelper (>= 5), bzip2, kbuild
 Recommends: module-assistant
 Breaks: virtualbox-ose-guest-source (<< 4.0.6-dfsg-1~)
-Filename: pool/universe/v/virtualbox/virtualbox-guest-source_4.1.12-dfsg-2ubuntu0.2_all.deb
-Size: 505090
-MD5sum: cde174f87199e5f6a9dfdee69d298902
-SHA1: 1fde3a33198d1f1dc505be5d7e6bdff626bbb212
-SHA256: 5d1b590bce1c66dd8f18ac94290125005fd463a348a859081bf2e0c45688e58e
+Filename: pool/universe/v/virtualbox/virtualbox-guest-source_4.1.12-dfsg-2ubuntu0.3_all.deb
+Size: 515944
+MD5sum: 07bf204574019e6502025807526697a2
+SHA1: dff8a9ae3fb232bcc996e564876c1ddeac305e9d
+SHA256: 282b4876e6f0bd1c54c569bd140c7d03c189ece18f5d602630ac6826ff46179f
 Description: x86 virtualization solution - guest addition module source
 Homepage: http://www.virtualbox.org/
 Description-md5: fd60384a9f99f9f360a9dcc85b3fd6cc
@@ -23190,16 +23190,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Replaces: virtualbox-ose-guest-utils (<< 4.0.6-dfsg-1~)
 Depends: libc6 (>= 2.15), libpam0g (>= 0.99.7.1), adduser, pciutils
-Recommends: virtualbox-guest-dkms (= 4.1.12-dfsg-2ubuntu0.2) | virtualbox-guest-source (= 4.1.12-dfsg-2ubuntu0.2), virtualbox-guest-x11 (= 4.1.12-dfsg-2ubuntu0.2)
+Recommends: virtualbox-guest-dkms (= 4.1.12-dfsg-2ubuntu0.3) | virtualbox-guest-source (= 4.1.12-dfsg-2ubuntu0.3), virtualbox-guest-x11 (= 4.1.12-dfsg-2ubuntu0.3)
 Breaks: virtualbox-ose-guest-utils (<< 4.0.6-dfsg-1~)
-Filename: pool/universe/v/virtualbox/virtualbox-guest-utils_4.1.12-dfsg-2ubuntu0.2_i386.deb
-Size: 576910
-MD5sum: 050a90deb7c6acea438e6eb40e50be54
-SHA1: 40872919f6082a7c869416bee622ede3a380f324
-SHA256: d72c3478ae9bce0c7ded289fca6b9a981d0d6ce3891998e5f0d1ff7ceb56f335
+Filename: pool/universe/v/virtualbox/virtualbox-guest-utils_4.1.12-dfsg-2ubuntu0.3_i386.deb
+Size: 575556
+MD5sum: 31b605cbb6318ab5e2d709deb464cb20
+SHA1: f4107ce64a396980b77718a80c333bc7fc7dc7dc
+SHA256: 29bf6f426964bec9418c9d145f8bb8046c325f74e70d27f242c48748185ad36c
 Description: x86 virtualization solution - non-X11 guest utilities
 Homepage: http://www.virtualbox.org/
 Description-md5: 0c420aa026ad03a572b15c6e38dbebf7
@@ -23214,16 +23214,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Replaces: virtualbox-ose-guest-utils (<< 2.2.0-dfsg-1~), virtualbox-ose-guest-x11 (<< 4.0.6-dfsg-1~)
 Provides: xorg-driver-video
-Depends: libc6 (>= 2.15), libx11-6, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxmu6, libxrandr2, libxt6, xorg-video-abi-11, xserver-xorg-core (>= 2:1.10.99.901), virtualbox-guest-utils (= 4.1.12-dfsg-2ubuntu0.2)
+Depends: libc6 (>= 2.15), libx11-6, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxmu6, libxrandr2, libxt6, xorg-video-abi-11, xserver-xorg-core (>= 2:1.10.99.901), virtualbox-guest-utils (= 4.1.12-dfsg-2ubuntu0.3)
 Breaks: virtualbox-ose-guest-x11 (<< 4.0.6-dfsg-1~)
-Filename: pool/universe/v/virtualbox/virtualbox-guest-x11_4.1.12-dfsg-2ubuntu0.2_i386.deb
-Size: 1534344
-MD5sum: 59968ef106e70106fd967e599e7025d9
-SHA1: f83589ff580425b5f6a34b134a9bfad6defcef35
-SHA256: 46ee996810af42aec4869c93b8c71dd8c5e307bd918569ebc3bdc18cd70d79ec
+Filename: pool/universe/v/virtualbox/virtualbox-guest-x11_4.1.12-dfsg-2ubuntu0.3_i386.deb
+Size: 1533212
+MD5sum: b6253457545184922cc0f1bf9c040a4e
+SHA1: 40107fd18383a0846cf6e83f24c8e31bccd977fa
+SHA256: 802c955519c42e34fe602dd272cf34f02bd8efc3a2bc6f14066783aa7afe6961
 Description: x86 virtualization solution - X11 guest utilities
 Homepage: http://www.virtualbox.org/
 Description-md5: 3487afde0b114ec7e205b11f1dd3f7a5
@@ -23238,13 +23238,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Depends: virtualbox
-Filename: pool/universe/v/virtualbox/virtualbox-ose_4.1.12-dfsg-2ubuntu0.2_all.deb
-Size: 22204
-MD5sum: 767878a317ab1de75c7a73915b3f605a
-SHA1: 7533c76c6eaac8fb9b57167afb0ff6e1318c789a
-SHA256: 5b8880354e9df36c6e4cd064697a725068c76a3cee7ec48537584c4ed3c03350
+Filename: pool/universe/v/virtualbox/virtualbox-ose_4.1.12-dfsg-2ubuntu0.3_all.deb
+Size: 22190
+MD5sum: 81fe8f85584963e5548793f1cd4829a8
+SHA1: fa13138797b07db2ee5c4eba87e5cae83f021bad
+SHA256: 57fd2693c96fbf17f50a7a67e0eb0d54564c41b5ab876f36f9b1db6a87f7e055
 Description: transitional package for virtualbox
 Homepage: http://www.virtualbox.org/
 Description-md5: 22f6e6d8b13ad9150e23f6a5da2402b8
@@ -23259,13 +23259,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Depends: virtualbox-dbg
-Filename: pool/universe/v/virtualbox/virtualbox-ose-dbg_4.1.12-dfsg-2ubuntu0.2_all.deb
-Size: 22216
-MD5sum: 0b3973bcb0f7241171f3a141f8a59f1b
-SHA1: 4343af79bddc30c5758e91d0842683457a3e3366
-SHA256: 3c619e3d858d762f73094192ccb26d106f267b84d69e0dcae20c9aa52552501a
+Filename: pool/universe/v/virtualbox/virtualbox-ose-dbg_4.1.12-dfsg-2ubuntu0.3_all.deb
+Size: 22206
+MD5sum: fe947b7ee1f7fcbec627b9a295fde1b6
+SHA1: 0aab9c3c768891de7a5dfe7ec0d29b2f5325462e
+SHA256: 7c7e7fe1d94268d32a4049fd17c48e36af9e9fabbb6eb92e5d041a2953f5a2ab
 Description: transitional package for virtualbox-dbg
 Homepage: http://www.virtualbox.org/
 Description-md5: 7b92ded25a694ce174fbd3b6721d3b6e
@@ -23280,13 +23280,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Depends: virtualbox-dkms
-Filename: pool/universe/v/virtualbox/virtualbox-ose-dkms_4.1.12-dfsg-2ubuntu0.2_all.deb
-Size: 22212
-MD5sum: 06e97f9707db6262eda561dae3e8a5ff
-SHA1: 6949f666c01ba424640dde6d90032689b404d9db
-SHA256: c51143305248b2fbaee2a337265626226db7c022f3dc9dbee823def34aa3ca1a
+Filename: pool/universe/v/virtualbox/virtualbox-ose-dkms_4.1.12-dfsg-2ubuntu0.3_all.deb
+Size: 22206
+MD5sum: 9fffd295b88b98cbc9cdced173271d2a
+SHA1: 09b12dc178df32705993f4dd92bd803f4d4d2063
+SHA256: bade06267cb2a6a8a038016fbc27a75c47ff011e092958042910bdbedab51943
 Description: transitional package for virtualbox-dkms
 Homepage: http://www.virtualbox.org/
 Description-md5: bf98200362f25189b8b23b4ddb6346c6
@@ -23301,13 +23301,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Depends: virtualbox-fuse
-Filename: pool/universe/v/virtualbox/virtualbox-ose-fuse_4.1.12-dfsg-2ubuntu0.2_all.deb
-Size: 22218
-MD5sum: 7b40bff157bfaaaba86d7413d6443cf5
-SHA1: fabff3c14a5aa4d0bc23d0ea84e053fa606f0615
-SHA256: 40cd13a80a080db8fb056949684146c090d08f9351aa62d2f616d900c17552f6
+Filename: pool/universe/v/virtualbox/virtualbox-ose-fuse_4.1.12-dfsg-2ubuntu0.3_all.deb
+Size: 22208
+MD5sum: 3562c6154a71b63925f00b0bee7070c7
+SHA1: e0bdd0e529436f14ec7a778a1a8fdc853202b4cd
+SHA256: e92a59b7729aaed98baadcab0a0ec588810ea77cd3457fa3ddbd168a8ece77f2
 Description: transitional package for virtualbox-fuse
 Homepage: http://www.virtualbox.org/
 Description-md5: 7caeaf4c7507596d7c4419d66fb4182e
@@ -23322,13 +23322,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Depends: virtualbox-guest-dkms
-Filename: pool/universe/v/virtualbox/virtualbox-ose-guest-dkms_4.1.12-dfsg-2ubuntu0.2_all.deb
-Size: 22236
-MD5sum: 20830d2e1842bd1b943e71d271babdd3
-SHA1: 00d1739194899cc4b02b9aafe3f5bfb9220d0b29
-SHA256: c661bb8d1f6d84c70d4cd3a295c884d1f2f6e0747bcb812406aedc3c81308013
+Filename: pool/universe/v/virtualbox/virtualbox-ose-guest-dkms_4.1.12-dfsg-2ubuntu0.3_all.deb
+Size: 22232
+MD5sum: 03dc2e52d230cb889d3bcd049e06133f
+SHA1: 34196ea30c1f9682c832fbc22c3b8e778dae957e
+SHA256: 8cd41d6879ccbfafacc48c3d74c03c14ac02f223b24d2a414781e9f4d3978548
 Description: transitional package for virtualbox-guest-dkms
 Homepage: http://www.virtualbox.org/
 Description-md5: 766967028bc8b88b95e38f62285036c6
@@ -23343,13 +23343,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Depends: virtualbox-guest-source
-Filename: pool/universe/v/virtualbox/virtualbox-ose-guest-source_4.1.12-dfsg-2ubuntu0.2_all.deb
-Size: 22226
-MD5sum: 7dfccd9e36b4d19bad911da9e538f3b3
-SHA1: bad949b37fab59e856fc8942d96d218a4cd22b2b
-SHA256: 68791f5ea05d83e7dddceefe48fc34364fc66720a6736d61b290a2aa3e4e1831
+Filename: pool/universe/v/virtualbox/virtualbox-ose-guest-source_4.1.12-dfsg-2ubuntu0.3_all.deb
+Size: 22220
+MD5sum: 62544a6c705d52e32db96da38957fbb0
+SHA1: ea4abe915c06c1b114981fb994f93eb780f544f0
+SHA256: cfc9794ba23f39f5662d2ae7b1a13c5d65535d331ea27bb7dda94a95bff2c2b1
 Description: transitional package for virtualbox-guest-source
 Homepage: http://www.virtualbox.org/
 Description-md5: 80e9d2db29386374ad657c78377a181e
@@ -23364,13 +23364,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Depends: virtualbox-guest-utils
-Filename: pool/universe/v/virtualbox/virtualbox-ose-guest-utils_4.1.12-dfsg-2ubuntu0.2_all.deb
-Size: 22230
-MD5sum: b8947b1efef0c5a5fcc3e8d3803173bf
-SHA1: 7017102a50c245130fa01374f7d6767b3b2c4dee
-SHA256: 5828f3356ed71e5472976d2399e68e37f6ff5a035c5b069ee590d1e46cca45de
+Filename: pool/universe/v/virtualbox/virtualbox-ose-guest-utils_4.1.12-dfsg-2ubuntu0.3_all.deb
+Size: 22224
+MD5sum: cbb822c14346ab85a8029a6f98ad2c67
+SHA1: 0ad75643d866664b9d6a206d51c910f7a7d69a89
+SHA256: 9edff02b34ad3653c9cd3ed74e573a4d90ed8dda42b5f7f5ac7e934a737e02ed
 Description: transitional package for virtualbox-guest-utils
 Homepage: http://www.virtualbox.org/
 Description-md5: ef6b431011825dc079daa9bb6d7f24c4
@@ -23385,13 +23385,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Depends: virtualbox-guest-x11
-Filename: pool/universe/v/virtualbox/virtualbox-ose-guest-x11_4.1.12-dfsg-2ubuntu0.2_all.deb
-Size: 22236
-MD5sum: 3028b130e90c9f7ffa3ef443792d1c05
-SHA1: aeea3acfa734cbd973fafc30674baad951962e42
-SHA256: 16975bc628a7fa489c3dff596fe9b27bfa1ef7a79301852a94b989efc577275d
+Filename: pool/universe/v/virtualbox/virtualbox-ose-guest-x11_4.1.12-dfsg-2ubuntu0.3_all.deb
+Size: 22222
+MD5sum: 4676567e64ab929c36ebac40123c0df8
+SHA1: d3c69ce5a4aad1e0ea7c64a02461aa0519e5db0f
+SHA256: f5ad2116211c1e75b96a6dcd10807e7235cfc11cbf1dc6573b5cc310216537eb
 Description: transitional package for virtualbox-guest-x11
 Homepage: http://www.virtualbox.org/
 Description-md5: 564410041a942d1b05fcecd3f88d9d45
@@ -23406,13 +23406,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Depends: virtualbox-qt
-Filename: pool/universe/v/virtualbox/virtualbox-ose-qt_4.1.12-dfsg-2ubuntu0.2_all.deb
-Size: 22214
-MD5sum: 095c70a759d9cfd87df57fa0cc2df81f
-SHA1: d44383436ea0a1b2b0573e5e378eabe45fb9aaab
-SHA256: 5f7daaedf5fbb91a41638cbfdaa8cb993fe7ac49373e132ac33f409abbaa79b1
+Filename: pool/universe/v/virtualbox/virtualbox-ose-qt_4.1.12-dfsg-2ubuntu0.3_all.deb
+Size: 22204
+MD5sum: be3852c298910e51d1f2c178cc0b8190
+SHA1: 5efe7669dbe040c617eca7a2c5373e962570b5ed
+SHA256: 926a0a3e5d8b6d77dd432eb0a1bd1d99c3d17b250a641517e69a9c7d391fbfe4
 Description: transitional package for virtualbox-qt
 Homepage: http://www.virtualbox.org/
 Description-md5: f66f285ae4da8c0e2167052f77fcd712
@@ -23427,13 +23427,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Depends: virtualbox-source
-Filename: pool/universe/v/virtualbox/virtualbox-ose-source_4.1.12-dfsg-2ubuntu0.2_all.deb
-Size: 22216
-MD5sum: 738cf2f2621d981f09069ec508c83a36
-SHA1: b5b9c3ff665025907baa975e6834e9cd0b820ea8
-SHA256: 5348b694820a51d26d595da9ed3b0ff5f34c434f506e8afd2ba90ad0892fed4f
+Filename: pool/universe/v/virtualbox/virtualbox-ose-source_4.1.12-dfsg-2ubuntu0.3_all.deb
+Size: 22210
+MD5sum: a4b115abca7312af526253170669c945
+SHA1: d946496c9eeb0f82f6ed56201de3f9d412df17d2
+SHA256: 7525bcc4701011f5178b896e9dc9ee0f4d771e57d866ff1cf9e1950ef70bc6ef
 Description: transitional package for virtualbox-source
 Homepage: http://www.virtualbox.org/
 Description-md5: 96b920b3e995167cd343aa1af3b2f36f
@@ -23448,15 +23448,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Replaces: virtualbox (<< 4.1.6-dfsg-2~), virtualbox-ose (<< 2.2.0-dfsg-1~), virtualbox-ose-qt (<< 4.0.6-dfsg-1~)
-Depends: libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libgl1-mesa-glx | libgl1, libqt4-network (>= 4:4.5.3), libqt4-opengl (>= 4:4.7.2), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libsdl1.2debian (>= 1.2.10-1), libstdc++6 (>= 4.6), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxinerama1, virtualbox (= 4.1.12-dfsg-2ubuntu0.2)
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libgl1-mesa-glx | libgl1, libqt4-network (>= 4:4.5.3), libqt4-opengl (>= 4:4.7.2), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libsdl1.2debian (>= 1.2.10-1), libstdc++6 (>= 4.6), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxinerama1, virtualbox (= 4.1.12-dfsg-2ubuntu0.3)
 Breaks: virtualbox (<< 4.1.6-dfsg-2~), virtualbox-ose-qt (<< 4.0.6-dfsg-1~)
-Filename: pool/universe/v/virtualbox/virtualbox-qt_4.1.12-dfsg-2ubuntu0.2_i386.deb
-Size: 6521490
-MD5sum: dadd27b8d804aec2a453d6491468e558
-SHA1: eb5ed26fb9f8ac19c527f8eb510e987f9a051eb3
-SHA256: 1096044b68db21fd8ece8016738ef7f36aaba034df4c106ae86a38d803d34ef3
+Filename: pool/universe/v/virtualbox/virtualbox-qt_4.1.12-dfsg-2ubuntu0.3_i386.deb
+Size: 6523198
+MD5sum: b2163d437281350b9ebf93268bfb093b
+SHA1: cc3a8ba360afec067dff9408c73d0a6b792f5a07
+SHA256: 18ee74d602e224ce83657e740520a4e01dd3c328218d57948f5f6f177e4decfa
 Description: x86 virtualization solution - Qt based user interface
 Homepage: http://www.virtualbox.org/
 Description-md5: 41ed29f36ba23b3ce0155f9a8efcff60
@@ -23466,21 +23466,21 @@ Origin: Ubuntu
 Package: virtualbox-source
 Priority: optional
 Section: universe/kernel
-Installed-Size: 668
+Installed-Size: 673
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
 Source: virtualbox
-Version: 4.1.12-dfsg-2ubuntu0.2
+Version: 4.1.12-dfsg-2ubuntu0.3
 Replaces: virtualbox-ose-source (<< 4.0.6-dfsg-1~)
 Depends: build-essential, debhelper (>= 5), bzip2, kbuild
 Recommends: module-assistant
 Breaks: virtualbox-ose-source (<< 4.0.6-dfsg-1~)
-Filename: pool/universe/v/virtualbox/virtualbox-source_4.1.12-dfsg-2ubuntu0.2_all.deb
-Size: 576166
-MD5sum: a438fd06b3abdcf962e347d7e992eb01
-SHA1: f1691bee737bd112f8945898a3dacbd72af4103f
-SHA256: cd4fc11442e547f8747a394c18eb1c881a15c743f4a116996d774e0601548d07
+Filename: pool/universe/v/virtualbox/virtualbox-source_4.1.12-dfsg-2ubuntu0.3_all.deb
+Size: 580470
+MD5sum: 185d6c78a71c854d968ad86e676cfe91
+SHA1: 68da4b457584aedc8687bdef26c7615dc97673f8
+SHA256: 73bb972d7b56748d263d0eb20f6b34b625ddaf796614ab59fca41abb364da97e
 Description: x86 virtualization solution - kernel module source
 Homepage: http://www.virtualbox.org/
 Description-md5: acc86918ad52775dbe11e2ad558ba197
