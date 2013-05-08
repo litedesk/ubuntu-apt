@@ -40687,19 +40687,19 @@ Supported: 5y
 Package: libdrm-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 705
+Installed-Size: 738
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: libdrm
-Version: 2.4.39-0ubuntu0.2
+Version: 2.4.43-0ubuntu0.0.1
 Replaces: linux-libc-dev (<< 2.6.32-10)
-Depends: libdrm2 (= 2.4.39-0ubuntu0.2), libdrm-intel1 (= 2.4.39-0ubuntu0.2), libdrm-radeon1 (= 2.4.39-0ubuntu0.2), libdrm-nouveau1a (= 2.4.39-0ubuntu0.2), libdrm-nouveau2 (= 2.4.39-0ubuntu0.2), libkms1 (= 2.4.39-0ubuntu0.2)
-Filename: pool/main/libd/libdrm/libdrm-dev_2.4.39-0ubuntu0.2_amd64.deb
-Size: 182050
-MD5sum: 3f19e720f893c370051903e0c2672aa5
-SHA1: b4e60c19b8ba4f49f4a89e81be1ce50de6a6772f
-SHA256: 8e51b4cee2b324280833949575272c09fc2f6c24e7dbdf474c1911161d93385e
+Depends: libdrm2 (= 2.4.43-0ubuntu0.0.1), libdrm-intel1 (= 2.4.43-0ubuntu0.0.1), libdrm-radeon1 (= 2.4.43-0ubuntu0.0.1), libdrm-nouveau1a (= 2.4.43-0ubuntu0.0.1), libdrm-nouveau2 (= 2.4.43-0ubuntu0.0.1), libkms1 (= 2.4.43-0ubuntu0.0.1)
+Filename: pool/main/libd/libdrm/libdrm-dev_2.4.43-0ubuntu0.0.1_amd64.deb
+Size: 200930
+MD5sum: c7d56538332c848e4e3984972f19bdcf
+SHA1: 5474ab03d19b47536fd5eb46e5b7d0103e575bf2
+SHA256: 02c6259134d9c02fe6e90d86182f80345bbfbfce59e649b0fd69888eaa39ae4a
 Description: Userspace interface to kernel DRM services -- development files
 Description-md5: 26367cfc3b23b21ad8b59e1f0974ff45
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -40739,14 +40739,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: libdrm
-Version: 2.4.39-0ubuntu0.2
+Version: 2.4.43-0ubuntu0.0.1
 Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.38), libpciaccess0
 Pre-Depends: multiarch-support
-Filename: pool/main/libd/libdrm/libdrm-intel1_2.4.39-0ubuntu0.2_amd64.deb
-Size: 62736
-MD5sum: 4a6a0a3bd621bdd7c4bbb85919597d51
-SHA1: 5da4b788a8b8a3ec6acda6caa0060e2ac8a45737
-SHA256: 764e8f2158abfa934df9bfb326f42f191ac5082459b390cbe57e66ec125f25a2
+Filename: pool/main/libd/libdrm/libdrm-intel1_2.4.43-0ubuntu0.0.1_amd64.deb
+Size: 63134
+MD5sum: 1057dbb8f406e800a729c397f8e32cdb
+SHA1: f200fb63165aba7dc6a239867bb3ae2443ed57b4
+SHA256: 35fd9b94cfdd8e28f6b732714031996c84e0beee15b966d75fbd6de0dd341781
 Description: Userspace interface to intel-specific kernel DRM services -- runtime
 Multi-Arch: same
 Description-md5: a0ec25778ef74dfe186d7ace2946e2e9
@@ -40758,18 +40758,18 @@ Task: minimal
 Package: libdrm-intel1-dbg
 Priority: extra
 Section: libdevel
-Installed-Size: 146
+Installed-Size: 147
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: libdrm
-Version: 2.4.39-0ubuntu0.2
-Depends: libdrm-intel1 (= 2.4.39-0ubuntu0.2)
-Filename: pool/main/libd/libdrm/libdrm-intel1-dbg_2.4.39-0ubuntu0.2_amd64.deb
-Size: 74902
-MD5sum: 2cbeed34c988e1689037c7c6783c1a78
-SHA1: 1424599b9d2bb58e6797284c3c4da4fcd65e3246
-SHA256: b2f7f0e475103eade644432691a4156768d9fa5ddfe78185b4f47181337c8d55
+Version: 2.4.43-0ubuntu0.0.1
+Depends: libdrm-intel1 (= 2.4.43-0ubuntu0.0.1)
+Filename: pool/main/libd/libdrm/libdrm-intel1-dbg_2.4.43-0ubuntu0.0.1_amd64.deb
+Size: 76504
+MD5sum: 61492268ce43abf862e60eed20a3bb25
+SHA1: 18642eb5dda14d59811434f4d89051a4aa50e272
+SHA256: 393e1535d758cb7f51e3e139410fd3b5b7db72cacd4693171c40314e969b9742
 Description: Userspace interface to intel-specific kernel DRM services -- debugging symbols
 Multi-Arch: same
 Description-md5: 479d5fd9b792b0e4005a9def65feed19
@@ -40965,15 +40965,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: libdrm
-Version: 2.4.39-0ubuntu0.2
+Version: 2.4.43-0ubuntu0.0.1
 Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.3)
 Pre-Depends: multiarch-support
 Conflicts: libdrm-nouveau1
-Filename: pool/main/libd/libdrm/libdrm-nouveau1a_2.4.39-0ubuntu0.2_amd64.deb
-Size: 14008
-MD5sum: 9dfa2f0b046a9a5dd78797dc1e4e7ca2
-SHA1: 2c7b3adbe2f63500f0628c2e31be87f1abb1c088
-SHA256: c95c89215859f5465b3e1a718f3e64518921fda0a2d634c74af744bfb8755ae8
+Filename: pool/main/libd/libdrm/libdrm-nouveau1a_2.4.43-0ubuntu0.0.1_amd64.deb
+Size: 14016
+MD5sum: 842d19197d9b1e1bbf2b064391fc70ff
+SHA1: 11e5ac98203b1d2cce54a76d2eb83b4c6c5df1a7
+SHA256: bf678a1b4c417ec3df8cd92ef53d58b8159f287107c71066947a3469f718f341
 Description: Userspace interface to nouveau-specific kernel DRM services -- runtime
 Multi-Arch: same
 Description-md5: e9d35521833d93a9e60b0579def3745c
@@ -40990,14 +40990,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: libdrm
-Version: 2.4.39-0ubuntu0.2
-Depends: libdrm-nouveau1a (= 2.4.39-0ubuntu0.2)
+Version: 2.4.43-0ubuntu0.0.1
+Depends: libdrm-nouveau1a (= 2.4.43-0ubuntu0.0.1)
 Conflicts: libdrm-nouveau1-dbg
-Filename: pool/main/libd/libdrm/libdrm-nouveau1a-dbg_2.4.39-0ubuntu0.2_amd64.deb
-Size: 26206
-MD5sum: 4bec0a2407174131e70790a3547b50c5
-SHA1: 941934718843da18e76b22eecbfe188987fbbcdc
-SHA256: f3826b092ab106d112889b633810e2c728cda1d5e317241cd2b10eae7822a1f7
+Filename: pool/main/libd/libdrm/libdrm-nouveau1a-dbg_2.4.43-0ubuntu0.0.1_amd64.deb
+Size: 26226
+MD5sum: 9b0006f49689f76aaef1501e1701c4b1
+SHA1: 5fbba051a36ab8431b4caba87cdd84422a0202d9
+SHA256: 86f2ef60ce20030e4e7a47211b762479f458721ca7dde4756d98c2edd92d616a
 Description: Userspace interface to nouveau-specific kernel DRM -- debugging symbols
 Multi-Arch: same
 Description-md5: 04f3874d8b5416331bb5ae8bf6fd83a2
@@ -41013,14 +41013,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: libdrm
-Version: 2.4.39-0ubuntu0.2
+Version: 2.4.43-0ubuntu0.0.1
 Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.38)
 Pre-Depends: multiarch-support
-Filename: pool/main/libd/libdrm/libdrm-nouveau2_2.4.39-0ubuntu0.2_amd64.deb
-Size: 15056
-MD5sum: 57b9ca92a34744c9fcec9bd0175ece74
-SHA1: 393e2e056a5ecf50cbdddec5438ed0fe27d42833
-SHA256: e6d4db1aa8fe68080b66bec993805494a4758858ad3755c64c4f388a8f28dbfa
+Filename: pool/main/libd/libdrm/libdrm-nouveau2_2.4.43-0ubuntu0.0.1_amd64.deb
+Size: 15282
+MD5sum: 707905ffdf54d5c710a558462ccbe50b
+SHA1: 724459c617eb50a5fbbe1ade2ebc703f0327095a
+SHA256: ff415519cfd09e308a1dc5eb1d85705cc83de10bb0db0782d1ff66aed504d592
 Description: Userspace interface to nouveau-specific kernel DRM services -- runtime
 Multi-Arch: same
 Description-md5: e9d35521833d93a9e60b0579def3745c
@@ -41031,18 +41031,18 @@ Supported: 18m
 Package: libdrm-nouveau2-dbg
 Priority: extra
 Section: debug
-Installed-Size: 89
+Installed-Size: 90
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: libdrm
-Version: 2.4.39-0ubuntu0.2
-Depends: libdrm-nouveau2 (= 2.4.39-0ubuntu0.2)
-Filename: pool/main/libd/libdrm/libdrm-nouveau2-dbg_2.4.39-0ubuntu0.2_amd64.deb
-Size: 25506
-MD5sum: 8e959f7a0e566e9e55384c3840109dbd
-SHA1: 2a0ec5946279a6ca3979e2816ab35041ab9cc804
-SHA256: 7129f14541e71668a36c6893ca81e8fc08a33e8b760a17e460be6d2a5810a898
+Version: 2.4.43-0ubuntu0.0.1
+Depends: libdrm-nouveau2 (= 2.4.43-0ubuntu0.0.1)
+Filename: pool/main/libd/libdrm/libdrm-nouveau2-dbg_2.4.43-0ubuntu0.0.1_amd64.deb
+Size: 25934
+MD5sum: d894e1b88e3fffe4e66b49a394fcd52d
+SHA1: 5f63cf29c12803521d65d7e46c941f4e3fb28818
+SHA256: 144caa0da5b533c57d4d45d7236cc136659ffd452e33ad29cb0e7088182e3ad8
 Description: Userspace interface to nouveau-specific kernel DRM -- debugging symbols
 Multi-Arch: same
 Description-md5: bc7863f85d24e4be61774283f8d6e55d
@@ -41053,19 +41053,19 @@ Supported: 18m
 Package: libdrm-radeon1
 Priority: required
 Section: libs
-Installed-Size: 103
+Installed-Size: 107
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: libdrm
-Version: 2.4.39-0ubuntu0.2
+Version: 2.4.43-0ubuntu0.0.1
 Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.38)
 Pre-Depends: multiarch-support
-Filename: pool/main/libd/libdrm/libdrm-radeon1_2.4.39-0ubuntu0.2_amd64.deb
-Size: 22636
-MD5sum: 2fc45a5a1f6867aa115bc4b2195db91e
-SHA1: b42fb7f77394e585c1b731e23674bd94810ab5fa
-SHA256: 799b63aca5d1a86b992c6ff417c92f2dce43cf761060eae6e261199b056c734b
+Filename: pool/main/libd/libdrm/libdrm-radeon1_2.4.43-0ubuntu0.0.1_amd64.deb
+Size: 24098
+MD5sum: 6f5ef5860b6dddca90a267546fb56341
+SHA1: 9fbe364174ef08e1b9f02ace5b3788e0426d0b42
+SHA256: 7760333ffc96158746ea70d0865a1ab2c333c8a2d2813711b16a41d7c027ddc2
 Description: Userspace interface to radeon-specific kernel DRM services -- runtime
 Multi-Arch: same
 Description-md5: fbdefd428f29bf05163182b24d86f2a4
@@ -41077,18 +41077,18 @@ Task: minimal
 Package: libdrm-radeon1-dbg
 Priority: extra
 Section: debug
-Installed-Size: 101
+Installed-Size: 105
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: libdrm
-Version: 2.4.39-0ubuntu0.2
-Depends: libdrm-radeon1 (= 2.4.39-0ubuntu0.2)
-Filename: pool/main/libd/libdrm/libdrm-radeon1-dbg_2.4.39-0ubuntu0.2_amd64.deb
-Size: 36126
-MD5sum: 4f5763e4284ec67c3e1efec52c20f271
-SHA1: 388918c20e0239c443e7852a9e316021b29bde33
-SHA256: 859e61b83fafe986f2201e892bcf2f1c9c8dfd65ab64396a129f80fa2a85c675
+Version: 2.4.43-0ubuntu0.0.1
+Depends: libdrm-radeon1 (= 2.4.43-0ubuntu0.0.1)
+Filename: pool/main/libd/libdrm/libdrm-radeon1-dbg_2.4.43-0ubuntu0.0.1_amd64.deb
+Size: 38620
+MD5sum: b38570a7e51bb5e3c2764fa67341dce8
+SHA1: 232eb21e19a1b04ed69c13e03ae88548e98b0dd6
+SHA256: 50a41311a579af17b21f33418b4691ddab91348925f8212e38ea09db99645c88
 Description: Userspace interface to radeon-specific kernel DRM services -- debugging symbols
 Multi-Arch: same
 Description-md5: 56a3655eb825ab9851b19faa2d4fad7a
@@ -41104,14 +41104,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: libdrm
-Version: 2.4.39-0ubuntu0.2
+Version: 2.4.43-0ubuntu0.0.1
 Depends: libc6 (>= 2.14)
 Pre-Depends: multiarch-support
-Filename: pool/main/libd/libdrm/libdrm2_2.4.39-0ubuntu0.2_amd64.deb
-Size: 26262
-MD5sum: cdb02e01989a107227f2836773e531ce
-SHA1: 24763006a1af6e81ddf5fac6e65fee899b3636ea
-SHA256: f233ee4dfdab2584ea735fc247c0bb9cf333cda61e8526ee9be1d431d1326e88
+Filename: pool/main/libd/libdrm/libdrm2_2.4.43-0ubuntu0.0.1_amd64.deb
+Size: 26174
+MD5sum: 88df0cf168ba0b128156ab2f6912f315
+SHA1: cc3d48d7d686a46bfc76578ba7688806ad40814b
+SHA256: 1fb84b8d068b1855106a8238ac65bcb0e00027f691811419cf9aa09a8127503c
 Description: Userspace interface to kernel DRM services -- runtime
 Multi-Arch: same
 Description-md5: aefc4200d84a6f2aee6f342bdd88dc24
@@ -41128,13 +41128,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: libdrm
-Version: 2.4.39-0ubuntu0.2
-Depends: libdrm2 (= 2.4.39-0ubuntu0.2)
-Filename: pool/main/libd/libdrm/libdrm2-dbg_2.4.39-0ubuntu0.2_amd64.deb
-Size: 44168
-MD5sum: 299b667c01eb1db8459f6c58f06fcd01
-SHA1: 85e4783cec570dcc5aaa6e8c9dba27425366d143
-SHA256: d0276823dd83cd2379bb10d55f02d400ff9735d78e5b5f69e297687cc439c2e5
+Version: 2.4.43-0ubuntu0.0.1
+Depends: libdrm2 (= 2.4.43-0ubuntu0.0.1)
+Filename: pool/main/libd/libdrm/libdrm2-dbg_2.4.43-0ubuntu0.0.1_amd64.deb
+Size: 44132
+MD5sum: 734cd3f7134406415218a3c70522a7d2
+SHA1: 41c98ff2d257465fae3b6501099f88266700644b
+SHA256: 86b89262e0485cae457c184ed19fa900eaf2618c639e6de3e2a26c0ad96c7454
 Description: Userspace interface to kernel DRM services -- debugging symbols
 Multi-Arch: same
 Description-md5: 4ca6944e55bdf07eb73a9e7bebdd7276
@@ -48404,14 +48404,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: libdrm
-Version: 2.4.39-0ubuntu0.2
+Version: 2.4.43-0ubuntu0.0.1
 Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.25)
 Pre-Depends: multiarch-support
-Filename: pool/main/libd/libdrm/libkms1_2.4.39-0ubuntu0.2_amd64.deb
-Size: 9126
-MD5sum: bdedcac9d5df7612986e118b6f09f3c8
-SHA1: 83586cb0f963848b1b51f254295ef2c5d3f536ac
-SHA256: 253476400a1f47de085a050a4e830639026a8f0fc51b50dc9e1ab4f31cb35cab
+Filename: pool/main/libd/libdrm/libkms1_2.4.43-0ubuntu0.0.1_amd64.deb
+Size: 9156
+MD5sum: 43fdc8bc44eb6919121bd2d5a096a06f
+SHA1: 114112614633716c1d0175da1fc3c5987ab2e01f
+SHA256: ce80d429226d3652a7ffca82aa8695e3f9a59a90fa27d1d5e624e1c79035681e
 Description: Userspace interface to kernel DRM buffer management
 Multi-Arch: same
 Description-md5: 8c32999bd630c356e352acf3c407ccf5
@@ -48428,13 +48428,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Source: libdrm
-Version: 2.4.39-0ubuntu0.2
-Depends: libkms1 (= 2.4.39-0ubuntu0.2)
-Filename: pool/main/libd/libdrm/libkms1-dbg_2.4.39-0ubuntu0.2_amd64.deb
-Size: 19332
-MD5sum: 67974afcb088a887dc7ab16649e60cc8
-SHA1: 0e52717b5c2db9c8b50e9f6b8ae89025e4e4ce58
-SHA256: dacea82f82609f511acb88be500709976510e3b3ac130ee42a54f6c93a8082da
+Version: 2.4.43-0ubuntu0.0.1
+Depends: libkms1 (= 2.4.43-0ubuntu0.0.1)
+Filename: pool/main/libd/libdrm/libkms1-dbg_2.4.43-0ubuntu0.0.1_amd64.deb
+Size: 19356
+MD5sum: 7eccebd5430a1737adfdea7edb030b5d
+SHA1: 3af1cf5b4087f2289851ecdfdfa7eec2cc70ccf4
+SHA256: a293076e150e7db3b626b04af5a27ea810048fb7d91c8e7875dea993fef78541
 Description: Userspace interface to kernel DRM buffer management -- debugging symbols
 Multi-Arch: same
 Description-md5: e9c5159499f85a69eb29fe3e69813557
