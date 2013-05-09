@@ -181,33 +181,6 @@ Origin: Ubuntu
 Supported: 5y
 Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
 
-Package: alsa-utils
-Priority: optional
-Section: sound
-Installed-Size: 2048
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
-Architecture: amd64
-Version: 1.0.25-1ubuntu5.2
-Provides: audio-mixer
-Depends: linux-sound-base (>= 1.0.15-1), lsb-base (>= 3.0-9), module-init-tools, whiptail | dialog, upstart-job, libasound2 (>= 1.0.25), libc6 (>= 2.15), libncursesw5 (>= 5.6+20080119), libsamplerate0 (>= 0.1.7), libtinfo5
-Pre-Depends: dpkg (>= 1.15.7.2)
-Recommends: alsa-base (>= 1.0.15-1), pciutils
-Conflicts: alsa-base (<< 1.0.9b-3), udev (<< 0.060)
-Filename: pool/main/a/alsa-utils/alsa-utils_1.0.25-1ubuntu5.2_amd64.deb
-Size: 1117050
-MD5sum: d889c2329930ff11eb991ec6e3ba5730
-SHA1: 408ec8b71df1c383ad5101d465e7b5233a54f34c
-SHA256: 4f28d4069e6498112a4691b6ab63a4e71eea869b7ca2973d58a09df2f48d6d2f
-Description: Utilities for configuring and using ALSA
-Multi-Arch: foreign
-Homepage: http://www.alsa-project.org/
-Description-md5: ccb773c61c75de01309f6f6a8ee3621c
-Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Origin: Ubuntu
-Supported: 5y
-Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
-
 Package: amavisd-new
 Priority: extra
 Section: mail
@@ -37042,17 +37015,17 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: alsa-lib
-Version: 1.0.25-1ubuntu10.2
+Version: 1.0.25-1ubuntu10.1
 Replaces: ia32-libs (<< 1.9)
-Depends: libasound2 (= 1.0.25-1ubuntu10.2), libc6-i386 (>= 2.7)
+Depends: libasound2 (= 1.0.25-1ubuntu10.1), libc6-i386 (>= 2.7)
 Pre-Depends: dpkg (>= 1.15.7.2)
 Suggests: lib32asound2-plugins (>= 1.0.18)
 Breaks: ia32-libs (<< 1.9), libasound2-plugins (<< 1.0.18), libc6-i386 (<= 2.9-18)
-Filename: pool/main/a/alsa-lib/lib32asound2_1.0.25-1ubuntu10.2_amd64.deb
-Size: 394102
-MD5sum: 75e1a91e725db49f67e58fa2199e1d1b
-SHA1: 9d6bbe9f1597cba30424192537d98716f327f793
-SHA256: 9363ec26b38c972d537b93caa9b9ab7c143c448694646f9e7d2d7605d77c1dc3
+Filename: pool/main/a/alsa-lib/lib32asound2_1.0.25-1ubuntu10.1_amd64.deb
+Size: 394100
+MD5sum: 25d0637d48d81ba1e945b965b83ce953
+SHA1: 98ed9a8b225ab26b1b203580278d26a9556a035d
+SHA256: 39defcdfb5d625a2125b8a09756fb07e141333b08c48b92459eb5316388a4614
 Description: shared library for ALSA applications (32 bit)
 Homepage: http://www.alsa-project.org/
 Description-md5: 1cb93bc064527a1e2b28db6e2f809126
@@ -37068,15 +37041,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: alsa-lib
-Version: 1.0.25-1ubuntu10.2
-Depends: lib32asound2 (= 1.0.25-1ubuntu10.2), libasound2-dev (= 1.0.25-1ubuntu10.2)
+Version: 1.0.25-1ubuntu10.1
+Depends: lib32asound2 (= 1.0.25-1ubuntu10.1), libasound2-dev (= 1.0.25-1ubuntu10.1)
 Suggests: libasound2-doc
 Breaks: libc6-i386 (<= 2.9-18)
-Filename: pool/main/a/alsa-lib/lib32asound2-dev_1.0.25-1ubuntu10.2_amd64.deb
-Size: 974
-MD5sum: 8cacc83573317df137dd066f90c1f09e
-SHA1: a9bbaef77756b12f01350e23e543a85fb978c4aa
-SHA256: f0b67fdb1ffcd50e0e4e08f4f5369f6f9fd4a4c03d96766955e0cd55e019f885
+Filename: pool/main/a/alsa-lib/lib32asound2-dev_1.0.25-1ubuntu10.1_amd64.deb
+Size: 978
+MD5sum: a066a6e38ba2ff5b366845052163d39d
+SHA1: a9238bcb629012de33f825b2a387c3d5eec8a77a
+SHA256: 949139d97be2c2494e984d4751eb4be0f6c4728b90ee9ee998e606cfdfa4cb06
 Description: shared library for ALSA applications -- development files (32 bit)
 Homepage: http://www.alsa-project.org/
 Description-md5: f496de93bd613c23d5e753b61c6cfedc
@@ -37606,21 +37579,21 @@ Supported: 18m
 Package: libasound2
 Priority: optional
 Section: libs
-Installed-Size: 1362
+Installed-Size: 1356
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: alsa-lib
-Version: 1.0.25-1ubuntu10.2
+Version: 1.0.25-1ubuntu10.1
 Depends: libc6 (>= 2.14)
 Pre-Depends: multiarch-support, dpkg (>= 1.15.7.2)
 Suggests: libasound2-plugins (>= 1.0.18), libasound2-python
 Breaks: bluez-alsa (<= 4.94-2), libasound2-plugin-equal (<= 0.6-1), libasound2-plugins (<< 1.0.24)
-Filename: pool/main/a/alsa-lib/libasound2_1.0.25-1ubuntu10.2_amd64.deb
-Size: 428180
-MD5sum: 55e5a3d8b6496bb48bbc5e97deb1f1dc
-SHA1: 4f2281b72130f12a23eec7751c35bad45d51c263
-SHA256: 9922f28a3e51d59c8f908344b5e9dba22960fc2adc32c4825deb65b3018d710b
+Filename: pool/main/a/alsa-lib/libasound2_1.0.25-1ubuntu10.1_amd64.deb
+Size: 427960
+MD5sum: dfee0ad46a6913114c66233467a859de
+SHA1: 453b44817839cccad338e695aab2a68de8e2e4c1
+SHA256: d316897c68da8873c651ef04c256141cfede6a72a037d9702e993623e22aaef1
 Description: shared library for ALSA applications
 Multi-Arch: same
 Homepage: http://www.alsa-project.org/
@@ -37638,13 +37611,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: alsa-lib
-Version: 1.0.25-1ubuntu10.2
-Depends: libasound2 (= 1.0.25-1ubuntu10.2)
-Filename: pool/main/a/alsa-lib/libasound2-dbg_1.0.25-1ubuntu10.2_amd64.deb
-Size: 935390
-MD5sum: 143a107227b7a536e69314c8f2ca6354
-SHA1: e6110c0304ce06572e259546259bdfecb7ff2cfb
-SHA256: 4af6d7895d8cd4d1125a9205b3b60403306e338dbf351323897afb8e962cf381
+Version: 1.0.25-1ubuntu10.1
+Depends: libasound2 (= 1.0.25-1ubuntu10.1)
+Filename: pool/main/a/alsa-lib/libasound2-dbg_1.0.25-1ubuntu10.1_amd64.deb
+Size: 935370
+MD5sum: 456e095d05bcaf04de30a973baf01b76
+SHA1: da4f61d3d0c8a021ff80c8279689d42cf8151b71
+SHA256: 57feea1a6cc26e4e3b71c0fd37260a55e54163e24cb37270a31f1636b1a2103f
 Description: debugging symbols for libasound2
 Homepage: http://www.alsa-project.org/
 Description-md5: 232fcf589d65c42d570a335193dc6cfd
@@ -37660,15 +37633,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: alsa-lib
-Version: 1.0.25-1ubuntu10.2
+Version: 1.0.25-1ubuntu10.1
 Provides: libasound-dev
-Depends: libasound2 (= 1.0.25-1ubuntu10.2), libc6-dev | libc-dev
+Depends: libasound2 (= 1.0.25-1ubuntu10.1), libc6-dev | libc-dev
 Suggests: libasound2-doc
-Filename: pool/main/a/alsa-lib/libasound2-dev_1.0.25-1ubuntu10.2_amd64.deb
-Size: 70934
-MD5sum: 86bea0144bc8e4d01b8bc1e3014c8c82
-SHA1: c9eda8e180b6cbd5d7a0437c186306735b48ccd6
-SHA256: 72ccfa3e385f0afd3728ed7d35cb63f43dd141f5f6d2ca3b42ec7e28009e8425
+Filename: pool/main/a/alsa-lib/libasound2-dev_1.0.25-1ubuntu10.1_amd64.deb
+Size: 71256
+MD5sum: 1f63499b8cb86b4c73d76ce62e98c254
+SHA1: 91beca19f06d908bce1bc65887fd67ff594e981e
+SHA256: c6f294d67d3db4519cd30ed3aa745e833f792d22ec51e3940d97d596bdbba130
 Description: shared library for ALSA applications -- development files
 Homepage: http://www.alsa-project.org/
 Description-md5: 6049c8294e480247b4c02744f09d51fe
@@ -37684,14 +37657,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
 Architecture: all
 Source: alsa-lib
-Version: 1.0.25-1ubuntu10.2
+Version: 1.0.25-1ubuntu10.1
 Depends: libjs-jquery
 Suggests: libasound2-dev
-Filename: pool/main/a/alsa-lib/libasound2-doc_1.0.25-1ubuntu10.2_all.deb
-Size: 1341946
-MD5sum: 91e18f4434b2cb9220f685a2afb19f71
-SHA1: c4d91947056273d10c77f51a6564665b5e1af820
-SHA256: 16a6c4fb20c8c458fc7a54780eb1a8b3efd5980851a3d8e0df1e80fe133e04d6
+Filename: pool/main/a/alsa-lib/libasound2-doc_1.0.25-1ubuntu10.1_all.deb
+Size: 1336102
+MD5sum: 9823be486b54429037daceca7a1ae473
+SHA1: 793972e237a2f0082ba854630df18a72a8c6ad93
+SHA256: a89173b969f8ca7ecf612fd1f934c607c970f827d69d51fd56ea57b96de54580
 Description: documentation for user-space ALSA application programming
 Homepage: http://www.alsa-project.org/
 Description-md5: 73dfd0644e1f116cf7c39ae3f4f19a1f
