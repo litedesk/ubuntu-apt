@@ -39470,6 +39470,29 @@ Origin: Ubuntu
 Supported: 5y
 Task: kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full, kubuntu-active, edubuntu-desktop-kde
 
+Package: telepathy-idle
+Priority: optional
+Section: net
+Installed-Size: 250
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Version: 0.1.11-2ubuntu0.1
+Provides: telepathy-connection-manager
+Depends: libc6 (>= 2.4), libdbus-glib-1-2 (>= 0.88), libglib2.0-0 (>= 2.28.0), libtelepathy-glib0 (>= 0.15.9)
+Filename: pool/main/t/telepathy-idle/telepathy-idle_0.1.11-2ubuntu0.1_i386.deb
+Size: 64286
+MD5sum: 0b8f07a390e78798f6171c6b1634db95
+SHA1: 89f79a3ccb9f6606d9e82b38d3b1286f284be1c4
+SHA256: 73f7fd3c787e6c40b6e0ed2f76e39ddd17773609f946618ebbb27a9146151f60
+Description: IRC connection manager for Telepathy
+Homepage: http://sourceforge.net/projects/telepathy-idle
+Description-md5: 81765bfce6d13cf4efec368f0325217a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb
+
 Package: thunderbird
 Priority: optional
 Section: mail

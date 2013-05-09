@@ -86689,6 +86689,29 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: telepathy-idle
+Priority: optional
+Section: net
+Installed-Size: 252
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 0.1.11-2ubuntu0.1
+Provides: telepathy-connection-manager
+Depends: libc6 (>= 2.4), libdbus-glib-1-2 (>= 0.88), libglib2.0-0 (>= 2.28.0), libtelepathy-glib0 (>= 0.15.9)
+Filename: pool/main/t/telepathy-idle/telepathy-idle_0.1.11-2ubuntu0.1_amd64.deb
+Size: 63604
+MD5sum: 18dce59004c7da9d90667bff9a784a4b
+SHA1: 975b00742fbfe7f7ad8c3e2976dc7729f44cbd85
+SHA256: a9eef0a57ee6bf6681d989c9c093c0458ee268d0df16b424797ceb19a567bf6c
+Description: IRC connection manager for Telepathy
+Homepage: http://sourceforge.net/projects/telepathy-idle
+Description-md5: 81765bfce6d13cf4efec368f0325217a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb
+
 Package: telepathy-mission-control-5
 Priority: optional
 Section: net
