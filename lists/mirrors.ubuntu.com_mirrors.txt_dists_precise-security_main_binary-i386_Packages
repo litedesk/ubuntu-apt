@@ -28729,6 +28729,25 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: linux-generic-lts-raring
+Priority: optional
+Section: metapackages
+Installed-Size: 27
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-meta-lts-raring
+Version: 3.8.0.19.18
+Depends: linux-image-generic-lts-raring, linux-headers-generic-lts-raring
+Filename: pool/main/l/linux-meta-lts-raring/linux-generic-lts-raring_3.8.0.19.18_i386.deb
+Size: 1740
+MD5sum: 8ebb29bc316470b42e2493aa46241d16
+SHA1: 49291a2e73ec92755fc3787de3fe5a8a59b46d6f
+SHA256: a910e7c05f2880dd0628037e2d4f993dce1e7e13bca439e5ff7d8587f896d8e4
+Description: Generic Linux kernel image and headers
+Description-md5: 25f903038c92ee94e474b11119858716
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-generic-pae
 Priority: optional
 Section: metapackages
@@ -30494,6 +30513,25 @@ Description-md5: 49b52776080593de169d30338dd93a48
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
+
+Package: linux-headers-generic-lts-raring
+Priority: optional
+Section: devel
+Installed-Size: 27
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-meta-lts-raring
+Version: 3.8.0.19.18
+Depends: linux-headers-3.8.0-19-generic
+Filename: pool/main/l/linux-meta-lts-raring/linux-headers-generic-lts-raring_3.8.0.19.18_i386.deb
+Size: 2310
+MD5sum: d674c512ad28ea2ec6ae57678c75b048
+SHA1: 78bc06c7ed9c33fffd7349e101faabba85fbaaa8
+SHA256: 39dcf952ccffa981c54c35dce23c051cddf0194ad09b7cb2ccd1baf87496ce01
+Description: Generic Linux kernel headers
+Description-md5: 49b52776080593de169d30338dd93a48
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
 
 Package: linux-headers-generic-pae
 Priority: optional
@@ -33232,6 +33270,25 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: linux-image-generic-lts-raring
+Priority: optional
+Section: metapackages
+Installed-Size: 27
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-meta-lts-raring
+Version: 3.8.0.19.18
+Depends: linux-image-3.8.0-19-generic, linux-firmware
+Filename: pool/main/l/linux-meta-lts-raring/linux-image-generic-lts-raring_3.8.0.19.18_i386.deb
+Size: 2312
+MD5sum: 22dfbcc77cc02bb53950ef1787a8b5cb
+SHA1: ef98ed3d513d92d356af5662898fb5ced438ddef
+SHA256: 3d3dec24b7af3faad1289fe7808c52a177ef18bc5c9515cbe293860e88bea52d
+Description: Generic Linux kernel image
+Description-md5: c7e4fbc023632f2e538ff93b600ef34c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-image-generic-pae
 Priority: optional
 Section: metapackages
@@ -34544,6 +34601,25 @@ Description-md5: ea15db5fd6e3e3cff13446d5e28af7c8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
+
+Package: linux-tools-lts-raring
+Priority: optional
+Section: kernel
+Installed-Size: 27
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-meta-lts-raring
+Version: 3.8.0.19.18
+Depends: linux-tools-3.8.0-19
+Filename: pool/main/l/linux-meta-lts-raring/linux-tools-lts-raring_3.8.0.19.18_i386.deb
+Size: 2294
+MD5sum: 3b6b81bb573aa6a93fcb56f62a61d7ec
+SHA1: 52bbe8a13f373bc4d2107461c599acdbbf959caa
+SHA256: 5a7ac2e0b43190e79ec144937fe2c9751c6e6cf1d3dc37caea7db6b8500ceeec
+Description: Linux kernel versioned Tools
+Description-md5: ea15db5fd6e3e3cff13446d5e28af7c8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
 
 Package: linux-virtual
 Priority: optional
