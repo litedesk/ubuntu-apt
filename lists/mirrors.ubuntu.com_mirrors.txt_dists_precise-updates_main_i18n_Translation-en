@@ -91,6 +91,19 @@ Description-en: ALSA driver configuration files
  .
  ALSA is the Advanced Linux Sound Architecture.
 
+Package: alsa-utils
+Description-md5: ccb773c61c75de01309f6f6a8ee3621c
+Description-en: Utilities for configuring and using ALSA
+ Included tools:
+  - amixer: command line mixer
+  - alsamixer: curses mixer
+  - amidi: read from and write to ALSA RawMIDI ports
+  - aplay, arecord: command line playback and recording
+  - aplaymidi, arecordmidi: command line MIDI playback and recording
+  - aconnect, aseqnet, aseqdump: command line MIDI sequencer control
+ .
+ ALSA is the Advanced Linux Sound Architecture.
+
 Package: amavisd-new
 Description-md5: d95fd9c270e69763b2674a7c7629b731
 Description-en: Interface between MTA and virus scanner/content filters
