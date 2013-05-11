@@ -4527,6 +4527,25 @@ Description-md5: 0346a29c9d44ad378ec96e2493d955e5
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: fwlogwatch
+Priority: optional
+Section: universe/net
+Installed-Size: 384
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Alberto Gonzalez Iniesta <agi@inittab.org>
+Architecture: amd64
+Version: 1.2-2ubuntu0.12.04.1
+Depends: postfix | mail-transport-agent, debconf (>= 1.2.0) | debconf-2.0, rsyslog | system-log-daemon, libc6 (>= 2.15), zlib1g (>= 1:1.1.4)
+Filename: pool/universe/f/fwlogwatch/fwlogwatch_1.2-2ubuntu0.12.04.1_amd64.deb
+Size: 142220
+MD5sum: 672987144d38555e8f915a2abb9c90fd
+SHA1: 44690605a73b12043e14514b9d6affc4482d1db1
+SHA256: 6431ad1742b93f4755922ef2d598e3511f53fd97864aa8fd3d815cb4ac769fb6
+Description: Firewall log analyzer
+Description-md5: 9fb0eca840377b5b84c214320b65b9ff
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: fwts
 Priority: optional
 Section: universe/devel
