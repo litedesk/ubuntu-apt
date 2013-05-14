@@ -1,17 +1,17 @@
 Package: abrowser
 Priority: optional
 Section: web
-Installed-Size: 162
+Installed-Size: 164
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Depends: firefox (>= 9.0)
-Filename: pool/main/f/firefox/abrowser_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 8938
-MD5sum: a638ed8fdc23f6859ba68268ea81d6e8
-SHA1: 45f713e6e87d6efd0dae28a2b6946c9a9faa8bef
-SHA256: c3382fbd290163a9e01d152c029b54a6b8be253e7a78345e2ef770e718fd287d
+Filename: pool/main/f/firefox/abrowser_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 8940
+MD5sum: 0da57bb9f4c3264bd29d575fc27ce949
+SHA1: f8d3b5eca00efc9314515cfc9a762891b971ef55
+SHA256: c23d97c10b6a484177ff9315b54a05a8e5761da1d94d0b656e21e3b73c826aed
 Description: Safe and easy web browser from Mozilla - transitional package
 Description-md5: e89058e4775caff7d26313fa8811675e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -21,17 +21,17 @@ Supported: 18m
 Package: abrowser-branding
 Priority: optional
 Section: web
-Installed-Size: 162
+Installed-Size: 164
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Depends: firefox (>= 9.0)
-Filename: pool/main/f/firefox/abrowser-branding_20.0+build1-0ubuntu0.12.04.3_i386.deb
+Filename: pool/main/f/firefox/abrowser-branding_21.0+build2-0ubuntu0.12.04.3_i386.deb
 Size: 8958
-MD5sum: 1c082708550b319f118835a403d2281c
-SHA1: 09dcf68b98b9e63e96fd25ed99f603195a423c22
-SHA256: c20df142bb9921401bf4d938a431e9fe96d7ea865a4691a90868a07a034d3c89
+MD5sum: 2e28dc7926295ca4087fc236f684bfc8
+SHA1: 2ae71d42843320124a09a7987089f3515cb52b7d
+SHA256: b71bd9c18e20ad85628b0cba6e9e5f033edb8acb72d019c9d80e50079e62200d
 Description: Safe and easy web browser from Mozilla - transitional package
 Description-md5: e89058e4775caff7d26313fa8811675e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2224,22 +2224,22 @@ Supported: 18m
 Package: firefox
 Priority: optional
 Section: web
-Installed-Size: 50926
+Installed-Size: 52429
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: abrowser, abrowser-branding, firefox-branding, kubuntu-firefox-installer
 Provides: gnome-www-browser, iceweasel, www-browser
 Depends: lsb-release, libasound2 (>= 1.0.23), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.15), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.24.0), libpango1.0-0 (>= 1.14.0), libstartup-notification0 (>= 0.8), libstdc++6 (>= 4.6), libx11-6, libxext6, libxrender1, libxt6
 Recommends: xul-ext-ubufox, firefox-globalmenu, libcanberra0
-Suggests: latex-xft-fonts, libthai0, firefox-gnome-support
+Suggests: ttf-lyx, firefox-gnome-support
 Conflicts: gcu-plugin (<= 0.12.10-1ubuntu1)
 Breaks: abrowser (<= 4.0~b11+build3+nobinonly-0ubuntu1), abrowser-branding (<= 4.0~b11+build3+nobinonly-0ubuntu1), adobe-flashplugin (<= 11.1.102.63-0precise1), firefox-branding (<= 4.0~b11+build3+nobinonly-0ubuntu1), flashplugin-installer (<= 11.1.102.63ubuntu1)
-Filename: pool/main/f/firefox/firefox_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 24737624
-MD5sum: 188b8d26d5531ccce48972e18fb0a773
-SHA1: dd40c53067d71e33c4a9e6ce9ee6ebfd63c7d931
-SHA256: a36fb721de198c017dcdec93ab627c7bed6238a0e767f42ff7ab72ea7c3e506f
+Filename: pool/main/f/firefox/firefox_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 25688206
+MD5sum: ded36574b6958e98feadd547097942ea
+SHA1: 2c11daad0358c1593842f89492f07d690847c30d
+SHA256: d5c00290c08203c32dc66e9a3e1471c38bfbbd7e27bb04ee6a56050a6991d4f1
 Description: Safe and easy web browser from Mozilla
 Xul-Appid: {ec8030f7-c20a-464f-9b0e-13a3a9e97384}
 Description-md5: 46b619f510631c4693dc09c1a3778a55
@@ -2251,17 +2251,17 @@ Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, edubuntu-deskt
 Package: firefox-branding
 Priority: optional
 Section: web
-Installed-Size: 162
+Installed-Size: 164
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Depends: firefox (>= 9.0)
-Filename: pool/main/f/firefox/firefox-branding_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 8950
-MD5sum: 8e871276e891effb29ae639111fb200b
-SHA1: dfcef858579b494f1dbba47fa4fa6a12447287f1
-SHA256: e13fb2215b66b97214f3063cbfccdcaf63a36e9b1241d87534b784d2881f6392
+Filename: pool/main/f/firefox/firefox-branding_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 8956
+MD5sum: c9fc8636cea2357ac416ec694433e2ca
+SHA1: 2227fca2351404581f0ddf1d1e8c9cbc56ffd5bc
+SHA256: 4ae9383e3d9101f373c580518cbddd647beb8d114cae87ad6cd59fdd744c96c6
 Description: Safe and easy web browser from Mozilla - transitional package
 Description-md5: e89058e4775caff7d26313fa8811675e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2271,17 +2271,17 @@ Supported: 5y
 Package: firefox-dbg
 Priority: extra
 Section: debug
-Installed-Size: 682302
+Installed-Size: 718402
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
-Depends: firefox (= 20.0+build1-0ubuntu0.12.04.3)
-Filename: pool/main/f/firefox/firefox-dbg_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 293010848
-MD5sum: 89e07c3e7ce2884e8898dfb30b3f92d0
-SHA1: 1eec2d983214d80325bb98606164840ef6608437
-SHA256: 43dbba40946c8c5d26241be20e9ebe51c234026ffc42cc7648ad653a46f19185
+Version: 21.0+build2-0ubuntu0.12.04.3
+Depends: firefox (= 21.0+build2-0ubuntu0.12.04.3)
+Filename: pool/main/f/firefox/firefox-dbg_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 310314696
+MD5sum: adcbd73cc9c965af14d953fe5d705f63
+SHA1: 1570a1e3c01a2ab786167bbbca7f2909c4dd094e
+SHA256: 47bc9a08fddc6c0c2e60a9bfbf110b9048ca30aa456333ef2dc2d7da11cc770a
 Description: Safe and easy web browser from Mozilla - debug symbols
 Description-md5: 2937d9d7faa9d066b938045bc076f879
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2291,18 +2291,18 @@ Supported: 18m
 Package: firefox-dev
 Priority: extra
 Section: devel
-Installed-Size: 30625
+Installed-Size: 30852
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
-Depends: firefox (= 20.0+build1-0ubuntu0.12.04.3)
+Version: 21.0+build2-0ubuntu0.12.04.3
+Depends: firefox (= 21.0+build2-0ubuntu0.12.04.3)
 Conflicts: xulrunner-1.9-dev, xulrunner-1.9.2-dev, xulrunner-2.0-dev
-Filename: pool/main/f/firefox/firefox-dev_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 6421462
-MD5sum: 057f23087531b4310bb10ae8bf72403a
-SHA1: 4b9e99a41eeb6fbdbedefc3fac1b46acdfa3ae38
-SHA256: ce1bf4549bc882586bd1181837437a9bf7776f570cdef377c5fe54bd893b7fcb
+Filename: pool/main/f/firefox/firefox-dev_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 6475054
+MD5sum: eeffa90925250d7eadbe2b324470a87a
+SHA1: 584a57ea3911ad2bda9536f97954b17e0aae01b3
+SHA256: 037b41f8b4701e78091d6da53ccd1a68dcc70c7d57392a2bced721d9db70e7ab
 Description: Safe and easy web browser from Mozilla - development files
 Description-md5: e6b1c31ba86625fb8e5f17ebd7dfd6c8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2312,17 +2312,17 @@ Supported: 18m
 Package: firefox-globalmenu
 Priority: optional
 Section: web
-Installed-Size: 297
+Installed-Size: 303
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
-Depends: libc6 (>= 2.4), libdbusmenu-glib4 (>= 0.4.2), libdbusmenu-gtk4 (>= 0.4.2), libglib2.0-0 (>= 2.26.0), libgtk2.0-0 (>= 2.24.0), libstdc++6 (>= 4.1.1), firefox (= 20.0+build1-0ubuntu0.12.04.3)
-Filename: pool/main/f/firefox/firefox-globalmenu_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 51554
-MD5sum: 4e904520efd9d1da2d94817262af7969
-SHA1: 00425fd95e239e33cc823ac58766631e381a4029
-SHA256: 882446093f33bcdd769faac048225f9ec13fdd79e74d9fe624a80bb9f22c80d9
+Version: 21.0+build2-0ubuntu0.12.04.3
+Depends: libc6 (>= 2.4), libdbusmenu-glib4 (>= 0.4.2), libdbusmenu-gtk4 (>= 0.4.2), libglib2.0-0 (>= 2.26.0), libgtk2.0-0 (>= 2.24.0), libstdc++6 (>= 4.1.1), firefox (= 21.0+build2-0ubuntu0.12.04.3)
+Filename: pool/main/f/firefox/firefox-globalmenu_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 53016
+MD5sum: d41bc5822e0f5b453d75ec0dc71b1ac6
+SHA1: c0562b575c5ad34fa10586a75d043a42599d2cb7
+SHA256: b7d1b880878723d07e64e3448365b1f775274b619954440f330bccb486c39c97
 Description: Safe and easy web browser from Mozilla - Unity menubar integration
 Description-md5: 03cc12f2160aba6b8febc0a39c8da726
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2333,17 +2333,17 @@ Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, edubuntu-deskt
 Package: firefox-gnome-support
 Priority: optional
 Section: gnome
-Installed-Size: 174
+Installed-Size: 176
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.20.0), libstdc++6 (>= 4.1.1), libnotify4 | libnotify1, firefox
-Filename: pool/main/f/firefox/firefox-gnome-support_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 9266
-MD5sum: 2c53bc7f4ff7a86d4d1d511e87b7f705
-SHA1: e0ff4cdf64638835401f22a6def64ba1155b2b0c
-SHA256: 28d9c5b4cb59e4858d5f3ea69d2b6b7e58b1db2a8b37244a62704c2f6808a56b
+Filename: pool/main/f/firefox/firefox-gnome-support_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 9264
+MD5sum: 20ce07b42e8be5d55ac5fad5650c9afd
+SHA1: 8ba14d181bcc668823031ddbda8428b7af696a9d
+SHA256: e065069dbc71790e764775a34159d78603a3d211ea4f79c5fdfdc0a2218a75e4
 Description: Safe and easy web browser from Mozilla - GNOME support
 Description-md5: 9090a1269569e91fe1d73c81ee10928d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2354,17 +2354,17 @@ Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, xubuntu-deskto
 Package: firefox-gnome-support-dbg
 Priority: extra
 Section: debug
-Installed-Size: 162
+Installed-Size: 164
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
-Depends: firefox-gnome-support, firefox-dbg (= 20.0+build1-0ubuntu0.12.04.3)
-Filename: pool/main/f/firefox/firefox-gnome-support-dbg_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 8978
-MD5sum: 1bb81aaa22f326b5c9c7b6b127d2e978
-SHA1: fb621b5604a5c35258001ac5a1f1a1df76c9d9b1
-SHA256: e093a2e95fdb5dafe618ef40fe2f2a3f31f28a2a6e80b0fc283eec41ed9a7df0
+Version: 21.0+build2-0ubuntu0.12.04.3
+Depends: firefox-gnome-support, firefox-dbg (= 21.0+build2-0ubuntu0.12.04.3)
+Filename: pool/main/f/firefox/firefox-gnome-support-dbg_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 8988
+MD5sum: cbff2c391becb706a0ddb177f430fd44
+SHA1: 272b684cfd5ba549bd7986b4b3e993a85227c9cd
+SHA256: d53602e64e49d3a44551d8a8371c9420d6e51af4148c36cb64ee3c6b9a0d4111
 Description: Safe and easy web browser from Mozilla - transitional package
 Description-md5: e89058e4775caff7d26313fa8811675e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2374,17 +2374,17 @@ Supported: 18m
 Package: firefox-locale-af
 Priority: optional
 Section: web
-Installed-Size: 516
+Installed-Size: 543
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-af-base
-Filename: pool/main/f/firefox/firefox-locale-af_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 279628
-MD5sum: 6bf5f6072b543d3fc3117821922e6fb1
-SHA1: 1b8a8ab2ddc6b7e2563c908790fc52dbb91e5661
-SHA256: 7dd6dfbe54387a4f4f2cbe4f6250b324bf80260164c351d9408e4f16c0dd0cdf
+Filename: pool/main/f/firefox/firefox-locale-af_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 299912
+MD5sum: 6e1c32c1f157d692be18c585c30446ab
+SHA1: 7071503e87f390b890f73e7ec9b6a336fc3988fb
+SHA256: 1a8289a95eefdfb38a4dc93482a8ddc9180e6d8b7ea882297339947f7add46fe
 Description: Afrikaans language pack for Firefox
 Description-md5: 1f2d31c5ec337989fa73d4561a877f98
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2395,17 +2395,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-ar
 Priority: optional
 Section: web
-Installed-Size: 544
+Installed-Size: 571
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-ar-base
-Filename: pool/main/f/firefox/firefox-locale-ar_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 308800
-MD5sum: 732a3b265114761b5638803bfcd5c958
-SHA1: ed672fb5660d9be623dcc8825359b69c9a194b02
-SHA256: 9b2b0de871efcfd44301dd9b58474295ecc35118077c2297945b93b390365b47
+Filename: pool/main/f/firefox/firefox-locale-ar_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 328638
+MD5sum: e7adb8a76fa3efe1319d2c6dd947698e
+SHA1: 0a54822ccd8ddf25fa17b0b0bcb5430bbac78997
+SHA256: 8560ba66644c7b55e2d57d6414e287ef6d368e2a680833564b5f5228aaad9d97
 Description: Arabic language pack for Firefox
 Description-md5: a5123286dfa8a3ded7978c0ec00ec6f1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2416,17 +2416,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live, lu
 Package: firefox-locale-as
 Priority: optional
 Section: web
-Installed-Size: 564
+Installed-Size: 592
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-as-base
-Filename: pool/main/f/firefox/firefox-locale-as_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 330006
-MD5sum: e44f6bbef11ae54d05268be5427e6c2f
-SHA1: e262b4f98a5de77b740db1ffd3028214480512e5
-SHA256: 1aed0309d848fbfb9c894e928296724b2a71e94aceec0248cc9cd2c8e9211cd3
+Filename: pool/main/f/firefox/firefox-locale-as_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 350022
+MD5sum: 52f8882c1187f2211e50c49ce9214600
+SHA1: c0e25cabfe9c26c165a40f10b74a1e4c296d8b61
+SHA256: b1227f748e8db98a9200d7c632d8cf71f589815abd92fb6aa05b9beaef1745ae
 Description: Assamese language pack for Firefox
 Description-md5: 9c46a24962d3692dcff9f290ff8f2e5b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2437,17 +2437,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-ast
 Priority: optional
 Section: web
-Installed-Size: 489
+Installed-Size: 514
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-ast-base
-Filename: pool/main/f/firefox/firefox-locale-ast_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 252258
-MD5sum: 850da838c876c7c644cd134805172edc
-SHA1: f397f804ce82b383b5091c0b301035de2d959d3b
-SHA256: 43b590ba4d6568f1bd26bd30d6c983fa8cee6ded9faee3c85772c69cf19db610
+Filename: pool/main/f/firefox/firefox-locale-ast_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 269746
+MD5sum: 3b644772b8698a59bd0ee4149eb5876e
+SHA1: b06c0b25650801264e98d86a1e07ac0f8f679410
+SHA256: d9dcae737ca739b6ca805c75d69a4c4f0c2c79e636fd359aafe3245925b203bf
 Description: Asturian language pack for Firefox
 Description-md5: f648bf0b51344fe4fc8b6419faaf903f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2458,17 +2458,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-be
 Priority: optional
 Section: web
-Installed-Size: 511
+Installed-Size: 546
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-be-base
-Filename: pool/main/f/firefox/firefox-locale-be_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 272102
-MD5sum: 2cc46545ec2a4b27063221059e1e6e9f
-SHA1: dc8b6375e53bca350cf0498e2ed5bf205d3c135d
-SHA256: f0473797ba9e93a38c34a8610428db185eaaf929dc95220d6b468fce2a8668fd
+Filename: pool/main/f/firefox/firefox-locale-be_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 297990
+MD5sum: fb1d60f983fa4d8ce1d79c355487fa60
+SHA1: dfcea3c94b616a4beb603bea691715970eeafc05
+SHA256: 5d53ffcf67256d79a704cd964faafbc1750476783b0389d7645baf5accc25b2e
 Description: Belarusian language pack for Firefox
 Description-md5: 7b231b0d3f58acf262a12b2168cb358c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2479,17 +2479,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-bg
 Priority: optional
 Section: web
-Installed-Size: 563
+Installed-Size: 592
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-bg-base
-Filename: pool/main/f/firefox/firefox-locale-bg_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 328900
-MD5sum: 403116979dd2bba18a7306356666015b
-SHA1: a1b1cc9e2e338661fc6990c57785ef1cddf11d2c
-SHA256: 917ef71f80c15a2596519b16f1800b5c5dfd6582fe09130411b3cbe43ffa8ebe
+Filename: pool/main/f/firefox/firefox-locale-bg_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 350022
+MD5sum: bd0f93d1dc5d6ec96b0b196e2bc1703f
+SHA1: 7c47bd465071ba757de6f483ecf40cbdf3d7fb02
+SHA256: f3eaa3c4220af6c4071eeee0bce061117188e57b889e29f51336a6c7e1b94660
 Description: Bulgarian language pack for Firefox
 Description-md5: a6418377c6a1864fbec5d0096027c80b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2500,17 +2500,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live, lu
 Package: firefox-locale-bn
 Priority: optional
 Section: web
-Installed-Size: 997
+Installed-Size: 1047
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-bn-base
-Filename: pool/main/f/firefox/firefox-locale-bn_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 691580
-MD5sum: 03ae36b97f066da46aa4dc40718dbc79
-SHA1: 32557034c0bc375fa18ce929466b188500d01e38
-SHA256: ce48af6e3f0e64cd5dec65facaa07062dcc105bd33ef509ecc097fb92fd9c7de
+Filename: pool/main/f/firefox/firefox-locale-bn_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 732986
+MD5sum: c2fc3abbb6f3bde94a7fdf2d5750fdff
+SHA1: a415042b5b152e115025810b1deef23ef1e0040b
+SHA256: 3cb139c7fe33219e16058775b02baa6bd4dcbac449beb23fd313da9fff47fd52
 Description: Bengali language pack for Firefox
 Description-md5: cd17d1988001fce46f906d72ce3c6612
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2521,17 +2521,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live, lu
 Package: firefox-locale-br
 Priority: optional
 Section: web
-Installed-Size: 524
+Installed-Size: 551
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-br-base
-Filename: pool/main/f/firefox/firefox-locale-br_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 287434
-MD5sum: e6ade49f8ad4900c74bdde4d7c421423
-SHA1: 9d00336f5fa3e3eb7a6e76b644f08628ccfb9e6d
-SHA256: be12fb84a620e122cc07c10dbf4e16907eba8fbf973b32c858ea0b3289422636
+Filename: pool/main/f/firefox/firefox-locale-br_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 308244
+MD5sum: 1025dd08b8c5b2b86c272ab162adb1d9
+SHA1: fc3b640729d6920c334676f35922193f70b17c31
+SHA256: 5bb85a336af43fa47d2352e5ef78ba89f4f22736cf1cb9a3b89b7bce15e9348d
 Description: Breton language pack for Firefox
 Description-md5: 880da4a954cd5c32e28bc4be50b8dea2
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2542,17 +2542,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-bs
 Priority: optional
 Section: web
-Installed-Size: 524
+Installed-Size: 555
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-bs-base
-Filename: pool/main/f/firefox/firefox-locale-bs_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 288212
-MD5sum: a42f9b670eceac15b58be5902efc022e
-SHA1: 5aab46d5b0b203088732dbf36777e0203b7d6ee0
-SHA256: 6485686b03e0d0981f43875533a26968a24c6c97dc416e548c27e77bcc64cb53
+Filename: pool/main/f/firefox/firefox-locale-bs_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 311802
+MD5sum: 9984a77278cca45851388dd01dd15ef1
+SHA1: 77ead7cb5d1b7441f609f18cc54dfcc8b3163ce1
+SHA256: 0d2009e94665655981fd6cd53b2d81761fbd554b6c61c56fe54b2a03b79f81c0
 Description: Bosnian language pack for Firefox
 Description-md5: 5ee279fa3b945b639bc360970fc44d88
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2563,17 +2563,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-ca
 Priority: optional
 Section: web
-Installed-Size: 530
+Installed-Size: 561
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-ca-base
-Filename: pool/main/f/firefox/firefox-locale-ca_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 293820
-MD5sum: 3af331f6929a9eaf1940b02b1560f3e8
-SHA1: 4e7105247675371b4ea1064b80bb1d8b5ffe8cc3
-SHA256: aea364c0270662f05baf5fb109202263e17f92c23069739dc45ce2535022ba23
+Filename: pool/main/f/firefox/firefox-locale-ca_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 315738
+MD5sum: 3c99bcb574475c9ccb182929e3089336
+SHA1: 4c2e2e2c90373a31d92ce4c1a2d4d171806e3b7b
+SHA256: b781f0f746259bc35dd16f0d26c58afdf3106d28a569b44150be7ee882c56ac7
 Description: Catalan; Valencian language pack for Firefox
 Description-md5: d48166338c00f06f6c36f6214a5a0d8b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2584,17 +2584,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live, lu
 Package: firefox-locale-cs
 Priority: optional
 Section: web
-Installed-Size: 523
+Installed-Size: 550
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-cs-base
-Filename: pool/main/f/firefox/firefox-locale-cs_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 288862
-MD5sum: ad67c98789d5c81e2d2d72643468d673
-SHA1: 304e9eeaf1ff23b592da2901b2caad69961c1c75
-SHA256: 933815f5bba05606793dc039a6ad47ffbeaa1ad5c3680786627bf98a3ebc4f36
+Filename: pool/main/f/firefox/firefox-locale-cs_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 308312
+MD5sum: 9c59c2aec11a7cb460c80a6a4f57c0d9
+SHA1: 001a2a592ed2e4fd9d350fcbe3b69219c80bf747
+SHA256: d2cc5100eb506985fdd96d607ced27b847c735d52f5762e5fa3929096b66adcd
 Description: Czech language pack for Firefox
 Description-md5: 9b0b230a019634cdfd1b60f7fd46b813
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2605,17 +2605,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, kubuntu-active-live, edubuntu-usb-live, 
 Package: firefox-locale-csb
 Priority: optional
 Section: web
-Installed-Size: 527
+Installed-Size: 554
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-csb-base
-Filename: pool/main/f/firefox/firefox-locale-csb_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 290872
-MD5sum: b2f71793717b7c577fa081a26ff017d4
-SHA1: ee4529f3bb1befa2a51eed26437228cf1d185e39
-SHA256: f973521e28bd4dc6941715ff5cf0d0b89865f507e6c70eaed4cc9e0b25c98811
+Filename: pool/main/f/firefox/firefox-locale-csb_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 310424
+MD5sum: e5efd22abf199c86cb69d0579908f439
+SHA1: 5cb98d952b58f01163727ebf7e95a0267bef1c4e
+SHA256: 5006cb70fe2cb11a11158733d18353be4a08e688640ce626eb626e006b1bbdc8
 Description: Kashubian language pack for Firefox
 Description-md5: 76438ffb5606f4d03a5aba83c323a0da
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2626,17 +2626,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-cy
 Priority: optional
 Section: web
-Installed-Size: 520
+Installed-Size: 549
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-cy-base
-Filename: pool/main/f/firefox/firefox-locale-cy_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 282324
-MD5sum: f2d4850d54e9593014584964469f9902
-SHA1: b58f2af53c4b184f5582ec569d35a2ae04859891
-SHA256: aab637a51d6246c30660c2d45c40d514e374f19eb9780b10b47ef1fb7596858d
+Filename: pool/main/f/firefox/firefox-locale-cy_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 303986
+MD5sum: c59157ac4b621dc6f22c8785fb1a82a8
+SHA1: 6ab3413ab57f2287d952795907ce064040cb71b2
+SHA256: 3b6b0dff3075ec0d910116cdb9a8ec05546c175cd5ba264e102b40024e6130c6
 Description: Welsh language pack for Firefox
 Description-md5: 9f3df834aa7f35a8968d57963f462187
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2647,17 +2647,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-da
 Priority: optional
 Section: web
-Installed-Size: 513
+Installed-Size: 540
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-da-base
-Filename: pool/main/f/firefox/firefox-locale-da_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 278058
-MD5sum: a15e9c35ccf5f3c78a7b5f8edbbe859a
-SHA1: e0230e54296ba714263224a89a4c1cd3858dc28a
-SHA256: 4eac28255383e6469afeb3353cd1aafb511e4c4c56156d176caa4c5e275e70dc
+Filename: pool/main/f/firefox/firefox-locale-da_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 296838
+MD5sum: c7ff0d079180e6cc05382218ca09eb7f
+SHA1: cfccaddb58271b2a8d854af118236d1e44521e40
+SHA256: 463b46cfeb189e387ebaad14767ec03b24f89c46bcc56bf3c78d5ef639daada0
 Description: Danish language pack for Firefox
 Description-md5: 25350d542907c601644fdbaf48ce9060
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2668,17 +2668,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live, lu
 Package: firefox-locale-de
 Priority: optional
 Section: web
-Installed-Size: 513
+Installed-Size: 541
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-de-base
-Filename: pool/main/f/firefox/firefox-locale-de_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 272274
-MD5sum: b9eb478f741b45dd7bdf5b0bf9cb8d3b
-SHA1: 8b212357d82887510694af47fcce0a8359828df5
-SHA256: 2fcafe0b835f2a513685de079cf470f0366f5ec5fe5f0601be44bff4906e9d58
+Filename: pool/main/f/firefox/firefox-locale-de_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 293312
+MD5sum: 173b98b570b486e4c5a7dd4ad0abe571
+SHA1: a91085044c3b223e9c5656d9dac1eef1c11cbbc0
+SHA256: 281073c9f5e51d4478def6b9c9ae03411421a9e9a06dadb2775320d722385571
 Description: German language pack for Firefox
 Description-md5: 97a5b441966c2394117490ceebbb8584
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2689,17 +2689,17 @@ Task: ubuntu-live, ubuntu-usb-live, kubuntu-live, kubuntu-active-live, kubuntu-a
 Package: firefox-locale-el
 Priority: optional
 Section: web
-Installed-Size: 550
+Installed-Size: 577
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-el-base
-Filename: pool/main/f/firefox/firefox-locale-el_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 316006
-MD5sum: 75b358e5e654ec5dd447557d471bef48
-SHA1: 827af93236da4c5aecb87cad1c76b833ffb75d6f
-SHA256: 911feb4f10d5b41e097529fa1b039bc36912bdadcb0b76d2c57e4823846c86b2
+Filename: pool/main/f/firefox/firefox-locale-el_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 335756
+MD5sum: e3bd4906c45f8bcaf62b9b61851d9d69
+SHA1: 7318c75fad5f21b88e00e0db8e19cc45e0f71f1c
+SHA256: b4f77ecf04567641c2f2416eb146b67814ddc2f63b085a4678be879c6e791cc9
 Description: Greek language pack for Firefox
 Description-md5: f0378f5c3eae2c3f377fbc483e6581b0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2710,17 +2710,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, kubuntu-active-live, edubuntu-usb-live, 
 Package: firefox-locale-en
 Priority: optional
 Section: web
-Installed-Size: 812
+Installed-Size: 863
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-en-base
-Filename: pool/main/f/firefox/firefox-locale-en_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 509866
-MD5sum: 6706cdb0e2b1deca21e7b189b588e966
-SHA1: 1000e42e87024e1fd7813958fe5105e116135484
-SHA256: b8d27a67706cde10ac21d9306025de0ea7ff4cfcb0015f9037c0233a12d45145
+Filename: pool/main/f/firefox/firefox-locale-en_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 549196
+MD5sum: d01454602e3dd26b3570708a7260b882
+SHA1: 925e380a094405e6ce6bc5f23a12f7c92c29e234
+SHA256: f2c7bf6d78735931ab6a04db152e562ecc1f195a2b565094dd8dcd50464a6904
 Description: English language pack for Firefox
 Description-md5: 59e7e034b5f9626737da9a2c21a3e6b4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2731,17 +2731,17 @@ Task: ubuntu-live, ubuntu-usb-live, kubuntu-live, kubuntu-active-live, kubuntu-a
 Package: firefox-locale-eo
 Priority: optional
 Section: web
-Installed-Size: 521
+Installed-Size: 550
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-eo-base
-Filename: pool/main/f/firefox/firefox-locale-eo_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 283366
-MD5sum: 0fcd9d28021e5641ee7582a45bc8b965
-SHA1: 3ae689d8868580b63b23f791f8216076182a9725
-SHA256: c349a33296042753c711909b19285030c29d86925e2bb44eb686e075f3d49fc3
+Filename: pool/main/f/firefox/firefox-locale-eo_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 304552
+MD5sum: 987e04a574aa15e0a1409f4ca22c77fe
+SHA1: 1d09226290096e387959e4dc6bf5ea3001f2fe14
+SHA256: 9c96eda63c00d87143ef9afd6adc6827495730572c776716b9f7f887efd856d2
 Description: Esperanto language pack for Firefox
 Description-md5: 1b15bec1df3ef8869a632d474dfb2589
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2752,17 +2752,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-es
 Priority: optional
 Section: web
-Installed-Size: 1416
+Installed-Size: 1474
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-es-base
-Filename: pool/main/f/firefox/firefox-locale-es_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 990488
-MD5sum: 805ff479c70823b8c0e2fa2a60070bff
-SHA1: b766050be58a8a02b4832990a5e00ed32a21ca41
-SHA256: 1702438caa0855b5c3dc5e4f60de6c2942adce09ab4dc9b9c265dfab4e0eeba1
+Filename: pool/main/f/firefox/firefox-locale-es_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 1024940
+MD5sum: cab17c898ac54ba6f6c36c76ca5a53d2
+SHA1: ff24fc58d9d5126156caeb2331112500bef104f6
+SHA256: 899f76aaf6a510cb6155a223075b2904c5038873e98f37ae2fe3e4222081f48c
 Description: Spanish; Castilian language pack for Firefox
 Description-md5: 30083dcb82dfa2029aeabd0206ce0f4b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2773,17 +2773,17 @@ Task: ubuntu-live, ubuntu-usb-live, kubuntu-active-live, edubuntu-usb-live, edub
 Package: firefox-locale-et
 Priority: optional
 Section: web
-Installed-Size: 514
+Installed-Size: 543
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-et-base
-Filename: pool/main/f/firefox/firefox-locale-et_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 280306
-MD5sum: 0268c4b9d6e1862611a188b26e4ef194
-SHA1: 9bb48881249dad52849945308d559ad8107d8157
-SHA256: 40770294e60518273fad4878624ede39cd698b497f2d7c6b26d9da7326456854
+Filename: pool/main/f/firefox/firefox-locale-et_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 300658
+MD5sum: 584085e9cc2ecdda17dbaf509849d49b
+SHA1: 7682855ac639688b2a2f68c4bf9919153779c1ed
+SHA256: 345e5acd1eaa43aea55f9f0d5eeed2ad66f7a68309bc9ddc3c37beb79ab28ab6
 Description: Estonian language pack for Firefox
 Description-md5: 334b47c1e5a384da36ae89623fec8e70
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2794,17 +2794,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-eu
 Priority: optional
 Section: web
-Installed-Size: 519
+Installed-Size: 549
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-eu-base
-Filename: pool/main/f/firefox/firefox-locale-eu_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 282268
-MD5sum: f8be0d18150991778f9c894686ce1b77
-SHA1: dacdcc373c83df09d211b2d8e380d71e3b2e4e46
-SHA256: 8a3542ea2da5caa043d2d8d38729ffe77475a10689bafc238985f1de071f3517
+Filename: pool/main/f/firefox/firefox-locale-eu_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 304092
+MD5sum: 92dd54035a8d3c0a55477b8bb91889dd
+SHA1: 902bc86916de878e405f5a0f517a0698070d94f3
+SHA256: c9798d27d67642b2712019140f86b4e7f7b7d41dc5f49123a770970bee2109bb
 Description: Basque language pack for Firefox
 Description-md5: af348a109ea600cac4199bf41ea027f2
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2815,17 +2815,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live, lu
 Package: firefox-locale-fa
 Priority: optional
 Section: web
-Installed-Size: 555
+Installed-Size: 583
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-fa-base
-Filename: pool/main/f/firefox/firefox-locale-fa_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 319934
-MD5sum: fa566f6367b2ad1b248aad49c81d38d2
-SHA1: 4939c12d0f6fa20b0b6206f028f45550e946433c
-SHA256: 104763b30670d8922d95786a9a7383ff7cfb9e73144bad5e5a8e85d24568622c
+Filename: pool/main/f/firefox/firefox-locale-fa_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 341274
+MD5sum: 645034f5951ff41d310d6e80a8d35274
+SHA1: ddb4876f7112ec145372bc85e86117151699e644
+SHA256: c9d8f781887abfc5ca6de26d1aef5561a7c53e3300e747edba58981e97d41099
 Description: Persian language pack for Firefox
 Description-md5: 39c9ec90bfa422dbe322c5144c9719eb
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2836,17 +2836,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-fi
 Priority: optional
 Section: web
-Installed-Size: 520
+Installed-Size: 547
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-fi-base
-Filename: pool/main/f/firefox/firefox-locale-fi_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 283952
-MD5sum: 536bd07d5d40e37531f0c87cbd6c83af
-SHA1: 8759a68b1a0cd7b391614e9c8a8e01aa6f374bce
-SHA256: 5f50a21acb5bb2a8bb6c1a5bc876d595bb302d24c81cbe0e68566ec2f3bcb0a8
+Filename: pool/main/f/firefox/firefox-locale-fi_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 303854
+MD5sum: 9c5a7c28e6f70b65c0c1644ad135e98a
+SHA1: 5b644f112476ff520d17cfd0b0be73db18959abe
+SHA256: 8bb2a528fc7508c7280d4be29b3ab79a5735115c4f3766f24ee56ac0f23756a5
 Description: Finnish language pack for Firefox
 Description-md5: 845195bd76d02590d0c2a74ed1b5c5f2
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2857,17 +2857,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live, lu
 Package: firefox-locale-fr
 Priority: optional
 Section: web
-Installed-Size: 526
+Installed-Size: 555
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-fr-base
-Filename: pool/main/f/firefox/firefox-locale-fr_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 289566
-MD5sum: 7ce13c01b21fb3515c508ea67a0884ca
-SHA1: 16b3b2ab8b25d544665f6f4adfc563e148628a95
-SHA256: 328779b10ab23618d4436b72b733e383be302c2d62ee78fd6381d4a5049f36f8
+Filename: pool/main/f/firefox/firefox-locale-fr_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 310966
+MD5sum: 7fdd0bd8f0b62b2cf6c8fb6bfc1de9ef
+SHA1: d333f860c2d938e92ed6571cf5bcd12325543b0c
+SHA256: 3d22f1ddcff2c988a9c60e24fbb050f653c38149c4aba4d7d7b4c8db4c481b18
 Description: French language pack for Firefox
 Description-md5: 4b599250252777b1f0b2e86222826241
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2878,17 +2878,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, kubuntu-active-live, edubuntu-usb-live, 
 Package: firefox-locale-fy
 Priority: optional
 Section: web
-Installed-Size: 525
+Installed-Size: 555
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-fy-base
-Filename: pool/main/f/firefox/firefox-locale-fy_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 286738
-MD5sum: a64194f81b5ad5065516a4bfc848bbf6
-SHA1: 43cb0667be0e01e4edbcf1037bf807a5584397a4
-SHA256: f5395e8ce69e6adbde866676b833bfb436cb3c9f79a9b92a5f4a5eb7b0fb9c8e
+Filename: pool/main/f/firefox/firefox-locale-fy_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 309764
+MD5sum: 48ee9e58320e19a2690097a537d47e65
+SHA1: 06942d3616381b917b7f9be239ea7be529f46cbd
+SHA256: 069cfc33c248b0ebf409766b7d322c82ded60144106f5b635a84f1e462752377
 Description: Western Frisian language pack for Firefox
 Description-md5: 73e0293d227dc25de2183bbda4ffb994
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2899,17 +2899,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-ga
 Priority: optional
 Section: web
-Installed-Size: 532
+Installed-Size: 563
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-ga-base
-Filename: pool/main/f/firefox/firefox-locale-ga_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 294308
-MD5sum: 52fb8e38f32ac83006d21cfca2b71a69
-SHA1: 9bb1536956ffa88f798884350516494c33c6fffd
-SHA256: bb51269f90c5a5f6cb70d7dd4dccaf7dfccd0eee0855b944174cf6624a6ce230
+Filename: pool/main/f/firefox/firefox-locale-ga_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 316618
+MD5sum: 58a62457da0ab31903ea0591a22eded3
+SHA1: b29eeccdfd77ddbceba4a6f22e39e538876ba9c4
+SHA256: 86c45bd7c4fc3c59410090790370294d8b78c04029b3175250340ce43abcc829
 Description: Irish language pack for Firefox
 Description-md5: 3989bf0d690ce80122175c0328ae435d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2920,17 +2920,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-gd
 Priority: optional
 Section: web
-Installed-Size: 532
+Installed-Size: 560
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-gd-base
-Filename: pool/main/f/firefox/firefox-locale-gd_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 296442
-MD5sum: 907fd74c5e22a1fee9c2e35a2acf9206
-SHA1: 64395250ec1394ab8974b1a5d03ea80e66397ace
-SHA256: 4a5b631e7033030d1476821bd2eb0f9302080e5923b5abee80a37fa1144dcde8
+Filename: pool/main/f/firefox/firefox-locale-gd_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 316628
+MD5sum: c74f5c041381348acb65d6169d58f1ec
+SHA1: 3fd967fe66306f49e9c17e57050c6d333aedadee
+SHA256: 10fc83cae0a93ec20bccc5d7525eac584998572f2f9237897d1b80d02ecc4819
 Description: Gaelic; Scottish Gaelic language pack for Firefox
 Description-md5: f88ffac5fcd5341c9502358cb67b49f1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2941,17 +2941,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-gl
 Priority: optional
 Section: web
-Installed-Size: 517
+Installed-Size: 545
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-gl-base
-Filename: pool/main/f/firefox/firefox-locale-gl_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 282528
-MD5sum: 65b565ecc7b755946cebff61f6ae62a5
-SHA1: e6107fc83f671ab7e8619e5ea06085ea368d9cc1
-SHA256: 65c8d63483fceccaaa2a69434907f511cc0ff6b5cad1cd655ba2f1b668ebe621
+Filename: pool/main/f/firefox/firefox-locale-gl_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 302784
+MD5sum: 1c53c166d8b0a43f986d9cd2269c8be5
+SHA1: fa952349c0b22d4ca9ff8f605c3367d490080e76
+SHA256: d7857fcdf68ce2ebdf3b1194b73bdbb746d88a2186f74298d828de877102fa24
 Description: Galician language pack for Firefox
 Description-md5: f411e16f3f4a2f154a90570e3ca52ef8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2962,17 +2962,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-gu
 Priority: optional
 Section: web
-Installed-Size: 555
+Installed-Size: 582
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-gu-base
-Filename: pool/main/f/firefox/firefox-locale-gu_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 317924
-MD5sum: 6778612dd7f966a0134f1a2302a4f7fc
-SHA1: d2cb79647130613a7719b0bb22464af32f9d8c2c
-SHA256: 5f76097e78909671ecf8387d16b4c3ea09604ec834ef56668af2be0621646770
+Filename: pool/main/f/firefox/firefox-locale-gu_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 337872
+MD5sum: a02b9b373b6186f1b96211e5f206d276
+SHA1: 46bfc588dccd5f395e3b82afc70db988e0488056
+SHA256: 774dd4716f1b3fe195b312fbf4bd4cb55993a67029a0554f4601479c0e6887ef
 Description: Gujarati language pack for Firefox
 Description-md5: c646198c5d0155da51530f8b2225818b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -2983,17 +2983,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-he
 Priority: optional
 Section: web
-Installed-Size: 533
+Installed-Size: 560
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-he-base
-Filename: pool/main/f/firefox/firefox-locale-he_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 301466
-MD5sum: d6a0c4291d3d0daf03a89c20a6a831b1
-SHA1: cd0060a5a34dc6875e491d8e63c2c93d3381bdc7
-SHA256: 29675f1ca820ccdcd9fd2941eef862f8573fe040f56b899961d737b87ea9fac2
+Filename: pool/main/f/firefox/firefox-locale-he_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 320776
+MD5sum: 100bd2eb378f995a5576472e2252725d
+SHA1: 6a1b4ccc46cbab02028c50acba404b838a424faa
+SHA256: 53f9598de1eb3d24ad795207519c095503bf67b32287c3e74d12eef5ded4e180
 Description: Hebrew language pack for Firefox
 Description-md5: 8d33d6616f2426b1fe3287417f0d7949
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3004,17 +3004,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live, lu
 Package: firefox-locale-hi
 Priority: optional
 Section: web
-Installed-Size: 565
+Installed-Size: 592
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-hi-base
-Filename: pool/main/f/firefox/firefox-locale-hi_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 328396
-MD5sum: ebc44990febc693f03667a8e680c64f9
-SHA1: e0241ded1a001b0f44f8ef7818d505a887f54425
-SHA256: 9e752f6b3c632afea42e7b981b4a4dabc0f92b664046618a2084d2634756435a
+Filename: pool/main/f/firefox/firefox-locale-hi_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 347342
+MD5sum: a4abf0abf43e8b75c85eea5e779aab14
+SHA1: a7f61d6689803edd6c280e3eead1dfd4b72bbaa1
+SHA256: dd3e2d4cb815171351918f797b2eb56864ae31133200b8d830a8855e53174e57
 Description: Hindi language pack for Firefox
 Description-md5: 29f96336756fa58ec44eefd686bd6e85
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3025,17 +3025,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live, lu
 Package: firefox-locale-hr
 Priority: optional
 Section: web
-Installed-Size: 522
+Installed-Size: 551
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-hr-base
-Filename: pool/main/f/firefox/firefox-locale-hr_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 284954
-MD5sum: a6d074521f0b7f2039be41739d98d46b
-SHA1: d39693fb3029b0d22901ef6da7e2a424b1c07c6f
-SHA256: 94a8628a59cce692e52bd1e4ee2b653036188695b2eb6d841bf1b3c0324b2f94
+Filename: pool/main/f/firefox/firefox-locale-hr_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 307294
+MD5sum: 8c0ef91672586739bcce2542be52a553
+SHA1: 3a71fb4f91d2529f9a2746b37552ef2f73589ccc
+SHA256: aae291e90e201a1d2f97851295e4dbe04d318b8fa2b3777c37e2a9ff2a859e88
 Description: Croatian language pack for Firefox
 Description-md5: 4138741435206cca66b4c3941d2b6e82
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3046,17 +3046,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-hu
 Priority: optional
 Section: web
-Installed-Size: 532
+Installed-Size: 561
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-hu-base
-Filename: pool/main/f/firefox/firefox-locale-hu_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 297576
-MD5sum: 3c529eeb0fee1b8c6643fe8b4f59a4dc
-SHA1: 2398e7e464296257aa91fa91d4897eb2a9b2fc5f
-SHA256: 71b73a464d2935c5bdcc57dc8d3ae1a9a9bce27cfb8d69d2ba016ec155261c7a
+Filename: pool/main/f/firefox/firefox-locale-hu_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 319518
+MD5sum: d1558eab41222a80168eddf36245f422
+SHA1: 010262206a93e302d83e46652916047bf75f2224
+SHA256: e91675437185dc5a7fb3b11d4fe55ae0b45ca8b8ef6ae738d247379f9cadc38d
 Description: Hungarian language pack for Firefox
 Description-md5: 7587d24fac9230de0dab2a74b1b3c298
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3067,17 +3067,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, kubuntu-active-live, edubuntu-usb-live, 
 Package: firefox-locale-hy
 Priority: optional
 Section: web
-Installed-Size: 561
+Installed-Size: 587
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-hy-base
-Filename: pool/main/f/firefox/firefox-locale-hy_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 326412
-MD5sum: d5907048c3720bf755f3d5bc4760e18d
-SHA1: 257a422abd582428450c4e749747cbfe45ac8953
-SHA256: fc10f7e2108e2dcc0f53169d8dfc292b4d8cdb45a9d1877ad44d985e1a7e8aff
+Filename: pool/main/f/firefox/firefox-locale-hy_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 343888
+MD5sum: 869687ca965bd98f84aed02736dffdaf
+SHA1: f8c7d6fb8bf3c7251d03918f47b5efc3931c0280
+SHA256: 150c90b516e284b3495882dd1044585cd556df2c7ba0dbad998fb823e7ca0d3e
 Description: Armenian language pack for Firefox
 Description-md5: 2278344f15e1efe17aecd1af5a2be846
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3088,17 +3088,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-id
 Priority: optional
 Section: web
-Installed-Size: 507
+Installed-Size: 530
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-id-base
-Filename: pool/main/f/firefox/firefox-locale-id_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 274498
-MD5sum: 5fc501c87d6f63e4c0d1553f532000b8
-SHA1: d23443a6f568901779c2931797fd6226dfb7c3ea
-SHA256: f318b44827a1d2764eba935ec60e39bfaf5347ab8290572ec6c6c03e950e557a
+Filename: pool/main/f/firefox/firefox-locale-id_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 290982
+MD5sum: bc4e98f45fede8c280bf4ce6de13899f
+SHA1: 063b968eb6a372c994b356d011f5f85e62177efc
+SHA256: 6dff080988f7c0a16d955059f716e3bb1e6726d033893dedb6872d0ffb49f520
 Description: Indonesian language pack for Firefox
 Description-md5: 568a225a428289bfedbfee77f12ef445
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3109,17 +3109,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-is
 Priority: optional
 Section: web
-Installed-Size: 519
+Installed-Size: 546
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-is-base
-Filename: pool/main/f/firefox/firefox-locale-is_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 281514
-MD5sum: acdadf9bc099266d40a30ba38517328a
-SHA1: 9a8dd9acee65bbcdff885fed2decb73f886a84cd
-SHA256: 2708f4b3802b6af3774482341383dd8a2e98313ed88b90a9005118785e93c93f
+Filename: pool/main/f/firefox/firefox-locale-is_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 301276
+MD5sum: 952828c9ed0ff9f1792b21028ce96aa3
+SHA1: 9f148a1cdfd9d5044598aad30f2a89149e7fd135
+SHA256: e0635c9c5ee6c26a12cc1416761f040c3209f183a9497c7b89f4bb32af506d65
 Description: Icelandic language pack for Firefox
 Description-md5: 3a574633745f9b6d97f07f1c738599a3
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3130,17 +3130,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-it
 Priority: optional
 Section: web
-Installed-Size: 468
+Installed-Size: 495
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-it-base
-Filename: pool/main/f/firefox/firefox-locale-it_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 230440
-MD5sum: ed361930c7de7d20869e63223093b400
-SHA1: 183e8a61cb4747e54033b57c1034e541262766aa
-SHA256: 0fb6dca205f0ad0250ef27451f7aa12d6b370967703241c40f6990faff65af4c
+Filename: pool/main/f/firefox/firefox-locale-it_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 248774
+MD5sum: 72668caea6f9fe43f7ca3568aea4783f
+SHA1: 3f1fa005b9b2b3f5cfff6ec00a8ea5b5c0899e53
+SHA256: a960a54e08b5669287c018f9e2c7d5aea6b82d374fb016a8365d6bf17959d217
 Description: Italian language pack for Firefox
 Description-md5: 67e195ac5003115f8cafa0ec0b0ec849
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3151,17 +3151,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, kubuntu-active-live, edubuntu-usb-live, 
 Package: firefox-locale-ja
 Priority: optional
 Section: web
-Installed-Size: 557
+Installed-Size: 588
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-ja-base
-Filename: pool/main/f/firefox/firefox-locale-ja_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 322518
-MD5sum: c213b75ef7182bac5fec6f8b52c55b63
-SHA1: c61d9cdf805e786633e5cf967173f7c9c93520a1
-SHA256: 9d2a096d1d0c2600aa7468e7dd2f5d2dcc0a333fc1e63510ffbb11f423f64b1a
+Filename: pool/main/f/firefox/firefox-locale-ja_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 345138
+MD5sum: 0d0e2b3c30ca589de488fe11ed7eae8e
+SHA1: a984681ced74f4d058aac2a4f0372c22c40b0864
+SHA256: dd3fcdd66762afa7170b5c691320c1fd2e442b24a0328d874afaeb73e3723b1e
 Description: Japanese language pack for Firefox
 Description-md5: aa0b0e800989cac3ce480ef7507c17d5
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3172,16 +3172,16 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, kubuntu-active-live, edubuntu-usb-live, 
 Package: firefox-locale-ka
 Priority: optional
 Section: web
-Installed-Size: 162
+Installed-Size: 164
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
-Filename: pool/main/f/firefox/firefox-locale-ka_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 14740
-MD5sum: ba23d1e940cfb220a0f7fcc1a1381262
-SHA1: d9a32541041f8930b5b4498805051016628a7e54
-SHA256: a88e7c29e5a84fb76d1ca9634721284ea934cbae51be174823285348911f89aa
+Version: 21.0+build2-0ubuntu0.12.04.3
+Filename: pool/main/f/firefox/firefox-locale-ka_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 17004
+MD5sum: db679766ce0be6f85df7f14880e0c844
+SHA1: 90eff783c05688b8e7c383d7f0f2e122ac406729
+SHA256: 10ac6f87fca4e8de77849b1daef7222c6692c3208e2ea9823033152c7511ac2c
 Description: Transitional package for unavailable language
 Description-md5: bc79d90071e5d3639a93287638590a8e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3192,17 +3192,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-kk
 Priority: optional
 Section: web
-Installed-Size: 566
+Installed-Size: 595
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-kk-base
-Filename: pool/main/f/firefox/firefox-locale-kk_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 330684
-MD5sum: 5f1a01606a50cbd9399e96df95cc936f
-SHA1: aacec0ec9c746a49260012a26dfc45b4e8553428
-SHA256: 3331399cd10a909d1247b8423fe1a1a49a77880b522f3985089f834e13328c3c
+Filename: pool/main/f/firefox/firefox-locale-kk_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 352736
+MD5sum: 85c18beec0eda875919147ee02e36e36
+SHA1: 975d8776d1398dd1c4126089ab4d756fc8d473f7
+SHA256: e21bfc6fcfcbacd075a89a9e9828b21125d8a09d7c5225d64765f81f7dedf687
 Description: Kazakh language pack for Firefox
 Description-md5: 98ad9668e81080f67619b3468ea616a9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3213,17 +3213,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-km
 Priority: optional
 Section: web
-Installed-Size: 583
+Installed-Size: 612
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-km-base
-Filename: pool/main/f/firefox/firefox-locale-km_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 348938
-MD5sum: ab383eeba2f8f89fa72f0f4c66aac2fd
-SHA1: 9f43315cbca1d0ba11e3a96ea550ea2ba3bbd809
-SHA256: f314bbd4729b213f087b0095755aee24165baf9e7bca91d2e3eab36511dea651
+Filename: pool/main/f/firefox/firefox-locale-km_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 369166
+MD5sum: 53f5079138a0c68c800e6dc25722df7e
+SHA1: c6a61628816e3b0fc572667e3220ed20f5c6c344
+SHA256: 5108bacd8c34b22590cf4a0e21e1c90ec812c165aa9fa8e9c0791d9e39c01409
 Description: Central Khmer language pack for Firefox
 Description-md5: 5244e85b69105bab39ff55a3e06c2079
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3233,17 +3233,17 @@ Supported: 18m
 Package: firefox-locale-kn
 Priority: optional
 Section: web
-Installed-Size: 589
+Installed-Size: 617
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-kn-base
-Filename: pool/main/f/firefox/firefox-locale-kn_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 356748
-MD5sum: a248b0fb00ebf3906b002956652d6052
-SHA1: 91a3a868998bc8fd7a817c09091441dab497f5ff
-SHA256: b1e9bc8c9adb8cc7a284f4f16ecb24456e2f0d5f0e84b90f6ca146936d5cce05
+Filename: pool/main/f/firefox/firefox-locale-kn_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 377176
+MD5sum: 02e4d39ad9e182a029611b7fcec6b85a
+SHA1: fd2334f2799bb0c51c9214e00f58fbb17ffdfe2e
+SHA256: 8bc5dd60ba516f382e13208a0211d58d2d8ed63145e79fe087fba266acf50724
 Description: Kannada language pack for Firefox
 Description-md5: 609de6cf2cadf99b292a639def3e15db
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3254,17 +3254,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-ko
 Priority: optional
 Section: web
-Installed-Size: 541
+Installed-Size: 570
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-ko-base
-Filename: pool/main/f/firefox/firefox-locale-ko_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 296896
-MD5sum: ea691063b1def462082bdfa9c9b07639
-SHA1: ebf8914285801e670efae2fcc83cc682bc89fbc2
-SHA256: 10a7fa4f8c79d49254478dcbba51750c509c09b0f5fc0454adc27886b7dd9982
+Filename: pool/main/f/firefox/firefox-locale-ko_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 318894
+MD5sum: 15ab90087e5c90daea6dd7e1b494f4b0
+SHA1: 8d891a7ba02416d8f25e8332df6e48ec4ddbf266
+SHA256: 407a14bfddb6f6eda3933c20a3a5013be78fa3f44e22e035b1bad1e419876b5f
 Description: Korean language pack for Firefox
 Description-md5: 7477cc3b85c1cc2886c7438ffec39b8d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3275,17 +3275,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live, lu
 Package: firefox-locale-ku
 Priority: optional
 Section: web
-Installed-Size: 539
+Installed-Size: 568
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-ku-base
-Filename: pool/main/f/firefox/firefox-locale-ku_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 304738
-MD5sum: ab3b5bf8f36c092907ab4b1b0ad2eac9
-SHA1: 97832ad01065b20742003443cb9727d14bfd8757
-SHA256: ab3242633d267336ac7da2f8884048b648c1c3e0a5e2b794c68ca22ba3042a23
+Filename: pool/main/f/firefox/firefox-locale-ku_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 326590
+MD5sum: 5f0ad3dabd7b2d05cca7733559d87858
+SHA1: f57e2337a1f35fa2117ff7913e5a3ff937eef83c
+SHA256: 3f2496bb8bbfa6b0bb916471831c46bee71680229b40e20f4b5589da6d127ebc
 Description: Kurdish language pack for Firefox
 Description-md5: 9eb28b49c217558a45aff76b83b8990f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3296,17 +3296,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-lg
 Priority: optional
 Section: web
-Installed-Size: 528
+Installed-Size: 558
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-lg-base
-Filename: pool/main/f/firefox/firefox-locale-lg_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 292756
-MD5sum: 38c616dc89f1ab1bbc05f3ac0a6bdd8c
-SHA1: 7b1fa351086248cf5bf2a051bb1d8d2fecd1b790
-SHA256: 59561e31477a2b189e24c330bf20c8910f289025e468b337b8a535bd834d6242
+Filename: pool/main/f/firefox/firefox-locale-lg_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 313680
+MD5sum: cb3d6d1fe747d85fbe095b625830e34f
+SHA1: 22c35a796572dec5a7c6109da8971754fe790c1c
+SHA256: 8243602861359ceb83a4472748befcaf5905f54e3d89d114197a176f7f820d42
 Description: Ganda language pack for Firefox
 Description-md5: e246c6a9431dfb6554f3997bc3842ae0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3317,17 +3317,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-lt
 Priority: optional
 Section: web
-Installed-Size: 537
+Installed-Size: 565
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-lt-base
-Filename: pool/main/f/firefox/firefox-locale-lt_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 301944
-MD5sum: 3f60d2a05b96bd187bd428955fd9a1e2
-SHA1: 982fca94b8f942a082168d92dba9f8124dddd1f1
-SHA256: 8ed28695755a6a3a3ca76ce8f2a78d2091e629d6405ddac8a0e1941dee9099e7
+Filename: pool/main/f/firefox/firefox-locale-lt_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 322602
+MD5sum: 41f8fdef2e5fe67b83569dd112053372
+SHA1: 28b7aa647bf7fd251bff93587bbc81fdf00b9986
+SHA256: fac112decdae50cd06575e635218a01165f336509dfc1335c72051daaf30299f
 Description: Lithuanian language pack for Firefox
 Description-md5: 519f3c51c7a90ee972069b44a1acef4e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3338,17 +3338,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-lv
 Priority: optional
 Section: web
-Installed-Size: 519
+Installed-Size: 548
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-lv-base
-Filename: pool/main/f/firefox/firefox-locale-lv_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 281874
-MD5sum: 09adc24e160771a0b79a00a3c0c2983a
-SHA1: dc940dafffaad867a7a0ba1176fcbdba2d8bf1a1
-SHA256: d92f90e4e8e4e4a1e98dbd4c5b1b5512faa9dd7dc678d206291d3880b960fa2c
+Filename: pool/main/f/firefox/firefox-locale-lv_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 303408
+MD5sum: 889cd1308e7df8de7c7dd9eec47fcca7
+SHA1: 7e0036e7ec5636b47f02c6131815f6e6993572db
+SHA256: f5e92423d26f4e3a617731e57e6b9a265acb6b403fcd88bfd7426d2efa0f2e1b
 Description: Latvian language pack for Firefox
 Description-md5: 355c458949586e8977646d1ce6c5096d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3359,17 +3359,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-mai
 Priority: optional
 Section: web
-Installed-Size: 563
+Installed-Size: 591
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-mai-base
-Filename: pool/main/f/firefox/firefox-locale-mai_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 327990
-MD5sum: 86cb9be0b7ad730284a9e9256611f51b
-SHA1: 44c9ad07113b690a27c1616dd59351c930169e61
-SHA256: d3a1f8767128fb19a8ae56f314bd0cf7d2b9a9f477777dbcf354e69c90c780d4
+Filename: pool/main/f/firefox/firefox-locale-mai_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 347602
+MD5sum: 8a5801ec3b40069339b2dde088a71926
+SHA1: d31a81bc41609d423608d310caece5f425eef3d7
+SHA256: c124dcd28ebf77bc50040a2132b123c5e52947fcdd64cc2cf3e5f9d95ffb4ba7
 Description: Maithili language pack for Firefox
 Description-md5: 9fd42103512e10b616b758b3e6da26f7
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3380,17 +3380,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-mk
 Priority: optional
 Section: web
-Installed-Size: 553
+Installed-Size: 584
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-mk-base
-Filename: pool/main/f/firefox/firefox-locale-mk_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 316394
-MD5sum: 45537e294c7b3d00a430e847ccdfcf94
-SHA1: 9c1158e5ed18f9fac5e68907c544b562e6d3e216
-SHA256: 926b895d36f7281e38a75431d9dd424e43396e402e3a6bc2cf046473b8e32183
+Filename: pool/main/f/firefox/firefox-locale-mk_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 339964
+MD5sum: a10da79b4495bef21a7797c96afd8482
+SHA1: e248c4b4a8907337cc899585d8fdcd25b097f36e
+SHA256: 095b1f0f8960bf19a373e4f08bd05ae0ffc1c95153a778cf59dd5d8d5a5844ac
 Description: Macedonian language pack for Firefox
 Description-md5: 0731fc46c1b1fae2ba6f6b1105017640
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3401,17 +3401,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-ml
 Priority: optional
 Section: web
-Installed-Size: 600
+Installed-Size: 629
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-ml-base
-Filename: pool/main/f/firefox/firefox-locale-ml_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 363140
-MD5sum: 25946bd9caeb3f4ad48afc2a8f65c767
-SHA1: 9dc7ede269087c7789adaa1f11f8449f657da22b
-SHA256: 06d1955111e6718b5e7f2444f6dad387137bae672e2483929a521216dab59440
+Filename: pool/main/f/firefox/firefox-locale-ml_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 384138
+MD5sum: ef780f12e79666b683852ac2f8ef0132
+SHA1: 908398772edd1512a3f87ffb7db41df91e48edd2
+SHA256: 3465e90449be78419a9bdbaed865b661553bb3140787854386ecd298276cc0dc
 Description: Malayalam language pack for Firefox
 Description-md5: 90093d1da853cba1ef56fb07a5d3ccff
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3422,16 +3422,16 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-mn
 Priority: optional
 Section: web
-Installed-Size: 162
+Installed-Size: 164
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
-Filename: pool/main/f/firefox/firefox-locale-mn_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 14736
-MD5sum: e54c940e5df09fc02ecf74e1ece4dff6
-SHA1: 87f1df459bd200f2d1fb88fdd094790a82ac1c06
-SHA256: 27d5d1ddaac08d371f64a9c854cb982b2048347b861fbba6cf0a2d65a34343cf
+Version: 21.0+build2-0ubuntu0.12.04.3
+Filename: pool/main/f/firefox/firefox-locale-mn_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 17004
+MD5sum: 2b28e8a36808916aa267249a2f72ef76
+SHA1: be5f28f4f72998b05242ca0f5e935fa1ab813cd5
+SHA256: a502cabaf8fd1695605c50661f6d1c253c594718d6dac65da375e03605dae236
 Description: Transitional package for unavailable language
 Description-md5: bc79d90071e5d3639a93287638590a8e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3442,17 +3442,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-mr
 Priority: optional
 Section: web
-Installed-Size: 566
+Installed-Size: 595
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-mr-base
-Filename: pool/main/f/firefox/firefox-locale-mr_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 330648
-MD5sum: 788534b777565c0bb483f33c220f0ce5
-SHA1: 4f7216ee50f8102f1714a76838c532da8e1770a7
-SHA256: 74975b583d00596438a49312fa7462b12d844ebd1a87db40039c597f175cd1d4
+Filename: pool/main/f/firefox/firefox-locale-mr_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 351772
+MD5sum: 919b1ca3ca3c0453f9b1e636ed00cba2
+SHA1: f3170cdef00120da4356008753e54802f5e561d5
+SHA256: ee254348c46c3fa2caa1df9de79fab5cb344d0dd1bae3c286dbc577b7ff203a6
 Description: Marathi language pack for Firefox
 Description-md5: b7ac24ce2d3f6d087e9a9bbf9c956d6a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3463,17 +3463,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-nb
 Priority: optional
 Section: web
-Installed-Size: 518
+Installed-Size: 548
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-nb-base
-Filename: pool/main/f/firefox/firefox-locale-nb_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 279054
-MD5sum: 762dbba2722b20c41bee3571e0f5de2a
-SHA1: 31df6e11c43cd3434b01e25460768efed0eeb200
-SHA256: 1e565b8c054382eccaeb436c6ef8ae19a2c334e3177cb5c26987b30fa0bfa880
+Filename: pool/main/f/firefox/firefox-locale-nb_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 300402
+MD5sum: 2777664644f143695488ac264957351e
+SHA1: 3e1d217cbf00304a3812be2fcf11dcb157a109a4
+SHA256: 9158ddc974850c71a8787bf9d5e235837bb65c3d16de05af98e3222d81e9e27e
 Description: Bokmål, Norwegian; Norwegian Bokmål language pack for Firefox
 Description-md5: 8a05e67a1c0fa64d86a13ead1dbd4981
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3484,17 +3484,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live, lu
 Package: firefox-locale-nl
 Priority: optional
 Section: web
-Installed-Size: 520
+Installed-Size: 549
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-nl-base
-Filename: pool/main/f/firefox/firefox-locale-nl_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 284734
-MD5sum: 39db2e1646dc2b7dc9392f5d2e8b6eb1
-SHA1: f952e2608032b7e5ceca9e60180cdc5344538d4c
-SHA256: 8ce175ea123e3f5403a12cfbeb6847933c888374f7eb16f56873dcf9a269cc7f
+Filename: pool/main/f/firefox/firefox-locale-nl_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 305794
+MD5sum: bc858e3c5e285f6ed983ce81aa50dd15
+SHA1: 0277724ed24305037d8f272a0e992f3f4d8933e1
+SHA256: 3488a9985d77aa4e538eb95bcd3e49be086661ba082444e87be994acdd64f198
 Description: Dutch; Flemish language pack for Firefox
 Description-md5: c8c7d0f350530c7041fcfc71d8f297a2
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3505,17 +3505,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, kubuntu-active-live, edubuntu-usb-live, 
 Package: firefox-locale-nn
 Priority: optional
 Section: web
-Installed-Size: 523
+Installed-Size: 547
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-nn-base
-Filename: pool/main/f/firefox/firefox-locale-nn_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 287178
-MD5sum: d5da99e86be3a2fc0389beec24d2489a
-SHA1: 936143cffd46e36508067bad5b0b910d99ea4b8e
-SHA256: 43b60cd9ca91cf9e8841d18db6d9f9b4379896d0a0ad5dc51e2474c7a4a63ca0
+Filename: pool/main/f/firefox/firefox-locale-nn_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 301066
+MD5sum: b66875982ffe06cf076560331bc1f908
+SHA1: b1814ca930d269173b11421fab0ef587043643e8
+SHA256: cffe0b035fdbc1e6b8673759522061df49c13cbe8d00e56086c9607ec0259564
 Description: Norwegian Nynorsk; Nynorsk, Norwegian language pack for Firefox
 Description-md5: a2434677506d5d2ae1b6f340d5e3b2ee
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3526,17 +3526,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-nso
 Priority: optional
 Section: web
-Installed-Size: 523
+Installed-Size: 550
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-nso-base
-Filename: pool/main/f/firefox/firefox-locale-nso_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 287886
-MD5sum: c95f9da17c131b2acf81c9f53a4cc6de
-SHA1: ae58061ed9080d4eaaacbfd29dc2b06e66afe7a8
-SHA256: 28792fb5f8a4938b3749871cb30a650521930b2ecb450df4abbdf9722fe74f89
+Filename: pool/main/f/firefox/firefox-locale-nso_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 308198
+MD5sum: 23ff9d7049dd837c5659c1af57d9fc38
+SHA1: b3d696f5cf89bd4b41b7bb9dc2e5ed6f1912a136
+SHA256: 0731ef75429557af5af372e14fbc075744d66324acd83936026b834b8567808c
 Description: Sotho, Northern language pack for Firefox
 Description-md5: a36776d3d6debca65ed75af1c55042f2
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3547,16 +3547,16 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-oc
 Priority: optional
 Section: web
-Installed-Size: 162
+Installed-Size: 164
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
-Filename: pool/main/f/firefox/firefox-locale-oc_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 14736
-MD5sum: fb6c2beabd0649e32ba17946e99f9a03
-SHA1: 3fd1defd793fc361f451343b7f2f21a8cdd00377
-SHA256: 84ec5c5b99441442ae1e96bd57a30c6a966c9658e53b3c54cbb20103c3e8f091
+Version: 21.0+build2-0ubuntu0.12.04.3
+Filename: pool/main/f/firefox/firefox-locale-oc_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 17002
+MD5sum: b946dc9df067109d94673e3081299044
+SHA1: f8fd257bb50f079a951acf2c099aed624ec2b6f0
+SHA256: 5330fd7aad51c5ee7be95a5b35bdbb5f026393c6ee9bd2c917f8e632e2396789
 Description: Transitional package for unavailable language
 Description-md5: bc79d90071e5d3639a93287638590a8e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3567,17 +3567,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-or
 Priority: optional
 Section: web
-Installed-Size: 565
+Installed-Size: 593
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-or-base
-Filename: pool/main/f/firefox/firefox-locale-or_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 331262
-MD5sum: 2387916bc8d30868bb95c61152f611f1
-SHA1: cf55eca1fa671c3ec226096bf2b54b317cebfb29
-SHA256: 6675e17e73857d214886a5218c7260984da6b370630c186d10e5b731b880b37a
+Filename: pool/main/f/firefox/firefox-locale-or_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 351830
+MD5sum: 85c921066ab55ee7d08577402baab12d
+SHA1: b9042ee6a9d0d07d4ac280d2d75e9fd8147f4b22
+SHA256: 7f0f11e92d0e1df16cb838c2f9347f8b30a51c16a312a1b8bb77181d2ec4db36
 Description: Oriya language pack for Firefox
 Description-md5: 5135d4190ce2532be58c91c5fd3f319b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3588,17 +3588,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-pa
 Priority: optional
 Section: web
-Installed-Size: 551
+Installed-Size: 577
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-pa-base
-Filename: pool/main/f/firefox/firefox-locale-pa_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 315708
-MD5sum: 9d4a2578b2645fa9bbcf3ef2152dd0eb
-SHA1: ccf0cb7a289917e9433ae3cb67da06adc4af7846
-SHA256: d4403ecf650021c98d5406213087b254e127acc6c82b806a637911315eab9d20
+Filename: pool/main/f/firefox/firefox-locale-pa_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 334666
+MD5sum: ede40d9c35f86d78861ace324655bbc8
+SHA1: 65c3edb164b8a1099697ea4269fefe01a376d6d9
+SHA256: 8b85680f42c5aa8c0892cf1c04591553900cbb56d85235b4cf70163841962132
 Description: Panjabi; Punjabi language pack for Firefox
 Description-md5: 3bfbd21e289c4d4ef3e9bd89d92a048f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3609,17 +3609,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-pl
 Priority: optional
 Section: web
-Installed-Size: 530
+Installed-Size: 560
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-pl-base
-Filename: pool/main/f/firefox/firefox-locale-pl_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 294490
-MD5sum: d45a5567e9a87e55ef641c66fc471396
-SHA1: 303e7702d94309ee065fb2bbf587cba53d08d6a3
-SHA256: 12decd5c2a952d4f05c4bce74aa94c6e394e6601e5ecc6bafa60fdcafb5d4105
+Filename: pool/main/f/firefox/firefox-locale-pl_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 315366
+MD5sum: 0f6d3895483a8c8d7e301bf471075390
+SHA1: 9c3c16679922562b77d9d482f5d3aecab44849f9
+SHA256: 2b06270b79a1a49a12c59859f86992b289e43d6b32bb206054b961dd9c5a1fbb
 Description: Polish language pack for Firefox
 Description-md5: ffd73141d32fab7a8990d3663208d5ae
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3630,17 +3630,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, kubuntu-active-live, edubuntu-usb-live, 
 Package: firefox-locale-pt
 Priority: optional
 Section: web
-Installed-Size: 843
+Installed-Size: 891
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-pt-base
-Filename: pool/main/f/firefox/firefox-locale-pt_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 547418
-MD5sum: 4c41eecc4f20d51677767e154aba6152
-SHA1: 9de19cc0c2aa223932545dd9efc2dabac2675a02
-SHA256: b4705a832e5c8f06ad47c86bd553558b400f5d718bd851826a6c3a3416b5cef7
+Filename: pool/main/f/firefox/firefox-locale-pt_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 583100
+MD5sum: 1ff863f025c48d4ff5af7daad0d9415f
+SHA1: 9cf7f220f78e89655b2d6598b813fcd5ca040c44
+SHA256: abcba38a8c366b595874fc6f75d6614ac4e972ba76d5a2791a0fe051288a8172
 Description: Portuguese language pack for Firefox
 Description-md5: ba400e83844c93550cd9bbb88c3f610f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3651,17 +3651,17 @@ Task: ubuntu-live, ubuntu-usb-live, kubuntu-active-live, edubuntu-usb-live, edub
 Package: firefox-locale-ro
 Priority: optional
 Section: web
-Installed-Size: 545
+Installed-Size: 573
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-ro-base
-Filename: pool/main/f/firefox/firefox-locale-ro_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 310248
-MD5sum: ae64d224bd243e47845d43affe659150
-SHA1: ff1d123aa2674f48aaddf62b03631b191ecffb33
-SHA256: 93f840d9c7dd4556efd056d224ed171f48fc22a81ef80e76914a873dcb66528a
+Filename: pool/main/f/firefox/firefox-locale-ro_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 330316
+MD5sum: b935cfa95d966f3a4966c8383842cb52
+SHA1: 27b4bef8909abb2747b39036186a5bb33c9713fc
+SHA256: 8d41cb4dce25b6788ab5ab0330fda399a7fd33175e1782bf5997a9119aaa72e6
 Description: Romanian language pack for Firefox
 Description-md5: bfe768497923b95b007c38b40a8b5c77
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3672,17 +3672,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live, lu
 Package: firefox-locale-ru
 Priority: optional
 Section: web
-Installed-Size: 522
+Installed-Size: 552
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-ru-base
-Filename: pool/main/f/firefox/firefox-locale-ru_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 282338
-MD5sum: 830fa6eb4dec8eb1c96ea7b0338056a8
-SHA1: 6f6257520d16ec24a5b72c09cfd6fcef885bd125
-SHA256: 8afccb33b0cb9bb54c9c008356dc76ed69a6348bf72b4cbe9f79b268fb3fb321
+Filename: pool/main/f/firefox/firefox-locale-ru_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 304614
+MD5sum: a11b3e593dad256cd84c05d3ee050d1a
+SHA1: eaf9eea808493815e0b808c909be57ae0177dc1c
+SHA256: 3342b8781a4fef3c15a4a8e5a34c75ac612b43515b26be0ac446839687848324
 Description: Russian language pack for Firefox
 Description-md5: b936b6c575ae73b427a148a37de4ebd1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3693,17 +3693,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, kubuntu-active-live, edubuntu-usb-live, 
 Package: firefox-locale-si
 Priority: optional
 Section: web
-Installed-Size: 553
+Installed-Size: 583
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-si-base
-Filename: pool/main/f/firefox/firefox-locale-si_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 319698
-MD5sum: 601b1496bc822bd36eb4b4381d4fcc4a
-SHA1: 3e0cbe6ca2ab60e18dedf20d04938227600bc011
-SHA256: 8d8409ab11ec0a01b15a424907a874e0385c59e7ea32bb09166a5ff885fdcc43
+Filename: pool/main/f/firefox/firefox-locale-si_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 341748
+MD5sum: c73b7a2eae00eb374951a963d198bbf5
+SHA1: f5e3a201bc639847edb320aaa070d6530741b9bb
+SHA256: edbe8fc8b0a2fb4589967c4b171705f3b773dcf3ca1af8f0279c4cdfd172e126
 Description: Sinhala; Sinhalese language pack for Firefox
 Description-md5: d336ad9f3d64d9c8b369c2627a15f388
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3714,17 +3714,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-sk
 Priority: optional
 Section: web
-Installed-Size: 533
+Installed-Size: 563
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-sk-base
-Filename: pool/main/f/firefox/firefox-locale-sk_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 299522
-MD5sum: 5f0a089e02b4ae83ddb0cacba8495267
-SHA1: c84ffbe5767ceca22cdcc28ff01f7a6cc643ae5c
-SHA256: 1e1c7157ed92dedb65056e68b0a635b997ab57870722d61245b8e6bb25a0efb5
+Filename: pool/main/f/firefox/firefox-locale-sk_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 321322
+MD5sum: 631f06db4f05f0e60348ed63d9df3d7a
+SHA1: 566e49857e07b59d2837f26cc509cbcf4345256c
+SHA256: a1333cde24630b334ae5a9f55f48c1c097412c6bc3348e8c9d028a565cbcd73b
 Description: Slovak language pack for Firefox
 Description-md5: 66f1264b5485237c1ea88079ced9a6a4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3735,17 +3735,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live, lu
 Package: firefox-locale-sl
 Priority: optional
 Section: web
-Installed-Size: 527
+Installed-Size: 559
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-sl-base
-Filename: pool/main/f/firefox/firefox-locale-sl_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 284542
-MD5sum: d843f1446383f25e4d7eee199fe6d29b
-SHA1: b468ca19c0231ecfd667888f4296a4a678b1ba2f
-SHA256: c73e3eef4b964d27c6745f3a7deca2dc271e4eaf6de3f8a16be46a3f0c471e30
+Filename: pool/main/f/firefox/firefox-locale-sl_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 308148
+MD5sum: 717fc47b26631c0db00f7b96f13672c7
+SHA1: 57f4aca516405d993df920180f3361b8a7c06376
+SHA256: 54e00f2a298a62e047c4ef81e11d89e820b59d969ab17425a6ebd216c3b8c0ec
 Description: Slovenian language pack for Firefox
 Description-md5: 6fe2fc03696fbf18b2bf180914ee1eb3
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3756,17 +3756,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-sq
 Priority: optional
 Section: web
-Installed-Size: 522
+Installed-Size: 549
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-sq-base
-Filename: pool/main/f/firefox/firefox-locale-sq_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 286972
-MD5sum: 470451deddae85b193314c93a5a32265
-SHA1: 7c31974b1a16641ddf0fe81904c45ab0d5995fd4
-SHA256: b6c645c7b1a9b14bddb35661a5de0e202caf7bbf87d2f5132a1fc801a5fc6139
+Filename: pool/main/f/firefox/firefox-locale-sq_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 307168
+MD5sum: faedc2ae913104d9432dc1de35511c32
+SHA1: 7387160883546bf125df9acbfbeae01091d9b71d
+SHA256: b740429f6555b29a66ea934783a70dd3442799437df2556d2705a9ebcb87ee4b
 Description: Albanian language pack for Firefox
 Description-md5: 6c9c10ead9f18734cd4a77e1c53deb4a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3777,17 +3777,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-sr
 Priority: optional
 Section: web
-Installed-Size: 571
+Installed-Size: 599
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-sr-base
-Filename: pool/main/f/firefox/firefox-locale-sr_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 335088
-MD5sum: 8da81f6acdf67aedbeee1501d2b436cb
-SHA1: f7ab14a374fc3ac74d07a8181605321bb86e1459
-SHA256: e37caca5052adbe94c7deb53d055a6baa9732629a05c245e897fa0625689b758
+Filename: pool/main/f/firefox/firefox-locale-sr_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 356172
+MD5sum: 584dbf5326a00e66a7d5d0ddb2963c62
+SHA1: d5aacb8a19228f93a6498cd8d78ee9c65bf6ce09
+SHA256: 2d42c020d89adbb4b1acd3ea474cdf71034d606924b9a5e62f1648511d18463e
 Description: Serbian language pack for Firefox
 Description-md5: 8d2109908f20a4405f139a82593c158f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3798,17 +3798,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-sv
 Priority: optional
 Section: web
-Installed-Size: 522
+Installed-Size: 550
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-sv-base
-Filename: pool/main/f/firefox/firefox-locale-sv_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 282310
-MD5sum: 9856bd026ae4ad0d73c5557861550b72
-SHA1: f790ca96d170346b2c0c0f0fa42aed26707954f9
-SHA256: 1e5248ea407fa76479b22310fb19042cd4ceff510adda25fb675568fd4994c57
+Filename: pool/main/f/firefox/firefox-locale-sv_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 302886
+MD5sum: 5cb8c25120b5ddc65b7a6303962c51b4
+SHA1: 3ad60a473dfb74a80d5238a38cb1f250dc2c896e
+SHA256: 6a73b7aa04a01044dca35e02b3f3b6d73df9e4a26e21b027130f096d68ec00f3
 Description: Swedish language pack for Firefox
 Description-md5: 2ea193ea12432f41b53f83a470b59148
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3819,16 +3819,16 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, kubuntu-active-live, edubuntu-usb-live, 
 Package: firefox-locale-sw
 Priority: optional
 Section: web
-Installed-Size: 162
+Installed-Size: 164
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
-Filename: pool/main/f/firefox/firefox-locale-sw_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 14744
-MD5sum: 9050f2942a778bad33da89360ce1d306
-SHA1: b4d3cae8bbc0aa1d10acf36e2758920c1d14d5c0
-SHA256: 4f31d9ff33cb4d58cfd11f9d0756b974b19242cc053ec140c627c99a0e7ccea0
+Version: 21.0+build2-0ubuntu0.12.04.3
+Filename: pool/main/f/firefox/firefox-locale-sw_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 17010
+MD5sum: 0f10b0498c4b770c5b2f09720069a2c8
+SHA1: 8d6ec2136c49472e5d2d22cbddd64e2aa86ebac5
+SHA256: bcbfe0aef696258fc9002c1050cc300054202bd3e9f5a7e362a673cd5b102936
 Description: Transitional package for unavailable language
 Description-md5: bc79d90071e5d3639a93287638590a8e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3839,17 +3839,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-ta
 Priority: optional
 Section: web
-Installed-Size: 555
+Installed-Size: 582
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-ta-base
-Filename: pool/main/f/firefox/firefox-locale-ta_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 323190
-MD5sum: 0ef645798b03ef188348936282cc79d4
-SHA1: 9f1c1d90255b23f8f03629ec97c7bbb6cebcb705
-SHA256: 0403954ab6935fa4acfe2359bbab0838c26271c5412715a142fcb2cdb69478a2
+Filename: pool/main/f/firefox/firefox-locale-ta_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 342288
+MD5sum: 57da3c2d024f73890113bba65d61ce48
+SHA1: 6ea8ec185a7723c661bf247895f0fb8defde7660
+SHA256: 45569fe0b6d71fb7f18ab43ccbc5c207ca6bd772d70904c088c526f38dbea3ab
 Description: Tamil language pack for Firefox
 Description-md5: 6ccedad7af96901a91334720c56bd490
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3860,17 +3860,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-te
 Priority: optional
 Section: web
-Installed-Size: 574
+Installed-Size: 603
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-te-base
-Filename: pool/main/f/firefox/firefox-locale-te_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 341162
-MD5sum: 97c9af4d74c68e7073e96fffd17392e1
-SHA1: c0f1daeec080530506c4c3bf493c15a5b0f3adae
-SHA256: 37c0ef7d6ed93a9da893de132614722ddaf3109944c91f46f71e2fe1391e98fa
+Filename: pool/main/f/firefox/firefox-locale-te_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 361798
+MD5sum: 46ad35541bb0da182776ebf0aacc935b
+SHA1: cc2f3803a79f93f8097cdf52c8900e2de7304fc7
+SHA256: d9e0cd2d17b6f2cc799df77e59409e5251de2e6f0cd8f02f7cedc6e46fb84a82
 Description: Telugu language pack for Firefox
 Description-md5: d66752b03661f62d700263ab82e868e7
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3881,17 +3881,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-th
 Priority: optional
 Section: web
-Installed-Size: 560
+Installed-Size: 590
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-th-base
-Filename: pool/main/f/firefox/firefox-locale-th_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 324982
-MD5sum: c0340e86aad32174e6ca96b077014a85
-SHA1: 4d22376b7d8485e1504fe73cd489ba17d25f3467
-SHA256: ea5b6ddf43bae60534ce21c69639e99e9d65d78fac0ac5d30395a1d759ea70d3
+Filename: pool/main/f/firefox/firefox-locale-th_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 346568
+MD5sum: 392becdc1b15bd03ab4061b500b35d48
+SHA1: 4443ce7f6bb02799e39b7a6110c26ca1c1ac2b8d
+SHA256: 74a79efad9a31600fd9c678e6f10ec1bc252a0e9aaec65eca1bd56be41f1d8a0
 Description: Thai language pack for Firefox
 Description-md5: cc27bcd11daedf111f9aab87632f7263
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3902,17 +3902,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-tr
 Priority: optional
 Section: web
-Installed-Size: 526
+Installed-Size: 554
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-tr-base
-Filename: pool/main/f/firefox/firefox-locale-tr_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 291932
-MD5sum: ead66428e84db5281ee72710fdf935e7
-SHA1: 06baeb56124d224bd9887f6a701f8a5123b14db5
-SHA256: a4906568b7c71c545b32fa02da5d345d7db4d36ad8f7ca480620dd1cf8def846
+Filename: pool/main/f/firefox/firefox-locale-tr_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 311670
+MD5sum: 6e8cd1807ccbc8254fe4f30aa049e695
+SHA1: 6b33261abce3ec76966bb7c73550f99ec5d76c89
+SHA256: 219bcf59f0068983aa41dcbf2b152930823c2262a4bf2d1a5ca8dd96354cfe59
 Description: Turkish language pack for Firefox
 Description-md5: 3c205697910b54cdfc483ed64de82490
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3923,17 +3923,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live, lu
 Package: firefox-locale-uk
 Priority: optional
 Section: web
-Installed-Size: 554
+Installed-Size: 581
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-uk-base
-Filename: pool/main/f/firefox/firefox-locale-uk_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 321386
-MD5sum: 940735464f3c2d75fb5bc98a8f8ca2bb
-SHA1: 4d59f30ffd8dada25dde9e5402d60b5f02a989b4
-SHA256: 005fc01b354380a0c675357a50666f684c05d25e23575528d43ebee201ae1c63
+Filename: pool/main/f/firefox/firefox-locale-uk_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 341662
+MD5sum: bea65a15861559a0e69c666d7f7d01f9
+SHA1: de16fb60d0c7c7f829533a3dcb98fbd47985cd54
+SHA256: 14e6d1f8a0816c8dc74a90db78f161db5987ce370bfa735760f98c4cb456f606
 Description: Ukrainian language pack for Firefox
 Description-md5: ba467b5c78e88b367e14f3ac484d3816
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3944,17 +3944,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live, lu
 Package: firefox-locale-vi
 Priority: optional
 Section: web
-Installed-Size: 550
+Installed-Size: 582
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-vi-base
-Filename: pool/main/f/firefox/firefox-locale-vi_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 312870
-MD5sum: 97a85077556fd544c4000956b7a052f1
-SHA1: 050521e9a277733ad30bf1fe2f7aac29a3d3b2e2
-SHA256: acb34296a0fa4accde08835d72a5f3cefad0b094be081f062655204d3c30c1ad
+Filename: pool/main/f/firefox/firefox-locale-vi_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 336920
+MD5sum: 0707a076787560bf1d8940e69261183a
+SHA1: bfe66281be6b70c68abd98ccaa36a67a0ceccb1c
+SHA256: cabad59346f2519637d15fa620f119525bf16020fc0d83f2a9c5a0f0552584c1
 Description: Vietnamese language pack for Firefox
 Description-md5: e187907de9840d733e0c8a14eafc65ef
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3965,17 +3965,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-zh-hans
 Priority: optional
 Section: web
-Installed-Size: 550
+Installed-Size: 584
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-zh-hans-base
-Filename: pool/main/f/firefox/firefox-locale-zh-hans_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 303528
-MD5sum: f59168fae363d33c26b4b080a7543fd4
-SHA1: 474a06992f929e84922637856e45ef2ac1e53de9
-SHA256: f117435d3c8a94e513e6b5777839c6924e49aa990ccc799af24c5b0a6c249483
+Filename: pool/main/f/firefox/firefox-locale-zh-hans_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 329160
+MD5sum: ebeafbed4b17407d6696a709259b3a2c
+SHA1: fd10534d9405d3f7ac6923873ea34661237454c9
+SHA256: ae2f3178c4d86f75ec34203fbc399ce76753f387b23a840926c37ad6e543bab7
 Description: Simplified Chinese language pack for Firefox
 Description-md5: 3e3ba5b1c9c87d325f38630cc1f5f593
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -3986,17 +3986,17 @@ Task: ubuntu-live, ubuntu-usb-live, edubuntu-usb-live, edubuntu-dvd-live, xubunt
 Package: firefox-locale-zh-hant
 Priority: optional
 Section: web
-Installed-Size: 539
+Installed-Size: 567
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-zh-hant-base
-Filename: pool/main/f/firefox/firefox-locale-zh-hant_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 301432
-MD5sum: 46ce1b5a1c8a836c4b4a2e2ae69b4a8e
-SHA1: c0ca65cad4409cc355fe9c0fd74360a965766772
-SHA256: f09ea01e1b1fd3db72669b92ca245d87fa3bfc3f77e05eb3ba4947a26b17ef60
+Filename: pool/main/f/firefox/firefox-locale-zh-hant_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 321638
+MD5sum: e143485126fe9ebf2c56f8931b75b7a9
+SHA1: a0470f3f7657cb13cdaedbdbf33d96d9b54fd7e1
+SHA256: 2a034283b167e6f0c297fbc545aab11a31c9380265ae4465e5e839c53a003260
 Description: Traditional Chinese language pack for Firefox
 Description-md5: 344951ca63511f11ceb711b1ac9aa10f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -4007,17 +4007,17 @@ Task: ubuntu-usb-live, ubuntu-dvd-live, edubuntu-usb-live, edubuntu-dvd-live
 Package: firefox-locale-zu
 Priority: optional
 Section: web
-Installed-Size: 530
+Installed-Size: 559
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: i386
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
+Version: 21.0+build2-0ubuntu0.12.04.3
 Replaces: language-pack-zu-base
-Filename: pool/main/f/firefox/firefox-locale-zu_20.0+build1-0ubuntu0.12.04.3_i386.deb
-Size: 296244
-MD5sum: 3eaf3ebf5b9cdf70a997dfd5afc9eec7
-SHA1: f4c97b93dec9c35ef8e4b9afe9c13449325ceffe
-SHA256: 2e561764bb2fd5cff2250ed840d895bd44f785fb24a03f41cacf7c30c19a8011
+Filename: pool/main/f/firefox/firefox-locale-zu_21.0+build2-0ubuntu0.12.04.3_i386.deb
+Size: 316876
+MD5sum: cb454201213d1d789838ab37cdf054b4
+SHA1: 65a0ba84008acb5f37be02d6f3bba0e58b1069a1
+SHA256: fbc5844c40d011251087ff937d9e7c610b811abd2533865bc641fd95bc1ad53a
 Description: Zulu language pack for Firefox
 Description-md5: 17c6d848071fd7a4338f4653918fe50f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug

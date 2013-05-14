@@ -4170,16 +4170,16 @@ Origin: Ubuntu
 Package: firefox-mozsymbols
 Priority: extra
 Section: universe/debug
-Installed-Size: 22916
+Installed-Size: 23381
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
-Filename: pool/universe/f/firefox/firefox-mozsymbols_20.0+build1-0ubuntu0.12.04.3_amd64.deb
-Size: 23198890
-MD5sum: 06d2acdec6cdb3a9155ac6e5787a1efe
-SHA1: 7045722711452ba2e53f09aeafc429810280b015
-SHA256: 1d8731e2f25cafe1124ca62a723f067ee440a21e7251ed21874f9293ea604268
+Version: 21.0+build2-0ubuntu0.12.04.3
+Filename: pool/universe/f/firefox/firefox-mozsymbols_21.0+build2-0ubuntu0.12.04.3_amd64.deb
+Size: 23669440
+MD5sum: bc468389feeb6b4645f4e576d75c2c07
+SHA1: c0c5368d962c61f8fdaebdf9d50dede9f954438b
+SHA256: 2052f82addccd9a2ceeaa1636d0b7795aa3dd85a10dabbc769c7db94a54421f8
 Description: Safe and easy web browser from Mozilla - Breakpad symbols
 Description-md5: 1398643ad4fb0f820933502f6bba9816
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -4188,17 +4188,17 @@ Origin: Ubuntu
 Package: firefox-testsuite
 Priority: optional
 Section: universe/web
-Installed-Size: 152177
+Installed-Size: 71645
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
 Source: firefox
-Version: 20.0+build1-0ubuntu0.12.04.3
-Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18), libgtk2.0-0 (>= 2.24.0), libpango1.0-0 (>= 1.14.0), libstdc++6 (>= 4.6), libx11-6, libxext6, firefox (= 20.0+build1-0ubuntu0.12.04.3), python, dbus-x11, xvfb
-Filename: pool/universe/f/firefox/firefox-testsuite_20.0+build1-0ubuntu0.12.04.3_amd64.deb
-Size: 43559900
-MD5sum: 7cf8dce6f3a31ba9f1288369d27e8489
-SHA1: a9f35aede0e4702ec578118fe2b8846e683af87b
-SHA256: 4196eb832906c72fec0d834e8fd5540e93d5e937694e95cf035eba2876006e7e
+Version: 21.0+build2-0ubuntu0.12.04.3
+Depends: libc6 (>= 2.4), libstdc++6 (>= 4.1.1), firefox (= 21.0+build2-0ubuntu0.12.04.3), firefox-gnome-support (= 21.0+build2-0ubuntu0.12.04.3), firefox-globalmenu (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-af (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-ar (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-as (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-ast (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-be (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-bg (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-bn (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-br (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-bs (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-ca (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-cs (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-csb (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-cy (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-da (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-de (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-el (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-en (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-eo (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-es (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-et (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-eu (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-fa (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-fi (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-fr (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-fy (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-ga (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-gd (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-gl (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-gu (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-he (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-hi (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-hr (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-hu (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-hy (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-id (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-is (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-it (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-ja (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-ka (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-kk (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-km (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-kn (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-ko (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-ku (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-lg (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-lt (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-lv (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-mai (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-mk (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-ml (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-mn (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-mr (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-nb (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-nl (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-nn (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-nso (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-oc (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-or (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-pa (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-pl (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-pt (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-ro (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-ru (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-si (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-sk (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-sl (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-sq (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-sr (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-sv (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-sw (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-ta (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-te (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-th (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-tr (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-uk (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-vi (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-zh-hans (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-zh-hant (= 21.0+build2-0ubuntu0.12.04.3), firefox-locale-zu (= 21.0+build2-0ubuntu0.12.04.3), python, dbus-x11, xvfb, libc-bin, make, notify-osd, metacity, language-pack-en-base, language-pack-es-base, language-pack-fr-base, language-pack-pt-base, fonts-arabeyes, fonts-kacst, fonts-takao-mincho, fonts-takao-gothic, ttf-wqy-zenhei, fonts-arphic-uming, ttf-arphic-ukai, fonts-nanum, fonts-nanum-coding, fonts-unfonts-core, ttf-liberation, gnome-session, gnome-settings-daemon, ubuntu-settings, light-themes, unzip
+Filename: pool/universe/f/firefox/firefox-testsuite_21.0+build2-0ubuntu0.12.04.3_amd64.deb
+Size: 63647872
+MD5sum: 991ef41523defa17255daefa3fd108ad
+SHA1: d7471c0c4666021f2e88a0b06648049f42f41e35
+SHA256: e0cd35ad41095f5c9892e8e7c70ea8cfff6ee68f2808321861ffa0699ecf1628
 Description: Safe and easy web browser from Mozilla - testsuite
 Description-md5: 1c5406dea364e8840846b9dacd3c8955
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
