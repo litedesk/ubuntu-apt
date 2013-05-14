@@ -77306,6 +77306,29 @@ Origin: Ubuntu
 Supported: 5y
 Task: minimal
 
+Package: mtools
+Priority: optional
+Section: otherosfs
+Installed-Size: 332
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Architecture: amd64
+Version: 4.0.12-1ubuntu0.12.04.1
+Depends: libc6 (>= 2.14), dpkg (>= 1.15.4) | install-info
+Suggests: floppyd
+Filename: pool/main/m/mtools/mtools_4.0.12-1ubuntu0.12.04.1_amd64.deb
+Size: 185632
+MD5sum: c88fc8caabe38837795fcc65934fd8cc
+SHA1: 834bcd9f409bf8a17312411cabc61ea21dc62eb8
+SHA256: e59fd734ace2d3fe4a8850d37c01ccbefefcb41fda3534b459037e144b1879be
+Description: Tools for manipulating MSDOS files
+Homepage: http://www.mtools.linux.lu/
+Description-md5: b3b35cc7d4e80f29d3aa9d91bdf899da
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, edubuntu-desktop-kde, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, ubuntustudio-desktop
+
 Package: mtp-tools
 Priority: optional
 Section: utils

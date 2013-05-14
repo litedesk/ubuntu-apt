@@ -4203,6 +4203,29 @@ Description-md5: 1c5406dea364e8840846b9dacd3c8955
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: floppyd
+Priority: extra
+Section: universe/otherosfs
+Installed-Size: 80
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Architecture: i386
+Source: mtools
+Version: 4.0.12-1ubuntu0.12.04.1
+Replaces: mtools (<< 3.9.7)
+Depends: libc6 (>= 2.4), libx11-6, libxau6
+Suggests: mtools
+Filename: pool/universe/m/mtools/floppyd_4.0.12-1ubuntu0.12.04.1_i386.deb
+Size: 21960
+MD5sum: 00728a191416659a009662e26d672cd7
+SHA1: ad89c8591aebd9496aeac854a7c97083896f2852
+SHA256: aa43ea44810dad9371c98e1cb0fb4583a52b8bdf28eae1d391f2e4eed19ad16b
+Description: Daemon for remote access to floppy drives
+Homepage: http://www.mtools.linux.lu/
+Description-md5: 9f02c9f7fbbf410c6ec431c45b8f855b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: foomatic-db-gutenprint
 Priority: optional
 Section: universe/text
