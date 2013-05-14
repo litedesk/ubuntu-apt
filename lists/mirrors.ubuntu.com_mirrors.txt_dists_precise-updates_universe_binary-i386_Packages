@@ -5667,6 +5667,29 @@ Description-md5: 6f23c40188dbfc62b26ead5105767ff1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: gpointing-device-settings
+Priority: optional
+Section: universe/utils
+Installed-Size: 504
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: i386
+Version: 1.5.1-6ubuntu0.1
+Replaces: gsynaptics
+Depends: gconf-service, libc6 (>= 2.3.6-6~), libgconf-2-4 (>= 2.31.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.14.0), libgpds0 (>= 1.5.0), libgtk2.0-0 (>= 2.12.0), gconf2 (>= 2.28.1-2)
+Breaks: gsynaptics (<< 1.5.1-2)
+Filename: pool/universe/g/gpointing-device-settings/gpointing-device-settings_1.5.1-6ubuntu0.1_i386.deb
+Size: 63614
+MD5sum: e356e074f64c536fac6d90e0b558441f
+SHA1: 3a154de291e7949d8576f8d2ae2aa24e1a1cff3b
+SHA256: d2428f385136d3e2e2bb4b29a216d45c39112fce423640702c071ece12ffc06a
+Description: configuration tool for pointing devices
+Enhances: xserver-xorg-input-evdev, xserver-xorg-input-mouse, xserver-xorg-input-synaptics
+Homepage: http://live.gnome.org/GPointingDeviceSettings
+Description-md5: e0a3ae4487dcb0594a966a38f824af44
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: gpsd-clients
 Priority: optional
 Section: universe/misc
@@ -6125,6 +6148,27 @@ Multi-Arch: same
 Gstreamer-Elements: sdlaudiosink, sdlvideosink
 Gstreamer-Version: 0.10
 Description-md5: ba49e8a828a7fe38f85fb239e4986c22
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: gsynaptics
+Priority: optional
+Section: universe/utils
+Installed-Size: 28
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: i386
+Source: gpointing-device-settings
+Version: 1.5.1-6ubuntu0.1
+Depends: gpointing-device-settings
+Filename: pool/universe/g/gpointing-device-settings/gsynaptics_1.5.1-6ubuntu0.1_i386.deb
+Size: 1400
+MD5sum: 7cd71b139df5d426c6d63a24968305c9
+SHA1: 201e164e3e5c694450c878aafb7335e4b7a6eb00
+SHA256: 3e038a5ed1547325f0526cdd1a6bb71ef682719f496ad36d6cfd2dffb999a854
+Description: configuration tool for pointing devices (transitional package)
+Homepage: http://live.gnome.org/GPointingDeviceSettings
+Description-md5: 81999fcd6c145cc08026df08865d3fcf
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
@@ -10628,6 +10672,69 @@ Description: Runtime library for GNU Go applications (debug symbols)
 Multi-Arch: same
 Homepage: http://gcc.gnu.org/
 Description-md5: 8e5db8ab219adb4818e0e98ececdb3ab
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libgpds-dbg
+Priority: extra
+Section: universe/debug
+Installed-Size: 363
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: i386
+Source: gpointing-device-settings
+Version: 1.5.1-6ubuntu0.1
+Depends: gpointing-device-settings (= 1.5.1-6ubuntu0.1), libgpds0 (= 1.5.1-6ubuntu0.1)
+Filename: pool/universe/g/gpointing-device-settings/libgpds-dbg_1.5.1-6ubuntu0.1_i386.deb
+Size: 130592
+MD5sum: bc95d13786933007dd84de945fbdd719
+SHA1: c8e9a6cef8b09ec166d47e83990e98ac9f0ef703
+SHA256: e54c56b3dda73d617baa186fca4d599a11fd7746c6bc1dae56fb05a432534fa3
+Description: library for configuration of pointing devices (debug symbols)
+Homepage: http://live.gnome.org/GPointingDeviceSettings
+Description-md5: cee414daf32ff03ac3e4c857c76d6dce
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libgpds-dev
+Priority: optional
+Section: universe/libdevel
+Installed-Size: 72
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: i386
+Source: gpointing-device-settings
+Version: 1.5.1-6ubuntu0.1
+Depends: libgpds0 (= 1.5.1-6ubuntu0.1)
+Filename: pool/universe/g/gpointing-device-settings/libgpds-dev_1.5.1-6ubuntu0.1_i386.deb
+Size: 5666
+MD5sum: 45a65ba2b6c46c0d6d72ec133c4a2833
+SHA1: aa6b21f093cd281b368ed930ba21b5477eaf2960
+SHA256: 4141808c33ad289ce0a9ad0aa5ceb942136fc4a6bc963a2fed5fdd5f79440593
+Description: library for configuration of pointing devices (development files)
+Homepage: http://live.gnome.org/GPointingDeviceSettings
+Description-md5: 9280e68810cda7d56ec71468bf462f71
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libgpds0
+Priority: optional
+Section: universe/libs
+Installed-Size: 73
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: i386
+Source: gpointing-device-settings
+Version: 1.5.1-6ubuntu0.1
+Depends: gconf-service, libc6 (>= 2.4), libgconf-2-4 (>= 2.31.1), libglib2.0-0 (>= 2.24.0), libgtk2.0-0 (>= 2.12.0), libx11-6, libxi6 (>= 2:1.2.0)
+Filename: pool/universe/g/gpointing-device-settings/libgpds0_1.5.1-6ubuntu0.1_i386.deb
+Size: 19352
+MD5sum: a5ffea411e32e4def9da04c399fbbbe5
+SHA1: 611ed92e65ea2669b6d5ff661f23d6b2b57e40c7
+SHA256: f8a84464860ddccba28f12f669dabc1da742535c573463e567f104fe9a84c5ff
+Description: library for configuration of pointing devices
+Homepage: http://live.gnome.org/GPointingDeviceSettings
+Description-md5: 71e4b3d9675f65a84d49dbec1d580389
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 

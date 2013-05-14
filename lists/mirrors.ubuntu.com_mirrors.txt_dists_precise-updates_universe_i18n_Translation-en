@@ -2931,6 +2931,20 @@ Description-en: Openstreetmap.org viewer / wayfinder / search client
  This package requires additional data files which can be downloaded
  freely from openstreetmap.org.
 
+Package: gpointing-device-settings
+Description-md5: e0a3ae4487dcb0594a966a38f824af44
+Description-en: configuration tool for pointing devices
+ GUI tool for setting pointing devices. Currently it can configure mouse type
+ device (mouse, trackpoint etc.) and touchpads.
+ .
+ For mouse you can configure middle button emulation, wheel emulation and
+ scrolling.
+ .
+ It can enable and disable touchpad, or scrolling on it as well as additional
+ parameters like palm detection, locked drags, tapping and scrolling.
+ .
+ It is a successor of GSynaptics.
+
 Package: gpsd-clients
 Description-md5: 82a6a897230e9aec640eba7efba8a15d
 Description-en: Global Positioning System - clients
@@ -3166,6 +3180,16 @@ Description-en: GStreamer plugin for SDL output
  .
  This package contains the GStreamer plugin for SDL, the Simple
  DirectMedia Layer.
+
+Package: gsynaptics
+Description-md5: 81999fcd6c145cc08026df08865d3fcf
+Description-en: configuration tool for pointing devices (transitional package)
+ Package to ease upgrading from gsynaptics to gpointing-device-settings.
+ Reason for this is that gsynaptics is not compatible with recent Xservers
+ and upstream now develops gpointing-device-settings instead.
+ .
+ This package can be purged at anytime once the gpointing-device-settings
+ package has been installed.
 
 Package: gtali
 Description-md5: b7a7310b2a59a3ab59cf7559aa63670b
@@ -5399,6 +5423,31 @@ Description-md5: 8e5db8ab219adb4818e0e98ececdb3ab
 Description-en: Runtime library for GNU Go applications (debug symbols)
  Library needed for GNU Go applications linked against the
  shared library.
+
+Package: libgpds-dbg
+Description-md5: cee414daf32ff03ac3e4c857c76d6dce
+Description-en: library for configuration of pointing devices (debug symbols)
+ Library for setting pointing devices. Currently it can configure mouse type
+ device (mouse, trackpoint etc.) and touchpads.
+ .
+ This package contains debug symbols for both libgpds and
+ gpointing-device-settings.
+
+Package: libgpds-dev
+Description-md5: 9280e68810cda7d56ec71468bf462f71
+Description-en: library for configuration of pointing devices (development files)
+ Library for setting pointing devices. Currently it can configure mouse type
+ device (mouse, trackpoint etc.) and touchpads.
+ .
+ This package contains files needed for development.
+
+Package: libgpds0
+Description-md5: 71e4b3d9675f65a84d49dbec1d580389
+Description-en: library for configuration of pointing devices
+ Library for setting pointing devices. Currently it can configure mouse type
+ device (mouse, trackpoint etc.) and touchpads.
+ .
+ This package contains library itself.
 
 Package: libgstreamer-plugins-bad0.10-0
 Description-md5: 9415f99ee2f567b4c696c16ee566cdc3
