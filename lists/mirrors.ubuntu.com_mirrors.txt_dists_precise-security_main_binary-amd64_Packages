@@ -36965,10 +36965,10 @@ Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb
 Package: thunderbird
 Priority: optional
 Section: mail
-Installed-Size: 50771
+Installed-Size: 50773
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Version: 17.0.5+build1-0ubuntu0.12.04.1
+Version: 17.0.6+build1-0ubuntu0.12.04.1
 Replaces: mozilla-thunderbird, thunderbird-gnome-support (<= 3.0.4+nobinonly-0ubuntu3)
 Provides: mail-reader
 Depends: libasound2 (>= 1.0.23), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.15), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.24.0), libpango1.0-0 (>= 1.14.0), libstartup-notification0 (>= 0.8), libstdc++6 (>= 4.6), libx11-6, libxext6, libxrender1, libxt6
@@ -36976,11 +36976,11 @@ Recommends: myspell-en-us | hunspell-dictionary | myspell-dictionary, thunderbir
 Suggests: thunderbird-gnome-support, latex-xft-fonts, libthai0
 Conflicts: mozilla-thunderbird
 Breaks: thunderbird-gnome-support (<= 3.0.4+nobinonly-0ubuntu3)
-Filename: pool/main/t/thunderbird/thunderbird_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 23282998
-MD5sum: 4580a55ad156a9008d46d8686b7b2973
-SHA1: b718349790e1b79bed840f999f0a6cee6e9e9937
-SHA256: 7c296c71fbdb7d71074dd40923799f2691ea6b0c2b9b3dae848927a7027afb77
+Filename: pool/main/t/thunderbird/thunderbird_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 23280450
+MD5sum: 489a3b28a44a0c912b082ae6cbfb700f
+SHA1: b4a71d03ee05231a02f5e7fe602c31bebc6afc6e
+SHA256: f204519be5f17b58cc5c9ef4051505fd4b660a5eb6a8b2cd85322d07b816e352
 Description: Email, RSS and newsgroup client with integrated spam filter
 Description-md5: 68ed1001b79d708ad48956a0c129114d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -36991,17 +36991,17 @@ Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, xubuntu-deskto
 Package: thunderbird-dbg
 Priority: optional
 Section: devel
-Installed-Size: 576464
+Installed-Size: 576507
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
 Source: thunderbird
-Version: 17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (= 17.0.5+build1-0ubuntu0.12.04.1)
-Filename: pool/main/t/thunderbird/thunderbird-dbg_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 216678418
-MD5sum: 7769ad780cd37f17112e57f06b230851
-SHA1: daaa7045169ad0b091703c037c2493d4eab6ce77
-SHA256: d0fe0790a7b6180d5e51dd5a4021b6aef56db6fe7171558246b12ddcd5b694c5
+Version: 17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (= 17.0.6+build1-0ubuntu0.12.04.1)
+Filename: pool/main/t/thunderbird/thunderbird-dbg_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 216689394
+MD5sum: 023007cb57bf6a6bffb111f3740ea41d
+SHA1: 9f6a969c15fdb1d71a26cf011105b8a59132a13c
+SHA256: 6b4e0f33d3b94def73fd972c57f92af10d4321211a1d742ba29ca114ee00921a
 Description: Email, RSS and newsgroup client - debug symbols
 Description-md5: 7ce9b689254d265f0d4bac6602f7a80f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37015,13 +37015,13 @@ Installed-Size: 33481
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
 Source: thunderbird
-Version: 17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (= 17.0.5+build1-0ubuntu0.12.04.1), libc6 (>= 2.4), libstdc++6 (>= 4.1.1)
-Filename: pool/main/t/thunderbird/thunderbird-dev_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 6653778
-MD5sum: ece3b6d70a27eab10d851c1785b688c4
-SHA1: e078d58e1e5c5e295862c3c2a260114bfafea7e3
-SHA256: 60ff9c3d4b281b05114699eb9c6d37ec099440144e4339f62a1ae10fceaa67e0
+Version: 17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (= 17.0.6+build1-0ubuntu0.12.04.1), libc6 (>= 2.4), libstdc++6 (>= 4.1.1)
+Filename: pool/main/t/thunderbird/thunderbird-dev_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 6644660
+MD5sum: b8a6fa0c6ba7d37194e109e0105bca74
+SHA1: 487a52bbd81e24c70c8d9dd75884e346f3403d2c
+SHA256: 27029c4d331fc4c09a5bd77076bd226e542c2c07cd68a72cefacef81f8c2c1a5
 Description: Email, RSS and newsgroup client - development files
 Description-md5: 564ab343c2a2437ef25d94273b1364c1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37035,13 +37035,13 @@ Installed-Size: 252
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
 Source: thunderbird
-Version: 17.0.5+build1-0ubuntu0.12.04.1
-Depends: libc6 (>= 2.4), libdbusmenu-glib4 (>= 0.4.2), libdbusmenu-gtk4 (>= 0.4.2), libglib2.0-0 (>= 2.26.0), libgtk2.0-0 (>= 2.24.0), libstdc++6 (>= 4.1.1), thunderbird (= 17.0.5+build1-0ubuntu0.12.04.1)
-Filename: pool/main/t/thunderbird/thunderbird-globalmenu_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 49984
-MD5sum: 1e7db858714040b6fe8793e7d098e772
-SHA1: 7538e649be1d93f7d514a751d4571f4e1174369a
-SHA256: 738564c938ac31a79946ce68ed765838ac8893ca10cb167d607a5de5dfec2ad9
+Version: 17.0.6+build1-0ubuntu0.12.04.1
+Depends: libc6 (>= 2.4), libdbusmenu-glib4 (>= 0.4.2), libdbusmenu-gtk4 (>= 0.4.2), libglib2.0-0 (>= 2.26.0), libgtk2.0-0 (>= 2.24.0), libstdc++6 (>= 4.1.1), thunderbird (= 17.0.6+build1-0ubuntu0.12.04.1)
+Filename: pool/main/t/thunderbird/thunderbird-globalmenu_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 49578
+MD5sum: e7785a394f2ce7670adcf7d4fa677ab1
+SHA1: 1de01c3ebf6fe412bf341e81049e52a319a1cb83
+SHA256: e5dcaaa8a404c04e73ba140c0283d45ca2c996a481ecf437457d61d599bdaed8
 Description: Unity appmenu integration for Thunderbird
 Description-md5: de4f97973cee918d93df8917aa3bfeac
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37056,13 +37056,13 @@ Installed-Size: 140
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
 Source: thunderbird
-Version: 17.0.5+build1-0ubuntu0.12.04.1
-Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.18), libstdc++6 (>= 4.1.1), thunderbird (= 17.0.5+build1-0ubuntu0.12.04.1), libindicate5, libdbusmenu-gtk4, libunity9, libebook-1.2-12, libedataserver-1.2-15
-Filename: pool/main/t/thunderbird/thunderbird-gnome-support_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 9198
-MD5sum: c1642f884ea8af6bd14ee0d9f799d338
-SHA1: 45df1f306f4cf65c1da1ab3a56d18b949c5591f3
-SHA256: 3db67cbb5c3e537a5e4a791474fcd7d5758a9f1ad7b781f19f1ed2fdbfd7b252
+Version: 17.0.6+build1-0ubuntu0.12.04.1
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.18), libstdc++6 (>= 4.1.1), thunderbird (= 17.0.6+build1-0ubuntu0.12.04.1), libindicate5, libdbusmenu-gtk4, libunity9, libebook-1.2-12, libedataserver-1.2-15
+Filename: pool/main/t/thunderbird/thunderbird-gnome-support_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 9194
+MD5sum: 521641cb6ad50c00be543f8f078019a9
+SHA1: 62abb4637b96ef971579aba5250dd22491dff474
+SHA256: 4c4287865792149e581d1b51cc1797c9dda2e3527705a75f53fb3b97b27219b1
 Description: Email, RSS and newsgroup client - GNOME support
 Description-md5: c6d750d99833a5a122c5bdc00727ccaa
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37077,13 +37077,13 @@ Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
 Source: thunderbird
-Version: 17.0.5+build1-0ubuntu0.12.04.1
+Version: 17.0.6+build1-0ubuntu0.12.04.1
 Depends: thunderbird-gnome-support, thunderbird-dbg
-Filename: pool/main/t/thunderbird/thunderbird-gnome-support-dbg_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
+Filename: pool/main/t/thunderbird/thunderbird-gnome-support-dbg_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
 Size: 8794
-MD5sum: eb753e9d50aa364972d559e8010a6fc8
-SHA1: f91b644222f9f9f7fcedb3a008f3010ee47d6349
-SHA256: b82c3032a1df25ea950642b71c176c73f511e5625775faac33666c2e1d9b4e28
+MD5sum: e52c479eee9b37112fbe0d2297c17524
+SHA1: abb3c4156f68f72a6d1c1007f051f83143d951ae
+SHA256: 131a3c519237b9fc2c613d6d42c91d49c9887dce2f8724ed9e999bf3b5684bb7
 Description: Email, RSS and newsgroup client - transitional package
 Description-md5: 8fa21aaf02af881ccc7c33f8559e6531
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37096,13 +37096,13 @@ Section: web
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Filename: pool/main/t/thunderbird/thunderbird-locale-af_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 13868
-MD5sum: dca7bf45dc65a8c547bce19b6d21e904
-SHA1: e0c1a78c140c77a95bf01b746a8c62de53025e64
-SHA256: 9f847035c5f7c0ea7d347a65c718eb58dc9551a444f99acd376ada45cfc11c74
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Filename: pool/main/t/thunderbird/thunderbird-locale-af_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 12140
+MD5sum: c14ecb96a887449fc46cf01ffb0e05ac
+SHA1: cbaf5b8bfac39d51b14956719e445e18be4c53f5
+SHA256: b1e6be442b662f67987ce033c0d571d52612e06d0b90242ba24af3eae5dcbba5
 Description: Transitional package for unavailable language
 Description-md5: ea537565996c4e6bdc82ab0905f0cc41
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37115,14 +37115,14 @@ Section: web
 Installed-Size: 612
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-ar_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 399022
-MD5sum: a47699ce2fba588fa14f3f4c08ee6e2f
-SHA1: a0567fa87e494eb1fd0852c11edf44e9f67b8f3b
-SHA256: dacaccf5f5c5a198e72262a1f6e6850d4309017a55604e1f055f2de3b80b696a
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-ar_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 399546
+MD5sum: 53edf2339b7bb8c26d214cd4ba48c5e2
+SHA1: f0759edc01ee03dd19f1c44454480979b37f1fbe
+SHA256: 0813ec97e84ba84bda678afc630c6ad3d4cbb630c49e337d1fca651c1fab340f
 Description: Arabic language pack for Thunderbird
 Description-md5: d96ba05b4c6d792e4d18138bbe13c392
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37135,14 +37135,14 @@ Section: web
 Installed-Size: 557
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-ast_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 339136
-MD5sum: f8c0ac45760c078cb3f749d0152a66f9
-SHA1: ba3d872d5358584ff5977e6245f209003542df9d
-SHA256: 90133f5d9f9c2f497a2df2a772b942e75c47555a23b45215b9a40013ce7ef939
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-ast_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 339946
+MD5sum: f5ccc14cff5327bb6aa6a552a08dbb44
+SHA1: 550f1de2669def65f97c2f72893950f3a279e12d
+SHA256: 46393996fab1236e3f9a57034df1323c9f7172b1c2385c9aeb9cda34e2437226
 Description: Asturian language pack for Thunderbird
 Description-md5: 92f2ba3ec6c41ae12a73493e796843ef
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37155,14 +37155,14 @@ Section: web
 Installed-Size: 597
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-be_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 380514
-MD5sum: c2daf7a0b630e272fe4ce42bda06b654
-SHA1: 061054a434dd9a8427a4a95149d9cdaa3f710e53
-SHA256: a9ded89c217e6f4eea64a988c11a35634181cb06e578db85fe23e95851cbd974
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-be_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 381118
+MD5sum: 6b1d987158af361f9dea5a27fba59587
+SHA1: 9f2ac2f8e4b5c9e51bcb88736b5b2e79438d179c
+SHA256: a78b4c6b3ee886b32852ad8810d6543910a563e736377b4a896b1f4eec0d5e5a
 Description: Belarusian language pack for Thunderbird
 Description-md5: 8756cfe43a521c52482335cca067362b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37175,14 +37175,14 @@ Section: web
 Installed-Size: 635
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-bg_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 421636
-MD5sum: a841a02b50a3ca0dbc5fd9e5df5d081d
-SHA1: a9258c092b284bb99310ce41937f1fc8a28d8656
-SHA256: 6722b049b0675b4e89adda13d76e05b775a9a5ec9af6fb46900ee7f918ad246d
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-bg_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 422310
+MD5sum: 5b736e02ac1f275610a69f184f384bf7
+SHA1: 5ca0d6fa91c203e409c223a92531dcf222235790
+SHA256: effd94ce5faff98d2634977b4238842aa22ce3308275ea4bb9514bfe5175be87
 Description: Bulgarian language pack for Thunderbird
 Description-md5: 3e822e5a8f71fa6f62fc77651434d4ca
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37195,14 +37195,14 @@ Section: web
 Installed-Size: 686
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-bn_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 470920
-MD5sum: e641c481117b46b8fe683bf9369c6e81
-SHA1: e3753a80156b9cc775763ff2a50fc3cfb69fc1d1
-SHA256: b2bfb707f285b977585d91873c579f7b13bea035d74d4c62be31cd309f9e238d
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-bn_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 471346
+MD5sum: 5d004f7db8a3874a5a6a19912b44e25e
+SHA1: 640b175898956f3d0f16c20f7a1d67d27722b48c
+SHA256: 6c41fc11bd06db3d80b6badea62556f7bfe18d565856a5395ca6035b33ce5d72
 Description: Bengali language pack for Thunderbird
 Description-md5: 0bf8b67f425d98dd586086e87a5b8652
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37215,14 +37215,14 @@ Section: web
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: all
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
 Depends: thunderbird-locale-bn
-Filename: pool/main/t/thunderbird/thunderbird-locale-bn-bd_17.0.5+build1-0ubuntu0.12.04.1_all.deb
-Size: 13836
-MD5sum: 38e712ddcfb0853eef8a06c9dba847e6
-SHA1: b50e3755c0e95888dcdbc895c0ddebab0e3d2b87
-SHA256: b91d18e9cb058df660ea7738dcb938affe1a72515ae1892a6cbc52ad7531237b
+Filename: pool/main/t/thunderbird/thunderbird-locale-bn-bd_17.0.6+build1-0ubuntu0.12.04.1_all.deb
+Size: 12110
+MD5sum: c3e9e511caf1fecf925d95944da6faca
+SHA1: f66904276862c200f8764c492b3b9d74bf539d4f
+SHA256: 6572aead5747edce3577dd569a9a8d537f4ae8d7ce37ba56596ecda438a088fe
 Description: Transitional Bengali language pack for Thunderbird
 Description-md5: 0c16945c4912b109ad1b9a29c3548a82
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37235,14 +37235,14 @@ Section: web
 Installed-Size: 588
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-br_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 372204
-MD5sum: 33cd616d985a959fb89a514f76ff3b3b
-SHA1: 5ec8e94c79929003000782dff190fd80610b7a18
-SHA256: e27da0db9c52dfb19cf438409ba8b006a803a649cd7c72207c521ea631c3ba5d
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-br_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 372610
+MD5sum: e10927a24804f8351840f062a8805d68
+SHA1: dd4839aeccc6c5934fc054b079b4d343075ba493
+SHA256: 8340e597e8b2d8c995bd3b3fccc11feedc59594fdaef974d2800d2fa38e6b33e
 Description: Breton language pack for Thunderbird
 Description-md5: 2194e389142c81481fa76aea7d4ab293
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37255,14 +37255,14 @@ Section: mail
 Installed-Size: 588
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-ca_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 375066
-MD5sum: 201f6bc3a10cbf126386500b37ab48c3
-SHA1: efaf460f38a52e14f843d387e21254f4b618c88c
-SHA256: 94696d2642fe278dce9ec4589ca685403df8b5a4269d0e4954dc1ee7ac28442e
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-ca_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 375540
+MD5sum: 1b48c27dacb8cf4cb5d8f16b0b4c8a60
+SHA1: 0c137e0e2cc02d06fd634296a77ee35b6d9ec02c
+SHA256: 3329cda7166cfe2c8a746744c7a0ff9a5f929b73bceb6eec97eedf4e5d9fc06d
 Description: Catalan; Valencian language pack for Thunderbird
 Description-md5: 9006308ddf098014382109f3256de904
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37275,14 +37275,14 @@ Section: mail
 Installed-Size: 591
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-cs_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 375996
-MD5sum: 4bc135d7ef664a0f6c5610183d8abd5d
-SHA1: 3c6428ae0c716520118b57609f2bd17ab65bd1e7
-SHA256: 2a79a5b54f0be2df02d08cedbeab0f4f938e6fcba75994a6123255e83986830b
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-cs_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 376446
+MD5sum: e880ddda9662187ac7ba2c2ea30a9222
+SHA1: e90940c46ad4bde8fa30a1d54032bd16899c1b80
+SHA256: 97367fb295a56c7e159e2bd8e07c52c795145754e55a63ed961b0bef7bce7ae8
 Description: Czech language pack for Thunderbird
 Description-md5: e198ec1b38b4ba8d21c5ae2dd707b886
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37295,14 +37295,14 @@ Section: mail
 Installed-Size: 566
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-da_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 352340
-MD5sum: 0ddb26a237c695a7931ea3028468e7da
-SHA1: 87f93e7f97480d8981ee63e83d28d7460f932ff8
-SHA256: 1f880e533b52c25fc094abc8d56b34d6ac184955347ffa5c9c3223c7eb44b79f
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-da_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 352512
+MD5sum: 259663ebdcc2cdaa856121677045aeaf
+SHA1: 0b065fae0950814afa9bd542ad8977a2916a18c9
+SHA256: 64681e97aa4833e53ed7b5fe1092184acb38bcb709626e81b3f50b022e0b265c
 Description: Danish language pack for Thunderbird
 Description-md5: bb23b7f1451e9101c6235d786e38632a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37315,14 +37315,14 @@ Section: mail
 Installed-Size: 562
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-de_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 349296
-MD5sum: 575f0db278bf88a04e045a86415ffa37
-SHA1: c3d05313ebde01d587fcbc62e08483abb6a0491a
-SHA256: 07ee005e73bd0a27d9ee991408215bb3ab95857fb11403ebefda3bdd858b029e
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-de_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 349642
+MD5sum: e069a753989c11e4b2811fccc12e73f2
+SHA1: 2e2bc83f0a5c94b90267c0d17da3df0c05336fc1
+SHA256: 3b95516e464a7243e316f2cc7533b4ebcec0386bc39aef37e0c1cc69149aa041
 Description: German language pack for Thunderbird
 Description-md5: f1c4ac98e42d37c8f95db725d4288fa1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37335,14 +37335,14 @@ Section: mail
 Installed-Size: 615
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-el_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 402340
-MD5sum: 7b8e7466cecb34db8e79cc4d3c9b1b93
-SHA1: d3bf06f1ef8ff82f5692a974dc05593e38f54db7
-SHA256: de7ee639cb6d7138b6ecb0cd57aa1a7ff47d47034716dacef45ab71c3a74760c
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-el_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 402784
+MD5sum: 810789724d3faa986802bd5927760110
+SHA1: 909d5aac6bb563ce5c5aecab70bd5dca931f50d9
+SHA256: 637aafde9f6a02cf26abb0cb6817cc0a532096979245ca39564f1c58e00e53f4
 Description: Greek language pack for Thunderbird
 Description-md5: c4f1bc5322928b4103bc8085cd013d7c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37355,14 +37355,14 @@ Section: web
 Installed-Size: 561
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-en_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 340786
-MD5sum: 4db42fae7320b6fe3b487fc4507ec8dd
-SHA1: b31d0c109530a76dfcf07c1edd47ea104992baba
-SHA256: 72e7912d7ad60861aad3604f386d38c3f6fbb9b7b258dfab810759537a8b074f
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-en_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 341168
+MD5sum: 4f9a5f2197f4392a3491cf1af3d05203
+SHA1: fa0e4f27d42d1ffe7e5c463298a2b0d66b407248
+SHA256: e6e478e6f96b21d3a268c606c34898648445e71e376081add951aaa0aa0bd5ea
 Description: English language pack for Thunderbird
 Description-md5: 7997849dd0bc6d27079f5d5768aba1a0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37375,14 +37375,14 @@ Section: mail
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: all
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
 Depends: thunderbird-locale-en
-Filename: pool/main/t/thunderbird/thunderbird-locale-en-gb_17.0.5+build1-0ubuntu0.12.04.1_all.deb
-Size: 13836
-MD5sum: 0ff424617fc6a2d4920b8c75e58f0656
-SHA1: 5c810fadf2edd3b85cf5b24a2a7de667a1d5603b
-SHA256: 7f6241d661dfce09749ce660f7acc5a18b8b4eb4b8f0876066bb4bcf348c6b6d
+Filename: pool/main/t/thunderbird/thunderbird-locale-en-gb_17.0.6+build1-0ubuntu0.12.04.1_all.deb
+Size: 12114
+MD5sum: 1089b47d62b069dc82c946bb1b9b3187
+SHA1: 423013c90f4b604559a546dc87c883c318567aa4
+SHA256: 2317263cc1b483d1f41d320f45eeff21e58a1c7cf873f5ce53df7c4e201f9154
 Description: Transitional English language pack for Thunderbird
 Description-md5: 8b798a69e82f8ec9cbb2e264601a14fb
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37395,14 +37395,14 @@ Section: web
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: all
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
 Depends: thunderbird-locale-en
-Filename: pool/main/t/thunderbird/thunderbird-locale-en-us_17.0.5+build1-0ubuntu0.12.04.1_all.deb
-Size: 13832
-MD5sum: 30a7124f2b6e471f9479fe5bcdf178ca
-SHA1: 574a2e6431b9cb5346458c1ec2a1018fe9393e47
-SHA256: 0f4b6e477b856acb30b78c63a566f2537801fb709ddbf840fa2c5a8055545e2f
+Filename: pool/main/t/thunderbird/thunderbird-locale-en-us_17.0.6+build1-0ubuntu0.12.04.1_all.deb
+Size: 12118
+MD5sum: ee4decfcb13d3c058ce708f14f28f602
+SHA1: 2899f17bb190f0c5c901fd7e3e0973e91a4d1b3c
+SHA256: c4ab519945c3abf6ea1d676792a8ed910fe289914b384369c09753711703b631
 Description: Transitional English language pack for Thunderbird
 Description-md5: 8b798a69e82f8ec9cbb2e264601a14fb
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37415,14 +37415,14 @@ Section: web
 Installed-Size: 958
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-es_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 660202
-MD5sum: 323fb021e0336140415d049ada4a8d92
-SHA1: d5e2b97f7813fd677091c3b8f9fd88420e047832
-SHA256: f1fab7648c0179edf798c20ee64f8580c8ffdfdf1c4cc4916ebdb2223399a5f8
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-es_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 660674
+MD5sum: 6048a96f722df7bf5649beef1db89d5e
+SHA1: 5aa9cf4e16fce1ea2ae9da71a9be2461df930dc2
+SHA256: 3a3d6a01364a5d18f8f7f42d6d9060723d50a180f215646c9f23c4e461e4f2a2
 Description: Spanish; Castilian language pack for Thunderbird
 Description-md5: ab065a0e196a1b25a631117f0de3a536
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37435,14 +37435,14 @@ Section: mail
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: all
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
 Depends: thunderbird-locale-es
-Filename: pool/main/t/thunderbird/thunderbird-locale-es-ar_17.0.5+build1-0ubuntu0.12.04.1_all.deb
-Size: 13836
-MD5sum: db77934369c8922cb6334794fe4e2f98
-SHA1: 7e1ae7aac098b7c7ccaa083db770ed578c67a5cc
-SHA256: 9dbece1a27b7d2bc8c7a3a6beba06b6df5a8eef85d1d275e4858006b69049f30
+Filename: pool/main/t/thunderbird/thunderbird-locale-es-ar_17.0.6+build1-0ubuntu0.12.04.1_all.deb
+Size: 12114
+MD5sum: e098bdbc62b2167315e6add93fb3caa9
+SHA1: 0ce2b453514d5a42c8577e12c24e8452bcf1eac8
+SHA256: 726c39d543b2daad7174c4c826a655a24abf95f0cd7ddfa14036f1632281a133
 Description: Transitional Spanish language pack for Thunderbird
 Description-md5: 869be0de01bca3f9f7bda73441e37a8d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37455,14 +37455,14 @@ Section: mail
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: all
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
 Depends: thunderbird-locale-es
-Filename: pool/main/t/thunderbird/thunderbird-locale-es-es_17.0.5+build1-0ubuntu0.12.04.1_all.deb
-Size: 13832
-MD5sum: c8c200255e8d534476a53b9b007b426f
-SHA1: cb9c3808d74287b795fcff12331a470f3223fd8d
-SHA256: f8594d82a5eec95b9e442a119d7d3db9932ae5f77fd6d31ed83f30587ea66ace
+Filename: pool/main/t/thunderbird/thunderbird-locale-es-es_17.0.6+build1-0ubuntu0.12.04.1_all.deb
+Size: 12116
+MD5sum: 14a93992718f4bffbf01db973491bdb5
+SHA1: f6aca425dcde8b2e545329c5922f6c89f58e7563
+SHA256: d52a70f5bd9b0733121888c0f07969af835b15282a1a2ab8e8a581b23e726b63
 Description: Transitional Spanish language pack for Thunderbird
 Description-md5: 869be0de01bca3f9f7bda73441e37a8d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37475,14 +37475,14 @@ Section: web
 Installed-Size: 579
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-et_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 366598
-MD5sum: c988b233c5156e6a87188d11f364fdc2
-SHA1: c285d97bf0e7dbf10ead33887435cd3bec5afcf2
-SHA256: a8fc43128d0277aee013a18832ed475f974cb4d4e7a281873ccbeaf266b395e9
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-et_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 367310
+MD5sum: f95f7322ff6235ccbbd2de6a109a124d
+SHA1: 27e02cb331f2dd31a24a017671defde84cc42153
+SHA256: cf6b11600c0a921fe78d412ae0beffffa1e2c6f17f648cb9f12ef38b49f5efa0
 Description: Estonian language pack for Thunderbird
 Description-md5: 2b6b91b02a69b25fea719c79eebba322
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37495,14 +37495,14 @@ Section: mail
 Installed-Size: 576
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-eu_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 360944
-MD5sum: 5759c985a5b5aa2c6dc71a5767ec8b5e
-SHA1: 41d563eb5309b37544f380b202074da98bfad101
-SHA256: d2bcafb78bf9161c720cfad3ee1b59472d352e7c54223a9e30a48c83fc4c21e2
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-eu_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 361270
+MD5sum: 8db3a57c95b9a747992b61f9a0f4ab00
+SHA1: d6e40f730b49a099a167c2d0106e1bae7bf57106
+SHA256: 11793893856139c35e6bf790ac9a9ed1a45baf1eb66fdc446000f3614b1313d1
 Description: Basque language pack for Thunderbird
 Description-md5: 51f658816bee1ac3d847f34fcfdf4715
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37515,14 +37515,14 @@ Section: mail
 Installed-Size: 579
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-fi_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 366380
-MD5sum: 409498a6f38811e94eda0af6241d4612
-SHA1: c98284560bb18f97d1f536d95d18ee7ba2c53e48
-SHA256: d160ec3f3309e34db01d5311eb7998eec15813f99a45eea7b6b414db76d940fa
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-fi_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 366928
+MD5sum: b7a2917cddae49f39268026d9ea639a7
+SHA1: f2c897b44b88082e8752cfdf3a606737164ae8a6
+SHA256: 7f8a636d2fd25d9a8851f4523a11e283483c9298342228313c701feab5f5d0c1
 Description: Finnish language pack for Thunderbird
 Description-md5: d743f35cb2d00c0ac0c74faffc80c429
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37535,14 +37535,14 @@ Section: mail
 Installed-Size: 587
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-fr_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 374310
-MD5sum: bd174c822140a95b315e11a14535b003
-SHA1: d49abccacd99ed321886f9cb3b9539b6047661be
-SHA256: 21a8942abdae57f1ef08c38f979a96dfa24e622afd8ff40a127f37846f49ea1f
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-fr_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 374808
+MD5sum: 093cfaf0a2ed1793bb923b1c995cb713
+SHA1: d7a9c6d29cef90fc5303a8cf7f17af6d97421874
+SHA256: 1a1dd89efba03309405d4a4c904f059a53e60b56c96ae4dd9591345538192229
 Description: French language pack for Thunderbird
 Description-md5: 5db38e54534997cea7feaf6bc2c20b8f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37555,14 +37555,14 @@ Section: web
 Installed-Size: 584
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-fy_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 364514
-MD5sum: f347480b09dd8bad21ecee8b58310699
-SHA1: d8e48af4a96bdfd83c43c037eeccb122ba6712f8
-SHA256: a91b2aa21c76347cec3e370d0c1a1ce5fa8a8833039623bff39354fcc0e68817
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-fy_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 365002
+MD5sum: 1ebcf022014a4585a07025e56a65746f
+SHA1: 93f36c60a66eac87f95433dd999cb77fae3596e0
+SHA256: d5069c98426397c8c965defbcaf36f0f85fe6beae469931902fa14731a406a0f
 Description: Western Frisian language pack for Thunderbird
 Description-md5: 9a3ffaa5a603e7a65baffad8847604e0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37575,14 +37575,14 @@ Section: web
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: all
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
 Depends: thunderbird-locale-fy
-Filename: pool/main/t/thunderbird/thunderbird-locale-fy-nl_17.0.5+build1-0ubuntu0.12.04.1_all.deb
-Size: 13844
-MD5sum: 7676155af7d002ae65a5d1778b87083f
-SHA1: c55ff88ae48840665fd054762a532a682d86954d
-SHA256: 7ea9c387823fb51f2c5d97123387f3e646ffe49c3c4a169625b1bac7196de180
+Filename: pool/main/t/thunderbird/thunderbird-locale-fy-nl_17.0.6+build1-0ubuntu0.12.04.1_all.deb
+Size: 12122
+MD5sum: bacffe90fa9fc9634a37683ca39452fd
+SHA1: be7d072db97fbc32250e1e4fc6b7cdeacf6764b6
+SHA256: 3d9e22f62388fe857dc6c3b532fccbfd6298ca04fa1b3c8a26234d067b90c806
 Description: Transitional Western Frisian language pack for Thunderbird
 Description-md5: 23b74cfcdfb3628d4066cc962572e125
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37595,14 +37595,14 @@ Section: web
 Installed-Size: 590
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-ga_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 374988
-MD5sum: a52aa82e25942e077a6d198bd5dc6c07
-SHA1: f32447113111e3293de765337b6ee80deb4cb4a9
-SHA256: adf0ef45f28d7bea93da2e4ddf5c90f092f51c5fdc5f430e2a27ed14c747085b
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-ga_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 375380
+MD5sum: 6686efd2957bee72043c50c38b754364
+SHA1: eb81bb63a9876ecca8013860bca4be2b655d7cf2
+SHA256: 01fc29358e8c960210d64eeee1e43eb9dfd5259bf6d3d53a2e4bed8765a73083
 Description: Irish language pack for Thunderbird
 Description-md5: e0d162b3129190a72af5f015ea0da420
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37615,14 +37615,14 @@ Section: web
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: all
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
 Depends: thunderbird-locale-ga
-Filename: pool/main/t/thunderbird/thunderbird-locale-ga-ie_17.0.5+build1-0ubuntu0.12.04.1_all.deb
-Size: 13836
-MD5sum: d87d1660659b51d1137382a14747e6dd
-SHA1: 8d710c1a7e3bdd27b7f92c9e263880a15205d98b
-SHA256: 83cb27093b1a55e28cba8f871ec656f2503c3199eac025a7abcaeaf7a43bd17a
+Filename: pool/main/t/thunderbird/thunderbird-locale-ga-ie_17.0.6+build1-0ubuntu0.12.04.1_all.deb
+Size: 12116
+MD5sum: 8273d46fa67769f34d06cbbc1e3d2b25
+SHA1: 5f0119a81695ba8cbce14e709b04fd2c3abe32f6
+SHA256: 8aab5a07ca59158ba4d1e232e2720c76681125b56edfae64e23278672a4608ac
 Description: Transitional Irish language pack for Thunderbird
 Description-md5: 8fe591c24be723b831c5e4f9b5e007ba
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37635,14 +37635,14 @@ Section: web
 Installed-Size: 596
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-gd_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 383220
-MD5sum: 70783695b9cae891dfa476b83271e8ee
-SHA1: 2511068788b30beef9d5244afe6a534f3313038a
-SHA256: 02c4596916372d57b571e295da0981e33898afbfbf2b24838300f0e671e24772
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-gd_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 383676
+MD5sum: 57d0efb6732e326aeaa85d2ffb951b41
+SHA1: c44b0466e3ea3755adcf4eee52a0091d0178247f
+SHA256: b6c7d8b620e506303016c1021ade5783b26e451ee782e66254f9908743035571
 Description: Gaelic; Scottish Gaelic language pack for Thunderbird
 Description-md5: 6b59819c452353ff33df8a3be2c3e44d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37655,14 +37655,14 @@ Section: web
 Installed-Size: 579
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-gl_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 364052
-MD5sum: 0c5babe298aae5d4024a1891fc468c1e
-SHA1: fa5b7a32397d1910d65e7dc50c7a48eaf1a974c7
-SHA256: 5c189c998bdf5087981a1e334ea5ca40702063f06c9541dca315fdf6df102cf9
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-gl_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 364746
+MD5sum: f11b2bb01af489e8716688fd7ffe6f46
+SHA1: a45b1a2673fbab72ebb2316ba18e65e0ced55038
+SHA256: 97aadef9369b68e16e1337d7b324ad1cbdbe044677f0e263d2ce7305b503d9aa
 Description: Galician language pack for Thunderbird
 Description-md5: 026fea6c9c8a4a96d94ffb2e1bae174c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37675,14 +37675,14 @@ Section: web
 Installed-Size: 609
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-he_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 394914
-MD5sum: a4c2841fb661e9c5a0af71116b563f7c
-SHA1: 7b750d162badd0eb45ccb657069068b10db69ab3
-SHA256: 5cf9cf36ca92b378dcb057345d4828657d11511f46c9ca850e2527088ad6f1fb
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-he_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 395366
+MD5sum: c8b69a45f64dda03da3dbc4c31c5b5e2
+SHA1: 07505d85546b3ce7baadeac3290a661d72696eab
+SHA256: 891ca7dd24157adeda332802c7f16b8c6980f463da03211bfc25afef03c2edf9
 Description: Hebrew language pack for Thunderbird
 Description-md5: c8ed17478d53bb50cbaa8eb4cb0e8b82
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37695,14 +37695,14 @@ Section: web
 Installed-Size: 582
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-hr_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 366174
-MD5sum: a588212d4ac3e025b816218234b45e78
-SHA1: 42d23f4d34352e552985c6b52159727a3be5bb9b
-SHA256: 3f3a250cfaf1a448e37a15d5a73bf090d62b5a38d2744bc9e9e3a7ee2627ad0e
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-hr_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 366654
+MD5sum: 98e98ccf5ad17d86c836c94c776cb6ba
+SHA1: 4be0742ab686089e35fdfd74cf314b711ca96833
+SHA256: 00a4a40d59fe2d035e8f760424d096a27fc88bba0bfa87a38b0789cc01244be1
 Description: Croatian language pack for Thunderbird
 Description-md5: 5c80407d37a30ddb4abbbb4dd98e774c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37715,14 +37715,14 @@ Section: mail
 Installed-Size: 597
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-hu_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 386306
-MD5sum: 867e4fd98a4905872f7b342ab7ad0af9
-SHA1: b0d80098b3f32f3e2107562f252f338d509b3456
-SHA256: 47557431242fd35fabc92edb525584d597a4f116237ac7ff59c934882c9f9e55
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-hu_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 386798
+MD5sum: d359168000abe29a8d1f2184e1ea464a
+SHA1: 0ba01c1f7aff565932ce8f950d0aace402effd53
+SHA256: af31d92b44d81358f99db13f727bbcc7ee6f6c8f217b3d43f437202997674585
 Description: Hungarian language pack for Thunderbird
 Description-md5: 26678637379ab77ab5fffe5f5e37f780
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37735,14 +37735,14 @@ Section: web
 Installed-Size: 776
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-hy_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 559652
-MD5sum: cf1d9d57a150d989c3d6ec76ac88038c
-SHA1: 0e94cb4e0361fb3c625c705cdc85818ab0698d14
-SHA256: 496aaee7dd1f14378b19db289e5f54c102003fa4d427720ad2b8ca933e268061
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-hy_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 560070
+MD5sum: 360c88cef4d53f725982d45fdfcbcd32
+SHA1: 5505cbce79ea5970b90e8ab7e30d7858e1b19a63
+SHA256: aa83de6f68711631058c9660ef6e5aea4fd3c87a0d25f65ee12938052cab235d
 Description: Armenian language pack for Thunderbird
 Description-md5: 05d72dd80a860558e11187eccde80f8f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37755,14 +37755,14 @@ Section: web
 Installed-Size: 600
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-id_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 391350
-MD5sum: 221cdf93376b4a6dad12a89bacd712f1
-SHA1: 42fc5a9f76fcecfdece8a012b85f2ee6cecfb25c
-SHA256: 86b11430371d4b706e8df5527847a8ea51cd33b39f07344122bc5a805c673f8f
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-id_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 391836
+MD5sum: 24db00f15e4a51d6ecdb08a110311a7f
+SHA1: a8f78696c1a70c6c07729878c3ad47f712728b90
+SHA256: 2da8cdc872bec3ec9b07c12d5a12acdf5c3b6fadd44a458d666e1b68bdf1635c
 Description: Indonesian language pack for Thunderbird
 Description-md5: a52ad96e5ee31add246fa95d4f17195e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37775,14 +37775,14 @@ Section: web
 Installed-Size: 584
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-is_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 368180
-MD5sum: 5895743086df1ab9de4e5642ab3108e1
-SHA1: 930f9781b8390be91c39a890d74d9b835126a8b3
-SHA256: 021a04e752541dc2503244d3cf3fd439320360bf2b9e35bc3ca02a169b6d5934
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-is_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 368602
+MD5sum: a1e1691b64f267acb8bca9cba0586afa
+SHA1: d1d795d1562de9ffa2b497c62b988db200327b8e
+SHA256: edda03eeed571a621d006d777660cd3cef24fa4cb6f62240bccf33db56e00c3a
 Description: Icelandic language pack for Thunderbird
 Description-md5: 65ee5905905a537c9ddb5361dddad2f1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37795,14 +37795,14 @@ Section: mail
 Installed-Size: 517
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-it_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 301558
-MD5sum: ca8a8cd2422662f3bcfbef38b000fc0f
-SHA1: 7ef32ac2954dfc2ec5e5fda4ca99c4040ffed823
-SHA256: 0cb32413b6096e98ccdc4f532918df423671c2fe24c4295c04fe0667fef6826c
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-it_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 301948
+MD5sum: 81d5096c18abccf076ec062bffa1ae6c
+SHA1: be1975f8033d0c2b7e678318e15409bec5192289
+SHA256: 223bae7490a01c6a405823c17267e28c17ce7e30f6298173a0b71a76dc78a7f2
 Description: Italian language pack for Thunderbird
 Description-md5: 6f1c6153ae6ef20c28214fb6a47e2e2e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37815,14 +37815,14 @@ Section: mail
 Installed-Size: 632
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-ja_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 418728
-MD5sum: 702031d19494a364dfb5c7508ca6db98
-SHA1: 7439d1450aff223fb8bd8b5113e3472dfc3a105e
-SHA256: 388ceb68b5afab6aacaf14e9fcd295c33d174b9a4d775405a6e05e31a1d27c94
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-ja_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 419192
+MD5sum: c378de07220b9f74d3f1a1727318e9fa
+SHA1: 1e5de100195d334e4a7428ee785b788bd976c535
+SHA256: 028e6cf27c568a9a6ec66afd11084769fb9f320d8859a70017a75fc0d63e21b1
 Description: Japanese language pack for Thunderbird
 Description-md5: 05672037e38088a01fc61323aaea5f68
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37835,13 +37835,13 @@ Section: web
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Filename: pool/main/t/thunderbird/thunderbird-locale-ka_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 13868
-MD5sum: 2c837333d64433c71d51ed5a36dd01b0
-SHA1: 6195df181214c42e38688a51275d1aaaece79864
-SHA256: 3c97e8d88c8e7c6a8cf3881b0c9f7ee2469070e6313c9a2d068e63b720180642
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Filename: pool/main/t/thunderbird/thunderbird-locale-ka_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 12146
+MD5sum: 961a3927e948d5ade54f84f2c365d033
+SHA1: 9a5e82f7bdbbe4301808512718ebdf3956264694
+SHA256: 08b914328667e239e61b1c688964c441fbb3f78db86d52fa2468255173992f9f
 Description: Transitional package for unavailable language
 Description-md5: ea537565996c4e6bdc82ab0905f0cc41
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37854,14 +37854,14 @@ Section: web
 Installed-Size: 592
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-ko_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 369164
-MD5sum: 4d7a45f3860b99248bf4ad14734e6756
-SHA1: 3e852324747eda8d111abc0d88a17d7a0c7bd810
-SHA256: 8843a7602669cea7ab5e116805642ff8679724dc29253dd2b38ba6f7a0a8add5
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-ko_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 369544
+MD5sum: 96bad4a81dbecde96c9718b10dc0fa61
+SHA1: ac792600fa917adfba778486a8ede5563c6a404a
+SHA256: 042a14e207c3d67756262badc6d31c898515ae0457cfd73af6fff1f39e2dedd5
 Description: Korean language pack for Thunderbird
 Description-md5: 05bbef35aca99bece02f588c8a5075ad
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37874,14 +37874,14 @@ Section: web
 Installed-Size: 685
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-lt_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 474230
-MD5sum: 298f2d009709002437eae5c2936011fe
-SHA1: 550508356b4fa7aceb6aa77cdb137532f49cac08
-SHA256: 09c3ed69c4d87f8981875451c7f1573aa6cb6d9b75ccf42a3aad37e1b0ef0a64
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-lt_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 474688
+MD5sum: c55f9d960f3937914bc9738ddc321abf
+SHA1: e521410aa11dc6a03e3df181e4173949ef1c1260
+SHA256: 37a14a6f9d395af8241ee55c75fd668109ba5a7b7413f38bc300595d63c70136
 Description: Lithuanian language pack for Thunderbird
 Description-md5: d61674e56f26ac9b99db185babee7546
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37894,13 +37894,13 @@ Section: mail
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Filename: pool/main/t/thunderbird/thunderbird-locale-mk_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 13870
-MD5sum: eb7659a1f06a74b4a1c6f625c3ca90d3
-SHA1: b6bb2dfa6b5a691fc8eccda9b6ca3f5fc3d1cae3
-SHA256: e33ef252bc2eca55c2cd76de28295fd1c28f1e9f802cf14c7b265f39664ea1cd
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Filename: pool/main/t/thunderbird/thunderbird-locale-mk_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 12138
+MD5sum: 4a439680101e5f480a6c5556b8fd96f7
+SHA1: 7d83349fec9d3233d30dcea5b8c0633e4c43822f
+SHA256: f62e783f0600cb26ab68cbe8f61a1d669bf20d28127044db90ca72cf0209812f
 Description: Transitional package for unavailable language
 Description-md5: ea537565996c4e6bdc82ab0905f0cc41
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37913,14 +37913,14 @@ Section: web
 Installed-Size: 579
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-nb_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 359000
-MD5sum: 4b66a977b0d356a0e0d9fe52825ab3fc
-SHA1: 739287ac00bb4f4661b49b24bd21ef51280f8d28
-SHA256: 310d199ae169b0a351b7439b63d9aafa0a8636b1606a3f97b013d8cf13792c1c
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-nb_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 359374
+MD5sum: 2a4530b0610c27242e2c49ea3d9e31f8
+SHA1: 69ef93be6774ed9c6c0ee7cba557b3e15c881fe4
+SHA256: 6296dd4f6fa122ba6c16e26abdaad5d2982a262160c4f968d1583ce9e1cf642b
 Description: Bokmål, Norwegian; Norwegian Bokmål language pack for Thunderbird
 Description-md5: 998f9bca7c066364e2d15ae6be3582d5
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37933,14 +37933,14 @@ Section: mail
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: all
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
 Depends: thunderbird-locale-nb
-Filename: pool/main/t/thunderbird/thunderbird-locale-nb-no_17.0.5+build1-0ubuntu0.12.04.1_all.deb
-Size: 13836
-MD5sum: 6dcecddf414f456c9694460a65ea617d
-SHA1: cd638526fe9bb71b336ae730d00866c347c4efbb
-SHA256: f9a0603ad99772c26bd41fc8720d7ba01884c072046113a76cbf107a7f184fc8
+Filename: pool/main/t/thunderbird/thunderbird-locale-nb-no_17.0.6+build1-0ubuntu0.12.04.1_all.deb
+Size: 12116
+MD5sum: ecff4fb664a2f0e21243eeec1bd0d42f
+SHA1: 23828fa7f7cd1c836f4747326dac99266e9f0d9b
+SHA256: 4cea2ef423cff77af708db701fe95e9c49e05cbb452046d003a98bc4e6006aa7
 Description: Transitional Norwegian language pack for Thunderbird
 Description-md5: 07372224f7f0b015610d5e3f1ac02f57
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37953,14 +37953,14 @@ Section: mail
 Installed-Size: 577
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-nl_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 362210
-MD5sum: fb60841c4275739d38bddc363b36fd4f
-SHA1: 28d09162ce03d456356d4e16c74e103f068bd473
-SHA256: 3a8fd05ee5c9f8fdb2f16b1293e7aa96c449f38390edb61f64013156c559d318
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-nl_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 362448
+MD5sum: 3113e7a0851811a71dae9d17bcebcf65
+SHA1: 5e24ebbd833902ff981f448ea6c9296932709298
+SHA256: 172cdf72f86eec5c925b3b0e31cbac19645959f702b59eec523ebf20187a407e
 Description: Dutch; Flemish language pack for Thunderbird
 Description-md5: 38b6c5b7280a72183935b75b6ea9c7d0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37973,14 +37973,14 @@ Section: web
 Installed-Size: 599
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-nn_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 381172
-MD5sum: 3535b37ba5468c42be45a90dfe400ce8
-SHA1: eca9f4dfaef6f21e6ceea5dde345c6735b539458
-SHA256: 807ab723b76af3e62db12ebea0a0d2f307dd1f99777a6bf6243552ce2de37ae3
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-nn_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 381766
+MD5sum: 985b993345d2ba93c714f120ab76a79b
+SHA1: 5dee993d1e2e1c50dab6176a93ec36f2a1e366f9
+SHA256: 485baf9448b56eaccfa02fd36b5127eefd93765cb8ce01884a950703a44b30d5
 Description: Norwegian Nynorsk; Nynorsk, Norwegian language pack for Thunderbird
 Description-md5: 7ecbfd7db64a82a92733abd49e768933
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37993,14 +37993,14 @@ Section: web
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: all
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
 Depends: thunderbird-locale-nn
-Filename: pool/main/t/thunderbird/thunderbird-locale-nn-no_17.0.5+build1-0ubuntu0.12.04.1_all.deb
-Size: 13840
-MD5sum: 70cd7a957fd3b1b77491891acb4a1393
-SHA1: 75986bbcfd5754c51d3ab322596ee3d13dc5dec0
-SHA256: 9f2cd648b5299ceddf001434eea2ae518f3de489a777f86ed10e94707803f9af
+Filename: pool/main/t/thunderbird/thunderbird-locale-nn-no_17.0.6+build1-0ubuntu0.12.04.1_all.deb
+Size: 12110
+MD5sum: c5101fbf1cd815d1be5e52f7764f79ee
+SHA1: e37aab27f3e1b62be3e63196bcd3cf5cadfbaed4
+SHA256: 2cfa0256984fb72544373ffb372a20658d9e78d10d4a641871162a079053819d
 Description: Transitional Norwegian language pack for Thunderbird
 Description-md5: 07372224f7f0b015610d5e3f1ac02f57
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38013,14 +38013,14 @@ Section: web
 Installed-Size: 659
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-pa_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 443342
-MD5sum: 5b5d722dcacd6be83dc6ade82c036a63
-SHA1: baeb1cae620173b99767f68ca10d9041c308ead8
-SHA256: 81c02cdae02a1cc7190572a76440a4d8453bc5e0e5b837b7acdb09d8a8135065
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-pa_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 443706
+MD5sum: ad1cf44aac8b163c12d28ec838cc037c
+SHA1: 029554580f808a934469be710365c3c9ba624555
+SHA256: 768373c7d0961121e78f11cb6fb234510ffa7cdcbe9c417b744d332901b2d417
 Description: Panjabi; Punjabi language pack for Thunderbird
 Description-md5: aa580bb579804ee591e35edbbcd80dd5
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38033,14 +38033,14 @@ Section: mail
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: all
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
 Depends: thunderbird-locale-pa
-Filename: pool/main/t/thunderbird/thunderbird-locale-pa-in_17.0.5+build1-0ubuntu0.12.04.1_all.deb
-Size: 13838
-MD5sum: 8b0ad361032271032f2b0b5a8404cbaa
-SHA1: 49b9fe56e283a6056b39908f0149b3c368c79b88
-SHA256: 64541e874d28e45d0e988345cb3df607a1d873f0f76def39c9a46fedb5e8b152
+Filename: pool/main/t/thunderbird/thunderbird-locale-pa-in_17.0.6+build1-0ubuntu0.12.04.1_all.deb
+Size: 12116
+MD5sum: 77022040b5674aba2507be830547f339
+SHA1: 869df3e00e5b601d5127869f3c22f20ba2ee26bd
+SHA256: 18476f262274074b912e8bfed8cd519fc6da981490dcc4f706ee9425ecb3e499
 Description: Transitional Punjabi language pack for Thunderbird
 Description-md5: 4f99cd6218380edd7d419f7754843622
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38053,14 +38053,14 @@ Section: mail
 Installed-Size: 571
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-pl_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 357418
-MD5sum: 188e3c7c49fd7bcf5018bba88b351ce7
-SHA1: 4a19d9f97f1741172e69f3e4cc21cf1c8ad7e537
-SHA256: 08964818b1a5d9ed6baf7cba2abf8afbc9d7157f7576234d2ff60d774a1c06eb
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-pl_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 357764
+MD5sum: c82fe181d8d00fdf45a72167fd042b7c
+SHA1: f7a0b1267fd3d1d421527a4912ee9def7c316b29
+SHA256: 4428d66b6f37579ab3c92821e20eb24898d3b98afd5a4de70cda5b3dce806b0c
 Description: Polish language pack for Thunderbird
 Description-md5: 777da132688522a52205b5a6710bcbb7
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38073,14 +38073,14 @@ Section: web
 Installed-Size: 1038
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-pt_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 750268
-MD5sum: ef064e1696aad795af28f3ab3c9cf375
-SHA1: 151512c97518b54eb5fbf45ac611c269e5100add
-SHA256: 5e3c6d8ded4c57c0e6e78e154a7294233c598d96aa0fb941a5c429b79542f8ef
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-pt_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 750506
+MD5sum: f58f31d89a69c9c6bac92a45dba9ac47
+SHA1: b9ce596bf5de81eea59c3d6402aa8a2ea236cc6d
+SHA256: e299f4b8e50d56005473939efc5e4d2990bc6012ab4e087b983f12ba93cd8e2a
 Description: Portuguese language pack for Thunderbird
 Description-md5: 0f8fb3826c29ae6bf3c3ad16d863b999
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38093,14 +38093,14 @@ Section: mail
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: all
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
 Depends: thunderbird-locale-pt
-Filename: pool/main/t/thunderbird/thunderbird-locale-pt-br_17.0.5+build1-0ubuntu0.12.04.1_all.deb
-Size: 13840
-MD5sum: bd24ef51f3b173be989cf4bd26a611ad
-SHA1: feca3fe51edce2c379428647e15a51b4e040171a
-SHA256: d0f463658a79cb37ac1328ffbff1b2004234ec13e50c23fb53daa786e0eb6b4d
+Filename: pool/main/t/thunderbird/thunderbird-locale-pt-br_17.0.6+build1-0ubuntu0.12.04.1_all.deb
+Size: 12112
+MD5sum: 95aa0deec1afdca07ffd99230efa96a7
+SHA1: 6ed7017bf6578b754b3c608a99578d345beb7b6a
+SHA256: ae2a02af0d0ec01153fcc21eed499c456bffa852edfc3926ac8468683e25d86b
 Description: Transitional Portugese language pack for Thunderbird
 Description-md5: 063e3e81e79a8a10b5ce2b5d56714bfe
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38113,14 +38113,14 @@ Section: web
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: all
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
 Depends: thunderbird-locale-pt
-Filename: pool/main/t/thunderbird/thunderbird-locale-pt-pt_17.0.5+build1-0ubuntu0.12.04.1_all.deb
-Size: 13838
-MD5sum: 2b18140dc0b02ff8e163967be773fb85
-SHA1: 3de0605be6fbf663dd7532fbb736934115d8e83c
-SHA256: 995e4ee02f4c55d7a148adce922c90b7ba11e44048c7ebc86acb5b55068c7084
+Filename: pool/main/t/thunderbird/thunderbird-locale-pt-pt_17.0.6+build1-0ubuntu0.12.04.1_all.deb
+Size: 12114
+MD5sum: e735051ccda5d3c64a481e65f2375f52
+SHA1: f0f0b86f42494aa37727f71419783f6cfb221e7c
+SHA256: 4426516947129463b701a5c9b483bb1b3b142aac6b965a71b201346a5a136db0
 Description: Transitional Portugese language pack for Thunderbird
 Description-md5: 063e3e81e79a8a10b5ce2b5d56714bfe
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38133,14 +38133,14 @@ Section: web
 Installed-Size: 588
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-rm_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 369518
-MD5sum: c0438090ca3fa5851fd507f9f65d7887
-SHA1: 81829684b1c68a93f00e0874308c127abd56ea5b
-SHA256: 90c21d968c6d4ff41348ce309a6b105f37edaab4537213a014ae109365ddf0f1
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-rm_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 369996
+MD5sum: b715bb17daa082f4e6972c47e0513c99
+SHA1: 2a8e19b51ad1de846f0a813aa2cc365751408695
+SHA256: 59a7e8a818ed4bca80e47ddc4e0e6132d4ab850a7828f9a6aa21d8409dceda90
 Description: Romansh language pack for Thunderbird
 Description-md5: f2a8824b85c8ee2df8aadd456d6c4fc7
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38153,14 +38153,14 @@ Section: web
 Installed-Size: 644
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-ro_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 433146
-MD5sum: d2ca4cdea6f11a3d540df7c3882c4e9b
-SHA1: 32b6c37b5f2513441619a9c16241fd4928c7a2af
-SHA256: 314aeb187fee00a03bcdcdc751290e3ce147019b31af20987dce7a4f413b17de
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-ro_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 433610
+MD5sum: f8ff673969772db468017d8db4adcb4c
+SHA1: d6ca60bfa301c40f7c3d734c5865795ba736da9f
+SHA256: 018e98e2373f87fd3797c4baa327c141c94b20c6cf7038d5ef1343deb0aa3d6a
 Description: Romanian language pack for Thunderbird
 Description-md5: 601aaa5358b7fd9504dbc00b274ce9a1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38173,14 +38173,14 @@ Section: mail
 Installed-Size: 584
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-ru_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 369128
-MD5sum: 744902e6b356c5817ba2bfb775494673
-SHA1: 8b5f30dc9eeddacf6398f49362d9a1884fac5fc6
-SHA256: d207056fd34aba3fbf59095402e9195947aef4c2cda091e6e02da4fdac4e3314
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-ru_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 369672
+MD5sum: 0c18e9b3f9740a71ddfe40a24152f5b7
+SHA1: a3e4e8f4e132a8472bf5d7aa3af9e8e53b0d9735
+SHA256: 660179b7f15a91b19e02d114197fbae82b452449150e8d75cd1d8fd622fda61f
 Description: Russian language pack for Thunderbird
 Description-md5: 3470b329081e3274f2b1fc7e8f4836e9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38193,14 +38193,14 @@ Section: web
 Installed-Size: 661
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-si_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 448506
-MD5sum: 6cd180300fa3304ba663fab3e397a0e5
-SHA1: d36bd45174e1068690e395674e17ef0c34e2a4f0
-SHA256: 885600a798b925b0bb5d2e357c6d2502c633299b936af9140ff6921c9d3a5c0a
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-si_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 449106
+MD5sum: b944fbace1b91e9e950524447bace789
+SHA1: 451109fac319f3815ea9c748af6c41082d5fc34f
+SHA256: f63c2436e8a7e30228233b5d66dc63d2dd03bfda55ea3e94c53da6b06ff17e21
 Description: Sinhala; Sinhalese language pack for Thunderbird
 Description-md5: a4cd27280668af50e718cc1dde325010
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38213,14 +38213,14 @@ Section: mail
 Installed-Size: 600
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-sk_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 384768
-MD5sum: a38da9f28b31f1f66de015b1bed4090a
-SHA1: e1faa817d979d41ef7f71390840d7fa281f951a0
-SHA256: 7c461c0f161596c183572449ad55da8eef4bac8dfa83550633945077c6b13cf2
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-sk_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 385060
+MD5sum: 12028a2bd2aaa58340c2c8fa78bbd29c
+SHA1: 50ddd1b6da7ef341dfe42a338db56bfb56fe67bb
+SHA256: e544e53a3b735f6724e9ffbd8ea7362fda4a6f9edc502c0f97bdb9316b96cfb0
 Description: Slovak language pack for Thunderbird
 Description-md5: 58fb9ea30d8ddc2d169728c65570981b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38233,14 +38233,14 @@ Section: mail
 Installed-Size: 618
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-sl_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 399466
-MD5sum: 549db27dfe9f58528b7281c07ffdf34f
-SHA1: 5c2553e653c401cc88a51d4215d18032aa8002a3
-SHA256: db6d13504ef24fe1d9e8935e7db91ffa8e10afb8b60680813e35204b97e57fe2
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-sl_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 399308
+MD5sum: 89013caedc8fd5908c6e693a120fa316
+SHA1: 87c6830a790c6b1e6e89d57b68a343fc66a82517
+SHA256: 6e6dd5eb47448ae7950ec5f5877034bb7034492d4bddb0dfcd97ca6e8d1b098f
 Description: Slovenian language pack for Thunderbird
 Description-md5: daf76ecbb038c82b1a007e0b97441b83
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38253,14 +38253,14 @@ Section: web
 Installed-Size: 585
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-sq_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 372052
-MD5sum: ddbe05c2848af03aa7cce531c85cea85
-SHA1: b82e1429c3f5c637cc9a4e03912e6bbfc0539aa0
-SHA256: d0aeb2f9388e408794d7868f61ede0e59f05482ac2de8eb9a58c9323366b8251
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-sq_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 372606
+MD5sum: 19728af8f6989cc849acd943620c88c4
+SHA1: 7c79cf22528944908574d5a13bb03dd39849ed3a
+SHA256: 687bea9a5ef9369ec341cc63c84d684c49b63659ee57f18f3920b000866fd39a
 Description: Albanian language pack for Thunderbird
 Description-md5: aabacf80f66ab70ed6865d5c62e6feb4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38273,14 +38273,14 @@ Section: web
 Installed-Size: 671
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-sr_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 458530
-MD5sum: d11daf306e19a7c75c5f378475d7134d
-SHA1: 96693ea3415af2db1e0d1f4e98ba3f59ac353cbf
-SHA256: c90bde11b1609b9ab443fde7f00aec673d60d8030007c80d76d9610d2b44b126
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-sr_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 458888
+MD5sum: c308ea7574f22b994a8c830efbc4007b
+SHA1: e44d13b48c74a023661d847b566fac2924d4cfce
+SHA256: 8802dcb75421c7d7d4719d5176499dffe1b7917463fa963a821ef7abf0073bdd
 Description: Serbian language pack for Thunderbird
 Description-md5: 4903f7be134fb1cd72c302ad46ab3471
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38290,17 +38290,17 @@ Supported: 18m
 Package: thunderbird-locale-sv
 Priority: optional
 Section: web
-Installed-Size: 581
+Installed-Size: 582
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-sv_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 362262
-MD5sum: 05cf4e6fad45daea18d311ab5556660b
-SHA1: 0f7cdb84eadb06892a8184949907eba5381fb7ee
-SHA256: 2dba8999770e4812f6ff8e9fc790c57e14b1fd1f18c4c37f74618ae770bb1abe
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-sv_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 362684
+MD5sum: 0d9974c4b1e960deb25a23829e549053
+SHA1: 0862a3b1ace5dce13060ab6c18145be216bd90da
+SHA256: 1a5704ab0f528ac06b394bdc36b42ede488d651f9b54c4b0acc80d14c49709d1
 Description: Swedish language pack for Thunderbird
 Description-md5: 8a2405d1e465215d08f22ca0d7b53025
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38313,14 +38313,14 @@ Section: mail
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: all
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
 Depends: thunderbird-locale-sv
-Filename: pool/main/t/thunderbird/thunderbird-locale-sv-se_17.0.5+build1-0ubuntu0.12.04.1_all.deb
-Size: 13836
-MD5sum: c857ad20fbbd5a725fd90ad5f786382b
-SHA1: 5cc5d2c94f1e3f0d461b4c968042734df40b0ce7
-SHA256: 08fcfa94b7d4ded389f2497947bf297b2558252cd3990b3950c61af3fe4da87b
+Filename: pool/main/t/thunderbird/thunderbird-locale-sv-se_17.0.6+build1-0ubuntu0.12.04.1_all.deb
+Size: 12110
+MD5sum: c8ac83389cbeb1cba9dd4a913a333da8
+SHA1: 4d3e8817f9cdfc1957eb2d6a99bd005cb39552fe
+SHA256: f7828837d38e777d8a962431ee01370fbbd35b1462b184ffcd059b6126a43fc8
 Description: Transitional Swedish language pack for Thunderbird
 Description-md5: f013f0346741e935e8ea6e28d12bc5e1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38333,14 +38333,14 @@ Section: web
 Installed-Size: 684
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-ta_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 468318
-MD5sum: 8a66ca1df067e04b3cad058f635cab4b
-SHA1: b9b92cfa6a3f2b71b1a69220ab1b66ce24906e2e
-SHA256: 42d75ea223adf75a3af838f6c303c17b3f0628378d27e0192fab9cace63d0ddd
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-ta_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 468746
+MD5sum: 7d8e298d249c52dfc0ddcfcda7b25892
+SHA1: 826c18e292ac4c6ca9b35c2a390fac5551a860d5
+SHA256: ddd0f2b03c74505c0b568db868146bced47ad633cea11e88a0243f312658c75e
 Description: Tamil language pack for Thunderbird
 Description-md5: 1b6aec33cedf10be3259b193e9b12265
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38353,14 +38353,14 @@ Section: web
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: all
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
 Depends: thunderbird-locale-ta
-Filename: pool/main/t/thunderbird/thunderbird-locale-ta-lk_17.0.5+build1-0ubuntu0.12.04.1_all.deb
-Size: 13830
-MD5sum: cf4383c6ecf5d2744782dcc384a11ee9
-SHA1: b32f4be34dfbb92ee51af49ab6887ad34c0dc14a
-SHA256: c8907768af0d6e80d674d79b186d8b1a7496ff2777dd6da227792c1fa59f5bc4
+Filename: pool/main/t/thunderbird/thunderbird-locale-ta-lk_17.0.6+build1-0ubuntu0.12.04.1_all.deb
+Size: 12114
+MD5sum: b033592963f21c899dac52dcf4c6c68e
+SHA1: 605ec4331cd6b6730a4e7433cdec104f68d8b1c9
+SHA256: 1308c72f4ee18baf14e3551ecb030b588f8f7b3a56892c37796e3a7f0982a235
 Description: Transitional Tamil language pack for Thunderbird
 Description-md5: 1a0bc948aeb218ec6560b280e4af0dd4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38373,14 +38373,14 @@ Section: mail
 Installed-Size: 612
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-tr_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 398672
-MD5sum: 989d7fb062234d2fbb351c9eac0ba4d0
-SHA1: 7d61cdc5c79d598059a5f4f27c11fd157705893e
-SHA256: 62b62254daeff14f4bcc036ea8be5145be41beb8249fa658a558ac79a89ba69a
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-tr_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 399050
+MD5sum: 97980b0a6611062db931b8248ba706ee
+SHA1: b0c876df010c13343fd8810e0de33a620765b668
+SHA256: aa75a96d2eb986ae9d4dc90382c2db195d2a6c2b54c7564094ccdd871ab864ab
 Description: Turkish language pack for Thunderbird
 Description-md5: 96f7b80d2e94b507e60f8bc5a8a0fd27
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38393,14 +38393,14 @@ Section: web
 Installed-Size: 638
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-uk_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 425436
-MD5sum: a0c65146f0dd07df8b48094ca2e506e5
-SHA1: 200df20080e183f5348b86920a83ead7c5a32c07
-SHA256: 7860ab9a1b5cc05f5134c9f0e1d8bdd64f94e28d9546e8ff8e27c5c3197f31ea
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-uk_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 425760
+MD5sum: 97d7ed66778fdda9a60127d8feab0e2f
+SHA1: 386ab8d8a51d2014708627bc41842cd80474b807
+SHA256: 42f10c6abe3dbaae8889bd3a11b0206563380661aaf0eca39ff5c3064d5e5541
 Description: Ukrainian language pack for Thunderbird
 Description-md5: 10eb02a1ee9b6883db9375d4708aafa1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38413,14 +38413,14 @@ Section: web
 Installed-Size: 645
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-vi_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 433134
-MD5sum: eb8f2173cf921e89b27f0226a519eebf
-SHA1: f5dc157f0db2302fde09e64c83d326c4fd05b3c7
-SHA256: ed08655b4e371866eff12689ad96fcdb16cf27f273f4e9d7033dbbbd0ccbca5e
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-vi_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 433558
+MD5sum: 00a1907650ac90ae6b0a8a0e9693bc86
+SHA1: d4fb577748b73cf6f3bae81eac95823ba7504ae6
+SHA256: 09d487b1b91718648d29c38bb9a30306cb2b95178d1a2971379812802b772289
 Description: Vietnamese language pack for Thunderbird
 Description-md5: b7b5ecb4b2349b8ee7446da8c0ee8912
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38433,14 +38433,14 @@ Section: mail
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: all
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
 Depends: thunderbird-locale-zh-hans
-Filename: pool/main/t/thunderbird/thunderbird-locale-zh-cn_17.0.5+build1-0ubuntu0.12.04.1_all.deb
-Size: 13834
-MD5sum: 23fe11d02f2db58af9c558930c3dab52
-SHA1: b93ac1a53fa7330d68b920bc7dcedfc0c1a8d07c
-SHA256: bd87af10d8db6a1cd730dc3b184a6513760ffbf33885beb8bc418da3f16e8842
+Filename: pool/main/t/thunderbird/thunderbird-locale-zh-cn_17.0.6+build1-0ubuntu0.12.04.1_all.deb
+Size: 12120
+MD5sum: 0bf6708a11858525bf63a11831629d34
+SHA1: accfa39d0eefa9b5476689207572dff8bb42db52
+SHA256: 410de6fbf36feeee8934251b3fc6248728b6fe565b9ec309eead260143fee11b
 Description: Transitional Simplified Chinese language pack for Thunderbird
 Description-md5: 3a9fcde509c5d2504fb3f5bcdc7f4b7a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38453,14 +38453,14 @@ Section: web
 Installed-Size: 604
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-zh-hans_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 385396
-MD5sum: 20f2d92cd130bc24e8476307fd274baf
-SHA1: c19894ea2038cdb92f3c48c8a83ac8acfe7a2cf8
-SHA256: f3719e90f2c4c5c7b90f84919ee7bc58e45ade40b35103ddc2642ca2c35553cb
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-zh-hans_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 385982
+MD5sum: 9c366807bf9616c8337513836b7a8609
+SHA1: 96c91fd9a53ac57f372fb512860e22150376e28b
+SHA256: 15c34f7e95d504d82dfeb48cb47fd08152eda2f284525108161a646fe184b2aa
 Description: Simplified Chinese language pack for Thunderbird
 Description-md5: 3638e8cfbb0bae8e88cb4e7f01b7eabe
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38473,14 +38473,14 @@ Section: web
 Installed-Size: 607
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
-Depends: thunderbird (>= 17.0.5+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.5+build1-0ubuntu0.12.04.1.1~)
-Filename: pool/main/t/thunderbird/thunderbird-locale-zh-hant_17.0.5+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 388664
-MD5sum: cccf1d296441140b4c59f8452dec10c0
-SHA1: 4a4c4f68ec0e1024cbad449c33a3a42508ac563a
-SHA256: 317c4fa765d5f3f2d779f6b94d2ec3d261cd0e4e69f961ce5dcf9fd02ce6d9a7
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
+Depends: thunderbird (>= 17.0.6+build1-0ubuntu0.12.04.1), thunderbird (<< 17.0.6+build1-0ubuntu0.12.04.1.1~)
+Filename: pool/main/t/thunderbird/thunderbird-locale-zh-hant_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 389106
+MD5sum: 7c1d0ab3f5a6e7486dd566622b57bbb6
+SHA1: 24fec2996295a9747f746815cf1743d5f2d100f7
+SHA256: 67353d228e6cc665b2b75c7c201ce29627cfafe0624c8ec62ffccc496289e4b6
 Description: Traditional Chinese language pack for Thunderbird
 Description-md5: 364c5ad13dbb779048738785b9adcaf0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -38493,14 +38493,14 @@ Section: web
 Installed-Size: 128
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: all
-Source: thunderbird (17.0.5+build1-0ubuntu0.12.04.1)
-Version: 1:17.0.5+build1-0ubuntu0.12.04.1
+Source: thunderbird (17.0.6+build1-0ubuntu0.12.04.1)
+Version: 1:17.0.6+build1-0ubuntu0.12.04.1
 Depends: thunderbird-locale-zh-hant
-Filename: pool/main/t/thunderbird/thunderbird-locale-zh-tw_17.0.5+build1-0ubuntu0.12.04.1_all.deb
-Size: 13838
-MD5sum: cc95290414818837c617e7ac230993d9
-SHA1: 45bf899ac23967b6f34bee6d06a08d37009f3c58
-SHA256: fc48933b0360d0492c5e40017281678523417f813505d4075879c85ed2ee690e
+Filename: pool/main/t/thunderbird/thunderbird-locale-zh-tw_17.0.6+build1-0ubuntu0.12.04.1_all.deb
+Size: 12114
+MD5sum: e323df4513e4b08a60d8622fa0112941
+SHA1: c0084d1824e812402af551908efd7f7d46c29b0e
+SHA256: d33dbc413f369a03343bacb3dc9451b62ec0e820c00bc3ada4f91748140b7427
 Description: Transitional Traditional Chinese language pack for Thunderbird
 Description-md5: 153d368d7ff06df3219842e1b9490761
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
