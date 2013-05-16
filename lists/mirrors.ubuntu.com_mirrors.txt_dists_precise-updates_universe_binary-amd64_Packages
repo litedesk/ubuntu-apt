@@ -15742,12 +15742,12 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
-Filename: pool/universe/n/nova/nova-ajax-console-proxy_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 7324
-MD5sum: fd929be7ac1ebee0ab0797369f6a46e7
-SHA1: 738ce0f2904c04561a95f56fc78ffa6632b397dc
-SHA256: 486b31081aa66b70fb2a492f368963312574e7ffd3af6727ac01a4d7724e1e04
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
+Filename: pool/universe/n/nova/nova-ajax-console-proxy_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
+Size: 8228
+MD5sum: 7479bb34d00462d2fb80d81540968158
+SHA1: d661a30377c02f5fa32f5e627b34ec0a9c9b561b
+SHA256: 32853b590089a63ce209bd6ea8bec4890bbe355f0845715ec23b78039a7ae8eb
 Description: OpenStack Compute - AJAX console proxy - transitional package
 Homepage: http://launchpad.net/nova
 Description-md5: 571664bc0008e44d5df6784807a6ecf0
@@ -15757,19 +15757,19 @@ Origin: Ubuntu
 Package: nova-api-ec2
 Priority: extra
 Section: universe/net
-Installed-Size: 73
+Installed-Size: 74
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
+Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python, upstart-job
 Breaks: nova-api
-Filename: pool/universe/n/nova/nova-api-ec2_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 4344
-MD5sum: 222336e6e9ebd08ba50cd2a45de788be
-SHA1: 39f34a08a67b097dae0713a870b444097a43ac3a
-SHA256: 1f929836feefab55e6d21e921f7d2632d1f4fabc5ff5ab7499d03311534562b7
+Filename: pool/universe/n/nova/nova-api-ec2_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
+Size: 4340
+MD5sum: 0b7397e460cedff016635765aec87f86
+SHA1: 2ab6289508647a7a3a4f8f04818c1aecb86bc892
+SHA256: 9ea2bc1500feb68c16d7195cd0eab9320a6d2d82d8425a109c6e20ad1f92171a
 Description: OpenStack Compute - EC2 API frontend
 Homepage: http://launchpad.net/nova
 Description-md5: 0e9ce8f6a74cac1c566caae9b960a494
@@ -15779,19 +15779,19 @@ Origin: Ubuntu
 Package: nova-api-metadata
 Priority: extra
 Section: universe/net
-Installed-Size: 73
+Installed-Size: 74
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
+Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python, upstart-job
 Breaks: nova-api
-Filename: pool/universe/n/nova/nova-api-metadata_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Filename: pool/universe/n/nova/nova-api-metadata_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
 Size: 4216
-MD5sum: bc2d3f701384302a74efe09dac8f86e4
-SHA1: c5592b5ca88284ca63e00911496957a9b2dbc99c
-SHA256: 554198b160d53a7ac7316e25ff25fcd5d618cb08d3c5c7aa0282899add6a839f
+MD5sum: 1737dae38fffa3eee71286d839bf4903
+SHA1: 6c5533cefcbbf78c6538bb608227db640c788f88
+SHA256: 1508e50bec44e8a8fef78ae6fdf8ae68f033f599b1ab95cd6d69215b025f53b0
 Description: OpenStack Compute - metadata API frontend
 Homepage: http://launchpad.net/nova
 Description-md5: ae9cd778d7894b1a89d138fe3587a7da
@@ -15801,19 +15801,19 @@ Origin: Ubuntu
 Package: nova-api-os-compute
 Priority: extra
 Section: universe/net
-Installed-Size: 73
+Installed-Size: 74
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
+Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python, upstart-job
 Breaks: nova-api
-Filename: pool/universe/n/nova/nova-api-os-compute_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Filename: pool/universe/n/nova/nova-api-os-compute_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
 Size: 4212
-MD5sum: ea56669fbc70f18cd2731eb5920339c9
-SHA1: 51dce267ceebbc9fc1abe4be5b59b62ae2203a02
-SHA256: 2834a32dd9d24249e0d7b20471179604d7e6049fc26db3170e3db6ca81fd4997
+MD5sum: 7a39cf637703cb05b81f3efbab5ec33e
+SHA1: ab0d7644f559031d26e416f96f39a4e83ab3512b
+SHA256: 2b83c459e4d3e3b13511e8c4cffcb9ac7fd1b1828e6685f164528c430df4b19b
 Description: OpenStack Compute - OpenStack Compute API frontend
 Homepage: http://launchpad.net/nova
 Description-md5: 32fe3c17415adfec970c371f4bdff9b6
@@ -15823,19 +15823,19 @@ Origin: Ubuntu
 Package: nova-api-os-volume
 Priority: extra
 Section: universe/net
-Installed-Size: 73
+Installed-Size: 74
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
+Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python, upstart-job
 Breaks: nova-api
-Filename: pool/universe/n/nova/nova-api-os-volume_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 4226
-MD5sum: 25a2b2b7d7ad1e9db1677e00f856e355
-SHA1: fcae3ee753e82d013940c0b8633ef5960003e70d
-SHA256: ec4bcfbee1e1f6e68164705b3b9a20f3e027f1b92df6102dce4f2eba7a72fbc0
+Filename: pool/universe/n/nova/nova-api-os-volume_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
+Size: 4232
+MD5sum: cb37b9232f0b9b871a4153fad4594a77
+SHA1: 7f40cac20790558bb12822001bf1a7ef0ce6c50c
+SHA256: c3464d1e401c9ccd974781fa342c88ab3edf8a97c8c18d82af0f461ce51a706a
 Description: OpenStack Compute - OpenStack Volume API frontend
 Homepage: http://launchpad.net/nova
 Description-md5: 113cdec8eb8fbd2d123accd10260705c
@@ -15845,20 +15845,20 @@ Origin: Ubuntu
 Package: nova-compute-qemu
 Priority: extra
 Section: universe/net
-Installed-Size: 50
+Installed-Size: 51
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
 Provides: nova-compute-hypervisor
-Depends: nova-compute (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python-libvirt, libvirt-bin, qemu
+Depends: nova-compute (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python-libvirt, libvirt-bin, qemu
 Conflicts: nova-compute-hypervisor
-Filename: pool/universe/n/nova/nova-compute-qemu_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 2776
-MD5sum: 773e37da2717fa0978432cecb8b2cb5f
-SHA1: b7324f0373d06cf5aaecb62a8cd92a950469cac0
-SHA256: 4bda3dc57529587c5cade84ff24164c42b35f1a721aba2d0a4d109616581e6c8
+Filename: pool/universe/n/nova/nova-compute-qemu_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
+Size: 2768
+MD5sum: 0c150e2657fe6e39c7ea76134d3c167c
+SHA1: 259e6ca68e9da6df64865abea467d3a003bbd890
+SHA256: ef50050507e99a6de766488e72c5181d58351a84b53dcf187d1a9e56d8ddfffe
 Description: OpenStack Compute - compute node (QEmu)
 Homepage: http://launchpad.net/nova
 Description-md5: 46acbb1c9b077142e1930821f7a05aed
@@ -15868,20 +15868,20 @@ Origin: Ubuntu
 Package: nova-compute-uml
 Priority: extra
 Section: universe/net
-Installed-Size: 50
+Installed-Size: 51
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
 Provides: nova-compute-hypervisor
-Depends: nova-compute (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python-libvirt, libvirt-bin, user-mode-linux
+Depends: nova-compute (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python-libvirt, libvirt-bin, user-mode-linux
 Conflicts: nova-compute-hypervisor
-Filename: pool/universe/n/nova/nova-compute-uml_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 2786
-MD5sum: 7cda166828186afdd93a67b0b975c30e
-SHA1: 82f5eeb6499d5ee38442aa82b1865a9f4b1ed04b
-SHA256: ed17f54c05d15433510ccb6fb4a2d89999cf09436f8fc12c4759376f404b0d0c
+Filename: pool/universe/n/nova/nova-compute-uml_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
+Size: 2780
+MD5sum: 97112173d72c7e438bd548841203d0ac
+SHA1: b32922399d9a69f3d990d916f79b5d11fecae467
+SHA256: 03edec70d5a7861a7b61c99c5e3e0bb584c6195e27eb7ce3b165ce29a3b27187
 Description: OpenStack Compute - compute node (UserModeLinux)
 Homepage: http://launchpad.net/nova
 Description-md5: 2e1f1302cc5d8396d81672f231d5bb7c
@@ -15896,15 +15896,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
 Provides: nova-compute-hypervisor
-Depends: nova-compute (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python-xenapi
+Depends: nova-compute (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python-xenapi
 Conflicts: nova-compute-hypervisor
-Filename: pool/universe/n/nova/nova-compute-xcp_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 2568
-MD5sum: 4724c0b8e9d54f9bd4fd998d0761f097
-SHA1: 2be95f92217bd48894f3e60ce17749a120f8231e
-SHA256: 4916756d21dc3f116a8ab723f5a5cd5a1ac9c599a0fd81d3b571d1a7f89602ef
+Filename: pool/universe/n/nova/nova-compute-xcp_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
+Size: 2566
+MD5sum: a7417bd2000d63ba58e5807b45c9def8
+SHA1: 61c35e1457ebf27c346b9427b64de67f18e34fe6
+SHA256: 0a13a8739f2c9cdf24c4ba7ee624ad278b11737836da6a8bf2169e392badcf1b
 Description: OpenStack Compute - compute node (XCP)
 Homepage: http://launchpad.net/nova
 Description-md5: cd2b8dc37486d604d91ed6183d937465
@@ -15914,20 +15914,20 @@ Origin: Ubuntu
 Package: nova-compute-xen
 Priority: extra
 Section: universe/net
-Installed-Size: 50
+Installed-Size: 51
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
 Provides: nova-compute-hypervisor
-Depends: nova-compute (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python-libvirt, libvirt-bin, xen-hypervisor-4.1-amd64 | xen-hypervisor-4.1-i386
+Depends: nova-compute (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python-libvirt, libvirt-bin, xen-hypervisor-4.1-amd64 | xen-hypervisor-4.1-i386
 Conflicts: nova-compute-hypervisor
-Filename: pool/universe/n/nova/nova-compute-xen_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 2790
-MD5sum: d7ba2976722170e5788047bbc88c8df3
-SHA1: 45e97a4933c18bb34e0fc03f8c231f68643a164e
-SHA256: 51dd5130aa264bff176a9dbd9b62b868310dd51b4bafd1c079b304901408ed72
+Filename: pool/universe/n/nova/nova-compute-xen_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
+Size: 2788
+MD5sum: 14d116b11275f94bf66bf75e15b7ebb2
+SHA1: 31b86e9fffff3f796a74e66f4937aeb56ce93b03
+SHA256: acdb0a9c5244d7c237d6e8533593f8df4d7bdd63991ce1cc3e1279be17d9903b
 Description: OpenStack Compute - compute node (Xen)
 Homepage: http://launchpad.net/nova
 Description-md5: 8268c70ad765a6427d184e1c58a4472c
@@ -15937,19 +15937,19 @@ Origin: Ubuntu
 Package: nova-console
 Priority: extra
 Section: universe/net
-Installed-Size: 73
+Installed-Size: 74
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
+Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python, upstart-job
 Recommends: nova-consoleauth (>= 2012.1~rc1-0ubuntu2)
-Filename: pool/universe/n/nova/nova-console_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 4560
-MD5sum: 451d5da56f86771d304faddadc57cb8a
-SHA1: 0ad21f3cbd6939c5baab998dad56d01365921a52
-SHA256: 737cc70b27e80ad7274ad1326acf9d62ea68e29e4542c4b8e00b6402c95deec1
+Filename: pool/universe/n/nova/nova-console_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
+Size: 4564
+MD5sum: 233c1b43bbb2d672995cd5facd67a407
+SHA1: a60aaccc46a5ce806d828d155f453a5c928d57f2
+SHA256: ae8c27b006b783b5de1cf3a7147e91a5a2b48e17bde4fe0814542fdb1b6495cf
 Description: OpenStack Compute - Console
 Homepage: http://launchpad.net/nova
 Description-md5: 095d3c39f30a44dd0768d8a869e4fa67
@@ -15959,20 +15959,20 @@ Origin: Ubuntu
 Package: nova-consoleauth
 Priority: extra
 Section: universe/net
-Installed-Size: 73
+Installed-Size: 74
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
 Replaces: nova-console (<< 2012.1~rc1-0ubuntu2)
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
+Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python, upstart-job
 Breaks: nova-console (<< 2012.1~rc1-0ubuntu2)
-Filename: pool/universe/n/nova/nova-consoleauth_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
+Filename: pool/universe/n/nova/nova-consoleauth_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
 Size: 4472
-MD5sum: f0d0c4657f28204c8cdd58903dc49062
-SHA1: 144c5795f777cb0359cca7746d08b90a544e0331
-SHA256: 24751cfc8dde0dca399a4580504365b1042c45af9e32c8f1876cc6a89e82734d
+MD5sum: 4334bf85b8c14359ecbc25d6fe7edb46
+SHA1: a77dd7ecceed4dceb9516f5a98add960224f7eab
+SHA256: c063520daecd3c616cf6d449f0b1772e3b6df0f5ec08656025cc2c1e071708fd
 Description: OpenStack Compute - Console Authenticator
 Homepage: http://launchpad.net/nova
 Description-md5: 471ffbc52e68b19718599b8e938708d2
@@ -15982,18 +15982,18 @@ Origin: Ubuntu
 Package: nova-xcp-network
 Priority: extra
 Section: universe/net
-Installed-Size: 111
+Installed-Size: 112
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
-Depends: xcp-xapi, lsb-base (>= 3.0.6), python (>= 2.7.1-0ubuntu2), nova-xcp-plugins (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), openvswitch-switch, ebtables, arptables, iproute
-Filename: pool/universe/n/nova/nova-xcp-network_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 9016
-MD5sum: d32e593d4c987f7155a9200000cf2911
-SHA1: f4c4c503b70d19e7fac8fb305ffdfb0d4bf37dc9
-SHA256: 8b87af281b1d88c24930a6e211ac7c6b12d7eb8fd135bd047ce373c7ed4c8739
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
+Depends: xcp-xapi, lsb-base (>= 3.0.6), python (>= 2.7.1-0ubuntu2), nova-xcp-plugins (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), openvswitch-switch, ebtables, arptables, iproute
+Filename: pool/universe/n/nova/nova-xcp-network_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
+Size: 9028
+MD5sum: 6123f53e85ba02011433f149b15ff9ff
+SHA1: 09c0ae24bb00c9383ef5f95c8329525ffbf55efc
+SHA256: 2ba68e70758eaaa4f5d48fa51b6409501c4c85a3baa3545b9fa5e777b785ebf3
 Description: OpenStack Compute network plugin for the Xen Cloud Platform
 Homepage: http://launchpad.net/nova
 Description-md5: c098f07b818aec1687bd6347b404e5b5
@@ -16008,13 +16008,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
 Depends: xcp-xapi, python (>= 2.7.1-0ubuntu2)
-Filename: pool/universe/n/nova/nova-xcp-plugins_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 30270
-MD5sum: 710a0821bf7248de34e0005c8b93d925
-SHA1: c0ae7791f2aee50663b97ddbf949be86fd915fc9
-SHA256: 5879ce154ccdc06ba819ee41186058af007998ece1338e712549cc9ea2133da1
+Filename: pool/universe/n/nova/nova-xcp-plugins_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
+Size: 31160
+MD5sum: 71ee09a79cc34f7af14deff24e00de0c
+SHA1: 042e303bfff0aa565065bdc2090ebb443f70a3d2
+SHA256: 0141a1b5dee6e315c279d4d28dc142a5b4e241f231d042af20bbb0fafbd6a4da
 Description: OpenStack Compute plugin for the Xen Cloud Platform
 Homepage: http://launchpad.net/nova
 Description-md5: 77e27c2a30cc03fc385be9dd5a21fa09
