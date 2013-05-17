@@ -16083,17 +16083,17 @@ Task: kubuntu-full, kubuntu-active-full
 Package: keystone
 Priority: extra
 Section: python
-Installed-Size: 124
+Installed-Size: 125
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Monty Taylor <mordred@inaugust.com>
 Architecture: all
-Version: 2012.1.3+stable-20130423-f48dd0fc-0ubuntu1
-Depends: python, debconf (>= 0.5) | debconf-2.0, upstart-job, python-keystone (= 2012.1.3+stable-20130423-f48dd0fc-0ubuntu1), adduser, ssl-cert (>= 1.0.12), dbconfig-common
-Filename: pool/main/k/keystone/keystone_2012.1.3+stable-20130423-f48dd0fc-0ubuntu1_all.deb
-Size: 15638
-MD5sum: acd035b2023cb82fa85c114f1aa27cb1
-SHA1: a2341bd06b529ee96912796b0aa7b4fe7f0d2209
-SHA256: 17fcd484a34d5ab43d7df4dfdf0bf44375247389d1312521f186fcc682f5c2b5
+Version: 2012.1.3+stable-20130423-f48dd0fc-0ubuntu1.1
+Depends: python, debconf (>= 0.5) | debconf-2.0, upstart-job, python-keystone (= 2012.1.3+stable-20130423-f48dd0fc-0ubuntu1.1), adduser, ssl-cert (>= 1.0.12), dbconfig-common
+Filename: pool/main/k/keystone/keystone_2012.1.3+stable-20130423-f48dd0fc-0ubuntu1.1_all.deb
+Size: 14812
+MD5sum: ea01d29e0c8f088f6cac55453e98f501
+SHA1: 34efa689c741950fc01459dd865083275cc58034
+SHA256: 00c18e109debb0b5bf2bb4836b907b2be2497f9254ca4cd00868d65c55892647
 Description: OpenStack identity service - Daemons
 Homepage: http://launchpad.net/keystone
 Description-md5: 27421a6db50f80b519e733aec71dae10
@@ -16109,13 +16109,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Monty Taylor <mordred@inaugust.com>
 Architecture: all
 Source: keystone
-Version: 2012.1.3+stable-20130423-f48dd0fc-0ubuntu1
+Version: 2012.1.3+stable-20130423-f48dd0fc-0ubuntu1.1
 Depends: libjs-jquery
-Filename: pool/main/k/keystone/keystone-doc_2012.1.3+stable-20130423-f48dd0fc-0ubuntu1_all.deb
-Size: 330734
-MD5sum: 36d60be7e826980438112ebdfac3a3a6
-SHA1: 955094190d46d5ea2a2b0f9c085e2291516211d4
-SHA256: b33da5338c3a62fb78d845ee3346fc280fd29b1577277d23321b18f3605b0bbd
+Filename: pool/main/k/keystone/keystone-doc_2012.1.3+stable-20130423-f48dd0fc-0ubuntu1.1_all.deb
+Size: 326826
+MD5sum: 1222e0e64db6fc1b712aadf16924a8ab
+SHA1: caa3b5739582f757f59edaac7cc3300570158f45
+SHA256: 8e53c1665059dcdbaa7774b4940c16362dba380215e4ea73b8c0e808947fa5a5
 Description: OpenStack identity service - Documentation
 Homepage: http://launchpad.net/keystone
 Description-md5: 42b26822f99c12d16268512a33f6dfd9
@@ -78788,13 +78788,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
-Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python, upstart-job
-Filename: pool/main/n/nova/nova-api_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
-Size: 4378
-MD5sum: ba91c54a4d5c168aec805797951fa7a2
-SHA1: a7c153ceec4a9820e30a3600724e0bdfd1c414c0
-SHA256: 513ff70f4baffe6c9b6143ff4be8242162f8cd8faca527fc6d5d060c77a3c8a4
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
+Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), python, upstart-job
+Filename: pool/main/n/nova/nova-api_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 4364
+MD5sum: cd1916118c1e5073f76f643ca6051a30
+SHA1: f018ddec293856427e0041a8d31c03916b826637
+SHA256: cbcc4615bf323d6c294ef3f721c3fa30f399669d982430a6ffe1e0f30bcd489d
 Description: OpenStack Compute - API frontend
 Homepage: http://launchpad.net/nova
 Description-md5: 93751a4c42a717b98a076fc37e614e1c
@@ -78810,13 +78810,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
-Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python, upstart-job
-Filename: pool/main/n/nova/nova-cert_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
-Size: 4436
-MD5sum: 8438766ca0da7274b381200adc9318d2
-SHA1: ca46ad4ce68551cb02670821abd6f86ff642ca3e
-SHA256: 4009c47da30e7ae637c682664302c004c7833a2033da9acdc23d20344be1dcef
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
+Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), python, upstart-job
+Filename: pool/main/n/nova/nova-cert_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 4422
+MD5sum: c7e99230f7ad01bc6e026dcb13fc9fbc
+SHA1: 9ec340f75d015fc9138e5347d21e4011b3f1c02b
+SHA256: f7574da1eaccd343b4b8009f863dec92715b429605ce44a75ff2ecf0747aa7a4
 Description: OpenStack Compute - certificate management
 Homepage: http://launchpad.net/nova
 Description-md5: 171b61c56d67b812f80c5642bfa0d1d2
@@ -78832,14 +78832,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
-Depends: python-amqplib, python-nova (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python, adduser
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
+Depends: python-amqplib, python-nova (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), python, adduser
 Suggests: python-keystone
-Filename: pool/main/n/nova/nova-common_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
-Size: 26660
-MD5sum: 6673bfc33bb497801a5aa9298b30f15d
-SHA1: afc3922d271e8f424f3474904b9a28dfcc376724
-SHA256: de3b0e028475f479cc72192c0c5a1ec30b74eca4cd9c83cfb61db441e74535be
+Filename: pool/main/n/nova/nova-common_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 26520
+MD5sum: d23618ec723c62ba291a07488c05e459
+SHA1: 0a9ed82ea9477f21e7cfbcae366f5f8960fef0c9
+SHA256: 05e8fa46674a11cbbfeca4e33067df383a4d0cd70ffab99d8c4c986f2ccf9901
 Description: OpenStack Compute - common files
 Homepage: http://launchpad.net/nova
 Description-md5: ca300a4c4a13a67629e52754451325a3
@@ -78855,13 +78855,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
-Depends: lsb-base (>= 3.0.6), nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), qemu-utils, kpartx, curl, parted, vlan, ebtables, gawk, iptables, open-iscsi, nova-compute-kvm | nova-compute-hypervisor, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), upstart-job
-Filename: pool/main/n/nova/nova-compute_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
-Size: 6652
-MD5sum: f92ed88b7b86c9ee98ec72ea30becf8e
-SHA1: 20e18d6120d916538f05971a600db663f4de1746
-SHA256: 261bf912a09d6dc3dcffb621b210b3bc1ed638be4ba93b6a3a4100710471eb3b
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
+Depends: lsb-base (>= 3.0.6), nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), qemu-utils, kpartx, curl, parted, vlan, ebtables, gawk, iptables, open-iscsi, nova-compute-kvm | nova-compute-hypervisor, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), upstart-job
+Filename: pool/main/n/nova/nova-compute_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 6636
+MD5sum: ad55402833814afc195fd51d007ab192
+SHA1: c8d6ffc47ec0bfa9b05f442ccfe6800ba72c9bfb
+SHA256: 7e64461a176e93583f653daecccffdc12e950ed2bdb46092af1f8e0e2a8911e4
 Description: OpenStack Compute - compute node
 Homepage: http://launchpad.net/nova
 Description-md5: 4ede856ba4b4b8796676686d84f6183b
@@ -78877,15 +78877,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
 Provides: nova-compute-hypervisor
-Depends: nova-compute (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python-libvirt, libvirt-bin, kvm
+Depends: nova-compute (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), python-libvirt, libvirt-bin, kvm
 Conflicts: nova-compute-hypervisor
-Filename: pool/main/n/nova/nova-compute-kvm_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
-Size: 2768
-MD5sum: 572bbe873f5645b500fa3cd201fbc8a4
-SHA1: c21f4ab2131c17a6d80a32d7745d7d3fb1305487
-SHA256: aff4ae7f388d34fa388b32d1d57ffa355776a6cc0aeb00b7ec999edb2aaa3e2c
+Filename: pool/main/n/nova/nova-compute-kvm_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 2766
+MD5sum: 1e2a5f2cd9a390ff6908514f97ea1d5b
+SHA1: d56c8b1b3231a6b0b6282d9b107e6a58fa2a46d4
+SHA256: affcc7d2d7ec2ac6a0ab2f22d64331bc81aca3a29c0843c11ff18ce24f2b1d57
 Description: OpenStack Compute - compute node (KVM)
 Homepage: http://launchpad.net/nova
 Description-md5: 3a3f4fc6eb0e0d1a1a52636f4a84daa1
@@ -78901,15 +78901,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
 Provides: nova-compute-hypervisor
-Depends: nova-compute (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python-libvirt, libvirt-bin
+Depends: nova-compute (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), python-libvirt, libvirt-bin
 Conflicts: nova-compute-hypervisor
-Filename: pool/main/n/nova/nova-compute-lxc_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
-Size: 2770
-MD5sum: d18f2219a2b127b583c3e0da50291fbb
-SHA1: c5ceb09ba6f4970a846f177d0242caba4ad65c0c
-SHA256: 0f244fc8c49e1e6239f7ed4baacc9f377f9034ae37d70369154c0a94dc9a8fd5
+Filename: pool/main/n/nova/nova-compute-lxc_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 2768
+MD5sum: 5006a508def9b39e86ce173fd8325b4e
+SHA1: 685f91a60036870777496671c059a9bf38e8a20c
+SHA256: 87c8addc68433d1a347df70de3f887a76924f6c850da3208613cc0a57c1daeb7
 Description: OpenStack Compute - compute node (LXC)
 Homepage: http://launchpad.net/nova
 Description-md5: 8c74b0f3d56b3da8c70cf752f98f7869
@@ -78925,13 +78925,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
 Recommends: libjs-jquery
-Filename: pool/main/n/nova/nova-doc_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
-Size: 1712808
-MD5sum: 59f068d9866ff0a9172520c83ee54dd8
-SHA1: 3efaa05fcae52e6fad050d0c66f4d79642fd3654
-SHA256: f8babbf28b98b31805eb085933d908bad4ad44233cb52880edb325eaf0b46a1b
+Filename: pool/main/n/nova/nova-doc_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 1705594
+MD5sum: ad44366f0f250594272c3e49d86335db
+SHA1: 6ae6a9b498978ee25034f02961b1fb5476f766e6
+SHA256: 3df5199b5e6fb6b6bddef2a9f52de4d82b7c1a8fab5a664480efd9334bd7e6cc
 Description: OpenStack Compute - documentation
 Homepage: http://launchpad.net/nova
 Description-md5: 1c367fcc5afa32969a8f351c6365dd1c
@@ -78947,14 +78947,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
-Depends: netcat, vlan, bridge-utils, dnsmasq-base, iputils-arping, dnsmasq-utils, nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), upstart-job
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
+Depends: netcat, vlan, bridge-utils, dnsmasq-base, iputils-arping, dnsmasq-utils, nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), upstart-job
 Suggests: radvd
-Filename: pool/main/n/nova/nova-network_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
-Size: 7064
-MD5sum: b8d64da5d9b2fe8531c886b599f6dc9e
-SHA1: 4856378ca7f68e9dfd4e8c92f8a6fb9770d1de31
-SHA256: 7473694e2b2e03e94cdc3d73a2a2827664f0452ab36cc812a2e20091ca591ee6
+Filename: pool/main/n/nova/nova-network_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 7050
+MD5sum: 86baf8cea4573f20d2f3a43a619fb9a1
+SHA1: dfc84340529b0f8ed4c67644c2972c5ebc1f8008
+SHA256: ccfee25c04bf2ad7be0bd82a544b88a747d04e1331d4274b6fab0d316531b12d
 Description: OpenStack Compute - Network manager
 Homepage: http://launchpad.net/nova
 Description-md5: ce3e77d724d3353406c26c4d4af8c565
@@ -78970,13 +78970,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
-Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python, upstart-job
-Filename: pool/main/n/nova/nova-objectstore_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
-Size: 4550
-MD5sum: 1587cc116889aa0af311544220e35f53
-SHA1: 2b848858b5f6704e01f407ab3e8b3eda29b6d937
-SHA256: 22ce8e535c5962b55e4bc6e8543c51903210579c0d1ab60f96c79f39c1c1f39c
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
+Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), python, upstart-job
+Filename: pool/main/n/nova/nova-objectstore_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 4542
+MD5sum: 4584455ec798a1044639d4d94cc8b84e
+SHA1: b41e9e5f8e7b3956fe65fe3dd609318ce41c80bc
+SHA256: 6c2ea758ba3edce3f161ef61cbed71805995f167120e4a9de276979683afec30
 Description: OpenStack Compute - object store
 Homepage: http://launchpad.net/nova
 Description-md5: 25cb037ff1b6bb2f705647605954cac3
@@ -78992,13 +78992,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
-Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python, upstart-job
-Filename: pool/main/n/nova/nova-scheduler_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
-Size: 4478
-MD5sum: a163b92e6bcc8fd1262d06ad563d1e3e
-SHA1: 50fdc1b8bb43de1a4d8b1f9aebd6ddc70842b16c
-SHA256: 443f82bfcfcea2af1938d1fc69147ba33c0f0350956349776e74d1096594d243
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
+Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), python, upstart-job
+Filename: pool/main/n/nova/nova-scheduler_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 4466
+MD5sum: e81bc1da786458e44b07c1951c99ed1f
+SHA1: 0fb923a7a9382be5d27d7effd6f1f7c35df677b7
+SHA256: 85d6bf67324537f53e855af153fba8cebfc694e5d332848a7dd9e213e271b959
 Description: OpenStack Compute - virtual machine scheduler
 Homepage: http://launchpad.net/nova
 Description-md5: 8edec11a409c894d59bffef4d16d21b6
@@ -79014,14 +79014,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
-Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), python, upstart-job
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
+Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), python, upstart-job
 Conflicts: novnc
-Filename: pool/main/n/nova/nova-vncproxy_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
-Size: 4414
-MD5sum: f08f39c4367f6f2632abeec2e9ae43e1
-SHA1: 7dcd00c0df51e9caa36ef526780d1d2d1c95b1ad
-SHA256: 860e471eb70ef2fa846b590f06287e3e354046329e1b9fea727fdff4e6e53ceb
+Filename: pool/main/n/nova/nova-vncproxy_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 4402
+MD5sum: b35d2d14da72f0b7935587e291d70cba
+SHA1: 6892ff4a5d22c4ab4a9a1f37d5ee4de3f6353e70
+SHA256: 9b6f714974b193ee4a36a4f09ec2f21c2c5e0faeffd13d3ff8a231cb0e155a30
 Description: OpenStack Compute - VNC proxy
 Homepage: http://launchpad.net/nova
 Description-md5: 6c983632d4f89ef7ae892c667cdca8ac
@@ -79037,14 +79037,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
-Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1), lvm2, tgt, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), upstart-job
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
+Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), lvm2, tgt, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), upstart-job
 Suggests: sheepdog
-Filename: pool/main/n/nova/nova-volume_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
-Size: 5382
-MD5sum: 9a37e665a1b360a36f0e029e6608b2c4
-SHA1: 2607006f6622fd74375911eb1e04f2a64cb56a3d
-SHA256: a54c1f87ac0fa8ada69e7f724cb835e2e6cf84d86eda34204366421d4ecdc509
+Filename: pool/main/n/nova/nova-volume_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 5366
+MD5sum: 110173d1529cdb5fd19d271a7a9ce69f
+SHA1: eef8be7fe4279168fb532058ae5ff0687ba84da0
+SHA256: 2e593fdfd71ed2c9666bfaf81e84095ffd18402a304d5b975aba5da37a6ae3e3
 Description: OpenStack Compute - storage
 Homepage: http://launchpad.net/nova
 Description-md5: 892604663ba498beb13b0a04ea537629
@@ -84041,20 +84041,20 @@ Task: ubuntu-desktop, cloud-image, ubuntu-usb, server, kubuntu-desktop, kubuntu-
 Package: python-keystone
 Priority: extra
 Section: python
-Installed-Size: 637
+Installed-Size: 638
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Monty Taylor <mordred@inaugust.com>
 Architecture: all
 Source: keystone
-Version: 2012.1.3+stable-20130423-f48dd0fc-0ubuntu1
+Version: 2012.1.3+stable-20130423-f48dd0fc-0ubuntu1.1
 Provides: python2.7-keystone
 Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-pam, python-webob, python-eventlet, python-greenlet, python-pastedeploy, python-paste, python-routes, python-sqlalchemy (>= 0.7~), python-sqlalchemy (<< 0.8), python-migrate, python-passlib, python-lxml, python-prettytable, python-keystoneclient, python-iso8601
 Suggests: python-memcached
-Filename: pool/main/k/keystone/python-keystone_2012.1.3+stable-20130423-f48dd0fc-0ubuntu1_all.deb
-Size: 90404
-MD5sum: 498b3f19abd6532ad9a87fcf4bd013b3
-SHA1: 27f619894986a7222114f4a6e1afe5d7c60d8146
-SHA256: 24a583ccff68b8936f0bb46e3d44b42c56ea1255066264f6d10007672d5a140a
+Filename: pool/main/k/keystone/python-keystone_2012.1.3+stable-20130423-f48dd0fc-0ubuntu1.1_all.deb
+Size: 90622
+MD5sum: dd67c6ac121bf24407e31c3cd86c9db8
+SHA1: fb5f3c07d4420526ac93e7bf9830cd33bbf6ee32
+SHA256: f9c9872abfcf066d7da5399a3b0e511e804078413f195f55fd561766f84682f2
 Description: OpenStack identity service - Python library
 Homepage: http://launchpad.net/keystone
 Python-Version: 2.7
@@ -84380,17 +84380,17 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
 Provides: python2.7-nova
 Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), openssh-client, openssl, python-boto, python-m2crypto, python-pycurl, python-daemon, python-carrot, python-kombu, python-lockfile, python-gflags, python-libxml2, python-ldap, python-sqlalchemy-ext | python-sqlalchemy (<< 0.6.3-2), python-eventlet, python-routes, python-webob, python-cheetah, python-netaddr, python-paste, python-pastedeploy, python-tempita, python-migrate, python-glance, python-novaclient, python-simplejson, python-lxml, python-feedparser, python-xattr, python-suds, python-iso8601, sudo
 Recommends: python-mysqldb
 Suggests: python-suds (>= 0.4.0)
 Conflicts: python-cjson
-Filename: pool/main/n/nova/python-nova_2012.1.3+stable-20130423-e52e6912-0ubuntu1_all.deb
-Size: 1764328
-MD5sum: 1bcaea66e3ba7d27ea7c7da6c7a94900
-SHA1: 37f7f01895d442fe5b2fdd07de2dfad91903667b
-SHA256: 51d9ed710cc2d24772cea3961311774db494ead95f2d73dd27b467ac6a3add7a
+Filename: pool/main/n/nova/python-nova_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 1761392
+MD5sum: 23ee2f1dcbd1649b6b540c1d9757dd11
+SHA1: eb80b7b6581e580c9da05f17ab9eb6033f231bf2
+SHA256: c4f2ee464e9a932be018755639a1b9b7b6440f96d70a68a2e99046c4e205bf78
 Description: OpenStack Compute Python libraries
 Homepage: http://launchpad.net/nova
 Python-Version: 2.7

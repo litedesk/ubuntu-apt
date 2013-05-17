@@ -6005,17 +6005,17 @@ Task: kubuntu-full, kubuntu-active-full
 Package: keystone
 Priority: extra
 Section: python
-Installed-Size: 124
+Installed-Size: 125
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Monty Taylor <mordred@inaugust.com>
 Architecture: all
-Version: 2012.1+stable~20120824-a16a0ab9-0ubuntu2.5
-Depends: python, debconf (>= 0.5) | debconf-2.0, upstart-job, python-keystone (= 2012.1+stable~20120824-a16a0ab9-0ubuntu2.5), adduser, ssl-cert (>= 1.0.12), dbconfig-common
-Filename: pool/main/k/keystone/keystone_2012.1+stable~20120824-a16a0ab9-0ubuntu2.5_all.deb
-Size: 15532
-MD5sum: 0b0b660549189132974fe884ca45329a
-SHA1: 5b761c684f5028330bf161b7cb5b6c24a85f01a4
-SHA256: 1061e700657644fd19578ac1c645cc3774e7eb67825a1fde6e429fba1ce30aa9
+Version: 2012.1.3+stable-20130423-f48dd0fc-0ubuntu1.1
+Depends: python, debconf (>= 0.5) | debconf-2.0, upstart-job, python-keystone (= 2012.1.3+stable-20130423-f48dd0fc-0ubuntu1.1), adduser, ssl-cert (>= 1.0.12), dbconfig-common
+Filename: pool/main/k/keystone/keystone_2012.1.3+stable-20130423-f48dd0fc-0ubuntu1.1_all.deb
+Size: 14812
+MD5sum: ea01d29e0c8f088f6cac55453e98f501
+SHA1: 34efa689c741950fc01459dd865083275cc58034
+SHA256: 00c18e109debb0b5bf2bb4836b907b2be2497f9254ca4cd00868d65c55892647
 Description: OpenStack identity service - Daemons
 Homepage: http://launchpad.net/keystone
 Description-md5: 27421a6db50f80b519e733aec71dae10
@@ -6026,18 +6026,18 @@ Supported: 5y
 Package: keystone-doc
 Priority: extra
 Section: doc
-Installed-Size: 1703
+Installed-Size: 1704
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Monty Taylor <mordred@inaugust.com>
 Architecture: all
 Source: keystone
-Version: 2012.1+stable~20120824-a16a0ab9-0ubuntu2.5
+Version: 2012.1.3+stable-20130423-f48dd0fc-0ubuntu1.1
 Depends: libjs-jquery
-Filename: pool/main/k/keystone/keystone-doc_2012.1+stable~20120824-a16a0ab9-0ubuntu2.5_all.deb
-Size: 321700
-MD5sum: 4bf864e8382d4c703821aa114ec976c9
-SHA1: 0d5bb4942e641dbd58545c83396986ac53f0f61e
-SHA256: b6188d699cfbdce7ccaaf8b376a57e757a8cf600f91fff72745424bdfdbb7923
+Filename: pool/main/k/keystone/keystone-doc_2012.1.3+stable-20130423-f48dd0fc-0ubuntu1.1_all.deb
+Size: 326826
+MD5sum: 1222e0e64db6fc1b712aadf16924a8ab
+SHA1: caa3b5739582f757f59edaac7cc3300570158f45
+SHA256: 8e53c1665059dcdbaa7774b4940c16362dba380215e4ea73b8c0e808947fa5a5
 Description: OpenStack identity service - Documentation
 Homepage: http://launchpad.net/keystone
 Description-md5: 42b26822f99c12d16268512a33f6dfd9
@@ -24376,7 +24376,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 73db8ef2303125c9047e40e1fe3e2ee3
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.3-3.2.0-41-virtual
 Priority: optional
@@ -24397,7 +24397,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 00ffa7648ab3e2c8c1e6663d8aad0014
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.3-3.2.0-43-generic
 Priority: optional
@@ -24419,6 +24419,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 73db8ef2303125c9047e40e1fe3e2ee3
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.3-3.2.0-43-virtual
 Priority: optional
@@ -24440,6 +24441,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 00ffa7648ab3e2c8c1e6663d8aad0014
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.3-precise-generic
 Priority: optional
@@ -24837,7 +24839,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 9a436bc04bffb78038f22b6b3fca07e9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.4-3.2.0-41-virtual
 Priority: optional
@@ -24858,7 +24860,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 619b8cfa92495a39b56a5a0d43236544
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.4-3.2.0-43-generic
 Priority: optional
@@ -24880,6 +24882,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 9a436bc04bffb78038f22b6b3fca07e9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.4-3.2.0-43-virtual
 Priority: optional
@@ -24901,6 +24904,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 619b8cfa92495a39b56a5a0d43236544
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.4-precise-generic
 Priority: optional
@@ -25235,7 +25239,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 5b4d2a2590e892983edb3216437319ef
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.5-3.2.0-41-virtual
 Priority: optional
@@ -25256,7 +25260,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 17a5043ec6a46b4b3f1fdbd386019b9c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.5-3.2.0-43-generic
 Priority: optional
@@ -25278,6 +25282,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 5b4d2a2590e892983edb3216437319ef
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.5-3.2.0-43-virtual
 Priority: optional
@@ -25299,6 +25304,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 17a5043ec6a46b4b3f1fdbd386019b9c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.5-precise-generic
 Priority: optional
@@ -25633,7 +25639,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 6865b8508f4a1ed3d2809094857d6bb8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.6-3.2.0-41-virtual
 Priority: optional
@@ -25654,7 +25660,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: eb82d22f23a4d6b9dcc378052bc62dd4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.6-3.2.0-43-generic
 Priority: optional
@@ -25676,6 +25682,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 6865b8508f4a1ed3d2809094857d6bb8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.6-3.2.0-43-virtual
 Priority: optional
@@ -25697,6 +25704,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: eb82d22f23a4d6b9dcc378052bc62dd4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.6-precise-generic
 Priority: optional
@@ -25737,7 +25745,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: e29da41f0a91f5fc892aa1a0290a1699
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.7-3.2.0-41-virtual
 Priority: optional
@@ -25758,7 +25766,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 0b9300592604c04fbd935f74249ad3d6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.7-3.2.0-43-generic
 Priority: optional
@@ -25780,6 +25788,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: e29da41f0a91f5fc892aa1a0290a1699
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.7-3.2.0-43-virtual
 Priority: optional
@@ -25801,6 +25810,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 0b9300592604c04fbd935f74249ad3d6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.7-precise-generic
 Priority: optional
@@ -25841,7 +25851,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 2830dd8ae5bbe6dc9a373aaf46846274
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.8-3.2.0-41-virtual
 Priority: optional
@@ -25862,7 +25872,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 46e3d488e543dc85651b4c35a274c235
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.8-3.2.0-43-generic
 Priority: optional
@@ -25884,6 +25894,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 2830dd8ae5bbe6dc9a373aaf46846274
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.8-3.2.0-43-virtual
 Priority: optional
@@ -25905,6 +25916,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 46e3d488e543dc85651b4c35a274c235
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.8-precise-generic
 Priority: optional
@@ -26217,7 +26229,7 @@ Description: Linux Hyper-V updates for version 3.2.0 on x86/x86_64
 Description-md5: 584d26d2fb9d908b1347de788f4c1d7c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-hv-3.2.0-41-virtual
 Priority: optional
@@ -26238,7 +26250,7 @@ Description: Linux Hyper-V updates for version 3.2.0 on x86/x86_64
 Description-md5: ea71f70aba46c0a7c65b47def1ba8e9d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-hv-3.2.0-43-generic
 Priority: optional
@@ -26259,6 +26271,7 @@ Description: Linux Hyper-V updates for version 3.2.0 on x86/x86_64
 Description-md5: 584d26d2fb9d908b1347de788f4c1d7c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-hv-3.2.0-43-virtual
 Priority: optional
@@ -26279,6 +26292,7 @@ Description: Linux Hyper-V updates for version 3.2.0 on x86/x86_64
 Description-md5: ea71f70aba46c0a7c65b47def1ba8e9d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-hv-precise-generic
 Priority: optional
@@ -26780,7 +26794,7 @@ Description: Linux ethernet modules for version 3.2.0 on x86/x86_64
 Description-md5: 4d4431774a9f24406f76ad316b7cf886
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-net-3.2.0-41-virtual
 Priority: optional
@@ -26801,7 +26815,7 @@ Description: Linux ethernet modules for version 3.2.0 on x86/x86_64
 Description-md5: cf911955d3cf668358081fb8e8acd9f6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-net-3.2.0-43-generic
 Priority: optional
@@ -26822,6 +26836,7 @@ Description: Linux ethernet modules for version 3.2.0 on x86/x86_64
 Description-md5: 4d4431774a9f24406f76ad316b7cf886
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-net-3.2.0-43-virtual
 Priority: optional
@@ -26842,6 +26857,7 @@ Description: Linux ethernet modules for version 3.2.0 on x86/x86_64
 Description-md5: cf911955d3cf668358081fb8e8acd9f6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-net-precise-generic
 Priority: optional
@@ -28328,7 +28344,7 @@ Description: Header files related to Linux kernel version 3.2.0
 Description-md5: 1b7a8ba9d9355d1f6b17997ffd3debdf
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-3.2.0-41-generic
 Priority: optional
@@ -28349,7 +28365,7 @@ Description: Linux kernel headers for version 3.2.0 on 64 bit x86 SMP
 Description-md5: 1c08b235d9ba5c906b61c54c254372a5
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-3.2.0-41-virtual
 Priority: optional
@@ -28370,7 +28386,7 @@ Description: Linux kernel headers for version 3.2.0 on 64 bit x86 Virtual Guests
 Description-md5: 4c1dd8b59ada94f45a551767ac109054
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-3.2.0-43
 Priority: optional
@@ -28391,6 +28407,7 @@ Description: Header files related to Linux kernel version 3.2.0
 Description-md5: 40edbb179c53c8519a8358fad4d8fee4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-3.2.0-43-generic
 Priority: optional
@@ -28411,6 +28428,7 @@ Description: Linux kernel headers for version 3.2.0 on 64 bit x86 SMP
 Description-md5: c8502949497edb9305f31c2d28eac442
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-3.2.0-43-virtual
 Priority: optional
@@ -28431,6 +28449,7 @@ Description: Linux kernel headers for version 3.2.0 on 64 bit x86 Virtual Guests
 Description-md5: a0b58aee960a737dd88ffd9ca04860b0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-3.5.0-19
 Priority: optional
@@ -28770,6 +28789,7 @@ Description: Header files related to Linux kernel version 3.5.0
 Description-md5: 969bc90f5bd103ed2b77b7c1c24bddb0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-headers-3.5.0-30-generic
 Priority: optional
@@ -28789,6 +28809,7 @@ Description: Linux kernel headers for version 3.5.0 on 64 bit x86 SMP
 Description-md5: 7ddf62638b60525e3011a8974c022276
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-headers-3.8.0-19
 Priority: optional
@@ -28849,6 +28870,7 @@ Description: Header files related to Linux kernel version 3.8.0
 Description-md5: 882d32e391a6df71d4e1f69561178ddc
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-headers-3.8.0-21-generic
 Priority: optional
@@ -28869,6 +28891,7 @@ Description: Linux kernel headers for version 3.8.0 on 64 bit x86 SMP
 Description-md5: 1b783bbd4d4be1a98b1b84ce2946359a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-headers-generic
 Priority: optional
@@ -29391,7 +29414,7 @@ Description: Header files related to linux-backports-modules version 3.2.0
 Description-md5: cfff2839af89543add45004ec4f8a773
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-lbm-3.2.0-41-virtual
 Priority: optional
@@ -29412,7 +29435,7 @@ Description: Header files related to linux-backports-modules version 3.2.0
 Description-md5: cfff2839af89543add45004ec4f8a773
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-lbm-3.2.0-43-generic
 Priority: optional
@@ -29433,6 +29456,7 @@ Description: Header files related to linux-backports-modules version 3.2.0
 Description-md5: 4064d83c815c6f01afc7cd04fafc42af
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-lbm-3.2.0-43-virtual
 Priority: optional
@@ -29453,6 +29477,7 @@ Description: Header files related to linux-backports-modules version 3.2.0
 Description-md5: 4064d83c815c6f01afc7cd04fafc42af
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-server
 Priority: optional
@@ -30307,7 +30332,7 @@ Description: Linux kernel image for version 3.2.0 on 64 bit x86 SMP
 Description-md5: 0263f1b50c3e3117f31617803693d31e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-image-3.2.0-41-virtual
 Priority: optional
@@ -30332,7 +30357,7 @@ Description: Linux kernel image for version 3.2.0 on 64 bit x86 Virtual Guests
 Description-md5: 460133e8833e081521743c30cdbb43d9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-image-3.2.0-43-generic
 Priority: optional
@@ -30357,6 +30382,7 @@ Description: Linux kernel image for version 3.2.0 on 64 bit x86 SMP
 Description-md5: 0263f1b50c3e3117f31617803693d31e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-image-3.2.0-43-virtual
 Priority: optional
@@ -30381,6 +30407,7 @@ Description: Linux kernel image for version 3.2.0 on 64 bit x86 Virtual Guests
 Description-md5: 460133e8833e081521743c30cdbb43d9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-image-3.5.0-19-generic
 Priority: optional
@@ -30596,6 +30623,7 @@ Description: Linux kernel image for version 3.5.0 on 64 bit x86 SMP
 Description-md5: 3b39b08d4161394ef0fbb82223595030
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-image-3.8.0-19-generic
 Priority: optional
@@ -30645,6 +30673,7 @@ Description: Linux kernel image for version 3.8.0 on 64 bit x86 SMP
 Description-md5: 8fdb63eed7d5ffa69b80014b40501775
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-image-current-generic
 Priority: optional
@@ -30984,7 +31013,7 @@ Description: Linux kernel image for version 3.2.0 on 64 bit x86 Virtual Guests
 Description-md5: 460133e8833e081521743c30cdbb43d9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-image-extra-3.2.0-43-virtual
 Priority: optional
@@ -31004,6 +31033,7 @@ Description: Linux kernel image for version 3.2.0 on 64 bit x86 Virtual Guests
 Description-md5: 460133e8833e081521743c30cdbb43d9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-image-extra-virtual
 Priority: optional
@@ -31408,6 +31438,7 @@ Description: Signed kernel image generic
 Description-md5: 58606405946683c4d2ca4f105784fd91
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-signed-image-3.8.0-19-generic
 Priority: optional
@@ -31447,6 +31478,7 @@ Description: Signed kernel image generic
 Description-md5: 58606405946683c4d2ca4f105784fd91
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-signed-image-generic-lts-quantal
 Priority: optional
@@ -32237,7 +32269,7 @@ Description: Linux kernel version specific tools for version 3.2.0-41
 Description-md5: 4abbfc177a0cebb33e036ef0646e482b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-tools-3.2.0-43
 Priority: optional
@@ -32257,6 +32289,7 @@ Description: Linux kernel version specific tools for version 3.2.0-43
 Description-md5: 6f79b18e660c4f046284cd2e36833ce5
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-tools-3.5.0-23
 Priority: optional
@@ -32376,6 +32409,7 @@ Description: Linux kernel version specific tools for version 3.5.0-30
 Description-md5: 35ff03fd1c0009c096e6784b3ebe9cb9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-tools-3.8.0-19
 Priority: optional
@@ -32415,6 +32449,7 @@ Description: Linux kernel version specific tools for version 3.8.0-21
 Description-md5: ce73a007ab9e781325e3f0fecc9c339a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-tools-common
 Priority: optional
@@ -33614,18 +33649,18 @@ Task: lamp-server, kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubunt
 Package: nova-api
 Priority: extra
 Section: net
-Installed-Size: 73
+Installed-Size: 74
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
-Filename: pool/main/n/nova/nova-api_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 4380
-MD5sum: e354f7803a1ddf5123da77958601fb13
-SHA1: dd1d7c4ea11e2a498ffa0fd12b8c048833fbd432
-SHA256: bede146c71eb439e8a40420f127ca17cc6e52c05fff27edb3e5a970ba4e532b9
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
+Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), python, upstart-job
+Filename: pool/main/n/nova/nova-api_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 4364
+MD5sum: cd1916118c1e5073f76f643ca6051a30
+SHA1: f018ddec293856427e0041a8d31c03916b826637
+SHA256: cbcc4615bf323d6c294ef3f721c3fa30f399669d982430a6ffe1e0f30bcd489d
 Description: OpenStack Compute - API frontend
 Homepage: http://launchpad.net/nova
 Description-md5: 93751a4c42a717b98a076fc37e614e1c
@@ -33636,18 +33671,18 @@ Supported: 5y
 Package: nova-cert
 Priority: extra
 Section: net
-Installed-Size: 73
+Installed-Size: 74
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
-Filename: pool/main/n/nova/nova-cert_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 4442
-MD5sum: 683107ac910d412cc5c31be71122ae8b
-SHA1: 481e6a146049037eef7764324d615367e424b269
-SHA256: 41352e6dcdc23320ab8fe08b5842f7fb69e94711818dda3e1b31c4c72e4333ad
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
+Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), python, upstart-job
+Filename: pool/main/n/nova/nova-cert_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 4422
+MD5sum: c7e99230f7ad01bc6e026dcb13fc9fbc
+SHA1: 9ec340f75d015fc9138e5347d21e4011b3f1c02b
+SHA256: f7574da1eaccd343b4b8009f863dec92715b429605ce44a75ff2ecf0747aa7a4
 Description: OpenStack Compute - certificate management
 Homepage: http://launchpad.net/nova
 Description-md5: 171b61c56d67b812f80c5642bfa0d1d2
@@ -33658,19 +33693,19 @@ Supported: 5y
 Package: nova-common
 Priority: extra
 Section: net
-Installed-Size: 1569
+Installed-Size: 1581
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
-Depends: python-amqplib, python-nova (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, adduser
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
+Depends: python-amqplib, python-nova (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), python, adduser
 Suggests: python-keystone
-Filename: pool/main/n/nova/nova-common_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 26664
-MD5sum: e187ad5fba1f3253269927246cd4599a
-SHA1: 1ef017eb7e8ad86df18345fc58acb067a42a3b2b
-SHA256: 718f9655d2bcc9b65d5307984443189bae75f3c7a0b2f22fd5faf6f7a9d782a4
+Filename: pool/main/n/nova/nova-common_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 26520
+MD5sum: d23618ec723c62ba291a07488c05e459
+SHA1: 0a9ed82ea9477f21e7cfbcae366f5f8960fef0c9
+SHA256: 05e8fa46674a11cbbfeca4e33067df383a4d0cd70ffab99d8c4c986f2ccf9901
 Description: OpenStack Compute - common files
 Homepage: http://launchpad.net/nova
 Description-md5: ca300a4c4a13a67629e52754451325a3
@@ -33681,18 +33716,18 @@ Supported: 5y
 Package: nova-compute
 Priority: extra
 Section: net
-Installed-Size: 115
+Installed-Size: 116
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
-Depends: lsb-base (>= 3.0.6), nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), qemu-utils, kpartx, curl, parted, vlan, ebtables, gawk, iptables, open-iscsi, nova-compute-kvm | nova-compute-hypervisor, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), upstart-job
-Filename: pool/main/n/nova/nova-compute_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 6646
-MD5sum: 5881e9edc245f05049bc57ecc080b323
-SHA1: 7916eb97f0d78a7d7de0924751913e6d7e23f63a
-SHA256: 73eb042abec866b45d2ddaa38311b0f4e0003d74d75cc047a393cc5c6af64d44
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
+Depends: lsb-base (>= 3.0.6), nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), qemu-utils, kpartx, curl, parted, vlan, ebtables, gawk, iptables, open-iscsi, nova-compute-kvm | nova-compute-hypervisor, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), upstart-job
+Filename: pool/main/n/nova/nova-compute_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 6636
+MD5sum: ad55402833814afc195fd51d007ab192
+SHA1: c8d6ffc47ec0bfa9b05f442ccfe6800ba72c9bfb
+SHA256: 7e64461a176e93583f653daecccffdc12e950ed2bdb46092af1f8e0e2a8911e4
 Description: OpenStack Compute - compute node
 Homepage: http://launchpad.net/nova
 Description-md5: 4ede856ba4b4b8796676686d84f6183b
@@ -33703,20 +33738,20 @@ Supported: 5y
 Package: nova-compute-kvm
 Priority: extra
 Section: net
-Installed-Size: 50
+Installed-Size: 51
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
 Provides: nova-compute-hypervisor
-Depends: nova-compute (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python-libvirt, libvirt-bin, kvm
+Depends: nova-compute (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), python-libvirt, libvirt-bin, kvm
 Conflicts: nova-compute-hypervisor
-Filename: pool/main/n/nova/nova-compute-kvm_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 2772
-MD5sum: 24c55b709689e49d383ee33eaf866e81
-SHA1: 01ced8c35d24a4c208dbb5f0465a2cd13d8f2c00
-SHA256: 32f8197df65c4656ef54f2fbe0bb5b4db03c48110f23b7b23a764a1a85b4d761
+Filename: pool/main/n/nova/nova-compute-kvm_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 2766
+MD5sum: 1e2a5f2cd9a390ff6908514f97ea1d5b
+SHA1: d56c8b1b3231a6b0b6282d9b107e6a58fa2a46d4
+SHA256: affcc7d2d7ec2ac6a0ab2f22d64331bc81aca3a29c0843c11ff18ce24f2b1d57
 Description: OpenStack Compute - compute node (KVM)
 Homepage: http://launchpad.net/nova
 Description-md5: 3a3f4fc6eb0e0d1a1a52636f4a84daa1
@@ -33727,20 +33762,20 @@ Supported: 5y
 Package: nova-compute-lxc
 Priority: extra
 Section: net
-Installed-Size: 50
+Installed-Size: 51
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
 Provides: nova-compute-hypervisor
-Depends: nova-compute (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python-libvirt, libvirt-bin
+Depends: nova-compute (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), python-libvirt, libvirt-bin
 Conflicts: nova-compute-hypervisor
-Filename: pool/main/n/nova/nova-compute-lxc_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 2772
-MD5sum: f1000d3b9b25850169318fa6bd033ec8
-SHA1: 224db0f056771c81105124d321ef555fbf6aae14
-SHA256: a379d5bf792ca94e72297413f5fc9937934bbb33a058b287b7bb4c2b42831525
+Filename: pool/main/n/nova/nova-compute-lxc_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 2768
+MD5sum: 5006a508def9b39e86ce173fd8325b4e
+SHA1: 685f91a60036870777496671c059a9bf38e8a20c
+SHA256: 87c8addc68433d1a347df70de3f887a76924f6c850da3208613cc0a57c1daeb7
 Description: OpenStack Compute - compute node (LXC)
 Homepage: http://launchpad.net/nova
 Description-md5: 8c74b0f3d56b3da8c70cf752f98f7869
@@ -33751,18 +33786,18 @@ Supported: 5y
 Package: nova-doc
 Priority: extra
 Section: doc
-Installed-Size: 8873
+Installed-Size: 8874
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
 Recommends: libjs-jquery
-Filename: pool/main/n/nova/nova-doc_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 1711564
-MD5sum: 98df5781c5a97fb68a8106eac2b93ed8
-SHA1: 942d30b808bbb116615d3b3b7d32648d32f5c964
-SHA256: 62fc92e1d47737b12e76a96785659a804e8c9bdeb1decad506a36b34211c4da6
+Filename: pool/main/n/nova/nova-doc_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 1705594
+MD5sum: ad44366f0f250594272c3e49d86335db
+SHA1: 6ae6a9b498978ee25034f02961b1fb5476f766e6
+SHA256: 3df5199b5e6fb6b6bddef2a9f52de4d82b7c1a8fab5a664480efd9334bd7e6cc
 Description: OpenStack Compute - documentation
 Homepage: http://launchpad.net/nova
 Description-md5: 1c367fcc5afa32969a8f351c6365dd1c
@@ -33773,19 +33808,19 @@ Supported: 5y
 Package: nova-network
 Priority: extra
 Section: net
-Installed-Size: 114
+Installed-Size: 115
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
-Depends: netcat, vlan, bridge-utils, dnsmasq-base, iputils-arping, dnsmasq-utils, nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), upstart-job
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
+Depends: netcat, vlan, bridge-utils, dnsmasq-base, iputils-arping, dnsmasq-utils, nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), upstart-job
 Suggests: radvd
-Filename: pool/main/n/nova/nova-network_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 7066
-MD5sum: 0b7dc394e8268fc2ee867053f6442f23
-SHA1: d592de61f951887de307521bc9d355c81fb5d622
-SHA256: 6eccb8ec69221e26b5217f742beb847ad598e5c1f45b0169685521a471ebe54f
+Filename: pool/main/n/nova/nova-network_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 7050
+MD5sum: 86baf8cea4573f20d2f3a43a619fb9a1
+SHA1: dfc84340529b0f8ed4c67644c2972c5ebc1f8008
+SHA256: ccfee25c04bf2ad7be0bd82a544b88a747d04e1331d4274b6fab0d316531b12d
 Description: OpenStack Compute - Network manager
 Homepage: http://launchpad.net/nova
 Description-md5: ce3e77d724d3353406c26c4d4af8c565
@@ -33796,18 +33831,18 @@ Supported: 5y
 Package: nova-objectstore
 Priority: extra
 Section: net
-Installed-Size: 73
+Installed-Size: 74
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
-Filename: pool/main/n/nova/nova-objectstore_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 4554
-MD5sum: cc4e2670b9ee4d2e02a5d2499f9961a6
-SHA1: 8cfd87e0e4b06e7f4fdcd6debb4e3de865f7a2f3
-SHA256: a0abfd0180f2ded92fb4c8f9df861f7c88432f216d670df9dd0e2f4181d02c67
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
+Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), python, upstart-job
+Filename: pool/main/n/nova/nova-objectstore_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 4542
+MD5sum: 4584455ec798a1044639d4d94cc8b84e
+SHA1: b41e9e5f8e7b3956fe65fe3dd609318ce41c80bc
+SHA256: 6c2ea758ba3edce3f161ef61cbed71805995f167120e4a9de276979683afec30
 Description: OpenStack Compute - object store
 Homepage: http://launchpad.net/nova
 Description-md5: 25cb037ff1b6bb2f705647605954cac3
@@ -33818,18 +33853,18 @@ Supported: 5y
 Package: nova-scheduler
 Priority: extra
 Section: net
-Installed-Size: 73
+Installed-Size: 74
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
-Filename: pool/main/n/nova/nova-scheduler_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 4480
-MD5sum: 6ee9564c47b170ee6d9e48a6c3b987b8
-SHA1: 833ead391fd0c56eebd23a56848129990b8e31ab
-SHA256: 2efd4b18faa23bcc26e2fa1931be2a3bb33b19eff4903a4031b9a74efb1448c2
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
+Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), python, upstart-job
+Filename: pool/main/n/nova/nova-scheduler_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 4466
+MD5sum: e81bc1da786458e44b07c1951c99ed1f
+SHA1: 0fb923a7a9382be5d27d7effd6f1f7c35df677b7
+SHA256: 85d6bf67324537f53e855af153fba8cebfc694e5d332848a7dd9e213e271b959
 Description: OpenStack Compute - virtual machine scheduler
 Homepage: http://launchpad.net/nova
 Description-md5: 8edec11a409c894d59bffef4d16d21b6
@@ -33840,19 +33875,19 @@ Supported: 5y
 Package: nova-vncproxy
 Priority: extra
 Section: net
-Installed-Size: 73
+Installed-Size: 74
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), python, upstart-job
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
+Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), python, upstart-job
 Conflicts: novnc
-Filename: pool/main/n/nova/nova-vncproxy_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 4416
-MD5sum: 9fde8e0843881e86866de315a2764d3a
-SHA1: 155471d47965ab865105f6d598795db78b8c40c5
-SHA256: 41eabe37c3d2a51f30462874cf1bec72012e80e3220302b69990da069f4e6dc0
+Filename: pool/main/n/nova/nova-vncproxy_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 4402
+MD5sum: b35d2d14da72f0b7935587e291d70cba
+SHA1: 6892ff4a5d22c4ab4a9a1f37d5ee4de3f6353e70
+SHA256: 9b6f714974b193ee4a36a4f09ec2f21c2c5e0faeffd13d3ff8a231cb0e155a30
 Description: OpenStack Compute - VNC proxy
 Homepage: http://launchpad.net/nova
 Description-md5: 6c983632d4f89ef7ae892c667cdca8ac
@@ -33863,19 +33898,19 @@ Supported: 5y
 Package: nova-volume
 Priority: extra
 Section: net
-Installed-Size: 111
+Installed-Size: 112
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
-Depends: nova-common (= 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4), lvm2, tgt, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), upstart-job
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
+Depends: nova-common (= 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1), lvm2, tgt, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), upstart-job
 Suggests: sheepdog
-Filename: pool/main/n/nova/nova-volume_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 5386
-MD5sum: cf7e3f9199f54a09dee0d6b192b725ec
-SHA1: 0d630f25c4041e7f5f9d62fea87d987abaca8b65
-SHA256: 81c7eda641ce8d6c3903e8537de18c41f2b2305136ddd95d8cee0836697b45f4
+Filename: pool/main/n/nova/nova-volume_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 5366
+MD5sum: 110173d1529cdb5fd19d271a7a9ce69f
+SHA1: eef8be7fe4279168fb532058ae5ff0687ba84da0
+SHA256: 2e593fdfd71ed2c9666bfaf81e84095ffd18402a304d5b975aba5da37a6ae3e3
 Description: OpenStack Compute - storage
 Homepage: http://launchpad.net/nova
 Description-md5: 892604663ba498beb13b0a04ea537629
@@ -35816,20 +35851,20 @@ Task: ubuntu-desktop, cloud-image, ubuntu-usb, server, kubuntu-desktop, kubuntu-
 Package: python-keystone
 Priority: extra
 Section: python
-Installed-Size: 635
+Installed-Size: 638
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Monty Taylor <mordred@inaugust.com>
 Architecture: all
 Source: keystone
-Version: 2012.1+stable~20120824-a16a0ab9-0ubuntu2.5
+Version: 2012.1.3+stable-20130423-f48dd0fc-0ubuntu1.1
 Provides: python2.7-keystone
 Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-pam, python-webob, python-eventlet, python-greenlet, python-pastedeploy, python-paste, python-routes, python-sqlalchemy (>= 0.7~), python-sqlalchemy (<< 0.8), python-migrate, python-passlib, python-lxml, python-prettytable, python-keystoneclient, python-iso8601
 Suggests: python-memcached
-Filename: pool/main/k/keystone/python-keystone_2012.1+stable~20120824-a16a0ab9-0ubuntu2.5_all.deb
-Size: 90518
-MD5sum: 1a7783c35c104d41e41bf945c7352669
-SHA1: bdd80237a74a87f9a6e3af0ab2301dcd03ce6dd2
-SHA256: 7a52da7b1bf3135d17d0c7b26dd4f04aa8f36c2d263ac98a5b0acd3f7453679b
+Filename: pool/main/k/keystone/python-keystone_2012.1.3+stable-20130423-f48dd0fc-0ubuntu1.1_all.deb
+Size: 90622
+MD5sum: dd67c6ac121bf24407e31c3cd86c9db8
+SHA1: fb5f3c07d4420526ac93e7bf9830cd33bbf6ee32
+SHA256: f9c9872abfcf066d7da5399a3b0e511e804078413f195f55fd561766f84682f2
 Description: OpenStack identity service - Python library
 Homepage: http://launchpad.net/keystone
 Python-Version: 2.7
@@ -36030,22 +36065,22 @@ Supported: 5y
 Package: python-nova
 Priority: extra
 Section: python
-Installed-Size: 10463
+Installed-Size: 10469
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Openstack Maintainers <openstack@lists.launchpad.net>
 Architecture: all
 Source: nova
-Version: 2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4
+Version: 2012.1.3+stable-20130423-e52e6912-0ubuntu1.1
 Provides: python2.7-nova
 Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), openssh-client, openssl, python-boto, python-m2crypto, python-pycurl, python-daemon, python-carrot, python-kombu, python-lockfile, python-gflags, python-libxml2, python-ldap, python-sqlalchemy-ext | python-sqlalchemy (<< 0.6.3-2), python-eventlet, python-routes, python-webob, python-cheetah, python-netaddr, python-paste, python-pastedeploy, python-tempita, python-migrate, python-glance, python-novaclient, python-simplejson, python-lxml, python-feedparser, python-xattr, python-suds, python-iso8601, sudo
 Recommends: python-mysqldb
 Suggests: python-suds (>= 0.4.0)
 Conflicts: python-cjson
-Filename: pool/main/n/nova/python-nova_2012.1.3+stable-20120827-4d2a4afe-0ubuntu1.4_all.deb
-Size: 1762234
-MD5sum: d04649faab376b3b0c829ac83ce9ad8e
-SHA1: fac7de8fec8b311bc88b3811892f4edd05527f95
-SHA256: 4fbb0c2380dd91a5cce80bf93803d27b7d089f286c306fc3dedad804c777cc78
+Filename: pool/main/n/nova/python-nova_2012.1.3+stable-20130423-e52e6912-0ubuntu1.1_all.deb
+Size: 1761392
+MD5sum: 23ee2f1dcbd1649b6b540c1d9757dd11
+SHA1: eb80b7b6581e580c9da05f17ab9eb6033f231bf2
+SHA256: c4f2ee464e9a932be018755639a1b9b7b6440f96d70a68a2e99046c4e205bf78
 Description: OpenStack Compute Python libraries
 Homepage: http://launchpad.net/nova
 Python-Version: 2.7
