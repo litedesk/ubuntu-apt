@@ -86216,17 +86216,17 @@ Installed-Size: 1202
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Michael Biebl <biebl@debian.org>
 Architecture: amd64
-Version: 5.8.6-1ubuntu8.1
+Version: 5.8.6-1ubuntu8.2
 Provides: linux-kernel-log-daemon, system-log-daemon
 Depends: libc6 (>= 2.15), zlib1g (>= 1:1.1.4), upstart-job, lsb-base (>= 3.2-14), initscripts (>= 2.88dsf-13.3), adduser, ucf
 Recommends: logrotate
 Suggests: rsyslog-mysql | rsyslog-pgsql, rsyslog-doc, rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp, apparmor (>= 2.3)
 Conflicts: linux-kernel-log-daemon, system-log-daemon
-Filename: pool/main/r/rsyslog/rsyslog_5.8.6-1ubuntu8.1_amd64.deb
-Size: 427292
-MD5sum: dffdda1010fc99c6b98e6c996ccb14ea
-SHA1: 6442ca03437550bcae7d41eb78ee6b731626af8e
-SHA256: 841e69ffe9bc7040f2d3a331329bff8a7424d45a52a4fc0c7ba2ac08e01045d6
+Filename: pool/main/r/rsyslog/rsyslog_5.8.6-1ubuntu8.2_amd64.deb
+Size: 427450
+MD5sum: adc6f284e65f61368f68a335f2ef3a47
+SHA1: 2e3f05d3369b9c2092d7918ced91164a82514586
+SHA256: fdc0d3be65455c086acad0e07ee54ce8f4153a494bfd16b17b4c7792181ebbb3
 Description: reliable system and kernel logging daemon
 Homepage: http://www.rsyslog.com/
 Original-Vcs-Browser: http://git.debian.org/?p=collab-maint/rsyslog.git;a=summary
@@ -86240,20 +86240,20 @@ Task: minimal
 Package: rsyslog-doc
 Priority: extra
 Section: doc
-Installed-Size: 1557
+Installed-Size: 1558
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Michael Biebl <biebl@debian.org>
 Architecture: all
 Source: rsyslog
-Version: 5.8.6-1ubuntu8.1
+Version: 5.8.6-1ubuntu8.2
 Replaces: rsyslog (<< 2.0.1-2)
 Suggests: doc-base, www-browser
 Breaks: rsyslog (<< 2.0.1-2)
-Filename: pool/main/r/rsyslog/rsyslog-doc_5.8.6-1ubuntu8.1_all.deb
-Size: 993854
-MD5sum: e3b0cb00de342b1f95d2340a7b288a56
-SHA1: e60fdf29cdda220958d41a609485019bd30f8b9e
-SHA256: 0b192700c61cce8d3de9c2f67b9e4a5c2568cc5d8a0ec92e38711699f99a421e
+Filename: pool/main/r/rsyslog/rsyslog-doc_5.8.6-1ubuntu8.2_all.deb
+Size: 999728
+MD5sum: 230c1c1e2e22d3a95cac4fcb51a65440
+SHA1: ee6819c6f963990f58e96f360efcb6e555be4e4f
+SHA256: 6bedd64515d0c72bef80bf4d2e5be93115ca51bd44bc39b11900a3ab1956e75a
 Description: documentation for rsyslog
 Homepage: http://www.rsyslog.com/
 Original-Vcs-Browser: http://git.debian.org/?p=collab-maint/rsyslog.git;a=summary
