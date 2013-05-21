@@ -22665,12 +22665,12 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Jay Berkenbilt <qjb@debian.org>
 Architecture: all
 Source: tiff
-Version: 3.9.5-2ubuntu1.4
-Filename: pool/main/t/tiff/libtiff-doc_3.9.5-2ubuntu1.4_all.deb
-Size: 352954
-MD5sum: d8b7c89f5bad870e02c4d02e1533f1bc
-SHA1: 211bfc799b3b0eadf4a4e3405aa0fe3621c974c7
-SHA256: b199f97684d768f930f1c11ef766d5d35a497fbe3298992bd18dd0fc8c84df82
+Version: 3.9.5-2ubuntu1.5
+Filename: pool/main/t/tiff/libtiff-doc_3.9.5-2ubuntu1.5_all.deb
+Size: 353160
+MD5sum: 34123f03d93d3a4827d67daedcad4dde
+SHA1: b7d920a1da572407e1a54d61acc6392c04d9ff4d
+SHA256: a56b6dd8e76738e8ccf316b0d35731e8df486301b3b5b9f09a4bdd78d53207a0
 Description: TIFF manipulation and conversion documentation
 Homepage: http://libtiff.maptools.org
 Description-md5: 418b6b38755ca1f970cc3282a8afc939
@@ -22686,14 +22686,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Jay Berkenbilt <qjb@debian.org>
 Architecture: amd64
 Source: tiff
-Version: 3.9.5-2ubuntu1.4
+Version: 3.9.5-2ubuntu1.5
 Depends: libc6 (>= 2.14), libtiff4
 Suggests: libtiff-opengl
-Filename: pool/main/t/tiff/libtiff-tools_3.9.5-2ubuntu1.4_amd64.deb
-Size: 266670
-MD5sum: eb6b252171e9663874765563bab9c308
-SHA1: c8bf85b48c619bd9f149a7e9b0519cfd653d5934
-SHA256: ae978c149fcbeba3728e3848ca3c1d1a6999600078b8ba5f55b3201a19f0da17
+Filename: pool/main/t/tiff/libtiff-tools_3.9.5-2ubuntu1.5_amd64.deb
+Size: 268518
+MD5sum: 923791880a3f4e780f88911a75088cf4
+SHA1: 97c63e580c5e41b876e1c0f066a4e865ea5009bb
+SHA256: 492ee8af5edbd51779c8081c486f427ec6c005b68e75731a5c2a314b32757db5
 Description: TIFF manipulation and conversion tools
 Homepage: http://libtiff.maptools.org
 Description-md5: f333fccce3ca049190b80f117d3faa92
@@ -22705,19 +22705,19 @@ Task: ubuntustudio-graphics
 Package: libtiff4
 Priority: optional
 Section: libs
-Installed-Size: 494
+Installed-Size: 498
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Jay Berkenbilt <qjb@debian.org>
 Architecture: amd64
 Source: tiff
-Version: 3.9.5-2ubuntu1.4
+Version: 3.9.5-2ubuntu1.5
 Depends: libc6 (>= 2.14), libjpeg8 (>= 8c), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
-Filename: pool/main/t/tiff/libtiff4_3.9.5-2ubuntu1.4_amd64.deb
-Size: 144328
-MD5sum: 0a3d61746805f689510837b15033d0c8
-SHA1: e65efeca97f597488546fb1d86b15f49cc3c0637
-SHA256: 7de0a61b16eea70190bfeb35e7f858fe39927c93cc577fa742cf7992d4bf3ca2
+Filename: pool/main/t/tiff/libtiff4_3.9.5-2ubuntu1.5_amd64.deb
+Size: 144522
+MD5sum: 4ab122090c7c741b86ebd2ab1a674ea2
+SHA1: 5a14a1d29e494e847159dbe59a1b4c679a7dcd40
+SHA256: 09b30eee03cf170ab27b35c7855b9456d1c00daefdc2d28bf632b63bf043b1cf
 Description: Tag Image File Format (TIFF) library
 Multi-Arch: same
 Homepage: http://libtiff.maptools.org
@@ -22735,15 +22735,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Jay Berkenbilt <qjb@debian.org>
 Architecture: amd64
 Source: tiff
-Version: 3.9.5-2ubuntu1.4
+Version: 3.9.5-2ubuntu1.5
 Provides: libtiff-dev
-Depends: libtiff4 (= 3.9.5-2ubuntu1.4), libtiffxx0c2 (= 3.9.5-2ubuntu1.4), libc6-dev | libc-dev, zlib1g-dev, libjpeg-dev
+Depends: libtiff4 (= 3.9.5-2ubuntu1.5), libtiffxx0c2 (= 3.9.5-2ubuntu1.5), libc6-dev | libc-dev, zlib1g-dev, libjpeg-dev
 Conflicts: libtiff-dev
-Filename: pool/main/t/tiff/libtiff4-dev_3.9.5-2ubuntu1.4_amd64.deb
-Size: 278688
-MD5sum: 9659586b40d8b6169ad087419476c1c1
-SHA1: 8673352e367071b64a2f61a6f4a83e7a761ef12e
-SHA256: a962c88f3354ea6598e3267a998ae63696596dc45d205b8a9a310af604d9c39b
+Filename: pool/main/t/tiff/libtiff4-dev_3.9.5-2ubuntu1.5_amd64.deb
+Size: 278962
+MD5sum: e511a9a3944277b84406006cd363739f
+SHA1: 6bf69c5f9135751cacdad310c2d75b7942029c8a
+SHA256: 70db84b78eb3bab48591332710bec14d24f0c5b3094b3ebbd6420d91539d99d6
 Description: Tag Image File Format library (TIFF), development files
 Homepage: http://libtiff.maptools.org
 Description-md5: 9da8bcdaa4c04ca6ee4ae233236c1927
@@ -22754,19 +22754,19 @@ Supported: 18m
 Package: libtiffxx0c2
 Priority: optional
 Section: libs
-Installed-Size: 108
+Installed-Size: 109
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Jay Berkenbilt <qjb@debian.org>
 Architecture: amd64
 Source: tiff
-Version: 3.9.5-2ubuntu1.4
+Version: 3.9.5-2ubuntu1.5
 Depends: libc6 (>= 2.4), libstdc++6 (>= 4.2.1), libtiff4
 Pre-Depends: multiarch-support
-Filename: pool/main/t/tiff/libtiffxx0c2_3.9.5-2ubuntu1.4_amd64.deb
-Size: 6536
-MD5sum: 55a4d7de09fc22eaa9e6c0549136e3b7
-SHA1: cdad19d37d67cb1d6af54f2b3e2f21d8e5c3c290
-SHA256: 914bae3b1fb41436e5e5d8125f122643eeb51ab4e7b08a13c51c78b6d92f8e5e
+Filename: pool/main/t/tiff/libtiffxx0c2_3.9.5-2ubuntu1.5_amd64.deb
+Size: 6546
+MD5sum: f8c56e8f8dfa3c59637742fe1c838edc
+SHA1: b71d2955f533a41ce0bb3477a209a89ef63cd3e5
+SHA256: 37d66407abd190e44fbc900d6b13a238dceb060791cd72cc20a5049c659a4a89
 Description: Tag Image File Format (TIFF) library -- C++ interface
 Multi-Arch: same
 Homepage: http://libtiff.maptools.org
