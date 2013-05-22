@@ -1817,6 +1817,15 @@ Description-en: emulates the detach/attach feature of screen
  audited for bugs and security holes, and also allows it to fit in
  environments where space is limited, such as on rescue disks.
 
+Package: duply
+Description-md5: d2443380a9b348cf418e3f88d3f5bd28
+Description-en: easy to use frontend to the duplicity backup system
+ duply is a shell front end to duplicity that simplifies the usage by managing
+ settings for each backup job in profiles. It supports executing multiple
+ commands in a batch mode to enable single line cron entries and allows the
+ user to use pre/post backup scripts. All duplicity backends are supported.
+ The previous name of duply was ftplicity.
+
 Package: ec2-init
 Description-md5: 4cf74a8ef9cc7376e227720b76813136
 Description-en: package renamed -> cloud-init
