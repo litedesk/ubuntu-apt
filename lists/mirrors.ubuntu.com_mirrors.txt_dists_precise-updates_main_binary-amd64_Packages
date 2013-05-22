@@ -3388,19 +3388,19 @@ Installed-Size: 4193
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: amd64
-Version: 1.5.3-0ubuntu6
+Version: 1.5.3-0ubuntu8
 Replaces: cupsddk-drivers (<< 1.4.0), ghostscript-cups (<< 9.02~)
 Provides: cupsddk-drivers
-Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.15), libcups2 (>= 1.5.0), libcupscgi1 (>= 1.4.2), libcupsimage2 (>= 1.4.0), libcupsmime1 (>= 1.5.0), libcupsppdc1 (>= 1.4.0), libdbus-1-3 (>= 1.0.2), libgcc1 (>= 1:4.1.1), libgnutls26 (>= 2.12.6.1-0), libgssapi-krb5-2 (>= 1.8+dfsg), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpaper1, libslp1, libstdc++6 (>= 4.1.1), libusb-1.0-0 (>= 2:1.0.9~rc3), debconf (>= 1.2.9) | debconf-2.0, upstart-job, poppler-utils (>= 0.12), procps, ghostscript (>= 9.02~), lsb-base (>= 3), cups-common (>= 1.5.3), cups-client (>= 1.5.3-0ubuntu6), ssl-cert (>= 1.0.11), adduser, bc, cups-ppdc, cups-filters
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.15), libcups2 (>= 1.5.0), libcupscgi1 (>= 1.4.2), libcupsimage2 (>= 1.4.0), libcupsmime1 (>= 1.5.0), libcupsppdc1 (>= 1.4.0), libdbus-1-3 (>= 1.0.2), libgcc1 (>= 1:4.1.1), libgnutls26 (>= 2.12.6.1-0), libgssapi-krb5-2 (>= 1.8+dfsg), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpaper1, libslp1, libstdc++6 (>= 4.1.1), libusb-1.0-0 (>= 2:1.0.9~rc3), debconf (>= 1.2.9) | debconf-2.0, upstart-job, poppler-utils (>= 0.12), procps, ghostscript (>= 9.02~), lsb-base (>= 3), cups-common (>= 1.5.3), cups-client (>= 1.5.3-0ubuntu8), ssl-cert (>= 1.0.11), adduser, bc, cups-ppdc, cups-filters
 Pre-Depends: dpkg (>= 1.15.7.2)
 Recommends: avahi-daemon, colord, foomatic-filters (>= 4.0), printer-driver-gutenprint, ghostscript-cups (>= 9.02~)
 Suggests: cups-bsd, foomatic-db-compressed-ppds | foomatic-db, printer-driver-hpcups, hplip, cups-pdf, udev, smbclient
 Breaks: cupsddk-drivers (<< 1.4.0), foomatic-filters (<< 4.0), ghostscript-cups (<< 9.02~)
-Filename: pool/main/c/cups/cups_1.5.3-0ubuntu6_amd64.deb
-Size: 1291376
-MD5sum: f80df50e46a3c5130333c4c8a5589c8f
-SHA1: 117c48269677ebb5ca4e75ca7f97cf696c5e4392
-SHA256: 715e6166536e63303004c8ecd7c9b3047a3874f4346508d12a3347adc91bcf34
+Filename: pool/main/c/cups/cups_1.5.3-0ubuntu8_amd64.deb
+Size: 1299308
+MD5sum: 9f7736cd27893974a78695d24fd507a2
+SHA1: c2be02ec14407b12fc67e59ac92fdd474a6eed8a
+SHA256: 5ee4cc3e76cc6b3db7fcccc2e9668dff6e5a5e4774168241d419e9a676eebc03
 Description: Common UNIX Printing System(tm) - server
 Homepage: http://www.cups.org
 Description-md5: a7a1401ce90f3158b62e46f606e44e35
@@ -3417,17 +3417,17 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: cups
-Version: 1.5.3-0ubuntu6
+Version: 1.5.3-0ubuntu8
 Replaces: lpr
 Provides: lpr
-Depends: libc6 (>= 2.4), libcups2 (>= 1.4.0), debconf (>= 0.5) | debconf-2.0, cups-client (= 1.5.3-0ubuntu6), update-inetd, cups-common
+Depends: libc6 (>= 2.4), libcups2 (>= 1.4.0), debconf (>= 0.5) | debconf-2.0, cups-client (= 1.5.3-0ubuntu8), update-inetd, cups-common
 Suggests: cups
 Conflicts: lpr, lprng
-Filename: pool/main/c/cups/cups-bsd_1.5.3-0ubuntu6_amd64.deb
-Size: 44784
-MD5sum: c96256aec26a1532f8140a72646d7e19
-SHA1: a42903798ffd0b77bb788d7e8a1b4f0f7c2bcdc8
-SHA256: 6584ae7dcd10519c8c9ac91b7c0c775a524a3617b663006035d32ebd5096eaa6
+Filename: pool/main/c/cups/cups-bsd_1.5.3-0ubuntu8_amd64.deb
+Size: 44794
+MD5sum: 09c19ab801a5dbc025f24730c7a0c348
+SHA1: a4c604b2b523baf4ef4e9cf09e885db8f78823b1
+SHA256: a887f25fcc7bdbe6ec5597ad6950dd50b6dc837aad3639d014118db7dc1480c6
 Description: Common UNIX Printing System(tm) - BSD commands
 Homepage: http://www.cups.org
 Description-md5: 8ca999eda442e2096dafa2745e4db8de
@@ -3444,16 +3444,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: cups
-Version: 1.5.3-0ubuntu6
+Version: 1.5.3-0ubuntu8
 Depends: libc6 (>= 2.14), libcups2 (>= 1.5.0), libcupsimage2 (>= 1.4.0), cups-common (>= 1.5.3), adduser
 Recommends: smbclient
 Suggests: cups, xpp, cups-bsd
 Conflicts: lprng
-Filename: pool/main/c/cups/cups-client_1.5.3-0ubuntu6_amd64.deb
-Size: 174310
-MD5sum: 2ccb100124be29bd0923cd7694a25593
-SHA1: da7d345f67869988cf387951f6ad1750797ba4fc
-SHA256: 3c9b2f4c9ccc538f79f1fb72d0a14e50b5396052a90555cbdb89809fff95dd05
+Filename: pool/main/c/cups/cups-client_1.5.3-0ubuntu8_amd64.deb
+Size: 174012
+MD5sum: 0ff2232abb5d33a7bbc9574f699ad094
+SHA1: 81e4fa102cae8f81f17952f5c03f13393a2738e7
+SHA256: 351918d576ff662d02c1f3c90ea0ab3f69f5fb7c0deaa1c291caaea8dc49634d
 Description: Common UNIX Printing System(tm) - client programs (SysV)
 Homepage: http://www.cups.org
 Description-md5: 49064ce8151bc5cfbb65936322a4e2ce
@@ -3470,12 +3470,12 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: all
 Source: cups
-Version: 1.5.3-0ubuntu6
-Filename: pool/main/c/cups/cups-common_1.5.3-0ubuntu6_all.deb
-Size: 823012
-MD5sum: b37a71d1f7091806b84a9f3a49eab42e
-SHA1: f046c0d4ecf1cf8a6629a1c64a18b8627526eff4
-SHA256: a4e0be369950e11832638a15d442eeac8882633ad6624c3f47737c68982bde0d
+Version: 1.5.3-0ubuntu8
+Filename: pool/main/c/cups/cups-common_1.5.3-0ubuntu8_all.deb
+Size: 822786
+MD5sum: a99ef99bd86396bd587975bde8e61d0b
+SHA1: 6382ea9767aee5d693c6b8d6c9671705f33f135d
+SHA256: 0290965517253db88ae781e69a015a8130bc6e448371bae308fd63168ce56a92
 Description: Common UNIX Printing System(tm) - common files
 Homepage: http://www.cups.org
 Description-md5: ae28e55960aa62a85c88769b70d73eaa
@@ -3492,13 +3492,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: cups
-Version: 1.5.3-0ubuntu6
-Depends: cups (= 1.5.3-0ubuntu6)
-Filename: pool/main/c/cups/cups-dbg_1.5.3-0ubuntu6_amd64.deb
-Size: 1601842
-MD5sum: 3f9413a28bdc951125861500ec077b4f
-SHA1: 7d458ad46fd820d1786df6818c7db52a626aba83
-SHA256: 0d6868033c2600e7598ee9e5637826c45af52ea3245ff8cf05dbf6a048ec8749
+Version: 1.5.3-0ubuntu8
+Depends: cups (= 1.5.3-0ubuntu8)
+Filename: pool/main/c/cups/cups-dbg_1.5.3-0ubuntu8_amd64.deb
+Size: 1601194
+MD5sum: d4505aa8475c938fed84e0fc86689b07
+SHA1: 95753daf9b462e5c2d42dec40f5943fb86eb9761
+SHA256: f34a1d03b5c383ac9b422326d0569ec876b50538ec0a8a32e8a154123a4300fd
 Description: Common UNIX Printing System(tm) - debugging symbols
 Homepage: http://www.cups.org
 Description-md5: 45781fd5891c0e6a36e3f989431c7203
@@ -3557,21 +3557,21 @@ Task: ubuntu-desktop, print-server, ubuntu-usb, kubuntu-desktop, kubuntu-active-
 Package: cups-ppdc
 Priority: optional
 Section: net
-Installed-Size: 222
+Installed-Size: 223
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: cups
-Version: 1.5.3-0ubuntu6
+Version: 1.5.3-0ubuntu8
 Replaces: cupsddk (<< 1.4.0)
 Provides: cupsddk
 Depends: libc6 (>= 2.4), libcups2 (>= 1.4.0), libcupsppdc1 (>= 1.4.0), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), cups-common
 Breaks: cupsddk (<< 1.4.0)
-Filename: pool/main/c/cups/cups-ppdc_1.5.3-0ubuntu6_amd64.deb
-Size: 30530
-MD5sum: a8aa0335c06fd4320d1b126bd48eb292
-SHA1: aa5bc69e94397fa5be292c5fcb56f3d976a64a97
-SHA256: f31340fd62bfb6441a8cd42b06cf90db17992353950f2fbd8f608e087b281cb3
+Filename: pool/main/c/cups/cups-ppdc_1.5.3-0ubuntu8_amd64.deb
+Size: 31258
+MD5sum: 5d08ae3b968a1e7c9948e3608d929e25
+SHA1: b8af1e4997ee94e0a2bbc5d4118b1ad6b38ad5b7
+SHA256: 090cfd356dd2ee0451f64ba16586f0d80c89f492a2bb5e47a3596aa97f516f40
 Description: Common UNIX Printing System(tm) - PPD manipulation utilities
 Homepage: http://www.cups.org
 Description-md5: ba3fa27bc468a14b73280f189057f4e7
@@ -39298,12 +39298,12 @@ Task: xubuntu-desktop
 Package: libcups2
 Priority: optional
 Section: libs
-Installed-Size: 473
+Installed-Size: 474
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: cups
-Version: 1.5.3-0ubuntu6
+Version: 1.5.3-0ubuntu8
 Replaces: libcupsys2
 Provides: libcupsys2
 Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.14), libgnutls26 (>= 2.12.6.1-0), libgssapi-krb5-2 (>= 1.10+dfsg~), zlib1g (>= 1:1.1.4)
@@ -39311,11 +39311,11 @@ Pre-Depends: multiarch-support
 Suggests: cups-common
 Conflicts: libcupsys2
 Breaks: cups (<< 1.5.0)
-Filename: pool/main/c/cups/libcups2_1.5.3-0ubuntu6_amd64.deb
-Size: 171128
-MD5sum: c90fc062572502541509d5fe44086597
-SHA1: d8d626e7f6534815dc3fd1c2abc28f68d2689daf
-SHA256: 214088fd0fb13df84c577336786aad6009d15165f63068e8639f6504f463b8ab
+Filename: pool/main/c/cups/libcups2_1.5.3-0ubuntu8_amd64.deb
+Size: 171406
+MD5sum: 0ae76a112d57def799cc4184175d096f
+SHA1: c2c36b80a01b5c392e06781bb6d9e0ed0d99bc06
+SHA256: a03c29c1d923c14a56a0795960d7ea6f60e30a24cf8bb71d29f7cf2e022dcd3a
 Description: Common UNIX Printing System(tm) - Core library
 Multi-Arch: same
 Homepage: http://www.cups.org
@@ -39333,14 +39333,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: cups
-Version: 1.5.3-0ubuntu6
+Version: 1.5.3-0ubuntu8
 Provides: libcupsys2-dev
-Depends: libcups2 (= 1.5.3-0ubuntu6), libgnutls-dev, libkrb5-dev
-Filename: pool/main/c/cups/libcups2-dev_1.5.3-0ubuntu6_amd64.deb
-Size: 242772
-MD5sum: 6f62fb66cfe300aea57aafb7ab610834
-SHA1: f6721fda93167a6ea1af7edb2b08b37125869d30
-SHA256: 9e2c7fa341d831175a9e090e2bdcbe68de633da5e0829bb058d8abe6f11cee54
+Depends: libcups2 (= 1.5.3-0ubuntu8), libgnutls-dev, libkrb5-dev
+Filename: pool/main/c/cups/libcups2-dev_1.5.3-0ubuntu8_amd64.deb
+Size: 242634
+MD5sum: 80748f8e30462dff71095c274635210e
+SHA1: 7cc5696a111b705b67b6a9843283b866af801403
+SHA256: ede0b518d2d1fe4d4e08a140160933fb9b8f92e11c187be0a6df1e7c3449dfec
 Description: Common UNIX Printing System(tm) - Development files CUPS library
 Homepage: http://www.cups.org
 Description-md5: bf3f385e98251c2563c3f58554d2adce
@@ -39351,19 +39351,19 @@ Supported: 18m
 Package: libcupscgi1
 Priority: optional
 Section: libs
-Installed-Size: 172
+Installed-Size: 173
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: cups
-Version: 1.5.3-0ubuntu6
+Version: 1.5.3-0ubuntu8
 Depends: libc6 (>= 2.4), libcups2 (>= 1.4.0)
 Pre-Depends: multiarch-support
-Filename: pool/main/c/cups/libcupscgi1_1.5.3-0ubuntu6_amd64.deb
-Size: 29840
-MD5sum: b97f22fe1f71f532551268cdb3a9c61f
-SHA1: 10a069374dc1a91ead403d3131c2ab5cde397649
-SHA256: a3c9947347ce3737945530cf68fbdeba1d02c68d1cb7d0667582bf2059d6b83c
+Filename: pool/main/c/cups/libcupscgi1_1.5.3-0ubuntu8_amd64.deb
+Size: 29808
+MD5sum: 8e78a5db6074bbbe25f0b100a3c8784d
+SHA1: fb88e73b39a19c6f0f9210116471c4de7f187569
+SHA256: 96840a1fefc8a50ca2942e1ffdd90b98acad641276fa98dcd81a34183ab493be
 Description: Common UNIX Printing System(tm) - CGI library
 Multi-Arch: same
 Homepage: http://www.cups.org
@@ -39381,13 +39381,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: cups
-Version: 1.5.3-0ubuntu6
-Depends: libcupscgi1 (= 1.5.3-0ubuntu6), libcups2-dev (= 1.5.3-0ubuntu6)
-Filename: pool/main/c/cups/libcupscgi1-dev_1.5.3-0ubuntu6_amd64.deb
-Size: 36724
-MD5sum: b1780f1ac5a2586b7a0b4d30a19ff8e5
-SHA1: 5d36b032f1b11e0689aa68f2576329f2c1226916
-SHA256: 42e2b1aae379a022872d7460bc4bcaa82bd7fe1148d29bab8fb3dbf62ce06235
+Version: 1.5.3-0ubuntu8
+Depends: libcupscgi1 (= 1.5.3-0ubuntu8), libcups2-dev (= 1.5.3-0ubuntu8)
+Filename: pool/main/c/cups/libcupscgi1-dev_1.5.3-0ubuntu8_amd64.deb
+Size: 36590
+MD5sum: a8699b2c9029cdae6a524deff7a049b8
+SHA1: b7e320418d55a716a3bdcbfa6dad75c504f23965
+SHA256: c6b9a9396e3fd8af391a04dd9cc3958b99f658cb50037b82d8f11114404731bf
 Description: Common UNIX Printing System(tm) - Development files for CGI library
 Homepage: http://www.cups.org
 Description-md5: 433b937ac75daeec3873b3445bb48090
@@ -39403,14 +39403,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: cups
-Version: 1.5.3-0ubuntu6
+Version: 1.5.3-0ubuntu8
 Depends: libc6 (>= 2.14), libcups2 (>= 1.4.0)
 Pre-Depends: multiarch-support
-Filename: pool/main/c/cups/libcupsdriver1_1.5.3-0ubuntu6_amd64.deb
-Size: 19574
-MD5sum: 61e1587a81382f09a9563d225236838d
-SHA1: 64e1420dfcf58c474ef7e10a3d1bce9bbd0540c2
-SHA256: 88eb5f1b043c1ab8e63874c68be8f16a1ba0fb692ae697366764be989d83b6a3
+Filename: pool/main/c/cups/libcupsdriver1_1.5.3-0ubuntu8_amd64.deb
+Size: 19570
+MD5sum: b73a913f0cd2a3778b05ee4833127689
+SHA1: 6e8fda5948ceda074ee04b0cb8108b38407674ea
+SHA256: 9c739219216edeeca927baf0b4494790176492c230ca1706b76f99d7353bcf17
 Description: Common UNIX Printing System(tm) - Driver library
 Multi-Arch: same
 Homepage: http://www.cups.org
@@ -39423,18 +39423,18 @@ Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubun
 Package: libcupsdriver1-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 184
+Installed-Size: 185
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: cups
-Version: 1.5.3-0ubuntu6
-Depends: libcupsdriver1 (= 1.5.3-0ubuntu6), libcups2-dev (= 1.5.3-0ubuntu6), libcupsimage2-dev (= 1.5.3-0ubuntu6)
-Filename: pool/main/c/cups/libcupsdriver1-dev_1.5.3-0ubuntu6_amd64.deb
-Size: 23022
-MD5sum: 646b6f2cfdd374bb3393116fa01c0015
-SHA1: f0d64c4b8df66bea537a1e53f879b06869e0af03
-SHA256: c26d2d3832011cd11cb9dc1cd1e622012edae9ee4c9bea522eeb2d9e11ba5dcf
+Version: 1.5.3-0ubuntu8
+Depends: libcupsdriver1 (= 1.5.3-0ubuntu8), libcups2-dev (= 1.5.3-0ubuntu8), libcupsimage2-dev (= 1.5.3-0ubuntu8)
+Filename: pool/main/c/cups/libcupsdriver1-dev_1.5.3-0ubuntu8_amd64.deb
+Size: 22916
+MD5sum: e253a038160d6d8ae0bc17ae348ec131
+SHA1: 193edff6eeba009392556146feece7273d6e506e
+SHA256: aefae50594de822b1d817e2d759dec24d9bbfd4706f5592f68ce371a6cf2646a
 Description: Common UNIX Printing System(tm) - Development files driver library
 Homepage: http://www.cups.org
 Description-md5: a04f5d722cdd062134dda5e803f4c7bd
@@ -39497,14 +39497,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: cups
-Version: 1.5.3-0ubuntu6
+Version: 1.5.3-0ubuntu8
 Depends: libc6 (>= 2.14), libcups2 (>= 1.4.0), libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4), libtiff4
 Pre-Depends: multiarch-support
-Filename: pool/main/c/cups/libcupsimage2_1.5.3-0ubuntu6_amd64.deb
-Size: 51780
-MD5sum: bd28b3364919806df96b44f0eab04d29
-SHA1: a64354054343a2dd99ec5218535e0da46405d03c
-SHA256: 0627ebaa289d79f667731357b8110f180e934a114707358b82f3139dac352e2d
+Filename: pool/main/c/cups/libcupsimage2_1.5.3-0ubuntu8_amd64.deb
+Size: 51748
+MD5sum: 5d7499f065dcb638e743424d8a4ff29d
+SHA1: b6da7661c0f6312c67507dc55f3625d5e07c10a8
+SHA256: bd9f9d2543e74fa2b3d5adb61c750fb9f1389a63efdac25fd5ea3c36c9239cd7
 Description: Common UNIX Printing System(tm) - Raster image library
 Multi-Arch: same
 Homepage: http://www.cups.org
@@ -39522,13 +39522,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: cups
-Version: 1.5.3-0ubuntu6
-Depends: libcupsimage2 (= 1.5.3-0ubuntu6), libcups2-dev (= 1.5.3-0ubuntu6), libpng-dev, libtiff5-dev | libtiff-dev, libjpeg8-dev | libjpeg-dev, zlib1g-dev
-Filename: pool/main/c/cups/libcupsimage2-dev_1.5.3-0ubuntu6_amd64.deb
-Size: 65582
-MD5sum: a5385ce7daa6081f76e871b6e296d7f4
-SHA1: fee52c22257a91d41bed21b186cc2e3be7dffb28
-SHA256: 2db3f8d6a433f46ce5d824f1e308eadf2be7c088c709fe52c7f5b2adb38e63b3
+Version: 1.5.3-0ubuntu8
+Depends: libcupsimage2 (= 1.5.3-0ubuntu8), libcups2-dev (= 1.5.3-0ubuntu8), libpng-dev, libtiff5-dev | libtiff-dev, libjpeg8-dev | libjpeg-dev, zlib1g-dev
+Filename: pool/main/c/cups/libcupsimage2-dev_1.5.3-0ubuntu8_amd64.deb
+Size: 65570
+MD5sum: 81ea2bf9369a957d14a05d28e0afa0dc
+SHA1: 6735a6ba21c56f1367c7bd6e7da9d011c86260a0
+SHA256: a38f3378e5ebf144f772c749a6228002653e53aa192bef0de6979100453be3a0
 Description: Common UNIX Printing System(tm) - Development files CUPS image library
 Homepage: http://www.cups.org
 Description-md5: 419c750b3360d0933e0bbc9e17913244
@@ -39544,15 +39544,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: cups
-Version: 1.5.3-0ubuntu6
+Version: 1.5.3-0ubuntu8
 Depends: libcups2 (>= 1.5~), libc6 (>= 2.14)
 Pre-Depends: multiarch-support
 Breaks: cups (<< 1.5.0)
-Filename: pool/main/c/cups/libcupsmime1_1.5.3-0ubuntu6_amd64.deb
-Size: 13472
-MD5sum: 8e9148ac5ed9a9e0a5e06bb23c091d4e
-SHA1: 25518cc01b33916a412e23162a8146c74ae879c2
-SHA256: 213363f632b9efc52d38be6cfbe952004ddd11951b66098f8a0d939d5588cdb7
+Filename: pool/main/c/cups/libcupsmime1_1.5.3-0ubuntu8_amd64.deb
+Size: 13476
+MD5sum: bab25937155e8f8c433a98de54205a60
+SHA1: c5be0a82675cb1c93b2d02aea3bf8a6dfcb0e779
+SHA256: fea918a786eee44534745b35641eddde12a5da0f89e1d6629db6bf01f17087a8
 Description: Common UNIX Printing System(tm) - MIME library
 Multi-Arch: same
 Homepage: http://www.cups.org
@@ -39570,13 +39570,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: cups
-Version: 1.5.3-0ubuntu6
-Depends: libcupsmime1 (= 1.5.3-0ubuntu6), libcups2-dev (= 1.5.3-0ubuntu6)
-Filename: pool/main/c/cups/libcupsmime1-dev_1.5.3-0ubuntu6_amd64.deb
-Size: 14622
-MD5sum: 52366244547f17c986c0bda10ad35baf
-SHA1: d0fbbbf1e31a24ea4c12b9601fc95b6fdc956bb6
-SHA256: fcbc02ef4cc14988ac42c3305f799cdc9e19c1c7b6de3e19e3f1a4598276a803
+Version: 1.5.3-0ubuntu8
+Depends: libcupsmime1 (= 1.5.3-0ubuntu8), libcups2-dev (= 1.5.3-0ubuntu8)
+Filename: pool/main/c/cups/libcupsmime1-dev_1.5.3-0ubuntu8_amd64.deb
+Size: 14554
+MD5sum: 4c95d34f699ffb62dfdb68aa95a8daba
+SHA1: 580618f3561c5bc5993fbf734faa3f15b00716b8
+SHA256: dd11ba928a29e42dc198b920ee30276a4b7fc416b6adf1dbab88c087977e5f2f
 Description: Common UNIX Printing System(tm) - Development files MIME library
 Homepage: http://www.cups.org
 Description-md5: ee515191b340413216668249b8b6097b
@@ -39592,14 +39592,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: cups
-Version: 1.5.3-0ubuntu6
+Version: 1.5.3-0ubuntu8
 Depends: libc6 (>= 2.14), libcups2 (>= 1.4.0), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
 Pre-Depends: multiarch-support
-Filename: pool/main/c/cups/libcupsppdc1_1.5.3-0ubuntu6_amd64.deb
-Size: 52430
-MD5sum: 44ec9a0071e83fb97b3ed718f1435ebd
-SHA1: 4b7024ae7e6ad11fdf68f32a1487895e2abbad4f
-SHA256: ce2fc4c12ab3220f6b4b42da8b6b0556ce16bd5cb8d9aab2e7be3c2f0859c4a2
+Filename: pool/main/c/cups/libcupsppdc1_1.5.3-0ubuntu8_amd64.deb
+Size: 52382
+MD5sum: 38b63fce34dc3c9da4999333a6e8c619
+SHA1: da7ed55ac0f54bdb6473bbfd7607a2ef3d67a921
+SHA256: 57b84adefed9e5261eb15ac6659f8ecf148a2b46117ac0f132a8d799402ecf21
 Description: Common UNIX Printing System(tm) - PPD manipulation library
 Multi-Arch: same
 Homepage: http://www.cups.org
@@ -39617,13 +39617,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: cups
-Version: 1.5.3-0ubuntu6
-Depends: libcupsppdc1 (= 1.5.3-0ubuntu6), libcups2-dev (= 1.5.3-0ubuntu6)
-Filename: pool/main/c/cups/libcupsppdc1-dev_1.5.3-0ubuntu6_amd64.deb
-Size: 71704
-MD5sum: a0d0767e885cbca5bb9ca685301f486d
-SHA1: 362e5cc33542ef50fc0d0db7fb6b82bddce0178f
-SHA256: a0cb6d4ef57270a5e0e0be1797d06d72f550e0dd5db745b4cfdef9f4fdb3105a
+Version: 1.5.3-0ubuntu8
+Depends: libcupsppdc1 (= 1.5.3-0ubuntu8), libcups2-dev (= 1.5.3-0ubuntu8)
+Filename: pool/main/c/cups/libcupsppdc1-dev_1.5.3-0ubuntu8_amd64.deb
+Size: 71566
+MD5sum: 948ce5ee93ca1df65d904f5a92417b41
+SHA1: 6e7df9ad6db89bbe98c1b3ebe40a82b9048d7a33
+SHA256: d0d458344f846904950f044c916f7adc079f2ae01410acd49b69b9ba59cb32a6
 Description: Common UNIX Printing System(tm) - Development files PPD library
 Homepage: http://www.cups.org
 Description-md5: f1c111d7276de209cb50ebccbc551f69
@@ -83153,6 +83153,126 @@ Origin: Ubuntu
 Supported: 5y
 Task: ubuntu-desktop, cloud-image, ubuntu-usb, server, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
 
+Package: python-apt
+Priority: standard
+Section: python
+Installed-Size: 713
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: APT Development Team <deity@lists.debian.org>
+Architecture: amd64
+Version: 0.8.3ubuntu7.1
+Provides: python2.7-apt
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), libapt-inst1.4 (>= 0.8.16~exp12), libapt-pkg4.12 (>= 0.8.16~exp12ubuntu10.10), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.4.0), python-apt-common
+Recommends: lsb-release, iso-codes, xz-lzma
+Suggests: python-apt-dbg, python-gtk2, python-vte, python-apt-doc
+Breaks: apt-forktracer (<< 0.3), apt-listchanges (<< 2.85), apt-p2p (<< 0.1.6), apt-xapian-index (<< 0.25), aptdaemon (<< 0.11+bzr343-1~), aptoncd (<< 0.1.98+bzr117), bcfg2 (<< 1.0.1), bzr-builddeb (<< 2.4), computer-janitor (<< 1.14.1-1+), debdelta (<< 0.41+), debpartial-mirror (<< 0.2.98), debsecan (<< 0.4.15), gdebi (<< 0.6.1), germinate (<< 1.21), gnome-codec-install (<< 0.4.5), mini-dinstall (<< 0.6.28), packagekit-backend-apt (<= 0.4.8-0ubuntu4), python-cdd (<< 0.0.10), python-dogtail (<< 0.6.1-3.1+), python-software-properties (<< 0.70.debian-1+), rebuildd (<< 0.3.9), software-center (<< 1.1.21debian2), tla-buildpackage (<< 0.9.14), ubuntu-dev-tools (<< 0.93debian1), unattended-upgrades (<< 0.42debian2), update-manager (<< 0.200.2-1), update-notifier (<< 0.99.3debian9), wajig (<< 2.0.46)
+Filename: pool/main/p/python-apt/python-apt_0.8.3ubuntu7.1_amd64.deb
+Size: 187872
+MD5sum: ab700aad69714f3956fe747dc33adced
+SHA1: a3ff5ab62028e98a046648121bd5f87594275804
+SHA256: 17a270a14ae2e4cc66b42f4180eaa1cf9ccc8745d79681cd8c0d916c8c45c5c0
+Description: Python interface to libapt-pkg
+Multi-Arch: allowed
+Python-Version: 2.7
+Description-md5: 2b295efc7c4e39a13486f5a6990ce22b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: standard, kubuntu-active, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master
+
+Package: python-apt-common
+Priority: standard
+Section: python
+Installed-Size: 204
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: APT Development Team <deity@lists.debian.org>
+Architecture: all
+Source: python-apt
+Version: 0.8.3ubuntu7.1
+Replaces: python-apt (<< 0.7.98+nmu1)
+Depends: python | python3
+Breaks: python-apt (<< 0.7.98+nmu1)
+Filename: pool/main/p/python-apt/python-apt-common_0.8.3ubuntu7.1_all.deb
+Size: 21652
+MD5sum: 6d8b776501ca15d4c5fb7981bb2c9dae
+SHA1: 5aa65da41d2fbe15255091b4ebdc07b0a72667e5
+SHA256: a5a131c99b016f042288f278f3c55f1edbaedb77a3acb9a663b67d6fe433f4e4
+Description: Python interface to libapt-pkg (locales)
+Enhances: python-apt, python3-apt
+Description-md5: 9486cdd426b423b724eaae43fef5dcd7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: standard, kubuntu-active, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master
+
+Package: python-apt-dbg
+Priority: extra
+Section: python
+Installed-Size: 6350
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: APT Development Team <deity@lists.debian.org>
+Architecture: amd64
+Source: python-apt
+Version: 0.8.3ubuntu7.1
+Depends: python-dbg, python-apt (= 0.8.3ubuntu7.1), libapt-inst1.4 (>= 0.8.16~exp12), libapt-pkg4.12 (>= 0.8.16~exp12ubuntu10.10), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Filename: pool/main/p/python-apt/python-apt-dbg_0.8.3ubuntu7.1_amd64.deb
+Size: 2331798
+MD5sum: e60e27449417dfbee13762513dc61651
+SHA1: 0a7930a41c1396d20b6559389a28a47d84bfcff9
+SHA256: 3a3f6d84d6df1ab9b46368c1f853ae52945983d1f302949c9bc826661349ee77
+Description: Python interface to libapt-pkg (debug extension)
+Multi-Arch: allowed
+Python-Version: 2.7
+Description-md5: c794a1d7769c7ce363f782474b040101
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: python-apt-dev
+Priority: optional
+Section: python
+Installed-Size: 67
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: APT Development Team <deity@lists.debian.org>
+Architecture: all
+Source: python-apt
+Version: 0.8.3ubuntu7.1
+Depends: python-apt (>= 0.8.3ubuntu7.1), libapt-pkg-dev (>= 0.7.10)
+Recommends: python-dev
+Filename: pool/main/p/python-apt/python-apt-dev_0.8.3ubuntu7.1_all.deb
+Size: 7674
+MD5sum: 5fe0dd5b06e027d4e99ef0b3d6098b5e
+SHA1: 292495d3d8974b7de274e8776462f71a44f11124
+SHA256: 27679ad2978e6a4210621ada49da2eacc3550b6f316bb0adce3a8d3474dde6af
+Description: Python interface to libapt-pkg (development files)
+Description-md5: 57c4bd1cc13f9b16f01048f636ef0d16
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: python-apt-doc
+Priority: optional
+Section: doc
+Installed-Size: 1372
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: APT Development Team <deity@lists.debian.org>
+Architecture: all
+Source: python-apt
+Version: 0.8.3ubuntu7.1
+Replaces: python-apt (<< 0.7.94)
+Depends: libjs-jquery, python-apt
+Filename: pool/main/p/python-apt/python-apt-doc_0.8.3ubuntu7.1_all.deb
+Size: 250170
+MD5sum: 991418d64e41374fbf8bfa16cec37c2a
+SHA1: d7e267dc2a77d777b77ec992e3f48a4c318bc9ee
+SHA256: eefa5eb3c66594c541fe1e4c91f66b443fd680e92015c0b52592903fcef5c3b1
+Description: Python interface to libapt-pkg (API documentation)
+Enhances: python-apt
+Description-md5: 7a48d828395ece3f06a390d4c68abdd0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: python-aptdaemon
 Priority: extra
 Section: python
@@ -84895,6 +85015,57 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 Task: minimal
+
+Package: python3-apt
+Priority: optional
+Section: python
+Installed-Size: 652
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: APT Development Team <deity@lists.debian.org>
+Architecture: amd64
+Source: python-apt
+Version: 0.8.3ubuntu7.1
+Replaces: python-apt (<< 0.7.98+nmu1)
+Provides: python3.2-apt
+Depends: python3 (>= 3.2), python3 (<< 3.3), libapt-inst1.4 (>= 0.8.16~exp12), libapt-pkg4.12 (>= 0.8.16~exp12ubuntu10.10), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.4.0), python-apt-common
+Recommends: lsb-release, iso-codes
+Suggests: python3-apt-dbg, python-apt-doc
+Breaks: python-apt (<< 0.7.98+nmu1)
+Filename: pool/main/p/python-apt/python3-apt_0.8.3ubuntu7.1_amd64.deb
+Size: 174388
+MD5sum: 3f715a556315bf21f7b5272f69ae3392
+SHA1: ab15cfccb234e4b11713bf2c84b702098670e62b
+SHA256: bd7ee48a8a02bdb8e005992f72d8b6ac82653b841dbf7b99f71213a744e1b4e6
+Description: Python 3 interface to libapt-pkg
+Multi-Arch: allowed
+Description-md5: 4e7bf010b1b89e36309ea2f4b7005936
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: python3-apt-dbg
+Priority: extra
+Section: debug
+Installed-Size: 6073
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: APT Development Team <deity@lists.debian.org>
+Architecture: amd64
+Source: python-apt
+Version: 0.8.3ubuntu7.1
+Replaces: python-apt (<< 0.7.98+nmu1)
+Depends: python3-dbg, python3-apt (= 0.8.3ubuntu7.1), libapt-inst1.4 (>= 0.8.16~exp12), libapt-pkg4.12 (>= 0.8.16~exp12ubuntu10.10), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Breaks: python-apt (<< 0.7.98+nmu1)
+Filename: pool/main/p/python-apt/python3-apt-dbg_0.8.3ubuntu7.1_amd64.deb
+Size: 2247974
+MD5sum: 8d1a2b9f1209401732dc86bd2ef102cd
+SHA1: c68f035d11aca04f6add0661bcdd90f76942245e
+SHA256: 4dd2cdbc8fc9c53c898e8e80687008048c2bd1131ee4fd8fb2c0f27c2d3123b3
+Description: Python 3 interface to libapt-pkg (debug extension)
+Multi-Arch: allowed
+Description-md5: 9d43d2b6dae33ea4f6ee571da79dbd51
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
 
 Package: python3-crypto
 Priority: optional
@@ -91821,18 +91992,18 @@ Supported: 5y
 Package: xdiagnose
 Priority: optional
 Section: python
-Installed-Size: 357
+Installed-Size: 349
 Maintainer: Bryce Harrington <bryce@ubuntu.com>
 Architecture: all
-Version: 2.5.2ubuntu0.1
+Version: 2.5.3
 Replaces: x11-common (<< 1:7.6+7ubuntu1), xorg (<< 1:7.6+7ubuntu1), xserver-xorg-video-intel (<= 2:2.14.0-4ubuntu8)
 Depends: upstart-job, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-gi (>= 2.28), gir1.2-gtk-3.0, intel-gpu-tools
 Conflicts: x11-common (<< 1:7.6+7ubuntu1)
-Filename: pool/main/x/xdiagnose/xdiagnose_2.5.2ubuntu0.1_all.deb
-Size: 59084
-MD5sum: e533fc2b31f857c09c7a543b15fabea2
-SHA1: ef4edad0c0239de64b6dbec341b669043462a32d
-SHA256: 71f5f389c77b4c2f7f57e057ac86e3a2a18d144eaf98ea131ecef4cf755ea169
+Filename: pool/main/x/xdiagnose/xdiagnose_2.5.3_all.deb
+Size: 58240
+MD5sum: 5af4883043ca396e1a94a902c80e277c
+SHA1: 2199d509076232f5f59b1c6e8be659591191d96f
+SHA256: d6ee2d9e9a6517a574269c24810f4b733d22957eb4ce0b8d42b51681bcf86a66
 Description: X.org diagnosis tool
 Homepage: http://wiki.ubuntu.com/X
 Description-md5: ceca96828e411b7ecc73f81dd97854fb

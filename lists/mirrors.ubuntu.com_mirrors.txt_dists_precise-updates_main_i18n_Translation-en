@@ -37799,6 +37799,58 @@ Description-en: apport crash report handling library
   * Various frontend utility functions.
   * Python hook to generate crash reports when Python scripts fail.
 
+Package: python-apt
+Description-md5: 2b295efc7c4e39a13486f5a6990ce22b
+Description-en: Python interface to libapt-pkg
+ The apt_pkg Python interface will provide full access to the internal
+ libapt-pkg structures allowing Python programs to easily perform a
+ variety of functions, such as:
+ .
+  - Access to the APT configuration system
+  - Access to the APT package information database
+  - Parsing of Debian package control files, and other files with a
+    similar structure
+ .
+ The included 'aptsources' Python interface provides an abstraction of
+ the sources.list configuration on the repository and the distro level.
+
+Package: python-apt-common
+Description-md5: 9486cdd426b423b724eaae43fef5dcd7
+Description-en: Python interface to libapt-pkg (locales)
+ The apt_pkg Python interface will provide full access to the internal
+ libapt-pkg structures allowing Python programs to easily perform a
+ variety of functions.
+ .
+ This package contains locales.
+
+Package: python-apt-dbg
+Description-md5: c794a1d7769c7ce363f782474b040101
+Description-en: Python interface to libapt-pkg (debug extension)
+ The apt_pkg Python interface will provide full access to the internal
+ libapt-pkg structures allowing Python programs to easily perform a
+ variety of functions.
+ .
+ This package contains the extension built for the Python debug interpreter.
+
+Package: python-apt-dev
+Description-md5: 57c4bd1cc13f9b16f01048f636ef0d16
+Description-en: Python interface to libapt-pkg (development files)
+ The apt_pkg Python interface will provide full access to the internal
+ libapt-pkg structures allowing Python programs to easily perform a
+ variety of functions.
+ .
+ This package contains the header files needed to use python-apt objects from
+ C++ applications.
+
+Package: python-apt-doc
+Description-md5: 7a48d828395ece3f06a390d4c68abdd0
+Description-en: Python interface to libapt-pkg (API documentation)
+ The apt_pkg Python interface will provide full access to the internal
+ libapt-pkg structures allowing Python programs to easily perform a
+ variety of functions.
+ .
+ This package contains the API documentation of python-apt.
+
 Package: python-aptdaemon
 Description-md5: 2d36dda138559820c83121705e9ce593
 Description-en: Python module for the server and client of aptdaemon
@@ -38589,6 +38641,30 @@ Description-en: Minimal subset of the Python language (version 2.7)
  be used in the boot process for some basic tasks.
  See /usr/share/doc/python2.7-minimal/README.Debian for a list of the modules
  contained in this package.
+
+Package: python3-apt
+Description-md5: 4e7bf010b1b89e36309ea2f4b7005936
+Description-en: Python 3 interface to libapt-pkg
+ The apt_pkg Python 3 interface will provide full access to the internal
+ libapt-pkg structures allowing Python 3 programs to easily perform a
+ variety of functions, such as:
+ .
+  - Access to the APT configuration system
+  - Access to the APT package information database
+  - Parsing of Debian package control files, and other files with a
+    similar structure
+ .
+ The included 'aptsources' Python interface provides an abstraction of
+ the sources.list configuration on the repository and the distro level.
+
+Package: python3-apt-dbg
+Description-md5: 9d43d2b6dae33ea4f6ee571da79dbd51
+Description-en: Python 3 interface to libapt-pkg (debug extension)
+ The apt_pkg Python 3 interface will provide full access to the internal
+ libapt-pkg structures allowing Python 3 programs to easily perform a
+ variety of functions.
+ .
+ This package contains the extension built for the Python debug interpreter.
 
 Package: python3-crypto
 Description-md5: 3cdda50a3bf1374337af482d51fdb723

@@ -2539,18 +2539,18 @@ Task: edubuntu-desktop-gnome
 Package: cupsddk
 Priority: optional
 Section: universe/text
-Installed-Size: 107
+Installed-Size: 108
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian CUPS Maintainers <pkg-cups-devel@lists.alioth.debian.org>
 Architecture: all
 Source: cups
-Version: 1.5.3-0ubuntu6
+Version: 1.5.3-0ubuntu8
 Depends: cups-ppdc
-Filename: pool/universe/c/cups/cupsddk_1.5.3-0ubuntu6_all.deb
-Size: 6948
-MD5sum: 46b0adede28793236a2d7ba781d811b5
-SHA1: bb9fc9983ecbd282aa95c9b067c7b13cb56dfb16
-SHA256: e56c3051f0aa490509b2435b537a558ef0e0285556c4dd44650aea92caafca62
+Filename: pool/universe/c/cups/cupsddk_1.5.3-0ubuntu8_all.deb
+Size: 6728
+MD5sum: 2e34ec723ceede4cfc7c1b55b6ec448f
+SHA1: 91ebffc7d28479bb26628fb5796dafe123177717
+SHA256: 34f61ae8157519fe7335d23a2f74ba63343dae123e0c638dfe95fe5ae6cef27d
 Description: Common UNIX Printing System (transitional package)
 Homepage: http://www.cups.org
 Description-md5: 9aadce16ef37b93d56befeaf3c431717
@@ -11599,6 +11599,48 @@ Description-md5: b6f316eebfa1cc038bb9afed528de9fc
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: libopendkim-dev
+Priority: extra
+Section: universe/libdevel
+Installed-Size: 675
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Mike Markley <mike@markley.org>
+Architecture: amd64
+Source: opendkim
+Version: 2.6.8-0ubuntu1.0.1
+Depends: libopendkim7 (= 2.6.8-0ubuntu1.0.1)
+Filename: pool/universe/o/opendkim/libopendkim-dev_2.6.8-0ubuntu1.0.1_amd64.deb
+Size: 153798
+MD5sum: 384a06f706f45c69dd9230204ed86c11
+SHA1: 7c1d0c1f56350713951b2e2f3d7a7a19fe6084d5
+SHA256: b75a00723432eb035675e78ce6aa9eaf71a2c1503b2c460f592b4c3c73c25ebb
+Description: Headers and development libraries for the OpenDKIM library
+Homepage: http://www.opendkim.org/
+Description-md5: 7c8e983fb8f0a3518aa898cfbdef6dec
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libopendkim7
+Priority: extra
+Section: universe/libs
+Installed-Size: 180
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Mike Markley <mike@markley.org>
+Architecture: amd64
+Source: opendkim
+Version: 2.6.8-0ubuntu1.0.1
+Depends: libc6 (>= 2.14), libssl1.0.0 (>= 1.0.0)
+Filename: pool/universe/o/opendkim/libopendkim7_2.6.8-0ubuntu1.0.1_amd64.deb
+Size: 65796
+MD5sum: 333edab4f06f7a1f094b1ef86c21bbee
+SHA1: a608a60d686c860867a1bb84a63c3bb47e761b8d
+SHA256: 8d20a57b3954688b143dce83449351464c982bf7ca4c84bdcc5923dcebacea1d
+Description: Library for signing and verifying DomainKeys Identified Mail signatures
+Homepage: http://www.opendkim.org/
+Description-md5: 958b4519bf58eac03c4ee4df6990475d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: libopenjpeg-dev
 Priority: extra
 Section: universe/libdevel
@@ -13136,6 +13178,48 @@ SHA256: f494adf7d12c9c4b6127857e8be7d7ac971dc6486a88757493917f1070216588
 Description: shared libraries for Varnish
 Homepage: http://varnish-cache.org/
 Description-md5: b62e58460782f2fccf788b20917cd377
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libvbr-dev
+Priority: extra
+Section: universe/libdevel
+Installed-Size: 100
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Mike Markley <mike@markley.org>
+Architecture: amd64
+Source: opendkim
+Version: 2.6.8-0ubuntu1.0.1
+Depends: libvbr2 (= 2.6.8-0ubuntu1.0.1)
+Filename: pool/universe/o/opendkim/libvbr-dev_2.6.8-0ubuntu1.0.1_amd64.deb
+Size: 15766
+MD5sum: 60d999c035971e5d27d356d73b5e49fe
+SHA1: 96f79466e7bb47c255d0a71e8eb11d8d6a4d2f7e
+SHA256: 5836e53f3295974eac0c51ed453840b2adf67cbc4a94ae4ae56cbbb342420ec1
+Description: Headers and development libraries for the OpenDKIM VBR library
+Homepage: http://www.opendkim.org/
+Description-md5: c6e90f6b3fa0c5c6f79e8aa511ed496f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libvbr2
+Priority: extra
+Section: universe/libs
+Installed-Size: 73
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Mike Markley <mike@markley.org>
+Architecture: amd64
+Source: opendkim
+Version: 2.6.8-0ubuntu1.0.1
+Depends: libc6 (>= 2.4)
+Filename: pool/universe/o/opendkim/libvbr2_2.6.8-0ubuntu1.0.1_amd64.deb
+Size: 14548
+MD5sum: 64e49532aa59f290ecea49facc7296c2
+SHA1: 8d98ff6c3cbe99e3f0e4a794c0c38ff33585d8bd
+SHA256: 28678c247ce1ff4490b2581b812d05b6a163e2aafc9afa6b060b396b0e80c30e
+Description: Library for RFC 5518 Vouch By Reference (VBR)
+Homepage: http://www.opendkim.org/
+Description-md5: f262111cc7ad9f8e968e4a1a72b2e839
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
@@ -16433,6 +16517,50 @@ SHA256: f436ed4c88227c6f0ad97519336a7be10e538c7e86643f8eaf5c1b561fd23559
 Description: AFS distributed filesystem kernel module source
 Homepage: http://www.openafs.org/
 Description-md5: 01e11a95da0fec3f0bbe15d0a3897346
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: opendkim
+Priority: extra
+Section: universe/mail
+Installed-Size: 360
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Mike Markley <mike@markley.org>
+Architecture: amd64
+Version: 2.6.8-0ubuntu1.0.1
+Depends: libc6 (>= 2.15), libdb5.1, libldap-2.4-2 (>= 2.4.7), liblua5.1-0, libmilter1.0.1, libopendkim7, libssl1.0.0 (>= 1.0.0), libunbound2 (>= 1.4.1), libvbr2, adduser, lsb-base
+Suggests: opendkim-tools
+Filename: pool/universe/o/opendkim/opendkim_2.6.8-0ubuntu1.0.1_amd64.deb
+Size: 153208
+MD5sum: 57cad84601e13fc8fb58056a21c9bba2
+SHA1: fc59a43e6ee8872832713cae642b9e02351c1440
+SHA256: 1e1ec699c6edda14e850c29bd66b3125359467ccc095b4a9b512d4fe0b17ca11
+Description: Milter implementation of DomainKeys Identified Mail
+Homepage: http://www.opendkim.org/
+Description-md5: 2a8d3d05a38f69beb50f972b34db79dc
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: opendkim-tools
+Priority: extra
+Section: universe/mail
+Installed-Size: 380
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Mike Markley <mike@markley.org>
+Architecture: amd64
+Source: opendkim
+Version: 2.6.8-0ubuntu1.0.1
+Replaces: opendkim (<< 2.5.2+dfsg-2~)
+Depends: libc6 (>= 2.15), libdb5.1, libldap-2.4-2 (>= 2.4.7), liblua5.1-0, libopendkim7, libssl1.0.0 (>= 1.0.0), libunbound2 (>= 1.4.1), openssl
+Breaks: opendkim (<< 2.5.2+dfsg-2~)
+Filename: pool/universe/o/opendkim/opendkim-tools_2.6.8-0ubuntu1.0.1_amd64.deb
+Size: 144414
+MD5sum: 4260756e5865b6aa83132bd33696b1ce
+SHA1: 3f4cbb2fb01e7b0434d0ecd069c6a3b9c213b412
+SHA256: 82425ecb47cad4e6c43d56301634a4d4f7731b9caffd53631c0fe9869dc3a945
+Description: Set of command line tools for OpenDKIM
+Homepage: http://www.opendkim.org/
+Description-md5: ab6fefb95f5861aafaa285e815a53004
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
