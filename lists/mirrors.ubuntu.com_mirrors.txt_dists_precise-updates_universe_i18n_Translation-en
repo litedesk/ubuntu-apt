@@ -6867,6 +6867,15 @@ Description-en: Linux kernel headers for version 3.2.0 on x86/x86_64
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-3.2.0-41/debian.README.gz for details.
 
+Package: linux-headers-3.2.0-44-lowlatency
+Description-md5: 8070ff0b2b0f767957b9d5e25df79bab
+Description-en: Linux kernel headers for version 3.2.0 on x86/x86_64
+ This package provides kernel header files for version 3.2.0 on
+ x86/x86_64.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.2.0-44/debian.README.gz for details.
+
 Package: linux-headers-lowlatency
 Description-md5: b28bf5c7c758bfbbbd15e31ed4c78ed6
 Description-en: lowlatency Linux kernel headers
@@ -7000,6 +7009,24 @@ Description-en: Linux kernel image for version 3.2.0 on x86/x86_64
  correctly, and that supporting packages are also installed.
 
 Package: linux-image-3.2.0-41-lowlatency
+Description-md5: b16e96b0f7c277434a653cb115afc422
+Description-en: Linux kernel image for version 3.2.0 on x86/x86_64
+ This package contains the Linux kernel image for version 3.2.0 on
+ x86/x86_64.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Lowlatency processors.
+ .
+ Geared toward lowlatency desktop systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-lowlatency meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-3.2.0-44-lowlatency
 Description-md5: b16e96b0f7c277434a653cb115afc422
 Description-en: Linux kernel image for version 3.2.0 on x86/x86_64
  This package contains the Linux kernel image for version 3.2.0 on
@@ -13138,6 +13165,15 @@ Description-en: Linux kernel headers for version 3.2.0 on x86
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-3.2.0-41/debian.README.gz for details.
 
+Package: linux-headers-3.2.0-44-lowlatency-pae
+Description-md5: 2ef47e7ead181d36a16f7bfe37525209
+Description-en: Linux kernel headers for version 3.2.0 on x86
+ This package provides kernel header files for version 3.2.0 on
+ x86.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.2.0-44/debian.README.gz for details.
+
 Package: linux-headers-lowlatency-pae
 Description-md5: b28bf5c7c758bfbbbd15e31ed4c78ed6
 Description-en: lowlatency Linux kernel headers
@@ -13271,6 +13307,24 @@ Description-en: Linux kernel image for version 3.2.0 on x86
  correctly, and that supporting packages are also installed.
 
 Package: linux-image-3.2.0-41-lowlatency-pae
+Description-md5: a4881706f9f7523314b791b4b3c217e2
+Description-en: Linux kernel image for version 3.2.0 on x86
+ This package contains the Linux kernel image for version 3.2.0 on
+ x86.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Lowlatency processors.
+ .
+ Geared toward 32 bit lowlatency desktop systems with more then 4GB RAM.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-lowlatency-pae meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-3.2.0-44-lowlatency-pae
 Description-md5: a4881706f9f7523314b791b4b3c217e2
 Description-en: Linux kernel image for version 3.2.0 on x86
  This package contains the Linux kernel image for version 3.2.0 on
