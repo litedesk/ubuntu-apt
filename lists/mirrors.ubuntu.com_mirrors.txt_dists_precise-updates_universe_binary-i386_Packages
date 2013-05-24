@@ -8866,6 +8866,26 @@ Description-md5: 11f32e6c97d8fa0ab85f13202283619c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: libapache2-mod-nss
+Priority: extra
+Section: universe/web
+Installed-Size: 268
+Maintainer: Ubuntu 389ds <ubuntu-389-directory-server@lists.launchpad.net>
+Original-Maintainer: Debian 389ds Team <pkg-fedora-ds-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Version: 1.0.8-2~ubuntu3.1
+Depends: libc6 (>= 2.4), libnspr4 (>= 1.8.0.10), libnss3 (>= 3.12.0~1.9b1), apache2.2-common (>= 2.2.3-2), libnss3-tools
+Filename: pool/universe/liba/libapache2-mod-nss/libapache2-mod-nss_1.0.8-2~ubuntu3.1_i386.deb
+Size: 84038
+MD5sum: 6b7b005310b2f75b236fb26c31ef8eb4
+SHA1: 5ad33d0f2365972f9f46a2e773d7177c58863e3f
+SHA256: a86c26ad922a3d688fa96131ef11dc9f8ccd0d45cd4dad23d45c1404680f7cf7
+Description: NSS-based SSL module for Apache2
+Homepage: http://directory.fedoraproject.org
+Description-md5: 7a157574b7ec3a35bd0e2cadc888415a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: libapache2-mod-php5filter
 Priority: optional
 Section: universe/httpd

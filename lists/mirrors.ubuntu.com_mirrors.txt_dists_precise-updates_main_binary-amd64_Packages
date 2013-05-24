@@ -10569,15 +10569,15 @@ Installed-Size: 405
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Architecture: amd64
-Version: 1.12.1-0ubuntu1.1
-Depends: libc6 (>= 2.14), libdbus-1-3 (>= 1.0.2), libglib2.0-0 (>= 2.31.8), libudev0 (>= 147), gvfs-daemons (>= 1.12.1-0ubuntu1.1), gvfs-daemons (<< 1.12.1-0ubuntu1.1.1~), gvfs-libs (= 1.12.1-0ubuntu1.1), gvfs-common (= 1.12.1-0ubuntu1.1)
+Version: 1.12.1-0ubuntu1.2
+Depends: libc6 (>= 2.14), libdbus-1-3 (>= 1.0.2), libglib2.0-0 (>= 2.31.8), libudev0 (>= 147), gvfs-daemons (>= 1.12.1-0ubuntu1.2), gvfs-daemons (<< 1.12.1-0ubuntu1.2.1~), gvfs-libs (= 1.12.1-0ubuntu1.2), gvfs-common (= 1.12.1-0ubuntu1.2)
 Suggests: gvfs-backends
 Breaks: brasero (<< 2.28.0-2), libgdu0 (<< 2.28.1-3), libglib2.0-0 (<< 2.30), rhythmbox (<< 0.12.6-2)
-Filename: pool/main/g/gvfs/gvfs_1.12.1-0ubuntu1.1_amd64.deb
-Size: 98910
-MD5sum: d7f605ab17bce6ac647ab30162f61483
-SHA1: fb683a1a24026bd322e5e88026de1c11899b804a
-SHA256: 73d26565c8cfa0d3745f3a94643e774e0c498d32ced668abda54053f3c36e83a
+Filename: pool/main/g/gvfs/gvfs_1.12.1-0ubuntu1.2_amd64.deb
+Size: 98918
+MD5sum: 83e2552e0ddd276b53818ca749bb077d
+SHA1: a10bc77ab076c80d9095ae7fbc70d157e84b858d
+SHA256: 3b6062b60e8f5cb088f6eaf0012e3e2a5ef3954b89d494aaf76be91f504f5a1e
 Description: userspace virtual filesystem - GIO module
 Multi-Arch: same
 Description-md5: 61f453207c2ab18880315d27f13ee0fb
@@ -10594,15 +10594,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: gvfs
-Version: 1.12.1-0ubuntu1.1
-Depends: libarchive12, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libbluetooth3 (>= 4.91), libc6 (>= 2.14), libcdio-cdda1, libcdio-paranoia1, libcdio13, libdbus-1-3 (>= 1.1.1), libdbus-glib-1-2 (>= 0.78), libexpat1 (>= 1.95.8), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.31.8), libgnome-keyring0 (>= 2.20.3), libgphoto2-2 (>= 2.4.10.1), libgphoto2-port0 (>= 2.4.10.1), libgudev-1.0-0 (>= 147), libimobiledevice2 (>= 1.1.0), libplist1 (>= 0.16), libsmbclient (>= 2:3.3.1), libsoup-gnome2.4-1 (>= 2.27.4), libsoup2.4-1 (>= 2.30.0), libxml2 (>= 2.7.4), gvfs (= 1.12.1-0ubuntu1.1), gvfs-daemons (= 1.12.1-0ubuntu1.1), gvfs-libs (= 1.12.1-0ubuntu1.1), gvfs-common (= 1.12.1-0ubuntu1.1), psmisc
+Version: 1.12.1-0ubuntu1.2
+Depends: libarchive12, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libbluetooth3 (>= 4.91), libc6 (>= 2.14), libcdio-cdda1, libcdio-paranoia1, libcdio13, libdbus-1-3 (>= 1.1.1), libdbus-glib-1-2 (>= 0.78), libexpat1 (>= 1.95.8), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.31.8), libgnome-keyring0 (>= 2.20.3), libgphoto2-2 (>= 2.4.10.1), libgphoto2-port0 (>= 2.4.10.1), libgudev-1.0-0 (>= 147), libimobiledevice2 (>= 1.1.0), libplist1 (>= 0.16), libsmbclient (>= 2:3.3.1), libsoup-gnome2.4-1 (>= 2.27.4), libsoup2.4-1 (>= 2.30.0), libxml2 (>= 2.7.4), gvfs (= 1.12.1-0ubuntu1.2), gvfs-daemons (= 1.12.1-0ubuntu1.2), gvfs-libs (= 1.12.1-0ubuntu1.2), gvfs-common (= 1.12.1-0ubuntu1.2), psmisc
 Recommends: gnome-keyring
 Suggests: obex-data-server, samba-common
-Filename: pool/main/g/gvfs/gvfs-backends_1.12.1-0ubuntu1.1_amd64.deb
-Size: 1012108
-MD5sum: 4e691e7b5f16eb2f92869e4e3c2c3513
-SHA1: 033dcf60afa3ab8c3eda15c91258cfa1a624dd70
-SHA256: 13b5a6d7b99ea2c3a6ba29ccaa3ee252c0a35d751eeb45b23938ee04abe81710
+Filename: pool/main/g/gvfs/gvfs-backends_1.12.1-0ubuntu1.2_amd64.deb
+Size: 1011376
+MD5sum: de3ec02a21d7e9d66c081dd0a32d60b9
+SHA1: 6a5bad5b73dc94cf12c66a50473aa863894d2d3d
+SHA256: 29d0a49e48ec5e5cfc8cb62931ac7c2b5f87474a93c02dd6be9a9d2cedcbab65
 Description: userspace virtual filesystem - backends
 Multi-Arch: foreign
 Description-md5: 333d23ff6d61ac3282e762a7a28c4360
@@ -10619,14 +10619,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: gvfs
-Version: 1.12.1-0ubuntu1.1
-Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.31.8), gvfs-common (= 1.12.1-0ubuntu1.1)
+Version: 1.12.1-0ubuntu1.2
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.31.8), gvfs-common (= 1.12.1-0ubuntu1.2)
 Suggests: gvfs
-Filename: pool/main/g/gvfs/gvfs-bin_1.12.1-0ubuntu1.1_amd64.deb
-Size: 60106
-MD5sum: 4301e699891d336c7646288fd5219905
-SHA1: ed5fb3ebc835f380e1ece9861f65d45eb40ca336
-SHA256: 61981a976274d43bf934c5c7162b966f2e020ab778e9130459dd27913d8950b1
+Filename: pool/main/g/gvfs/gvfs-bin_1.12.1-0ubuntu1.2_amd64.deb
+Size: 59560
+MD5sum: ba2f2a0c567274ccfde0198bc78cbb65
+SHA1: 6bb91f94302e9ebb1f929bd756fc3fc2c6d95326
+SHA256: 447c2cb8c4ad7f21a158ad4dc36a6dd3f32c0b4ae6949c44a16fb2f84022acba
 Description: userspace virtual filesystem - binaries
 Multi-Arch: foreign
 Description-md5: 02be92bf6407403290f8dec1428dea18
@@ -10643,16 +10643,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: gvfs
-Version: 1.12.1-0ubuntu1.1
+Version: 1.12.1-0ubuntu1.2
 Replaces: gvfs (<< 1.10.1-1)
 Depends: dconf-gsettings-backend | gsettings-backend
 Recommends: gvfs
 Breaks: gvfs (<< 1.10.1-1)
-Filename: pool/main/g/gvfs/gvfs-common_1.12.1-0ubuntu1.1_all.deb
-Size: 16532
-MD5sum: 2b636458b22091fe55c56bb3c572fc10
-SHA1: cb6faccf0ffb794dcb7d9389ea743d68bbc84e05
-SHA256: 8a0db8ef418bc5b7da537e9ac6af5983c4afbd09891ffab9a5bea2119a9b7608
+Filename: pool/main/g/gvfs/gvfs-common_1.12.1-0ubuntu1.2_all.deb
+Size: 16358
+MD5sum: 4275d5c38701c2883d771c3e100a72f7
+SHA1: 1df99bf3ac3207861367a0c96fb7e5242b90e651
+SHA256: 532e533a503f26cc25efce1b10e5fb5cea6ef889fc9850eb6cb348f063295b6a
 Description: userspace virtual filesystem - common data files
 Multi-Arch: foreign
 Description-md5: 9572165fd324aff77138e36127f7d629
@@ -10669,17 +10669,17 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: gvfs
-Version: 1.12.1-0ubuntu1.1
+Version: 1.12.1-0ubuntu1.2
 Replaces: gvfs (<< 1.10.1-1), gvfs-backends (<< 1.8.1-1)
-Depends: libc6 (>= 2.14), libdbus-1-3 (>= 1.1.1), libgdu0 (>= 3.0.2), libglib2.0-0 (>= 2.31.8), libgudev-1.0-0 (>= 147), libudev0 (>= 147), x11-utils, gvfs-libs (= 1.12.1-0ubuntu1.1), gvfs-common (= 1.12.1-0ubuntu1.1)
+Depends: libc6 (>= 2.14), libdbus-1-3 (>= 1.1.1), libgdu0 (>= 3.0.2), libglib2.0-0 (>= 2.31.8), libgudev-1.0-0 (>= 147), libudev0 (>= 147), x11-utils, gvfs-libs (= 1.12.1-0ubuntu1.2), gvfs-common (= 1.12.1-0ubuntu1.2)
 Recommends: dbus, policykit-1-gnome, gvfs
 Suggests: gvfs-backends
 Breaks: brasero (<< 2.28.0-2), gvfs (<< 1.10.1-1), gvfs-backends (<< 1.8.1-1), libgdu0 (<< 2.28.1-3), libglib2.0-0 (<< 2.28.6-2), rhythmbox (<< 0.12.6-2)
-Filename: pool/main/g/gvfs/gvfs-daemons_1.12.1-0ubuntu1.1_amd64.deb
-Size: 348084
-MD5sum: bba4daa0337f9ff7fa8e9f44a74b6cd7
-SHA1: ef843d760a9422c9abc4e1533e3dd662969aa883
-SHA256: ae7b1746e792ef4456017960f8c886729e77083544a6f86733812eb374eb1a6f
+Filename: pool/main/g/gvfs/gvfs-daemons_1.12.1-0ubuntu1.2_amd64.deb
+Size: 348354
+MD5sum: a2a081e9b9d37f57e39b59aaf822bbb9
+SHA1: ee1c64dacfa3ea0b598f26c055531f8ddb075611
+SHA256: 0d58102e1b6ffcd789fd2bcf1e8dd9181e4c827df97d4884bd8836b2c4107ac3
 Description: userspace virtual filesystem - servers
 Multi-Arch: foreign
 Description-md5: 3ce59381bd6888364e59f20a23789369
@@ -10691,18 +10691,18 @@ Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, edubuntu-deskt
 Package: gvfs-dbg
 Priority: extra
 Section: debug
-Installed-Size: 17956
+Installed-Size: 17957
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: gvfs
-Version: 1.12.1-0ubuntu1.1
-Depends: gvfs (= 1.12.1-0ubuntu1.1)
-Filename: pool/main/g/gvfs/gvfs-dbg_1.12.1-0ubuntu1.1_amd64.deb
-Size: 4814892
-MD5sum: 6facca7bf7c931a2e662bd84bb3a4c81
-SHA1: 9fb856d69f6c444193df9acd5ec0da3df9d49c88
-SHA256: f481ad108a9d6d3b2dc3c2bbed4ca6a9178795e25be2b19b2b309e8a2ea9cf13
+Version: 1.12.1-0ubuntu1.2
+Depends: gvfs (= 1.12.1-0ubuntu1.2)
+Filename: pool/main/g/gvfs/gvfs-dbg_1.12.1-0ubuntu1.2_amd64.deb
+Size: 4814344
+MD5sum: e5e1d6ab88e49619204ac90220528550
+SHA1: 8d71855b3ad7f1ae422edabcf0de61bee49a4608
+SHA256: 8b21658a1c207e5e540c31c739dcce5ad3c0e0a1c976d5edf5d757aa3a837abf
 Description: userspace virtual filesystem - debugging information
 Description-md5: 5812d809c0496325bb376dd4fd9c9dc0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -10717,13 +10717,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: gvfs
-Version: 1.12.1-0ubuntu1.1
-Depends: libc6 (>= 2.2.5), libdbus-1-3 (>= 1.0.2), libfuse2 (>= 2.8.1), libglib2.0-0 (>= 2.31.8), gvfs (= 1.12.1-0ubuntu1.1), fuse (>= 2.8.4)
-Filename: pool/main/g/gvfs/gvfs-fuse_1.12.1-0ubuntu1.1_amd64.deb
-Size: 15430
-MD5sum: 18bcbd7b0dfed0a98d0bd2d58342f570
-SHA1: f9820849dcbd0b0f734b66add426affee3c30ac9
-SHA256: a14af86e36afb91ac1c0becd8057d9bdadf1760f49f71815846cf20e920eae92
+Version: 1.12.1-0ubuntu1.2
+Depends: libc6 (>= 2.2.5), libdbus-1-3 (>= 1.0.2), libfuse2 (>= 2.8.1), libglib2.0-0 (>= 2.31.8), gvfs (= 1.12.1-0ubuntu1.2), fuse (>= 2.8.4)
+Filename: pool/main/g/gvfs/gvfs-fuse_1.12.1-0ubuntu1.2_amd64.deb
+Size: 15328
+MD5sum: ac13a80b21f6108694d459f176ce465d
+SHA1: 32dda9d2655d692c9a0ab930d97cc3e6892a5d4f
+SHA256: 577ec3ea7cda145c041fde340f8d746fe33d97921da32505a5c5b4e6190ce493
 Description: userspace virtual filesystem - fuse server
 Description-md5: e8ae435dfe556826602d3a021208211e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -10739,16 +10739,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Source: gvfs
-Version: 1.12.1-0ubuntu1.1
+Version: 1.12.1-0ubuntu1.2
 Replaces: gvfs (<< 1.10.1-1), libgvfscommon0
-Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.1.1), libglib2.0-0 (>= 2.31.8), gvfs-common (= 1.12.1-0ubuntu1.1)
+Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.1.1), libglib2.0-0 (>= 2.31.8), gvfs-common (= 1.12.1-0ubuntu1.2)
 Conflicts: libgvfscommon0
 Breaks: gvfs (<< 1.10.1-1)
-Filename: pool/main/g/gvfs/gvfs-libs_1.12.1-0ubuntu1.1_amd64.deb
-Size: 52904
-MD5sum: d90cef75f872e46424c153ba89d117bc
-SHA1: df21a6a92c2090c790e9660e0f89f6cfa57e0321
-SHA256: d3715ddb987360d128697d3e1f646a5058d5583aa745a3fec54e766daa093381
+Filename: pool/main/g/gvfs/gvfs-libs_1.12.1-0ubuntu1.2_amd64.deb
+Size: 52804
+MD5sum: 19c1cb43d35050a5d837144281ad0d91
+SHA1: 7e7c4a9a8f95568a3c9749bd16dccb2bbcadfcd0
+SHA256: 5f37f6de3d5bb986956b008cb7bfcbd7e67ecda8d47a6fd83a7c7f5c69b5bd21
 Description: userspace virtual filesystem - private libraries
 Multi-Arch: same
 Description-md5: 6558598d97ea2bbb18ca95c90e7c0683

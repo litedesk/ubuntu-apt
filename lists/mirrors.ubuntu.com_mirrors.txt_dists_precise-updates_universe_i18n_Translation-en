@@ -4490,6 +4490,16 @@ Description-en: Dummy transitional package
  This package is provided to ease the updating of modsecurity to the new
  package name. You may safely remove it.
 
+Package: libapache2-mod-nss
+Description-md5: 7a157574b7ec3a35bd0e2cadc888415a
+Description-en: NSS-based SSL module for Apache2
+ This Apache module provides strong cryptography for the Apache 2.0 webserver
+ via the Secure Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS
+ v1) protocols by the help of the SSL/TLS implementation library NSS
+ .
+ This module is based heavily on the mod_ssl package. In fact, it's more
+ a conversion than anything else.
+
 Package: libapache2-mod-php5filter
 Description-md5: 520e71d9bb63fc79b4108468fde79690
 Description-en: server-side, HTML-embedded scripting language (apache 2 filter module)
