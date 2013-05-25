@@ -43184,6 +43184,22 @@ Description-en: Linux kernel headers for version 3.2.0 on TI OMAP4-based systems
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-ti-omap4-headers-3.2.0-1430/debian.README.gz for details.
 
+Package: linux-headers-3.2.0-1432
+Description-md5: 0c43c9f2f9f37e5d4d1f86f16a7ed3cf
+Description-en: Header files related to Linux kernel version 3.2.0
+ This package provides kernel header files for version 3.2.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-headers-3.2.0-1432/debian.README.gz for details
+
+Package: linux-headers-3.2.0-1432-omap4
+Description-md5: 7e08e335b065ed8ed383a9e8e012a79f
+Description-en: Linux kernel headers for version 3.2.0 on TI OMAP4-based systems
+ This package provides kernel header files for version 3.2.0 on
+ TI OMAP4-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-ti-omap4-headers-3.2.0-1432/debian.README.gz for details.
+
 Package: linux-headers-3.2.0-24-omap
 Description-md5: e0144f4a877e93085566acf9e7bc9aa4
 Description-en: Linux kernel headers for version 3.2.0 on TI OMAP3-based 64 bit x86 systems
@@ -43656,6 +43672,24 @@ Description-en: Linux kernel image for version 3.2.0 on TI OMAP4-based systems
  correctly, and that supporting packages are also installed.
 
 Package: linux-image-3.2.0-1430-omap4
+Description-md5: f05b03f565da64df572ebe09a1f4c5fb
+Description-en: Linux kernel image for version 3.2.0 on TI OMAP4-based systems
+ This package contains the Linux kernel image for version 3.2.0 on
+ TI OMAP4-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports TI OMAP4 processors.
+ .
+ Targeted towards boards such as Blazeboard, Pandaboard, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-omap4 meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-3.2.0-1432-omap4
 Description-md5: f05b03f565da64df572ebe09a1f4c5fb
 Description-en: Linux kernel image for version 3.2.0 on TI OMAP4-based systems
  This package contains the Linux kernel image for version 3.2.0 on
@@ -44156,6 +44190,13 @@ Description-md5: 8e12f05482294655ff7acd2ed674f8d5
 Description-en: Linux kernel tools for version 3.2.0-1430
  This package provides the architecture dependant parts for kernel
  version locked tools for version 3.2.0-1430 on
+ DESC.
+
+Package: linux-ti-omap4-tools-3.2.0-1432
+Description-md5: 00dcb8f447e89a88208b8f079701c3ef
+Description-en: Linux kernel tools for version 3.2.0-1432
+ This package provides the architecture dependant parts for kernel
+ version locked tools for version 3.2.0-1432 on
  DESC.
 
 Package: linux-tools-3.2.0-25
