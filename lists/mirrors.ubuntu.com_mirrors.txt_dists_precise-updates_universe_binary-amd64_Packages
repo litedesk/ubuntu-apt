@@ -15644,13 +15644,13 @@ Installed-Size: 84
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: all
-Version: 1.1.19-1ubuntu0.1
+Version: 1.1.19-1ubuntu0.2
 Depends: nginx-full | nginx-light
-Filename: pool/universe/n/nginx/nginx_1.1.19-1ubuntu0.1_all.deb
-Size: 6394
-MD5sum: 7c37d021de4f298bdf9e997bfcab8379
-SHA1: 0a3267a15fc4f1ae79667ceeeffd0ccdffe1669a
-SHA256: f4f2e5b0c0e19fb1f7648dfd93568c203e8c659a3d759ff9e574e83b078832b0
+Filename: pool/universe/n/nginx/nginx_1.1.19-1ubuntu0.2_all.deb
+Size: 6376
+MD5sum: 0e0ee2c020938a6ccbc473775991471f
+SHA1: d9337b49ad1a12fdc0c8df39b3021363c8e06970
+SHA256: d5f3d24efc05bbb3fcd934ccd6dfb26b7d82f025fb47dce4f2a14c34c36b729e
 Description: small, but very powerful and efficient web server and mail proxy
 Homepage: http://nginx.net
 Description-md5: c71c42a7e7b75f4b7b417a4547f32b56
@@ -15665,15 +15665,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: all
 Source: nginx
-Version: 1.1.19-1ubuntu0.1
+Version: 1.1.19-1ubuntu0.2
 Replaces: nginx (<< 0.8.54-4), nginx-extras (<< 0.8.54-4), nginx-full (<< 0.8.54-4), nginx-light (<< 0.8.54-4)
 Depends: lsb-base (>= 3.2-14)
 Breaks: nginx (<< 0.8.54-4), nginx-extras (<< 0.8.54-4), nginx-full (<< 0.8.54-4), nginx-light (<< 0.8.54-4)
-Filename: pool/universe/n/nginx/nginx-common_1.1.19-1ubuntu0.1_all.deb
-Size: 17632
-MD5sum: effa3289679b2bed1a2c1c3e65c83df2
-SHA1: a6f64a389139b8dd13ca7c4a38098a19bd3eea3d
-SHA256: b5b1488aec5aafc5b9caf907809e48cae6137bb9b994b00712685b60ec671103
+Filename: pool/universe/n/nginx/nginx-common_1.1.19-1ubuntu0.2_all.deb
+Size: 17478
+MD5sum: e9f62c39292ae12072e955b3c53c36ff
+SHA1: bafdca3b4ddb3a36f2a8ac701f99ac9c3c03ab11
+SHA256: 7fc493c9e624b652890b66e8dc250b175a7c33219063e6faeb6131f4d765c20e
 Description: small, but very powerful and efficient web server (common files)
 Homepage: http://nginx.net
 Description-md5: 46d30b3e77cd81636fb13d66df5209bc
@@ -15688,13 +15688,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: all
 Source: nginx
-Version: 1.1.19-1ubuntu0.1
+Version: 1.1.19-1ubuntu0.2
 Depends: lsb-base (>= 3.2-14)
-Filename: pool/universe/n/nginx/nginx-doc_1.1.19-1ubuntu0.1_all.deb
-Size: 19500
-MD5sum: 29e4eb1d26df26ade00e581cda2005b4
-SHA1: ef99c5aa23de3dcecf809b1f6bb24a8ddb1ae2c4
-SHA256: a85c59edda0141d2250d2954ff8f01eeea2072b2f66511cc778b0c1e6e5fec6e
+Filename: pool/universe/n/nginx/nginx-doc_1.1.19-1ubuntu0.2_all.deb
+Size: 19478
+MD5sum: 678e697b35fd3c936e1ec1d9a5bdd75a
+SHA1: 1568cafe32f89779e9bced402a48c49d385ca0fe
+SHA256: 29a042ea7f7ae775f025a3d554dc6a332d4641df7b76d7a2e2680f76eb11a7f9
 Description: small, but very powerful and efficient web server (documentation)
 Homepage: http://nginx.net
 Description-md5: 0e6eccc821eaa753ed9274382c97563e
@@ -15709,15 +15709,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: amd64
 Source: nginx
-Version: 1.1.19-1ubuntu0.1
+Version: 1.1.19-1ubuntu0.2
 Provides: httpd, nginx
-Depends: nginx-common (= 1.1.19-1ubuntu0.1), perl (>= 5.14.2-6ubuntu2.1), perlapi-5.14.2, libc6 (>= 2.14), libexpat1 (>= 1.95.8), libgd2-noxpm (>= 2.0.36~rc1~dfsg) | libgd2-xpm (>= 2.0.36~rc1~dfsg), libgeoip1 (>= 1.4.8+dfsg), liblua5.1-0, libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libperl5.14 (>= 5.14.2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Depends: nginx-common (= 1.1.19-1ubuntu0.2), perl (>= 5.14.2-6ubuntu2.3), perlapi-5.14.2, libc6 (>= 2.14), libexpat1 (>= 1.95.8), libgd2-noxpm (>= 2.0.36~rc1~dfsg) | libgd2-xpm (>= 2.0.36~rc1~dfsg), libgeoip1 (>= 1.4.8+dfsg), liblua5.1-0, libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libperl5.14 (>= 5.14.2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
 Conflicts: nginx-full, nginx-light, nginx-naxsi
-Filename: pool/universe/n/nginx/nginx-extras_1.1.19-1ubuntu0.1_amd64.deb
-Size: 523952
-MD5sum: ebf53bc25a687f5cb1bd7bad0cddc8a2
-SHA1: 9402b1ee71a519e3dc6b09b7a0ece22e3d7d7650
-SHA256: 52998327fa8de28b43974b926841fffe7f25a24de7d219c816d8047f641717ba
+Filename: pool/universe/n/nginx/nginx-extras_1.1.19-1ubuntu0.2_amd64.deb
+Size: 524794
+MD5sum: 2b751ab74538c5e65b4907b86955228d
+SHA1: 0bb8b0a6ab8e5a93034c4bdbfb1d40ee5b496276
+SHA256: abb899390c93ef55b0724690f11c4425ead2727cd73f5957f3f9b2cea06abfb2
 Description: nginx web server with full set of core modules and extras
 Homepage: http://nginx.net
 Description-md5: 62625a0880a12b7730bf18aa24f0ddfe
@@ -15727,19 +15727,19 @@ Origin: Ubuntu
 Package: nginx-extras-dbg
 Priority: extra
 Section: universe/debug
-Installed-Size: 8888
+Installed-Size: 8887
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: amd64
 Source: nginx
-Version: 1.1.19-1ubuntu0.1
-Depends: nginx-extras (= 1.1.19-1ubuntu0.1)
+Version: 1.1.19-1ubuntu0.2
+Depends: nginx-extras (= 1.1.19-1ubuntu0.2)
 Conflicts: nginx-full-dbg, nginx-light-dbg, nginx-naxsi-dbg
-Filename: pool/universe/n/nginx/nginx-extras-dbg_1.1.19-1ubuntu0.1_amd64.deb
-Size: 4078560
-MD5sum: 31f446b6be1a7fee723f932b3e25d7b5
-SHA1: 8182f13dbce7c44ec536f11525d82e194a40758d
-SHA256: 5eb339e1225b145e65cb2fceca0b141ba515d3617ea9c90de5d619b18550c8b8
+Filename: pool/universe/n/nginx/nginx-extras-dbg_1.1.19-1ubuntu0.2_amd64.deb
+Size: 4078068
+MD5sum: df8de9fd7a9d07cd5146f050e6dac0a6
+SHA1: c524711859f0f162079616762ff1a6245bb71a2f
+SHA256: d09543ebf7932debabfadb0db292a6250dd3f5a71f5fe5aab03cd08d87848ebd
 Description: Debugging symbols for nginx (extras)
 Homepage: http://nginx.net
 Description-md5: 37cf2a0108c6132dc18568f682e149e0
@@ -15754,15 +15754,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: amd64
 Source: nginx
-Version: 1.1.19-1ubuntu0.1
+Version: 1.1.19-1ubuntu0.2
 Provides: httpd, nginx
-Depends: nginx-common (= 1.1.19-1ubuntu0.1), libc6 (>= 2.14), libexpat1 (>= 1.95.8), libgd2-noxpm (>= 2.0.36~rc1~dfsg) | libgd2-xpm (>= 2.0.36~rc1~dfsg), libgeoip1 (>= 1.4.8+dfsg), libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Depends: nginx-common (= 1.1.19-1ubuntu0.2), libc6 (>= 2.14), libexpat1 (>= 1.95.8), libgd2-noxpm (>= 2.0.36~rc1~dfsg) | libgd2-xpm (>= 2.0.36~rc1~dfsg), libgeoip1 (>= 1.4.8+dfsg), libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
 Conflicts: nginx-extras, nginx-light, nginx-naxsi
-Filename: pool/universe/n/nginx/nginx-full_1.1.19-1ubuntu0.1_amd64.deb
-Size: 378482
-MD5sum: 5e6d377b39cd8578efa9acb1710a6008
-SHA1: 626be3a4e17df1cbb38c276fceeb6ec507b69596
-SHA256: 50f583c4f86a54e18e8fc6e4a0e9e1aa0c2bd088b45bd0b5bee6954706a200ee
+Filename: pool/universe/n/nginx/nginx-full_1.1.19-1ubuntu0.2_amd64.deb
+Size: 379322
+MD5sum: e27d5ca1809714d678a9eacd54602bc9
+SHA1: bbb602499a19f68c11d6bc04c600a880da83186d
+SHA256: 956c11830fc647847457f3d7edb843f81cf64f3b3ce15b5599be4bf6819975ea
 Description: nginx web server with full set of core modules
 Homepage: http://nginx.net
 Description-md5: fe2320ac927be4eda66558015a53db7e
@@ -15777,14 +15777,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: amd64
 Source: nginx
-Version: 1.1.19-1ubuntu0.1
-Depends: nginx-full (= 1.1.19-1ubuntu0.1)
+Version: 1.1.19-1ubuntu0.2
+Depends: nginx-full (= 1.1.19-1ubuntu0.2)
 Conflicts: nginx-extras-dbg, nginx-light-dbg, nginx-naxsi-dbg
-Filename: pool/universe/n/nginx/nginx-full-dbg_1.1.19-1ubuntu0.1_amd64.deb
-Size: 2771762
-MD5sum: 632c6854711d359602c391cc3d9412f0
-SHA1: f4e979e49e5bac9d4fe7a9dae0fd3a7d162b230c
-SHA256: f8bd842a9625ed880bd9c0d6535f10adf12f3bb261b9f458ed2a15ff605ef180
+Filename: pool/universe/n/nginx/nginx-full-dbg_1.1.19-1ubuntu0.2_amd64.deb
+Size: 2771456
+MD5sum: 89e287f219025ee681e066f279d806bf
+SHA1: 7e25a8b5aafd71504b887856b6ccbc96cea02f4d
+SHA256: e71478d61bb5b51315290594b74822742b94ffa97ed2b896fdf2807ed06fb782
 Description: Debugging symbols for nginx (full)
 Homepage: http://nginx.net
 Description-md5: d746a0cb709ad0dfa5d0e699407097ce
@@ -15799,15 +15799,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: amd64
 Source: nginx
-Version: 1.1.19-1ubuntu0.1
+Version: 1.1.19-1ubuntu0.2
 Provides: httpd, nginx
-Depends: nginx-common (= 1.1.19-1ubuntu0.1), libc6 (>= 2.14), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
+Depends: nginx-common (= 1.1.19-1ubuntu0.2), libc6 (>= 2.14), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
 Conflicts: nginx-extras, nginx-full, nginx-naxsi
-Filename: pool/universe/n/nginx/nginx-light_1.1.19-1ubuntu0.1_amd64.deb
-Size: 263058
-MD5sum: b5137502060ac36b013a24d6f187a94e
-SHA1: b6512538f2b0fdaee2ba9fddfc1d6a34aba5108d
-SHA256: 5779c5bf16f7fd91029c6e56149d5a988fdb0166d9a496ce20eb43787f1a8a89
+Filename: pool/universe/n/nginx/nginx-light_1.1.19-1ubuntu0.2_amd64.deb
+Size: 263384
+MD5sum: 64ef3ba23d07610fa0b4464a88c209dc
+SHA1: 663e5dacf90b9ebfe1b82e56b09558d3ec108647
+SHA256: e1e626c55c746b6444993807927dc880a3cfdbca27586d79a1c21efaf79bcd09
 Description: nginx web server with minimal set of core modules
 Homepage: http://nginx.net
 Description-md5: 857e5e2664629ea5e0cf8a8872719b3e
@@ -15817,19 +15817,19 @@ Origin: Ubuntu
 Package: nginx-light-dbg
 Priority: extra
 Section: universe/debug
-Installed-Size: 4302
+Installed-Size: 4303
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: amd64
 Source: nginx
-Version: 1.1.19-1ubuntu0.1
-Depends: nginx-light (= 1.1.19-1ubuntu0.1)
+Version: 1.1.19-1ubuntu0.2
+Depends: nginx-light (= 1.1.19-1ubuntu0.2)
 Conflicts: nginx-extras-dbg, nginx-full-dbg, nginx-naxsi-dbg
-Filename: pool/universe/n/nginx/nginx-light-dbg_1.1.19-1ubuntu0.1_amd64.deb
-Size: 1928878
-MD5sum: a879db1acab626d14f879d51b4434208
-SHA1: 374deed7d1855c565e7053a0639186d723aa1423
-SHA256: 4859962f1d1be0faa8660f724b9128dd9953cdb9093d2a4c0be6491a9836be7e
+Filename: pool/universe/n/nginx/nginx-light-dbg_1.1.19-1ubuntu0.2_amd64.deb
+Size: 1928944
+MD5sum: 448b0fc875cb0a6c468a25fe83fb990c
+SHA1: fb91e778d910f5d828884bff19e25b05f216d4e7
+SHA256: 45dff9d7f8584aad9432d3a6d3e5c810a433d07aea53f7526eb459bd7cc0c383
 Description: Debugging symbols for nginx (light)
 Homepage: http://nginx.net
 Description-md5: 0a0a580e239ed03811c1c3d554de01cb
@@ -15844,15 +15844,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: amd64
 Source: nginx
-Version: 1.1.19-1ubuntu0.1
+Version: 1.1.19-1ubuntu0.2
 Provides: httpd, nginx
-Depends: nginx-common (= 1.1.19-1ubuntu0.1), libc6 (>= 2.14), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
+Depends: nginx-common (= 1.1.19-1ubuntu0.2), libc6 (>= 2.14), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
 Conflicts: nginx-extras, nginx-full, nginx-light
-Filename: pool/universe/n/nginx/nginx-naxsi_1.1.19-1ubuntu0.1_amd64.deb
-Size: 301156
-MD5sum: c096c4c66bbb327c119e42cb76735399
-SHA1: 17d5b0d3c761ac9d603aee2a9560cf90c76b5104
-SHA256: 0082d15bcd0880bb3f4d325cad2908724ab26da78f689ac3e6f19ab396b10e3f
+Filename: pool/universe/n/nginx/nginx-naxsi_1.1.19-1ubuntu0.2_amd64.deb
+Size: 301474
+MD5sum: 8ebebe26db7cfee64918448e1bb1d36a
+SHA1: c48f1ffa289f1725bc54e74ccb99479a592384eb
+SHA256: 58e03dac5c70a40513a68f848c6a7b66f43bc49967979280fffbe7e1f518f113
 Description: nginx web server with naxsi 0.44 included
 Homepage: http://nginx.net
 Description-md5: 7b47bed487001599307c11ff0327c114
@@ -15867,14 +15867,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: amd64
 Source: nginx
-Version: 1.1.19-1ubuntu0.1
-Depends: nginx-naxsi (= 1.1.19-1ubuntu0.1)
+Version: 1.1.19-1ubuntu0.2
+Depends: nginx-naxsi (= 1.1.19-1ubuntu0.2)
 Conflicts: nginx-extras-dbg, nginx-full-dbg, nginx-light-dbg
-Filename: pool/universe/n/nginx/nginx-naxsi-dbg_1.1.19-1ubuntu0.1_amd64.deb
-Size: 2013888
-MD5sum: 8397c42939b080b712f7ce1a821c16e5
-SHA1: dad9ae3a95645a5ce50eb772cac183694c7d21a6
-SHA256: 0768db62b43a6295631beb1515bf7cd8be282e834c97a3009b85058b6c350141
+Filename: pool/universe/n/nginx/nginx-naxsi-dbg_1.1.19-1ubuntu0.2_amd64.deb
+Size: 2014048
+MD5sum: e7648b9537020b11ddc6de8367e31e8e
+SHA1: e03f7059f3039425d459a974f7397daa2f951581
+SHA256: 2043bbae235781037557f40823c23110ef377e7ecb4bde2d424b1a89d5132fe6
 Description: Debugging symbols for nginx (naxsi)
 Homepage: http://nginx.net
 Description-md5: 80b0e403e8850ac13f278103be5ecca0

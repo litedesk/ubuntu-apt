@@ -5582,6 +5582,250 @@ Description-md5: 3e88fc28903eb44dd0b2a0eb9f813181
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: nginx
+Priority: optional
+Section: universe/web
+Installed-Size: 84
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: all
+Version: 1.1.19-1ubuntu0.2
+Depends: nginx-full | nginx-light
+Filename: pool/universe/n/nginx/nginx_1.1.19-1ubuntu0.2_all.deb
+Size: 6376
+MD5sum: 0e0ee2c020938a6ccbc473775991471f
+SHA1: d9337b49ad1a12fdc0c8df39b3021363c8e06970
+SHA256: d5f3d24efc05bbb3fcd934ccd6dfb26b7d82f025fb47dce4f2a14c34c36b729e
+Description: small, but very powerful and efficient web server and mail proxy
+Homepage: http://nginx.net
+Description-md5: c71c42a7e7b75f4b7b417a4547f32b56
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nginx-common
+Priority: optional
+Section: universe/httpd
+Installed-Size: 200
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: all
+Source: nginx
+Version: 1.1.19-1ubuntu0.2
+Replaces: nginx (<< 0.8.54-4), nginx-extras (<< 0.8.54-4), nginx-full (<< 0.8.54-4), nginx-light (<< 0.8.54-4)
+Depends: lsb-base (>= 3.2-14)
+Breaks: nginx (<< 0.8.54-4), nginx-extras (<< 0.8.54-4), nginx-full (<< 0.8.54-4), nginx-light (<< 0.8.54-4)
+Filename: pool/universe/n/nginx/nginx-common_1.1.19-1ubuntu0.2_all.deb
+Size: 17478
+MD5sum: e9f62c39292ae12072e955b3c53c36ff
+SHA1: bafdca3b4ddb3a36f2a8ac701f99ac9c3c03ab11
+SHA256: 7fc493c9e624b652890b66e8dc250b175a7c33219063e6faeb6131f4d765c20e
+Description: small, but very powerful and efficient web server (common files)
+Homepage: http://nginx.net
+Description-md5: 46d30b3e77cd81636fb13d66df5209bc
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nginx-doc
+Priority: optional
+Section: universe/doc
+Installed-Size: 107
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: all
+Source: nginx
+Version: 1.1.19-1ubuntu0.2
+Depends: lsb-base (>= 3.2-14)
+Filename: pool/universe/n/nginx/nginx-doc_1.1.19-1ubuntu0.2_all.deb
+Size: 19478
+MD5sum: 678e697b35fd3c936e1ec1d9a5bdd75a
+SHA1: 1568cafe32f89779e9bced402a48c49d385ca0fe
+SHA256: 29a042ea7f7ae775f025a3d554dc6a332d4641df7b76d7a2e2680f76eb11a7f9
+Description: small, but very powerful and efficient web server (documentation)
+Homepage: http://nginx.net
+Description-md5: 0e6eccc821eaa753ed9274382c97563e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nginx-extras
+Priority: optional
+Section: universe/httpd
+Installed-Size: 1223
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: i386
+Source: nginx
+Version: 1.1.19-1ubuntu0.2
+Provides: httpd, nginx
+Depends: nginx-common (= 1.1.19-1ubuntu0.2), perl (>= 5.14.2-6ubuntu2.3), perlapi-5.14.2, libc6 (>= 2.11), libexpat1 (>= 1.95.8), libgd2-noxpm (>= 2.0.36~rc1~dfsg) | libgd2-xpm (>= 2.0.36~rc1~dfsg), libgeoip1 (>= 1.4.8+dfsg), liblua5.1-0, libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libperl5.14 (>= 5.14.2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Conflicts: nginx-full, nginx-light, nginx-naxsi
+Filename: pool/universe/n/nginx/nginx-extras_1.1.19-1ubuntu0.2_i386.deb
+Size: 532212
+MD5sum: b2206d1734c3e11a9d2457ffff8f8a68
+SHA1: 1e84c41f13c310c2d7d4526956fa8acc80bc3253
+SHA256: 5d1955f5f7aaebf6edfbba9f135c044afc7266bef4ceedb5d20cea1e2c7446ca
+Description: nginx web server with full set of core modules and extras
+Homepage: http://nginx.net
+Description-md5: 62625a0880a12b7730bf18aa24f0ddfe
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nginx-extras-dbg
+Priority: extra
+Section: universe/debug
+Installed-Size: 8123
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: i386
+Source: nginx
+Version: 1.1.19-1ubuntu0.2
+Depends: nginx-extras (= 1.1.19-1ubuntu0.2)
+Conflicts: nginx-full-dbg, nginx-light-dbg, nginx-naxsi-dbg
+Filename: pool/universe/n/nginx/nginx-extras-dbg_1.1.19-1ubuntu0.2_i386.deb
+Size: 3984886
+MD5sum: 4b3dce3e89128265f821587cb491d0b6
+SHA1: e249a6b0e4f1fb922695fec95b34321a5e2bfefe
+SHA256: b4fb29a62a710f9f27ec93fd770c71717393d697cf64469a52900a60d05d7252
+Description: Debugging symbols for nginx (extras)
+Homepage: http://nginx.net
+Description-md5: 37cf2a0108c6132dc18568f682e149e0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nginx-full
+Priority: optional
+Section: universe/httpd
+Installed-Size: 875
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: i386
+Source: nginx
+Version: 1.1.19-1ubuntu0.2
+Provides: httpd, nginx
+Depends: nginx-common (= 1.1.19-1ubuntu0.2), libc6 (>= 2.10), libexpat1 (>= 1.95.8), libgd2-noxpm (>= 2.0.36~rc1~dfsg) | libgd2-xpm (>= 2.0.36~rc1~dfsg), libgeoip1 (>= 1.4.8+dfsg), libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Conflicts: nginx-extras, nginx-light, nginx-naxsi
+Filename: pool/universe/n/nginx/nginx-full_1.1.19-1ubuntu0.2_i386.deb
+Size: 382850
+MD5sum: 9e593ecd7631682e2a6bd28e6104c5e7
+SHA1: e612efdc3918e5fb2344e3f9947786a98fed3e58
+SHA256: 19c955748a02de90a70e56b3dc8aea806fa288e530a3e6998cc4969d9b2ce6c7
+Description: nginx web server with full set of core modules
+Homepage: http://nginx.net
+Description-md5: fe2320ac927be4eda66558015a53db7e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nginx-full-dbg
+Priority: extra
+Section: universe/debug
+Installed-Size: 5660
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: i386
+Source: nginx
+Version: 1.1.19-1ubuntu0.2
+Depends: nginx-full (= 1.1.19-1ubuntu0.2)
+Conflicts: nginx-extras-dbg, nginx-light-dbg, nginx-naxsi-dbg
+Filename: pool/universe/n/nginx/nginx-full-dbg_1.1.19-1ubuntu0.2_i386.deb
+Size: 2702402
+MD5sum: ad9445e2c527ea70bcfe188e33aa0eef
+SHA1: b0a3447bddfb66f5513157562f02dc4adb5ea4b9
+SHA256: d7b55c78672dc826bb26347e6fae35459e3d3680b21cc954c64ae48777627be1
+Description: Debugging symbols for nginx (full)
+Homepage: http://nginx.net
+Description-md5: d746a0cb709ad0dfa5d0e699407097ce
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nginx-light
+Priority: optional
+Section: universe/httpd
+Installed-Size: 609
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: i386
+Source: nginx
+Version: 1.1.19-1ubuntu0.2
+Provides: httpd, nginx
+Depends: nginx-common (= 1.1.19-1ubuntu0.2), libc6 (>= 2.10), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
+Conflicts: nginx-extras, nginx-full, nginx-naxsi
+Filename: pool/universe/n/nginx/nginx-light_1.1.19-1ubuntu0.2_i386.deb
+Size: 266084
+MD5sum: e1d1b116225a31c9df50acf052d8e559
+SHA1: a9a0de101782fd8b21d2f1e09aca1d33f23bb095
+SHA256: 2888f16b7a63436961517e6d6fbf9e96f67e476769245dca7dcdd1e9382d2ec2
+Description: nginx web server with minimal set of core modules
+Homepage: http://nginx.net
+Description-md5: 857e5e2664629ea5e0cf8a8872719b3e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nginx-light-dbg
+Priority: extra
+Section: universe/debug
+Installed-Size: 3909
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: i386
+Source: nginx
+Version: 1.1.19-1ubuntu0.2
+Depends: nginx-light (= 1.1.19-1ubuntu0.2)
+Conflicts: nginx-extras-dbg, nginx-full-dbg, nginx-naxsi-dbg
+Filename: pool/universe/n/nginx/nginx-light-dbg_1.1.19-1ubuntu0.2_i386.deb
+Size: 1876530
+MD5sum: 0c664ef6aa95cf4470ecf28cf6f49204
+SHA1: 353cc405859747d3799f7edbf2d1d787b0940bdf
+SHA256: a8f3556d2ccb9e2b72d2f50add79299e2a0a3f522b22ae079be2128b0b208c12
+Description: Debugging symbols for nginx (light)
+Homepage: http://nginx.net
+Description-md5: 0a0a580e239ed03811c1c3d554de01cb
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nginx-naxsi
+Priority: extra
+Section: universe/httpd
+Installed-Size: 685
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: i386
+Source: nginx
+Version: 1.1.19-1ubuntu0.2
+Provides: httpd, nginx
+Depends: nginx-common (= 1.1.19-1ubuntu0.2), libc6 (>= 2.10), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
+Conflicts: nginx-extras, nginx-full, nginx-light
+Filename: pool/universe/n/nginx/nginx-naxsi_1.1.19-1ubuntu0.2_i386.deb
+Size: 304290
+MD5sum: 6e7760e6fa912cceb5cc23259f22c110
+SHA1: e1c393afacf3d14f2539422d8d3970e78ae671e3
+SHA256: 394af74b0136db5416d2f2efdc5334718688fd513c34f1411f3fe93b1f008043
+Description: nginx web server with naxsi 0.44 included
+Homepage: http://nginx.net
+Description-md5: 7b47bed487001599307c11ff0327c114
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nginx-naxsi-dbg
+Priority: extra
+Section: universe/debug
+Installed-Size: 4092
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: i386
+Source: nginx
+Version: 1.1.19-1ubuntu0.2
+Depends: nginx-naxsi (= 1.1.19-1ubuntu0.2)
+Conflicts: nginx-extras-dbg, nginx-full-dbg, nginx-light-dbg
+Filename: pool/universe/n/nginx/nginx-naxsi-dbg_1.1.19-1ubuntu0.2_i386.deb
+Size: 1956708
+MD5sum: fb76b6f5e6b392918d5539c0f343d970
+SHA1: 22148851bb501e3c87b24b7c9c4e529ab296d4ff
+SHA256: c189779a3f954a8d550351b9c8390bf0247513683cd6cd5ab7b3c39378738f5f
+Description: Debugging symbols for nginx (naxsi)
+Homepage: http://nginx.net
+Description-md5: 80b0e403e8850ac13f278103be5ecca0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: nova-ajax-console-proxy
 Priority: extra
 Section: universe/net
