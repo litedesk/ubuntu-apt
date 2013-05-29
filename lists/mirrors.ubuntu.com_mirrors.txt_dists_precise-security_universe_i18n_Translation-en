@@ -2672,6 +2672,182 @@ Description-en: MySQL testsuite
  .
  This package includes the MySQL testsuite.
 
+Package: nginx
+Description-md5: c71c42a7e7b75f4b7b417a4547f32b56
+Description-en: small, but very powerful and efficient web server and mail proxy
+ Nginx (engine x) is a web server created by Igor Sysoev and kindly provided to
+ the open-source community. This server can be used as standalone HTTP server
+ and as a reverse proxy server before some Apache or another big server to
+ reduce load to backend servers by many concurrent HTTP-sessions.
+ .
+ This is a dummy package that selects nginx-full by default, but also can be
+ installed with nginx-light for upgrading to nginx-light directly.
+
+Package: nginx-common
+Description-md5: 46d30b3e77cd81636fb13d66df5209bc
+Description-en: small, but very powerful and efficient web server (common files)
+ Nginx (engine x) is a web server created by Igor Sysoev and kindly provided to
+ the open-source community. This server can be used as standalone HTTP server
+ and as a reverse proxy server before some Apache or another big server to
+ reduce load to backend servers by many concurrent HTTP-sessions.
+ .
+ This package contains base configuration files used across multiple packaged
+ versions of Nginx (nginx-full, nginx-light, nginx-extras, nginx-naxsi).
+
+Package: nginx-doc
+Description-md5: 0e6eccc821eaa753ed9274382c97563e
+Description-en: small, but very powerful and efficient web server (documentation)
+ Nginx (engine x) is a web server created by Igor Sysoev and kindly provided to
+ the open-source community. This server can be used as standalone HTTP server
+ and as a reverse proxy server before some Apache or another big server to
+ reduce load to backend servers by many concurrent HTTP-sessions.
+ .
+ This package provides extra documentation to help unleash the power of Nginx.
+
+Package: nginx-extras
+Description-md5: 62625a0880a12b7730bf18aa24f0ddfe
+Description-en: nginx web server with full set of core modules and extras
+ Nginx (engine x) is a web server created by Igor Sysoev and kindly provided to
+ the open-source community. This server can be used as standalone HTTP server
+ and as a reverse proxy server before some Apache or another big server to
+ reduce load to backend servers by many concurrent HTTP-sessions.
+ .
+ This package provides the standard version of Nginx. It also includes extra
+ features and modules such as the perl module which allows the addition of
+ perl in configuration files.
+ .
+ MODULES INCLUDED:
+ Standard HTTP Modules:
+   Core, Access, Auth Basic, Auto Index, Browser, Charset, Empty GIF, FastCGI,
+   Geo, Gzip, Headers, Index, Limit Requests, Limit Zone, Log, Map, Memcached,
+   Proxy, Referer, Rewrite, SCGI, Split Clients, SSI, Upstream, User ID, UWSGI
+ Optional HTTP Modules:
+   Addition, Debug, WebDAV, Flash Streaming Video, GeoIP, Gzip Precompression,
+   HTTP Sub, Image Filter, MP4, RealIP, Stub Status, SSL, XSLT, IPv6, Embedded
+   Perl, Secure Link, Random Index
+ Mail Modules:
+   Mail Core, POP3, IMAP, SMTP, SSL
+ Third Party Modules:
+   Echo, Embedded Lua, http push, Nginx Development Kit, Upload module,
+   Upload Progress, HttpHeadersMore, Upstream Fair Queue, Chunkin, Auth PAM,
+   DAV Ext
+
+Package: nginx-extras-dbg
+Description-md5: 37cf2a0108c6132dc18568f682e149e0
+Description-en: Debugging symbols for nginx (extras)
+ Nginx (engine x) is a web server created by Igor Sysoev and kindly provided to
+ the open-source community. This server can be used as standalone HTTP server
+ and as a reverse proxy server before some Apache or another big server to
+ reduce load to backend servers by many concurrent HTTP-sessions.
+ .
+ This package provides debugging symbols for nginx-extras, to assist in
+ debugging issues that you may find. It should not be required for normal
+ operation.
+
+Package: nginx-full
+Description-md5: fe2320ac927be4eda66558015a53db7e
+Description-en: nginx web server with full set of core modules
+ Nginx (engine x) is a web server created by Igor Sysoev and kindly provided to
+ the open-source community. This server can be used as standalone HTTP server
+ and as a reverse proxy server before some Apache or another big server to
+ reduce load to backend servers by many concurrent HTTP-sessions.
+ .
+ It can also act as a POP3/IMAP mail proxy with SSL and TLS SNI support. This
+ package has the standard set of modules enabled.
+ .
+ MODULES INCLUDED:
+ Standard HTTP Modules:
+   Core, Access, Auth Basic, Auto Index, Browser, Charset, Empty GIF, FastCGI,
+   Geo, Gzip, Headers, Index, Limit Requests, Limit Zone, Log, Map, Memcached,
+   Proxy, Referer, Rewrite, SCGI, Split Clients, SSI, Upstream, User ID, UWSGI
+ Optional HTTP Modules:
+   Addition, Debug, GeoIP, Gzip Precompression, HTTP Sub, Image Filter, IPv6,
+   RealIP, Stub Status, WebDAV, XSLT
+ Mail Modules:
+   Mail Core, IMAP, POP3, SMTP, SSL
+ Third Party Modules:
+   Echo, Upstream Fair Queue, DAV Ext
+
+Package: nginx-full-dbg
+Description-md5: d746a0cb709ad0dfa5d0e699407097ce
+Description-en: Debugging symbols for nginx (full)
+ Nginx (engine x) is a web server created by Igor Sysoev and kindly provided to
+ the open-source community. This server can be used as standalone HTTP server
+ and as a reverse proxy server before some Apache or another big server to
+ reduce load to backend servers by many concurrent HTTP-sessions.
+ .
+ This package provides debugging symbols for nginx-full, to assist in debugging
+ issues that you may find. It should not be required for normal operation.
+
+Package: nginx-light
+Description-md5: 857e5e2664629ea5e0cf8a8872719b3e
+Description-en: nginx web server with minimal set of core modules
+ Nginx (engine x) is a web server created by Igor Sysoev and kindly provided to
+ the open-source community. This server can be used as standalone HTTP server
+ and as a reverse proxy server before some Apache or another big server to
+ reduce load to backend servers by many concurrent HTTP-sessions.
+ .
+ This package provides a very light version of Nginx which lacks many of the
+ features and modules of it's full counterpart.
+ .
+ MODULES INCLUDED:
+ Standard HTTP Modules:
+   Core, Access, Auth Basic, Auto Index, Charset, Empty GIF, FastCGI, Gzip,
+   Headers, Index, Log, Map, Proxy, Rewrite, Split Clients, Upstream, User ID
+ Optional HTTP Modules:
+   Gzip Precompression, IPv6, Stub Status, SSL
+ Mail Modules:
+   None
+ Third Party Modules:
+   Echo
+
+Package: nginx-light-dbg
+Description-md5: 0a0a580e239ed03811c1c3d554de01cb
+Description-en: Debugging symbols for nginx (light)
+ Nginx (engine x) is a web server created by Igor Sysoev and kindly provided to
+ the open-source community. This server can be used as standalone HTTP server
+ and as a reverse proxy server before some Apache or another big server to
+ reduce load to backend servers by many concurrent HTTP-sessions.
+ .
+ This package provides debugging symbols for nginx-light, to assist in
+ debugging issues that you may find. It should not be required for normal
+ operation.
+
+Package: nginx-naxsi
+Description-md5: 7b47bed487001599307c11ff0327c114
+Description-en: nginx web server with naxsi 0.44 included
+ Nginx (engine x) is a web server created by Igor Sysoev and kindly provided to
+ the open-source community. This server can be used as standalone HTTP server
+ and as a reverse proxy server before some Apache or another big server to
+ reduce load to backend servers by many concurrent HTTP-sessions.
+ .
+ This package provides the standard version of Nginx, including the naxsi Web
+ Application Firewall.
+ .
+ MODULES INCLUDED:
+ Standard HTTP Modules:
+   Core, Access, Auth Basic, Auto Index, Browser, Charset, Empty GIF, FastCGI,
+   Geo, Gzip, Headers, Index, Limit Requests, Limit Zone, Log, Map, Memcached,
+   Proxy, Referer, Rewrite, SCGI, Split Clients, SSI, Upstream, User ID, UWSGI
+ Optional HTTP Modules:
+   Gzip Precompression, IPv6, Stub Status, SSL
+ Mail Modules:
+   None
+ Third Party Modules:
+   Naxsi, Cache Purge, Upstream Fair
+
+Package: nginx-naxsi-dbg
+Description-md5: 80b0e403e8850ac13f278103be5ecca0
+Description-en: Debugging symbols for nginx (naxsi)
+ Nginx (engine x) is a web server created by Igor Sysoev and kindly provided to
+ the open-source community. This server can be used as standalone HTTP server
+ and as a reverse proxy server before some Apache or another big server to
+ reduce load to backend servers by many concurrent HTTP-sessions.
+ .
+ This package provides debugging symbols for nginx-naxsi, to assist in
+ debugging issues that you may find. It should not be required for normal
+ operation.
+
 Package: nova-ajax-console-proxy
 Description-md5: 571664bc0008e44d5df6784807a6ecf0
 Description-en: OpenStack Compute - AJAX console proxy - transitional package
