@@ -5507,16 +5507,16 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5-data (<< 4:4.4.60)
-Depends: libc6 (>= 2.15), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libkio5 (= 4:4.8.4a-0ubuntu0.2), libkjsapi4 (= 4:4.8.4a-0ubuntu0.2), libkjsembed4 (= 4:4.8.4a-0ubuntu0.2), libkrosscore4 (= 4:4.8.4a-0ubuntu0.2), libnepomuk4 (= 4:4.8.4a-0ubuntu0.2), libnepomukutils4 (= 4:4.8.4a-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libsoprano4 (>= 2.5.60), libstdc++6 (>= 4.4.0), libx11-6
+Depends: libc6 (>= 2.15), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libkio5 (= 4:4.8.5-0ubuntu0.2), libkjsapi4 (= 4:4.8.5-0ubuntu0.2), libkjsembed4 (= 4:4.8.5-0ubuntu0.2), libkrosscore4 (= 4:4.8.5-0ubuntu0.2), libnepomuk4 (= 4:4.8.5-0ubuntu0.2), libnepomukutils4 (= 4:4.8.5-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libsoprano4 (>= 2.5.60), libstdc++6 (>= 4.4.0), libx11-6
 Conflicts: kjscmd
 Breaks: kdelibs5-data (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/kdelibs-bin_4.8.4a-0ubuntu0.2_i386.deb
-Size: 206308
-MD5sum: 2a80bfb88b8db401fc29096b34982b71
-SHA1: 429caa1081d87a2111c7e92c535f359658dc05e3
-SHA256: d6d659df529a31d3fa1c32f0116e3d30af46c6346629ebde797f199eaff171d5
+Filename: pool/main/k/kde4libs/kdelibs-bin_4.8.5-0ubuntu0.2_i386.deb
+Size: 206780
+MD5sum: f1d2a714aac2fb588c53cfcc284d3121
+SHA1: 4332a4f76c9de7b5af7b9bd7ae9bca6c21ac3e82
+SHA256: ce46664cf38b29955beec01116b6fcc990eb68db4b29753abdd79abf956debc8
 Description: core executables for KDE Applications
 Homepage: http://www.kde.org/
 Description-md5: 8c1a7b51c921c425f6300691dd629da4
@@ -5528,20 +5528,20 @@ Task: kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop-
 Package: kdelibs5-data
 Priority: optional
 Section: libs
-Installed-Size: 7420
+Installed-Size: 7464
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: all
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdebase-runtime-data (<< 4:4.5.85), kdelibs5-dev (<< 4:4.4.60), kdelibs5-plugins (<< 4:4.6.80~), libkdecore5 (<= 4:4.5.2a-0ubuntu1), libplasma2
 Depends: perl, hicolor-icon-theme
 Breaks: kdebase-runtime-data (<< 4:4.5.85), kdelibs5-dev (<< 4:4.4.60), kdelibs5-plugins (<< 4:4.6.80~), libkdecore5 (<= 4:4.5.2a-0ubuntu1), libplasma2
-Filename: pool/main/k/kde4libs/kdelibs5-data_4.8.4a-0ubuntu0.2_all.deb
-Size: 2831892
-MD5sum: 6449dfe9669f22e18f7636b23bf98476
-SHA1: a51426c207043c294f9fc9ae4503b6446c2e3fa1
-SHA256: f7fe7c0355f285dec5595bd74e2d0d918421c1aa98120103368fcf97ac564e8e
+Filename: pool/main/k/kde4libs/kdelibs5-data_4.8.5-0ubuntu0.2_all.deb
+Size: 2825476
+MD5sum: c0d3f026defa715ef74d9a7f639f72bf
+SHA1: 09977c65ff7e4affabf6a70fe08f14840716e465
+SHA256: cad7b99ef0c040fbbcec2ecaf1612495377ee74add087f594f7b1d0014f2f40f
 Description: core shared data for all KDE Applications
 Homepage: http://www.kde.org/
 Description-md5: 2bd024f64244b4a4f31312afcf299c8d
@@ -5552,20 +5552,20 @@ Task: kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop-
 
 Package: kdelibs5-dbg
 Priority: extra
-Section: debug
-Installed-Size: 315981
+Section: libdevel
+Installed-Size: 315991
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Depends: libqt4-dbg (>= 4:4.6)
-Recommends: libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libkpty4 (= 4:4.8.4a-0ubuntu0.2), libkdesu5 (= 4:4.8.4a-0ubuntu0.2), libkjsapi4 (= 4:4.8.4a-0ubuntu0.2), libkjsembed4 (= 4:4.8.4a-0ubuntu0.2), libkio5 (= 4:4.8.4a-0ubuntu0.2), libkntlm4 (= 4:4.8.4a-0ubuntu0.2), libsolid4 (= 4:4.8.4a-0ubuntu0.2), libkde3support4 (= 4:4.8.4a-0ubuntu0.2), libkfile4 (= 4:4.8.4a-0ubuntu0.2), libknewstuff2-4 (= 4:4.8.4a-0ubuntu0.2), libknewstuff3-4 (= 4:4.8.4a-0ubuntu0.2), libkparts4 (= 4:4.8.4a-0ubuntu0.2), libkutils4 (= 4:4.8.4a-0ubuntu0.2), libthreadweaver4 (= 4:4.8.4a-0ubuntu0.2), libkhtml5 (= 4:4.8.4a-0ubuntu0.2), libkimproxy4 (= 4:4.8.4a-0ubuntu0.2), libkmediaplayer4 (= 4:4.8.4a-0ubuntu0.2), libktexteditor4 (= 4:4.8.4a-0ubuntu0.2), libknotifyconfig4 (= 4:4.8.4a-0ubuntu0.2), libkdnssd4 (= 4:4.8.4a-0ubuntu0.2), libkrosscore4 (= 4:4.8.4a-0ubuntu0.2), libkrossui4 (= 4:4.8.4a-0ubuntu0.2), libnepomuk4 (= 4:4.8.4a-0ubuntu0.2), libnepomukutils4 (= 4:4.8.4a-0ubuntu0.2), libnepomukquery4a (= 4:4.8.4a-0ubuntu0.2), libplasma3 (= 4:4.8.4a-0ubuntu0.2), libkunitconversion4 (= 4:4.8.4a-0ubuntu0.2), libkdewebkit5 (= 4:4.8.4a-0ubuntu0.2), libkcmutils4 (= 4:4.8.4a-0ubuntu0.2), libkemoticons4 (= 4:4.8.4a-0ubuntu0.2), libkidletime4 (= 4:4.8.4a-0ubuntu0.2), libkprintutils4 (= 4:4.8.4a-0ubuntu0.2), libkdeclarative5 (= 4:4.8.4a-0ubuntu0.2), kdelibs-bin (= 4:4.8.4a-0ubuntu0.2)
-Filename: pool/main/k/kde4libs/kdelibs5-dbg_4.8.4a-0ubuntu0.2_i386.deb
-Size: 72431596
-MD5sum: 0a45bec66165bc151b8d66a74db29c8a
-SHA1: 1dd356632f06e5f4654d3ceff1b4f6b9057dccad
-SHA256: b294f27a26b4662877363f5711bc14ca7119abc4c6f1cc0e693416fc1f01f4d8
+Recommends: libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libkpty4 (= 4:4.8.5-0ubuntu0.2), libkdesu5 (= 4:4.8.5-0ubuntu0.2), libkjsapi4 (= 4:4.8.5-0ubuntu0.2), libkjsembed4 (= 4:4.8.5-0ubuntu0.2), libkio5 (= 4:4.8.5-0ubuntu0.2), libkntlm4 (= 4:4.8.5-0ubuntu0.2), libsolid4 (= 4:4.8.5-0ubuntu0.2), libkde3support4 (= 4:4.8.5-0ubuntu0.2), libkfile4 (= 4:4.8.5-0ubuntu0.2), libknewstuff2-4 (= 4:4.8.5-0ubuntu0.2), libknewstuff3-4 (= 4:4.8.5-0ubuntu0.2), libkparts4 (= 4:4.8.5-0ubuntu0.2), libkutils4 (= 4:4.8.5-0ubuntu0.2), libthreadweaver4 (= 4:4.8.5-0ubuntu0.2), libkhtml5 (= 4:4.8.5-0ubuntu0.2), libkimproxy4 (= 4:4.8.5-0ubuntu0.2), libkmediaplayer4 (= 4:4.8.5-0ubuntu0.2), libktexteditor4 (= 4:4.8.5-0ubuntu0.2), libknotifyconfig4 (= 4:4.8.5-0ubuntu0.2), libkdnssd4 (= 4:4.8.5-0ubuntu0.2), libkrosscore4 (= 4:4.8.5-0ubuntu0.2), libkrossui4 (= 4:4.8.5-0ubuntu0.2), libnepomuk4 (= 4:4.8.5-0ubuntu0.2), libnepomukutils4 (= 4:4.8.5-0ubuntu0.2), libnepomukquery4a (= 4:4.8.5-0ubuntu0.2), libplasma3 (= 4:4.8.5-0ubuntu0.2), libkunitconversion4 (= 4:4.8.5-0ubuntu0.2), libkdewebkit5 (= 4:4.8.5-0ubuntu0.2), libkcmutils4 (= 4:4.8.5-0ubuntu0.2), libkemoticons4 (= 4:4.8.5-0ubuntu0.2), libkidletime4 (= 4:4.8.5-0ubuntu0.2), libkprintutils4 (= 4:4.8.5-0ubuntu0.2), libkdeclarative5 (= 4:4.8.5-0ubuntu0.2), kdelibs-bin (= 4:4.8.5-0ubuntu0.2)
+Filename: pool/main/k/kde4libs/kdelibs5-dbg_4.8.5-0ubuntu0.2_i386.deb
+Size: 72474654
+MD5sum: 767e9d8a073fd9f4402a609e86908113
+SHA1: ed3370ed2e2dca888767e8618cf80137f9b8f1bd
+SHA256: 34a6f319c802ae4082c39473c0b7670843f91e328ce55f10a9ea73f07346bc21
 Description: debugging symbols for the KDE Development Platform libraries
 Homepage: http://www.kde.org/
 Description-md5: 5267f8d9119e5ba93ffb45270c660c6c
@@ -5581,17 +5581,17 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: libkwebkit-dev (<< 0.9~svn1123738), libplasma-dev (<< 4:4.1.96)
-Depends: libc6 (>= 2.4), libkde3support4 (= 4:4.8.4a-0ubuntu0.2), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libstdc++6 (>= 4.1.1), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libkpty4 (= 4:4.8.4a-0ubuntu0.2), libkdesu5 (= 4:4.8.4a-0ubuntu0.2), libkjsapi4 (= 4:4.8.4a-0ubuntu0.2), libkjsembed4 (= 4:4.8.4a-0ubuntu0.2), libkio5 (= 4:4.8.4a-0ubuntu0.2), libkntlm4 (= 4:4.8.4a-0ubuntu0.2), libsolid4 (= 4:4.8.4a-0ubuntu0.2), libkfile4 (= 4:4.8.4a-0ubuntu0.2), libknewstuff2-4 (= 4:4.8.4a-0ubuntu0.2), libknewstuff3-4 (= 4:4.8.4a-0ubuntu0.2), libkparts4 (= 4:4.8.4a-0ubuntu0.2), libkutils4 (= 4:4.8.4a-0ubuntu0.2), libthreadweaver4 (= 4:4.8.4a-0ubuntu0.2), libkhtml5 (= 4:4.8.4a-0ubuntu0.2), libkimproxy4 (= 4:4.8.4a-0ubuntu0.2), libkmediaplayer4 (= 4:4.8.4a-0ubuntu0.2), libktexteditor4 (= 4:4.8.4a-0ubuntu0.2), libknotifyconfig4 (= 4:4.8.4a-0ubuntu0.2), libkdnssd4 (= 4:4.8.4a-0ubuntu0.2), libkrosscore4 (= 4:4.8.4a-0ubuntu0.2), libkrossui4 (= 4:4.8.4a-0ubuntu0.2), libnepomuk4 (= 4:4.8.4a-0ubuntu0.2), libnepomukutils4 (= 4:4.8.4a-0ubuntu0.2), libnepomukquery4a (= 4:4.8.4a-0ubuntu0.2), libplasma3 (= 4:4.8.4a-0ubuntu0.2), libkunitconversion4 (= 4:4.8.4a-0ubuntu0.2), libkdewebkit5 (= 4:4.8.4a-0ubuntu0.2), libkcmutils4 (= 4:4.8.4a-0ubuntu0.2), libkemoticons4 (= 4:4.8.4a-0ubuntu0.2), libkidletime4 (= 4:4.8.4a-0ubuntu0.2), libkprintutils4 (= 4:4.8.4a-0ubuntu0.2), libkdeclarative5 (= 4:4.8.4a-0ubuntu0.2), kdoctools (= 4:4.8.4a-0ubuntu0.2), kdelibs-bin (= 4:4.8.4a-0ubuntu0.2), automoc (>= 1.0~version-0.9.88), libqt4-dev (>= 4:4.8.0), libsoprano-dev (>= 2.5.63), libphonon-dev (>= 4:4.7.0really4.4.3)
+Depends: libc6 (>= 2.4), libkde3support4 (= 4:4.8.5-0ubuntu0.2), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libstdc++6 (>= 4.1.1), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libkpty4 (= 4:4.8.5-0ubuntu0.2), libkdesu5 (= 4:4.8.5-0ubuntu0.2), libkjsapi4 (= 4:4.8.5-0ubuntu0.2), libkjsembed4 (= 4:4.8.5-0ubuntu0.2), libkio5 (= 4:4.8.5-0ubuntu0.2), libkntlm4 (= 4:4.8.5-0ubuntu0.2), libsolid4 (= 4:4.8.5-0ubuntu0.2), libkfile4 (= 4:4.8.5-0ubuntu0.2), libknewstuff2-4 (= 4:4.8.5-0ubuntu0.2), libknewstuff3-4 (= 4:4.8.5-0ubuntu0.2), libkparts4 (= 4:4.8.5-0ubuntu0.2), libkutils4 (= 4:4.8.5-0ubuntu0.2), libthreadweaver4 (= 4:4.8.5-0ubuntu0.2), libkhtml5 (= 4:4.8.5-0ubuntu0.2), libkimproxy4 (= 4:4.8.5-0ubuntu0.2), libkmediaplayer4 (= 4:4.8.5-0ubuntu0.2), libktexteditor4 (= 4:4.8.5-0ubuntu0.2), libknotifyconfig4 (= 4:4.8.5-0ubuntu0.2), libkdnssd4 (= 4:4.8.5-0ubuntu0.2), libkrosscore4 (= 4:4.8.5-0ubuntu0.2), libkrossui4 (= 4:4.8.5-0ubuntu0.2), libnepomuk4 (= 4:4.8.5-0ubuntu0.2), libnepomukutils4 (= 4:4.8.5-0ubuntu0.2), libnepomukquery4a (= 4:4.8.5-0ubuntu0.2), libplasma3 (= 4:4.8.5-0ubuntu0.2), libkunitconversion4 (= 4:4.8.5-0ubuntu0.2), libkdewebkit5 (= 4:4.8.5-0ubuntu0.2), libkcmutils4 (= 4:4.8.5-0ubuntu0.2), libkemoticons4 (= 4:4.8.5-0ubuntu0.2), libkidletime4 (= 4:4.8.5-0ubuntu0.2), libkprintutils4 (= 4:4.8.5-0ubuntu0.2), libkdeclarative5 (= 4:4.8.5-0ubuntu0.2), kdoctools (= 4:4.8.5-0ubuntu0.2), kdelibs-bin (= 4:4.8.5-0ubuntu0.2), automoc (>= 1.0~version-0.9.88), libqt4-dev (>= 4:4.8.0), libsoprano-dev (>= 2.5.63), libphonon-dev (>= 4:4.7.0really4.4.3)
 Recommends: libqt4-opengl-dev (>= 4:4.7.0)
 Conflicts: kdelibs4-dev, libkjsembed-dev
 Breaks: libkwebkit-dev (<< 0.9~svn1123738), libplasma-dev (<< 4:4.1.96), pkg-kde-tools (<< 0.9)
-Filename: pool/main/k/kde4libs/kdelibs5-dev_4.8.4a-0ubuntu0.2_i386.deb
-Size: 1437486
-MD5sum: af0bc2ee3647a08fc084dacad3668244
-SHA1: 16a99fab805b372109baa79721b52466385be098
-SHA256: 4fa4a034a41073a1c03de409f93cb9f0cf193e7a97492e02a310c85932d76e82
+Filename: pool/main/k/kde4libs/kdelibs5-dev_4.8.5-0ubuntu0.2_i386.deb
+Size: 1435396
+MD5sum: c2336bd9eb369d293f14903125d5977d
+SHA1: 2c4a542d5529d720debdb5712475196837f33f7d
+SHA256: 3f2918c2d3649de0c0e317f7460a3aef70b538f1fa342f4f2c7a9ff3bea231b7
 Description: development files for the KDE Development Platform libraries
 Homepage: http://www.kde.org/
 Description-md5: 4143b0754ef485c998c2c10e78ae60ce
@@ -5608,13 +5608,13 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
-Depends: kdelibs5-dev (= 4:4.8.4a-0ubuntu0.2), libkdeclarative5 (= 4:4.8.4a-0ubuntu0.2)
-Filename: pool/main/k/kde4libs/kdelibs5-experimental-dev_4.8.4a-0ubuntu0.2_i386.deb
-Size: 23942
-MD5sum: 25ecea308d04324c44062fc90c5812d2
-SHA1: 7f06377d39c6ac93c43b7a41d322b3a01ff76a9c
-SHA256: 35fb32ad3d05e0bbf4caec5eb55d3873baa05581df4fba398a7193175ccc140f
+Version: 4:4.8.5-0ubuntu0.2
+Depends: kdelibs5-dev (= 4:4.8.5-0ubuntu0.2), libkdeclarative5 (= 4:4.8.5-0ubuntu0.2)
+Filename: pool/main/k/kde4libs/kdelibs5-experimental-dev_4.8.5-0ubuntu0.2_i386.deb
+Size: 23990
+MD5sum: dcd4035f8d55d91ebc192f753f3afa73
+SHA1: 2a9b13618d7770271fec091137f043cc65a4c040
+SHA256: 1054150dce4484a3eb075d0b2bf7d89afa231a0d69f296c405a504d0a054b0dc
 Description: experimental development files for the KDE Development Platform libraries
 Homepage: http://www.kde.org/
 Description-md5: 3ee3840263808a7c23367362a235c5bd
@@ -5630,16 +5630,16 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60), kdelibs5-dev (<< 4:4.6.80~)
-Depends: libacl1 (>= 2.2.51-5), libc6 (>= 2.15), libenchant1c2a (>= 1.6), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libilmbase6 (>= 1.0.1), libjasper1, libkde3support4 (= 4:4.8.4a-0ubuntu0.2), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libkdewebkit5 (= 4:4.8.4a-0ubuntu0.2), libkemoticons4 (= 4:4.8.4a-0ubuntu0.2), libkfile4 (= 4:4.8.4a-0ubuntu0.2), libkhtml5 (= 4:4.8.4a-0ubuntu0.2), libkio5 (= 4:4.8.4a-0ubuntu0.2), libkjsapi4 (= 4:4.8.4a-0ubuntu0.2), libkjsembed4 (= 4:4.8.4a-0ubuntu0.2), libkntlm4 (= 4:4.8.4a-0ubuntu0.2), libkparts4 (= 4:4.8.4a-0ubuntu0.2), libkrosscore4 (= 4:4.8.4a-0ubuntu0.2), libopenexr6 (>= 1.6.1), libphonon4 (>= 4:4.7.0really4.3.80), libpolkit-qt-1-1 (>= 0.99.0), libqt4-dbus (>= 4:4.7.0), libqt4-network (>= 4:4.7.0), libqt4-qt3support (>= 4:4.7.0), libqt4-script (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libsolid4 (= 4:4.8.4a-0ubuntu0.2), libstdc++6 (>= 4.4.0), libx11-6, zlib1g (>= 1:1.1.4), perl, kdelibs5-data (= 4:4.8.4a-0ubuntu0.2), kdoctools (= 4:4.8.4a-0ubuntu0.2), kdelibs-bin (= 4:4.8.4a-0ubuntu0.2), dbus-x11, shared-mime-info (>= 0.30), xdg-utils, katepart
+Depends: libacl1 (>= 2.2.51-5), libc6 (>= 2.15), libenchant1c2a (>= 1.6), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libilmbase6 (>= 1.0.1), libjasper1, libkde3support4 (= 4:4.8.5-0ubuntu0.2), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libkdewebkit5 (= 4:4.8.5-0ubuntu0.2), libkemoticons4 (= 4:4.8.5-0ubuntu0.2), libkfile4 (= 4:4.8.5-0ubuntu0.2), libkhtml5 (= 4:4.8.5-0ubuntu0.2), libkio5 (= 4:4.8.5-0ubuntu0.2), libkjsapi4 (= 4:4.8.5-0ubuntu0.2), libkjsembed4 (= 4:4.8.5-0ubuntu0.2), libkntlm4 (= 4:4.8.5-0ubuntu0.2), libkparts4 (= 4:4.8.5-0ubuntu0.2), libkrosscore4 (= 4:4.8.5-0ubuntu0.2), libopenexr6 (>= 1.6.1), libphonon4 (>= 4:4.7.0really4.3.80), libpolkit-qt-1-1 (>= 0.99.0), libqt4-dbus (>= 4:4.7.0), libqt4-network (>= 4:4.7.0), libqt4-qt3support (>= 4:4.7.0), libqt4-script (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libsolid4 (= 4:4.8.5-0ubuntu0.2), libstdc++6 (>= 4.4.0), libx11-6, zlib1g (>= 1:1.1.4), perl, kdelibs5-data (= 4:4.8.5-0ubuntu0.2), kdoctools (= 4:4.8.5-0ubuntu0.2), kdelibs-bin (= 4:4.8.5-0ubuntu0.2), dbus-x11, shared-mime-info (>= 0.30), xdg-utils, katepart
 Recommends: ttf-dejavu-core, kde-runtime
 Breaks: kdelibs5 (<< 4:4.4.60), kdelibs5-dev (<< 4:4.6.80~), kdevelop (<< 4:4.2)
-Filename: pool/main/k/kde4libs/kdelibs5-plugins_4.8.4a-0ubuntu0.2_i386.deb
-Size: 945408
-MD5sum: 837087d356a4e8e43787e3058f279a0c
-SHA1: 0d46bf4a2ce3b76bab35673b338f725d1bf645c6
-SHA256: 8f66ca0351e309caadedb5b03b6af6e2cbe8a5f9a486f4be3e882dd6bdc08d7e
+Filename: pool/main/k/kde4libs/kdelibs5-plugins_4.8.5-0ubuntu0.2_i386.deb
+Size: 946858
+MD5sum: 40695c6211b109fc7d90c2e47f1e5174
+SHA1: 0c8b87f1da4e640a67178e36c3ec853297eb5107
+SHA256: ebf50a9a5a1afbe8bf7bc711dc7031c82b8ff6586aa04b7a82ac1916a75b495d
 Description: core plugins for KDE Applications
 Homepage: http://www.kde.org/
 Description-md5: 47c4a19af28fe26f79c1626027f99953
@@ -5955,20 +5955,20 @@ Task: kubuntu-full, kubuntu-active-full
 Package: kdoctools
 Priority: optional
 Section: libs
-Installed-Size: 2032
+Installed-Size: 2035
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs-bin (<< 4:4.4.60), kdelibs5 (<< 4:4.4.60), kdelibs5-data (<< 4:4.4.60)
-Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkio5 (= 4:4.8.4a-0ubuntu0.2), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), docbook-xml, docbook-xsl, libxml2-utils
+Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkio5 (= 4:4.8.5-0ubuntu0.2), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), docbook-xml, docbook-xsl, libxml2-utils
 Breaks: kdelibs-bin (<< 4:4.4.60), kdelibs5 (<< 4:4.4.60), kdelibs5-data (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/kdoctools_4.8.4a-0ubuntu0.2_i386.deb
-Size: 173000
-MD5sum: bee0c480286c33303939ee5b82543586
-SHA1: df18c3d68cdaf8501b94b931b65dc8fef6536593
-SHA256: af06fd2cbdc7779e366b5d349fcdb557f57b72e1caf4af640e1987fd536e3478
+Filename: pool/main/k/kde4libs/kdoctools_4.8.5-0ubuntu0.2_i386.deb
+Size: 174002
+MD5sum: aa118a0741b891320843f17071859822
+SHA1: 529164c62c54006ef9ce9e71f725d312ea3bdc9d
+SHA256: a305f53fad70bd5a38fbf464ddfa10b646bbbfabbee1907c6178a7114edbacd2
 Description: various tools for accessing application documentation
 Homepage: http://www.kde.org/
 Description-md5: 238d6e603fc4c3e7e34babe8e5e78683
@@ -10956,15 +10956,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: libkutils4 (<= 4:4.5.80)
-Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.8.0), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.8.0), libstdc++6 (>= 4.1.1)
 Breaks: libkutils4 (<= 4:4.5.80)
-Filename: pool/main/k/kde4libs/libkcmutils4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 95992
-MD5sum: f64c1b2fe22756572bcd8a8133fbc19d
-SHA1: b052ef3087eaa0cdd0f9bbb92931eafba9bfbd1f
-SHA256: e84e8946471da83af4fc3581748966618ea36d116c84e8bab864e0df635c6e05
+Filename: pool/main/k/kde4libs/libkcmutils4_4.8.5-0ubuntu0.2_i386.deb
+Size: 95994
+MD5sum: 78e24d3792ac8f08542f62137510fe9c
+SHA1: 516a8bb3c2730a172758d63a9128359ae2e0de4d
+SHA256: 2062663ce52a6f04255c3a9d8a322f249ca00c626c1d9f2991534b18aeefe787
 Description: utility classes for using KCM modules
 Homepage: http://www.kde.org/
 Description-md5: 0664b9af20b96f1c42e9dc3e04e67da4
@@ -11007,15 +11007,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60)
-Depends: libc6 (>= 2.15), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libkio5 (= 4:4.8.4a-0ubuntu0.2), libkparts4 (= 4:4.8.4a-0ubuntu0.2), libkpty4 (= 4:4.8.4a-0ubuntu0.2), libqt4-qt3support (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.8.0), libstdc++6 (>= 4.4.0), libx11-6
+Depends: libc6 (>= 2.15), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libkio5 (= 4:4.8.5-0ubuntu0.2), libkparts4 (= 4:4.8.5-0ubuntu0.2), libkpty4 (= 4:4.8.5-0ubuntu0.2), libqt4-qt3support (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.8.0), libstdc++6 (>= 4.4.0), libx11-6
 Breaks: kdelibs5 (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libkde3support4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 310230
-MD5sum: fdf0920d602dac8bd33c57de801e9d27
-SHA1: 33a78081276e8ccbc1a8885705078a0e760fd90b
-SHA256: 6d975e35a42acd1e9fad84ef49ce6f9993a7ccf5d16fe8bf12af34a3b05e8e3e
+Filename: pool/main/k/kde4libs/libkde3support4_4.8.5-0ubuntu0.2_i386.deb
+Size: 310620
+MD5sum: 810d16ab26ee3a9cc318bd8ff51f77a8
+SHA1: 6b8474c4575a2f3b047a1cbd32f1c5fec2d9910c
+SHA256: a77c1ae8872b5a0457076ef52f51c368a62f4fb78a626d9b03e5a1612d459996
 Description: KDE 3 Support Library for the KDE 4 Platform
 Homepage: http://www.kde.org/
 Description-md5: 991cc7b40c4c49f2141dd24fe02e64be
@@ -11032,13 +11032,13 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
-Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libqt4-declarative (>= 4:4.7.0), libqt4-script (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
-Filename: pool/main/k/kde4libs/libkdeclarative5_4.8.4a-0ubuntu0.2_i386.deb
-Size: 38406
-MD5sum: a6e416754e577f06a4e8164779f284a9
-SHA1: f1e94c5271e18df3fc7465cd70776c28c212f9c4
-SHA256: 100b7db592c7613281e66a4f37fc8a636d8a1193137a911d5ff18f5fd02a8141
+Version: 4:4.8.5-0ubuntu0.2
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libqt4-declarative (>= 4:4.7.0), libqt4-script (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Filename: pool/main/k/kde4libs/libkdeclarative5_4.8.5-0ubuntu0.2_i386.deb
+Size: 38338
+MD5sum: 22d5cb22d2be0c576b1c5e54144c0b26
+SHA1: 98e11ffde8b29c773f743d5d4b0738d28249e5b2
+SHA256: 04e1ba85f0a5920d181cf044143df100b3779e087c2f3f0e740b54da532aea08
 Description: Declarative library for plasma
 Homepage: http://www.kde.org/
 Description-md5: 08d9c582f966b43857468536fd35fccf
@@ -11050,20 +11050,20 @@ Task: kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop-
 Package: libkdecore5
 Priority: optional
 Section: libs
-Installed-Size: 3389
+Installed-Size: 3385
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60), kdelibs5-data (<< 4:4.4.60)
 Depends: libbz2-1.0, libc6 (>= 2.15), libdlrestrictions1 (>= 0.14), libgcc1 (>= 1:4.1.1), liblzma5 (>= 5.1.1alpha+20110809), libqt4-dbus (>= 4:4.7.0), libqt4-network (>= 4:4.8.0), libqtcore4 (>= 4:4.8.0), libstdc++6 (>= 4.4.0), zlib1g (>= 1:1.1.4)
 Breaks: kdelibs5 (<< 4:4.4.60), kdelibs5-data (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libkdecore5_4.8.4a-0ubuntu0.2_i386.deb
-Size: 934454
-MD5sum: 680f25ba5793ef82262670a8ce34e152
-SHA1: ca799cb5a540bca30994537ff5e3b08d83a66cac
-SHA256: 9bc06bc0ba3082696c760174c253eefbc84837c6992d72deaccf4382c8da6d3e
+Filename: pool/main/k/kde4libs/libkdecore5_4.8.5-0ubuntu0.2_i386.deb
+Size: 933836
+MD5sum: e0245b2708238e1327c3e6930508ac93
+SHA1: bb1e8afcf73285b689479ef017bd374dbfe649f8
+SHA256: 08924bd47b9c7c37adf7aa4394db1c704247f9fe467ad34408e56f0801fa0b66
 Description: KDE Platform Core Library
 Homepage: http://www.kde.org/
 Description-md5: 63b72d99622f0f39483e2857c12b1ce7
@@ -11130,15 +11130,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60)
-Depends: libc6 (>= 2.15), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkpty4 (= 4:4.8.4a-0ubuntu0.2), libqtcore4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1), xauth
+Depends: libc6 (>= 2.15), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkpty4 (= 4:4.8.5-0ubuntu0.2), libqtcore4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1), xauth
 Breaks: kdelibs5 (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libkdesu5_4.8.4a-0ubuntu0.2_i386.deb
-Size: 52486
-MD5sum: 9c2e808ea1b101e1ed31a41f0b317696
-SHA1: 6c5638dec0972983ff273dbb23544459bccc3956
-SHA256: 0ebc6130947105789d3b2983d11c5bbb733f5f410876574124d2894001533813
+Filename: pool/main/k/kde4libs/libkdesu5_4.8.5-0ubuntu0.2_i386.deb
+Size: 52530
+MD5sum: c0278dc6447bc2212beef041c290385a
+SHA1: a57fc28d7b10667ca0a19973e335eaee978311a3
+SHA256: 33d7020ce1af10ae5272c09da0a9cf2bc92bba2b2d1d7d79bae732125f602dc1
 Description: Console-mode Authentication Library for the KDE Platform
 Homepage: http://www.kde.org/
 Description-md5: b0a8912323d2acc159aee09909172425
@@ -11155,17 +11155,17 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60)
-Depends: libattica0.3 (>= 0.3.0), libc6 (>= 2.4), libdbusmenu-qt2 (>= 0.3.2), libgcc1 (>= 1:4.1.1), libice6 (>= 1:1.0.0), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqt4-network (>= 4:4.7.0), libqt4-svg (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libsm6, libstdc++6 (>= 4.1.1), libx11-6, libxrender1
-Recommends: kdelibs5-data (>= 4:4.8.4a-0ubuntu0.2)
+Depends: libattica0.3 (>= 0.3.0), libc6 (>= 2.4), libdbusmenu-qt2 (>= 0.3.2), libgcc1 (>= 1:4.1.1), libice6 (>= 1:1.0.0), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqt4-network (>= 4:4.7.0), libqt4-svg (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libsm6, libstdc++6 (>= 4.1.1), libx11-6, libxrender1
+Recommends: kdelibs5-data (>= 4:4.8.5-0ubuntu0.2)
 Suggests: hspell
 Breaks: kdelibs5 (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libkdeui5_4.8.4a-0ubuntu0.2_i386.deb
-Size: 1323942
-MD5sum: a83603c5cc5c943273a53b5c3f6aa8a1
-SHA1: b85468d57a2eaa4df4c9dc06a41d4acb80108f08
-SHA256: 6960bf8d2f5a69a155bf750b0d6652d06f9a83e71e7f6ae84ae912ee83e1670a
+Filename: pool/main/k/kde4libs/libkdeui5_4.8.5-0ubuntu0.2_i386.deb
+Size: 1323806
+MD5sum: e19c17b25fbecaf91d5efe63a6b53ea1
+SHA1: 114c630508d78fc8ca14891f602da878f02b106e
+SHA256: a7a6c8054a7423f6aa3b6beefef55b2cc28e8af2fd8759cb4ba14c07616d3fb7
 Description: KDE Platform User Interface Library
 Homepage: http://www.kde.org/
 Description-md5: dd888935d1059e0ffd266016dcabd53c
@@ -11177,20 +11177,20 @@ Task: kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop-
 Package: libkdewebkit5
 Priority: optional
 Section: libs
-Installed-Size: 330
+Installed-Size: 326
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.80)
-Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libkio5 (= 4:4.8.4a-0ubuntu0.2), libkparts4 (= 4:4.8.4a-0ubuntu0.2), libqt4-network (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libqtwebkit4 (>= 2.2~2011week36), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libkio5 (= 4:4.8.5-0ubuntu0.2), libkparts4 (= 4:4.8.5-0ubuntu0.2), libqt4-network (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libqtwebkit4 (>= 2.2~2011week36), libstdc++6 (>= 4.1.1)
 Breaks: kdelibs5 (<< 4:4.4.80)
-Filename: pool/main/k/kde4libs/libkdewebkit5_4.8.4a-0ubuntu0.2_i386.deb
-Size: 62636
-MD5sum: aaa3829fe71df7be2f3f16fc332339b9
-SHA1: e47f73fd91c62541201a05594ff2ee3e08f842a9
-SHA256: 5a58a0f4b36f761ef86b27e5fc959eee633424d01dd8f1ccfe49f6f600320e65
+Filename: pool/main/k/kde4libs/libkdewebkit5_4.8.5-0ubuntu0.2_i386.deb
+Size: 62328
+MD5sum: c8ccb666c4d7843cd96eea28bc0101c9
+SHA1: 177a70a29d9c180cbffabf23dd829622fb5c8c45
+SHA256: 603484ff0aeefd6e79ea62a98b28bc376883cbbc5b2fe1119c08a4987ce1943b
 Description: KDE WebKit Library
 Homepage: http://www.kde.org/
 Description-md5: 37f74b24ea041b93eceb237236a38db3
@@ -11231,15 +11231,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60)
-Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqt4-network (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqt4-network (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
 Breaks: kdelibs5 (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libkdnssd4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 68860
-MD5sum: 04aff5bbadb19345e553ceb5e9ccf6d9
-SHA1: cb4b7c6f531d48d8175221b09a79297545fe932e
-SHA256: 13cf3d6923372cb4ab5e3955aaddf22088c6d93e0d657a9ac8c1cfb5b1648528
+Filename: pool/main/k/kde4libs/libkdnssd4_4.8.5-0ubuntu0.2_i386.deb
+Size: 68826
+MD5sum: 75cc2fca158150ca57ddcabe9ca8807d
+SHA1: e2b45e3a4629033ae6e824d36c5fe7ce0efb78da
+SHA256: 5b1176271226a21f6a4d9d789a417c30c2657d64eac57446e1388822bf9dcfea
 Description: DNS-SD Protocol Library for the KDE Platform
 Homepage: http://www.kde.org/
 Description-md5: a67f398f302ac7c437c2db6660c0cb5d
@@ -11256,15 +11256,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: libkutils4 (<< 4:4.5.80)
-Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkio5 (= 4:4.8.4a-0ubuntu0.2), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkio5 (= 4:4.8.5-0ubuntu0.2), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
 Breaks: libkutils4 (<< 4:4.5.80)
-Filename: pool/main/k/kde4libs/libkemoticons4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 42222
-MD5sum: e31724985f025ede05cc89761f829c4d
-SHA1: d2fdb5e8d12bc9d678a61ab47d7e2572905ee946
-SHA256: 1fb6de05acbf9a3f3055253f614dd5a6722f4ba0290834884d0cc98f19326ed5
+Filename: pool/main/k/kde4libs/libkemoticons4_4.8.5-0ubuntu0.2_i386.deb
+Size: 42218
+MD5sum: de81923c9d4694e66f8ba5a2ef2ee16b
+SHA1: 4cc20974cda3219b0fbee8b98cc2182bec80912f
+SHA256: 0f2f23cf8a6adf70964e746f89e50bde700946a93bce4ec1173b9b53b488aa64
 Description: utility classes to deal with emoticon themes
 Homepage: http://www.kde.org/
 Description-md5: cae26d9220ef55bb5d93e6e50aaabbeb
@@ -11276,20 +11276,20 @@ Task: kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop-
 Package: libkfile4
 Priority: optional
 Section: libs
-Installed-Size: 897
+Installed-Size: 898
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60), kdelibs5-data (<< 4:4.4.60)
-Depends: libc6 (>= 2.2), libgcc1 (>= 1:4.1.1), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libkio5 (= 4:4.8.4a-0ubuntu0.2), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.8.0), libsolid4 (= 4:4.8.4a-0ubuntu0.2), libstdc++6 (>= 4.1.1), libxrender1
+Depends: libc6 (>= 2.2), libgcc1 (>= 1:4.1.1), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libkio5 (= 4:4.8.5-0ubuntu0.2), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.8.0), libsolid4 (= 4:4.8.5-0ubuntu0.2), libstdc++6 (>= 4.1.1), libxrender1
 Breaks: kdelibs5 (<< 4:4.4.60), kdelibs5-data (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libkfile4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 227300
-MD5sum: 6a451ce7153afd61c4fae60bdb46240c
-SHA1: ad6a55402900b72fc969337766535362ae7cb01d
-SHA256: 67d1306f3190c9a7f5d4b733d201db9d83a941b488a1c5c53a5e7d9b1fdec14a
+Filename: pool/main/k/kde4libs/libkfile4_4.8.5-0ubuntu0.2_i386.deb
+Size: 228146
+MD5sum: 0d9cc332d1a0cc46dc22bf4443bf4933
+SHA1: fe7bcf1bf3130083b015b95956122a173ebfd178
+SHA256: 97a63d55cc2ce7023caa08863bab2a80b938b42bdb72c6b7511523a227e81cae
 Description: File Selection Dialog Library for KDE Platform
 Homepage: http://www.kde.org/
 Description-md5: ca6120f48cf645c62bd18c493fa976ce
@@ -11326,21 +11326,21 @@ Task: kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full
 Package: libkhtml5
 Priority: optional
 Section: libs
-Installed-Size: 7119
+Installed-Size: 7131
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60)
-Depends: libc6 (>= 2.11), libgcc1 (>= 1:4.1.1), libgif4 (>= 4.1.4), libjpeg8 (>= 8c), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libkio5 (= 4:4.8.4a-0ubuntu0.2), libkjsapi4 (= 4:4.8.4a-0ubuntu0.2), libkparts4 (= 4:4.8.4a-0ubuntu0.2), libktexteditor4 (= 4:4.8.4a-0ubuntu0.2), libphonon4 (>= 4:4.7.0really4.4.3), libpng12-0 (>= 1.2.13-4), libqt4-dbus (>= 4:4.7.0), libqt4-network (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libstdc++6 (>= 4.1.1), libx11-6, zlib1g (>= 1:1.1.4)
-Recommends: kdelibs5-plugins (= 4:4.8.4a-0ubuntu0.2)
+Depends: libc6 (>= 2.11), libgcc1 (>= 1:4.1.1), libgif4 (>= 4.1.4), libjpeg8 (>= 8c), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libkio5 (= 4:4.8.5-0ubuntu0.2), libkjsapi4 (= 4:4.8.5-0ubuntu0.2), libkparts4 (= 4:4.8.5-0ubuntu0.2), libktexteditor4 (= 4:4.8.5-0ubuntu0.2), libphonon4 (>= 4:4.7.0really4.4.3), libpng12-0 (>= 1.2.13-4), libqt4-dbus (>= 4:4.7.0), libqt4-network (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libstdc++6 (>= 4.1.1), libx11-6, zlib1g (>= 1:1.1.4)
+Recommends: kdelibs5-plugins (= 4:4.8.5-0ubuntu0.2)
 Breaks: kdelibs5 (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libkhtml5_4.8.4a-0ubuntu0.2_i386.deb
-Size: 1882872
-MD5sum: cf9e1917a01365275c1d9fd136798c9d
-SHA1: 75a05b96e39651636e9f4966531bfcfe97052568
-SHA256: 8f60b51b6ac05bacddc3f76c553a6bba42102060de47caf0ac66287ff38acfbb
+Filename: pool/main/k/kde4libs/libkhtml5_4.8.5-0ubuntu0.2_i386.deb
+Size: 1890078
+MD5sum: fb61b99943247f9be01e8f2fe11df8e6
+SHA1: 90121f0b46bd7592678f96bcf3da2d3df33240f6
+SHA256: eda9dec0f531fe313da1fb238e8a06e008889abed80132a8347677515eb4fb16
 Description: KHTML Web Content Rendering Engine
 Homepage: http://www.kde.org/
 Description-md5: 6fdc11e326da0a1bd495dcdc96640c27
@@ -11357,15 +11357,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: libkutils4 (<< 4:4.5.80)
-Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1), libx11-6, libxext6, libxss1
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1), libx11-6, libxext6, libxss1
 Breaks: libkutils4 (<< 4:4.5.80)
-Filename: pool/main/k/kde4libs/libkidletime4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 38456
-MD5sum: 87cd660cb5ac535b3a29f09627349cf1
-SHA1: 2ec8c4f3b4a28ebb3150441f61c8ee84ccf40841
-SHA256: 1bf860f0121d3e7d20790568206ac65a3048666e88b6a4929c47a0e938814d03
+Filename: pool/main/k/kde4libs/libkidletime4_4.8.5-0ubuntu0.2_i386.deb
+Size: 38430
+MD5sum: 96470289b5e5229a4b81c3c11e86250e
+SHA1: d2181e7b1ea01534e9e220d2e4a81b2a37d74496
+SHA256: 60729f38f8dc37fe27601ebea9defdc5a9576281e65e5c50ab416572c48928b3
 Description: library to provide information about idle time
 Homepage: http://www.kde.org/
 Description-md5: 5eb21e2d5fd8b18292c2b04164cbd62f
@@ -11407,15 +11407,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60), kdelibs5-data (<< 4:4.4.60)
-Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libkio5 (= 4:4.8.4a-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libkio5 (= 4:4.8.5-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
 Breaks: kdelibs5 (<< 4:4.4.60), kdelibs5-data (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libkimproxy4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 46608
-MD5sum: 5334412c31ace70a565e3fe7b0e51303
-SHA1: 75a77bfa4f50ff2baf24015e304541a094dc5ccd
-SHA256: ae20734ddc2428848d05ab1efdd2b04d29aa175c49f428d0724c350f59f737ae
+Filename: pool/main/k/kde4libs/libkimproxy4_4.8.5-0ubuntu0.2_i386.deb
+Size: 46640
+MD5sum: c3c3f496faec92d44cedd9e1941224be
+SHA1: 0ff4354da5e8ae088880feda07a0b9143e508d6c
+SHA256: 455e66192b90306d1fcdd23dfa596dae38f4f656fc395d6332f985f90fe83354
 Description: Instant Messaging Interface Library for the KDE Platform
 Homepage: http://www.kde.org/
 Description-md5: 68e45e2a7240f7aa539c55fa9670181b
@@ -11432,16 +11432,16 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60), kdelibs5-data (<< 4:4.4.60)
-Depends: libacl1 (>= 2.2.51-5), libattr1 (>= 1:2.4.46-5), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libnepomuk4 (= 4:4.8.4a-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqt4-network (>= 4:4.8.0), libqt4-svg (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libsolid4 (= 4:4.8.4a-0ubuntu0.2), libstdc++6 (>= 4.1.1), libstreamanalyzer0 (>= 0.7.7), libx11-6, libxrender1
-Recommends: kdelibs5-plugins (= 4:4.8.4a-0ubuntu0.2)
+Depends: libacl1 (>= 2.2.51-5), libattr1 (>= 1:2.4.46-5), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libnepomuk4 (= 4:4.8.5-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqt4-network (>= 4:4.8.0), libqt4-svg (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libsolid4 (= 4:4.8.5-0ubuntu0.2), libstdc++6 (>= 4.1.1), libstreamanalyzer0 (>= 0.7.7), libx11-6, libxrender1
+Recommends: kdelibs5-plugins (= 4:4.8.5-0ubuntu0.2)
 Breaks: kdelibs5 (<< 4:4.4.60), kdelibs5-data (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libkio5_4.8.4a-0ubuntu0.2_i386.deb
-Size: 864894
-MD5sum: 7f828786f1265122da95faa76a4d1b4d
-SHA1: 98af766b469be22a79960476ff1602f33936dbd7
-SHA256: eeb45c87dbeaa034d8a27c97d14737412c5669427f85def2001bb071d1a9526e
+Filename: pool/main/k/kde4libs/libkio5_4.8.5-0ubuntu0.2_i386.deb
+Size: 865334
+MD5sum: bb92ba3521ccf098cc599a24b5fa53f8
+SHA1: e2d72978e2a4ddfc8dfbe44bc924b47ce923cf38
+SHA256: e1d1f15913ca94ffa98cd096f0bf5d7c283663301ba596216c1d230dcae9eaf3
 Description: Network-enabled File Management Library for the KDE Platform
 Homepage: http://www.kde.org/
 Description-md5: f9d64e3dda3bf4c061b02623b14ed159
@@ -11458,15 +11458,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60)
-Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libpcre3 (>= 8.10), libqtcore4 (>= 4:4.7.0), libstdc++6 (>= 4.2.1)
+Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libpcre3 (>= 8.10), libqtcore4 (>= 4:4.7.0), libstdc++6 (>= 4.2.1)
 Breaks: kdelibs5 (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libkjsapi4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 235626
-MD5sum: 877479488fc225fa6593b88ae370ae6c
-SHA1: b376871221be243072f6f5252f41b042d0c3238d
-SHA256: f0252a88df8f1eaf2675274df586b2c4169560840d47179d4022b58fd8324120
+Filename: pool/main/k/kde4libs/libkjsapi4_4.8.5-0ubuntu0.2_i386.deb
+Size: 235658
+MD5sum: deecd7c9d89b996e58b2391c83338aed
+SHA1: a836822f4d6fb8f99c6ed22a56804cb98961a962
+SHA256: d2e6bd7461b6004700e44a55a57688b3b90904be61d67bc3e1cc27ae6683db38
 Description: KJS API Library for the KDE Development Platform
 Homepage: http://www.kde.org/
 Description-md5: ef5d36e5444d0736d01d3dc877117014
@@ -11483,15 +11483,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60)
-Depends: libc6 (>= 2.1.3), libgcc1 (>= 1:4.1.1), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkjsapi4 (= 4:4.8.4a-0ubuntu0.2), libqt4-svg (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.1.3), libgcc1 (>= 1:4.1.1), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkjsapi4 (= 4:4.8.5-0ubuntu0.2), libqt4-svg (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
 Breaks: kdelibs5 (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libkjsembed4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 343462
-MD5sum: 4563cbe5227625cb400343abe17f741b
-SHA1: 66bb30eec1949f93815146404173dfd219e9a994
-SHA256: 7b4cec6f7364ca48ffbcb735300eea25475f6ecf22e62f325e85df1c6029947f
+Filename: pool/main/k/kde4libs/libkjsembed4_4.8.5-0ubuntu0.2_i386.deb
+Size: 343226
+MD5sum: 3f5c3fa9af124394a71dde0b003ddba9
+SHA1: 31be0dcc1861ace124cd9922f28a2f56356c65f8
+SHA256: 6bc8c2f7ba3612b96d273c869109e0377ae56746531fa19ea388d5d9c9968330
 Description: library for binding JavaScript objects to QObjects
 Homepage: http://www.kde.org/
 Description-md5: 7d592f95900bcda9ed863557c464d5cf
@@ -11600,20 +11600,20 @@ Task: kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full
 Package: libkmediaplayer4
 Priority: optional
 Section: libs
-Installed-Size: 236
+Installed-Size: 237
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60), kdelibs5-data (<< 4:4.4.60)
-Depends: libc6 (>= 2.1.3), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libkparts4 (= 4:4.8.4a-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.1.3), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libkparts4 (= 4:4.8.5-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
 Breaks: kdelibs5 (<< 4:4.4.60), kdelibs5-data (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libkmediaplayer4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 29570
-MD5sum: 676752b75db6efbd752d1da4c2fe0744
-SHA1: 76e23d4471107de41606528b125d81ebd0c33bc1
-SHA256: 944d73abd9dbf28b2ee5908afe3bb90837dd6b99193b414213a6496ca08c9976
+Filename: pool/main/k/kde4libs/libkmediaplayer4_4.8.5-0ubuntu0.2_i386.deb
+Size: 29574
+MD5sum: 09651a6bc2cff11f39d663ab48fd59fc
+SHA1: 97334e10acc0f5c687b0fc1fd1441c54fad45458
+SHA256: 5df5b983b1906bf40b7371445947f84e20ee9d28f442d137ef0b9a24b5b1430e
 Description: KMediaPlayer Interface for the KDE Platform
 Homepage: http://www.kde.org/
 Description-md5: 41939bc408f0c531de5f851dcf989514
@@ -11701,16 +11701,16 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60)
-Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libkio5 (= 4:4.8.4a-0ubuntu0.2), libqt4-network (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
-Recommends: kdelibs5-data (= 4:4.8.4a-0ubuntu0.2), gnupg
+Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libkio5 (= 4:4.8.5-0ubuntu0.2), libqt4-network (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Recommends: kdelibs5-data (= 4:4.8.5-0ubuntu0.2), gnupg
 Breaks: kdelibs5 (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libknewstuff2-4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 139526
-MD5sum: 5579e7f04ca8d836b09d20b88b438e90
-SHA1: be8b84d63264b68da2feb85a317f88a10e171ddb
-SHA256: afb835f94bdd97dae7cfdcf041f6bdcd4a43b42417bb1d685d1bf795c7fe9a74
+Filename: pool/main/k/kde4libs/libknewstuff2-4_4.8.5-0ubuntu0.2_i386.deb
+Size: 139532
+MD5sum: 410eb785ab917ffb9af52df02dc8f5df
+SHA1: b11e18641bdaea4fa275e2ede724245e61fb3697
+SHA256: 9ae8f01aaebb714b881e774e48da5cacf4b694d500d21f8cbf27d9af2c445d40
 Description: "Get Hot New Stuff" v2 Library for the KDE Platform
 Homepage: http://www.kde.org/
 Description-md5: 3b60147847daf44fbccfb1a682258447
@@ -11727,16 +11727,16 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60)
-Depends: libattica0.3 (>= 0.3.0), libc6 (>= 2.4), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libkio5 (= 4:4.8.4a-0ubuntu0.2), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
-Recommends: kdelibs5-data (= 4:4.8.4a-0ubuntu0.2), gnupg
+Depends: libattica0.3 (>= 0.3.0), libc6 (>= 2.4), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libkio5 (= 4:4.8.5-0ubuntu0.2), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Recommends: kdelibs5-data (= 4:4.8.5-0ubuntu0.2), gnupg
 Breaks: kdelibs5 (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libknewstuff3-4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 159358
-MD5sum: ad1f3c3e3226c494d8729849b5c03ae4
-SHA1: 416482b7e671070246db6cba8054224005d97ba0
-SHA256: d179f7d7d830b4fa7b8a3c259f2683194d39c6ea9a7b28f8d566052e4d5f4979
+Filename: pool/main/k/kde4libs/libknewstuff3-4_4.8.5-0ubuntu0.2_i386.deb
+Size: 159308
+MD5sum: a8198fb9d87e61feea7faf84585aea5c
+SHA1: 1b59802fcb687ef801a82aa6c223953f53fd488c
+SHA256: 413bf24f31221228f04ce9f6a452741b150de7f35372a16d98b6e8ebbc803981
 Description: "Get Hot New Stuff" v3 Library for the KDE Platform
 Homepage: http://www.kde.org/
 Description-md5: f38a1ea642d10041b05d41abd81c1721
@@ -11753,15 +11753,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60)
-Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libkio5 (= 4:4.8.4a-0ubuntu0.2), libphonon4 (>= 4:4.7.0really4.3.80), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libkio5 (= 4:4.8.5-0ubuntu0.2), libphonon4 (>= 4:4.7.0really4.3.80), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
 Breaks: kdelibs5 (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libknotifyconfig4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 40418
-MD5sum: fc7aec6098e889caf435da85365afc39
-SHA1: 779f3339158b9f59d50d7559be99572a31ac7ff6
-SHA256: 76d98ea44eae54d56f0f9ea4a9521dfc8fbbe9e26bb650a29c26130c614387b0
+Filename: pool/main/k/kde4libs/libknotifyconfig4_4.8.5-0ubuntu0.2_i386.deb
+Size: 40374
+MD5sum: 4394b44490a4164c680082a493b633ac
+SHA1: d170b1e5d6a8ae31ea8384001c0243d0a4802c0e
+SHA256: 9942f949e3def7056230386fa042cb37c793677c5f18e1b88de30de7313a1f6f
 Description: library for configuring KDE Notifications
 Homepage: http://www.kde.org/
 Description-md5: 92a159564b8bead16419278ef73c0269
@@ -11773,20 +11773,20 @@ Task: kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop-
 Package: libkntlm4
 Priority: optional
 Section: libs
-Installed-Size: 214
+Installed-Size: 215
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60)
-Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libqtcore4 (>= 4:4.7.0)
+Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libqtcore4 (>= 4:4.7.0)
 Breaks: kdelibs5 (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libkntlm4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 28714
-MD5sum: 86e461976a9bc880f38747ca3cf6152a
-SHA1: cafa8ff32271341913d76e096f6ab5fec124b790
-SHA256: 14d8d16441d8a68e3cdfb6a085b8287ae326a6259c556ec9a09e2f7fc39af5e6
+Filename: pool/main/k/kde4libs/libkntlm4_4.8.5-0ubuntu0.2_i386.deb
+Size: 28712
+MD5sum: 90e351cba727ea427e3e541b8abc6890
+SHA1: 193722bc912bb6c55e295d76b7bd14c8631e659a
+SHA256: ef76f2c29f2cd686e66a5528b9b95251cb79f19a0d78d49a36a686198f43d7b3
 Description: NTLM Authentication Library for the KDE Platform
 Homepage: http://www.kde.org/
 Description-md5: a4c2aefaa45147ea6933464366053951
@@ -11828,15 +11828,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60), kdelibs5-data (<< 4:4.4.60)
-Depends: libc6 (>= 2.2), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libkio5 (= 4:4.8.4a-0ubuntu0.2), libnepomuk4 (= 4:4.8.4a-0ubuntu0.2), libnepomukutils4 (= 4:4.8.4a-0ubuntu0.2), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.2), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libkio5 (= 4:4.8.5-0ubuntu0.2), libnepomuk4 (= 4:4.8.5-0ubuntu0.2), libnepomukutils4 (= 4:4.8.5-0ubuntu0.2), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
 Breaks: kdelibs5 (<< 4:4.4.60), kdelibs5-data (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libkparts4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 120316
-MD5sum: d99030ddad28422e0a39fa22d0117df8
-SHA1: 2b2734b0566d58b5c4158a361eda82fc62d1c129
-SHA256: 06ab0ba37a7603f0029c80d6a6373b4037ed446a136c4733b0c45360e1fc68b5
+Filename: pool/main/k/kde4libs/libkparts4_4.8.5-0ubuntu0.2_i386.deb
+Size: 120364
+MD5sum: bd5f56c1270326f16427f7b3225162ea
+SHA1: 55a3d5a70dd338752846fff5bfb51d80e7e1ef53
+SHA256: a46e8d03ec060332e02b8dc9832d5364af552507169f73ff0d49726c8e1b16d1
 Description: Framework for the KDE Platform Graphical Components
 Homepage: http://www.kde.org/
 Description-md5: 98c676da683b1bb14ce3b6e59252a0bb
@@ -11951,15 +11951,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: libkutils4 (<< 4:4.5.80)
-Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libkparts4 (= 4:4.8.4a-0ubuntu0.2), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libkparts4 (= 4:4.8.5-0ubuntu0.2), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
 Breaks: libkutils4 (<< 4:4.5.80)
-Filename: pool/main/k/kde4libs/libkprintutils4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 28392
-MD5sum: d2ab7e7cedbd12c59411d0bbb237910c
-SHA1: e294aefe26498ad509e5d9ea3d867bc7970e3b2f
-SHA256: 3ca8b7b9ea845bb962f4b4119904a9e748d210e723f031c50ec96a616f3bcb87
+Filename: pool/main/k/kde4libs/libkprintutils4_4.8.5-0ubuntu0.2_i386.deb
+Size: 28378
+MD5sum: bd14068003f76c30e4943d1c8335ff3e
+SHA1: f681a3b8dc88797adef9904a614519ada7020882
+SHA256: 1c1780829b74884f104782a6296a2a5bba8666ffe211c5b1cb90c266e6ea0389
 Description: utility classes to deal with printing
 Homepage: http://www.kde.org/
 Description-md5: fd3d73f26788fb553bf5c5fc82981d77
@@ -11976,15 +11976,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60)
-Depends: libc6 (>= 2.15), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libqtcore4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1), libutempter0 (>= 1.1.5)
+Depends: libc6 (>= 2.15), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libqtcore4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1), libutempter0 (>= 1.1.5)
 Breaks: kdelibs5 (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libkpty4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 33366
-MD5sum: 2dd0a30e5c8b5347d4bcdbfdfd1cfdcb
-SHA1: 3777bb4fab63b34cfdd82150b4dbdd32b971cee6
-SHA256: 158b2ab9459d7b449066b1ffe8d74225a41c5c0098a22fc8dd8f02b212166b86
+Filename: pool/main/k/kde4libs/libkpty4_4.8.5-0ubuntu0.2_i386.deb
+Size: 33372
+MD5sum: b3e7d4a74b9417bf1ae9a0e3999b5d68
+SHA1: 312f4e3cef71dbd0c8841b31b64c9488ee8cd9a8
+SHA256: 4bdc5a4db17dc3cb8601e29acbf5b78cc09993000a3e92dc9ab75e763e3f25a3
 Description: Pseudo Terminal Library for the KDE Platform
 Homepage: http://www.kde.org/
 Description-md5: 88650c0f22bb7f0ec349c0b6cf39f941
@@ -12149,20 +12149,20 @@ Task: kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full
 Package: libkrosscore4
 Priority: optional
 Section: libs
-Installed-Size: 321
+Installed-Size: 322
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60)
-Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libqt4-script (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libqt4-script (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
 Breaks: kdelibs5 (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libkrosscore4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 58912
-MD5sum: d64300fcb901e70b46352e7dd4709b23
-SHA1: e18a7e7b45b9801a1b605dc7f26e5b336d79f3fa
-SHA256: 59e27e3e4157dbb420f637d8e62dc08484c057ccbaabf1031f98c240d8852097
+Filename: pool/main/k/kde4libs/libkrosscore4_4.8.5-0ubuntu0.2_i386.deb
+Size: 58928
+MD5sum: 97bf53b49f4f2f4a8b699f435f58a1c5
+SHA1: b8c71756494aa1d79e234f3d39f24d063b9b9a7c
+SHA256: 1673981636dc77c77a77f313d8316121d20e2fa69c145ea327ccabfab0f732d4
 Description: Kross Core Library
 Homepage: http://kross.dipe.org
 Description-md5: 36901388f1fca67e2a2b0d8491d66b2a
@@ -12174,20 +12174,20 @@ Task: kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop-
 Package: libkrossui4
 Priority: optional
 Section: libs
-Installed-Size: 311
+Installed-Size: 312
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60)
-Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libkio5 (= 4:4.8.4a-0ubuntu0.2), libkparts4 (= 4:4.8.4a-0ubuntu0.2), libkrosscore4 (= 4:4.8.4a-0ubuntu0.2), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.8.0), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libkio5 (= 4:4.8.5-0ubuntu0.2), libkparts4 (= 4:4.8.5-0ubuntu0.2), libkrosscore4 (= 4:4.8.5-0ubuntu0.2), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.8.0), libstdc++6 (>= 4.1.1)
 Breaks: kdelibs5 (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libkrossui4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 53756
-MD5sum: 1d34dc5cb9aa1bd8c96d4ab6ab30d0cc
-SHA1: e1a0e797373e38c23cefa6fd46ee46babca45994
-SHA256: 6d5fd95050e4eb4fa04e9df784b392e39d4257617ad648ec4f6a64f10bafdb5f
+Filename: pool/main/k/kde4libs/libkrossui4_4.8.5-0ubuntu0.2_i386.deb
+Size: 53634
+MD5sum: b1ea46013cbc826358b936b17baf97ea
+SHA1: b6f6c8a38df08bec9daed6ea6729534e43c25ad2
+SHA256: 7d3a8acb8e8d1e2f66e47453638da98fa96e5094d1562e6557afa721bba26e5e
 Description: Kross UI Library
 Homepage: http://kross.dipe.org
 Description-md5: 299663dd13172b62a97dba0a445d9342
@@ -12250,15 +12250,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60), kdelibs5-data (<< 4:4.4.60)
-Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libkparts4 (= 4:4.8.4a-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libkparts4 (= 4:4.8.5-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
 Breaks: kdelibs5 (<< 4:4.4.60), kdelibs5-data (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libktexteditor4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 96378
-MD5sum: be4710b6d36c75585e44100a4970ec98
-SHA1: 612222c3871065ad7ca9ea1e9005221fc83b008f
-SHA256: 45b2251f936866fabc1de9ef9f9782597ab458df5d58c414f93c41d1e5699142
+Filename: pool/main/k/kde4libs/libktexteditor4_4.8.5-0ubuntu0.2_i386.deb
+Size: 96274
+MD5sum: b3444c1cde2f373fcdfc25558e878286
+SHA1: d593a2e135aec54c4b679cf4bd69eda43358788d
+SHA256: 1e74a9bdc26762e398c112cc3caae4f080f4b4229520b1412a7538a61b84ca4b
 Description: KTextEditor interfaces for the KDE Platform
 Homepage: http://www.kde.org/
 Description-md5: 2d8e60170c0b920dc40b14f799eaf14b
@@ -12300,15 +12300,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.80)
-Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libsolid4 (= 4:4.8.4a-0ubuntu0.2), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libsolid4 (= 4:4.8.5-0ubuntu0.2), libstdc++6 (>= 4.1.1)
 Breaks: kdelibs5 (<< 4:4.4.80)
-Filename: pool/main/k/kde4libs/libkunitconversion4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 89110
-MD5sum: b3adc61b736f0f8f772d1cab6a1faed6
-SHA1: 25f99b5060e50d7f218016b494635dc38da33dec
-SHA256: 9eb8c1b4d4b416cf95ffda8489c415429593b68940b1db218fdd1d1188705091
+Filename: pool/main/k/kde4libs/libkunitconversion4_4.8.5-0ubuntu0.2_i386.deb
+Size: 89088
+MD5sum: 0255976076ceec2279c6fc87bb08d0e7
+SHA1: a9e241c223cbaa108a8effd94aacc0e0085d08df
+SHA256: 12e085c5b149492ca6c7dae5be1dbc9ecf8e0b928468fa0873d94179d3369923
 Description: Unit Conversion library for the KDE Platform
 Homepage: http://www.kde.org/
 Description-md5: b9918503d482d7d829ab3df3d0dfe2e2
@@ -12320,20 +12320,20 @@ Task: kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full
 Package: libkutils4
 Priority: optional
 Section: libs
-Installed-Size: 197
+Installed-Size: 198
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60)
-Depends: libc6 (>= 2.1.3), libkcmutils4 (= 4:4.8.4a-0ubuntu0.2), libkemoticons4 (= 4:4.8.4a-0ubuntu0.2), libkidletime4 (= 4:4.8.4a-0ubuntu0.2), libkprintutils4 (= 4:4.8.4a-0ubuntu0.2), libqtcore4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.1.3), libkcmutils4 (= 4:4.8.5-0ubuntu0.2), libkemoticons4 (= 4:4.8.5-0ubuntu0.2), libkidletime4 (= 4:4.8.5-0ubuntu0.2), libkprintutils4 (= 4:4.8.5-0ubuntu0.2), libqtcore4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
 Breaks: kdelibs5 (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libkutils4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 22438
-MD5sum: 371de5804e37866f1473c2ab5bd18f64
-SHA1: d1fa9a408bd5462f0e00811c7b4d76297705e22f
-SHA256: 6cc6b792f9a6432a84be568c931530c04d4087aa816fa4cc1cc8f96c5e378038
+Filename: pool/main/k/kde4libs/libkutils4_4.8.5-0ubuntu0.2_i386.deb
+Size: 22450
+MD5sum: 36176207529ca748f684af9fb3ed3c15
+SHA1: 474b676043884a9f551fe87066c03bd8b8ddd705
+SHA256: b9a6d8a6d867d1a995997a1403d1cfa4a29a32ebf43ff5d6903ca14495bb0864
 Description: dummy transitional library
 Homepage: http://www.kde.org/
 Description-md5: 694b339a296f5f2257295f8914329086
@@ -16003,20 +16003,20 @@ Supported: 18m
 Package: libnepomuk4
 Priority: optional
 Section: libs
-Installed-Size: 1205
+Installed-Size: 1201
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60), kdelibs5-data (<< 4:4.4.60)
-Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libsoprano4 (>= 2.5.63), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libsoprano4 (>= 2.5.63), libstdc++6 (>= 4.1.1)
 Breaks: kdelibs5 (<< 4:4.4.60), kdelibs5-data (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libnepomuk4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 227094
-MD5sum: 8eacde65cd8fcfe1b3ecf12759316faa
-SHA1: 37392487aca24c52cbf42bbd51e741462b899cd8
-SHA256: f103c736d1ff1ecfbf6308d8b11efe622db054039c358cae814328dfc481aae6
+Filename: pool/main/k/kde4libs/libnepomuk4_4.8.5-0ubuntu0.2_i386.deb
+Size: 226742
+MD5sum: 85239eb48b10da28999b8cbd983ba842
+SHA1: b9d784a9a2ba63b1c2e370fdc2b7bf6eff8af24e
+SHA256: f1c77f8f899ba9c1399ed8bf448ea1c913b30fd11786a7fcc2643d45dca206d0
 Description: Nepomuk Meta Data Library
 Homepage: http://nepomuk.kde.org/
 Description-md5: b19e398b2de1071ad89678968e230e2a
@@ -16033,15 +16033,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdebase-workspace-libs4+5, kdelibs5 (<< 4:4.4.60), libnepomukquery4
-Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libnepomuk4 (= 4:4.8.4a-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libsoprano4 (>= 2.5.63), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libnepomuk4 (= 4:4.8.5-0ubuntu0.2), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libsoprano4 (>= 2.5.63), libstdc++6 (>= 4.1.1)
 Breaks: kdebase-workspace-libs4+5, kdelibs5 (<< 4:4.4.60), libnepomukquery4
-Filename: pool/main/k/kde4libs/libnepomukquery4a_4.8.4a-0ubuntu0.2_i386.deb
-Size: 114314
-MD5sum: 1d15ca8d9ce0e2c589a4c0efa08cc307
-SHA1: f4579df33dd43745db1f0028a6ee834e5c1e5cca
-SHA256: d3ad908d83fab880dea2f50ba6fbd25de98ee8d7f911878149e7697551a4a4ad
+Filename: pool/main/k/kde4libs/libnepomukquery4a_4.8.5-0ubuntu0.2_i386.deb
+Size: 114306
+MD5sum: 5ba6dadd46fdc41e0bc12238d6efa234
+SHA1: 70db17b2a9b11dcda5844d38462b8a31e39d45d8
+SHA256: ee514b0917429f1e1815faa7c90aaae96b8b822b8d31fa874fde3396884b1ae2
 Description: Nepomuk Query Library for the KDE Platform
 Homepage: http://nepomuk.kde.org/
 Description-md5: f817c9a2910650273d5905aa6b8bc8d7
@@ -16058,13 +16058,13 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
-Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libnepomuk4 (= 4:4.8.4a-0ubuntu0.2), libnepomukquery4a (= 4:4.8.4a-0ubuntu0.2), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libsoprano4 (>= 2.5.60), libstdc++6 (>= 4.1.1)
-Filename: pool/main/k/kde4libs/libnepomukutils4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 89752
-MD5sum: aaf3c29f033480b5a4d7997297d70772
-SHA1: 993f49ac1a6e4b645e75dca863b15cece126f0ff
-SHA256: e4350a2be4e828c7aded6e91c3ee1796caa6f043552cd5e7170ba9431942ad73
+Version: 4:4.8.5-0ubuntu0.2
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libnepomuk4 (= 4:4.8.5-0ubuntu0.2), libnepomukquery4a (= 4:4.8.5-0ubuntu0.2), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libsoprano4 (>= 2.5.60), libstdc++6 (>= 4.1.1)
+Filename: pool/main/k/kde4libs/libnepomukutils4_4.8.5-0ubuntu0.2_i386.deb
+Size: 89710
+MD5sum: 8d8017c3640acbb32a14fb697099461c
+SHA1: b019ba56671847a38ff3eede7bd12d3b103fcb25
+SHA256: a24bfe1e516421186fb6eabe556efb7033c4daa2ab7646ce928b44f46f22e8e1
 Description: Nepomuk Utility Library
 Homepage: http://nepomuk.kde.org/
 Description-md5: 064394da7816fadaeba58ce100eb1836
@@ -16647,15 +16647,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5-data (<< 4:4.6.80~)
-Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libkcmutils4 (= 4:4.8.4a-0ubuntu0.2), libkdecore5 (= 4:4.8.4a-0ubuntu0.2), libkdeui5 (= 4:4.8.4a-0ubuntu0.2), libkdewebkit5 (= 4:4.8.4a-0ubuntu0.2), libkdnssd4 (= 4:4.8.4a-0ubuntu0.2), libkio5 (= 4:4.8.4a-0ubuntu0.2), libknewstuff3-4 (= 4:4.8.4a-0ubuntu0.2), libphonon4 (>= 4:4.7.0really4.3.80), libqca2 (>= 2.0.2), libqt4-declarative (>= 4:4.7.0), libqt4-network (>= 4:4.7.0), libqt4-opengl (>= 4:4.7.0), libqt4-script (>= 4:4.7.0), libqt4-sql (>= 4:4.7.0), libqt4-svg (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libqtwebkit4 (>= 2.2~2011week36), libsolid4 (= 4:4.8.4a-0ubuntu0.2), libstdc++6 (>= 4.1.1), libthreadweaver4 (= 4:4.8.4a-0ubuntu0.2), libx11-6
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libkcmutils4 (= 4:4.8.5-0ubuntu0.2), libkdecore5 (= 4:4.8.5-0ubuntu0.2), libkdeui5 (= 4:4.8.5-0ubuntu0.2), libkdewebkit5 (= 4:4.8.5-0ubuntu0.2), libkdnssd4 (= 4:4.8.5-0ubuntu0.2), libkio5 (= 4:4.8.5-0ubuntu0.2), libknewstuff3-4 (= 4:4.8.5-0ubuntu0.2), libphonon4 (>= 4:4.7.0really4.3.80), libqca2 (>= 2.0.2), libqt4-declarative (>= 4:4.7.0), libqt4-network (>= 4:4.7.0), libqt4-opengl (>= 4:4.7.0), libqt4-script (>= 4:4.7.0), libqt4-sql (>= 4:4.7.0), libqt4-svg (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libqtwebkit4 (>= 2.2~2011week36), libsolid4 (= 4:4.8.5-0ubuntu0.2), libstdc++6 (>= 4.1.1), libthreadweaver4 (= 4:4.8.5-0ubuntu0.2), libx11-6
 Breaks: kdebase-workspace-bin (<< 4:4.2.60), kdelibs5-data (<< 4:4.6.80~)
-Filename: pool/main/k/kde4libs/libplasma3_4.8.4a-0ubuntu0.2_i386.deb
-Size: 916288
-MD5sum: 8e6d19a4f4a6f7b6afe903887a27ec7d
-SHA1: b79892f3ed756396db91adc5d642ac5d2acf8097
-SHA256: dc18a596c0847946d039ca8864a0f09b362c779dcb6729d52ab36f9420193e51
+Filename: pool/main/k/kde4libs/libplasma3_4.8.5-0ubuntu0.2_i386.deb
+Size: 916778
+MD5sum: ddff1a24fe26c04204de8c748f13b1a7
+SHA1: 62ff5f830cf542d44cd1f0d21ca7d7230f5d054d
+SHA256: eaae00c6fbc2f10f7b2c2f4464f6d35eaef86c6770ffcfb3c31ff47f056d1556
 Description: Plasma Library for the KDE Platform
 Homepage: http://plasma.kde.org/
 Description-md5: 069ac695b489886696dab1b47f4363b3
@@ -22248,21 +22248,21 @@ Supported: 18m
 Package: libsolid4
 Priority: optional
 Section: libs
-Installed-Size: 1124
+Installed-Size: 1121
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60)
 Depends: libc6 (>= 2.11), libgcc1 (>= 1:4.1.1), libqt4-dbus (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1), libudev0 (>= 147), udev
 Recommends: udisks, upower
 Breaks: kde-config-tablet (<< 1.2.5), kdelibs5 (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libsolid4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 249256
-MD5sum: 6a6684a2e2b7957283ba948a8075980f
-SHA1: 85cede89dbb37155ce37e4ea311e09183838bc82
-SHA256: 3fd01d65dfe28b06b5a25e5ad8d9827a59e437b94ffd1927e76c2a3d4189868c
+Filename: pool/main/k/kde4libs/libsolid4_4.8.5-0ubuntu0.2_i386.deb
+Size: 248132
+MD5sum: 33ca39f2da9c24c17a32ba609e29bbdc
+SHA1: 34b96114f1e779263aa313ab4839a0f08d783907
+SHA256: f4a72c0f1330156f2dd639c12d8d86ade1facc6b2db80613180f1d3b993f508c
 Description: Solid Library for KDE Platform
 Homepage: http://solid.kde.org/
 Description-md5: 8c2c3226e5dda352478cce6495d83808
@@ -22702,20 +22702,20 @@ Task: kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full
 Package: libthreadweaver4
 Priority: optional
 Section: libs
-Installed-Size: 285
+Installed-Size: 286
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: i386
 Source: kde4libs
-Version: 4:4.8.4a-0ubuntu0.2
+Version: 4:4.8.5-0ubuntu0.2
 Replaces: kdelibs5 (<< 4:4.4.60)
 Depends: libc6 (>= 2.1.3), libqtcore4 (>= 4:4.8.0), libstdc++6 (>= 4.1.1)
 Breaks: kdelibs5 (<< 4:4.4.60)
-Filename: pool/main/k/kde4libs/libthreadweaver4_4.8.4a-0ubuntu0.2_i386.deb
-Size: 46680
-MD5sum: 99f45eb93f51e010534cc0c7706df284
-SHA1: ad567012b2be319b5a59738fbae039e97d036048
-SHA256: ea3cb46a5c2247e2903d7c7c3ef84c56a0a666317a1ddd67134675be987bf2b8
+Filename: pool/main/k/kde4libs/libthreadweaver4_4.8.5-0ubuntu0.2_i386.deb
+Size: 46742
+MD5sum: 406706febbe21bcf5c9e8e543ac76a6e
+SHA1: f34e49437394ecf32d64f8d9abc96c51088cf1de
+SHA256: dc52f879364cce998d4221ebc8e0cbc0505fe4fa7e7eba2761fe9832d14d7137
 Description: ThreadWeaver Library for the KDE Platform
 Homepage: http://www.kde.org/
 Description-md5: e0f3ffffa7401f49a422fac613b125fe
