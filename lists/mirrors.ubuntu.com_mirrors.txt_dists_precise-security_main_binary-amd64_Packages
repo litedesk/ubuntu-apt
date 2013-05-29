@@ -4664,18 +4664,18 @@ Task: kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full
 Package: gnutls-bin
 Priority: optional
 Section: net
-Installed-Size: 743
+Installed-Size: 744
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: amd64
-Source: gnutls26 (2.12.14-5ubuntu3.2)
-Version: 3.0.11+really2.12.14-5ubuntu3.2
+Source: gnutls26 (2.12.14-5ubuntu3.4)
+Version: 3.0.11+really2.12.14-5ubuntu3.4
 Depends: libc6 (>= 2.15), libgnutls26 (>= 2.12.6.1-0)
-Filename: pool/main/g/gnutls26/gnutls-bin_3.0.11+really2.12.14-5ubuntu3.2_amd64.deb
-Size: 192246
-MD5sum: 8f74c9d6b84515bc118d5f9ac13ee686
-SHA1: 9c5bcfdcae5ded1c32f5188e69f175faee17eb1a
-SHA256: 194451413d8d98f0b6e42237fe4ccaa810582724f9f9420d726865d37de0d351
+Filename: pool/main/g/gnutls26/gnutls-bin_3.0.11+really2.12.14-5ubuntu3.4_amd64.deb
+Size: 192506
+MD5sum: aed3a76b6e3403830ece0e2a615928a1
+SHA1: 97208cd9f379c16fe3439f865c006a1972fc207b
+SHA256: 41748bac6a197c8c94235f12ee535a51d6efa93ee7338a384e8dfc93d22732f7
 Description: GNU TLS library - commandline utilities
 Multi-Arch: foreign
 Homepage: http://www.gnutls.org/
@@ -4691,14 +4691,14 @@ Installed-Size: 6990
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: all
-Source: gnutls26 (2.12.14-5ubuntu3.2)
-Version: 3.0.11+really2.12.14-5ubuntu3.2
+Source: gnutls26 (2.12.14-5ubuntu3.4)
+Version: 3.0.11+really2.12.14-5ubuntu3.4
 Depends: dpkg (>= 1.15.4) | install-info
-Filename: pool/main/g/gnutls26/gnutls-doc_3.0.11+really2.12.14-5ubuntu3.2_all.deb
-Size: 3346494
-MD5sum: 331837281c2d0ecf0f288d5f8105bc4e
-SHA1: e9704a097a3f9c1d8e76cc1303d475fc4f3b40af
-SHA256: 425459b8a2434d85cf8bb6df1a2d226ba63fd3fc30584cbcdb31be76693063c7
+Filename: pool/main/g/gnutls26/gnutls-doc_3.0.11+really2.12.14-5ubuntu3.4_all.deb
+Size: 3346298
+MD5sum: 03a47bef816f38866de9c4a7a9ffa81c
+SHA1: 1ae74bac0b40fe69a1bf0be1b2504228bae5bbc0
+SHA256: 20a90daa63e4ce092fa1f796edf7445eb54e8d54e4b7344aa0719be1e1ffddf6
 Description: GNU TLS library - documentation and examples
 Multi-Arch: foreign
 Homepage: http://www.gnutls.org/
@@ -10035,17 +10035,17 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: amd64
 Source: gnutls26
-Version: 2.12.14-5ubuntu3.2
+Version: 2.12.14-5ubuntu3.4
 Replaces: gnutls-dev
 Provides: gnutls-dev
-Depends: libgnutls26 (= 2.12.14-5ubuntu3.2), libgnutlsxx27 (= 2.12.14-5ubuntu3.2), libgnutls-openssl27 (= 2.12.14-5ubuntu3.2), libgcrypt11-dev (>= 1.4.0), libc6-dev | libc-dev, zlib1g-dev, libtasn1-3-dev (>= 0.3.4), libp11-kit-dev (>= 0.4)
+Depends: libgnutls26 (= 2.12.14-5ubuntu3.4), libgnutlsxx27 (= 2.12.14-5ubuntu3.4), libgnutls-openssl27 (= 2.12.14-5ubuntu3.4), libgcrypt11-dev (>= 1.4.0), libc6-dev | libc-dev, zlib1g-dev, libtasn1-3-dev (>= 0.3.4), libp11-kit-dev (>= 0.4)
 Suggests: gnutls-doc, gnutls-bin
 Conflicts: gnutls-dev
-Filename: pool/main/g/gnutls26/libgnutls-dev_2.12.14-5ubuntu3.2_amd64.deb
-Size: 545766
-MD5sum: ed50126a6fcdf61347980ff51f714856
-SHA1: 777526c3d287f66bc6fb2b9d4e157fd9661e0815
-SHA256: fff1857bfd9da53548f2222bf37e95266f60d63666d813397df77a98fd018365
+Filename: pool/main/g/gnutls26/libgnutls-dev_2.12.14-5ubuntu3.4_amd64.deb
+Size: 546082
+MD5sum: bfbbf0a05eb9eab7802996e518f23466
+SHA1: fffcc89c6806e64a3d9ee183284c0c487ef25346
+SHA256: 1ba25654479be95a63295aeda8f7518c24570f974454f1e9a2e1c3209798aa91
 Description: GNU TLS library - development files
 Homepage: http://www.gnutls.org/
 Description-md5: e2a3e8bac6f6874ae5a4bc8e489881a6
@@ -10061,14 +10061,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: amd64
 Source: gnutls26
-Version: 2.12.14-5ubuntu3.2
-Depends: libgnutls26 (= 2.12.14-5ubuntu3.2), libc6 (>= 2.14), libtasn1-3 (>= 1.6-0)
+Version: 2.12.14-5ubuntu3.4
+Depends: libgnutls26 (= 2.12.14-5ubuntu3.4), libc6 (>= 2.14), libtasn1-3 (>= 1.6-0)
 Pre-Depends: multiarch-support
-Filename: pool/main/g/gnutls26/libgnutls-openssl27_2.12.14-5ubuntu3.2_amd64.deb
-Size: 21634
-MD5sum: 3be9be0b6a1912761a81a006047779dc
-SHA1: c32b0ecc9fccfe8542e25f9ce38e3f74d158939a
-SHA256: 34ae247af0b147d58037513f7ed68c01308e83bf01f47fbe3e6e4d5cb13109db
+Filename: pool/main/g/gnutls26/libgnutls-openssl27_2.12.14-5ubuntu3.4_amd64.deb
+Size: 21632
+MD5sum: 46fc29cd8ad26d705894ad9f0b2f8c1b
+SHA1: f43e91b8283f2c29d85797494da38b48f60c7432
+SHA256: c4c5ce5c45c1320da1867850196a0d225f02f8ddb2a0ecbaa7f80c6dad344012
 Description: GNU TLS library - OpenSSL wrapper
 Multi-Arch: same
 Homepage: http://www.gnutls.org/
@@ -10085,18 +10085,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: amd64
 Source: gnutls26
-Version: 2.12.14-5ubuntu3.2
+Version: 2.12.14-5ubuntu3.4
 Replaces: gnutls0, gnutls0.4, gnutls3
 Depends: libc6 (>= 2.14), libgcrypt11 (>= 1.4.5), libp11-kit0 (>= 0.11), libtasn1-3 (>= 1.6-0), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
 Suggests: gnutls-bin
 Conflicts: gnutls0, gnutls0.4
 Breaks: ccbuild (<= 2.0.1-1), csync2 (<= 1.34-2.2), freewheeling (<= 0.6-1.1), gkrellm (<= 2.3.4-1), libsoup2.4-1 (= 2.31.2-1), libsoup2.4-1 (<= 2.30.1-1), macopix-gtk2 (<= 1.7.4-3), pokerth (<= 0.8.3-3+b1), pokerth-server (<= 0.8.3-3+b1), sipsak (<= 0.9.6-2.1), slrn (<= 1.0.0~pre18-1.1), slrnpull (<= 1.0.0~pre18-1.1), snowdrop (<= 0.02b-9), ssmtp (<= 2.64-4), tf5 (<= 5.0beta8-4), wput (<= 0.6.2-2), zoneminder (<= 1.24.4-1)
-Filename: pool/main/g/gnutls26/libgnutls26_2.12.14-5ubuntu3.2_amd64.deb
-Size: 459168
-MD5sum: 89f045531476b8264c6cb96a69a4fb79
-SHA1: a31e2f4f6cbf76b64f681c4f502240efc9d77b0c
-SHA256: 3fc887e3e572bab56a816fc18c189b7130a1d0d96e4e6678f9d51c1cf60a35d9
+Filename: pool/main/g/gnutls26/libgnutls26_2.12.14-5ubuntu3.4_amd64.deb
+Size: 458970
+MD5sum: 90b52b43812454fe089ad88eeb590a1b
+SHA1: 94606045de2e672837f33364318e8eb17635ed9e
+SHA256: ebdf9f4c7e5d85b89035c15a6a1317a487d1064dcba69a512041286b278ba895
 Description: GNU TLS library - runtime library
 Multi-Arch: same
 Homepage: http://www.gnutls.org/
@@ -10114,14 +10114,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: amd64
 Source: gnutls26
-Version: 2.12.14-5ubuntu3.2
-Depends: libgnutls26 (= 2.12.14-5ubuntu3.2)
+Version: 2.12.14-5ubuntu3.4
+Depends: libgnutls26 (= 2.12.14-5ubuntu3.4)
 Conflicts: libgnutls13-dbg, libgnutls28-dbg
-Filename: pool/main/g/gnutls26/libgnutls26-dbg_2.12.14-5ubuntu3.2_amd64.deb
-Size: 1206174
-MD5sum: 4f6c6b0e9a5e3c74e7df7b7ec9cdd699
-SHA1: 43b6fae5091e0b521109c7f0e0e5a92255428615
-SHA256: 7701a780c0d2e41b6564e479af1e736b89f12a084c0d5863705771a37d270f08
+Filename: pool/main/g/gnutls26/libgnutls26-dbg_2.12.14-5ubuntu3.4_amd64.deb
+Size: 1204594
+MD5sum: de2c1f634997007748d9d1660a15e9b8
+SHA1: 0d60818d40cc72f2b54276718e0ebfb8359d4d67
+SHA256: 739c0e2efddf25105d7928ce834aec3fadd9ca62b39d2f1191c86d7172730936
 Description: GNU TLS library - debugger symbols
 Homepage: http://www.gnutls.org/
 Description-md5: 49ef95a26f6727eeaa8d2c979d728b2d
@@ -10132,19 +10132,19 @@ Supported: 18m
 Package: libgnutlsxx27
 Priority: extra
 Section: libs
-Installed-Size: 293
+Installed-Size: 294
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: amd64
 Source: gnutls26
-Version: 2.12.14-5ubuntu3.2
-Depends: libgnutls26 (= 2.12.14-5ubuntu3.2), libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Version: 2.12.14-5ubuntu3.4
+Depends: libgnutls26 (= 2.12.14-5ubuntu3.4), libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
 Pre-Depends: multiarch-support
-Filename: pool/main/g/gnutls26/libgnutlsxx27_2.12.14-5ubuntu3.2_amd64.deb
-Size: 22568
-MD5sum: 4d2eff2d4079fc82d1ad98ad3f7dd0e6
-SHA1: ecbec66427b94a924e182f7fb0fdfbc43e504297
-SHA256: 2a3dfc6433c0d95c1cc337d404ac057bf512574c99d2cd4c499d9a97d8161b36
+Filename: pool/main/g/gnutls26/libgnutlsxx27_2.12.14-5ubuntu3.4_amd64.deb
+Size: 22564
+MD5sum: 79f99ac57e438f14a0f211e694a1a9b2
+SHA1: 9337e98943c7711e2806c14882952a015df9d6e9
+SHA256: 4dc12c92bda881b7c5685a47ce2e74b7bd60df8eb52c508cb1cd69c1a7238f76
 Description: GNU TLS library - C++ runtime library
 Multi-Arch: same
 Homepage: http://www.gnutls.org/
