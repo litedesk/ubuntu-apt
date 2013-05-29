@@ -10785,6 +10785,16 @@ Description-en: dummy transitional package from squid-common to squid3-common
  package. Once this package and its dependencies are installed you can safely
  remove it.
 
+Package: squid-deb-proxy-client
+Description-md5: ecbbfd31c62b5fe6b4119f75c8f4b309
+Description-en: Automatic proxy discovery for apt based on avahi
+ This package contains a helper for the apt http method to discover
+ proxies that publish their service as _apt_proxy._tcp.
+ .
+ It was written to be installed on clients that should use
+ squid-deb-proxy automatically, but it will work with any proxy
+ that publishes the service as _apt_proxy._tcp.
+
 Package: squidclient
 Description-md5: c9e6995c03d1bf142ed460e45f80e6ff
 Description-en: Full featured Web Proxy cache (HTTP proxy) - control utility

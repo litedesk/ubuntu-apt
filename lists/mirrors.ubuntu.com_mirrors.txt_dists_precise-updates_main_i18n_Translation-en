@@ -40068,6 +40068,16 @@ Description-en: SQLite 3 documentation
  This package contains the documentation that is also available on
  the SQLite homepage.
 
+Package: squid-deb-proxy
+Description-md5: 4a8bf17eff2337855081332350b01c82
+Description-en: Squid proxy configuration optimized for deb packages
+ This package contains a squid proxy configuration that is optimized
+ for downloading deb packages. It defaults to a different cache
+ directory and port than the regular squid cache.
+ .
+ The config default to allowing cached access from a local network
+ to *.archive.ubuntu.com.
+
 Package: squid3
 Description-md5: 56686f47e386eb90f86c02cb88a67889
 Description-en: Full featured Web Proxy cache (HTTP proxy)

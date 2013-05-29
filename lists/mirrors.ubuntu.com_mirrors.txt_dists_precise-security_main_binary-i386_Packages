@@ -22043,12 +22043,12 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: tomcat6
-Version: 6.0.35-1ubuntu3.2
-Filename: pool/main/t/tomcat6/libservlet2.5-java_6.0.35-1ubuntu3.2_all.deb
-Size: 187272
-MD5sum: 12eddd54a69374e26464ab42afafbcac
-SHA1: a7e9c505c7be375f2fc7b31dfaed91061aacf0a7
-SHA256: 533b0a12c6b468198c84e881ecfbe8d595fa357d63829d0ce97fb11696edd9dc
+Version: 6.0.35-1ubuntu3.3
+Filename: pool/main/t/tomcat6/libservlet2.5-java_6.0.35-1ubuntu3.3_all.deb
+Size: 187308
+MD5sum: 24024a657888f18617a6e5aed6a76b7e
+SHA1: fd1712985909b3560e0f6c744d29c28f08804e84
+SHA256: 6e68235ad0851d915f7a2403c7022421da380a87610799a0178f98b1632e0bc9
 Description: Servlet 2.5 and JSP 2.1 Java API classes
 Homepage: http://tomcat.apache.org
 Description-md5: 9ac218f907c70695a46017ef6d9f22b6
@@ -22065,13 +22065,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: tomcat6
-Version: 6.0.35-1ubuntu3.2
-Depends: libservlet2.5-java (>= 6.0.35-1ubuntu3.2)
-Filename: pool/main/t/tomcat6/libservlet2.5-java-doc_6.0.35-1ubuntu3.2_all.deb
-Size: 245044
-MD5sum: 4fa6dde34225ed4615ebb89b3b6124ad
-SHA1: 2168c785ea7df0f71826319389ca0fef3e934a22
-SHA256: 35708185c001b1f5ebc5b6c46343684096f9816436992fd59d8c5f1dcc37be79
+Version: 6.0.35-1ubuntu3.3
+Depends: libservlet2.5-java (>= 6.0.35-1ubuntu3.3)
+Filename: pool/main/t/tomcat6/libservlet2.5-java-doc_6.0.35-1ubuntu3.3_all.deb
+Size: 246050
+MD5sum: 14aa50c340bc1efb9201d765be80e753
+SHA1: 6eccdc600e163ab3540beefaf19590072af1d10d
+SHA256: 2141b014e1f14f5b7efefb683dfdcf3c0c5f4b95e97e15d116d69fd4de52f5f9
 Description: Servlet 2.5 and JSP 2.1 Java API documentation
 Homepage: http://tomcat.apache.org
 Description-md5: 80dbece053b791a9508d79c425dcbd00
@@ -22850,15 +22850,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: tomcat6
-Version: 6.0.35-1ubuntu3.2
-Depends: libecj-java, libcommons-dbcp-java, libcommons-pool-java, libservlet2.5-java (>= 6.0.35-1ubuntu3.2)
-Suggests: tomcat6 (>= 6.0.35-1ubuntu3.2)
+Version: 6.0.35-1ubuntu3.3
+Depends: libecj-java, libcommons-dbcp-java, libcommons-pool-java, libservlet2.5-java (>= 6.0.35-1ubuntu3.3)
+Suggests: tomcat6 (>= 6.0.35-1ubuntu3.3)
 Conflicts: tomcat6-common (<< 6.0.20-5)
-Filename: pool/main/t/tomcat6/libtomcat6-java_6.0.35-1ubuntu3.2_all.deb
-Size: 3086094
-MD5sum: f8354e611c44ab7710de4dfec8d03c26
-SHA1: 083832f5cbf3304bbc23b06215ea6e8563b5cdd0
-SHA256: 66c5eb7a7884c968a435a057af2c2c2999a021ce0d99a7b2183c8b0b8a2d829b
+Filename: pool/main/t/tomcat6/libtomcat6-java_6.0.35-1ubuntu3.3_all.deb
+Size: 3089846
+MD5sum: be198850ae8116fd75556628bbc14ba2
+SHA1: dc1b78abb1133bf67c8a5b7010c0f424b9e4520a
+SHA256: e8f64dbfccddfa44a98c9eaf98a4ffbb31798031a59c94264990b11844bcedef
 Description: Servlet and JSP engine -- core libraries
 Homepage: http://tomcat.apache.org
 Description-md5: 7a2563c1a7c79379004bc6464d285af0
@@ -43161,15 +43161,15 @@ Installed-Size: 251
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
-Version: 6.0.35-1ubuntu3.2
-Depends: tomcat6-common (>= 6.0.35-1ubuntu3.2), ucf, adduser, debconf (>= 0.5) | debconf-2.0
+Version: 6.0.35-1ubuntu3.3
+Depends: tomcat6-common (>= 6.0.35-1ubuntu3.3), ucf, adduser, debconf (>= 0.5) | debconf-2.0
 Recommends: authbind
-Suggests: tomcat6-docs (>= 6.0.35-1ubuntu3.2), tomcat6-admin (>= 6.0.35-1ubuntu3.2), tomcat6-examples (>= 6.0.35-1ubuntu3.2), tomcat6-user (>= 6.0.35-1ubuntu3.2), libtcnative-1
-Filename: pool/main/t/tomcat6/tomcat6_6.0.35-1ubuntu3.2_all.deb
-Size: 29180
-MD5sum: 09dd0b83efcebf9f6cf70c03d83d7496
-SHA1: 450c2819b3b774ed934d684df5e620449037b6f5
-SHA256: 873ebb3095a2da5de78bcd7f0846bb1f2bddaf0a7ef4fc6d51500099ebc6543f
+Suggests: tomcat6-docs (>= 6.0.35-1ubuntu3.3), tomcat6-admin (>= 6.0.35-1ubuntu3.3), tomcat6-examples (>= 6.0.35-1ubuntu3.3), tomcat6-user (>= 6.0.35-1ubuntu3.3), libtcnative-1
+Filename: pool/main/t/tomcat6/tomcat6_6.0.35-1ubuntu3.3_all.deb
+Size: 28372
+MD5sum: a8bbe69da5bad40c951ce0f55ac4496e
+SHA1: 1d217046547381c928d8219aca7820efe328fe71
+SHA256: 7072fdb6b7bd2de48c4a8b9a1b9d932b277f634e7c7edc8f55f7049aa80dac83
 Description: Servlet and JSP engine
 Homepage: http://tomcat.apache.org
 Description-md5: 934d55e0d50dac715e209698c30454ab
@@ -43186,13 +43186,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: tomcat6
-Version: 6.0.35-1ubuntu3.2
-Depends: tomcat6-common (>= 6.0.35-1ubuntu3.2)
-Filename: pool/main/t/tomcat6/tomcat6-admin_6.0.35-1ubuntu3.2_all.deb
-Size: 39160
-MD5sum: 23be2953a0e2be2c586354d66dd3f58f
-SHA1: 4f37982e47bbfab42eec433ab8a067f2e17b71de
-SHA256: d74781d8a3a790380627ab40c7e23165a6dba8f255ed0a74a9ac7c3c8dc0e590
+Version: 6.0.35-1ubuntu3.3
+Depends: tomcat6-common (>= 6.0.35-1ubuntu3.3)
+Filename: pool/main/t/tomcat6/tomcat6-admin_6.0.35-1ubuntu3.3_all.deb
+Size: 41642
+MD5sum: a215a14ca0e33bd649e6dbc80525b605
+SHA1: a64f512c6f2aff9512dfee51c6b08af955aff7ae
+SHA256: dfceba905109a9b5c9d7de6c218cf5995760bba4af3dbf0a8121f8c35ad1b263
 Description: Servlet and JSP engine -- admin web applications
 Homepage: http://tomcat.apache.org
 Description-md5: 07b3738a38d2448ee2c0b77d4dbd745d
@@ -43204,18 +43204,18 @@ Task: tomcat-server
 Package: tomcat6-common
 Priority: optional
 Section: web
-Installed-Size: 114
+Installed-Size: 115
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: tomcat6
-Version: 6.0.35-1ubuntu3.2
-Depends: libtomcat6-java (>= 6.0.35-1ubuntu3.2), default-jre-headless | java7-runtime-headless | java7-runtime | java6-runtime-headless | java6-runtime | java5-runtime
-Filename: pool/main/t/tomcat6/tomcat6-common_6.0.35-1ubuntu3.2_all.deb
-Size: 41072
-MD5sum: 78b60ebbaba4a8179fb121bb47b50b08
-SHA1: fad4cf9a9d04b011b6c11e3b94d554de39037d4d
-SHA256: e3060af1262fcadf71acc72af3ff2e3cf7fc321dc25c518e5b4c5a7d71ba116c
+Version: 6.0.35-1ubuntu3.3
+Depends: libtomcat6-java (>= 6.0.35-1ubuntu3.3), default-jre-headless | java7-runtime-headless | java7-runtime | java6-runtime-headless | java6-runtime | java5-runtime
+Filename: pool/main/t/tomcat6/tomcat6-common_6.0.35-1ubuntu3.3_all.deb
+Size: 41068
+MD5sum: 177e0981133b665ccdb50fd4c315732d
+SHA1: d39fa8c85875d826bea2d0df2403cd826ed801ca
+SHA256: 7df6d8a4baccb314ffe1250aacdf317d3d380c589fe6c4610e5abe07bcb93234
 Description: Servlet and JSP engine -- common files
 Homepage: http://tomcat.apache.org
 Description-md5: 20777bd70a7c5a2ebdc10908d1134a86
@@ -43232,13 +43232,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: tomcat6
-Version: 6.0.35-1ubuntu3.2
-Depends: tomcat6-common (>= 6.0.35-1ubuntu3.2)
-Filename: pool/main/t/tomcat6/tomcat6-docs_6.0.35-1ubuntu3.2_all.deb
-Size: 556742
-MD5sum: 3c0bcc09be35c224ea0735f8495df282
-SHA1: 21c1397ef84440c98190caaaeb7a13cba45a69a6
-SHA256: 0b9ee03017380b279b244e77859c80c0b3620b62b8bf88b923eb5478637fd197
+Version: 6.0.35-1ubuntu3.3
+Depends: tomcat6-common (>= 6.0.35-1ubuntu3.3)
+Filename: pool/main/t/tomcat6/tomcat6-docs_6.0.35-1ubuntu3.3_all.deb
+Size: 558904
+MD5sum: 261cdd2e47792038f1d2ee8333e54be7
+SHA1: 16f36691df5915f1b98f0ab77d65b0a9572d5a3c
+SHA256: c4f16acc3c20d7bbc1108f0d8544ac2453819a787745f4f2bcd5d72de3990b2f
 Description: Servlet and JSP engine -- documentation
 Homepage: http://tomcat.apache.org
 Description-md5: 523c216160e93c3df0c2e38305883e9c
@@ -43255,13 +43255,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: tomcat6
-Version: 6.0.35-1ubuntu3.2
-Depends: tomcat6-common (>= 6.0.35-1ubuntu3.2)
-Filename: pool/main/t/tomcat6/tomcat6-examples_6.0.35-1ubuntu3.2_all.deb
-Size: 156330
-MD5sum: a66207e52e6143a594f9126d8eb62417
-SHA1: 776cb61cd165123003b7f855059f9220489e0230
-SHA256: aa7da91bb55e45af5caba7d2cdc80b8db51c3cbd44ec91be4116d6ab9c38d95f
+Version: 6.0.35-1ubuntu3.3
+Depends: tomcat6-common (>= 6.0.35-1ubuntu3.3)
+Filename: pool/main/t/tomcat6/tomcat6-examples_6.0.35-1ubuntu3.3_all.deb
+Size: 156554
+MD5sum: 025ce975a805ffe226f0dc0d6c00a07d
+SHA1: 40a170087c4b4c65b9956cb1904d8eebca2ad47c
+SHA256: de65bb79ba94e03acf112e61511f0c58f66def57aa44d6c3ac93eeba30914c2e
 Description: Servlet and JSP engine -- example web applications
 Homepage: http://tomcat.apache.org
 Description-md5: 3fd8302e7ffe454afd9ba42730f7a01a

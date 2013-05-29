@@ -20845,6 +20845,26 @@ Description-md5: eb90c5d01827e22323ec821adede8ab3
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: squid-deb-proxy-client
+Priority: extra
+Section: universe/net
+Installed-Size: 44
+Maintainer: Michael Vogt <mvo@ubuntu.com>
+Architecture: all
+Source: squid-deb-proxy
+Version: 0.6.3.1
+Depends: avahi-utils, apt (>= 0.7.25.3ubuntu1)
+Filename: pool/universe/s/squid-deb-proxy/squid-deb-proxy-client_0.6.3.1_all.deb
+Size: 3226
+MD5sum: 9ddeb23382c21356e1c0b90ec71432be
+SHA1: 7c6fec2adb487a1f9ae739e728d5945f0fa4a01f
+SHA256: 6c7fbeb8d5c441b7da6535e0034c1059f81463b46b6c6c04dc4f65a5566602bc
+Description: Automatic proxy discovery for apt based on avahi
+Homepage: https://launchpad.net/squid-deb-proxy
+Description-md5: ecbbfd31c62b5fe6b4119f75c8f4b309
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: squidclient
 Priority: optional
 Section: universe/web
@@ -21196,13 +21216,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: tomcat6
-Version: 6.0.35-1ubuntu3.2
-Depends: tomcat6-common (>= 6.0.35-1ubuntu3.2)
-Filename: pool/universe/t/tomcat6/tomcat6-extras_6.0.35-1ubuntu3.2_all.deb
-Size: 5548
-MD5sum: 08c38c44a4e3569af4e151dafc2319da
-SHA1: b03d5bfa17271707e85469f19ca2fc51148accf0
-SHA256: 08aa52507c0ae376128c451c452042c3b00f4e69fd0db3b9b0611f6d957b89b4
+Version: 6.0.35-1ubuntu3.3
+Depends: tomcat6-common (>= 6.0.35-1ubuntu3.3)
+Filename: pool/universe/t/tomcat6/tomcat6-extras_6.0.35-1ubuntu3.3_all.deb
+Size: 5562
+MD5sum: fddb4077539a8a88a50df50c787740c9
+SHA1: f85cb71e9c87aa020ad2bfce766f67f1bb7269e4
+SHA256: 6e2200ebfe5bb7086a43af9337ac212d97486b0474b5059dac4ef3cd2604a219
 Description: Servlet and JSP engine -- additional components
 Homepage: http://tomcat.apache.org
 Description-md5: 7696683df34679d68424302aee8517ca
@@ -21217,14 +21237,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: tomcat6
-Version: 6.0.35-1ubuntu3.2
-Depends: tomcat6-common (>= 6.0.35-1ubuntu3.2), netcat
-Suggests: tomcat6-docs (>= 6.0.35-1ubuntu3.2), tomcat6-admin (>= 6.0.35-1ubuntu3.2), tomcat6-examples (>= 6.0.35-1ubuntu3.2), tomcat6 (>= 6.0.35-1ubuntu3.2)
-Filename: pool/universe/t/tomcat6/tomcat6-user_6.0.35-1ubuntu3.2_all.deb
-Size: 20280
-MD5sum: 1164bec78191165cdce31b915763a4d8
-SHA1: ca0afd0f510221033345dc4d8d745b6d176f7f7f
-SHA256: d514c5e16b3ee14ef9546c7d7c287710ea0a9661e787880c62401b58d410b09e
+Version: 6.0.35-1ubuntu3.3
+Depends: tomcat6-common (>= 6.0.35-1ubuntu3.3), netcat
+Suggests: tomcat6-docs (>= 6.0.35-1ubuntu3.3), tomcat6-admin (>= 6.0.35-1ubuntu3.3), tomcat6-examples (>= 6.0.35-1ubuntu3.3), tomcat6 (>= 6.0.35-1ubuntu3.3)
+Filename: pool/universe/t/tomcat6/tomcat6-user_6.0.35-1ubuntu3.3_all.deb
+Size: 20252
+MD5sum: 2e5997fd6784800910453575d787f7fa
+SHA1: 188f414469c75998b0b6103b23aad29e48c007e3
+SHA256: 52df4f508a3420dcd3af6834318e4d2f2aeadd1ccbf835e24101545037e5812a
 Description: Servlet and JSP engine -- tools to create user instances
 Homepage: http://tomcat.apache.org
 Description-md5: f0f735a1a5d3acaabdc873d63b8b405b
