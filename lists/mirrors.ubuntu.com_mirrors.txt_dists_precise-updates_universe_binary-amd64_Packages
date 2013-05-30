@@ -15441,6 +15441,113 @@ Description-md5: 9a0dda1ce5992211bca29eb1024d2c02
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: mumble
+Priority: optional
+Section: universe/sound
+Installed-Size: 4486
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1.2.3-2ubuntu4.1
+Depends: libasound2 (>= 1.0.23), libavahi-compat-libdnssd1 (>= 0.6.16), libc6 (>= 2.14), libg15daemon-client1, libgcc1 (>= 1:4.1.1), libprotobuf7, libpulse0 (>= 1:0.99.1), libqt4-dbus (>= 4:4.5.3), libqt4-network (>= 4:4.5.3), libqt4-sql (>= 4:4.5.3), libqt4-svg (>= 4:4.5.3), libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libsndfile1 (>= 1.0.20), libspeechd2 (>= 0.7.1), libspeex1 (>= 1.2~beta3-1), libspeexdsp1 (>= 1.2~beta3.2-1), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.1.1), libx11-6, libxi6, gconf2 (>= 2.28.1-2), libcelt0 (>= 0.7.0) | libcelt0-0 (>= 0.7.1~), libqt4-sql-sqlite, lsb-release
+Recommends: speech-dispatcher
+Suggests: mumble-server, mumble-11x
+Filename: pool/universe/m/mumble/mumble_1.2.3-2ubuntu4.1_amd64.deb
+Size: 2523412
+MD5sum: 3442b129d806f24e6cb7b7e777290428
+SHA1: 52a77db8fe1c5fa1f32b6ceedd36480b3cbaafcf
+SHA256: 82904bd958443409447fd35819dceac805e446d4482fea37d63db6ce9e10a659
+Description: Low latency VoIP client
+Homepage: http://mumble.sourceforge.net/
+Description-md5: 963b6de8c88fb64e44d6dc68117b27ae
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: mumble-11x
+Priority: optional
+Section: universe/sound
+Installed-Size: 2414
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Source: mumble
+Version: 1.2.3-2ubuntu4.1
+Depends: libasound2 (>= 1.0.23), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libogg0 (>= 1.1.0), libpulse0 (>= 1:0.99.1), libqt4-dbus (>= 4:4.5.3), libqt4-network (>= 4:4.5.3), libqt4-sql (>= 4:4.5.3), libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libspeechd2 (>= 0.7.1), libspeex1 (>= 1.2~beta3-1), libspeexdsp1 (>= 1.2~beta3.2-1), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.1.1), libx11-6, libxi6, libqt4-sql-sqlite, lsb-release, mumble (= 1.2.3-2ubuntu4.1)
+Filename: pool/universe/m/mumble/mumble-11x_1.2.3-2ubuntu4.1_amd64.deb
+Size: 1191374
+MD5sum: 522882d9e8a17ff9279c22e383cab39a
+SHA1: 1204dfb5725a03ab7306ae2a5748729f71abd988
+SHA256: 1bb657289a63adc7e040fea4909e582b675996d893187648f9cf24c7106981e6
+Description: Low latency VoIP client (1.1.x)
+Homepage: http://mumble.sourceforge.net/
+Description-md5: 78f3ae7edab537e3cb637b900f07d04e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: mumble-dbg
+Priority: extra
+Section: universe/sound
+Installed-Size: 105995
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Source: mumble
+Version: 1.2.3-2ubuntu4.1
+Depends: mumble (= 1.2.3-2ubuntu4.1) | mumble-server (= 1.2.3-2ubuntu4.1)
+Filename: pool/universe/m/mumble/mumble-dbg_1.2.3-2ubuntu4.1_amd64.deb
+Size: 41222328
+MD5sum: 8622825ef2660aedb2cd4e11b851015e
+SHA1: 0cde2aa662159a78a3b7f5c2cabefb207f9f469f
+SHA256: e861e0152a527343403d10e79c789f74d584e9a99c9006ff9abcc692f585cf06
+Description: Low latency VoIP client (debugging symbols)
+Homepage: http://mumble.sourceforge.net/
+Description-md5: 15d60113aeb6eef6814ae76de3b75ed0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: mumble-server
+Priority: optional
+Section: universe/sound
+Installed-Size: 2592
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Source: mumble
+Version: 1.2.3-2ubuntu4.1
+Depends: libavahi-compat-libdnssd1 (>= 0.6.16), libc6 (>= 2.14), libcap2 (>= 2.10), libgcc1 (>= 1:4.1.1), libiceutil34, libprotobuf7, libqt4-dbus (>= 4:4.5.3), libqt4-network (>= 4:4.5.3), libqt4-sql (>= 4:4.5.3), libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.1.1), libzeroc-ice34, debconf (>= 0.5) | debconf-2.0, adduser, dbus, libqt4-sql-sqlite
+Suggests: mumble-server-web, mumble-django
+Filename: pool/universe/m/mumble/mumble-server_1.2.3-2ubuntu4.1_amd64.deb
+Size: 755778
+MD5sum: 936a6406bc23d562d54e73235d9d8920
+SHA1: 505cf6c6051e8d221fbf582ed639b7f3d2c07e9e
+SHA256: 0df8b033fe292db411b0946c4eb74d8733f2d1cf120d0bb05e0b38aaf3bc4d0b
+Description: Low latency VoIP server
+Homepage: http://mumble.sourceforge.net/
+Description-md5: 36ccca15b4d1d16eac15d60709780407
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: mumble-server-web
+Priority: optional
+Section: universe/sound
+Installed-Size: 175
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Architecture: all
+Source: mumble
+Version: 1.2.3-2ubuntu4.1
+Depends: perl, mumble-server (>= 1.2.3-2ubuntu4.1), apache2, exim4 | mail-transport-agent, libnet-dbus-perl, libcgi-session-perl, libhtml-template-perl, php-zeroc-ice, ice34-translators | ice33-translators | ice32-translators | ice-translators, ice34-slice | ice33-slice | ice32-slice | ice-slice
+Filename: pool/universe/m/mumble/mumble-server-web_1.2.3-2ubuntu4.1_all.deb
+Size: 9770
+MD5sum: 44a496029230e9253bf8b840af8ffedf
+SHA1: 502e9ce3802395529870d0b40855b21f649ac6b7
+SHA256: 8895579a9531d81fb50e276a38173d11a04a7a55471e6dd5b48059f627d5ce8e
+Description: Web scripts for mumble-server
+Homepage: http://mumble.sourceforge.net/
+Description-md5: 47b3c52596128f0d6252da72318a6d1c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: munin-java-plugins
 Priority: optional
 Section: universe/net
@@ -17598,15 +17705,15 @@ Installed-Size: 107
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: plymouth
-Version: 0.8.2-2ubuntu31
+Version: 0.8.2-2ubuntu31.1
 Replaces: plymouth (<< 0.8.1-1~)
 Provides: plymouth-theme
 Depends: libc6 (>= 2.8), libplymouth2 (>= 0.8.0~-13~ppa1), plymouth, plymouth-label
-Filename: pool/universe/p/plymouth/plymouth-theme-fade-in_0.8.2-2ubuntu31_amd64.deb
-Size: 36432
-MD5sum: b71ea7b5877d96d9c3df79b5d7552106
-SHA1: ef39986cf772f0c78f86cb33d42ad8bfaedd30e4
-SHA256: c136e93f42563787c17291b2d6053143a6d3f5658f7bcef90eeba9cef0c2e08e
+Filename: pool/universe/p/plymouth/plymouth-theme-fade-in_0.8.2-2ubuntu31.1_amd64.deb
+Size: 36552
+MD5sum: 53916a13e74221afa4918a99b6509029
+SHA1: d9323504dcf018f1528ca4d51f72c92efb33a72c
+SHA256: ca65ea5198b1a3b7df6602909a3b19cbdf5ff00323242fd43d0d33fe14c5c309
 Description: graphical boot animation and logger - fade-in theme
 Description-md5: efc0a4e57cc60e6f31a0cfc518d0b355
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -17619,15 +17726,15 @@ Installed-Size: 264
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: plymouth
-Version: 0.8.2-2ubuntu31
+Version: 0.8.2-2ubuntu31.1
 Replaces: plymouth (<< 0.8.1-1~)
 Provides: plymouth-theme
 Depends: libc6 (>= 2.8), libplymouth2 (>= 0.8.0~-13~ppa1), plymouth, plymouth-label
-Filename: pool/universe/p/plymouth/plymouth-theme-glow_0.8.2-2ubuntu31_amd64.deb
-Size: 154476
-MD5sum: e7455b2f152be14a4d74874a71d51102
-SHA1: 2908955f9b61c68aa39df189b1bef95754da6431
-SHA256: 39ea1c0b5d753dc6bbab63305cc729ceb0fe170ffb37ed053356a55f491f9c81
+Filename: pool/universe/p/plymouth/plymouth-theme-glow_0.8.2-2ubuntu31.1_amd64.deb
+Size: 154366
+MD5sum: 36e09ed754703c2aca687263cace0700
+SHA1: d191afb2915e43a016b42c9362619b9716716fa6
+SHA256: 5e06f42bedfd8475aa237ed4835a320e47b78fef9a5f7e9b9e297299903f0015
 Description: graphical boot animation and logger - glow theme
 Description-md5: fd83f5b3b39eb37bdb9b263ddd537b92
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -17636,19 +17743,19 @@ Origin: Ubuntu
 Package: plymouth-theme-script
 Priority: optional
 Section: universe/x11
-Installed-Size: 67
+Installed-Size: 68
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: plymouth
-Version: 0.8.2-2ubuntu31
+Version: 0.8.2-2ubuntu31.1
 Replaces: plymouth (<< 0.8.1-1~)
 Provides: plymouth-theme
 Depends: plymouth, plymouth-label
-Filename: pool/universe/p/plymouth/plymouth-theme-script_0.8.2-2ubuntu31_amd64.deb
-Size: 7166
-MD5sum: 3b8d2fd09f34e5e6ebeabbaa39a39b18
-SHA1: a3dcae68576e29e80f3b8fd808302208e8d96cba
-SHA256: 884e6cc9c514776c5de39da9575f5714ec074d05a1269f01d239a58ed810a3d9
+Filename: pool/universe/p/plymouth/plymouth-theme-script_0.8.2-2ubuntu31.1_amd64.deb
+Size: 7160
+MD5sum: e082917f4974cd5512eaa5cbf79d1d8b
+SHA1: f849830320277047d251c2519d894bebf903bf28
+SHA256: 9714d8dc6c5c7feee1a37da45159e5d6c79b425a764ffa9899aa01425aa75135
 Description: graphical boot animation and logger - script theme
 Description-md5: 6ab1e0acb8bfbad08f93b9ef475dfc32
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -17661,14 +17768,14 @@ Installed-Size: 444
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: plymouth
-Version: 0.8.2-2ubuntu31
+Version: 0.8.2-2ubuntu31.1
 Provides: plymouth-theme
 Depends: libc6 (>= 2.8), libplymouth2 (>= 0.8.0~-13~ppa1), plymouth, plymouth-label
-Filename: pool/universe/p/plymouth/plymouth-theme-solar_0.8.2-2ubuntu31_amd64.deb
-Size: 371530
-MD5sum: a042edae6272a763d59470498bdd5cf2
-SHA1: 036582164a8739e5b5e76fe7b754fa686b37a173
-SHA256: af97004a314e181a198a028e63cecfee97ad512f4e3090ed5dec5a2b3834f840
+Filename: pool/universe/p/plymouth/plymouth-theme-solar_0.8.2-2ubuntu31.1_amd64.deb
+Size: 371598
+MD5sum: 6f671d8392906b19f860798af85434e4
+SHA1: e2555d441b0e699f09f259ff3a505cd26ecdb886
+SHA256: 0cd7aed8966571809bb530c139bf1509c4987ffe2fd8e05cc7b497b601cc58b1
 Description: graphical boot animation and logger - solar theme
 Description-md5: a05050529bca7085989e0f452ac47223
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -17677,19 +17784,19 @@ Origin: Ubuntu
 Package: plymouth-theme-spinfinity
 Priority: optional
 Section: universe/x11
-Installed-Size: 98
+Installed-Size: 99
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: plymouth
-Version: 0.8.2-2ubuntu31
+Version: 0.8.2-2ubuntu31.1
 Replaces: plymouth (<< 0.8.1-1~)
 Provides: plymouth-theme
 Depends: libc6 (>= 2.8), libplymouth2 (>= 0.8.0~-13~ppa1), plymouth, plymouth-label
-Filename: pool/universe/p/plymouth/plymouth-theme-spinfinity_0.8.2-2ubuntu31_amd64.deb
-Size: 19868
-MD5sum: d840e07d151af4b4e28b34abf8289f01
-SHA1: 3be41618edec3330216fa22df6bfeb491355a04d
-SHA256: 606d8ab933e08f465543f06c01803a185f45c765376a59d4a214aa764186af90
+Filename: pool/universe/p/plymouth/plymouth-theme-spinfinity_0.8.2-2ubuntu31.1_amd64.deb
+Size: 19892
+MD5sum: 18c70279e391f959103ded3129c01350
+SHA1: 94b0469d4b60ba5baa7f6cd6a1a458d4b337173a
+SHA256: d4043b7725b121622ee9b75d04121ef537f1710df74ba73fa3069625e57a91fb
 Description: graphical boot animation and logger - spinfinity theme
 Description-md5: d22e6ece21f0eea458ae7c05edd0a2b2
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -17702,15 +17809,15 @@ Installed-Size: 73
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: plymouth
-Version: 0.8.2-2ubuntu31
+Version: 0.8.2-2ubuntu31.1
 Replaces: plymouth (<< 0.8.1-1~)
 Provides: plymouth-theme
 Depends: libc6 (>= 2.2.5), libplymouth2 (>= 0.8.0~-13~ppa1), plymouth
-Filename: pool/universe/p/plymouth/plymouth-theme-text_0.8.2-2ubuntu31_amd64.deb
-Size: 8540
-MD5sum: 10a4174c5517bbdf6c1145b0ea24d799
-SHA1: 80a7d2dc095068df915a122c99a2ced9364fc91f
-SHA256: 7226c02297a8dc63e1a62634d1f0a5296aa826dd00dff3423afe0c48ea18a435
+Filename: pool/universe/p/plymouth/plymouth-theme-text_0.8.2-2ubuntu31.1_amd64.deb
+Size: 8536
+MD5sum: 266a6fc118e683bb93241897df98152d
+SHA1: 7a626ad52dcf1fa1c08b37593b5dfd8296338526
+SHA256: fb7deddaeadcf58f3553d927337ac264b4dbaba8731bfa989426a5df7f50f386
 Description: graphical boot animation and logger - text theme
 Description-md5: 70944c5b54f1648dabab835c78a4bf4c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -17723,14 +17830,14 @@ Installed-Size: 90
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: plymouth
-Version: 0.8.2-2ubuntu31
+Version: 0.8.2-2ubuntu31.1
 Replaces: plymouth (<< 0.8.0~-9)
-Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.10.0), libpango1.0-0 (>= 1.14.0), libplymouth2 (= 0.8.2-2ubuntu31), plymouth (= 0.8.2-2ubuntu31)
-Filename: pool/universe/p/plymouth/plymouth-x11_0.8.2-2ubuntu31_amd64.deb
-Size: 12804
-MD5sum: be8f333cc76938ee5fb1fdc223e7e789
-SHA1: 939518a9223407d6a7a7912a5b7461c3773b47f9
-SHA256: dcc08227c20db75a2760c8ce284700a2934d55aec76c74b32220e7c834f7af9b
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.10.0), libpango1.0-0 (>= 1.14.0), libplymouth2 (= 0.8.2-2ubuntu31.1), plymouth (= 0.8.2-2ubuntu31.1)
+Filename: pool/universe/p/plymouth/plymouth-x11_0.8.2-2ubuntu31.1_amd64.deb
+Size: 12810
+MD5sum: 52c143a43b9303b6876fad79ca58d5eb
+SHA1: 928780068a614d0cba42a4746cb7508cfec8f3d2
+SHA256: 7b88f894605cf094cbac5d59b4d170e5fc6395651ab2dabdc67716ac2f69879f
 Description: graphical boot animation and logger - X11 interface
 Description-md5: 9f1a92f7b5eccaeda62ed2595a6135c0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
