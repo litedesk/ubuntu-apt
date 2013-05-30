@@ -13021,11 +13021,23 @@ Description-en: Generic Linux kernel image and headers
  This package will always depend on the latest generic 12.10 kernel image
  and headers packages available.
 
+Package: linux-generic-lts-quantal-eol-upgrade
+Description-md5: 65f1f35e2b000ab86c4f5cba5eed8683
+Description-en: Complete Generic Linux kernel and headers
+ This package will always depend on the latest 12.10 generic Linux kernel
+ and headers, or 14.04 when 12.10 is end of life.
+
 Package: linux-generic-lts-raring
 Description-md5: 25f903038c92ee94e474b11119858716
 Description-en: Generic Linux kernel image and headers
  This package will always depend on the latest generic 12.10 kernel image
  and headers packages available.
+
+Package: linux-generic-lts-raring-eol-upgrade
+Description-md5: bebc2e0e8a870d470f72bbe021584cfb
+Description-en: Complete Generic Linux kernel and headers
+ This package will always depend on the latest 13.04 generic Linux kernel
+ and headers, or 14.04 when 13.04 is end of life.
 
 Package: linux-headers-3.2.0-24
 Description-md5: 84ca8a993c65ee5a94edc08c62f5113b
@@ -15352,11 +15364,23 @@ Description-en: Complete Signed Generic Linux kernel and headers
  This package will always depend on the latest complete generic Linux kernel
  and headers.  Signed with the Ubuntu EFI key.
 
+Package: linux-signed-generic-lts-quantal-eol-upgrade
+Description-md5: b0a192d9d3ec8d265822a0f9069eca20
+Description-en: Complete Signed Generic Linux kernel and headers
+ This package will always depend on the latest 12.10 generic Linux kernel
+ and headers, or 14.04 when 12.10 is end of life.
+
 Package: linux-signed-generic-lts-raring
 Description-md5: c46e75d15f431954f5e63aac8c06ea2d
 Description-en: Complete Signed Generic Linux kernel and headers
  This package will always depend on the latest complete generic Linux kernel
  and headers.  Signed with the Ubuntu EFI key.
+
+Package: linux-signed-generic-lts-raring-eol-upgrade
+Description-md5: a20e429cf1b0e2c6ec9a73ca6d249863
+Description-en: Complete Signed Generic Linux kernel and headers
+ This package will always depend on the latest 13.04 generic Linux kernel
+ and headers, or 14.04 when 13.04 is end of life.
 
 Package: linux-signed-image-3.5.0-19-generic
 Description-md5: 58606405946683c4d2ca4f105784fd91
@@ -15418,6 +15442,12 @@ Description-en: Signed kernel image generic
  A kernel image for generic.  This version of it is signed with
  Canonical's UEFI signing key.
 
+Package: linux-signed-image-3.5.0-32-generic
+Description-md5: 58606405946683c4d2ca4f105784fd91
+Description-en: Signed kernel image generic
+ A kernel image for generic.  This version of it is signed with
+ Canonical's UEFI signing key.
+
 Package: linux-signed-image-3.8.0-19-generic
 Description-md5: 58606405946683c4d2ca4f105784fd91
 Description-en: Signed kernel image generic
@@ -15431,6 +15461,12 @@ Description-en: Signed kernel image generic
  Canonical's UEFI signing key.
 
 Package: linux-signed-image-3.8.0-22-generic
+Description-md5: 58606405946683c4d2ca4f105784fd91
+Description-en: Signed kernel image generic
+ A kernel image for generic.  This version of it is signed with
+ Canonical's UEFI signing key.
+
+Package: linux-signed-image-3.8.0-23-generic
 Description-md5: 58606405946683c4d2ca4f105784fd91
 Description-en: Signed kernel image generic
  A kernel image for generic.  This version of it is signed with
