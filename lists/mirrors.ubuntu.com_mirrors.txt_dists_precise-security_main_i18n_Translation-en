@@ -20945,6 +20945,22 @@ Description-en: Linux kernel headers for version 3.2.0 on Marvell Armada XP base
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-armadaxp-headers-3.2.0-1619/debian.README.gz for details.
 
+Package: linux-headers-3.2.0-1620
+Description-md5: 1797d8c89c4c0b70a2a76c1b50eec961
+Description-en: Header files related to Linux kernel version 3.2.0
+ This package provides kernel header files for version 3.2.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-armadaxp-headers-3.2.0-1620/debian.README.gz for details
+
+Package: linux-headers-3.2.0-1620-armadaxp
+Description-md5: da360212fb867f72431cab49460fc304
+Description-en: Linux kernel headers for version 3.2.0 on Marvell Armada XP based systems
+ This package provides kernel header files for version 3.2.0 on
+ Marvell Armada XP based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-armadaxp-headers-3.2.0-1620/debian.README.gz for details.
+
 Package: linux-headers-3.2.0-25-highbank
 Description-md5: 4e5523a2124e89a8141f2f8ac21a749a
 Description-en: Linux kernel headers for version 3.2.0 on Calxeda highbank ARM Server
@@ -21468,6 +21484,24 @@ Description-en: Linux kernel image for version 3.2.0 on Marvell Armada XP based 
  correctly, and that supporting packages are also installed.
 
 Package: linux-image-3.2.0-1619-armadaxp
+Description-md5: 43cd1298949800d7794c2b0a5283d6fb
+Description-en: Linux kernel image for version 3.2.0 on Marvell Armada XP based systems
+ This package contains the Linux kernel image for version 3.2.0 on
+ Marvell Armada XP based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Marvell Armada XP processors.
+ .
+ Targeted towards boards
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-armadaxp meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-3.2.0-1620-armadaxp
 Description-md5: 43cd1298949800d7794c2b0a5283d6fb
 Description-en: Linux kernel image for version 3.2.0 on Marvell Armada XP based systems
  This package contains the Linux kernel image for version 3.2.0 on
