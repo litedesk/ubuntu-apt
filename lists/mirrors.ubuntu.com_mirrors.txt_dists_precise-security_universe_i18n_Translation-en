@@ -5056,6 +5056,30 @@ Description-en: Generate C++ wrapper classes for XML-RPC servers
   * xml-rpc-api2txt, a utility for printing out an XML-RPC API as a
     text file.  The API is obtained by interrogating an XML-RPC server.
 
+Package: xmp
+Description-md5: d567c319899b63601bd152bacfda1271
+Description-en: module player supporting AWE32, GUS, and software-mixing
+ xmp is a multi-format module player for UNIX. In machines with GUS or
+ AWE cards xmp takes advantage of the OSS sequencer to play modules with
+ virtually no system load. Using software mixing, xmp plays at sampling
+ rates up to 48 kHz in mono or stereo, 8 or 16 bits, signed or unsigned,
+ little or big endian samples with 32 bit linear interpolation. xmp
+ currently supports more than 40 module formats.
+
+Package: xmp-audacious
+Description-md5: 5a110bdf0f4f25daf296b266b066f3fc
+Description-en: XMP plugin for Audacious
+ This package contains an xmp plugin for Audacious, supporting more
+ than 40 module formats including Protracker variants, packed MODs,
+ S3M, XM, IT with filters, exotic formats and Adlib modules.
+
+Package: xmp-common
+Description-md5: 6587c2615027771ab071a400bfe9978f
+Description-en: common files for xmp and the xmp Audacious plugin
+ This package contains configuration and documentation files and
+ the OSS PCM audio and sequencer drivers for xmp and
+ xmp-audacious.
+
 Package: xserver-xephyr
 Description-md5: 516dc4b8b7e15f13bc99547d4869e159
 Description-en: nested X server
