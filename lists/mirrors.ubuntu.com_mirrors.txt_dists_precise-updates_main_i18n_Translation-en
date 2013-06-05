@@ -17701,6 +17701,66 @@ Description-en: Red Hat cluster suite - distributed lock manager library
  This is the client library for applications using the lock manager.
  The lock manager itself is a kernel module.
 
+Package: libdmx-dev
+Description-md5: 4c3cc722eb34563e5337ba949cffc8b3
+Description-en: X11 Distributed Multihead extension library (development headers)
+ libdmx is an interface to the DMX extension for X, which allows a single
+ server to be set up as a proxy spanning multiple servers -- not unlike
+ Xinerama across discrete physical machines.  It can be reconfigured
+ on the fly to change the layout, and it is presented as a single logical
+ display to clients.
+ .
+ libdmx allows clients to configure the layout of DMX servers by adding
+ and removing screens, input devices, et al.
+ .
+ This package contains the development headers for the library found in
+ libdmx1.  Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libdmx
+
+Package: libdmx1
+Description-md5: 3bb7f6af7b22c4a1e37a2eb6f705b674
+Description-en: X11 Distributed Multihead extension library
+ libdmx is an interface to the DMX extension for X, which allows a single
+ server to be set up as a proxy spanning multiple servers -- not unlike
+ Xinerama across discrete physical machines.  It can be reconfigured
+ on the fly to change the layout, and it is presented as a single logical
+ display to clients.
+ .
+ libdmx allows clients to configure the layout of DMX servers by adding
+ and removing screens, input devices, et al.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libdmx
+
+Package: libdmx1-dbg
+Description-md5: c7776342d319349800d5af565864c2c3
+Description-en: X11 Distributed Multihead library (debug package)
+ libdmx is an interface to the DMX extension for X, which allows a single
+ server to be set up as a proxy spanning multiple servers -- not unlike
+ Xinerama across discrete physical machines.  It can be reconfigured
+ on the fly to change the layout, and it is presented as a single logical
+ display to clients.
+ .
+ libdmx allows clients to configure the layout of DMX servers by adding
+ and removing screens, input devices, et al.
+ .
+ This package contains the debug versions of the library found in libdmx1.
+ Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libdmx
+
 Package: libdns81
 Description-md5: 08196e0b2c6fd4d0c818845ca28dbe39
 Description-en: DNS Shared Library used by BIND
@@ -18444,6 +18504,51 @@ Description-en: FreeType 2 font engine, development files
  This package contains all supplementary files (static library, headers
  and documentation) you need to develop your own programs using the
  FreeType 2 library.
+
+Package: libfs-dev
+Description-md5: 8afa50cb2254f0d5b40ef30959e297da
+Description-en: X11 Font Services library (development headers)
+ libFS, the Font Services library, provides various functions useful to
+ X11 font servers, and clients connecting to font servers.  It is not
+ used outside of these implementations.
+ .
+ This package contains the development headers for the library found in
+ libfs6.  Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libFS
+
+Package: libfs6
+Description-md5: bc296d2b3e22926a5940397b64e85665
+Description-en: X11 Font Services library
+ libFS, the Font Services library, provides various functions useful to
+ X11 font servers, and clients connecting to font servers.  It is not used
+ outside of these implementations.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libFS
+
+Package: libfs6-dbg
+Description-md5: 4adf63290da4ca2067cfdbd7d8c74262
+Description-en: X11 Font Services library (debug package)
+ libFS, the Font Services library, provides various functions useful to
+ X11 font servers, and clients connecting to font servers.  It is not used
+ outside of thse implementations.
+ .
+ This package contains the debug versions of the library found in libfs6.
+ Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libFS
 
 Package: libgail-3-0
 Description-md5: ab3b6da8ff97ae53ae0793ae62e8ce35
@@ -28907,6 +29012,129 @@ Description-en: Web content engine library for GTK+ - Development files
  This package provides development files required to create GTK+ applications
  embedding WebKit.
 
+Package: libx11-6
+Description-md5: d75c895abf6eca234f7480813aaa95ec
+Description-en: X11 client-side library
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of the
+ window system.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libX11
+
+Package: libx11-6-dbg
+Description-md5: aba9421d3cbaf726029435b7f064a21f
+Description-en: X11 client-side library (debug package)
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of the
+ window system.
+ .
+ This package contains the debug versions of the library found in libx11-6.
+ Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libX11
+
+Package: libx11-data
+Description-md5: 6c325636dc71729675cb0107afb6ecf0
+Description-en: X11 client-side library
+ This package provides the locale data files for libx11.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libX11
+
+Package: libx11-dev
+Description-md5: d15ee011f0b76dcc1f36f3a309df4a93
+Description-en: X11 client-side library (development headers)
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of the
+ window system.
+ .
+ This package contains the development headers for the library found in
+ libx11-6. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libX11
+
+Package: libx11-doc
+Description-md5: b3f98cb9df5727061e55dc69bf459fb2
+Description-en: X11 client-side library (development documentation)
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of the
+ window system.
+ .
+ This package contains supplemental documentation for the library found in
+ libx11-6. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libX11
+
+Package: libx11-xcb-dev
+Description-md5: ee46e7a5a5a4162c9e382ed7112759eb
+Description-en: Xlib/XCB interface library (development headers)
+ libX11-xcb provides functions needed by clients which take advantage of
+ Xlib/XCB to mix calls to both Xlib and XCB over the same X connection.
+ .
+ This package contains the development headers for the library found in
+ libx11-xcb1. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ More information about XCB can be found at:
+ <URL:http://xcb.freedesktop.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libX11
+
+Package: libx11-xcb1
+Description-md5: 8904e1c2cc3cadffdce355234a23f6c3
+Description-en: Xlib/XCB interface library
+ libX11-xcb provides functions needed by clients which take advantage of
+ Xlib/XCB to mix calls to both Xlib and XCB over the same X connection.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ More information about XCB can be found at:
+ <URL:http://xcb.freedesktop.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libX11
+
+Package: libx11-xcb1-dbg
+Description-md5: e1bdd7a7a9d36bb39443201e274af2ba
+Description-en: Xlib/XCB interface library (debug package)
+ libX11-xcb provides functions needed by clients which take advantage of
+ Xlib/XCB to mix calls to both Xlib and XCB over the same X connection.
+ .
+ This package contains the debug versions of the library found in
+ libx11-xcb1.  Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ More information about XCB can be found at:
+ <URL:http://xcb.freedesktop.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libX11
+
 Package: libxatracker-dev
 Description-md5: acb2dd21dbe796c5f50a1f153cef93e2
 Description-en: X acceleration library -- development files
@@ -30125,6 +30353,39 @@ Description-en: X C Binding, development files
   * Easy creation of new extensions: automatically generates interface from
     machine-parsable protocol descriptions
 
+Package: libxcursor-dev
+Description-md5: 6d945f0733e812c326a50fb6989e8cde
+Description-en: X cursor management library (development files)
+ Header files and a static version of the X cursor management library are
+ provided by this package.
+ .
+ See the libxcursor1 package for further information.
+
+Package: libxcursor1
+Description-md5: 7c341e5f21e9bb3cee6338076e0f3458
+Description-en: X cursor management library
+ Xcursor is a simple library designed to help locate and load cursors for the
+ X Window System.  Cursors can be loaded from files or memory and can exist in
+ several sizes; the library automatically picks the best size.  When using
+ images loaded from files, Xcursor prefers to use the Render extension's
+ CreateCursor request for rendering cursors.  Where the Render extension is
+ not supported, Xcursor maps the cursor image to a standard X cursor and uses
+ the core X protocol CreateCursor request.
+
+Package: libxcursor1-dbg
+Description-md5: 0a2e02d2365b4344848180495e4e79b5
+Description-en: X cursor management library (unstripped)
+ This package provides an unstripped shared object with debugging symbols,
+ useful to provide a backtrace with symbol names in a debugger; this
+ facilitates interpretation of core dumps, and aids in finding logic errors in
+ programs using this library (or the library itself).  The library is
+ installed in /usr/lib/debug and can be used by placing that directory in the
+ LD_LIBRARY_PATH environment variable when the code to be debugged is
+ executed.  Non-programmers will likely have little use for this package.
+ .
+ Non-programmers will likely have little use for this package.  See the
+ libxcursor1 package for further information.
+
 Package: libxen-4.1
 Description-md5: cd7ad869e7a3a001fd3c7b337111e06f
 Description-en: Public libs for Xen
@@ -30151,6 +30412,270 @@ Package: libxenstore3.0
 Description-md5: c2462dfd8088a311ca74072df39a0705
 Description-en: Xenstore communications library for Xen
  This package contains the public libxenstore.
+
+Package: libxext-dev
+Description-md5: 9d497aabe7a8734879a278b8413e69c6
+Description-en: X11 miscellaneous extensions library (development headers)
+ libXext provides an X Window System client interface to several extensions to
+ the X protocol.
+ .
+ The supported protocol extensions are:
+  - DOUBLE-BUFFER (DBE), the Double Buffer extension;
+  - DPMS, the VESA Display Power Management System extension;
+  - Extended-Visual-Information (EVI), an extension for gathering extra
+    information about the X server's visuals;
+  - LBX, the Low Bandwidth X extension;
+  - MIT-SHM, the MIT X client/server shared memory extension;
+  - MIT-SUNDRY-NONSTANDARD, a miscellaneous extension by MIT;
+  - Multi-Buffering, the multi-buffering and stereo display extension;
+  - SECURITY, the X security extension;
+  - SHAPE, the non-rectangular shaped window extension;
+  - SYNC, the X synchronization extension;
+  - TOG-CUP, the Open Group's Colormap Utilization extension;
+  - XC-APPGROUP, the X Consortium's Application Group extension;
+  - XC-MISC, the X Consortium's resource ID querying extension;
+  - XTEST, the X test extension (this is one of two client-side
+    implementations; the other is in the libXtst library, provided by the
+    libxtst6 package);
+ .
+ libXext also provides a small set of utility functions to aid authors of
+ client APIs for X protocol extensions.
+ .
+ This package contains the development headers for the library found in
+ libxext6. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXext
+
+Package: libxext6
+Description-md5: 5c72cf7a13b0990666898813406a2a89
+Description-en: X11 miscellaneous extension library
+ libXext provides an X Window System client interface to several extensions to
+ the X protocol.
+ .
+ The supported protocol extensions are:
+  - DOUBLE-BUFFER (DBE), the Double Buffer extension;
+  - DPMS, the VESA Display Power Management System extension;
+  - Extended-Visual-Information (EVI), an extension for gathering extra
+    information about the X server's visuals;
+  - LBX, the Low Bandwidth X extension;
+  - MIT-SHM, the MIT X client/server shared memory extension;
+  - MIT-SUNDRY-NONSTANDARD, a miscellaneous extension by MIT;
+  - Multi-Buffering, the multi-buffering and stereo display extension;
+  - SECURITY, the X security extension;
+  - SHAPE, the non-rectangular shaped window extension;
+  - SYNC, the X synchronization extension;
+  - TOG-CUP, the Open Group's Colormap Utilization extension;
+  - XC-APPGROUP, the X Consortium's Application Group extension;
+  - XC-MISC, the X Consortium's resource ID querying extension;
+  - XTEST, the X test extension (this is one of two client-side
+    implementations; the other is in the libXtst library, provided by the
+    libxtst6 package);
+ .
+ libXext also provides a small set of utility functions to aid authors of
+ client APIs for X protocol extensions.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXext
+
+Package: libxext6-dbg
+Description-md5: a9d12f89d8fa4962191a46fc5214d873
+Description-en: X11 miscellaneous extensions library (debug package)
+ libXext provides an X Window System client interface to several extensions to
+ the X protocol.
+ .
+ The supported protocol extensions are:
+  - DOUBLE-BUFFER (DBE), the Double Buffer extension;
+  - DPMS, the VESA Display Power Management System extension;
+  - Extended-Visual-Information (EVI), an extension for gathering extra
+    information about the X server's visuals;
+  - LBX, the Low Bandwidth X extension;
+  - MIT-SHM, the MIT X client/server shared memory extension;
+  - MIT-SUNDRY-NONSTANDARD, a miscellaneous extension by MIT;
+  - Multi-Buffering, the multi-buffering and stereo display extension;
+  - SECURITY, the X security extension;
+  - SHAPE, the non-rectangular shaped window extension;
+  - SYNC, the X synchronization extension;
+  - TOG-CUP, the Open Group's Colormap Utilization extension;
+  - XC-APPGROUP, the X Consortium's Application Group extension;
+  - XC-MISC, the X Consortium's resource ID querying extension;
+  - XTEST, the X test extension (this is one of two client-side
+    implementations; the other is in the libXtst library, provided by the
+    libxtst6 package);
+ .
+ libXext also provides a small set of utility functions to aid authors of
+ client APIs for X protocol extensions.
+ .
+ This package contains the debug versions of the library found in libxext6.
+ Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXext
+
+Package: libxfixes-dev
+Description-md5: 534fb9330ebefdcdd616826883b3e8d6
+Description-en: X11 miscellaneous 'fixes' extension library (development headers)
+ libXfixes provides an X Window System client interface to the 'XFIXES'
+ extension to the X protocol.
+ .
+ It provides support for Region types, and some cursor functions.
+ .
+ This package contains the development headers for the library found in
+ libxfixes3.  Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXfixes
+
+Package: libxfixes3
+Description-md5: 0fa5919ef08f61382fb2c6bf965194ba
+Description-en: X11 miscellaneous 'fixes' extension library
+ libXfixes provides an X Window System client interface to the 'XFIXES'
+ extension to the X protocol.
+ .
+ It provides support for Region types, and some cursor functions.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXfixes
+
+Package: libxfixes3-dbg
+Description-md5: c012f9063b8e9d1a8dfa269f154dec48
+Description-en: X11 miscellaneous 'fixes' extension library (debug package)
+ libXfixes provides an X Window System client interface to the 'XFIXES'
+ extension to the X protocol.
+ .
+ It provides support for Region types, and some cursor functions.
+ .
+ This package contains the debug versions of the library found in libxfixes3.
+ Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXfixes
+
+Package: libxi-dev
+Description-md5: 39bbbc7e9f5655daca53080ffdf25bc7
+Description-en: X11 Input extension library (development headers)
+ libXi provides an X Window System client interface to the XINPUT
+ extension to the X protocol.
+ .
+ The Input extension allows setup and configuration of multiple input devices,
+ and will soon allow hotplugging of input devices; to be added and removed on
+ the fly.
+ .
+ This package contains the development headers for the library found in
+ libxi6.  Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXi
+
+Package: libxi6
+Description-md5: ba006f0e6e88bcc1dded33a4ac1bacfd
+Description-en: X11 Input extension library
+ libXi provides an X Window System client interface to the XINPUT
+ extension to the X protocol.
+ .
+ The Input extension allows setup and configuration of multiple input devices,
+ and will soon allow hotplugging of input devices; to be added and removed on
+ the fly.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXi
+
+Package: libxi6-dbg
+Description-md5: 857507268b7762f8b0c6a0614de2dde3
+Description-en: X11 Input extension library (debug package)
+ libXi provides an X Window System client interface to the XINPUT
+ extension to the X protocol.
+ .
+ The Input extension allows setup and configuration of multiple input devices,
+ and will soon allow hotplugging of input devices; to be added and removed on
+ the fly.
+ .
+ This package contains the debug versions of the library found in libxi6.
+ Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXi
+
+Package: libxinerama-dev
+Description-md5: 2efd4db97130bfd4a9ddc036f4e668d9
+Description-en: X11 Xinerama extension library (development headers)
+ libXinerama provides an X Window System client interface to the XINERAMA
+ extension to the X protocol.
+ .
+ The Xinerama (also known as panoramiX) extension allows for multiple screens
+ attached to a single display to be treated as belonging together, and to give
+ desktop applications a better idea of the monitor layout.
+ .
+ This package contains the development headers for the library found in
+ libxinerama1.  Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXinerama
+
+Package: libxinerama1
+Description-md5: 8af4527c5c1d4c9cfadc619f456cc56d
+Description-en: X11 Xinerama extension library
+ libXinerama provides an X Window System client interface to the XINERAMA
+ extension to the X protocol.
+ .
+ The Xinerama (also known as panoramiX) extension allows for multiple screens
+ attached to a single display to be treated as belonging together, and to give
+ desktop applications a better idea of the monitor layout.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXinerama
+
+Package: libxinerama1-dbg
+Description-md5: 3efda02ddc20dc08432699587550c3db
+Description-en: X11 Xinerama extension library (debug package)
+ libXinerama provides an X Window System client interface to the XINERAMA
+ extension to the X protocol.
+ .
+ The Xinerama (also known as panoramiX) extension allows for multiple screens
+ attached to a single display to be treated as belonging together, and to give
+ desktop applications a better idea of the monitor layout.
+ .
+ This package contains the debug versions of the library found in
+ libxinerama1. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXinerama
 
 Package: libxkbfile-dev
 Description-md5: ad5f62c86814066bcc2cca88f1feb02d
@@ -30336,6 +30861,52 @@ Description-en: lightweight RPC library based on XML and HTTP [C development lib
  .
  Install this package if you wish to develop your own programs using this
  library.
+
+Package: libxp-dev
+Description-md5: 7b946dfa99967f31503fdf6163d82429
+Description-en: X Printing Extension (Xprint) client library (development files)
+ libXp provides public APIs to allow client applications to render to
+ non-display devices, making use of the X Print Service.
+ .
+ This package provides a static library and C header files.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXp
+
+Package: libxp6
+Description-md5: 606ddf2ba3808cac5f4c9f729b530e3c
+Description-en: X Printing Extension (Xprint) client library
+ libXp provides public APIs to allow client applications to render to
+ non-display devices, making use of the X Print Service.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXp
+
+Package: libxp6-dbg
+Description-md5: ce28d085688ab1f89e9fa011f8e022fc
+Description-en: X Printing Extension (Xprint) client library (unstripped)
+ libXp provides public APIs to allow client applications to render to
+ non-display devices, making use of the X Print Service.
+ .
+ This package provides an unstripped shared object with debugging symbols,
+ useful to provide a backtrace with symbol names in a debugger; this
+ facilitates interpretation of core dumps, and aids in finding logic errors in
+ programs using this library (or the library itself).  The library is
+ installed in /usr/lib/debug and can be used by placing that directory in the
+ LD_LIBRARY_PATH environment variable when the code to be debugged is
+ executed.  Non-programmers will likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXp
 
 Package: libxrandr-dev
 Description-md5: 444725c9e942434744988c5291f2f2f3

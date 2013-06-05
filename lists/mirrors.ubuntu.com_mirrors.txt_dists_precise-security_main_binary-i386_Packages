@@ -8201,6 +8201,70 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: libdmx-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 98
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libdmx
+Version: 1:1.1.1-1ubuntu0.1
+Replaces: x11proto-dmx-dev (<< 1:2.2.99.1)
+Depends: libdmx1 (= 1:1.1.1-1ubuntu0.1), libx11-dev, x11proto-dmx-dev
+Filename: pool/main/libd/libdmx/libdmx-dev_1.1.1-1ubuntu0.1_i386.deb
+Size: 35120
+MD5sum: 426267fc66e350fe0f6516e84f2175e8
+SHA1: 9338a1bdccbc9eac5c7c28355c3dd259d8a497c6
+SHA256: 849459d3659c1dfe7a6049d851b09cf1493c526317ff1e09b69823f13842f71f
+Description: X11 Distributed Multihead extension library (development headers)
+Description-md5: 4c3cc722eb34563e5337ba949cffc8b3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libdmx1
+Priority: optional
+Section: libs
+Installed-Size: 49
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libdmx
+Version: 1:1.1.1-1ubuntu0.1
+Depends: libc6 (>= 2.1.3), libx11-6 (>= 2:1.4.99.1), libxext6
+Filename: pool/main/libd/libdmx/libdmx1_1.1.1-1ubuntu0.1_i386.deb
+Size: 10802
+MD5sum: 456e93c9b1ccc5c35deb7cf6609fb8e8
+SHA1: de93093bf97befb37e9c1d88bcb1460e6a7b84e6
+SHA256: 250a366412b49bd0221f42065aeb96736047d80fdde550aa8194a7eb288f1be3
+Description: X11 Distributed Multihead extension library
+Description-md5: 3bb7f6af7b22c4a1e37a2eb6f705b674
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libdmx1-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 96
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libdmx
+Version: 1:1.1.1-1ubuntu0.1
+Depends: libdmx1 (= 1:1.1.1-1ubuntu0.1)
+Filename: pool/main/libd/libdmx/libdmx1-dbg_1.1.1-1ubuntu0.1_i386.deb
+Size: 25400
+MD5sum: 7b0c44cd84202d862eeaf0222df56ff0
+SHA1: 6d8ff27120e12a1c2344363734412619f5ae60bb
+SHA256: 6c7298f174a2dbb6b361bb5de2d712caf0549f3ddbf51a8e614bd1ea6bc061b8
+Description: X11 Distributed Multihead library (debug package)
+Description-md5: c7776342d319349800d5af565864c2c3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: libdns81
 Priority: standard
 Section: libs
@@ -9015,6 +9079,70 @@ Description-md5: 172d8a56d9acb662016bcd69f56b4640
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
+
+Package: libfs-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 141
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libfs
+Version: 2:1.0.3-1ubuntu0.1
+Depends: libfs6 (= 2:1.0.3-1ubuntu0.1), x11proto-core-dev, x11proto-fonts-dev
+Filename: pool/main/libf/libfs/libfs-dev_1.0.3-1ubuntu0.1_i386.deb
+Size: 28648
+MD5sum: effca96e4c50cc538fadf11ca68dad36
+SHA1: f727d2c6ea4ff061e339eb0603db8d1569198520
+SHA256: 41cd6d01dd182cce1f94fb6854276f07f0a11e63236b93ad6b7f2698d13ba3a2
+Description: X11 Font Services library (development headers)
+Description-md5: 8afa50cb2254f0d5b40ef30959e297da
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libfs6
+Priority: optional
+Section: libs
+Installed-Size: 87
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libfs
+Version: 2:1.0.3-1ubuntu0.1
+Depends: libc6 (>= 2.15)
+Filename: pool/main/libf/libfs/libfs6_1.0.3-1ubuntu0.1_i386.deb
+Size: 26726
+MD5sum: 37af52613b235a68d8be8b6330eaa879
+SHA1: 362be92105f5f082355423e35397703814eb42dc
+SHA256: ec6c9f76df5025701376c563a9c3ef02563649603659d495926607d52f638b86
+Description: X11 Font Services library
+Description-md5: bc296d2b3e22926a5940397b64e85665
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libfs6-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 215
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libfs
+Version: 2:1.0.3-1ubuntu0.1
+Depends: libfs6 (= 2:1.0.3-1ubuntu0.1)
+Filename: pool/main/libf/libfs/libfs6-dbg_1.0.3-1ubuntu0.1_i386.deb
+Size: 58980
+MD5sum: 0450836cec007fd445fae1a45a9b09c9
+SHA1: 3816368de719d5e5f031de6d698db26e0d1ce4c3
+SHA256: 4d07f3ed1af6854306fb93fab50f3229b81b031a3493b53a945d220f7fae550b
+Description: X11 Font Services library (debug package)
+Description-md5: 4adf63290da4ca2067cfdbd7d8c74262
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
 
 Package: libgbm-dev
 Priority: optional
@@ -23391,6 +23519,188 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: libx11-6
+Priority: standard
+Section: libs
+Installed-Size: 1469
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libx11
+Version: 2:1.4.99.1-0ubuntu2.1
+Depends: libc6 (>= 2.15), libxcb1 (>= 1.2), libx11-data
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libx11/libx11-6_1.4.99.1-0ubuntu2.1_i386.deb
+Size: 770240
+MD5sum: cd2e363a61ac8b15a72bcaf2bffa8b52
+SHA1: aad2d8d38fb3d1966c6d45fe84770bfe6718cbc8
+SHA256: e3f08a21116a1b333f8b228dd1c4612ac0dc52bc4953f1021b9577cd4a62c580
+Description: X11 client-side library
+Multi-Arch: same
+Description-md5: d75c895abf6eca234f7480813aaa95ec
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: standard, kubuntu-active, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master
+
+Package: libx11-6-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 10763
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libx11
+Version: 2:1.4.99.1-0ubuntu2.1
+Depends: libx11-6 (= 2:1.4.99.1-0ubuntu2.1)
+Filename: pool/main/libx/libx11/libx11-6-dbg_1.4.99.1-0ubuntu2.1_i386.deb
+Size: 3046872
+MD5sum: 91732b6c0bed0615deca3681799d4820
+SHA1: 79c60ab1532ab8a3d39cdd98ffc2214827962bd1
+SHA256: a9df14951a4a538fb748daa691233a1e4aafae0996a070db581f82376aa30834
+Description: X11 client-side library (debug package)
+Multi-Arch: same
+Description-md5: aba9421d3cbaf726029435b7f064a21f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libx11-data
+Priority: standard
+Section: x11
+Installed-Size: 1525
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: all
+Source: libx11
+Version: 2:1.4.99.1-0ubuntu2.1
+Breaks: libx11-6 (<< 2:1.4.1)
+Filename: pool/main/libx/libx11/libx11-data_1.4.99.1-0ubuntu2.1_all.deb
+Size: 174548
+MD5sum: 7f8cb9c6a2bf5493ae41068eae8c762d
+SHA1: ede81ef39a7631c344f7d62d754acee46eea1876
+SHA256: b8aad9f02e5c50ca4143f53944bd915d0d97dd411f9150ec894acfc9f20cb334
+Description: X11 client-side library
+Multi-Arch: foreign
+Description-md5: 6c325636dc71729675cb0107afb6ecf0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: standard, kubuntu-active, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master
+
+Package: libx11-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 2267
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libx11
+Version: 2:1.4.99.1-0ubuntu2.1
+Depends: libx11-6 (= 2:1.4.99.1-0ubuntu2.1), libxau-dev (>= 1:1.0.0-1), libxdmcp-dev (>= 1:1.0.0-1), x11proto-core-dev (>= 6.8.99.8-1), x11proto-input-dev, x11proto-kb-dev, xtrans-dev, libxcb1-dev
+Recommends: libx11-doc
+Filename: pool/main/libx/libx11/libx11-dev_1.4.99.1-0ubuntu2.1_i386.deb
+Size: 894984
+MD5sum: 62f5adb2e423a428b752fc9ae775de28
+SHA1: 7fb2d75ec9fbdd293d57474bb2fbdad1732752be
+SHA256: e23377abd03e0ea0706e0496e26395bd1cec087aab154863f053fee5f7b60444
+Description: X11 client-side library (development headers)
+Multi-Arch: same
+Description-md5: d15ee011f0b76dcc1f36f3a309df4a93
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: libx11-doc
+Priority: optional
+Section: libdevel
+Installed-Size: 9196
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: all
+Source: libx11
+Version: 2:1.4.99.1-0ubuntu2.1
+Replaces: libx11-dev (<< 2:1.4.4-3)
+Depends: xorg-sgml-doctools (>= 1:1.5)
+Filename: pool/main/libx/libx11/libx11-doc_1.4.99.1-0ubuntu2.1_all.deb
+Size: 2433220
+MD5sum: 6785f92304ab3ba469dad4bd35f80f27
+SHA1: afd943076af450eba0338174a24463abef48202e
+SHA256: bbde8a68bbda2c7ba57f38c6a4023b63573c21f2eca831b8b2254820c979d231
+Description: X11 client-side library (development documentation)
+Multi-Arch: foreign
+Description-md5: b3f98cb9df5727061e55dc69bf459fb2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: libx11-xcb-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 224
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libx11
+Version: 2:1.4.99.1-0ubuntu2.1
+Depends: libx11-xcb1 (= 2:1.4.99.1-0ubuntu2.1), libxcb1-dev (>= 0.9.92), libx11-dev
+Filename: pool/main/libx/libx11/libx11-xcb-dev_1.4.99.1-0ubuntu2.1_i386.deb
+Size: 11084
+MD5sum: 18be21338ac7b200117a71babcffad8c
+SHA1: b91d4b9df47f7df423f8f9f3f86c7b0f65950e92
+SHA256: b5748f793c5fe97e9257e0f6f6601411e23f2bb85ba667e6aa6c03a40bdb7b23
+Description: Xlib/XCB interface library (development headers)
+Description-md5: ee46e7a5a5a4162c9e382ed7112759eb
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libx11-xcb1
+Priority: optional
+Section: libs
+Installed-Size: 205
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libx11
+Version: 2:1.4.99.1-0ubuntu2.1
+Depends: libc6 (>= 2.1.3)
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libx11/libx11-xcb1_1.4.99.1-0ubuntu2.1_i386.deb
+Size: 10434
+MD5sum: b2e43b816a45bdc54b77268d85092496
+SHA1: 8c966c6b002ba4388795011c22f7761436694189
+SHA256: ac4d02e8ddf211f50f7aa10e42a035f93a1e052abe372d0954813c7b18777892
+Description: Xlib/XCB interface library
+Multi-Arch: same
+Description-md5: 8904e1c2cc3cadffdce355234a23f6c3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libx11-xcb1-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 246
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libx11
+Version: 2:1.4.99.1-0ubuntu2.1
+Depends: libx11-xcb1 (= 2:1.4.99.1-0ubuntu2.1)
+Filename: pool/main/libx/libx11/libx11-xcb1-dbg_1.4.99.1-0ubuntu2.1_i386.deb
+Size: 22806
+MD5sum: 3cb760f33a7fa3f12b50c8762c653dfc
+SHA1: 647abed856884e4606c04e5e0145e1328e4e5cb0
+SHA256: 5d339a15d66b4882e7fd5929245366e22a54188e3140494d4a78e50c5b1058f4
+Description: Xlib/XCB interface library (debug package)
+Multi-Arch: same
+Description-md5: e1bdd7a7a9d36bb39443201e274af2ba
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: libxatracker-dev
 Priority: optional
 Section: libdevel
@@ -23542,6 +23852,1648 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: libxcb-composite0
+Priority: optional
+Section: libs
+Installed-Size: 49
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-composite0_1.8.1-1ubuntu0.2_i386.deb
+Size: 5664
+MD5sum: c18edd7347034f3387c59cc925d5a7c4
+SHA1: 1ae646c6de6e3bd877e7efb0b378433152ccff5c
+SHA256: 7afb3bdd811f6b8ba733025ce362a178fa9994a0d6ade051c0fead5c2b7cb20b
+Description: X C Binding, composite extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: ca6c0d9f4192a4dde52dc2f30e6369fd
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+Task: mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master
+
+Package: libxcb-composite0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 55
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-composite0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-composite0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 8512
+MD5sum: 9b9edb885288070dfa5c080f68314588
+SHA1: 48c93bbd848f89107328a378734bf5a24cca23bc
+SHA256: d3c5efc906b1bb1e91a25e3e447158df15822d3f579022cb36adc4c44f8a2ced
+Description: X C Binding, composite extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: b359eaaff5811752227860a01a0eff11
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-composite0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 81
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-composite0 (= 1.8.1-1ubuntu0.2), libxcb1-dev, libxcb-xfixes0-dev
+Filename: pool/main/libx/libxcb/libxcb-composite0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 6360
+MD5sum: 669d9ff0c2746a38f941d09f6b2fb4a8
+SHA1: 42dfdb3bfff544d93901d2bd8e066f3d9c7b51d8
+SHA256: c9eb6d4d064f90e70651f6025873e692b7b21a12a4ba6787d9dc886149b710d5
+Description: X C Binding, composite extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 00cb00ef9dc567135da248f123b87ed8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-damage0
+Priority: optional
+Section: libs
+Installed-Size: 49
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-damage0_1.8.1-1ubuntu0.2_i386.deb
+Size: 5254
+MD5sum: a05b978c6a95ecd50439382be0ecd347
+SHA1: 72e0aec11726745e98a00e20247be4e012d0e3ef
+SHA256: c4215aa0a14128835fd9f50f022ad3ea9604275dffe56ccece7e0991bab6757e
+Description: X C Binding, damage extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: f28e63129125663e1b4c5ea313ae297c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-damage0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 54
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-damage0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-damage0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 7598
+MD5sum: cadf09676289b3640e6ea0e2d60436fa
+SHA1: 24bb9bfe6ddfd0a3b69e35e3d922f567fa385b68
+SHA256: f5fd9dc056cebe6384fa8da5c4453cc330b00293311a422fdf51b156cc367c2a
+Description: X C Binding, damage extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 705ae1cbc549f61356c7018105aa2aa3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-damage0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 70
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-damage0 (= 1.8.1-1ubuntu0.2), libxcb1-dev, libxcb-xfixes0-dev
+Filename: pool/main/libx/libxcb/libxcb-damage0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 6060
+MD5sum: b0754f042f5f0daa1d00b98b71357766
+SHA1: eaa46e0f9694dbd207346b4707393195dda77e51
+SHA256: b3e57fddf877114ec27f35a156e9c2bb1b5b1faf4c55b1af1b8a5fc75388a95a
+Description: X C Binding, damage extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 5f289d21c087ffdfbbb63eb2f6d88403
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-doc
+Priority: optional
+Section: doc
+Installed-Size: 37031
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: all
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Filename: pool/main/libx/libxcb/libxcb-doc_1.8.1-1ubuntu0.2_all.deb
+Size: 7018532
+MD5sum: 88ef92298b0fb3e0f85c3d0f3637afa0
+SHA1: 2e131fb136299ae30c5822d6f9ef648bff92502a
+SHA256: 87a93b49e25d2e0870ec1ee10d5185f54312512a8ee4e63a2c1f8e02f1d8fe2e
+Description: X C Binding, development documentation
+Multi-Arch: foreign
+Homepage: http://xcb.freedesktop.org
+Description-md5: b97e9d64bda009574d40e0d8fa415c72
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-dpms0
+Priority: optional
+Section: libs
+Installed-Size: 49
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-dpms0_1.8.1-1ubuntu0.2_i386.deb
+Size: 5600
+MD5sum: 6779529d464e931731f2aa09d460a815
+SHA1: 5bd3bcd47513e3d89c8ed86f7875dbbfee1694c9
+SHA256: 1691c75ac84cf22b473aa91b95874d0d25c23e13ca4adaf458ba5aab4f324850
+Description: X C Binding, dpms extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 4fde6e6df699f9548c8b8e6d5aa613f6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-dpms0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 55
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-dpms0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-dpms0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 8096
+MD5sum: d0aa805e9e87e2b26ec555f97069a4a8
+SHA1: 158e0a076b64a8a4e6971268b751f5bfac668cac
+SHA256: 50ba7334edd1272ff5d860f9b8ee4cb27c974487baebe903bc7ef8793f07c692
+Description: X C Binding, dpms extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: a092e8c293c685f76014821df4efe0cf
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-dpms0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 77
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-dpms0 (= 1.8.1-1ubuntu0.2), libxcb1-dev
+Filename: pool/main/libx/libxcb/libxcb-dpms0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 6150
+MD5sum: 0727a7cc98de9a1a0b4b7f3115d1a962
+SHA1: fdeed0af153afb87d372b1b0f50a2c3aae8edbcd
+SHA256: 08818d7cec22018cba7f586dcff9c65504f966fd6a385f6c9cc4f44191ba24b3
+Description: X C Binding, dpms extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 35fb1c0c538b8e0d45ff1eac3ff582b6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-dri2-0
+Priority: optional
+Section: libs
+Installed-Size: 58
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-dri2-0_1.8.1-1ubuntu0.2_i386.deb
+Size: 7916
+MD5sum: 45e78c69ff9847a2f9041fafeb1c21ed
+SHA1: 0404d2b16a98551c0db1e0232b9ca8108e236692
+SHA256: e6e007942a08d0b295f7e9f09472bc0f654f4fbb805aa0dbb0061a80a875f083
+Description: X C Binding, dri2 extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 7b21058ae591306ca66f2da8f8c45aab
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxcb-dri2-0-dbg
+Priority: extra
+Section: debug
+Installed-Size: 61
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-dri2-0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-dri2-0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 13114
+MD5sum: a4ba812881af9ec314592bcb0fdf4eac
+SHA1: c6206a98554a070c00eaeca9fe5582a5ef189345
+SHA256: fd8e71fdd6e558c6b7a436b88f5d4e6b44e1e5f45504a0080841ce0aacb4b0d3
+Description: X C Binding, dri2 extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 2a7c3d4f8fdd6b9967d633b8bf31bd1e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-dri2-0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 121
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-dri2-0 (= 1.8.1-1ubuntu0.2), libxcb1-dev
+Filename: pool/main/libx/libxcb/libxcb-dri2-0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 10200
+MD5sum: 61c7e6b6d82d2c93f10a261bb360e5c7
+SHA1: 8c7f9cee9db9e0ac75344bbe37ae876715fa1055
+SHA256: f346d94b81ff1bec3fe281c05a14293fb7881ef5b91e11972cfdd10d28c8c827
+Description: X C Binding, dri2 extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: aa14a85bcea2f923ff44e959546b453b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-glx0
+Priority: optional
+Section: libs
+Installed-Size: 152
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-glx0_1.8.1-1ubuntu0.2_i386.deb
+Size: 28314
+MD5sum: 931b9874ffc4b4f0e2111b415ad4bb23
+SHA1: f6de59083e3e3be4a85766c6429d095737c65704
+SHA256: 78ba0428c570598de73e30f57868524c24aedf6419c43ed65a6196bc25e8bd8f
+Description: X C Binding, glx extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 3169b2c3295bfe9c0729ea9f922b2d4a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxcb-glx0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 126
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-glx0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-glx0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 57780
+MD5sum: e5fc596c4808e8630731dd51a3808f5c
+SHA1: 97cf74b28f0460337cbf295abd6d3932f0bc71d0
+SHA256: 08aa81424257f5af2292654db12050a53f2013b5b8767a339742834a12852155
+Description: X C Binding, glx extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 88e14ab54c8833ae93ed358036e6ce2d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-glx0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 592
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-glx0 (= 1.8.1-1ubuntu0.2), libxcb1-dev
+Filename: pool/main/libx/libxcb/libxcb-glx0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 43924
+MD5sum: a781e565a2b36c677e2a5ea6609a7ded
+SHA1: 940d237651742570be5307d4a5c30f0caf792150
+SHA256: f5b15162c89e1c579cece4d6a7509f4114a49ac8747227e2124b7cee361507bf
+Description: X C Binding, glx extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 8975e77fba16c6ff127815b1b670a06e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-randr0
+Priority: optional
+Section: libs
+Installed-Size: 89
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-randr0_1.8.1-1ubuntu0.2_i386.deb
+Size: 15656
+MD5sum: ae91b80907e57c2902a86bc4d32a3286
+SHA1: eaef8a94bc001992830db1dbe3aa1c7b8237ec47
+SHA256: 9a3fb502dd48e0393f022bc7747aaa4477925f4e86dbef65b34a6313783b249a
+Description: X C Binding, randr extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: adb389382ef0d8f0e2a3de70afef6284
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+Task: mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master
+
+Package: libxcb-randr0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 82
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-randr0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-randr0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 28322
+MD5sum: 09d1760f19a0d7f66291809d5d14ffa3
+SHA1: d5efdcfc2cb5a4f805eccdc18bd24a46a5f4211a
+SHA256: 5b92783104dfca8c01986ff3580395d33057000a53c761f9c1df16e24c306025
+Description: X C Binding, randr extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: cc73bcf99f8b39c789a7fdb6110dba3b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-randr0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 257
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-randr0 (= 1.8.1-1ubuntu0.2), libxcb1-dev, libxcb-render0-dev
+Filename: pool/main/libx/libxcb/libxcb-randr0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 21946
+MD5sum: cd13eae2d342d2e11cac4b05bd220cc4
+SHA1: 6582dafa4148bb2d6274234eaa1f5460e03d0f69
+SHA256: 9adba3e1e8004a326f62bcdaca13d766e5ebf9f5b551899d84cc6eb7d2d3c663
+Description: X C Binding, randr extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 735c3a5ffbdf9ace5c373fa9bf38ed5d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-record0
+Priority: optional
+Section: libs
+Installed-Size: 54
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-record0_1.8.1-1ubuntu0.2_i386.deb
+Size: 7414
+MD5sum: 4fdda4fe2bd325fb8397af821e8ff7ad
+SHA1: 3b4547f068b99d5b626eebb76fa35b30432ead6d
+SHA256: e490ce21a599fd6cfe44cb496bea51dd9870d407863aa632c570035a0e0f3c8c
+Description: X C Binding, record extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: e5ccbdc38847f1aebd02f7d94bbbc0e8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-record0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 59
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-record0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-record0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 11670
+MD5sum: 0382717c5406a80a15fbc3c7495a90ee
+SHA1: ecbbb2a0ad988df6c3bb46c1d049dc433dc92553
+SHA256: 2320907291e87cf4ad1cf5d3b4330f3227a999852e7401b18026dddc1b5cedfd
+Description: X C Binding, record extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 771b9085fed968a2de06a8a11926b1d3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-record0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 105
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-record0 (= 1.8.1-1ubuntu0.2), libxcb1-dev
+Filename: pool/main/libx/libxcb/libxcb-record0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 9090
+MD5sum: 652665cbed9db7217ac9853c5e42dea8
+SHA1: c22f9b53f018c37516b702caec015207aa8ad3cd
+SHA256: 08aa295bad425e42e01182cf6f96c3d784247f896ee337108a6dba525154a9ad
+Description: X C Binding, record extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: d338f3303260833eb2daa5c12752e042
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-render0
+Priority: optional
+Section: libs
+Installed-Size: 82
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1 (>= 1.8)
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-render0_1.8.1-1ubuntu0.2_i386.deb
+Size: 14168
+MD5sum: 9c4bc88cddbc748e9f68b2eae321b9a7
+SHA1: 1160bd6915d111c7bfc40f641e51af6780a10068
+SHA256: 5e02c91dcc7ad53fc1c86228eeedbfc7e3985a5b8b479d834294cf2db950c3c8
+Description: X C Binding, render extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: c5db612729adbe8a95b5f304a1c0e60b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, print-server, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxcb-render0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 78
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-render0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-render0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 26230
+MD5sum: fe0e7bbdcf74aa2e1a001d7c7d1f85c8
+SHA1: f241a3dd03ecc877f1611bdf33ffdf14817e0bdd
+SHA256: 37262341a8d2d115791ef26dd108761f77c09e38f3acd949193e9436f0fb2512
+Description: X C Binding, render extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 36ebeac45e89811d06e7f24d44f6be59
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-render0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 237
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-render0 (= 1.8.1-1ubuntu0.2), libxcb1-dev
+Filename: pool/main/libx/libxcb/libxcb-render0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 21220
+MD5sum: 04feaf45f02f52bef018700655bd42c3
+SHA1: de997fcda750011bbfc064d68a5ca8f2360c2ce7
+SHA256: e9976938aec24e258d0bde48d25bb53b1f7f99bb90b2c7c606ee85def7aa165d
+Description: X C Binding, render extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 350c71a11fce197bfdd81f2173c8c47b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: libxcb-res0
+Priority: optional
+Section: libs
+Installed-Size: 49
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-res0_1.8.1-1ubuntu0.2_i386.deb
+Size: 5668
+MD5sum: 20e7e484bd7f333a6658d65152fb0138
+SHA1: 46e6e6f1a63dcefb4c00d5ccae7fdb1fb5b83302
+SHA256: c2a954eb33c321f618d74e0468451ea58cfe3261dfa38538fad046c5d6ee54b2
+Description: X C Binding, res extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: c2c5e369cff7cefe91babaa7de5630ba
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-res0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 55
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-res0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-res0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 8242
+MD5sum: 4df1806043f8f37b5ab41a44bd52d5a8
+SHA1: b214b0edf282c497672c2434266aae41a7af0908
+SHA256: 28c059217fa094a06aa8db1dc91fdc65eb7fcb706a80c8ec7858cd65f1204c83
+Description: X C Binding, res extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 0eed2d7633f52fda6c2e75ca7242f6cb
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-res0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 77
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-res0 (= 1.8.1-1ubuntu0.2), libxcb1-dev
+Filename: pool/main/libx/libxcb/libxcb-res0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 6368
+MD5sum: cae4534956eb970e54e36726c3f4efbb
+SHA1: 06ba2a4c286437b15269ce2b4155e0736381c1a8
+SHA256: b2241565bc5cc3ea2c64a63c619531626f807d09a78c995170cba3b9cdf0cdc0
+Description: X C Binding, res extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: b8990ae7ad0bbd27401ec98cc1c75776
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-screensaver0
+Priority: optional
+Section: libs
+Installed-Size: 49
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-screensaver0_1.8.1-1ubuntu0.2_i386.deb
+Size: 5582
+MD5sum: ece141bb702459a10b9ea42a10f03401
+SHA1: 68c4d593d8e9d725ba6ab87a3f04d5bbcfec3f2f
+SHA256: bbd0814e673d990e1a91a547707bcc55ad54e6db83ffb7e7b65949ecf91a63cc
+Description: X C Binding, screensaver extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: d620ae3f5335aff882ca4074641853c3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-screensaver0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 55
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-screensaver0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-screensaver0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 8372
+MD5sum: 8e108553da4894c2f24d7274fd02c71c
+SHA1: 4ac5f0c791e71d897fe2c731f40caa2f0516b843
+SHA256: ed854d2a5947b2bc01a3ac527d8dc0a8af9dfc50ea230a697d17f42345fe9808
+Description: X C Binding, screensaver extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 921ca4039529ea1d97b45ce8f6cc4df7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-screensaver0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 76
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-screensaver0 (= 1.8.1-1ubuntu0.2), libxcb1-dev
+Filename: pool/main/libx/libxcb/libxcb-screensaver0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 6412
+MD5sum: 28977c757cc416cc882209aff8fd1253
+SHA1: 7b04b7f8627eef3f22ba8fe9bd4681f8d42af56c
+SHA256: 11a90b1a3de9f8712578d3a9d2eafd824a9bc850fdd4c3b833c44b1e3c5e5420
+Description: X C Binding, screensaver extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 83a3b0eb371cf2409490ba29edcb3eaa
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-shape0
+Priority: optional
+Section: libs
+Installed-Size: 49
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-shape0_1.8.1-1ubuntu0.2_i386.deb
+Size: 6450
+MD5sum: 5818645f372dc86ff3db183dd1fd64c2
+SHA1: 95a6e01d84d8e916847406bcdc991a7426f3463d
+SHA256: 6fec95212a86198d9194c5be8f6682253a6b6faac848a9f7138a947481253a1e
+Description: X C Binding, shape extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 4f8fcf227f71242b2923bb3614ad97a2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxcb-shape0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 57
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-shape0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-shape0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 10516
+MD5sum: 7dba690a0e39a6b43bdc6a61510fa5ea
+SHA1: 9a90b077d71c19cb3d8920d4c4711b986977667e
+SHA256: 04ddd1b241cb1ef3c8e9ca12b5ade34223ef17f432026f720c1b160d269ec6ef
+Description: X C Binding, shape extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 2bbaba9c3928285e392ca9a954dc56d6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-shape0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 93
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-shape0 (= 1.8.1-1ubuntu0.2), libxcb1-dev
+Filename: pool/main/libx/libxcb/libxcb-shape0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 8164
+MD5sum: 4f42188b465ba12f95d3b8c2f6f4e6d2
+SHA1: c7d8b452d770874e03cf58bffa1dabd847055a4f
+SHA256: fdd2fa41933eb488feb1e631cca46eb6508b7d40d5d7d79799bf8fcdd1767612
+Description: X C Binding, shape extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: b59fd5bacbd9b3280320ec83bb3f452c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-shm0
+Priority: optional
+Section: libs
+Installed-Size: 49
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-shm0_1.8.1-1ubuntu0.2_i386.deb
+Size: 5696
+MD5sum: a587cb8980d0e99c690ccbfcc005fb32
+SHA1: b490583b4d29a711e233e1d9743fdb0ff72c9ea5
+SHA256: f733fe2c1d6d4ec5957d7bf998047c53f6d5ca8f3ae54e34c3d3ecf6a2937bde
+Description: X C Binding, shm extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: efe15210cc4fe778d9092348500e1a77
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, print-server, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxcb-shm0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 55
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-shm0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-shm0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 8798
+MD5sum: c43868f2ca0e694bf8d0ebda4967707a
+SHA1: d54a556c06adadfe9fe423fb751ef4af1922d66b
+SHA256: c3bc6917114b519cdc545467564bbf83a07f45636f6f2dbfaf96df2266c4c751
+Description: X C Binding, shm extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: f71bc8576f45cd770b02ab53a847a6a7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-shm0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 79
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-shm0 (= 1.8.1-1ubuntu0.2), libxcb1-dev
+Filename: pool/main/libx/libxcb/libxcb-shm0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 6848
+MD5sum: 4d676d581a4052df1a3f6dd4c3df4c12
+SHA1: c2571b4caf9ae64fee69f4e651754ae4d724876f
+SHA256: 6774f808a032ba278bb4f2f250d36703b068c94b6785957eadae2f598ede87a6
+Description: X C Binding, shm extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 6f179a331f00f73798b8c2cabed1a88f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: libxcb-sync0
+Priority: optional
+Section: libs
+Installed-Size: 59
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-sync0_1.8.1-1ubuntu0.2_i386.deb
+Size: 8764
+MD5sum: 778b2336988c7cba328e6f5b06bbb9ea
+SHA1: 8f0343a38df1cf7e90a83839d89e5327a75453c1
+SHA256: 0a5fb0243055a33f6ed92ebbdbee084fce1717a98cbc91f4c60694a74dccfb6f
+Description: X C Binding, sync extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: d5360e0f01127bfda17c79337e504a3f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-sync0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 63
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-sync0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-sync0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 14764
+MD5sum: c0aa1dde4c89c653f4b65e82557c8015
+SHA1: aa17493a74bbdbca92184898db980056b3603194
+SHA256: 02efb3c38b3a3d0316c1298da3c368fac0b7087fa3ddac8b914da7d38cb5bc1d
+Description: X C Binding, sync extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: fc218a63827502a91fa643f91882ade2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-sync0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 132
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-sync0 (= 1.8.1-1ubuntu0.2), libxcb1-dev
+Filename: pool/main/libx/libxcb/libxcb-sync0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 11462
+MD5sum: 7745dc21c89f93e67db5b536274d9309
+SHA1: 368dea82ea4c90fd4bdb131971869dbb41307caa
+SHA256: cc206296f5a31e7532e6c6cc915a47f41be3a8ca3dc3bb432adf3f48adc091ce
+Description: X C Binding, sync extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 1e0ff61d663c39e76f3de4c84c3f7899
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xevie0
+Priority: optional
+Section: libs
+Installed-Size: 49
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.4), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-xevie0_1.8.1-1ubuntu0.2_i386.deb
+Size: 5620
+MD5sum: 56751811590ad38f6197d90d36a97afe
+SHA1: 6629a7c12555ba302dba68d066623b9655f60bf5
+SHA256: 0ebad2323e03f0f1361c43d20bc5ff03b7d180bbef5f1cc13ad609ebdeafc4c5
+Description: X C Binding, xevie extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 469dcd0e1fb7dbda702236d0b097391c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xevie0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 54
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-xevie0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-xevie0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 7994
+MD5sum: c7eb2dfd47a72e9eb9743121c7bb345c
+SHA1: 321ffde1f50ecb31e14ce0151e34579c4b27d2ec
+SHA256: ce8f04f185c04e36289425ddc8947d7c0acc25173f57d6432a50bbeb3038a45f
+Description: X C Binding, xevie extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 47d3dad21e9d2a7f4af4d6a52c5954fe
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xevie0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 75
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-xevie0 (= 1.8.1-1ubuntu0.2), libxcb1-dev
+Filename: pool/main/libx/libxcb/libxcb-xevie0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 6326
+MD5sum: 4ac9847c8d2eba9ad22dca844b8aa9bc
+SHA1: 202d112de90243cc9f069582e294d6752a55bb90
+SHA256: fe3af6c8e21da15d875421dbdc023163b732ab02d6a42a36e94cfe539b2808e8
+Description: X C Binding, xevie extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 3275fd3f69f389bdaca0d960d049bc81
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xf86dri0
+Priority: optional
+Section: libs
+Installed-Size: 55
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-xf86dri0_1.8.1-1ubuntu0.2_i386.deb
+Size: 7626
+MD5sum: 937bfbdca05297e81d30086393094c72
+SHA1: 35d3368e7826a2abe072577b0a4b3f45c9e3d697
+SHA256: 0f78324a87d95c35177deff969aae702d8bd1b46af1381c98d6141153b2e116e
+Description: X C Binding, xf86dri extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: f6b61b1dd5cbcdd3b35b95162a6d84e0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xf86dri0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 60
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-xf86dri0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-xf86dri0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 12266
+MD5sum: df3e9fb3bbb8dbbc0ae36b9728d7cefe
+SHA1: 073220ce4564dc7074fb6484333f0baf079e7aec
+SHA256: 678c682796fdf5e6a46e6c66e0c35a79b52db5f1d207a4de96a285c96d35f094
+Description: X C Binding, xf86dri extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 00fc41c278b355ffea2a57869210ff97
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xf86dri0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 113
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-xf86dri0 (= 1.8.1-1ubuntu0.2), libxcb1-dev
+Filename: pool/main/libx/libxcb/libxcb-xf86dri0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 9134
+MD5sum: 601ed68c8f38a8cd0dfa924b5bb70438
+SHA1: b0237e1dc4deb33b80e24c860159033291893a15
+SHA256: 14e22d48dd54f966342c5ac755d64a196060fb185be454d80674548c3784a032
+Description: X C Binding, xf86dri extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 2d530540e9eef50abce24dce665eaee7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xfixes0
+Priority: optional
+Section: libs
+Installed-Size: 68
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-xfixes0_1.8.1-1ubuntu0.2_i386.deb
+Size: 10216
+MD5sum: 15a72aa19d7a1036df7cc7442293b04f
+SHA1: 32a24cc06372fdeb6f4e00f9e89777dee8a57135
+SHA256: 19aa548a2b41b5238765ec35f0dfcbdeb9b684a419fe8c13d6a7485b5b77dd22
+Description: X C Binding, xfixes extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 94f24b982ab532c251f90293506a8fed
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xfixes0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 68
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-xfixes0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-xfixes0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 18224
+MD5sum: 6f0a87c384a99aa08ac46d3afb4ef18d
+SHA1: b4af0b2b7595c8ea55a2c53f1f7a1734a8a14537
+SHA256: e350736cb2e0dd7338bbaf0c8a32afae0ec9218cf0f8127704257d567db7cea6
+Description: X C Binding, xfixes extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 1c610e48b2246c8698142637e645e127
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xfixes0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 164
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-xfixes0 (= 1.8.1-1ubuntu0.2), libxcb1-dev, libxcb-render0-dev, libxcb-shape0-dev
+Filename: pool/main/libx/libxcb/libxcb-xfixes0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 13714
+MD5sum: 14d036f15fbb485f0c6dbe570cfbb008
+SHA1: 16aa3821509b826faa9a193f8695dc697083c283
+SHA256: 56fa46dddc56217e595416518da44414457068f80c4ea857d345bfdcc18a886b
+Description: X C Binding, xfixes extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 18efd390c63351b408b2ffb0163f2cf5
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xinerama0
+Priority: optional
+Section: libs
+Installed-Size: 49
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-xinerama0_1.8.1-1ubuntu0.2_i386.deb
+Size: 5820
+MD5sum: 5c2c95f5bf61d1d0f2bee8b5ccadd9e1
+SHA1: cb57787b9ec04c5284dc03289eaa43460034386d
+SHA256: d72d6d147a4623645e3ea7c2dcd12897c7687fd303a2b31c99208b6dc242b9e9
+Description: X C Binding, xinerama extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: f2a52133eab163b52a83f8199011810e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xinerama0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 55
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-xinerama0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-xinerama0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 8666
+MD5sum: 46203eb67750c6c5fc2ee335f7e183df
+SHA1: 50f1b83b62bb159fd709b720c7816367ac1ece75
+SHA256: 049bcf49a044ba347610a965eb18fe492e5f542c39e425d047f529bf3b491bd5
+Description: X C Binding, xinerama extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 40b566f7166a53475bf725a0e667e31d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xinerama0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 82
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-xinerama0 (= 1.8.1-1ubuntu0.2), libxcb1-dev
+Filename: pool/main/libx/libxcb/libxcb-xinerama0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 6720
+MD5sum: e8dc53ecb1b34c0c7048669b85ce3c5c
+SHA1: 52c43f29d1e0d94f713caa388ef8260e697ab886
+SHA256: 9c611039ceb7504ea348ebeebbee2f4d8103e267017d9d2a22aca69758995019
+Description: X C Binding, xinerama extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: a48583621fb78aeb3c0f4cc202892fd8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xprint0
+Priority: optional
+Section: libs
+Installed-Size: 69
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-xprint0_1.8.1-1ubuntu0.2_i386.deb
+Size: 12128
+MD5sum: 5aafbfdd4e247d149be96963d6b655a6
+SHA1: 3bb7b46842e2c697ff53fba43336f3f04c828b12
+SHA256: d9ebbcf708126418a7077a0396b1212c8ed141667e4e9fd11b5181515cd0163b
+Description: X C Binding, xprint extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 3d3667ae9be36e5e1ff00f8d7eedfc8c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xprint0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 71
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-xprint0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-xprint0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 20206
+MD5sum: a5415ce10245729f97c0bc777ba88898
+SHA1: 55824291643ce88b39855ae6695dab76783211ff
+SHA256: 58ff1f2ec250dc015bb24a2fe44120214d23cd9ada87a29c3d261c71aff1990a
+Description: X C Binding, xprint extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 5b3e86d4365fc6a0fcb170c2273bd805
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xprint0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 174
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-xprint0 (= 1.8.1-1ubuntu0.2), libxcb1-dev
+Filename: pool/main/libx/libxcb/libxcb-xprint0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 15664
+MD5sum: 975780349baebd67634e16b6c69bd942
+SHA1: a5b50a204485df0ad47f454c6c38313426d9ccd1
+SHA256: dc870a2ad80eaded822689a55e295ece759867516b90e8c2dd6166aa7633d25d
+Description: X C Binding, xprint extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 78fb126b7a450751661627dc2abd8f05
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xtest0
+Priority: optional
+Section: libs
+Installed-Size: 49
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.4), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-xtest0_1.8.1-1ubuntu0.2_i386.deb
+Size: 5220
+MD5sum: bbbecf7d2434f69416bb6da50fa0da8b
+SHA1: fed1431ec1d925a184b74f9ebf5d856c2e7b3d48
+SHA256: f54c1550a53f7e0715fd15876d9450430c961940bd7ea654a3d7b1eb1058734e
+Description: X C Binding, xtest extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 12d78ef68913f742e8054ee9ba8eceac
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xtest0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 54
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-xtest0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-xtest0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 7472
+MD5sum: 5d7f73b016966bbcc4c48efef46d2f06
+SHA1: 56fb069e848b6237c8179a1ad2d725219d5dc4e7
+SHA256: 74c5a0f1ed9f543213c93605bee21490a378517f363e2c7044b7fc4d6ca6d9ed
+Description: X C Binding, xtest extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 06ee13aa6daacecf5f215330abfe610c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xtest0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 67
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-xtest0 (= 1.8.1-1ubuntu0.2), libxcb1-dev
+Filename: pool/main/libx/libxcb/libxcb-xtest0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 5642
+MD5sum: c6155886bb418d5ba1fa9f5884460d8d
+SHA1: 383e980f0910ab27a94a67470df86949c4e0ad8a
+SHA256: 5d5c49cf435c9da907d1a1473d4f79069ef967e7baf17ffecb76414523de81db
+Description: X C Binding, xtest extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: fb44118f335dc050b5f88616743eda8e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xv0
+Priority: optional
+Section: libs
+Installed-Size: 68
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-xv0_1.8.1-1ubuntu0.2_i386.deb
+Size: 11042
+MD5sum: 47635a63b069fb08d48e505859187f88
+SHA1: 1f3d8777bcdd528f303a5f7cb4aa85b780194e45
+SHA256: bd3859e759215f26ab8ad152471cdd836ef47c8ac0e7ba6109b9bad1c87de4ae
+Description: X C Binding, xv extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: ed2134a19c1b37c3eec9621d2c3f1395
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+Task: mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, ubuntustudio-video
+
+Package: libxcb-xv0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 70
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-xv0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-xv0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 20082
+MD5sum: ec2863e0aff73a1c6ab157432b3fc76b
+SHA1: 7347277a0a83431d8cb578402cb36d5af2d7f864
+SHA256: ee26bfaebb81ee09b2554ed36df0f6f3fa1339cdba833fcbd343dc5957ba1647
+Description: X C Binding, xv extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: c0933dcbfe80d301178a504629ad544f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xv0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 177
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-xv0 (= 1.8.1-1ubuntu0.2), libxcb1-dev, libxcb-shm0-dev
+Filename: pool/main/libx/libxcb/libxcb-xv0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 15302
+MD5sum: 3703e0ce73512183f9e58a200048abca
+SHA1: 3a3d4521301dbf010333c27ad4928e767d6bf690
+SHA256: 56121f900f25f7bc36b7523145543666517b07d5a0e06b6487b6f9d990f5595f
+Description: X C Binding, xv extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: c45791601a14485adf21a51b301cc152
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xvmc0
+Priority: optional
+Section: libs
+Installed-Size: 54
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.1.3), libxcb1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcb/libxcb-xvmc0_1.8.1-1ubuntu0.2_i386.deb
+Size: 7248
+MD5sum: 79ea5bec18ab9a5f644ec09f936569fc
+SHA1: 7d133a6bd09225425581724452b971632eb447e1
+SHA256: e155e27c4f56ef1fd891716fbcacb2b95543b1c98b7363a04d0f76f715e3c1db
+Description: X C Binding, xvmc extension
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 722aaaca48e4d073cb75a56a36af7a4b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xvmc0-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 59
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-xvmc0 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb-xvmc0-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 11840
+MD5sum: 51874a86cf54eb9ca0d2c531db1f9096
+SHA1: 1f1f882e596e6cd4b933713610cec764b0d2163d
+SHA256: 568f9b3a8a71083385b2cfbdf07239c51f80db9860673d8e554e23685fefcf34
+Description: X C Binding, xvmc extension, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 574e88e7599eb6bb278ae2615e40981b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb-xvmc0-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 105
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb-xvmc0 (= 1.8.1-1ubuntu0.2), libxcb1-dev, libxcb-xv0-dev
+Filename: pool/main/libx/libxcb/libxcb-xvmc0-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 8892
+MD5sum: 5368c3ea72265374fe0eb8418e49e415
+SHA1: f904805f7d8cbfa45eaec2a837d32bc45db668ba
+SHA256: 380beaeaef2ff1cf1a239f0a43540ec67f40a700da52ab3675f17f789c1987f0
+Description: X C Binding, xvmc extension, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: e12e77e95ad1c28e751ed3b79abe2c81
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb1
+Priority: standard
+Section: libs
+Installed-Size: 186
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libc6 (>= 2.4), libxau6, libxdmcp6
+Pre-Depends: multiarch-support
+Breaks: libxcb-xlib0
+Filename: pool/main/libx/libxcb/libxcb1_1.8.1-1ubuntu0.2_i386.deb
+Size: 48764
+MD5sum: a3f0f268378c42cc14423eba201e9fe3
+SHA1: 773d5a4bcf630c278dbe421302a6708a28b75357
+SHA256: 1c82740cdeb7e3634fe04236d909aeab8a6ba99a66ea97cdf5c68b52443db95d
+Description: X C Binding
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 93568dcb3007e5182147ac40c36650aa
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: standard, kubuntu-active, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master
+
+Package: libxcb1-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 171
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Depends: libxcb1 (= 1.8.1-1ubuntu0.2)
+Filename: pool/main/libx/libxcb/libxcb1-dbg_1.8.1-1ubuntu0.2_i386.deb
+Size: 103536
+MD5sum: 6090ac71a65c735fb3bda9cc7a905958
+SHA1: 04e9c786d5cb8e09944b45278f407e1c1c1034db
+SHA256: a5e7c09b94cc6b98ce664ef7004fab82637c4cb273db25b65f7f28bf3d989b2f
+Description: X C Binding, debugging symbols
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: 2867bc02a870fc2e2c3454cb501b813a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxcb1-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 689
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: i386
+Source: libxcb
+Version: 1.8.1-1ubuntu0.2
+Replaces: libxcb0-dev
+Depends: libxcb1 (= 1.8.1-1ubuntu0.2), libpthread-stubs0-dev, libxau-dev (>= 1:1.0.0-1), libxdmcp-dev (>= 1:1.0.0-1)
+Suggests: libxcb-doc
+Conflicts: libxcb0-dev
+Filename: pool/main/libx/libxcb/libxcb1-dev_1.8.1-1ubuntu0.2_i386.deb
+Size: 82610
+MD5sum: 466f98c94a1e39881cf06599167d61be
+SHA1: 309b49c5ca901f06e38266e42b854627db95ff0a
+SHA256: 1428c0d1d573db300d24759cb67d4c90b3dd3fab8d02d72fb8d4355ae8b1f230
+Description: X C Binding, development files
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description-md5: d028a849d89f18ec7440c6d77483cbe1
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: libxcursor-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 122
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxcursor
+Version: 1:1.1.12-1ubuntu0.1
+Depends: libxcursor1 (= 1:1.1.12-1ubuntu0.1), x11proto-core-dev, libx11-dev, libxrender-dev, libxfixes-dev
+Filename: pool/main/libx/libxcursor/libxcursor-dev_1.1.12-1ubuntu0.1_i386.deb
+Size: 29316
+MD5sum: 0a8d321aff5ddc9c37dbedaaeaf3b8b4
+SHA1: 8edd73ee33f3ec5ec7b70d93dbc9897e4ab7c263
+SHA256: d3dba0b98de3e2b1d977c760774652e38fedc9fb3d49b93f4a7c2fb7224600d5
+Description: X cursor management library (development files)
+Description-md5: 6d945f0733e812c326a50fb6989e8cde
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: libxcursor1
+Priority: optional
+Section: libs
+Installed-Size: 78
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxcursor
+Version: 1:1.1.12-1ubuntu0.1
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.4.99.1), libxfixes3, libxrender1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxcursor/libxcursor1_1.1.12-1ubuntu0.1_i386.deb
+Size: 23192
+MD5sum: 32e07621edcffdf5f47168286e8e790a
+SHA1: 80ff3f12cecd15fc8d0fa6a7eb33ce3921054910
+SHA256: 793886ba4134716d1eb8b1e0e699d22b88a98d579321820c2f6c430b6cb72337
+Description: X cursor management library
+Multi-Arch: same
+Description-md5: 7c341e5f21e9bb3cee6338076e0f3458
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxcursor1-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 196
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxcursor
+Version: 1:1.1.12-1ubuntu0.1
+Depends: libxcursor1 (= 1:1.1.12-1ubuntu0.1)
+Filename: pool/main/libx/libxcursor/libxcursor1-dbg_1.1.12-1ubuntu0.1_i386.deb
+Size: 63292
+MD5sum: a1c80e6db310e0f9ebe55538c96e464e
+SHA1: d65a70b25deb308daa0cc44f51f22507fe8690ef
+SHA256: 66d4a5f2aa6ead528f0b5a19df099cc147a234b75a4eb6fe6a095ff4eb81f99c
+Description: X cursor management library (unstripped)
+Multi-Arch: same
+Description-md5: 0a2e02d2365b4344848180495e4e79b5
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: libxen-4.1
 Priority: optional
 Section: libs
@@ -23653,6 +25605,277 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 Task: virt-host
+
+Package: libxext-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 464
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxext
+Version: 2:1.3.0-3ubuntu0.1
+Depends: libxext6 (= 2:1.3.0-3ubuntu0.1), x11proto-core-dev, x11proto-xext-dev (>= 7.0.99.2), libx11-dev, xorg-sgml-doctools (>= 1:1.5)
+Filename: pool/main/libx/libxext/libxext-dev_1.3.0-3ubuntu0.1_i386.deb
+Size: 157420
+MD5sum: c1546bf7b5c6f181424dbea84c2a3754
+SHA1: e186aa7595c585e045cc259a4a9515a5353e6119
+SHA256: 2b8f6bb8c14986608c9cea421997c53778cd095256603353c1da6625685d79b1
+Description: X11 miscellaneous extensions library (development headers)
+Description-md5: 9d497aabe7a8734879a278b8413e69c6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: libxext6
+Priority: standard
+Section: libs
+Installed-Size: 132
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxext
+Version: 2:1.3.0-3ubuntu0.1
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.4.99.1)
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxext/libxext6_1.3.0-3ubuntu0.1_i386.deb
+Size: 34162
+MD5sum: f442e3f92678c7b16d9fac9be87fc574
+SHA1: c7c1681d4a192c67a775fd058fdd00912be4b8cb
+SHA256: c2a5767fe7701c99d12007c045f170211d2be71666f6c24a1eb1d6c3f0a248d8
+Description: X11 miscellaneous extension library
+Multi-Arch: same
+Description-md5: 5c72cf7a13b0990666898813406a2a89
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: standard, kubuntu-active, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master
+
+Package: libxext6-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 551
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxext
+Version: 2:1.3.0-3ubuntu0.1
+Depends: libxext6 (= 2:1.3.0-3ubuntu0.1)
+Filename: pool/main/libx/libxext/libxext6-dbg_1.3.0-3ubuntu0.1_i386.deb
+Size: 190486
+MD5sum: 8daa60fde93e13c3bbe42a60dd3f41d9
+SHA1: 5f8adfc5346cf130d0387a28fafdce5d2b37e40a
+SHA256: 078dd3ff76a768ae156ec39e20b73285741fb94569588a71fbb347a684175788
+Description: X11 miscellaneous extensions library (debug package)
+Multi-Arch: same
+Description-md5: a9d12f89d8fa4962191a46fc5214d873
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxfixes-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 93
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxfixes
+Version: 1:5.0-4ubuntu4.1
+Depends: libxfixes3 (= 1:5.0-4ubuntu4.1), libx11-dev, x11proto-fixes-dev (>= 1:5.0-1)
+Filename: pool/main/libx/libxfixes/libxfixes-dev_5.0-4ubuntu4.1_i386.deb
+Size: 12374
+MD5sum: 2842f6754f34f3360019e66139cdbc49
+SHA1: 024bfe3b8717c8f5e0afa571ebadb73a56ab8b24
+SHA256: aae357e55bf1bd58b9a029b7e3248e0abf394efe21ea13457c32f922f803e324
+Description: X11 miscellaneous 'fixes' extension library (development headers)
+Description-md5: 534fb9330ebefdcdd616826883b3e8d6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: libxfixes3
+Priority: optional
+Section: libs
+Installed-Size: 61
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxfixes
+Version: 1:5.0-4ubuntu4.1
+Depends: libc6 (>= 2.1.3), libx11-6 (>= 2:1.4.99.1)
+Pre-Depends: multiarch-support
+Breaks: unity (<< 5.6.0-0ubuntu2)
+Filename: pool/main/libx/libxfixes/libxfixes3_5.0-4ubuntu4.1_i386.deb
+Size: 12266
+MD5sum: e161e90626a196543a3f4b4f4ffaea90
+SHA1: 503f6efaadf6644eb48ab57d496f83fd86b5e7e7
+SHA256: 3e17667b9818153907194b674d6df66ff39fd865782133fe85e0a8286484fa1b
+Description: X11 miscellaneous 'fixes' extension library
+Multi-Arch: same
+Description-md5: 0fa5919ef08f61382fb2c6bf965194ba
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxfixes3-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 98
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxfixes
+Version: 1:5.0-4ubuntu4.1
+Depends: libxfixes3 (= 1:5.0-4ubuntu4.1)
+Filename: pool/main/libx/libxfixes/libxfixes3-dbg_5.0-4ubuntu4.1_i386.deb
+Size: 49192
+MD5sum: db5e7e3fa58b603f61a52a6a43bd378e
+SHA1: f8fdf6e1984720346574d19bd2d6169e3cc6b7de
+SHA256: 4f93b2eedd3e2dbe26e15069fe7b64946de42fd56c2c7f64c9fb258fe9107bde
+Description: X11 miscellaneous 'fixes' extension library (debug package)
+Multi-Arch: same
+Description-md5: c012f9063b8e9d1a8dfa269f154dec48
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxi-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 658
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxi
+Version: 2:1.6.0-0ubuntu2.1
+Replaces: x11proto-input-dev (<< 1.9.99)
+Depends: libxi6 (= 2:1.6.0-0ubuntu2.1), libx11-dev, libxext-dev, x11proto-input-dev (>= 2.1.99.6), xorg-sgml-doctools (>= 1:1.5)
+Filename: pool/main/libx/libxi/libxi-dev_1.6.0-0ubuntu2.1_i386.deb
+Size: 201836
+MD5sum: bcea4d6983d3067b152b971752a8044d
+SHA1: 84f5ee2cc61e4d9b45d27a7d1156f76e41588ff5
+SHA256: ea299d6f34a1accd3ee4cca4e36d3ace6b8624290bd7113d830e1ea7fe35c277
+Description: X11 Input extension library (development headers)
+Description-md5: 39bbbc7e9f5655daca53080ffdf25bc7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: libxi6
+Priority: optional
+Section: libs
+Installed-Size: 141
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxi
+Version: 2:1.6.0-0ubuntu2.1
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.4.99.1), libxext6
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxi/libxi6_1.6.0-0ubuntu2.1_i386.deb
+Size: 31604
+MD5sum: 234658518539ad5da3cc7e09b8af96dd
+SHA1: 750e90f600f2ef00cf5dc4dac2162879af3a5e6a
+SHA256: da3084e7698c7930b0f926be81ce8af03bafd499e1c0a2e0f6bb28af6f2f326b
+Description: X11 Input extension library
+Multi-Arch: same
+Description-md5: ba006f0e6e88bcc1dded33a4ac1bacfd
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxi6-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 1487
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxi
+Version: 2:1.6.0-0ubuntu2.1
+Depends: libxi6 (= 2:1.6.0-0ubuntu2.1)
+Filename: pool/main/libx/libxi/libxi6-dbg_1.6.0-0ubuntu2.1_i386.deb
+Size: 435360
+MD5sum: 88b8d666beb24b8ab31bda94a7d7a47e
+SHA1: a3f8f52d626148e9b9c7342cd97d5ac731356c5e
+SHA256: 36ed7b3c25c691cc56549b01d790b662208b5126b9a98db1c0990a0fdbb6a694
+Description: X11 Input extension library (debug package)
+Multi-Arch: same
+Description-md5: 857507268b7762f8b0c6a0614de2dde3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxinerama-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 82
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxinerama
+Version: 2:1.1.1-3ubuntu0.1
+Replaces: x11proto-xinerama-dev (<< 1.2)
+Depends: libxinerama1 (= 2:1.1.1-3ubuntu0.1), libx11-dev, libxext-dev, x11proto-xinerama-dev (>= 1.2)
+Filename: pool/main/libx/libxinerama/libxinerama-dev_1.1.1-3ubuntu0.1_i386.deb
+Size: 8334
+MD5sum: c0623da13d65385215ced82257175a90
+SHA1: c16eccd2c75b310081f27953616dfb4b0d6598a1
+SHA256: 8d5e39462c8a1fcbacc1c546898c3c069ef5704b2fcea241e04afd71dfe64cff
+Description: X11 Xinerama extension library (development headers)
+Description-md5: 2efd4db97130bfd4a9ddc036f4e668d9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: libxinerama1
+Priority: optional
+Section: libs
+Installed-Size: 55
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxinerama
+Version: 2:1.1.1-3ubuntu0.1
+Depends: libc6 (>= 2.1.3), libx11-6 (>= 2:1.4.99.1), libxext6
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxinerama/libxinerama1_1.1.1-3ubuntu0.1_i386.deb
+Size: 8188
+MD5sum: a1e60fc2a2680abfc4a768719546a479
+SHA1: bba4d6e6f94f94d0114c350a043eeda41c73268a
+SHA256: 883bf0231850b8f1dbb7efccea3607f114da4a494713c3d1cffb09256b989673
+Description: X11 Xinerama extension library
+Multi-Arch: same
+Description-md5: 8af4527c5c1d4c9cfadc619f456cc56d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxinerama1-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 97
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxinerama
+Version: 2:1.1.1-3ubuntu0.1
+Depends: libxinerama1 (= 2:1.1.1-3ubuntu0.1)
+Filename: pool/main/libx/libxinerama/libxinerama1-dbg_1.1.1-3ubuntu0.1_i386.deb
+Size: 20048
+MD5sum: 282b6ea77426489eaeee0231b4db22de
+SHA1: 79f7b040d960bec9d5739d570549e6ba80cddd43
+SHA256: acd2176dbdcb0b87e05286abca35ca9b30120c103d704ece4e9ddde2f0c4847f
+Description: X11 Xinerama extension library (debug package)
+Multi-Arch: same
+Description-md5: 3efda02ddc20dc08432699587550c3db
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
 
 Package: libxml2
 Priority: standard
@@ -23893,6 +26116,342 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: libxp-dev
+Priority: optional
+Section: x11
+Installed-Size: 161
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxp
+Version: 1:1.0.1-2ubuntu0.12.04.1
+Depends: libxp6 (= 1:1.0.1-2ubuntu0.12.04.1), libx11-dev (>= 2:1.0.0), x11proto-print-dev, libxext-dev, libxau-dev
+Filename: pool/main/libx/libxp/libxp-dev_1.0.1-2ubuntu0.12.04.1_i386.deb
+Size: 82428
+MD5sum: 11608a35e4793e63d400f64f3ce9a4f4
+SHA1: f97f84ca42dc34dfa41d912da4cf3aa7ba6c5fad
+SHA256: af2d767142d88fcdbeca756e3d80bed90cae252753c9d2d1a56e530661cce5fd
+Description: X Printing Extension (Xprint) client library (development files)
+Multi-Arch: same
+Description-md5: 7b946dfa99967f31503fdf6163d82429
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxp6
+Priority: optional
+Section: x11
+Installed-Size: 72
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxp
+Version: 1:1.0.1-2ubuntu0.12.04.1
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.4.99.1), libxau6, libxext6
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxp/libxp6_1.0.1-2ubuntu0.12.04.1_i386.deb
+Size: 18350
+MD5sum: c603b8de7d29b5373a2311713da5fa79
+SHA1: a0458f816dba4895c948906050573dc76845b0f4
+SHA256: a879da60d1d6ce86ccfc2355c6e4f06dc68d76030f063934eb32318bf93fc817
+Description: X Printing Extension (Xprint) client library
+Multi-Arch: same
+Description-md5: 606ddf2ba3808cac5f4c9f729b530e3c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, lubuntu-core, ubuntustudio-desktop
+
+Package: libxp6-dbg
+Priority: extra
+Section: x11
+Installed-Size: 162
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxp
+Version: 1:1.0.1-2ubuntu0.12.04.1
+Depends: libxp6 (= 1:1.0.1-2ubuntu0.12.04.1)
+Filename: pool/main/libx/libxp/libxp6-dbg_1.0.1-2ubuntu0.12.04.1_i386.deb
+Size: 95216
+MD5sum: 501ff79e6e83d75acdedae3e36fc2fb9
+SHA1: db719c3f92b88ed6743dcf64fd87a7de6bdc94ff
+SHA256: ac342ab80f0b25f05e4db2806d41e61a813c5a268d979b22ed7044daa5bbfef3
+Description: X Printing Extension (Xprint) client library (unstripped)
+Multi-Arch: same
+Description-md5: ce28d085688ab1f89e9fa011f8e022fc
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxrandr-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 129
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxrandr
+Version: 2:1.3.2-2ubuntu0.2
+Depends: libxrandr2 (= 2:1.3.2-2ubuntu0.2), libx11-dev, libxext-dev, x11proto-randr-dev (>= 1.3), libxrender-dev
+Filename: pool/main/libx/libxrandr/libxrandr-dev_1.3.2-2ubuntu0.2_i386.deb
+Size: 23792
+MD5sum: def4d31de3ed4ab2c8f37f5f8c9939a9
+SHA1: 52ce154e82a3f4824796301e972719c192fb7582
+SHA256: 470b3022ad1dd001b02b9d230c3211af8668de45b97146602ed84f6611b1466b
+Description: X11 RandR extension library (development headers)
+Description-md5: 444725c9e942434744988c5291f2f2f3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: libxrandr-dev-lts-quantal
+Priority: optional
+Section: libdevel
+Installed-Size: 142
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxrandr-lts-quantal
+Version: 2:1.4.0-1~precise2
+Provides: libxrandr-dev, xorg-renamed-package, xorg-renamed-package-lts-quantal
+Depends: libxrandr-ltsq2 (= 2:1.4.0-1~precise2), libx11-dev, libxext-dev, x11proto-randr-dev (>= 1.4), libxrender-dev
+Conflicts: libxrandr-dev
+Filename: pool/main/libx/libxrandr-lts-quantal/libxrandr-dev-lts-quantal_1.4.0-1~precise2_i386.deb
+Size: 25420
+MD5sum: 2cee646b2a2d4c50b49567bd9d9534ed
+SHA1: d307135bb0bda927945a965692d15cc3c630870b
+SHA256: 537ed90541191ee9cb244dec62bbdc7443ff1a52956a9caaa65a9cda838326d3
+Description: X11 RandR extension library (development headers)
+Description-md5: a7b891bed00981bc725702af33bcee2a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxrandr-ltsq2
+Priority: optional
+Section: libs
+Installed-Size: 93
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxrandr-lts-quantal
+Version: 2:1.4.0-1~precise2
+Depends: libc6 (>= 2.1.3), libx11-6 (>= 2:1.4.99.1), libxext6, libxrender1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxrandr-lts-quantal/libxrandr-ltsq2_1.4.0-1~precise2_i386.deb
+Size: 19064
+MD5sum: 0467154ba3a032309f8df251e171104e
+SHA1: 0bc4c93c6a0536e725ec1b95464c2d6c93735dfa
+SHA256: 47da3178ffaad04ad9ea7ea9f5dd356f6c6e76d63b027b0ce68523cd715548b1
+Description: X11 RandR extension library
+Multi-Arch: same
+Description-md5: fdbf145b3814444d2c2d31f953483736
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxrandr-ltsq2-dbg
+Priority: extra
+Section: debug
+Installed-Size: 348
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxrandr-lts-quantal
+Version: 2:1.4.0-1~precise2
+Depends: libxrandr-ltsq2 (= 2:1.4.0-1~precise2)
+Filename: pool/main/libx/libxrandr-lts-quantal/libxrandr-ltsq2-dbg_1.4.0-1~precise2_i386.deb
+Size: 73838
+MD5sum: 9c39fd1117a41d4ae45669bb5e89485e
+SHA1: c0b6a8fae3857656973edb9de68e6606e496816c
+SHA256: e6f975ff2192d280e1fbf038bb3aafd8d384a7c5c97136bbc41ab5a06aa95e9f
+Description: X11 RandR extension library (debug package)
+Multi-Arch: same
+Description-md5: 2e1926a931dbebc0d9ac99927764f0f7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxrandr2
+Priority: optional
+Section: libs
+Installed-Size: 84
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxrandr
+Version: 2:1.3.2-2ubuntu0.2
+Depends: libc6 (>= 2.1.3), libx11-6 (>= 2:1.4.99.1), libxext6, libxrender1
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxrandr/libxrandr2_1.3.2-2ubuntu0.2_i386.deb
+Size: 17472
+MD5sum: 57369651bcf9cff986f698c748768f5e
+SHA1: 07ad0896613c06c8c6978b1136eff2e264cf0f4f
+SHA256: bff47560a6e90f7261971c062bd030c5eb7c9cd61a49e6150481f5b557cf2e66
+Description: X11 RandR extension library
+Multi-Arch: same
+Description-md5: 4f5e90c11ffce760113c5e601f3f4449
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxrandr2-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 288
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxrandr
+Version: 2:1.3.2-2ubuntu0.2
+Depends: libxrandr2 (= 2:1.3.2-2ubuntu0.2)
+Filename: pool/main/libx/libxrandr/libxrandr2-dbg_1.3.2-2ubuntu0.2_i386.deb
+Size: 59864
+MD5sum: 2286c4dcc0d5ee8c70e57d7d5d23d1e0
+SHA1: fce247140c4d30ce35d9bef7d555e4ebabc54b74
+SHA256: 3602cac4c4d87ca9d2834b085885912fe1b4987b6e81064f85b2c2981f57c274
+Description: X11 RandR extension library (debug package)
+Multi-Arch: same
+Description-md5: e0f7c9763ea9b670967b0e6ed35acd8f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxrender-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 125
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxrender
+Version: 1:0.9.6-2ubuntu0.1
+Depends: libxrender1 (= 1:0.9.6-2ubuntu0.1), libx11-dev (>= 2:1.0.0), x11proto-render-dev, x11proto-core-dev
+Filename: pool/main/libx/libxrender/libxrender-dev_0.9.6-2ubuntu0.1_i386.deb
+Size: 26726
+MD5sum: 910fc1302231cef1d3ed2dfba7dd76e9
+SHA1: 2060cb8fe0e14523ca1e04fa5d7e883483517283
+SHA256: e1934acd23201687f7263240d9000c10710821b6dcf76dd233ab0562cd225709
+Description: X Rendering Extension client library (development files)
+Description-md5: 90cef1620b30f07a5c21955d91855734
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: libxrender1
+Priority: optional
+Section: libs
+Installed-Size: 80
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxrender
+Version: 1:0.9.6-2ubuntu0.1
+Depends: libc6 (>= 2.1.3), libx11-6 (>= 2:1.4.99.1)
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxrender/libxrender1_0.9.6-2ubuntu0.1_i386.deb
+Size: 20368
+MD5sum: 16cf98eb36bf531885879b4e16e6638a
+SHA1: 7300957b5b0891bc9428ff6cce27986067a35f40
+SHA256: f0f96f7ce88d9eb8b3864ae9dc22c231d8c93dcefddcbb0f9112c5d6bcd342dc
+Description: X Rendering Extension client library
+Multi-Arch: same
+Description-md5: 1529276fe319e97fa1c4f85128ed50b8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, print-server, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxrender1-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 427
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxrender
+Version: 1:0.9.6-2ubuntu0.1
+Depends: libxrender1 (= 1:0.9.6-2ubuntu0.1)
+Filename: pool/main/libx/libxrender/libxrender1-dbg_0.9.6-2ubuntu0.1_i386.deb
+Size: 128688
+MD5sum: a85da56f7692978a5c7c069006861eae
+SHA1: 58eb6a81bc9a122fb640b884ab30b0b192281ea0
+SHA256: 71b7723c31ebb975d07212471bf7ee1dd19c55aa3c27f44adda8b60221f02a29
+Description: X Rendering Extension client library (unstripped)
+Multi-Arch: same
+Description-md5: 826b72926150a03d65486e6527811ff8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxres-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 69
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxres
+Version: 2:1.0.5-1ubuntu0.1
+Depends: libxres1 (= 2:1.0.5-1ubuntu0.1), libx11-dev, libxext-dev, x11proto-resource-dev
+Pre-Depends: x11-common (>= 1:7.0.0)
+Conflicts: x11proto-resource-dev (<< 1.0+cvs.20050712-1)
+Filename: pool/main/libx/libxres/libxres-dev_1.0.5-1ubuntu0.1_i386.deb
+Size: 6912
+MD5sum: 53dc79316ff4d03c35bf2e787e7552b9
+SHA1: c1be4976d9f4e240bb8f1bef5f4c38669818a613
+SHA256: 2eea65f072983c91605f0789d0ad8d4cc7ea16067c8ec76c7f16fec1450546b7
+Description: X11 Resource extension library (development headers)
+Description-md5: 70ec3c2d202b5b75e237d25e6d833401
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxres1
+Priority: optional
+Section: libs
+Installed-Size: 48
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxres
+Version: 2:1.0.5-1ubuntu0.1
+Depends: libc6 (>= 2.1.3), libx11-6 (>= 2:1.4.99.1), libxext6, x11-common
+Filename: pool/main/libx/libxres/libxres1_1.0.5-1ubuntu0.1_i386.deb
+Size: 7062
+MD5sum: 40ba214bcda2846ce2321fceeef7d4c0
+SHA1: d5e7f9bdc5348a872e92cf31ed68d84654bcdb36
+SHA256: 53937c51c0d833f1ade9b0112a21e7705deb9741c4b3c41c1cc8e5ed5c921190
+Description: X11 Resource extension library
+Description-md5: d9399de89592de94c1d00cfcb2c850b3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxres1-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 88
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxres
+Version: 2:1.0.5-1ubuntu0.1
+Depends: x11-common, libxres1 (= 2:1.0.5-1ubuntu0.1)
+Filename: pool/main/libx/libxres/libxres1-dbg_1.0.5-1ubuntu0.1_i386.deb
+Size: 18840
+MD5sum: 7819416aea6caf18846892bb84de8dc1
+SHA1: 3320917e250c6a1dbcb60186ad9653c947b1dd22
+SHA256: 9393fc71a03b3f3be3775c2875d02b614ad6e5e1fbdc2192fef38e89fc89b18b
+Description: X11 Resource extension library (debug package)
+Description-md5: 65dd45290b60147f90a3ada760535036
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: libxslt1-dbg
 Priority: extra
 Section: libdevel
@@ -23962,6 +26521,410 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 Task: ubuntu-desktop, ubuntu-usb, postgresql-server, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, edubuntu-desktop-kde, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-desktop, ubuntustudio-desktop
+
+Package: libxt-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 1024
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxt
+Version: 1:1.1.1-2ubuntu0.1
+Depends: libxt6 (= 1:1.1.1-2ubuntu0.1), libx11-dev, x11proto-core-dev, libsm-dev
+Filename: pool/main/libx/libxt/libxt-dev_1.1.1-2ubuntu0.1_i386.deb
+Size: 472874
+MD5sum: 7ac63ee42fcf06ac5cae8387ffbaf6d5
+SHA1: c5e122e13af350d06fd0630da106442fdcf5bff4
+SHA256: 2c6f6afff1192d6fb1ab2b1d23823959371241abf072f70a5cffb436dee43a5b
+Description: X11 toolkit intrinsics library (development headers)
+Description-md5: 4672adcea184032fd66fe6c6e5ca9f00
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: libxt6
+Priority: optional
+Section: libs
+Installed-Size: 417
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxt
+Version: 1:1.1.1-2ubuntu0.1
+Depends: libc6 (>= 2.7), libice6 (>= 1:1.0.0), libsm6, libx11-6
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxt/libxt6_1.1.1-2ubuntu0.1_i386.deb
+Size: 179826
+MD5sum: bcaeeddfc5a085dfa474a8579f7a8a6d
+SHA1: bbb2d3ea22bf13846d3d12e0b4431c5ba243a6d2
+SHA256: 9c62f4d0a1769b338514fe12808f7c0dbf266a79cd8f58c6e05349c969c764a8
+Description: X11 toolkit intrinsics library
+Multi-Arch: same
+Description-md5: c3abc4b8f3ebe1d7b7494d4013fd7976
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxt6-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 577
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxt
+Version: 1:1.1.1-2ubuntu0.1
+Depends: libxt6 (= 1:1.1.1-2ubuntu0.1)
+Filename: pool/main/libx/libxt/libxt6-dbg_1.1.1-2ubuntu0.1_i386.deb
+Size: 497484
+MD5sum: b69114e6ec0064f44bd84bd353d9241f
+SHA1: 3a51d05a6cb257650055f7b6de6f74b2db4576a4
+SHA256: e3cc031193889c938c860aabea29b7d7e3b9501e1eac910921181c28a7a7cd07
+Description: X11 toolkit intrinsics library (debug package)
+Multi-Arch: same
+Description-md5: 6f1684f08fb3fbea27569764cab49561
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxtst-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 212
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxtst
+Version: 2:1.2.0-4ubuntu0.1
+Replaces: x11proto-record-dev (<< 1.13.99.1), x11proto-xext-dev (<< 7.0.99.3)
+Depends: libxtst6 (= 2:1.2.0-4ubuntu0.1), libx11-dev, libxext-dev, libxi-dev, x11proto-xext-dev (>= 7.0.99.3), x11proto-record-dev (>= 1.13.99.1)
+Filename: pool/main/libx/libxtst/libxtst-dev_1.2.0-4ubuntu0.1_i386.deb
+Size: 62862
+MD5sum: e0665f7036caf50120d7613df4518055
+SHA1: 92fe7b1d9dcf7fc07b1207928c8cd1ba5ad01473
+SHA256: 9e56ebb65ae7c7f9d77825ed64aa3908322c4941fff4a2dfc6e9c8d6dc19c812
+Description: X11 Record extension library (development headers)
+Description-md5: ae1bea16337ee830ba8837b716b07dc8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxtst6
+Priority: optional
+Section: libs
+Installed-Size: 69
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxtst
+Version: 2:1.2.0-4ubuntu0.1
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.4.99.1), libxext6, x11-common
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxtst/libxtst6_1.2.0-4ubuntu0.1_i386.deb
+Size: 13934
+MD5sum: bbfa595f1497597c046d025c5b800aa6
+SHA1: a745f01785c90318bcdbb9b058633a5cd9359d70
+SHA256: 2f6391dcc59f316426d22d123c977af424e00abb73dfc4713623c2101ea1b141
+Description: X11 Testing -- Record extension library
+Multi-Arch: same
+Description-md5: a21047d5f3eab970798b4c22c0163132
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxtst6-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 143
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxtst
+Version: 2:1.2.0-4ubuntu0.1
+Depends: x11-common, libxtst6 (= 2:1.2.0-4ubuntu0.1)
+Filename: pool/main/libx/libxtst/libxtst6-dbg_1.2.0-4ubuntu0.1_i386.deb
+Size: 39990
+MD5sum: c77accf93bd0983c744ba5546ef7139a
+SHA1: e029c2d3f0a7bad5dd0c5ad6fcea2f761cf1e25e
+SHA256: e88a87c0800e78cacec7e71ed9835f09013cff3993130c21c1ae23d7cee612f6
+Description: X11 Record extension library (debug package)
+Multi-Arch: same
+Description-md5: a94f094d9401e079de1a5be3957d9f64
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxv-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 115
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxv
+Version: 2:1.0.6-2ubuntu0.1
+Replaces: x11proto-video-dev (<< 2.2+cvs.20050712-1)
+Depends: libxv1 (= 2:1.0.6-2ubuntu0.1), libx11-dev, libxext-dev, x11proto-video-dev
+Conflicts: x11proto-video-dev (<< 2.2+cvs.20050712-1)
+Filename: pool/main/libx/libxv/libxv-dev_1.0.6-2ubuntu0.1_i386.deb
+Size: 34956
+MD5sum: c2d2bbfe0522f8472834d3dbd124cffe
+SHA1: d840f7f4e343f5d35a9b2e40664f73887f8a0bca
+SHA256: 831c8add15b09082b6d1493685fc30f67d9622bff12cdc984088a00b6f7023c2
+Description: X11 Video extension library (development headers)
+Multi-Arch: same
+Description-md5: 4a8b09db5604319bdef123b54c9be53f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxv1
+Priority: optional
+Section: libs
+Installed-Size: 63
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxv
+Version: 2:1.0.6-2ubuntu0.1
+Depends: libc6 (>= 2.4), libx11-6, libxext6
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxv/libxv1_1.0.6-2ubuntu0.1_i386.deb
+Size: 12184
+MD5sum: 0d25660e6d294f5b1a80c02535c0765a
+SHA1: f62692fca8d44128fda2d3278dc55fb73b651cf5
+SHA256: 9e8c37b7c60e1bac6a5d51b9f5a1970b727fdf90b2be618e8596cef170e3b999
+Description: X11 Video extension library
+Multi-Arch: same
+Description-md5: cbda0d10d66b049955c1a3034acbf025
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxv1-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 117
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxv
+Version: 2:1.0.6-2ubuntu0.1
+Depends: libxv1 (= 2:1.0.6-2ubuntu0.1)
+Filename: pool/main/libx/libxv/libxv1-dbg_1.0.6-2ubuntu0.1_i386.deb
+Size: 28856
+MD5sum: 6a606444d58841624fbbdf8fc923d9a4
+SHA1: 5bcfbbf82acd0d3cc576f61463d964a8dba909ec
+SHA256: 6fb52e610a9dd400e6e872e0228f8263b177070fbf52d915bcc7b34efe152231
+Description: X11 Video extension library (debug package)
+Multi-Arch: same
+Description-md5: 8922040df70061a4d2161ad4dfa8c8e6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxvmc-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 95
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxvmc
+Version: 2:1.0.6-1ubuntu2.1
+Replaces: x11proto-video-dev (<< 2.2+cvs.20050712-1)
+Depends: libxvmc1 (= 2:1.0.6-1ubuntu2.1), libx11-dev (>= 2:1.0.0-1), libxext-dev (>= 1:1.0.0-2), x11proto-video-dev, libxv-dev
+Conflicts: x11proto-video-dev (<< 2.2+cvs.20050712-1)
+Filename: pool/main/libx/libxvmc/libxvmc-dev_1.0.6-1ubuntu2.1_i386.deb
+Size: 23580
+MD5sum: c846a0013ff1272a03d931ec0ff57c8d
+SHA1: aca85c5675bd004d37cd745384b873fb6a802dce
+SHA256: 5e1d7ed79b379fe807a08673921cd5181b7ffc49802b23d4e287fbf1880d6369
+Description: X11 Video extension library (development headers)
+Description-md5: d277adb1bcda026e26e3a11d72c9245d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxvmc1
+Priority: optional
+Section: libs
+Installed-Size: 74
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxvmc
+Version: 2:1.0.6-1ubuntu2.1
+Depends: libc6 (>= 2.4), libx11-6, libxext6, x11-common
+Filename: pool/main/libx/libxvmc/libxvmc1_1.0.6-1ubuntu2.1_i386.deb
+Size: 16020
+MD5sum: f89416e905b16aa812d475383ac27c75
+SHA1: c8c2730c58773cca4e5908c3bbafa076e36c5075
+SHA256: 4b5f7e7709723f516f84d034714918e634bf9f4b1f5eaaa6498237e4ea170309
+Description: X11 Video extension library
+Description-md5: 7746d5687dd79b2189f90e7206d6db90
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxvmc1-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 127
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxvmc
+Version: 2:1.0.6-1ubuntu2.1
+Depends: x11-common, libxvmc1 (= 2:1.0.6-1ubuntu2.1)
+Filename: pool/main/libx/libxvmc/libxvmc1-dbg_1.0.6-1ubuntu2.1_i386.deb
+Size: 34852
+MD5sum: faed21b88462bd2ef1ed92d4867b3345
+SHA1: 3a3a7bad47aef25db6e2521a287c6a3eaeef1a05
+SHA256: b99b59af68dc5f73c80dab6beee494dca5b0dac59a5d78525bca8c67ce3db607
+Description: X11 Video extension library (debug package)
+Description-md5: a144654b529015153d66ee0bc51fe57f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxxf86dga-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 94
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxxf86dga
+Version: 2:1.1.2-1ubuntu0.1
+Replaces: x11proto-xf86dga-dev (<< 2.0.99.1)
+Depends: libxxf86dga1 (= 2:1.1.2-1ubuntu0.1), libx11-dev, x11proto-xf86dga-dev (>= 2.0.99.1)
+Filename: pool/main/libx/libxxf86dga/libxxf86dga-dev_1.1.2-1ubuntu0.1_i386.deb
+Size: 17182
+MD5sum: c82bf9afd2efe4e6e22c149ed269a0bd
+SHA1: 0fe9c4a3c927accb121fd27f5a34a7cc06258e8a
+SHA256: e2a4382a2b28264f85403364934b0c701d012d4942019c91c2a652c1c310701f
+Description: X11 Direct Graphics Access extension library (development headers)
+Description-md5: e02dc131e7ff39b6aafdad14aa6d7780
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxxf86dga1
+Priority: optional
+Section: libs
+Installed-Size: 61
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxxf86dga
+Version: 2:1.1.2-1ubuntu0.1
+Depends: libc6 (>= 2.3.4), libx11-6 (>= 2:1.4.99.1), libxext6, x11-common
+Filename: pool/main/libx/libxxf86dga/libxxf86dga1_1.1.2-1ubuntu0.1_i386.deb
+Size: 13594
+MD5sum: ed14c530ab4d746d0ef4f89a4389de9e
+SHA1: 59dace624485e5e57bbe8be4404f8ed92a2263f6
+SHA256: b7bf84de67982281ccd413428b2e1e0c7f4489c08f21eb51d813db22c697bcc0
+Description: X11 Direct Graphics Access extension library
+Description-md5: 3b4c06b89aa50ec8ff9dfdeca065cd4a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxxf86dga1-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 144
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxxf86dga
+Version: 2:1.1.2-1ubuntu0.1
+Depends: x11-common, libxxf86dga1 (= 2:1.1.2-1ubuntu0.1)
+Filename: pool/main/libx/libxxf86dga/libxxf86dga1-dbg_1.1.2-1ubuntu0.1_i386.deb
+Size: 41684
+MD5sum: 4216f2dde6f2a613804cc1169210cf7b
+SHA1: fc60a363013318a28789dede5d7a329042f92e70
+SHA256: 1f0b9d11ec91750e611737b5949fc0200474d51b20503acb11331cc5ac775903
+Description: X11 Direct Graphics Access extension library (debug package)
+Description-md5: c3ae464978269f65057391632499fe73
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxxf86vm-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 88
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxxf86vm
+Version: 1:1.1.1-2ubuntu0.1
+Replaces: x11proto-xf86vidmode-dev (<< 2.2.99.1)
+Depends: libxxf86vm1 (= 1:1.1.1-2ubuntu0.1), libx11-dev, x11proto-xf86vidmode-dev (>= 2.2.99.1)
+Filename: pool/main/libx/libxxf86vm/libxxf86vm-dev_1.1.1-2ubuntu0.1_i386.deb
+Size: 14398
+MD5sum: 5d834b173495192f3fceb8375d6c71b4
+SHA1: f58878c91c7bccd1d9f8d506e6f05fa69f375616
+SHA256: 126c765a7a6a5840490d92ed3b97084e41932ffbce7ed7df0463711bfe62bbbb
+Description: X11 XFree86 video mode extension library (development headers)
+Description-md5: f248dc7c5a7842ef87d8528ab4f9bb7b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libxxf86vm1
+Priority: optional
+Section: libs
+Installed-Size: 54
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxxf86vm
+Version: 1:1.1.1-2ubuntu0.1
+Depends: libc6 (>= 2.1.3), libx11-6 (>= 2:1.4.99.1), libxext6
+Pre-Depends: multiarch-support
+Filename: pool/main/libx/libxxf86vm/libxxf86vm1_1.1.1-2ubuntu0.1_i386.deb
+Size: 12072
+MD5sum: cd4439a385447e801dbf673d7a9b9964
+SHA1: 8bd0e8663954d6f9c24a5b10f5be5c55da0cecba
+SHA256: 342bf91e3306daaed972546439fc957246085b234cd7bab333143b659c10f765
+Description: X11 XFree86 video mode extension library
+Multi-Arch: same
+Description-md5: b174fdb3bc0f1361c3d5865a48ffdd70
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: libxxf86vm1-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 70
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: libxxf86vm
+Version: 1:1.1.1-2ubuntu0.1
+Depends: libxxf86vm1 (= 1:1.1.1-2ubuntu0.1)
+Filename: pool/main/libx/libxxf86vm/libxxf86vm1-dbg_1.1.1-2ubuntu0.1_i386.deb
+Size: 26538
+MD5sum: b00d5bd7c1fdbf04a1b317751f934750
+SHA1: f94b865cff37ee7f2a10af54573b74d1bd4e756b
+SHA256: d2f855fac21f07bb8771b0448db6920a5e32517479c81523318e67b5d5c00c93
+Description: X11 XFree86 video mode extension library (debug package)
+Multi-Arch: same
+Description-md5: c96802621cfbd8042ea5b726670991cc
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
 
 Package: linux
 Priority: optional
