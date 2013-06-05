@@ -31010,6 +31010,115 @@ Description-en: X11 RandR extension library (debug package)
  This module can be found at
  git://anongit.freedesktop.org/git/xorg/lib/libXrandr
 
+Package: libxrender-dev
+Description-md5: 90cef1620b30f07a5c21955d91855734
+Description-en: X Rendering Extension client library (development files)
+ The X Rendering Extension (Render) introduces digital image composition as
+ the foundation of a new rendering model within the X Window System.
+ Rendering geometric figures is accomplished by client-side tessellation into
+ either triangles or trapezoids.  Text is drawn by loading glyphs into the
+ server and rendering sets of them.  The Xrender library exposes this
+ extension to X clients.
+ .
+ This package provides a static library and C header files.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXrender
+
+Package: libxrender1
+Description-md5: 1529276fe319e97fa1c4f85128ed50b8
+Description-en: X Rendering Extension client library
+ The X Rendering Extension (Render) introduces digital image composition as
+ the foundation of a new rendering model within the X Window System.
+ Rendering geometric figures is accomplished by client-side tessellation into
+ either triangles or trapezoids.  Text is drawn by loading glyphs into the
+ server and rendering sets of them.  The Xrender library exposes this
+ extension to X clients.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXrender
+
+Package: libxrender1-dbg
+Description-md5: 826b72926150a03d65486e6527811ff8
+Description-en: X Rendering Extension client library (unstripped)
+ The X Rendering Extension (Render) introduces digital image composition as
+ the foundation of a new rendering model within the X Window System.
+ Rendering geometric figures is accomplished by client-side tessellation into
+ either triangles or trapezoids.  Text is drawn by loading glyphs into the
+ server and rendering sets of them.  The Xrender library exposes this
+ extension to X clients.
+ .
+ This package provides an unstripped shared object with debugging symbols,
+ useful to provide a backtrace with symbol names in a debugger; this
+ facilitates interpretation of core dumps, and aids in finding logic errors in
+ programs using this library (or the library itself).  The library is
+ installed in /usr/lib/debug and can be used by placing that directory in the
+ LD_LIBRARY_PATH environment variable when the code to be debugged is
+ executed.  Non-programmers will likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXrender
+
+Package: libxres-dev
+Description-md5: 70ec3c2d202b5b75e237d25e6d833401
+Description-en: X11 Resource extension library (development headers)
+ libXRes provides an X Window System client interface to the Resource
+ extension to the X protocol.
+ .
+ The Resource extension allows for X clients to see and monitor the X resource
+ usage of various clients (pixmaps, et al).
+ .
+ This package contains the development headers for the library found in
+ libxres1.  Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXRes
+
+Package: libxres1
+Description-md5: d9399de89592de94c1d00cfcb2c850b3
+Description-en: X11 Resource extension library
+ libXRes provides an X Window System client interface to the Resource
+ extension to the X protocol.
+ .
+ The Resource extension allows for X clients to see and monitor the X resource
+ usage of various clients (pixmaps, et al).
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXRes
+
+Package: libxres1-dbg
+Description-md5: 65dd45290b60147f90a3ada760535036
+Description-en: X11 Resource extension library (debug package)
+ libXRes provides an X Window System client interface to the Resource
+ extension to the X protocol.
+ .
+ The Resource extension allows for X clients to see and monitor the X resource
+ usage of various clients (pixmaps, et al).
+ .
+ This package contains the debug versions of the library found in libxres1.
+ Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXRes
+
 Package: libxslt1-dbg
 Description-md5: 07d298272e95c3b2975184f478cc6006
 Description-en: XSLT 1.0 processing library - debugging symbols
@@ -31042,6 +31151,309 @@ Description-en: XSLT 1.0 processing library - runtime library
  .
  This package contains the libxslt library used by applications for XSLT
  transformations.
+
+Package: libxt-dev
+Description-md5: 4672adcea184032fd66fe6c6e5ca9f00
+Description-en: X11 toolkit intrinsics library (development headers)
+ libXt provides the X Toolkit Intrinsics, an abstract widget library upon
+ which other toolkits are based.  Xt is the basis for many toolkits, including
+ the Athena widgets (Xaw), and LessTif (a Motif implementation).
+ .
+ This package contains the development headers for the library found in
+ libxt6.  Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXt
+
+Package: libxt6
+Description-md5: c3abc4b8f3ebe1d7b7494d4013fd7976
+Description-en: X11 toolkit intrinsics library
+ libXt provides the X Toolkit Intrinsics, an abstract widget library upon
+ which other toolkits are based.  Xt is the basis for many toolkits, including
+ the Athena widgets (Xaw), and LessTif (a Motif implementation).
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXt
+
+Package: libxt6-dbg
+Description-md5: 6f1684f08fb3fbea27569764cab49561
+Description-en: X11 toolkit intrinsics library (debug package)
+ libXt provides the X Toolkit Intrinsics, an abstract widget library upon
+ which other toolkits are based.  Xt is the basis for many toolkits, including
+ the Athena widgets (Xaw), and LessTif (a Motif implementation).
+ .
+ This package contains the debug versions of the library found in libxt6.
+ Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXt
+
+Package: libxtst-dev
+Description-md5: ae1bea16337ee830ba8837b716b07dc8
+Description-en: X11 Record extension library (development headers)
+ libXtst provides an X Window System client interface to the Record
+ extension to the X protocol.
+ .
+ The Record extension allows X clients to synthesise input events, which
+ is useful for automated testing.
+ .
+ This package contains the development headers for the library found in
+ libxtst6.  Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXtst
+
+Package: libxtst6
+Description-md5: a21047d5f3eab970798b4c22c0163132
+Description-en: X11 Testing -- Record extension library
+ libXtst provides an X Window System client interface to the Record
+ extension to the X protocol.
+ .
+ The Record extension allows X clients to synthesise input events, which
+ is useful for automated testing.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXtst
+
+Package: libxtst6-dbg
+Description-md5: a94f094d9401e079de1a5be3957d9f64
+Description-en: X11 Record extension library (debug package)
+ libXtst provides an X Window System client interface to the Record
+ extension to the X protocol.
+ .
+ The Record extension allows X clients to synthesise input events, which
+ is useful for automated testing.
+ .
+ This package contains the debug versions of the library found in libxtst6.
+ Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXtst
+
+Package: libxv-dev
+Description-md5: 4a8b09db5604319bdef123b54c9be53f
+Description-en: X11 Video extension library (development headers)
+ libXv provides an X Window System client interface to the XVideo
+ extension to the X protocol.
+ .
+ The XVideo extension allows for accelerated drawing of videos.  Hardware
+ adaptors are exposed to clients, which may draw in a number of colourspaces,
+ including YUV.
+ .
+ This package contains the development headers for the library found in
+ libxv1.  Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXv
+
+Package: libxv1
+Description-md5: cbda0d10d66b049955c1a3034acbf025
+Description-en: X11 Video extension library
+ libXv provides an X Window System client interface to the XVideo
+ extension to the X protocol.
+ .
+ The XVideo extension allows for accelerated drawing of videos.  Hardware
+ adaptors are exposed to clients, which may draw in a number of colourspaces,
+ including YUV.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXv
+
+Package: libxv1-dbg
+Description-md5: 8922040df70061a4d2161ad4dfa8c8e6
+Description-en: X11 Video extension library (debug package)
+ libXv provides an X Window System client interface to the XVideo
+ extension to the X protocol.
+ .
+ The XVideo extension allows for accelerated drawing of videos.  Hardware
+ adaptors are exposed to clients, which may draw in a number of colourspaces,
+ including YUV.
+ .
+ This package contains the debug versions of the library found in libxv1.
+ Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXv
+
+Package: libxvmc-dev
+Description-md5: d277adb1bcda026e26e3a11d72c9245d
+Description-en: X11 Video extension library (development headers)
+ libXvMC provides an X Window System client interface to the
+ XVideo-MotionCompensation extension to the X protocol.
+ .
+ The XVideo-MotionCompensation extension allows for further accelerated drawing
+ of videos.  Video data may be sent at earlier stages of the decoding pipeline
+ than raw YUV data.  At the moment, driver support for XvMC is poor to
+ non-existent.
+ .
+ This package contains the development headers for the library found in
+ libxvmc1.  Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXvMC
+
+Package: libxvmc1
+Description-md5: 7746d5687dd79b2189f90e7206d6db90
+Description-en: X11 Video extension library
+ libXvMC provides an X Window System client interface to the
+ XVideo-MotionCompensation extension to the X protocol.
+ .
+ The XVideo-MotionCompensation extension allows for further accelerated drawing
+ of videos.  Video data may be sent at earlier stages of the decoding pipeline
+ than raw YUV data.  At the moment, driver support for XvMC is poor to
+ non-existent.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXvMC
+
+Package: libxvmc1-dbg
+Description-md5: a144654b529015153d66ee0bc51fe57f
+Description-en: X11 Video extension library (debug package)
+ libXvMC provides an X Window System client interface to the
+ XVideo-MotionCompensation extension to the X protocol.
+ .
+ The XVideo-MotionCompensation extension allows for further accelerated drawing
+ of videos.  Video data may be sent at earlier stages of the decoding pipeline
+ than raw YUV data.  At the moment, driver support for XvMC is poor to
+ non-existent.
+ .
+ This package contains the debug versions of the library found in libxvmc1.
+ Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXvMC
+
+Package: libxxf86dga-dev
+Description-md5: e02dc131e7ff39b6aafdad14aa6d7780
+Description-en: X11 Direct Graphics Access extension library (development headers)
+ libXxf86dga provides the XFree86-DGA extension, which allows direct
+ graphics access to a framebuffer-like region, and also allows relative
+ mouse reporting, et al.  It is mainly used by games and emulators for
+ games.
+ .
+ This package contains the development headers for the library found in
+ libxxf86dga1.  Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXxf86dga
+
+Package: libxxf86dga1
+Description-md5: 3b4c06b89aa50ec8ff9dfdeca065cd4a
+Description-en: X11 Direct Graphics Access extension library
+ libXxf86dga provides the XFree86-DGA extension, which allows direct
+ graphics access to a framebuffer-like region, and also allows relative
+ mouse reporting, et al.  It is mainly used by games and emulators for
+ games.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXxf86dga
+
+Package: libxxf86dga1-dbg
+Description-md5: c3ae464978269f65057391632499fe73
+Description-en: X11 Direct Graphics Access extension library (debug package)
+ libXxf86dga provides the XFree86-DGA extension, which allows direct
+ graphics access to a framebuffer-like region, and also allows relative
+ mouse reporting, et al.  It is mainly used by games and emulators for
+ games.
+ .
+ This package contains the debug versions of the library found in libxxf86dga1.
+ Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXxf86dga
+
+Package: libxxf86vm-dev
+Description-md5: f248dc7c5a7842ef87d8528ab4f9bb7b
+Description-en: X11 XFree86 video mode extension library (development headers)
+ libXxf86vm provides an interface to the XFree86-VidModeExtension
+ extension, which allows client applications to get and set video mode
+ timings in extensive detail.  It is used by the xvidtune program in
+ particular.
+ .
+ This package contains the development headers for the library found in
+ libxxf86vm1.  Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXxf86vm
+
+Package: libxxf86vm1
+Description-md5: b174fdb3bc0f1361c3d5865a48ffdd70
+Description-en: X11 XFree86 video mode extension library
+ libXxf86vm provides an interface to the XFree86-VidModeExtension
+ extension, which allows client applications to get and set video mode
+ timings in extensive detail.  It is used by the xvidtune program in
+ particular.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXxf86vm
+
+Package: libxxf86vm1-dbg
+Description-md5: c96802621cfbd8042ea5b726670991cc
+Description-en: X11 XFree86 video mode extension library (debug package)
+ libXxf86vm provides an interface to the XFree86-VidModeExtension
+ extension, which allows client applications to get and set video mode
+ timings in extensive detail.  It is used by the xvidtune program in
+ particular.
+ .
+ This package contains the debug versions of the library found in libxxf86vm1.
+ Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXxf86vm
 
 Package: libzeitgeist-1.0-1
 Description-md5: 5f36f890b2fde009f3c657c743aacc4e
