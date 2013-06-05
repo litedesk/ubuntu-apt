@@ -36157,6 +36157,57 @@ Description-en: Nagios Remote Plugin Executor Server
  This program runs as a background process on the remote host and processes
  command execution requests from the check_nrpe plugin on the Nagios host.
 
+Package: nagios-plugins
+Description-md5: 6b4ad5841fa7884cc6f9a6067bf53c15
+Description-en: Plugins for nagios compatible monitoring systems (metapackage)
+ Plugins for nagios compatible monitoring systems like Nagios and Icinga.
+ .
+ This metapackage will install the entire suite of plugins for nagios.
+ If you are installing nagios plugins on a remote "satellite" server
+ (using nagios-nrpe-server or nsca), you may be interested in the
+ nagios-plugins-basic package.
+
+Package: nagios-plugins-basic
+Description-md5: 522e84046b5a90590a34390555a1052e
+Description-en: Plugins for nagios compatible monitoring systems
+ Plugins for nagios compatible monitoring systems like Nagios and Icinga. It
+ contains the following plugins:
+ .
+  check_apt, check_by_ssh, check_clamd, check_cluster,
+  check_dhcp, check_disk, check_dummy, check_file_age,
+  check_ftp, check_host, check_http, check_icmp,
+  check_ide_smart, check_imap, check_ircd, check_jabber,
+  check_load, check_log, check_mrtg, check_mrtgtraf,
+  check_nagios, check_nntp, check_nntps, check_nt,
+  check_ntp, check_ntp_peer, check_ntp_time, check_nwstat,
+  check_overcr,  check_ping, check_pop, check_procs,
+  check_real, check_rta_multi, check_sensors, check_simap,
+  check_smtp, check_spop, check_ssh, check_ssmtp,
+  check_swap, check_tcp, check_time, check_udp,
+  check_ups, check_users
+ .
+ This package provides a basic set of plugins with minimal external
+ dependencies.  It is not likely to be useful by itself unless you are
+ using a remote "satellite" system (using nagios-nrpe-server, check_by_ssh or
+ nsca, for example).
+
+Package: nagios-plugins-standard
+Description-md5: cb86ffbac5ae05715267603dc0d4c937
+Description-en: Plugins for nagios compatible monitoring systems
+ Plugins for nagios compatible monitoring systems like Nagios and Icinga. It
+ contains the following plugins:
+ .
+  check_bgpstate, check_breeze, check_dig, check_disk_smb,
+  check_dns, check_flexlm, check_fping, check_game,
+  check_hpjd, check_ifoperstatus, check_ifstatus, check_ldap,
+  check_ldaps, check_linux_raid, check_mailq, check_mysql,
+  check_mysql_query, check_oracle, check_pgsql, check_radius,
+  check_rpc, check_snmp, check_wave
+ .
+ This package provides the suite of plugins that are most likely to be
+ useful on a central nagios host. Some scripts needs more packages installed
+ to work, which is implemented as recommands.
+
 Package: nautilus
 Description-md5: 007268d365c98355ef914766c16ee43f
 Description-en: file manager and graphical shell for GNOME

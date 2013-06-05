@@ -15678,6 +15678,30 @@ Description-md5: c19ebd7d65521f48328173d45f828471
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: nagios-plugins-extra
+Priority: optional
+Section: universe/net
+Installed-Size: 276
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>
+Architecture: amd64
+Source: nagios-plugins
+Version: 1.4.15-5ubuntu3.1
+Replaces: nagios-plugins, nagios-plugins-standard (<= 1.4.8-2)
+Depends: libc6 (>= 2.15), fping, qstat, ucf, nagios-plugins-basic (>= 1.4.5-2)
+Suggests: nagios2 | nagios-text | nagios
+Conflicts: nagios-plugins (<= 1.4.2-3)
+Filename: pool/universe/n/nagios-plugins/nagios-plugins-extra_1.4.15-5ubuntu3.1_amd64.deb
+Size: 45628
+MD5sum: a5b3a7490dc8e606706eb0dbb534f6d4
+SHA1: e65ee46cc6e0d665ea112f3c9bfa433823c79788
+SHA256: b55b680df72170bf09a494a6a2b9941cda1a97dd0112c0461963dc52e61b7831
+Description: Plugins for the nagios network monitoring and manegement system.
+Homepage: http://nagiosplug.sourceforge.net
+Description-md5: e0bca190845adf8999f9ca999aacd479
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: netams
 Priority: optional
 Section: universe/net

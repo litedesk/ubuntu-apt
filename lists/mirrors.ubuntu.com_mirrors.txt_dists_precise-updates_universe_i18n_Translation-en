@@ -7906,6 +7906,24 @@ Description-en: Nagios Remote Plugin Executor Plugin
  This is a plugin that is run on the Nagios host and is used to contact the
  NRPE process on remote hosts.
 
+Package: nagios-plugins-extra
+Description-md5: e0bca190845adf8999f9ca999aacd479
+Description-en: Plugins for the nagios network monitoring and manegement system.
+ Nagios is a host/service/network monitoring and management system. It has
+ the following features:
+ .
+  o  Monitoring of network services (via TCP port, SMTP, POP3, HTTP, NNTP,
+     PING, etc.)
+  o  Plugin interface to allow for user-developed service checks
+  o  Contact notifications when problems occur and get resolved (via email,
+     pager, or user-defined method)
+  o  Ability to define event handlers to be run during service or host events
+     (for proactive problem resolution)
+  o  Web output (current status, notifications, history, log file, etc.)
+ .
+ This package provides the suite of plugins that provide extra functionality
+ to be useful on a central nagios host.
+
 Package: netams
 Description-md5: 0ec2b282933fa6dc7e35588f837be5ba
 Description-en: network traffic accounting and monitoring daemon
