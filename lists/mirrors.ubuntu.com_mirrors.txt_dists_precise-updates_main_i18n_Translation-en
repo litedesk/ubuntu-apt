@@ -36637,6 +36637,79 @@ Description-en: Text-mode WWW Browser with NLS support (development version)
  .
  This package contains a development version of lynx.
 
+Package: maas
+Description-md5: 61bb9135ef18acaff6eb8c13e1efc46a
+Description-en: Ubuntu MAAS Server
+ Ubuntu MAAS Server is the successor to Orchestra. It offers a
+ nice UI to provision your Ubuntu servers. Each physical server
+ (“node”) will be commissioned automatically on first boot.
+ During the commissioning process administrators are able to
+ configure hardware settings manually before an automated smoke
+ test and burn-in test are done. Once commissioned, a node can
+ be deployed on demand by name, or allocated to a queue for
+ dynamic allocation to services being deployed on this MAAS.
+ .
+ This package is a metapackage which installs a complete MAAS
+ service on a single machine.
+
+Package: maas-cli
+Description-md5: 814b9f5858d62e085e69aea0f840e274
+Description-en: Ubuntu MAAS Client Tool
+ Ubuntu MAAS Server is the successor to Orchestra. It offers a
+ nice UI to provision your Ubuntu servers. Each physical server
+ (“node”) will be commissioned automatically on first boot.
+ During the commissioning process administrators are able to
+ configure hardware settings manually before an automated smoke
+ test and burn-in test are done. Once commissioned, a node can
+ be deployed on demand by name, or allocated to a queue for
+ dynamic allocation to services being deployed on this MAAS.
+ .
+ This package contains the client command line tool.
+
+Package: maas-cluster-controller
+Description-md5: c10b2ea1c3afc31c6a18490951702ac4
+Description-en: Ubuntu MAAS Cluster Controller
+ Ubuntu MAAS Server is the successor to Orchestra. It offers a
+ nice UI to provision your Ubuntu servers. Each physical server
+ (“node”) will be commissioned automatically on first boot.
+ During the commissioning process administrators are able to
+ configure hardware settings manually before an automated smoke
+ test and burn-in test are done. Once commissioned, a node can
+ be deployed on demand by name, or allocated to a queue for
+ dynamic allocation to services being deployed on this MAAS.
+ .
+ This package contains the cluster controller, which is
+ responsible for controlling remote DHCP/TFTP instances on their
+ own subnets.
+
+Package: maas-common
+Description-md5: 0f08f38d6abc6023bae9225f98d0d50c
+Description-en: Ubuntu MAAS Server
+ Ubuntu MAAS Server is the successor to Orchestra. It offers a
+ nice UI to provision your Ubuntu servers. Each physical server
+ (“node”) will be commissioned automatically on first boot.
+ During the commissioning process administrators are able to
+ configure hardware settings manually before an automated smoke
+ test and burn-in test are done. Once commissioned, a node can
+ be deployed on demand by name, or allocated to a queue for
+ dynamic allocation to services being deployed on this MAAS.
+ .
+ This package contains common files
+
+Package: maas-dns
+Description-md5: a0266f261e4dc3f65cb166f518ef6e07
+Description-en: Ubuntu MAAS Server - DNS configuration (metapackage)
+ Ubuntu MAAS Server is the successor to Orchestra. It offers a
+ nice UI to provision your Ubuntu servers. Each physical server
+ (“node”) will be commissioned automatically on first boot.
+ During the commissioning process administrators are able to
+ configure hardware settings manually before an automated smoke
+ test and burn-in test are done. Once commissioned, a node can
+ be deployed on demand by name, or allocated to a queue for
+ dynamic allocation to services being deployed on this MAAS.
+ .
+ This package configures a DNS that can be used with MAAS.
+
 Package: maas-enlist
 Description-md5: 35ef48de687642aef498e7ed6ce4ec72
 Description-en: MAAS enlistment tool
@@ -36665,6 +36738,21 @@ Description-en: Cobbler Install server - common files
  applications. There is also a web interface.
  .
  This package includes the common files.
+
+Package: maas-region-controller
+Description-md5: af957353fce4c07ff6cc2df04c26a3e3
+Description-en: Ubuntu MAAS Server
+ Ubuntu MAAS Server is the successor to Orchestra. It offers a
+ nice UI to provision your Ubuntu servers. Each physical server
+ (“node”) will be commissioned automatically on first boot.
+ During the commissioning process administrators are able to
+ configure hardware settings manually before an automated smoke
+ test and burn-in test are done. Once commissioned, a node can
+ be deployed on demand by name, or allocated to a queue for
+ dynamic allocation to services being deployed on this MAAS.
+ .
+ This package installs the region controller services: the web
+ UI and the database.
 
 Package: mahjongg
 Description-md5: adc178a2d2b4ff75c015f3907a755657
@@ -39796,6 +39884,20 @@ Description-en: Django module providing web based interaction with OpenStack
  The Django-Nova project is a Django module that is used to provide web based
  interactions with the OpenStack Nova cloud controller.
 
+Package: python-django-maas
+Description-md5: 87625774b1d9493b5a765a3b5549c5de
+Description-en: Ubuntu MAAS Server - (django files)
+ Ubuntu MAAS Server is the successor to Orchestra. It offers a
+ nice UI to provision your Ubuntu servers. Each physical server
+ (“node”) will be commissioned automatically on first boot.
+ During the commissioning process administrators are able to
+ configure hardware settings manually before an automated smoke
+ test and burn-in test are done. Once commissioned, a node can
+ be deployed on demand by name, or allocated to a queue for
+ dynamic allocation to services being deployed on this MAAS.
+ .
+ This package contains the Django files.
+
 Package: python-django-openstack
 Description-md5: b1f83867f4d64a68b0a2983e14c6b418
 Description-en: dummy transitonal package from python-django-openstack to python-django-horizon
@@ -40167,6 +40269,20 @@ Description-en: Python bindings for libxslt1 (debug extension)
  This package contains Python bindings for libxslt, needed to use
  libxslt in Python programs for use with the Python debug interpreter.
 
+Package: python-maas-client
+Description-md5: 20735e9fca3a578f82aae12168c594a7
+Description-en: Ubuntu MAAS API Client - (python files)
+ Ubuntu MAAS Server is the successor to Orchestra. It offers a
+ nice UI to provision your Ubuntu servers. Each physical server
+ (“node”) will be commissioned automatically on first boot.
+ During the commissioning process administrators are able to
+ configure hardware settings manually before an automated smoke
+ test and burn-in test are done. Once commissioned, a node can
+ be deployed on demand by name, or allocated to a queue for
+ dynamic allocation to services being deployed on this MAAS.
+ .
+ This package contains the client API Python modules.
+
 Package: python-maas-provision
 Description-md5: 2b41278d77b6eaf3d96d2c1c7845668e
 Description-en: Install server - python libraries.
@@ -40179,6 +40295,20 @@ Description-en: Install server - python libraries.
  applications. There is also a web interface.
  .
  This package includes the maas-provision python modules.
+
+Package: python-maas-provisioningserver
+Description-md5: 4f5c7749b5a2c54ca28e3e8e5170dd4e
+Description-en: Ubuntu MAAS Server
+ Ubuntu MAAS Server is the successor to Orchestra. It offers a
+ nice UI to provision your Ubuntu servers. Each physical server
+ (“node”) will be commissioned automatically on first boot.
+ During the commissioning process administrators are able to
+ configure hardware settings manually before an automated smoke
+ test and burn-in test are done. Once commissioned, a node can
+ be deployed on demand by name, or allocated to a queue for
+ dynamic allocation to services being deployed on this MAAS.
+ .
+ This package contains the provisioning server libraries.
 
 Package: python-moinmoin
 Description-md5: e7e9edb49f7b3a85509d1a40cac0d731
@@ -40228,6 +40358,14 @@ Description-en: OpenStack Compute Python libraries
  databases (LDAP or SQL), etc.
  .
  This package contains the core Python parts of Nova.
+
+Package: python-paramiko
+Description-md5: f0e42a4a2bcedf0d9198ae4925ab94f6
+Description-en: Make ssh v2 connections with Python
+ This is a library for making SSH2 connections (client or server).
+ Emphasis is on using SSH2 as an alternative to SSL for making secure
+ connections between Python scripts.  All major ciphers and hash methods
+ are supported.  SFTP client and server mode are both supported too.
 
 Package: python-piston-mini-client
 Description-md5: 09e2c5373b1a6e9ca6de17f03c345327

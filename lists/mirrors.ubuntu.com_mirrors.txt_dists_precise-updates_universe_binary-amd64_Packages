@@ -14425,6 +14425,28 @@ Description-md5: cb5bf96b1082b91fa3c57f015993ee54
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: maas-dhcp
+Priority: optional
+Section: universe/net
+Installed-Size: 61
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Source: maas
+Version: 1.2+bzr1373+dfsg-0ubuntu1~12.04.1
+Replaces: maas-dhcp (<= 0.1+bzr777+dfsg-0ubuntu1)
+Depends: isc-dhcp-server, upstart-job
+Breaks: maas-dhcp (<= 0.1+bzr777+dfsg-0ubuntu1)
+Filename: pool/universe/m/maas/maas-dhcp_1.2+bzr1373+dfsg-0ubuntu1~12.04.1_all.deb
+Size: 9110
+MD5sum: fa3a9feebd78ebb44ab824319a36ce6f
+SHA1: a0c2f3251cf792c472c22e0c974380091c99df2c
+SHA256: 1bb70ec6d873ac0642bbf121ed2b77dcd34065f5b1fcd47600d9de81d799cf6b
+Description: Ubuntu MAAS Server - DHCP Configuration (meta-package)
+Homepage: https://launchpad.net/maas
+Description-md5: b9f230ec9ab029ce27bbc2774de3c9a9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: marble-touch
 Priority: optional
 Section: universe/misc
@@ -20248,14 +20270,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Michael Biebl <biebl@debian.org>
 Architecture: amd64
 Source: rsyslog
-Version: 5.8.6-1ubuntu8.3
-Depends: libc6 (>= 2.14), libgnutls26 (>= 2.12.6.1-0), rsyslog (= 5.8.6-1ubuntu8.3)
+Version: 5.8.6-1ubuntu8.4
+Depends: libc6 (>= 2.14), libgnutls26 (>= 2.12.6.1-0), rsyslog (= 5.8.6-1ubuntu8.4)
 Suggests: gnutls-bin
-Filename: pool/universe/r/rsyslog/rsyslog-gnutls_5.8.6-1ubuntu8.3_amd64.deb
-Size: 15488
-MD5sum: 2e3507baedf1f8071b83e784bea48782
-SHA1: 0f09704d34376dcb57211f639d4aeb8f02936af5
-SHA256: a941cce981bfae348d483c1c2a87063738b4fbd99d3ca08cd68a59d31b5f5d77
+Filename: pool/universe/r/rsyslog/rsyslog-gnutls_5.8.6-1ubuntu8.4_amd64.deb
+Size: 15490
+MD5sum: 4c7b738389934c052956f0fc5830de61
+SHA1: 075b06642a14356e214a1c40e40b68f85b9d26ab
+SHA256: 5235589ede8b0b74824d554071abec7f57062e0fbf81b52419081adfcf1c8001
 Description: TLS protocol support for rsyslog
 Homepage: http://www.rsyslog.com/
 Original-Vcs-Browser: http://git.debian.org/?p=collab-maint/rsyslog.git;a=summary
@@ -20272,14 +20294,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Michael Biebl <biebl@debian.org>
 Architecture: amd64
 Source: rsyslog
-Version: 5.8.6-1ubuntu8.3
-Depends: libc6 (>= 2.15), libgssapi-krb5-2 (>= 1.10+dfsg~), rsyslog (= 5.8.6-1ubuntu8.3)
+Version: 5.8.6-1ubuntu8.4
+Depends: libc6 (>= 2.15), libgssapi-krb5-2 (>= 1.10+dfsg~), rsyslog (= 5.8.6-1ubuntu8.4)
 Suggests: krb5-user
-Filename: pool/universe/r/rsyslog/rsyslog-gssapi_5.8.6-1ubuntu8.3_amd64.deb
-Size: 16352
-MD5sum: 82cbfe9913c18a468d4913de6b4eb135
-SHA1: 1b6645220567402786e6e64e53e142de547f0ff3
-SHA256: 6f22a342b5de06b010720e44004415cb35f1261726bec784b9eeaf7146c94993
+Filename: pool/universe/r/rsyslog/rsyslog-gssapi_5.8.6-1ubuntu8.4_amd64.deb
+Size: 16402
+MD5sum: a6e5ff086492c2b0bc8f8eeaa68a81d0
+SHA1: cf7871371dd79a36dfb0002bb17c533fa4f0e606
+SHA256: 1ac4947f509bd11bc65ba125eac95517c6ce93c0c5b5a1f97a7a43408efcf78e
 Description: GSSAPI authentication and encryption support for rsyslog
 Homepage: http://www.rsyslog.com/
 Original-Vcs-Browser: http://git.debian.org/?p=collab-maint/rsyslog.git;a=summary
@@ -20296,15 +20318,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Michael Biebl <biebl@debian.org>
 Architecture: amd64
 Source: rsyslog
-Version: 5.8.6-1ubuntu8.3
-Depends: libc6 (>= 2.4), libmysqlclient18 (>= 5.5.13-1), debconf (>= 0.5) | debconf-2.0, rsyslog (= 5.8.6-1ubuntu8.3), dbconfig-common, ucf
+Version: 5.8.6-1ubuntu8.4
+Depends: libc6 (>= 2.4), libmysqlclient18 (>= 5.5.13-1), debconf (>= 0.5) | debconf-2.0, rsyslog (= 5.8.6-1ubuntu8.4), dbconfig-common, ucf
 Recommends: mysql-client
 Suggests: mysql-server
-Filename: pool/universe/r/rsyslog/rsyslog-mysql_5.8.6-1ubuntu8.3_amd64.deb
-Size: 8280
-MD5sum: db04a5b13d11f82ddbc1aa6c69537e22
-SHA1: c7c1eff2132547eefaff8438635046ca258dc19a
-SHA256: 4c9d8b5b644dc3ac8e9e666d4a4fa58b2501e908ee99574c68745819c4caf779
+Filename: pool/universe/r/rsyslog/rsyslog-mysql_5.8.6-1ubuntu8.4_amd64.deb
+Size: 8284
+MD5sum: 4e143e1cd560e94a95874770e003a4b5
+SHA1: fba6b1224d3991544f165bd6c545cabfbd528824
+SHA256: 58510a100499f66fb42c8775803b08c3cb988ade143fad2345bf41edf191b8a9
 Description: MySQL output plugin for rsyslog
 Homepage: http://www.rsyslog.com/
 Original-Vcs-Browser: http://git.debian.org/?p=collab-maint/rsyslog.git;a=summary
@@ -20321,15 +20343,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Michael Biebl <biebl@debian.org>
 Architecture: amd64
 Source: rsyslog
-Version: 5.8.6-1ubuntu8.3
-Depends: libc6 (>= 2.4), libpq5, debconf (>= 0.5) | debconf-2.0, rsyslog (= 5.8.6-1ubuntu8.3), dbconfig-common, ucf
+Version: 5.8.6-1ubuntu8.4
+Depends: libc6 (>= 2.4), libpq5, debconf (>= 0.5) | debconf-2.0, rsyslog (= 5.8.6-1ubuntu8.4), dbconfig-common, ucf
 Recommends: postgresql-client
 Suggests: postgresql
-Filename: pool/universe/r/rsyslog/rsyslog-pgsql_5.8.6-1ubuntu8.3_amd64.deb
-Size: 8192
-MD5sum: 1a739a44e5fb3931117227e015d5f4af
-SHA1: 8b70c9662e0cfc6db7fa8dfb756dc56fb141eece
-SHA256: c8c193ebca132581ddd4d67b58f35c3cde25516a92c9a5817f652582205b27ac
+Filename: pool/universe/r/rsyslog/rsyslog-pgsql_5.8.6-1ubuntu8.4_amd64.deb
+Size: 8198
+MD5sum: 752760cc984f52816bbefe6f6872941c
+SHA1: efc0770e41272e8dd0d0f0fd9bd31ff5a03b3f5a
+SHA256: 97cf59243e6b211cf9b5f34fe889d29868827f7301c2c31a10056c5bb5a25164
 Description: PostgreSQL output plugin for rsyslog
 Homepage: http://www.rsyslog.com/
 Original-Vcs-Browser: http://git.debian.org/?p=collab-maint/rsyslog.git;a=summary
@@ -20346,13 +20368,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Michael Biebl <biebl@debian.org>
 Architecture: amd64
 Source: rsyslog
-Version: 5.8.6-1ubuntu8.3
-Depends: libc6 (>= 2.14), librelp0 (>= 0.1.1), rsyslog (= 5.8.6-1ubuntu8.3)
-Filename: pool/universe/r/rsyslog/rsyslog-relp_5.8.6-1ubuntu8.3_amd64.deb
-Size: 8188
-MD5sum: d54b1b78e90ea0a2691ec2d5f53a93a1
-SHA1: 6a44566646db7a90273f992efbb91478a32a2139
-SHA256: d80ee97aeea9faed7fe29ea75225dd5275d19771a2fd976078d922394ab1a9e7
+Version: 5.8.6-1ubuntu8.4
+Depends: libc6 (>= 2.14), librelp0 (>= 0.1.1), rsyslog (= 5.8.6-1ubuntu8.4)
+Filename: pool/universe/r/rsyslog/rsyslog-relp_5.8.6-1ubuntu8.4_amd64.deb
+Size: 8214
+MD5sum: 01fc087caf127b1d4a1b1e703deae8f8
+SHA1: 56c415a7fbd69541db4612ffac86d440803f2692
+SHA256: 8f9c0a0d6524a801784f8006eb1a080e339d4f2fd4a368218c710e37e7aad8ba
 Description: RELP protocol support for rsyslog
 Homepage: http://www.rsyslog.com/
 Original-Vcs-Browser: http://git.debian.org/?p=collab-maint/rsyslog.git;a=summary

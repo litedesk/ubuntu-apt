@@ -7237,6 +7237,20 @@ Description-en: Wrapper for lynx-cur (transitional package)
  This is a transitional package and can safely be removed; see the
  lynx-cur package instead.
 
+Package: maas-dhcp
+Description-md5: b9f230ec9ab029ce27bbc2774de3c9a9
+Description-en: Ubuntu MAAS Server - DHCP Configuration (meta-package)
+ Ubuntu MAAS Server is the successor to Orchestra. It offers a
+ nice UI to provision your Ubuntu servers. Each physical server
+ (“node”) will be commissioned automatically on first boot.
+ During the commissioning process administrators are able to
+ configure hardware settings manually before an automated smoke
+ test and burn-in test are done. Once commissioned, a node can
+ be deployed on demand by name, or allocated to a queue for
+ dynamic allocation to services being deployed on this MAAS.
+ .
+ This package configures a DHCP that can be used with MAAS.
+
 Package: marble-touch
 Description-md5: e8c4aa9575ee615ef53925557f0de2ca
 Description-en: globe and map widget for tablets
