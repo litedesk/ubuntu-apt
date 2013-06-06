@@ -40451,6 +40451,19 @@ Description-en: SQL toolkit and Object Relational Mapper for Python - C extensio
  .
  This package contains C coded extension accelerator for SQLAlchemy.
 
+Package: python-txtftp
+Description-md5: f0dc78275d86a53f832a97c938ec022b
+Description-en: Twisted-based TFTP implementation
+ A Twisted-based TFTP implementation that implements:
+ .
+  * RFC1350 (base TFTP specification) support.
+  * Asynchronous backend support.
+  * netascii transfer mode.
+  * RFC2347 (TFTP Option Extension) support. blksize (RFC2348) and timeout.
+    (partial support for RFC2349) options are supported.
+  * An actual TFTP server.
+  * Plugin for twistd.
+
 Package: python-ubuntu-sso-client
 Description-md5: 9fe03228f7dd735be1bd9c858dd2005e
 Description-en: Ubuntu Single Sign-On client - Python library

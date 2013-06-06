@@ -4289,6 +4289,93 @@ Description-md5: 7cb9eae5a916f8c23e99e81a1ed7d538
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: freeipmi-bmc-watchdog
+Priority: extra
+Section: universe/admin
+Installed-Size: 308
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Yaroslav Halchenko <debian@onerussian.com>
+Architecture: i386
+Source: freeipmi
+Version: 0.8.12-3ubuntu1
+Depends: libc6 (>= 2.4), libfreeipmi10, freeipmi-tools
+Pre-Depends: dpkg (>= 1.15.7.2)
+Filename: pool/universe/f/freeipmi/freeipmi-bmc-watchdog_0.8.12-3ubuntu1_i386.deb
+Size: 54156
+MD5sum: 9c87d3e3741887ee925a4fbb917728aa
+SHA1: db3dcc35f27a2d49e0d75b6adb14951f8530dbb3
+SHA256: 09005072c7331728ef85e40950f5c45908123cf158bb4208dfbaf6287c9def79
+Description: GNU implementation of the IPMI protocol - BMC watchdog
+Homepage: http://www.gnu.org/software/freeipmi/
+Description-md5: de829f061dc1ffe58f7abb1eed647eb0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: freeipmi-common
+Priority: extra
+Section: universe/admin
+Installed-Size: 260
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Yaroslav Halchenko <debian@onerussian.com>
+Architecture: all
+Source: freeipmi
+Version: 0.8.12-3ubuntu1
+Depends: dpkg (>= 1.15.4) | install-info
+Suggests: freeipmi-tools
+Filename: pool/universe/f/freeipmi/freeipmi-common_0.8.12-3ubuntu1_all.deb
+Size: 90488
+MD5sum: e9b392456e0a357476b74cf53c61ce24
+SHA1: 9111c388bb3661c4a81e097457c082cfe6358c0d
+SHA256: 83096722b544a0b290e4087020b8a674994c5dab1f1b74ee702240474b133a58
+Description: GNU implementation of the IPMI protocol - common files
+Homepage: http://www.gnu.org/software/freeipmi/
+Description-md5: e744e2bab7d803679befab25b3d06fcc
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: freeipmi-ipmidetect
+Priority: extra
+Section: universe/admin
+Installed-Size: 266
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Yaroslav Halchenko <debian@onerussian.com>
+Architecture: i386
+Source: freeipmi
+Version: 0.8.12-3ubuntu1
+Depends: libc6 (>= 2.4), libfreeipmi10, libipmidetect0
+Filename: pool/universe/f/freeipmi/freeipmi-ipmidetect_0.8.12-3ubuntu1_i386.deb
+Size: 51314
+MD5sum: 7bdcfc6417f235fe1df58aa798ef7a4d
+SHA1: 69f5d084c8d8d0ad6da5f1dc17090ae8151367b8
+SHA256: f4ba383cd2d1fd6a5fa0b48de4fe4e492750fbde558a57356f77184ab70c5dc7
+Description: GNU IPMI - IPMI node detection tool
+Homepage: http://www.gnu.org/software/freeipmi/
+Description-md5: f8c1d52ac5eb3aad1539b827d381d2dd
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: freeipmi-tools
+Priority: extra
+Section: universe/admin
+Installed-Size: 3108
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Yaroslav Halchenko <debian@onerussian.com>
+Architecture: i386
+Source: freeipmi
+Version: 0.8.12-3ubuntu1
+Depends: libc6 (>= 2.15), libfreeipmi10, libipmiconsole2, libipmidetect0, libipmimonitoring4
+Suggests: freeipmi-ipmidetect, freeipmi-bmc-watchdog
+Filename: pool/universe/f/freeipmi/freeipmi-tools_0.8.12-3ubuntu1_i386.deb
+Size: 1313608
+MD5sum: 2c02ae12f00ac4b388951220f977e06b
+SHA1: 9b99d052962c6db24828e02e1cd227c01093f95a
+SHA256: 7e5a1aeb7fb60b0edc3fc7309b6ca92a6a9bf4820cf6afe1a6763bbaebc8b269
+Description: GNU implementation of the IPMI protocol - tools
+Homepage: http://www.gnu.org/software/freeipmi/
+Description-md5: 90d4aa79c92b1cd32a777395cb15060d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: freemind
 Priority: optional
 Section: universe/text
@@ -9944,6 +10031,48 @@ Description-md5: 4bc05c8b7e50b206b89a326be8fc0a87
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: libfreeipmi-dev
+Priority: extra
+Section: universe/libdevel
+Installed-Size: 5048
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Yaroslav Halchenko <debian@onerussian.com>
+Architecture: i386
+Source: freeipmi
+Version: 0.8.12-3ubuntu1
+Depends: libfreeipmi10 (= 0.8.12-3ubuntu1)
+Filename: pool/universe/f/freeipmi/libfreeipmi-dev_0.8.12-3ubuntu1_i386.deb
+Size: 964082
+MD5sum: 9c2709993e88080a5fbffdedc67753bb
+SHA1: 684fa0ce09b02c59dcecc538808f4f62554d4dd3
+SHA256: 6858948ab125a802e6d4bd8840d745d0c813e85d22cd7eac3d3ea3a36bde5d5e
+Description: GNU IPMI - development package
+Homepage: http://www.gnu.org/software/freeipmi/
+Description-md5: 4bd7c7d7ecc7c9a2ade84bbae733437d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libfreeipmi10
+Priority: extra
+Section: universe/libs
+Installed-Size: 3166
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Yaroslav Halchenko <debian@onerussian.com>
+Architecture: i386
+Source: freeipmi
+Version: 0.8.12-3ubuntu1
+Depends: libc6 (>= 2.15), libgcrypt11 (>= 1.4.5), freeipmi-common (= 0.8.12-3ubuntu1)
+Filename: pool/universe/f/freeipmi/libfreeipmi10_0.8.12-3ubuntu1_i386.deb
+Size: 720368
+MD5sum: fd18cac65fb1f267c59a2dc91960ca3d
+SHA1: b5827ec18ad2cb01c9f7b5177caa914fb2e9d057
+SHA256: 16e929ec12af05f06956ada62197690f99e277171c885b2e94bcd27d599963e1
+Description: GNU IPMI - libraries
+Homepage: http://www.gnu.org/software/freeipmi/
+Description-md5: 551e6ddaf5141d9148d078f03ee68154
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: libfuse-perl
 Priority: optional
 Section: universe/perl
@@ -10937,6 +11066,132 @@ Description: FreeIPA HBAC Evaluator library
 Multi-Arch: same
 Homepage: https://fedorahosted.org/sssd/
 Description-md5: 03e6128075af8f51f143ba66443a79ae
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libipmiconsole-dev
+Priority: extra
+Section: universe/libdevel
+Installed-Size: 504
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Yaroslav Halchenko <debian@onerussian.com>
+Architecture: i386
+Source: freeipmi
+Version: 0.8.12-3ubuntu1
+Depends: libipmiconsole2 (= 0.8.12-3ubuntu1)
+Filename: pool/universe/f/freeipmi/libipmiconsole-dev_0.8.12-3ubuntu1_i386.deb
+Size: 116208
+MD5sum: 65769805add99994b73a9bfa89d2ad22
+SHA1: 7105c0a60d7d68ff481c32f93bc93af2473889c7
+SHA256: b577e3a172bde76a80ed266a4cf194e06b3b09a15670fdad05b71f8026478306
+Description: GNU IPMI - ipmiconsole development package
+Homepage: http://www.gnu.org/software/freeipmi/
+Description-md5: 165d37f1ff27840c811186d69e5990cf
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libipmiconsole2
+Priority: extra
+Section: universe/libs
+Installed-Size: 375
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Yaroslav Halchenko <debian@onerussian.com>
+Architecture: i386
+Source: freeipmi
+Version: 0.8.12-3ubuntu1
+Depends: libc6 (>= 2.15), libfreeipmi10
+Filename: pool/universe/f/freeipmi/libipmiconsole2_0.8.12-3ubuntu1_i386.deb
+Size: 87236
+MD5sum: b2765a54386aa1d83e359981cd39c0fe
+SHA1: 0b29328c77a6e0d841fd2449449be41ac0695bf6
+SHA256: 880e6136385534e1f678fd2cad3bd97878af1946765f7c66cb93addf3753bfb2
+Description: GNU IPMI - Serial-over-Lan library
+Homepage: http://www.gnu.org/software/freeipmi/
+Description-md5: d797fcb20a528d5be709254b16cbad80
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libipmidetect-dev
+Priority: extra
+Section: universe/libdevel
+Installed-Size: 247
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Yaroslav Halchenko <debian@onerussian.com>
+Architecture: i386
+Source: freeipmi
+Version: 0.8.12-3ubuntu1
+Depends: libipmidetect0 (= 0.8.12-3ubuntu1)
+Filename: pool/universe/f/freeipmi/libipmidetect-dev_0.8.12-3ubuntu1_i386.deb
+Size: 37944
+MD5sum: efbf3c64cb709319d243683fe9b96a0c
+SHA1: d00c74a9ba44b37b08f0d907302c9253b98425ca
+SHA256: 5f2508de6cb8c40ded5ae894bff839f4d2218b7fcdb098b2263c3ba3076b663b
+Description: GNU IPMI - ipmidetect development package
+Homepage: http://www.gnu.org/software/freeipmi/
+Description-md5: 656d83b3185878f4432cb27f725c60aa
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libipmidetect0
+Priority: extra
+Section: universe/libs
+Installed-Size: 203
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Yaroslav Halchenko <debian@onerussian.com>
+Architecture: i386
+Source: freeipmi
+Version: 0.8.12-3ubuntu1
+Depends: libc6 (>= 2.15), freeipmi-common (= 0.8.12-3ubuntu1)
+Filename: pool/universe/f/freeipmi/libipmidetect0_0.8.12-3ubuntu1_i386.deb
+Size: 31552
+MD5sum: 7f24c696db79bb3948d96e62302b55c9
+SHA1: bf03eb06b875a01e0a520337ccc5e080f375e792
+SHA256: 0d7b5499971d07068077f7b93010468c837700ef685e6e35b5b27af62a8e75e4
+Description: GNU IPMI - IPMI node detection library
+Homepage: http://www.gnu.org/software/freeipmi/
+Description-md5: ecbecbb0ee12c205e71a71410cd298b9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libipmimonitoring-dev
+Priority: extra
+Section: universe/libdevel
+Installed-Size: 383
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Yaroslav Halchenko <debian@onerussian.com>
+Architecture: i386
+Source: freeipmi
+Version: 0.8.12-3ubuntu1
+Depends: libipmimonitoring4 (= 0.8.12-3ubuntu1)
+Filename: pool/universe/f/freeipmi/libipmimonitoring-dev_0.8.12-3ubuntu1_i386.deb
+Size: 76598
+MD5sum: 729c373ffa925c6c1cfd0a1f7c9e05e7
+SHA1: 79e136ed28ab81b5ffb2508277925757ea6cce6b
+SHA256: ef116dc82b08d8862c92288c8d522ab88a92e40249715c48276e26b5178d2c2f
+Description: GNU IPMI - ipmimonitoring development package
+Homepage: http://www.gnu.org/software/freeipmi/
+Description-md5: ef86e1418697f9920e03b6c081ea574c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libipmimonitoring4
+Priority: extra
+Section: universe/libs
+Installed-Size: 341
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Yaroslav Halchenko <debian@onerussian.com>
+Architecture: i386
+Source: freeipmi
+Version: 0.8.12-3ubuntu1
+Depends: libc6 (>= 2.4), libfreeipmi10
+Filename: pool/universe/f/freeipmi/libipmimonitoring4_0.8.12-3ubuntu1_i386.deb
+Size: 67644
+MD5sum: c8de6edc8c8a2f6c32994afb19dfc8a4
+SHA1: bb0ffd71c1b7bb843e7d706b3831e819dc139b63
+SHA256: 09a0874c0f55938525c689fc116bbf03151dd36c3ced9d431c1e637e87696da0
+Description: GNU IPMI - Sensor monitoring library
+Homepage: http://www.gnu.org/software/freeipmi/
+Description-md5: 0a4db39f4e386980a01c401d301b0411
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
@@ -13368,6 +13623,28 @@ SHA256: d9fb8ee94fac110be586646d8458a439308a3cf373985cd58813d966d2c8511a
 Description: Xen Cloud Platform - OCaml bindings
 Homepage: http://www.xen.org/products/cloudxen.html
 Description-md5: 5cb104252953710081e9546658f7e532
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libxml-light-ocaml-dev
+Priority: optional
+Section: universe/libdevel
+Installed-Size: 349
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Architecture: i386
+Source: xml-light
+Version: 2.2-12ubuntu0.12.04.1
+Provides: libxml-light-ocaml-dev-kz7l6
+Depends: ocaml-nox-3.12.1
+Filename: pool/universe/x/xml-light/libxml-light-ocaml-dev_2.2-12ubuntu0.12.04.1_i386.deb
+Size: 72710
+MD5sum: 996c6ea24430690d32592ffde0d89608
+SHA1: e2ebbbffeadf368a8e6db348a17141269d51d11f
+SHA256: 36cc50f899477086128c79a9a37597993c59f5d81679ceb9b05ebefd80005167
+Description: mininal XML parser and printer for OCaml
+Homepage: http://tech.motion-twin.com/xmllight.html
+Description-md5: 84c284479ab9ef424be91c13d817b3b4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
@@ -18884,6 +19161,49 @@ Description-md5: 3ec4866e63ad668875efce306e972134
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: python-celery
+Priority: optional
+Section: universe/python
+Installed-Size: 1378
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Architecture: all
+Source: celery
+Version: 2.4.6-1ubuntu0.1
+Depends: python-amqplib, python-anyjson (>= 0.3.1), python-dateutil (>= 1.5), python-kombu (>= 1.4.3), python-mailer, python-memcache, python-pkg-resources, python-pyparsing, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8)
+Suggests: python-gevent, python-pytyrant, python-redis, python-sqlalchemy
+Filename: pool/universe/c/celery/python-celery_2.4.6-1ubuntu0.1_all.deb
+Size: 270970
+MD5sum: cd87d6d5b3829f3c6c627a03acc7da75
+SHA1: c6b26c83dc60355f2c7ae5f49bf79594f70100c1
+SHA256: 5ed86b16ef9ae02af1968dc0bdeb6c99ca7c34312bce2cedc57f925a4c840776
+Description: async task/job queue based on message passing
+Homepage: http://github.com/ask/celery/
+Description-md5: 2a87703913499114efcab0bb9254c601
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: python-celery-doc
+Priority: optional
+Section: universe/doc
+Installed-Size: 3915
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Architecture: all
+Source: celery
+Version: 2.4.6-1ubuntu0.1
+Depends: libjs-jquery, libjs-sphinxdoc (>= 1.0)
+Filename: pool/universe/c/celery/python-celery-doc_2.4.6-1ubuntu0.1_all.deb
+Size: 880718
+MD5sum: 3146ebd5d439436e55b43e03cafd7546
+SHA1: 4e7ccaa9b54787ed6dd4c44e41deecb16a26af6a
+SHA256: 6a7368d420019a442332d3f448a7ed34cf1910b1cc03781d37e95613f3a8b6a3
+Description: async task/job queue based on message passing (Documentation)
+Homepage: http://github.com/ask/celery/
+Description-md5: 95fc6dff7380be4c62fe3af0892bcc80
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: python-central
 Priority: optional
 Section: universe/python
@@ -19430,6 +19750,29 @@ Homepage: http://pypi.python.org/pypi/pudb/
 Description-md5: 6992744d473e5debd130d58c76e6f1ab
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+
+Package: python-pyparsing
+Priority: optional
+Section: universe/python
+Installed-Size: 3075
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Kevin Coyner <kcoyner@debian.org>
+Architecture: all
+Source: pyparsing
+Version: 1.5.2-2ubuntu1
+Provides: python2.7-pyparsing
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8)
+Filename: pool/universe/p/pyparsing/python-pyparsing_1.5.2-2ubuntu1_all.deb
+Size: 585972
+MD5sum: ced759f883b850872c06af1591c8b77e
+SHA1: 062a95e8324f0bcdfb1b421b488bfef26f13153b
+SHA256: 480692524b1eb1af9ec83ae016fbc0b6ed45d1e88e1c15cfc7922a9b7e58b1e2
+Description: Python parsing module
+Homepage: http://pyparsing.wikispaces.com/
+Description-md5: b2c4beff5c2bd4cd6e8adac270b245cc
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Task: edubuntu-desktop-kde, edubuntu-desktop-gnome
 
 Package: python-quickly-common
 Priority: extra
