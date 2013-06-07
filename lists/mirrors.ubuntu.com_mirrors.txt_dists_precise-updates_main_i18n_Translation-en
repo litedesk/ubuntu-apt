@@ -28747,6 +28747,54 @@ Description-en: binding to get places into the launcher - shared library
  .
  This package contains shared libraries to be used by applications.
 
+Package: libunwind-setjmp0
+Description-md5: 2064e97daf9ca7443b9b086f4bcac8ba
+Description-en: A libunwind-based non local goto - runtime
+ The unwind-setjmp library offers a libunwind-based implementation of
+ non-local gotos. This implementation is intended to be a drop-in
+ replacement for the normal, system-provided routines of the same name.
+ The main advantage of using the unwind-setjmp library is  that  setting
+ up a non-local goto via one of the setjmp() routines is very fast.
+ .
+ This package includes the shared library
+
+Package: libunwind-setjmp0-dev
+Description-md5: 8d7193ceec99a95543db74f79279c929
+Description-en: A libunwind-based non local goto - development
+ The unwind-setjmp library offers a libunwind-based implementation of
+ non-local gotos. This implementation is intended to be a drop-in
+ replacement for the normal, system-provided routines of the same name.
+ The main advantage of using the unwind-setjmp library is  that  setting
+ up a non-local goto via one of the setjmp() routines is very fast.
+ .
+ This package includes the development support files
+
+Package: libunwind7
+Description-md5: 172bba4b3ff4bbba45d0c1be05119305
+Description-en: A library to determine the call-chain of a program - runtime
+ The primary goal of this project is to define a portable and efficient C
+ programming interface (API) to determine the call-chain of a program.
+ The API additionally provides the means to manipulate the preserved
+ (callee-saved) state of each call-frame and to resume execution at any
+ point in the call-chain (non-local goto). The API supports both local
+ (same-process) and remote (across-process) operation. As such, the API
+ is useful in a number of applications.
+ .
+ This package includes the shared libraries
+
+Package: libunwind7-dev
+Description-md5: 93eab2ba22541d5ecf297f332b907410
+Description-en: A library to determine the call-chain of a program - development
+ The primary goal of this project is to define a portable and efficient C
+ programming interface (API) to determine the call-chain of a program.
+ The API additionally provides the means to manipulate the preserved
+ (callee-saved) state of each call-frame and to resume execution at any
+ point in the call-chain (non-local goto). The API supports both local
+ (same-process) and remote (across-process) operation. As such, the API
+ is useful in a number of applications.
+ .
+ This package includes the development support files.
+
 Package: libupsclient1
 Description-md5: 114740a1a3e95f3f3ca2a9ad68b740a7
 Description-en: network UPS tools - client library
@@ -36813,20 +36861,6 @@ Description-en: Ubuntu MAAS Server
  .
  This package contains common files
 
-Package: maas-dns
-Description-md5: a0266f261e4dc3f65cb166f518ef6e07
-Description-en: Ubuntu MAAS Server - DNS configuration (metapackage)
- Ubuntu MAAS Server is the successor to Orchestra. It offers a
- nice UI to provision your Ubuntu servers. Each physical server
- (“node”) will be commissioned automatically on first boot.
- During the commissioning process administrators are able to
- configure hardware settings manually before an automated smoke
- test and burn-in test are done. Once commissioned, a node can
- be deployed on demand by name, or allocated to a queue for
- dynamic allocation to services being deployed on this MAAS.
- .
- This package configures a DNS that can be used with MAAS.
-
 Package: maas-enlist
 Description-md5: 35ef48de687642aef498e7ed6ce4ec72
 Description-en: MAAS enlistment tool
@@ -40491,6 +40525,13 @@ Description-en: Ubuntu MAAS Server
  .
  This package contains the provisioning server libraries.
 
+Package: python-mailer
+Description-md5: faf1484e2a140dcdf20d68d710622bb3
+Description-en: Python module that simplifies sending email
+ Simplifies sending emails in Python, features a single class to send
+ plain text, HTML email, and attachments.  Mailer auto detects attachment
+ types and has support for internationalized headers.
+
 Package: python-moinmoin
 Description-md5: e7e9edb49f7b3a85509d1a40cac0d731
 Description-en: Python clone of WikiWiki - library
@@ -40579,6 +40620,32 @@ Description-en: Python parsing module
   greet = Word(alphas) + "," + Word(alphas) + "!"
   hello = "Hello, World!"
   print hello, "->", greet.parseString(hello)
+
+Package: python-pytyrant
+Description-md5: 0ca6f6b5f0b549d5a574a6c9e5e90478
+Description-en: Pure Python client implementation of the Tokyo Tyrant protocol
+ A pure Python client implementation of the binary Tokyo Tyrant
+ protocol. Tokyo Cabinet <http://tokyocabinet.sourceforge.net/> is a "super
+ hyper ultra database manager" written and maintained by Mikio Hirabayashi and
+ released under the LGPL.
+ .
+ Tokyo Tyrant is the de facto database server for Tokyo Cabinet written and
+ maintained by the same author. It supports a REST HTTP protocol, memcached,
+ and its own simple binary protocol. This library implements the full binary
+ protocol for the Tokyo Tyrant 1.1.17 in pure Python as defined here::
+ .
+ http://tokyocabinet.sourceforge.net/tyrantdoc/
+
+Package: python-redis
+Description-md5: 36af2573ced324890f46c8ff3b4a841c
+Description-en: Persistent key-value database with network interface (Python library)
+ Redis is a key-value database in a similar vein to memcache but the dataset
+ is non-volatile. Redis additionally provides native support for atomically
+ manipulating and querying data structures such as lists and sets.
+ .
+ The dataset is stored entirely in memory and periodically flushed to disk.
+ .
+ This package contains Python bindings to Redis.
 
 Package: python-software-properties
 Description-md5: 2404b69e069f73169a1d424cb63f1d53

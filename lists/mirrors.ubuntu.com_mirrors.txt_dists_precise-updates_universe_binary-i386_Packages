@@ -14962,6 +14962,31 @@ Homepage: https://launchpad.net/maas
 Description-md5: b9f230ec9ab029ce27bbc2774de3c9a9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
+
+Package: maas-dns
+Priority: optional
+Section: universe/net
+Installed-Size: 51
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Source: maas
+Version: 1.2+bzr1373+dfsg-0ubuntu1~12.04.1
+Replaces: maas-dhcp (<= 0.1+bzr777+dfsg-0ubuntu1)
+Depends: bind9, maas-region-controller (= 1.2+bzr1373+dfsg-0ubuntu1~12.04.1), maas-dhcp (= 1.2+bzr1373+dfsg-0ubuntu1~12.04.1)
+Conflicts: dnsmasq
+Breaks: maas-dhcp (<= 0.1+bzr777+dfsg-0ubuntu1)
+Filename: pool/universe/m/maas/maas-dns_1.2+bzr1373+dfsg-0ubuntu1~12.04.1_all.deb
+Size: 3508
+MD5sum: 7150bad4a23b6d21b79f8cc154a23e77
+SHA1: aacb188b54400d07fab050aeca8246ae98758e24
+SHA256: 79936bce3816989bf5db5fc6ccf28403cdc4992d614f1d54cff5863e59b0dbd4
+Description: Ubuntu MAAS Server - DNS configuration (metapackage)
+Homepage: https://launchpad.net/maas
+Description-md5: a0266f261e4dc3f65cb166f518ef6e07
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
 
 Package: marble-touch
 Priority: optional

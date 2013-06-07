@@ -7282,6 +7282,20 @@ Description-en: Ubuntu MAAS Server - DHCP Configuration (meta-package)
  .
  This package configures a DHCP that can be used with MAAS.
 
+Package: maas-dns
+Description-md5: a0266f261e4dc3f65cb166f518ef6e07
+Description-en: Ubuntu MAAS Server - DNS configuration (metapackage)
+ Ubuntu MAAS Server is the successor to Orchestra. It offers a
+ nice UI to provision your Ubuntu servers. Each physical server
+ (“node”) will be commissioned automatically on first boot.
+ During the commissioning process administrators are able to
+ configure hardware settings manually before an automated smoke
+ test and burn-in test are done. Once commissioned, a node can
+ be deployed on demand by name, or allocated to a queue for
+ dynamic allocation to services being deployed on this MAAS.
+ .
+ This package configures a DNS that can be used with MAAS.
+
 Package: marble-touch
 Description-md5: e8c4aa9575ee615ef53925557f0de2ca
 Description-en: globe and map widget for tablets
