@@ -2333,17 +2333,6 @@ Description-en: GNU implementation of the IPMI protocol - BMC watchdog
  .
  This package contains a watchdog daemon for hardware BMC watchdogs.
 
-Package: freeipmi-common
-Description-md5: e744e2bab7d803679befab25b3d06fcc
-Description-en: GNU implementation of the IPMI protocol - common files
- FreeIPMI is a collection of Intelligent Platform Management IPMI
- system software. It provides in-band and out-of-band software and a
- development library conforming to the Intelligent Platform Management
- Interface (IPMI v1.5 and v2.0) standards.
- .
- This package provides configuration used by the rest of FreeIPMI
- framework and generic documentation to orient the user.
-
 Package: freeipmi-ipmidetect
 Description-md5: f8c1d52ac5eb3aad1539b827d381d2dd
 Description-en: GNU IPMI - IPMI node detection tool
@@ -2353,32 +2342,6 @@ Description-en: GNU IPMI - IPMI node detection tool
  Interface (IPMI v1.5 and v2.0) standards.
  .
  This package contains a tool and a daemon for detecting IPMI nodes.
-
-Package: freeipmi-tools
-Description-md5: 90d4aa79c92b1cd32a777395cb15060d
-Description-en: GNU implementation of the IPMI protocol - tools
- FreeIPMI is a collection of Intelligent Platform Management IPMI
- system software. It provides in-band and out-of-band software and a
- development library conforming to the Intelligent Platform Management
- Interface (IPMI v1.5 and v2.0) standards.
- .
- This package contains assorted IPMI-related tools:
-  * bmc-config - configure BMC values
-  * bmc-info - display BMC information
-  * ipmi-chassis - IPMI chassis management utility
-  * ipmi-fru - display FRU information
-  * ipmi-locate - IPMI probing utility
-  * ipmi-oem - IPMI OEM utility
-  * ipmi-raw - IPMI raw communication utility
-  * ipmi-sel - display SEL entries
-  * ipmi-sensors - display IPMI sensor information
-  * ipmi-sensors-config - configure sensors
-  * ipmiconsole - IPMI console utility
-  * ipmimonitoring - IPMI monitoring utility
-  * ipmiping - send IPMI Get Authentication Capabilitiy request
-  * ipmipower - IPMI power control utility
-  * pef-config - configure PEF values
-  * rmcpping - send RMCP Ping to network hosts
 
 Package: freemind
 Description-md5: 2b6106e511ade5ee54f8c6738a8756f5
@@ -5114,26 +5077,6 @@ Description-en: file management support - debugging symbols
  .
  This package contains the debugging symbols.
 
-Package: libfreeipmi-dev
-Description-md5: 4bd7c7d7ecc7c9a2ade84bbae733437d
-Description-en: GNU IPMI - development package
- FreeIPMI is a collection of Intelligent Platform Management IPMI
- system software. It provides in-band and out-of-band software and a
- development library conforming to the Intelligent Platform Management
- Interface (IPMI v1.5 and v2.0) standards.
- .
- This is the development package for libfreeipmi.
-
-Package: libfreeipmi10
-Description-md5: 551e6ddaf5141d9148d078f03ee68154
-Description-en: GNU IPMI - libraries
- FreeIPMI is a collection of Intelligent Platform Management IPMI
- system software. It provides in-band and out-of-band software and a
- development library conforming to the Intelligent Platform Management
- Interface (IPMI v1.5 and v2.0) standards.
- .
- OpenIPMI, KCS, SMIC, SSIF, LAN drivers, and an IPMI API in a C Library.
-
 Package: libfuse-perl
 Description-md5: e7e1b586d6f85c71eb358b98f45857c9
 Description-en: Write filesystems in Perl using FUSE
@@ -5619,66 +5562,6 @@ Package: libipa-hbac0
 Description-md5: 03e6128075af8f51f143ba66443a79ae
 Description-en: FreeIPA HBAC Evaluator library
  Utility library to validate FreeIPA HBAC rules for authorization requests.
-
-Package: libipmiconsole-dev
-Description-md5: 165d37f1ff27840c811186d69e5990cf
-Description-en: GNU IPMI - ipmiconsole development package
- FreeIPMI is a collection of Intelligent Platform Management IPMI
- system software. It provides in-band and out-of-band software and a
- development library conforming to the Intelligent Platform Management
- Interface (IPMI v1.5 and v2.0) standards.
- .
- This is the development package for libipmiconsole.
-
-Package: libipmiconsole2
-Description-md5: d797fcb20a528d5be709254b16cbad80
-Description-en: GNU IPMI - Serial-over-Lan library
- FreeIPMI is a collection of Intelligent Platform Management IPMI
- system software. It provides in-band and out-of-band software and a
- development library conforming to the Intelligent Platform Management
- Interface (IPMI v1.5 and v2.0) standards.
- .
- A library for Serial-over-Lan (SOL).
-
-Package: libipmidetect-dev
-Description-md5: 656d83b3185878f4432cb27f725c60aa
-Description-en: GNU IPMI - ipmidetect development package
- FreeIPMI is a collection of Intelligent Platform Management IPMI
- system software. It provides in-band and out-of-band software and a
- development library conforming to the Intelligent Platform Management
- Interface (IPMI v1.5 and v2.0) standards.
- .
- This is the development package for libipmidetect.
-
-Package: libipmidetect0
-Description-md5: ecbecbb0ee12c205e71a71410cd298b9
-Description-en: GNU IPMI - IPMI node detection library
- FreeIPMI is a collection of Intelligent Platform Management IPMI
- system software. It provides in-band and out-of-band software and a
- development library conforming to the Intelligent Platform Management
- Interface (IPMI v1.5 and v2.0) standards.
- .
- A library for IPMI node detection.
-
-Package: libipmimonitoring-dev
-Description-md5: ef86e1418697f9920e03b6c081ea574c
-Description-en: GNU IPMI - ipmimonitoring development package
- FreeIPMI is a collection of Intelligent Platform Management IPMI
- system software. It provides in-band and out-of-band software and a
- development library conforming to the Intelligent Platform Management
- Interface (IPMI v1.5 and v2.0) standards.
- .
- This is the development package for libipmimonitoring.
-
-Package: libipmimonitoring4
-Description-md5: 0a4db39f4e386980a01c401d301b0411
-Description-en: GNU IPMI - Sensor monitoring library
- FreeIPMI is a collection of Intelligent Platform Management IPMI
- system software. It provides in-band and out-of-band software and a
- development library conforming to the Intelligent Platform Management
- Interface (IPMI v1.5 and v2.0) standards.
- .
- A library for sensor monitoring.
 
 Package: libjava-gnome-java
 Description-md5: afe6105f79fae260548ae681abd51f10
@@ -9649,48 +9532,6 @@ Description-en: cache and session library
     expiration
   * Fine-grained toggling of back-ends, keys, and expiration per Cache object
 
-Package: python-celery
-Description-md5: 2a87703913499114efcab0bb9254c601
-Description-en: async task/job queue based on message passing
- Celery is an open source asynchronous task queue/job queue based on
- distributed message passing. It is focused on real-time operation,
- but supports scheduling as well.
- .
- The execution units, called tasks, are executed concurrently on one
- or more worker nodes. Tasks can execute asynchronously (in the
- background) or synchronously (wait until ready).
- .
- Celery is written in Python, but the protocol can be implemented
- in any language. It can also operate with other languages using
- webhooks.
- .
- The recommended message broker is RabbitMQ, but limited support for Redis,
- Beanstalk, MongoDB, CouchDB, and databases (using SQLAlchemy or the Django
- ORM) is also available. Celery is easy to integrate with Django, using the
- python-django-celery package.
-
-Package: python-celery-doc
-Description-md5: 95fc6dff7380be4c62fe3af0892bcc80
-Description-en: async task/job queue based on message passing (Documentation)
- Celery is an open source asynchronous task queue/job queue based on
- distributed message passing. It is focused on real-time operation,
- but supports scheduling as well.
- .
- The execution units, called tasks, are executed concurrently on one
- or more worker nodes. Tasks can execute asynchronously (in the
- background) or synchronously (wait until ready).
- .
- Celery is written in Python, but the protocol can be implemented
- in any language. It can also operate with other languages using
- webhooks.
- .
- The recommended message broker is RabbitMQ, but limited support for Redis,
- Beanstalk, MongoDB, CouchDB, and databases (using SQLAlchemy or the Django
- ORM) is also available. Celery is easy to integrate with Django, using the
- python-django-celery package.
- .
- This package contains the documentation.
-
 Package: python-central
 Description-md5: 70e7e15d0a7c075198fcdf90e4f415bc
 Description-en: register and build utility for Python packages
@@ -9913,22 +9754,6 @@ Description-en: full-screen, console-based Python debugger
  to debug code right where you write and test it -- in a terminal. If
  you've worked with the excellent (but nowadays ancient) DOS-based
  Turbo Pascal or C tools, PuDB's UI might look familiar.
-
-Package: python-pyparsing
-Description-md5: b2c4beff5c2bd4cd6e8adac270b245cc
-Description-en: Python parsing module
- The parsing module is an alternative approach to creating and
- executing simple grammars, vs. the traditional lex/yacc approach, or
- the use of regular expressions.  The parsing module provides a
- library of classes that client code uses to construct the grammar
- directly in Python code.
- .
- Here's an example:
- .
-  from pyparsing import Word, alphas
-  greet = Word(alphas) + "," + Word(alphas) + "!"
-  hello = "Hello, World!"
-  print hello, "->", greet.parseString(hello)
 
 Package: python-quickly-common
 Description-md5: 375d069e58f13631bc3cf0a81f700908
