@@ -25435,13 +25435,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: xen
-Version: 4.1.2-2ubuntu2.8
+Version: 4.1.2-2ubuntu2.9
 Depends: libc6 (>= 2.15), liblzma5 (>= 5.1.1alpha+20110809), zlib1g (>= 1:1.1.4)
-Filename: pool/main/x/xen/libxen-4.1_4.1.2-2ubuntu2.8_amd64.deb
-Size: 130390
-MD5sum: 05b7c0f25276423ced849fd5d43396f5
-SHA1: a1c149d7085093b391db7cb36d245b630e1ac5dc
-SHA256: 0f9fdb9ef099fc55a79ece17faaa947564a7cc3bc057aed5a4f98a5b7b9e7f8a
+Filename: pool/main/x/xen/libxen-4.1_4.1.2-2ubuntu2.9_amd64.deb
+Size: 130976
+MD5sum: 37e1fffdaedd4438abec962bb39ec609
+SHA1: 20c4e54ae6ed6a5a9263ae347e3e4042778e4edc
+SHA256: 8fde6322dd67d5d2d182379e357cbfb51917ee842ede54c014b481ee79227cd4
 Description: Public libs for Xen
 Description-md5: cd7ad869e7a3a001fd3c7b337111e06f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -25456,15 +25456,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: xen
-Version: 4.1.2-2ubuntu2.8
+Version: 4.1.2-2ubuntu2.9
 Replaces: libxen3-dev (<= 3.3.0-1ubuntu12)
-Depends: libxen-4.1 (= 4.1.2-2ubuntu2.8), libxenstore3.0 (= 4.1.2-2ubuntu2.8)
+Depends: libxen-4.1 (= 4.1.2-2ubuntu2.9), libxenstore3.0 (= 4.1.2-2ubuntu2.9)
 Conflicts: libxen3-dev (<= 3.3.0-1ubuntu12)
-Filename: pool/main/x/xen/libxen-dev_4.1.2-2ubuntu2.8_amd64.deb
-Size: 282322
-MD5sum: c37c3e3840caf68ab08a17f4d24ce323
-SHA1: 72382ac51c4f7fedf8b97dc24baab2397e4b3a57
-SHA256: 4be1508b82a1221ea82c9ae7c1ed08b093f103e9f023b1e770405f5fc2bcbd8d
+Filename: pool/main/x/xen/libxen-dev_4.1.2-2ubuntu2.9_amd64.deb
+Size: 284342
+MD5sum: 6e9f3d7454c6933de0af4ce33f39db42
+SHA1: bc510277e1b4ad40c4814ffb7ad123e8625d3e17
+SHA256: e687b0276f29551085954dc30266cb4fb9a28e8f880cbce050bb840b6237a917
 Description: Public headers and libs for Xen
 Description-md5: 16aef021d38a9f4fed58c122c9b3e1cf
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -25479,14 +25479,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: xen
-Version: 4.1.2-2ubuntu2.8
+Version: 4.1.2-2ubuntu2.9
 Provides: libxen-ocaml-78wx7
 Depends: libc6 (>= 2.14), libxen-4.1 (>= 4.1.2), ocaml-base-nox-3.12.1
-Filename: pool/main/x/xen/libxen-ocaml_4.1.2-2ubuntu2.8_amd64.deb
-Size: 50080
-MD5sum: 746f44cbe12b8d9777bf473689f55acc
-SHA1: 6ab2707c5de88006c99f90a1073c81402abab213
-SHA256: 15d369eef19d9b8b805728d1170d88f24ff7424502c3862a627bd41df7b7c9f7
+Filename: pool/main/x/xen/libxen-ocaml_4.1.2-2ubuntu2.9_amd64.deb
+Size: 50630
+MD5sum: 2f40053b31593bc2c7dbdb29c4691435
+SHA1: b417bd95f9b9f0ab7882f442d421263765af8d9e
+SHA256: 7027b18d6cb4de97e4c254bf20cd985d8e52d7e2d63d9aa50257e4222ecb2fdc
 Description: OCaml libraries for controlling Xen
 Description-md5: c9c37edde6c8bfae0ec1ac70e828dbac
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -25501,14 +25501,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: xen
-Version: 4.1.2-2ubuntu2.8
+Version: 4.1.2-2ubuntu2.9
 Provides: libxen-ocaml-dev-78wx7
-Depends: libxen-ocaml (= 4.1.2-2ubuntu2.8), libxen-dev (= 4.1.2-2ubuntu2.8), ocaml-nox-3.12.1
-Filename: pool/main/x/xen/libxen-ocaml-dev_4.1.2-2ubuntu2.8_amd64.deb
-Size: 77252
-MD5sum: 3e12a03320ce0d9a10a484cd763984eb
-SHA1: 8d27ca10e7d8701cb260810a96d087b7923b7aa5
-SHA256: fca5448487ca1d85c8592d7878888c14cf41f49aaa476de64d948d76d0dd821b
+Depends: libxen-ocaml (= 4.1.2-2ubuntu2.9), libxen-dev (= 4.1.2-2ubuntu2.9), ocaml-nox-3.12.1
+Filename: pool/main/x/xen/libxen-ocaml-dev_4.1.2-2ubuntu2.9_amd64.deb
+Size: 77226
+MD5sum: a8ca17d06ac9646cc4df7a2d1559f815
+SHA1: 8a56da2f8dc5c9ccf96d98b5c0357c322584e1b5
+SHA256: 584329a2775fe369079efb54896a9a8b396291d4fb82e3ebf9e4a117176cfa58
 Description: OCaml libraries for controlling Xen (devel package)
 Description-md5: 9c87ca7440bf9a1fcef15be5c5ae0a2d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -25518,20 +25518,20 @@ Supported: 18m
 Package: libxenstore3.0
 Priority: optional
 Section: libs
-Installed-Size: 79
+Installed-Size: 80
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: xen
-Version: 4.1.2-2ubuntu2.8
+Version: 4.1.2-2ubuntu2.9
 Replaces: libxen3 (<= 3.3.0-1ubuntu12)
 Depends: libc6 (>= 2.14)
 Conflicts: libxen3 (<= 3.3.0-1ubuntu12)
-Filename: pool/main/x/xen/libxenstore3.0_4.1.2-2ubuntu2.8_amd64.deb
-Size: 19940
-MD5sum: d92a26c3e5d20fca6e2e0e3b7b794e51
-SHA1: 22d575d59cd12075bf55075009f64c43f47dee95
-SHA256: b3db8d05e9760350ab5b2cb7a20bdabc78936a67d3a15667742ef0b492e9a823
+Filename: pool/main/x/xen/libxenstore3.0_4.1.2-2ubuntu2.9_amd64.deb
+Size: 20026
+MD5sum: 1e4dc87b653301af6eb5be9aaa3653b4
+SHA1: 4e6d2aff50536005d1252332872b0a5feb121a8f
+SHA256: 7b0f6312e905b42ee6387d228e4dae8eb8c6e8913dd5babf6859e8d0235d4ce0
 Description: Xenstore communications library for Xen
 Description-md5: c2462dfd8088a311ca74072df39a0705
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -45144,6 +45144,100 @@ SHA1: 1d4c64936d39ab0f0366261d8ec3983ab8a1c4c4
 SHA256: e07c539897c248897064c79de8b1b38e13f277253016cf450df1d64c58cb8a1b
 Description: Xorg X server - development files
 Description-md5: 241552d78aca8911808aea0707649843
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: xserver-xorg-video-openchrome
+Priority: optional
+Section: x11
+Installed-Size: 527
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Version: 1:0.2.904+svn1050-1ubuntu0.1
+Provides: xorg-driver-video
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.3.1), libx11-6 (>= 2:1.4.99.1), libxext6, libxv1, libxvmc1, xorg-video-abi-11, xserver-xorg-core (>= 2:1.10.99.901)
+Filename: pool/main/x/xserver-xorg-video-openchrome/xserver-xorg-video-openchrome_0.2.904+svn1050-1ubuntu0.1_amd64.deb
+Size: 178144
+MD5sum: e05b2d5e3f05acd7fd39299473410e43
+SHA1: a0a5f23b5503540f9b875d9ac87ecee13d453802
+SHA256: feee0c772444a24320fbd741048bcc0bff6a765930b0335d0b0e44acc99591cd
+Description: X.Org X server -- VIA display driver
+Homepage: http://www.openchrome.org
+Description-md5: 11d4a7275218ad33ccc6479463963d83
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, lubuntu-core, ubuntustudio-desktop
+
+Package: xserver-xorg-video-openchrome-dbg
+Priority: extra
+Section: debug
+Installed-Size: 1915
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: xserver-xorg-video-openchrome
+Version: 1:0.2.904+svn1050-1ubuntu0.1
+Depends: xserver-xorg-video-openchrome (= 1:0.2.904+svn1050-1ubuntu0.1)
+Filename: pool/main/x/xserver-xorg-video-openchrome/xserver-xorg-video-openchrome-dbg_0.2.904+svn1050-1ubuntu0.1_amd64.deb
+Size: 841658
+MD5sum: 3b460e7e421f4d6dcb63f76dd95dfc52
+SHA1: 0c8a647025f14ecb7c9ea774a6ccb42da54b85e4
+SHA256: 1cd3575bcc870a0ea5c7df0ffae709588073b5c278e76cb1c12856b1a24cdde4
+Description: X.Org X server -- VIA display driver -- debugging symbols
+Homepage: http://www.openchrome.org
+Description-md5: ca202006e00e58695b2cdeb5d735905a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: xserver-xorg-video-openchrome-lts-quantal
+Priority: optional
+Section: x11
+Installed-Size: 530
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Version: 1:0.3.1-0ubuntu1~precise3
+Replaces: xserver-xorg-video-openchrome
+Provides: xorg-driver-video, xorg-renamed-package, xorg-renamed-package-lts-quantal, xserver-xorg-video-openchrome
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.3.1), libx11-6 (>= 2:1.4.99.1), libxext6, libxv1, libxvmc1, xorg-video-abi-13, xserver-xorg-core-lts-quantal (>= 2:1.12.99.901)
+Conflicts: xserver-xorg-video-openchrome
+Filename: pool/main/x/xserver-xorg-video-openchrome-lts-quantal/xserver-xorg-video-openchrome-lts-quantal_0.3.1-0ubuntu1~precise3_amd64.deb
+Size: 176426
+MD5sum: 98c9bc9bc8d85cd2645586132fd9bfc3
+SHA1: 121a5b173578e045eadbb5dfe825a4397877983b
+SHA256: bbca0a1cb5e2955c79d6de6d44ff3e188599715f9480db4e6d926f800fdde60b
+Description: X.Org X server -- VIA display driver
+Homepage: http://www.openchrome.org
+Description-md5: 11d4a7275218ad33ccc6479463963d83
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: xserver-xorg-video-openchrome-lts-quantal-dbg
+Priority: extra
+Section: debug
+Installed-Size: 1834
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: xserver-xorg-video-openchrome-lts-quantal
+Version: 1:0.3.1-0ubuntu1~precise3
+Replaces: xserver-xorg-video-openchrome-dbg
+Provides: xorg-renamed-package, xorg-renamed-package-lts-quantal, xserver-xorg-video-openchrome-dbg
+Depends: xserver-xorg-video-openchrome-lts-quantal (= 1:0.3.1-0ubuntu1~precise3)
+Conflicts: xserver-xorg-video-openchrome-dbg
+Filename: pool/main/x/xserver-xorg-video-openchrome-lts-quantal/xserver-xorg-video-openchrome-lts-quantal-dbg_0.3.1-0ubuntu1~precise3_amd64.deb
+Size: 806764
+MD5sum: c4047a1bf6af357dc0e5615573466637
+SHA1: 3e0bd0d133048d0dc83fd93eacdde462e9300eef
+SHA256: 760ca40cb7fba85435dd8524d930d7485fb2e5fb2ff1e3d9c40c3abf642b06d0
+Description: X.Org X server -- VIA display driver -- debugging symbols
+Homepage: http://www.openchrome.org
+Description-md5: ca202006e00e58695b2cdeb5d735905a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
