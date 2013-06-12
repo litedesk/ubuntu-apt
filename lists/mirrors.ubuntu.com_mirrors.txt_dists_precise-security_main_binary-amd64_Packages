@@ -42433,6 +42433,52 @@ Origin: Ubuntu
 Supported: 5y
 Task: kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full, kubuntu-active, edubuntu-desktop-kde
 
+Package: telepathy-gabble
+Priority: optional
+Section: net
+Installed-Size: 1931
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 0.16.0-0ubuntu3.1
+Provides: telepathy-connection-manager
+Depends: libc6 (>= 2.14), libdbus-1-3 (>= 1.1.1), libdbus-glib-1-2 (>= 0.88), libglib2.0-0 (>= 2.31.8), libgnutls26 (>= 2.12.6.1-0), libnice10 (>= 0.1.0), libsoup2.4-1 (>= 2.4.0), libsqlite3-0 (>= 3.5.9), libtelepathy-glib0 (>= 0.18.0), libxml2 (>= 2.7.4)
+Breaks: telepathy-mission-control-5 (<< 1:5.5)
+Filename: pool/main/t/telepathy-gabble/telepathy-gabble_0.16.0-0ubuntu3.1_amd64.deb
+Size: 720764
+MD5sum: da5ff92e81909c2284d70e0c01dce9e0
+SHA1: ad1ad52eac9e587c940a7ffd75b82a99606a7f8c
+SHA256: cb0367f2fcf08f036764c87cdef11a00b681ee53e77890f7f2965a71b077c85e
+Description: Jabber/XMPP connection manager
+Homepage: http://telepathy.freedesktop.org/wiki/
+Description-md5: be6f33acbe432be29ffa09bddecfab4f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-active, edubuntu-desktop, edubuntu-usb
+
+Package: telepathy-gabble-dbg
+Priority: extra
+Section: net
+Installed-Size: 1832
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Source: telepathy-gabble
+Version: 0.16.0-0ubuntu3.1
+Depends: telepathy-gabble (= 0.16.0-0ubuntu3.1)
+Filename: pool/main/t/telepathy-gabble/telepathy-gabble-dbg_0.16.0-0ubuntu3.1_amd64.deb
+Size: 1451184
+MD5sum: 69e1544fc432a19b9537986356dc7bff
+SHA1: d9483e0103cfa11879b094576a180db996b13c8c
+SHA256: d381f4484add81d2831851a4a0cd2032783c9de30d2bbfef7144a00b9b9b700e
+Description: Jabber/XMPP connection manager (debug symbols)
+Homepage: http://telepathy.freedesktop.org/wiki/
+Description-md5: 15214d62bfe4f47223761ccb5c83f3dd
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: telepathy-idle
 Priority: optional
 Section: net
