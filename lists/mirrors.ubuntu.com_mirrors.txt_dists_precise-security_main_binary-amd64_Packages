@@ -26866,13 +26866,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-image (= 3.2.0.45.54)
-Filename: pool/main/l/linux-meta/linux_3.2.0.45.54_amd64.deb
-Size: 1692
-MD5sum: e81fe5a943fabacb3d760ba60a422554
-SHA1: 128e1db40988ac72a234ed8ba4796d040d0da0d1
-SHA256: 7c2f1c7eae7a31f8f1cc231fc28bb0c8cca00a0739aa37e5c7cb033e50eb4b7c
+Version: 3.2.0.48.58
+Depends: linux-image (= 3.2.0.48.58)
+Filename: pool/main/l/linux-meta/linux_3.2.0.48.58_amd64.deb
+Size: 1694
+MD5sum: e930593a6583cb2697ba255b3e15d744
+SHA1: 68f2cf23e7393a890d87d1bd5fe44a7f07959fa9
+SHA256: 6f2e5f23023bb14e89134aea030e2f23b5bda37229a431e4e3fe3cf37d872d84
 Description: Generic complete Linux kernel.
 Description-md5: e1f3af50c53d3b40815e9810a03f60ee
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -27494,6 +27494,48 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-backports-modules-cw-3.3-3.2.0-48-generic
+Priority: optional
+Section: admin
+Installed-Size: 10415
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-48.36
+Depends: linux-image-3.2.0-48-generic
+Pre-Depends: dpkg (>= 1.10.24)
+Conflicts: linux-backports-modules-cw-3.4-3.2.0-48-generic, linux-backports-modules-cw-3.5-3.2.0-48-generic, linux-backports-modules-cw-3.6-3.2.0-48-generic, linux-backports-modules-cw-3.7-3.2.0-48-generic, linux-backports-modules-cw-3.8-3.2.0-48-generic
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.3-3.2.0-48-generic_3.2.0-48.36_amd64.deb
+Size: 2844658
+MD5sum: 29398465ff21f04baef0abed218434a6
+SHA1: f1c41bf6cf15eb9bce762dbde0a37f9476ebb029
+SHA256: 19057038c604d82f527beed918a5e0e176b5317bc85914fa37cd50ad23d2e0fe
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: 73db8ef2303125c9047e40e1fe3e2ee3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: linux-backports-modules-cw-3.3-3.2.0-48-virtual
+Priority: optional
+Section: admin
+Installed-Size: 10404
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-48.36
+Depends: linux-image-3.2.0-48-virtual
+Pre-Depends: dpkg (>= 1.10.24)
+Conflicts: linux-backports-modules-cw-3.4-3.2.0-48-virtual, linux-backports-modules-cw-3.5-3.2.0-48-virtual, linux-backports-modules-cw-3.6-3.2.0-48-virtual, linux-backports-modules-cw-3.7-3.2.0-48-virtual, linux-backports-modules-cw-3.8-3.2.0-48-virtual
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.3-3.2.0-48-virtual_3.2.0-48.36_amd64.deb
+Size: 2839918
+MD5sum: 2fa12fb2a254c38e789db32638585ec7
+SHA1: b8379648ed89c9986be6cbe4827b3c676f612a44
+SHA256: e84e12963f5867ceb3c78b0eef74169ca2df31034fcbc2b41f2b13b9102dd26a
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: 00ffa7648ab3e2c8c1e6663d8aad0014
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-backports-modules-cw-3.3-precise-generic
 Priority: optional
 Section: devel
@@ -27501,13 +27543,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-backports-modules-cw-3.3-3.2.0-45-generic
-Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.3-precise-generic_3.2.0.45.54_amd64.deb
-Size: 2546
-MD5sum: d941188dbd73e9749107bfa382a66ae4
-SHA1: a987c4b5490210a4eba79c0c42eb64ed470cd794
-SHA256: 37c0c27dc0c4afde86d9794ffc5978fdca20d10ca0d5d9e31d772f91859930fc
+Version: 3.2.0.48.58
+Depends: linux-backports-modules-cw-3.3-3.2.0-48-generic
+Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.3-precise-generic_3.2.0.48.58_amd64.deb
+Size: 2444
+MD5sum: ca47896fd8a313c3059caf4f1102c212
+SHA1: f41a01c96d4cbc8d4907ac0b302446df8c856e39
+SHA256: 15db8b808a7b80a33064342b3ff2b45ec17b21c3be3f2dc89c37cbeed4a3f105
 Description: Backported wireless drivers for generic kernel image
 Description-md5: 6e90ffb34dee52ff16abcc8827260d34
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -28045,6 +28087,48 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-backports-modules-cw-3.4-3.2.0-48-generic
+Priority: optional
+Section: admin
+Installed-Size: 10376
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-48.36
+Depends: linux-image-3.2.0-48-generic
+Pre-Depends: dpkg (>= 1.10.24)
+Conflicts: linux-backports-modules-cw-3.3-3.2.0-48-generic, linux-backports-modules-cw-3.5-3.2.0-48-generic, linux-backports-modules-cw-3.6-3.2.0-48-generic, linux-backports-modules-cw-3.7-3.2.0-48-generic, linux-backports-modules-cw-3.8-3.2.0-48-generic
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.4-3.2.0-48-generic_3.2.0-48.36_amd64.deb
+Size: 2862230
+MD5sum: 17109fdc618b54e183ab538fa5521ec4
+SHA1: 44c77caf96d2565b57e7ea931ffb03361589cd71
+SHA256: 58c92ed67595a2e59f05b054f110674cb7916ac3261162e1823d0961007d6d71
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: 9a436bc04bffb78038f22b6b3fca07e9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: linux-backports-modules-cw-3.4-3.2.0-48-virtual
+Priority: optional
+Section: admin
+Installed-Size: 10364
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-48.36
+Depends: linux-image-3.2.0-48-virtual
+Pre-Depends: dpkg (>= 1.10.24)
+Conflicts: linux-backports-modules-cw-3.3-3.2.0-48-virtual, linux-backports-modules-cw-3.5-3.2.0-48-virtual, linux-backports-modules-cw-3.6-3.2.0-48-virtual, linux-backports-modules-cw-3.7-3.2.0-48-virtual, linux-backports-modules-cw-3.8-3.2.0-48-virtual
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.4-3.2.0-48-virtual_3.2.0-48.36_amd64.deb
+Size: 2861942
+MD5sum: 3ff88586bd286d6828712c2e7f9aa55e
+SHA1: 745fc4a9f870616d2f39cd70654e2b3bae83fae1
+SHA256: 2696ad48f38cfa511918810ad881011abdca8f232fc0ba4ee1b83aca43b61afb
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: 619b8cfa92495a39b56a5a0d43236544
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-backports-modules-cw-3.4-precise-generic
 Priority: optional
 Section: devel
@@ -28052,13 +28136,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-backports-modules-cw-3.4-3.2.0-45-generic
-Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.4-precise-generic_3.2.0.45.54_amd64.deb
-Size: 2542
-MD5sum: 361129fb3dfba45297dfea22fd098435
-SHA1: 134d2d0a6c16233452f829b88e1510f4277de792
-SHA256: 502d51a618922268d8851206cd73dde11e5948dd8ab357464b5a67e1f70630e2
+Version: 3.2.0.48.58
+Depends: linux-backports-modules-cw-3.4-3.2.0-48-generic
+Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.4-precise-generic_3.2.0.48.58_amd64.deb
+Size: 2436
+MD5sum: 1912975daa3d5a36229a366191672089
+SHA1: 96e34bd09cb0b4075990d82d4005cf92989c7708
+SHA256: 7a3cf1d7b5eb56deffc7a26cc60da887972582e64840285da33275999cfbbee8
 Description: Backported wireless drivers for generic kernel image
 Description-md5: 6e90ffb34dee52ff16abcc8827260d34
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -28533,6 +28617,48 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-backports-modules-cw-3.5-3.2.0-48-generic
+Priority: optional
+Section: admin
+Installed-Size: 10415
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-48.36
+Depends: linux-image-3.2.0-48-generic
+Pre-Depends: dpkg (>= 1.10.24)
+Conflicts: linux-backports-modules-cw-3.3-3.2.0-48-generic, linux-backports-modules-cw-3.4-3.2.0-48-generic, linux-backports-modules-cw-3.6-3.2.0-48-generic, linux-backports-modules-cw-3.7-3.2.0-48-generic, linux-backports-modules-cw-3.8-3.2.0-48-generic
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.5-3.2.0-48-generic_3.2.0-48.36_amd64.deb
+Size: 2873318
+MD5sum: 243cab53a4be4b9c06c368ea20dd2f84
+SHA1: 09f86b802439034e6a1e9b1a2cbd3b8bef9c5a17
+SHA256: 3c4d784654d3e9663448bb3b7cb8d6bbf6ebf435938073d67749e32d9482d06a
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: 5b4d2a2590e892983edb3216437319ef
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: linux-backports-modules-cw-3.5-3.2.0-48-virtual
+Priority: optional
+Section: admin
+Installed-Size: 10403
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-48.36
+Depends: linux-image-3.2.0-48-virtual
+Pre-Depends: dpkg (>= 1.10.24)
+Conflicts: linux-backports-modules-cw-3.3-3.2.0-48-virtual, linux-backports-modules-cw-3.4-3.2.0-48-virtual, linux-backports-modules-cw-3.6-3.2.0-48-virtual, linux-backports-modules-cw-3.7-3.2.0-48-virtual, linux-backports-modules-cw-3.8-3.2.0-48-virtual
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.5-3.2.0-48-virtual_3.2.0-48.36_amd64.deb
+Size: 2870308
+MD5sum: ca736f4caecbfaa8ad1bc64eb6e62e8d
+SHA1: 88fbbbc91e490b14217f053181a0f967745a4899
+SHA256: a62d123d09d08b02bc1717e203722346c2bdb8a348d459e200e2ffac1536b849
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: 17a5043ec6a46b4b3f1fdbd386019b9c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-backports-modules-cw-3.5-precise-generic
 Priority: optional
 Section: devel
@@ -28540,13 +28666,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-backports-modules-cw-3.5-3.2.0-45-generic
-Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.5-precise-generic_3.2.0.45.54_amd64.deb
-Size: 2546
-MD5sum: 591cf0b0ed053e8a07ca8c1487c94888
-SHA1: 2cfb76e67af9da09846d5c8c4767ae37f51abb76
-SHA256: 4b9d4d91702a5def67a05fa1b662e30e30f5f5fdfee36e50d2a242532457e20d
+Version: 3.2.0.48.58
+Depends: linux-backports-modules-cw-3.5-3.2.0-48-generic
+Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.5-precise-generic_3.2.0.48.58_amd64.deb
+Size: 2450
+MD5sum: cdc80efbffc2dfea7b83b01e7dcdc7aa
+SHA1: dc353b6051555aebb2ac50069a222f3a6a27a9e3
+SHA256: 31d5f6f3450facda5f6731f134c3a6e7ee8efd060a1fa1c9ddaa500d115d8ec9
 Description: Backported wireless drivers for generic kernel image
 Description-md5: 6e90ffb34dee52ff16abcc8827260d34
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -29021,6 +29147,48 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-backports-modules-cw-3.6-3.2.0-48-generic
+Priority: optional
+Section: admin
+Installed-Size: 10524
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-48.36
+Depends: linux-image-3.2.0-48-generic
+Pre-Depends: dpkg (>= 1.10.24)
+Conflicts: linux-backports-modules-cw-3.3-3.2.0-48-generic, linux-backports-modules-cw-3.4-3.2.0-48-generic, linux-backports-modules-cw-3.5-3.2.0-48-generic, linux-backports-modules-cw-3.7-3.2.0-48-generic, linux-backports-modules-cw-3.8-3.2.0-48-generic
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.6-3.2.0-48-generic_3.2.0-48.36_amd64.deb
+Size: 2889912
+MD5sum: cb2e6c98f9da4a4f5b24b161b108bd13
+SHA1: bec7d14c013185ae81b3d48d574e6caecc79f1a0
+SHA256: 8969003ff60e07aa4643585bb650e1fa822383540c55e1743e4366df4aa07ec1
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: 6865b8508f4a1ed3d2809094857d6bb8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: linux-backports-modules-cw-3.6-3.2.0-48-virtual
+Priority: optional
+Section: admin
+Installed-Size: 10512
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-48.36
+Depends: linux-image-3.2.0-48-virtual
+Pre-Depends: dpkg (>= 1.10.24)
+Conflicts: linux-backports-modules-cw-3.3-3.2.0-48-virtual, linux-backports-modules-cw-3.4-3.2.0-48-virtual, linux-backports-modules-cw-3.5-3.2.0-48-virtual, linux-backports-modules-cw-3.7-3.2.0-48-virtual, linux-backports-modules-cw-3.8-3.2.0-48-virtual
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.6-3.2.0-48-virtual_3.2.0-48.36_amd64.deb
+Size: 2888976
+MD5sum: 5704fd3caaeee0a737fe792d266885c8
+SHA1: 41cc4c1a6c05db8b3e08f91e6df573d3647a3d20
+SHA256: 2098e9217d58ae313e898e2166db52e6472784f55f87e2939d2fec1a73f745b5
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: eb82d22f23a4d6b9dcc378052bc62dd4
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-backports-modules-cw-3.6-precise-generic
 Priority: optional
 Section: devel
@@ -29028,13 +29196,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-backports-modules-cw-3.6-3.2.0-45-generic
-Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.6-precise-generic_3.2.0.45.54_amd64.deb
-Size: 2552
-MD5sum: 9495d5dc08e6d467da04bd8985c345c9
-SHA1: 5cc59d845033fa24116725910472d3ff530d18b5
-SHA256: 29884faeb6707e93001292e5f964f32b78e59092e81d330219329e1ac1371d8d
+Version: 3.2.0.48.58
+Depends: linux-backports-modules-cw-3.6-3.2.0-48-generic
+Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.6-precise-generic_3.2.0.48.58_amd64.deb
+Size: 2436
+MD5sum: 29d997b6c8d18fd90c3491da21689ff2
+SHA1: 685eee4b62e273d61084993c1dd33210f7095bd9
+SHA256: 50d1018932ad011e34a9722d4ca5af066ab2d6c23e20c1e2298e1e5a5fd57f4e
 Description: Backported wireless drivers for generic kernel image
 Description-md5: 6e90ffb34dee52ff16abcc8827260d34
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -29215,6 +29383,48 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-backports-modules-cw-3.7-3.2.0-48-generic
+Priority: optional
+Section: admin
+Installed-Size: 9363
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-48.36
+Depends: linux-image-3.2.0-48-generic
+Pre-Depends: dpkg (>= 1.10.24)
+Conflicts: linux-backports-modules-cw-3.3-3.2.0-48-generic, linux-backports-modules-cw-3.4-3.2.0-48-generic, linux-backports-modules-cw-3.5-3.2.0-48-generic, linux-backports-modules-cw-3.6-3.2.0-48-generic, linux-backports-modules-cw-3.8-3.2.0-48-generic
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.7-3.2.0-48-generic_3.2.0-48.36_amd64.deb
+Size: 2581892
+MD5sum: af5358b6c12ced0a27ee902cae81ef34
+SHA1: 5e6283d90c6782cd30fda15d6bcc46023dec2753
+SHA256: 38cf2308a3f836c14e19cbfa7245f72c2396929b01092bc5bbc6e19d8ca5b566
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: e29da41f0a91f5fc892aa1a0290a1699
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: linux-backports-modules-cw-3.7-3.2.0-48-virtual
+Priority: optional
+Section: admin
+Installed-Size: 9355
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-48.36
+Depends: linux-image-3.2.0-48-virtual
+Pre-Depends: dpkg (>= 1.10.24)
+Conflicts: linux-backports-modules-cw-3.3-3.2.0-48-virtual, linux-backports-modules-cw-3.4-3.2.0-48-virtual, linux-backports-modules-cw-3.5-3.2.0-48-virtual, linux-backports-modules-cw-3.6-3.2.0-48-virtual, linux-backports-modules-cw-3.8-3.2.0-48-virtual
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.7-3.2.0-48-virtual_3.2.0-48.36_amd64.deb
+Size: 2580378
+MD5sum: 00d76d9a484a7a470c9bf50d56aaa38d
+SHA1: 0016b1e6b8c53d5d9d43cae7c005490d99af8a81
+SHA256: ae59e79bf503b3601de823095088dbdd43ad1058d428103d15360c855f5f73c7
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: 0b9300592604c04fbd935f74249ad3d6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-backports-modules-cw-3.7-precise-generic
 Priority: optional
 Section: devel
@@ -29222,13 +29432,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-backports-modules-cw-3.7-3.2.0-45-generic
-Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.7-precise-generic_3.2.0.45.54_amd64.deb
-Size: 2550
-MD5sum: 99e9adf5e59c5e0631b766b2559b7c5d
-SHA1: 9465c9f34093e99b364e0ec85ea812ae2ce18e5a
-SHA256: 7c89fac41b522718f7a925e47bef95f48db7a76d55a3d7ee6c066ff35b3e13b8
+Version: 3.2.0.48.58
+Depends: linux-backports-modules-cw-3.7-3.2.0-48-generic
+Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.7-precise-generic_3.2.0.48.58_amd64.deb
+Size: 2438
+MD5sum: 465b41d9236498228a2ad53751aa71b2
+SHA1: 11d70f0f20d9158947d3e586d153adb64dc9ae70
+SHA256: 3a4897afac445a402e9e3b4cd3e1b6de827b272ab8893b6b7a43e793c6ef62bf
 Description: Backported wireless drivers for generic kernel image
 Description-md5: 6e90ffb34dee52ff16abcc8827260d34
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -29409,6 +29619,48 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-backports-modules-cw-3.8-3.2.0-48-generic
+Priority: optional
+Section: admin
+Installed-Size: 10263
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-48.36
+Depends: linux-image-3.2.0-48-generic
+Pre-Depends: dpkg (>= 1.10.24)
+Conflicts: linux-backports-modules-cw-3.3-3.2.0-48-generic, linux-backports-modules-cw-3.4-3.2.0-48-generic, linux-backports-modules-cw-3.5-3.2.0-48-generic, linux-backports-modules-cw-3.6-3.2.0-48-generic, linux-backports-modules-cw-3.7-3.2.0-48-generic
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.8-3.2.0-48-generic_3.2.0-48.36_amd64.deb
+Size: 2780796
+MD5sum: b04c78c356ffaf552a0ed2d7f168e83a
+SHA1: 9d3a82bbdb76d581ae7173f4b6e79d41dd9ecb50
+SHA256: c8253df332dc4ab370698b44d637a7a933f203714a6c8abf0224efc8459eb6f9
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: 2830dd8ae5bbe6dc9a373aaf46846274
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: linux-backports-modules-cw-3.8-3.2.0-48-virtual
+Priority: optional
+Section: admin
+Installed-Size: 10256
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-48.36
+Depends: linux-image-3.2.0-48-virtual
+Pre-Depends: dpkg (>= 1.10.24)
+Conflicts: linux-backports-modules-cw-3.3-3.2.0-48-virtual, linux-backports-modules-cw-3.4-3.2.0-48-virtual, linux-backports-modules-cw-3.5-3.2.0-48-virtual, linux-backports-modules-cw-3.6-3.2.0-48-virtual, linux-backports-modules-cw-3.7-3.2.0-48-virtual
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-cw-3.8-3.2.0-48-virtual_3.2.0-48.36_amd64.deb
+Size: 2776478
+MD5sum: 11aaf8d44a4e158a5d35cc6299287932
+SHA1: d6da3ee4435dccc1b6a7eae1839764707f83a242
+SHA256: ff879049999fe93637d360a4ac9b7b7c763f3f50fa70a2b67171573e16708a45
+Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
+Description-md5: 46e3d488e543dc85651b4c35a274c235
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-backports-modules-cw-3.8-precise-generic
 Priority: optional
 Section: devel
@@ -29416,13 +29668,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-backports-modules-cw-3.8-3.2.0-45-generic
-Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.8-precise-generic_3.2.0.45.54_amd64.deb
-Size: 2550
-MD5sum: 5a93d2df9e9b680423c01fb701b18d86
-SHA1: 1339a016718f384b49e3deba6e31ca5ff44f2c35
-SHA256: 258206460255c402a10589f85006ba5553f0ee273c9500ed88507f6963a187a6
+Version: 3.2.0.48.58
+Depends: linux-backports-modules-cw-3.8-3.2.0-48-generic
+Filename: pool/main/l/linux-meta/linux-backports-modules-cw-3.8-precise-generic_3.2.0.48.58_amd64.deb
+Size: 2438
+MD5sum: b3169fed7721acfc1841cbaa696fa2e6
+SHA1: b09ca0c42d092c539394619f1aef3d6dfdfff14e
+SHA256: 4b17ea43d3e108708fa9d53c4b39bfbabaf3ada473b8a08cc0e9ea74c740245a
 Description: Backported wireless drivers for generic kernel image
 Description-md5: 6e90ffb34dee52ff16abcc8827260d34
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -29436,13 +29688,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-headers-lbm-3.2.0-45-generic
-Filename: pool/main/l/linux-meta/linux-backports-modules-headers-precise-generic_3.2.0.45.54_amd64.deb
-Size: 2546
-MD5sum: 15c6ce35b8c0c085931ce665c6603908
-SHA1: c23b4fcffb27458f50b3b52113c31c3d666decc4
-SHA256: 38d6fc34b226f8683d6a4686617e69f03d93a608ba1a1bcd2cb13703fb4e535f
+Version: 3.2.0.48.58
+Depends: linux-headers-lbm-3.2.0-48-generic
+Filename: pool/main/l/linux-meta/linux-backports-modules-headers-precise-generic_3.2.0.48.58_amd64.deb
+Size: 2456
+MD5sum: 831dd5ef47f6697fa8ab46a8dd37b857
+SHA1: e5760096d418fe010d2c6a0b2a32719ad5330f50
+SHA256: bf3114c5820b72345541ee52c331ce3e0534022ec05a43556face4e477534e60
 Description: Backported driver headers for generic kernel image
 Description-md5: 38b01bce005d6624bbcdea6014e5278a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -29869,6 +30121,46 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-backports-modules-hv-3.2.0-48-generic
+Priority: optional
+Section: admin
+Installed-Size: 249
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-48.36
+Depends: linux-image-3.2.0-48-generic
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-hv-3.2.0-48-generic_3.2.0-48.36_amd64.deb
+Size: 52590
+MD5sum: 7dc2df87b6e34ebe030d724e64f6d9a0
+SHA1: 9a73039cd3eff07dbd1fb019f3130e8a20c19b5c
+SHA256: 1c1f61d17edeb985a6da91b8cdffb39bcc199ef04160cfa9a2a21510ebd2fa27
+Description: Linux Hyper-V updates for version 3.2.0 on x86/x86_64
+Description-md5: 584d26d2fb9d908b1347de788f4c1d7c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: linux-backports-modules-hv-3.2.0-48-virtual
+Priority: optional
+Section: admin
+Installed-Size: 249
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-48.36
+Depends: linux-image-3.2.0-48-virtual
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-hv-3.2.0-48-virtual_3.2.0-48.36_amd64.deb
+Size: 52536
+MD5sum: 12af0cb57356f482bf37b23ec2f697cb
+SHA1: 172e4c639a8820710a3fd0ad723a250362ecc8c7
+SHA256: 3fe360f5da82f57cab2e27470e81662219a56ae9b792b2f2fa13476d0451fcbb
+Description: Linux Hyper-V updates for version 3.2.0 on x86/x86_64
+Description-md5: ea71f70aba46c0a7c65b47def1ba8e9d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-backports-modules-hv-precise-generic
 Priority: optional
 Section: devel
@@ -29876,13 +30168,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-backports-modules-hv-3.2.0-45-generic
-Filename: pool/main/l/linux-meta/linux-backports-modules-hv-precise-generic_3.2.0.45.54_amd64.deb
-Size: 2528
-MD5sum: 5d68d92be2d2609a37d9905d28ba981b
-SHA1: cf340eab4cf522c9bdea33fab74d5bbafa65dd81
-SHA256: 0a5cb5b3b574b3772cabf426aece2cefbb1c9dd3687d6d3f2ba0a68570fed672
+Version: 3.2.0.48.58
+Depends: linux-backports-modules-hv-3.2.0-48-generic
+Filename: pool/main/l/linux-meta/linux-backports-modules-hv-precise-generic_3.2.0.48.58_amd64.deb
+Size: 2448
+MD5sum: 62982540ab5aa8377048cd0545831363
+SHA1: 856a7953b7667daf383cfc3260a3e073012f198e
+SHA256: 1033d7b00f432aad7d06539816ab0070b4c0b1ba72c32d2c3bec70a5f1071dff
 Description: Backported Hyper-V hypervisor interfaces
 Description-md5: 05fc1d38a9d2411d8bf8f7a29223a7e5
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -29896,13 +30188,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-backports-modules-hv-3.2.0-45-virtual
-Filename: pool/main/l/linux-meta/linux-backports-modules-hv-precise-virtual_3.2.0.45.54_amd64.deb
-Size: 2536
-MD5sum: cb3e52a7ebd9ee8619d173dcb45cb5c2
-SHA1: b0584de7dd58a6bc12975e80b7dee33f1ab1e33d
-SHA256: 6315b9b7e21f36aff70c09f32d4516a515e76300e7b5b0486e168697bfa1770e
+Version: 3.2.0.48.58
+Depends: linux-backports-modules-hv-3.2.0-48-virtual
+Filename: pool/main/l/linux-meta/linux-backports-modules-hv-precise-virtual_3.2.0.48.58_amd64.deb
+Size: 2450
+MD5sum: 20dacaad92446a39452af590621fa369
+SHA1: 85e7a7ee960c2d97cc6ca953c3b2d86a170d7acb
+SHA256: 2b6098d3b434fe87a655692f8dda60c88065e898c721235b90b5ae32cf451f9e
 Description: Backported Hyper-V hypervisor interfaces
 Description-md5: 05fc1d38a9d2411d8bf8f7a29223a7e5
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -30518,6 +30810,46 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-backports-modules-net-3.2.0-48-generic
+Priority: optional
+Section: admin
+Installed-Size: 388
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-48.36
+Depends: linux-image-3.2.0-48-generic
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-net-3.2.0-48-generic_3.2.0-48.36_amd64.deb
+Size: 115866
+MD5sum: 69c9f0180f7d820fd72ead0e59fcfe2b
+SHA1: 0e97762561f5c4e92f632e342451eedf03c42ab7
+SHA256: 1db32561ea6e25f3402e73a099abc0c44c6027f7e53b7550741fd61b528515a7
+Description: Linux ethernet modules for version 3.2.0 on x86/x86_64
+Description-md5: 4d4431774a9f24406f76ad316b7cf886
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: linux-backports-modules-net-3.2.0-48-virtual
+Priority: optional
+Section: admin
+Installed-Size: 388
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-48.36
+Depends: linux-image-3.2.0-48-virtual
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-backports-modules-net-3.2.0-48-virtual_3.2.0-48.36_amd64.deb
+Size: 115920
+MD5sum: bcfff81ef16c10eae5a8e4a8e23c1d6e
+SHA1: 2e7da56d7c253933acb26d61c18f43076dcb3cc2
+SHA256: 52277930a31323a46be8fd89d5c6d844b5016d7ea14bfe857dfd544edd6311a4
+Description: Linux ethernet modules for version 3.2.0 on x86/x86_64
+Description-md5: cf911955d3cf668358081fb8e8acd9f6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-backports-modules-net-precise-generic
 Priority: optional
 Section: devel
@@ -30525,13 +30857,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-backports-modules-net-3.2.0-45-generic
-Filename: pool/main/l/linux-meta/linux-backports-modules-net-precise-generic_3.2.0.45.54_amd64.deb
-Size: 2532
-MD5sum: 31e1d3a6c6004ff60bc38f187bf8fdd2
-SHA1: 4fe4d8a2bb2f73210a120b537c5894af6a8854a7
-SHA256: 445b4f67ef61266bca6b8d9edad75eaa74fe18d71e27a3b37ab1c13f3aeb0099
+Version: 3.2.0.48.58
+Depends: linux-backports-modules-net-3.2.0-48-generic
+Filename: pool/main/l/linux-meta/linux-backports-modules-net-precise-generic_3.2.0.48.58_amd64.deb
+Size: 2436
+MD5sum: 6c9ebc1eea5ec2d2d44134515339b0cd
+SHA1: 78f151e6804d95a748336c3b3552e89ae10a5bc3
+SHA256: ae82a93889423443d2f917e99d950adc2e22740a0d066a304b9ce8a09a13c8be
 Description: Backported ethernet drivers for generic kernel image.
 Description-md5: b01565259fae53bc1bfec65911d3bb47
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -30545,13 +30877,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-backports-modules-net-3.2.0-45-generic
-Filename: pool/main/l/linux-meta/linux-backports-modules-net-precise-server_3.2.0.45.54_amd64.deb
-Size: 2536
-MD5sum: 0403310a00b49cda45609c8265aba998
-SHA1: 1b1c5dbb2d9a6dcfea6ff4805b873f3202704e99
-SHA256: f82ffe786b9c446475c465997e566407bcb23797e464403a1fcb0b6dbdee9f6f
+Version: 3.2.0.48.58
+Depends: linux-backports-modules-net-3.2.0-48-generic
+Filename: pool/main/l/linux-meta/linux-backports-modules-net-precise-server_3.2.0.48.58_amd64.deb
+Size: 2450
+MD5sum: 1a6099d5beefd097b033293078b7a214
+SHA1: 17ee58cac1e00c2e08275896b4ecb290866bf069
+SHA256: 572a30388ab3eb682da53804a0ed1bea5ac961f45448c08205d2d048e68aae5a
 Description: Backported ethernet drivers for generic kernel image.
 Description-md5: b01565259fae53bc1bfec65911d3bb47
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -30565,15 +30897,15 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
+Version: 3.2.0.48.58
 Depends: kexec-tools, makedumpfile, grub-pc (>= 1.96+20090611-1ubuntu2) | grub-efi-ia32 | grub-efi-amd64 | grub (>= 0.97-29ubuntu24)
 Recommends: apport
 Suggests: crash
-Filename: pool/main/l/linux-meta/linux-crashdump_3.2.0.45.54_amd64.deb
-Size: 2730
-MD5sum: 866bb454dd95252abbba65dd6dee5767
-SHA1: c1135c9b29dd0c40ce1dba30e479da79c6275639
-SHA256: c3da11c3cfab1686bae84cfcb9bfdabf09f8653ed55a237e847d2c58a2992005
+Filename: pool/main/l/linux-meta/linux-crashdump_3.2.0.48.58_amd64.deb
+Size: 2606
+MD5sum: b2e2cad4d444387023c7784b9d826239
+SHA1: c49fa5d8b54dc8072c15c7c0dbd4a30582870372
+SHA256: 6709c0fb781572831d3b109a39530648e54b5264e65694dc26bd5101639dac7d
 Description: Linux kernel crashdump setup for the latest generic kernel
 Description-md5: 786b3d1e77e0097cb2c8f2ab16f83875
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -30587,13 +30919,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
+Version: 3.2.0.48.58
 Depends: linux-image-generic-lts-raring, linux-headers-generic-lts-raring
-Filename: pool/main/l/linux-meta/linux-current-generic_3.2.0.45.54_amd64.deb
-Size: 2512
-MD5sum: beae39f05dec25a70ae26f05b2ea5273
-SHA1: c71ade727b0bed7fddaf9c4611dc92204c249e27
-SHA256: a7ae8eb6209fa6d62b6cb091a5e7b0cdab2d1adef98069ebfbf5e3ac75b5780e
+Filename: pool/main/l/linux-meta/linux-current-generic_3.2.0.48.58_amd64.deb
+Size: 2396
+MD5sum: d27d2c8dd515fb5ca25d44b9a48a0967
+SHA1: 8972e2138a7c75c39e4c9429d456caf5e16457a8
+SHA256: 2efea6a0eea2d788f2f79209e03377a046fd526213bd8b30468d08726999f205
 Description: Depends on the most recently released generic kernel image and headers.
 Description-md5: 91c34f8ac5e684a4fb359b76335a5f39
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -30999,6 +31331,27 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-doc
+Priority: optional
+Section: doc
+Installed-Size: 25265
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: all
+Source: linux
+Version: 3.2.0-48.74
+Replaces: linux-doc-3
+Conflicts: linux-doc-3
+Filename: pool/main/l/linux/linux-doc_3.2.0-48.74_all.deb
+Size: 7999850
+MD5sum: 13d1fdd0aeb33ad6efcde3be508c61e5
+SHA1: e4131804b1e88edb10aba71441f47eb0fc1cec97
+SHA256: a62c08aece142f4522de01e9e9ffff479fb7f226af59036fb430652f181acae6
+Description: Linux kernel specific documentation for version 3.2.0
+Description-md5: 365a268af6664f22aa7f5a328114a50b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
 Package: linux-firmware
 Priority: optional
 Section: misc
@@ -31028,13 +31381,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-image-generic (= 3.2.0.45.54), linux-headers-generic (= 3.2.0.45.54)
-Filename: pool/main/l/linux-meta/linux-generic_3.2.0.45.54_amd64.deb
+Version: 3.2.0.48.58
+Depends: linux-image-generic (= 3.2.0.48.58), linux-headers-generic (= 3.2.0.48.58)
+Filename: pool/main/l/linux-meta/linux-generic_3.2.0.48.58_amd64.deb
 Size: 1720
-MD5sum: f0c98db75d5caf8e007603d13e0d2b20
-SHA1: f18c1d3abf43fe0870ce6ddacf9affbcb9e79567
-SHA256: a00a72310b345a4ee3f27a8dfc104f9f36d78c16fa3272eddfae65615885034e
+MD5sum: 71c1f7fe0c345430a2d2db2f0e030088
+SHA1: 71d8979060c321ad52516dc245d1a2927641665a
+SHA256: a56ca4eaece0b5df02569f548853a857ea1cf6201a0eb3bc70917fb49dd1ca67
 Description: Complete Generic Linux kernel
 Description-md5: 5d722da329763b9342d322f5a140005c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -31048,13 +31401,13 @@ Installed-Size: 27
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-lts-quantal
-Version: 3.5.0.32.39
+Version: 3.5.0.34.41
 Depends: linux-image-generic-lts-quantal, linux-headers-generic-lts-quantal
-Filename: pool/main/l/linux-meta-lts-quantal/linux-generic-lts-quantal_3.5.0.32.39_amd64.deb
+Filename: pool/main/l/linux-meta-lts-quantal/linux-generic-lts-quantal_3.5.0.34.41_amd64.deb
 Size: 1744
-MD5sum: e5efb784a693968f4791ff5ed47223cf
-SHA1: 801a490d6285eb9eba98253d92ec601c99ab021c
-SHA256: cc548c4cfb14e24d0b85c84fd531a5957bf4a7d4165e6b756b52b8e6df73e226
+MD5sum: b7411e5532e87d2a827b1b80e80d7c4d
+SHA1: 07a9c4f21e7c703c76ecc1a91c0d0e698455bb21
+SHA256: db2c788d9beb8ca2d0bfc6c5463ff17e451775d029ea168511bca57f20189a71
 Description: Generic Linux kernel image and headers
 Description-md5: 25f903038c92ee94e474b11119858716
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -31068,13 +31421,13 @@ Installed-Size: 27
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-lts-quantal
-Version: 3.5.0.32.39
+Version: 3.5.0.34.41
 Depends: linux-generic-lts-quantal
-Filename: pool/main/l/linux-meta-lts-quantal/linux-generic-lts-quantal-eol-upgrade_3.5.0.32.39_amd64.deb
+Filename: pool/main/l/linux-meta-lts-quantal/linux-generic-lts-quantal-eol-upgrade_3.5.0.34.41_amd64.deb
 Size: 1768
-MD5sum: c21de4d3f717c70a6adabfe3ded42dc8
-SHA1: a36d0640a931a7c65d21a2ff214b8aabd73bc9f8
-SHA256: bb8db21fad7b304d2ff5ebb5963abfd0fb54377d3247ecf7d00ebfb334a3d681
+MD5sum: 85e7909f1f245fdc7168968f4d4d2fd7
+SHA1: eaf84ebc8d30965991e5909e96890e57d3fdce11
+SHA256: 4e2c64e730b4665a5b85b39e9339b54c0c2f1331027e17c178589b12d1d6ecb2
 Description: Complete Generic Linux kernel and headers
 Description-md5: 65f1f35e2b000ab86c4f5cba5eed8683
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -32318,6 +32671,66 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-headers-3.2.0-48
+Priority: optional
+Section: devel
+Installed-Size: 54986
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: all
+Source: linux
+Version: 3.2.0-48.74
+Provides: linux-headers, linux-headers-3
+Depends: coreutils | fileutils (>= 4.0)
+Filename: pool/main/l/linux/linux-headers-3.2.0-48_3.2.0-48.74_all.deb
+Size: 11692968
+MD5sum: 1483402fdb36d86865bc792e3571e5ad
+SHA1: 55facb0e097cc4af31a279a980603ac9b56d4bc5
+SHA256: 5c88fe3939edf37bf64a73bdf7dd1fe2617e7ea164adb9a4cc652bc17c2083d5
+Description: Header files related to Linux kernel version 3.2.0
+Description-md5: 8da287baebbe5303b8b2089970695f23
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: linux-headers-3.2.0-48-generic
+Priority: optional
+Section: devel
+Installed-Size: 11040
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux
+Version: 3.2.0-48.74
+Provides: linux-headers, linux-headers-3.0
+Depends: linux-headers-3.2.0-48, libc6 (>= 2.14)
+Filename: pool/main/l/linux/linux-headers-3.2.0-48-generic_3.2.0-48.74_amd64.deb
+Size: 980572
+MD5sum: 21b7e23e6beec9e9ac9617459b153e9c
+SHA1: b411e9f3bc5c8c37fb33473a8aa0c7a2918f26fd
+SHA256: 19dc4350839490769e4bb27ca66e00428464d9420063df77fe1ff6d9b75792cf
+Description: Linux kernel headers for version 3.2.0 on 64 bit x86 SMP
+Description-md5: e49971871e90698cd788a74196f3934e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: linux-headers-3.2.0-48-virtual
+Priority: optional
+Section: devel
+Installed-Size: 11040
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux
+Version: 3.2.0-48.74
+Provides: linux-headers, linux-headers-3.0
+Depends: linux-headers-3.2.0-48, libc6 (>= 2.14)
+Filename: pool/main/l/linux/linux-headers-3.2.0-48-virtual_3.2.0-48.74_amd64.deb
+Size: 980366
+MD5sum: 3c0bbfe60e12970394980bb03e9c0c31
+SHA1: defd2ce895e5e1221bc8b314b2ddad81f77fc07b
+SHA256: d4f983bd43c219b2ac55b11a5b655a5e4e491a647d04e858c9a70143938508b7
+Description: Linux kernel headers for version 3.2.0 on 64 bit x86 Virtual Guests
+Description-md5: 3dab4c80b081d2bc002afed326c03654
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-headers-3.5.0-19
 Priority: optional
 Section: devel
@@ -32758,6 +33171,44 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: linux-headers-3.5.0-34
+Priority: optional
+Section: devel
+Installed-Size: 57440
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: all
+Source: linux-lts-quantal
+Version: 3.5.0-34.55~precise1
+Depends: coreutils | fileutils (>= 4.0)
+Filename: pool/main/l/linux-lts-quantal/linux-headers-3.5.0-34_3.5.0-34.55~precise1_all.deb
+Size: 12100156
+MD5sum: 3c7003b4a5f0c2f5e47ee7f7761b9962
+SHA1: bef1a783a3507e3e0b8868647d6ea29812b735f6
+SHA256: ecd7eb9a38a7163ef93cb612f3dc5c83e2236d1db29b063a273bfff66d9ecd59
+Description: Header files related to Linux kernel version 3.5.0
+Description-md5: 0ccf52692953cfe4ab51ec491cc344ba
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: linux-headers-3.5.0-34-generic
+Priority: optional
+Section: devel
+Installed-Size: 11028
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-lts-quantal
+Version: 3.5.0-34.55~precise1
+Depends: linux-headers-3.5.0-34, libc6 (>= 2.14)
+Filename: pool/main/l/linux-lts-quantal/linux-headers-3.5.0-34-generic_3.5.0-34.55~precise1_amd64.deb
+Size: 955212
+MD5sum: 7c7be61a7dc40ff525e6f2811c0d60dc
+SHA1: 1b1a3e6e59c75cef718676582c31aa46a154eb22
+SHA256: 702d30b0551c120416e476e532a14411c6446e89130a3cebce00f92291a63712
+Description: Linux kernel headers for version 3.5.0 on 64 bit x86 SMP
+Description-md5: 1a3c03723f57f9519c629fe1f8eb098a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-headers-3.8.0-19
 Priority: optional
 Section: devel
@@ -32929,13 +33380,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-headers-3.2.0-45-generic
-Filename: pool/main/l/linux-meta/linux-headers-generic_3.2.0.45.54_amd64.deb
-Size: 2458
-MD5sum: a14b2874b031459aaf8fc7fbcd96c6f3
-SHA1: 2278a2b39b4aa2cd3bb134b20484a0ddd6c192e3
-SHA256: 1a05850046ec2602fb90986356aca7e6632edf654669d3d12d123079dce9b404
+Version: 3.2.0.48.58
+Depends: linux-headers-3.2.0-48-generic
+Filename: pool/main/l/linux-meta/linux-headers-generic_3.2.0.48.58_amd64.deb
+Size: 2350
+MD5sum: 9835e6f014fed8b978199994fa685e38
+SHA1: 8f0c9695f307156a2fc0e1d78b34e9c6c0207a85
+SHA256: 6619e815ea6a3b958999bdef5af09b9dfc5ca9f8fd7b966512df9799d8e177d4
 Description: Generic Linux kernel headers
 Description-md5: 9c9742ab9c289b1e900fab477bc0070d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -32950,13 +33401,13 @@ Installed-Size: 27
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-lts-quantal
-Version: 3.5.0.32.39
-Depends: linux-headers-3.5.0-32-generic
-Filename: pool/main/l/linux-meta-lts-quantal/linux-headers-generic-lts-quantal_3.5.0.32.39_amd64.deb
-Size: 2490
-MD5sum: 55be4dc782207b2fde4c66d75ed179eb
-SHA1: ff294e43ebc1368b31497387e48c2549190435dd
-SHA256: e37876a702494f9f4eefe80118a1c2fd5fc0f9d8f0b1071b35fedf6e15455732
+Version: 3.5.0.34.41
+Depends: linux-headers-3.5.0-34-generic
+Filename: pool/main/l/linux-meta-lts-quantal/linux-headers-generic-lts-quantal_3.5.0.34.41_amd64.deb
+Size: 2400
+MD5sum: 2f9abc8e12abc1b7a347d1c60730eec3
+SHA1: ac3a2c088ec79a77bb4a2d5d7442e71ded31977c
+SHA256: 3f9642ed377309ca4ced4df2027e9d71186ceb95d2697fda0c26d9a8ad51ea6e
 Description: Generic Linux kernel headers
 Description-md5: 49b52776080593de169d30338dd93a48
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -33592,6 +34043,46 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-headers-lbm-3.2.0-48-generic
+Priority: optional
+Section: devel
+Installed-Size: 43
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-48.36
+Provides: linux-headers-lbm, linux-headers-lbm-2.6
+Depends: coreutils | fileutils (>= 4.0), linux-headers-3.2.0-48-generic
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-headers-lbm-3.2.0-48-generic_3.2.0-48.36_amd64.deb
+Size: 2646
+MD5sum: f64569df1e12cadc5338349794a7ad63
+SHA1: f874689793c266b2866fc1a1d939679f867e3000
+SHA256: b9d1200ddd71872b006944601074cc31af4516f77c63aed11ba5be45e819b6ae
+Description: Header files related to linux-backports-modules version 3.2.0
+Description-md5: 6de8da4d93225d253ac9bb0ef3dbf8e7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: linux-headers-lbm-3.2.0-48-virtual
+Priority: optional
+Section: devel
+Installed-Size: 43
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-backports-modules-3.2.0
+Version: 3.2.0-48.36
+Provides: linux-headers-lbm, linux-headers-lbm-2.6
+Depends: coreutils | fileutils (>= 4.0), linux-headers-3.2.0-48-virtual
+Filename: pool/main/l/linux-backports-modules-3.2.0/linux-headers-lbm-3.2.0-48-virtual_3.2.0-48.36_amd64.deb
+Size: 2652
+MD5sum: 6950182848f400559f60ff327cd52f8a
+SHA1: 76fc4d32324075b5831704ed0813da004ef707f1
+SHA256: f79391ffbea856c58702a8393cdf6b675a97cd00c4b97b9f532d06554271602a
+Description: Header files related to linux-backports-modules version 3.2.0
+Description-md5: 6de8da4d93225d253ac9bb0ef3dbf8e7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-headers-server
 Priority: optional
 Section: devel
@@ -33599,13 +34090,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-headers-3.2.0-45-generic
-Filename: pool/main/l/linux-meta/linux-headers-server_3.2.0.45.54_amd64.deb
-Size: 2484
-MD5sum: 3cce842aca6024b48f2dc0f9b8cbf008
-SHA1: b37b4c4135920f638d17621c10b50fa1e2de62d4
-SHA256: 8927540308fc8b150237c74d1226146189f4caf2d0150100f20ebde6bf7bf9b3
+Version: 3.2.0.48.58
+Depends: linux-headers-3.2.0-48-generic
+Filename: pool/main/l/linux-meta/linux-headers-server_3.2.0.48.58_amd64.deb
+Size: 2360
+MD5sum: 573a4c42bfa602b63585c6d220ca88e9
+SHA1: 61ce0fc346632d781598be7cca7ccb5f0d0a5d69
+SHA256: da40445371864215f8e3ff84526c5c6c4caae1f400658af1846ee80443e1875a
 Description: Linux kernel headers on Server Equipment.
 Description-md5: 274496832062104176ecb45f5162109f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -33619,13 +34110,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-headers-3.2.0-45-virtual
-Filename: pool/main/l/linux-meta/linux-headers-virtual_3.2.0.45.54_amd64.deb
-Size: 2478
-MD5sum: 9e3a818b7e6bdfed6d3f55cac01d1663
-SHA1: 95fa5c88db7011cac66aecd177dce1df7d737287
-SHA256: a705f5109fd53f20f4a66da3e4aea4e466fb36655da4700ce310e96c5f013356
+Version: 3.2.0.48.58
+Depends: linux-headers-3.2.0-48-virtual
+Filename: pool/main/l/linux-meta/linux-headers-virtual_3.2.0.48.58_amd64.deb
+Size: 2356
+MD5sum: dee3f46f6f5bc8142adb9cbad86b97ea
+SHA1: 356f963e9d4caa9d1eb689dc254420e0ae1901b4
+SHA256: 4e37a615ba0b1ada47960000558f13424e380cedf9a0021f22976ba874509852
 Description: Linux kernel headers for virtual machines
 Description-md5: 9b3654ef6387cd2a6e2896508941e3db
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -33639,13 +34130,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
+Version: 3.2.0.48.58
 Depends: linux-image-hwe-generic, linux-headers-generic-lts-quantal
-Filename: pool/main/l/linux-meta/linux-hwe-generic_3.2.0.45.54_amd64.deb
-Size: 1732
-MD5sum: c2df38bc00edbe161c905fc18ec0bbb4
-SHA1: 7c7bea0b1e4c4a8e1a983de5e8fb514dc7c53a74
-SHA256: f90bc8acee042405839332e760905944b7191011d17fad086467d78b5eb7d76b
+Filename: pool/main/l/linux-meta/linux-hwe-generic_3.2.0.48.58_amd64.deb
+Size: 1730
+MD5sum: d03baf48f3e8ff0b160b138cd3201c3e
+SHA1: 5b8683a4594689fa3d4833a49aaa8c9c5f8ea2f1
+SHA256: 3f97a41e83e12e0b01474f9e495e374ffad745838e597105dde8583cc8603ded
 Description: Depends on the generic hardware enablement kernel image and headers.
 Description-md5: 0133504a9e92acd2e36722616ba9e9d9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -33659,13 +34150,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-image-generic (= 3.2.0.45.54)
-Filename: pool/main/l/linux-meta/linux-image_3.2.0.45.54_amd64.deb
+Version: 3.2.0.48.58
+Depends: linux-image-generic (= 3.2.0.48.58)
+Filename: pool/main/l/linux-meta/linux-image_3.2.0.48.58_amd64.deb
 Size: 1708
-MD5sum: abe3c8262de145f015af0ab3263c47fa
-SHA1: 3589f7344871003de2d8c1e8266786dc1ef7e4d4
-SHA256: ce6805b42bf1ff4f43bf7baa1becb343f356c22e34ed10086e24170875ac9dc5
+MD5sum: f9f5b6dc004c88d5e14e3652738cacbf
+SHA1: b7ae3e14c8eab08620686183c43f9a9e14a35950
+SHA256: e1c4926caf694ea3e1fa7c84359718b987a003d1cdf7a2bcbaf28a675f062a5a
 Description: Generic Linux kernel image.
 Description-md5: bbb651153b198d4cc1090132ccf7582b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -34622,6 +35113,54 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-image-3.2.0-48-generic
+Priority: optional
+Section: kernel
+Installed-Size: 146223
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux
+Version: 3.2.0-48.74
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, linux-image-3.0, redhat-cluster-modules
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3), crda (>= 1.1.1-1ubuntu2) | wireless-crda
+Pre-Depends: dpkg (>= 1.10.24)
+Recommends: grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo (>= 19.1)
+Suggests: fdutils, linux-doc-3.2.0 | linux-source-3.2.0, linux-tools
+Conflicts: hotplug (<< 0.0.20040105-1)
+Filename: pool/main/l/linux/linux-image-3.2.0-48-generic_3.2.0-48.74_amd64.deb
+Size: 38529486
+MD5sum: 39cfe977a322163976cec49901d97d14
+SHA1: c1d58eb80ddf96f05c1aace76d049c4556bcfc85
+SHA256: 7a49b661ea9870cc2974998b98c8e1b89da26edae931c8d169ab16eb57d78f29
+Description: Linux kernel image for version 3.2.0 on 64 bit x86 SMP
+Description-md5: 0263f1b50c3e3117f31617803693d31e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: linux-image-3.2.0-48-virtual
+Priority: optional
+Section: kernel
+Installed-Size: 33782
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux
+Version: 3.2.0-48.74
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, linux-image-3.0, redhat-cluster-modules
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3), crda (>= 1.1.1-1ubuntu2) | wireless-crda
+Pre-Depends: dpkg (>= 1.10.24)
+Recommends: grub-pc | grub | lilo (>= 19.1)
+Suggests: fdutils, linux-doc-3.2.0 | linux-source-3.2.0, linux-tools
+Conflicts: hotplug (<< 0.0.20040105-1)
+Filename: pool/main/l/linux/linux-image-3.2.0-48-virtual_3.2.0-48.74_amd64.deb
+Size: 12470060
+MD5sum: d18eb48ae7d28e262feb00ff5bfaff43
+SHA1: 61aefeeb1a6230f3a87191f5c8651a3153ff8233
+SHA256: 3501670569fd2077f7b1b090ed5c6b5b6e9e98ba4c16cb668ae4aeb79b68c842
+Description: Linux kernel image for version 3.2.0 on 64 bit x86 Virtual Guests
+Description-md5: 460133e8833e081521743c30cdbb43d9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-image-3.5.0-19-generic
 Priority: optional
 Section: kernel
@@ -34886,6 +35425,29 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: linux-image-3.5.0-34-generic
+Priority: optional
+Section: kernel
+Installed-Size: 153093
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-lts-quantal
+Version: 3.5.0-34.55~precise1
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3), crda (>= 1.1.1-1ubuntu2) | wireless-crda
+Pre-Depends: dpkg (>= 1.10.24)
+Recommends: grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo (>= 19.1)
+Suggests: fdutils, linux-lts-quantal-doc-3.5.0 | linux-lts-quantal-source-3.5.0, linux-lts-quantal-tools
+Conflicts: hotplug (<< 0.0.20040105-1)
+Filename: pool/main/l/linux-lts-quantal/linux-image-3.5.0-34-generic_3.5.0-34.55~precise1_amd64.deb
+Size: 40585038
+MD5sum: cecb90626af5cfa970bf897762b796aa
+SHA1: af818d5e48c1bdb8240a42e7087220152a731bf0
+SHA256: 92390916103f2d91c7504d7cf7a27a8f6501ee9d614867175a84f1d32aa886de
+Description: Linux kernel image for version 3.5.0 on 64 bit x86 SMP
+Description-md5: 3b39b08d4161394ef0fbb82223595030
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-image-3.8.0-19-generic
 Priority: optional
 Section: kernel
@@ -34993,13 +35555,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
+Version: 3.2.0.48.58
 Depends: linux-image-generic-lts-raring
-Filename: pool/main/l/linux-meta/linux-image-current-generic_3.2.0.45.54_amd64.deb
-Size: 2514
-MD5sum: 272270b73e55198ab19290e00b643e3c
-SHA1: d0014d783a34ed4ae5f8a7a1da9dcd76e14a91ce
-SHA256: becdd8c1df285bb21e0a908433c1ecf07b36b2b594b4cf45b28ae0c992c803dc
+Filename: pool/main/l/linux-meta/linux-image-current-generic_3.2.0.48.58_amd64.deb
+Size: 2392
+MD5sum: f0fc08783a803d2dc7ed056b8ea661cd
+SHA1: f4a995c5925bc551d56e68bb256b4b274fa83e3b
+SHA256: b845e0654f525a4a82ed0fe07a8fdddaa2e3f856679fd18892c59511cae2420e
 Description: Depends on the most recently released generic kernel image and headers.
 Description-md5: 91c34f8ac5e684a4fb359b76335a5f39
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -35386,6 +35948,25 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-image-extra-3.2.0-48-virtual
+Priority: optional
+Section: kernel
+Installed-Size: 112653
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux
+Version: 3.2.0-48.74
+Depends: linux-image-3.2.0-48-virtual
+Filename: pool/main/l/linux/linux-image-extra-3.2.0-48-virtual_3.2.0-48.74_amd64.deb
+Size: 25994958
+MD5sum: ff0542527a4c715c01637a7672a24238
+SHA1: 39c160295de8d4d0c3a0d4b78c6f4c9ca89ab37a
+SHA256: 624e6908b92af8449d92410f9b39464e55c807e838a4c17eba2e24549bb3fb0a
+Description: Linux kernel image for version 3.2.0 on 64 bit x86 Virtual Guests
+Description-md5: 460133e8833e081521743c30cdbb43d9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-image-extra-virtual
 Priority: optional
 Section: kernel
@@ -35393,13 +35974,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-image-virtual (= 3.2.0.45.54), linux-image-extra-3.2.0-45-virtual
-Filename: pool/main/l/linux-meta/linux-image-extra-virtual_3.2.0.45.54_amd64.deb
-Size: 1740
-MD5sum: 365e6e9dfeb2aa64c6a9f1a8f873f271
-SHA1: 9a98cd08f7daf2afc54628002b8094eb7441f747
-SHA256: 8c695fe5fb7fa566dd6f55e853fb2a947e1bca216b36f714a581c31a235ed43a
+Version: 3.2.0.48.58
+Depends: linux-image-virtual (= 3.2.0.48.58), linux-image-extra-3.2.0-48-virtual
+Filename: pool/main/l/linux-meta/linux-image-extra-virtual_3.2.0.48.58_amd64.deb
+Size: 1738
+MD5sum: cc923154099bf98dec539cc92b2535a8
+SHA1: e20a52f7a93ce44bda77b0ed8da2a9e298108fd5
+SHA256: 59f7b6844ab1874f0796dc7ccd0bb594562e86359efc2828e73039af21385447
 Description: Linux kernel extra modules for virtual machines
 Description-md5: 8b358406a04de4def86647c7a7506e59
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -35413,13 +35994,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-image-3.2.0-45-generic, linux-firmware
-Filename: pool/main/l/linux-meta/linux-image-generic_3.2.0.45.54_amd64.deb
-Size: 2468
-MD5sum: 67fd88054b0c3e7f7dafb841d3645f30
-SHA1: 4a59a700da7638a63c6c1eaf613ccb3ce702b40b
-SHA256: a56f80ca04924ea651e6ede855591a05231cd78802ba1eb0530332f75d6e11ad
+Version: 3.2.0.48.58
+Depends: linux-image-3.2.0-48-generic, linux-firmware
+Filename: pool/main/l/linux-meta/linux-image-generic_3.2.0.48.58_amd64.deb
+Size: 2346
+MD5sum: e4a7618ce5a20574085ea7aca6ed5437
+SHA1: 8d479c6c87485f949dca5bd6d200da40bdf50ffc
+SHA256: 220de3f8fa9314f860187326ad9000e209aff11a9ae7eab5823b4798c64b5d70
 Description: Generic Linux kernel image
 Description-md5: 6d632579c673704f44b290b16e7dbfd1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -35433,13 +36014,13 @@ Installed-Size: 27
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-lts-quantal
-Version: 3.5.0.32.39
-Depends: linux-image-3.5.0-32-generic, linux-firmware
-Filename: pool/main/l/linux-meta-lts-quantal/linux-image-generic-lts-quantal_3.5.0.32.39_amd64.deb
-Size: 2500
-MD5sum: b0b5c0dc4156a45f635e6d91b7c3bc07
-SHA1: dce6fa5a996668971ee6c9ba8451f982eb829f55
-SHA256: 7e01b38d88a03cf21b047fb2a58b5b4586c698b8abf64603881883d8fc1562fa
+Version: 3.5.0.34.41
+Depends: linux-image-3.5.0-34-generic, linux-firmware
+Filename: pool/main/l/linux-meta-lts-quantal/linux-image-generic-lts-quantal_3.5.0.34.41_amd64.deb
+Size: 2406
+MD5sum: cd08e89d5aeb09b637774d24f3ea304f
+SHA1: 8f19084c2064b4494a98e86e27a582ea24d2da14
+SHA256: 7316eb9d38cc56ece2ee34df0ed3ef9b0631049f6c49e53d045fcc037ec203a5
 Description: Generic Linux kernel image
 Description-md5: c7e4fbc023632f2e538ff93b600ef34c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -35473,13 +36054,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
+Version: 3.2.0.48.58
 Depends: linux-image-generic-lts-quantal
-Filename: pool/main/l/linux-meta/linux-image-hwe-generic_3.2.0.45.54_amd64.deb
-Size: 2480
-MD5sum: ccfc5da9a264bb80029732e66bc90a5c
-SHA1: 910015d4ff714da48e1b09c6c3c1969a1035a0f9
-SHA256: 321ae277e41f364f7f6f32f724f21f41a988ce0bd264247f541fdbb019d386bd
+Filename: pool/main/l/linux-meta/linux-image-hwe-generic_3.2.0.48.58_amd64.deb
+Size: 2366
+MD5sum: c1f9167e2c4820ab0503e866a8fe1d11
+SHA1: 6579fb5bc76b339fed33bd0debcfa3e5e39bd0ad
+SHA256: a14b9fb00a1620c1ef897e0e48939af3f01b4af4830363b456898325fe5e2dde
 Description: Depends on the generic hardware enablement kernel image and headers.
 Description-md5: 0133504a9e92acd2e36722616ba9e9d9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -35493,13 +36074,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-image-3.2.0-45-generic, linux-firmware
-Filename: pool/main/l/linux-meta/linux-image-server_3.2.0.45.54_amd64.deb
-Size: 2494
-MD5sum: 0f7595c89d16bb8fb554afa4acb74a67
-SHA1: 46552f6bb2356fd0e9c607a182e959bafab4a3b2
-SHA256: 2d21c9e76159423e221b393a2f7183346e7bb0e8dc40efd6cdfa640886ad22a0
+Version: 3.2.0.48.58
+Depends: linux-image-3.2.0-48-generic, linux-firmware
+Filename: pool/main/l/linux-meta/linux-image-server_3.2.0.48.58_amd64.deb
+Size: 2364
+MD5sum: 71bd4ff5e0b84a637887243975ad86f3
+SHA1: 3098a2394e33d14ad1395f3e78b0d196b3fa05b2
+SHA256: c185a7f0b0d0f262418e5710dd96d09a82b093d05c55bfd98d587a6ef8fce37c
 Description: Linux kernel image on Server Equipment.
 Description-md5: 007bbe2f78b35f829de192081a692f99
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -35513,13 +36094,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-image-3.2.0-45-virtual, linux-firmware
-Filename: pool/main/l/linux-meta/linux-image-virtual_3.2.0.45.54_amd64.deb
-Size: 2516
-MD5sum: 5b2d08bb1065ff1d7c01d541b6b34855
-SHA1: b0dd24d52da99407a3f13adaa28d95cca4c55ead
-SHA256: 6ded7e025ffb4f031a49774376a85527bd819f364a43db9d51fa5f3ea3beb11d
+Version: 3.2.0.48.58
+Depends: linux-image-3.2.0-48-virtual, linux-firmware
+Filename: pool/main/l/linux-meta/linux-image-virtual_3.2.0.48.58_amd64.deb
+Size: 2390
+MD5sum: eb4dff4dc99d8694125081af710dcfa9
+SHA1: 40665648c12848301ebde032b42d4d9c7fff8789
+SHA256: 49efad179e2bea25e7ffb342497dd420005ccbb0ce7dd9c7273799aa7128a268
 Description: Linux kernel image for virtual machines
 Description-md5: 65a968707ca747ae6fda15d15c871cf4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -35529,19 +36110,19 @@ Supported: 5y
 Package: linux-libc-dev
 Priority: optional
 Section: devel
-Installed-Size: 3043
+Installed-Size: 3049
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux
-Version: 3.2.0-45.70
+Version: 3.2.0-48.74
 Replaces: dvb-dev (<< 1.0.1-6), libc6-dev (<< 2.3.2.ds1-6), libc6.1-dev (<< 2.3.2.ds1-6), libdrm-dev, linux-kernel-headers
 Provides: linux-kernel-headers
 Conflicts: amd64-libs-dev (<= 1.1), dvb-dev (<< 1.0.1-6), libc6-dev (<< 2.3.2.ds1-6), libc6.1-dev (<< 2.3.2.ds1-6), linux-kernel-headers
-Filename: pool/main/l/linux/linux-libc-dev_3.2.0-45.70_amd64.deb
-Size: 858644
-MD5sum: d7e1fdcc73a3a0b3d79384a47557f156
-SHA1: b236dc20a4a204667931320846c7f5ad849d1a7f
-SHA256: 4d4da16bad66bbf04c8b750d6763bb953c3cce703c9a6f4500599ba91688fc3e
+Filename: pool/main/l/linux/linux-libc-dev_3.2.0-48.74_amd64.deb
+Size: 858286
+MD5sum: e2ca98a9d9d5f697492b71855613cd5e
+SHA1: 28a172e1153035469fa774fb9307f0eb29c08285
+SHA256: 967e98877bbd9d3fcc8108a888da6ba994e801cca21256e0d3e90b61063a4bee
 Description: Linux Kernel Headers for development
 Multi-Arch: same
 Description-md5: d5d143e6dffc891f04a85464446f9451
@@ -35558,13 +36139,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-image-server (= 3.2.0.45.54), linux-headers-server (= 3.2.0.45.54)
-Filename: pool/main/l/linux-meta/linux-server_3.2.0.45.54_amd64.deb
+Version: 3.2.0.48.58
+Depends: linux-image-server (= 3.2.0.48.58), linux-headers-server (= 3.2.0.48.58)
+Filename: pool/main/l/linux-meta/linux-server_3.2.0.48.58_amd64.deb
 Size: 1732
-MD5sum: c2553d4126b84112832163a9683d5f82
-SHA1: b360d09928270ae6af40099c20027741988ce92b
-SHA256: 9b31d15fa1b3b391bd13d36ac5894892646d07225a17318b642ca9ef1666e3f6
+MD5sum: c6000dc591596f0e1b38c259ff0596ed
+SHA1: 8fb84cb9828528c6d12ca8260c9963bf34ba0b67
+SHA256: bf6481a45a1389b0e580535d0677b08a64c590b55ce736491170e129c224f02c
 Description: Complete Linux kernel on Server Equipment.
 Description-md5: 6950f6655c5c3d907600f4f90177a042
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -35578,13 +36159,13 @@ Installed-Size: 27
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-lts-quantal
-Version: 3.5.0.32.39
+Version: 3.5.0.34.41
 Depends: linux-signed-image-generic-lts-quantal, linux-headers-generic-lts-quantal
-Filename: pool/main/l/linux-meta-lts-quantal/linux-signed-generic-lts-quantal_3.5.0.32.39_amd64.deb
+Filename: pool/main/l/linux-meta-lts-quantal/linux-signed-generic-lts-quantal_3.5.0.34.41_amd64.deb
 Size: 1766
-MD5sum: e72333b729a6590415f43dd184b81847
-SHA1: 69ab58baff2d1f5250bafc756ccebd9aadf73784
-SHA256: e3f81c63747c435fff5de144725de64f2b85cc941b331397bb556d21038276be
+MD5sum: 1467b0698c2b6d4218f5976d3402d54d
+SHA1: ad592efebe51a6be6f4fc6f8d7e9530823f5c4c0
+SHA256: 30f72c38f01cc5cfc56b0868ea183e6d3dfef53876127542f543d5a10b6d5cc0
 Description: Complete Signed Generic Linux kernel and headers
 Description-md5: c46e75d15f431954f5e63aac8c06ea2d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -35598,13 +36179,13 @@ Installed-Size: 27
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-lts-quantal
-Version: 3.5.0.32.39
+Version: 3.5.0.34.41
 Depends: linux-signed-generic-lts-quantal
-Filename: pool/main/l/linux-meta-lts-quantal/linux-signed-generic-lts-quantal-eol-upgrade_3.5.0.32.39_amd64.deb
+Filename: pool/main/l/linux-meta-lts-quantal/linux-signed-generic-lts-quantal-eol-upgrade_3.5.0.34.41_amd64.deb
 Size: 1778
-MD5sum: 705d938aa13591fe3d57e5eec9d08f78
-SHA1: 1905b2a65bdaaeb7d90c9bf7b13c08f6cd7203c6
-SHA256: e4b17f39768d4a7f0a138b83af1bacacc41ff4be4ca2911d3d866c2d3413c6bb
+MD5sum: 7161d228704312b77504c49396f8121b
+SHA1: 8f4ed0ae5263e2e4a19ca6863d0df78ef1da726b
+SHA256: 7e303c804d918be7edc3e3b2885df945a5fa1dc396248e9a446b1feb9b200881
 Description: Complete Signed Generic Linux kernel and headers
 Description-md5: b0a192d9d3ec8d265822a0f9069eca20
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -35871,6 +36452,25 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: linux-signed-image-3.5.0-34-generic
+Priority: optional
+Section: utils
+Installed-Size: 38
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-signed-lts-quantal
+Version: 3.5.0-34.55~precise1
+Depends: sbsigntool, linux-image-3.5.0-34-generic (>= 3.5.0-34.55~precise1)
+Filename: pool/main/l/linux-signed-lts-quantal/linux-signed-image-3.5.0-34-generic_3.5.0-34.55~precise1_amd64.deb
+Size: 4082
+MD5sum: 3e967e1829f7aac0b89245a2fd8e23ca
+SHA1: a420888ce85f48246bcdcf842c916fc736ceb12e
+SHA256: e53d019203b30b7f1aa2360cc7737660cfcee8c559ca3fb1295cc5209347cc37
+Description: Signed kernel image generic
+Description-md5: 58606405946683c4d2ca4f105784fd91
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-signed-image-3.8.0-19-generic
 Priority: optional
 Section: utils
@@ -35958,13 +36558,13 @@ Installed-Size: 27
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-lts-quantal
-Version: 3.5.0.32.39
-Depends: linux-signed-image-3.5.0-32-generic, linux-firmware
-Filename: pool/main/l/linux-meta-lts-quantal/linux-signed-image-generic-lts-quantal_3.5.0.32.39_amd64.deb
-Size: 2536
-MD5sum: 83ddebf005b0f096a600d326145c3b43
-SHA1: edde9e1642fda15fa6190548741acbc23065b8cc
-SHA256: 964bcf107f3ee2816d2c2823955927cb4e2e01d0f2c3d5669d6e183794bb157c
+Version: 3.5.0.34.41
+Depends: linux-signed-image-3.5.0-34-generic, linux-firmware
+Filename: pool/main/l/linux-meta-lts-quantal/linux-signed-image-generic-lts-quantal_3.5.0.34.41_amd64.deb
+Size: 2460
+MD5sum: c01e3278aa03e421b7e14c2525b8dfc7
+SHA1: 7ccef097e2641d7e88b70a11af5c11242f6bf855
+SHA256: 618a4197cfc4b50f7ec9909dc9369f6bf7193f2c161a5ffd5cf366c7379b0bdf
 Description: Signed Generic Linux kernel image
 Description-md5: 9f06dc406adf6813c92d1a1173d6e913
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -35998,13 +36598,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: all
 Source: linux-meta
-Version: 3.2.0.45.54
+Version: 3.2.0.48.58
 Depends: linux-source-3.2.0
-Filename: pool/main/l/linux-meta/linux-source_3.2.0.45.54_all.deb
-Size: 2460
-MD5sum: 455d055440532a80fb28ddc201fce711
-SHA1: 436383c08ff817e9f5083bf679a11e9de16762e1
-SHA256: 77b00c0f863a5ffe3bddfa13eb72621d8d4604cd67d05d6eb796940e7c961d71
+Filename: pool/main/l/linux-meta/linux-source_3.2.0.48.58_all.deb
+Size: 2346
+MD5sum: 479b5f8b30c0bce95e3baa731183ad7b
+SHA1: ee502a5b1ec500668e07efd63983610cd4cbd834
+SHA256: 0ac756fc6750226d86ac89ddd913a2e483db763932cbaa40d53b21970aeb7141
 Description: Linux kernel source with Ubuntu patches
 Description-md5: 1cac084d2ae18dfd06b96585b4be564d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -36448,6 +37048,29 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-source-3.2.0
+Priority: optional
+Section: devel
+Installed-Size: 87525
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: all
+Source: linux
+Version: 3.2.0-48.74
+Provides: linux-source, linux-source-3
+Depends: binutils, bzip2, coreutils | fileutils (>= 4.0)
+Recommends: libc-dev, gcc, make
+Suggests: libncurses-dev | ncurses-dev, kernel-package, libqt3-dev
+Filename: pool/main/l/linux/linux-source-3.2.0_3.2.0-48.74_all.deb
+Size: 82064984
+MD5sum: 1c982b9a6553edd516919a47e649ff70
+SHA1: 24239c52ef8c59ac32a6173d49d958905266509b
+SHA256: 8466346f4a952c919b00f3281aa378759a77088041f89d3fb3f9c78812fd140c
+Description: Linux kernel source for version 3.2.0 with Ubuntu patches
+Description-md5: 4bcc942bb238c969d25361770106e5e8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
 Package: linux-tools
 Priority: optional
 Section: kernel
@@ -36455,13 +37078,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-tools-3.2.0-45
-Filename: pool/main/l/linux-meta/linux-tools_3.2.0.45.54_amd64.deb
-Size: 2468
-MD5sum: 4a2b08203efd01cf6a342ce46a23781a
-SHA1: dab92af3cb3b48bde388d135a1296bcd25676c6d
-SHA256: 033d47f9446a66761b89fdd240293c0dc8ad277c92720362d27a89c560460482
+Version: 3.2.0.48.58
+Depends: linux-tools-3.2.0-48
+Filename: pool/main/l/linux-meta/linux-tools_3.2.0.48.58_amd64.deb
+Size: 2352
+MD5sum: af5f294f633671774aa0bd586e309c75
+SHA1: f3708f39e19325105c53084f11c593b408019ee2
+SHA256: dcc105275883214c28073b752e7e2468e59bfe143caed1872f2a6758ad86d5e9
 Description: Linux kernel versioned Tools
 Description-md5: ea15db5fd6e3e3cff13446d5e28af7c8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -36848,6 +37471,25 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-tools-3.2.0-48
+Priority: optional
+Section: devel
+Installed-Size: 908
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux
+Version: 3.2.0-48.74
+Depends: libc6 (>= 2.14), libdw1 (>= 0.143), libelf1 (>= 0.131), libnewt0.52, libslang2 (>= 2.0.7-1), linux-tools-common
+Filename: pool/main/l/linux/linux-tools-3.2.0-48_3.2.0-48.74_amd64.deb
+Size: 333252
+MD5sum: 9562255cfb17c1f1af0aad52f4eeecce
+SHA1: 0181f4978a8dff585e996f70bbb72ff6c9ddb455
+SHA256: b73755a795fb3edf2a8840e694338d77436215ba4e0f3d4cf35cc57d873ce6b6
+Description: Linux kernel version specific tools for version 3.2.0-48
+Description-md5: 2187ad4fe7cb13a79d3fa7ab52db7acf
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: linux-tools-3.5.0-23
 Priority: optional
 Section: devel
@@ -37007,6 +37649,25 @@ Description-md5: 97d6019ae5efb1f8dec93eb6214110e1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
+
+Package: linux-tools-3.5.0-34
+Priority: optional
+Section: devel
+Installed-Size: 1046
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-lts-quantal
+Version: 3.5.0-34.55~precise1
+Depends: libc6 (>= 2.14), libdw1 (>= 0.143), libelf1 (>= 0.131), libnewt0.52, libslang2 (>= 2.0.7-1), linux-tools-common
+Filename: pool/main/l/linux-lts-quantal/linux-tools-3.5.0-34_3.5.0-34.55~precise1_amd64.deb
+Size: 401214
+MD5sum: 1f3b8e585512cd01862fa6cddfb63f3c
+SHA1: 69b612138fb9e2c5672e353c95571f9d500e2d97
+SHA256: 19dd30aee5c25fc71308a9a9126702e36991a9e1f446f81b3bc7f9cd711c7476
+Description: Linux kernel version specific tools for version 3.5.0-34
+Description-md5: 6a47780b0eb0d7419cae09a8e847f468
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
 
 Package: linux-tools-3.8.0-19
 Priority: optional
@@ -37468,6 +38129,26 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 
+Package: linux-tools-common
+Priority: optional
+Section: kernel
+Installed-Size: 246
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: all
+Source: linux
+Version: 3.2.0-48.74
+Replaces: linux-tools (<= 2.6.32-16.25)
+Filename: pool/main/l/linux/linux-tools-common_3.2.0-48.74_all.deb
+Size: 67566
+MD5sum: e46b0c40e40e7f202634c187c08fbb43
+SHA1: e5fbf51dc8ee9c01533c1d79282e447e13684049
+SHA256: 3f295f4886bcd8f689754a8d5d17c13de76132361703b620518b0be2b1c87e97
+Description: Linux kernel version specific tools for version 3.2.0
+Description-md5: bb157dbc2ad1792e43aba537834eef67
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
 Package: linux-tools-lts-quantal
 Priority: optional
 Section: kernel
@@ -37475,13 +38156,13 @@ Installed-Size: 27
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-lts-quantal
-Version: 3.5.0.32.39
-Depends: linux-tools-3.5.0-32
-Filename: pool/main/l/linux-meta-lts-quantal/linux-tools-lts-quantal_3.5.0.32.39_amd64.deb
-Size: 2482
-MD5sum: 9036037d43a50aae983aee56f0f8b496
-SHA1: aa488118f730f5726287f9400d0b3d700827f872
-SHA256: 36760190de77db8a4320c607198d0bd5babb31d04462a8de8b9a9d204c0b00cd
+Version: 3.5.0.34.41
+Depends: linux-tools-3.5.0-34
+Filename: pool/main/l/linux-meta-lts-quantal/linux-tools-lts-quantal_3.5.0.34.41_amd64.deb
+Size: 2400
+MD5sum: 93c6818d33692ba42bb39e9969545663
+SHA1: 6640893dcf3949d1bd13e9cdb6cf270a0a85fd51
+SHA256: 5648eb4507a821deef319938f3175bc21c4dd7e69126d3e33b4fd3b5fec61f89
 Description: Linux kernel versioned Tools
 Description-md5: ea15db5fd6e3e3cff13446d5e28af7c8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -37515,13 +38196,13 @@ Installed-Size: 32
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 3.2.0.45.54
-Depends: linux-image-virtual (= 3.2.0.45.54), linux-headers-virtual (= 3.2.0.45.54)
-Filename: pool/main/l/linux-meta/linux-virtual_3.2.0.45.54_amd64.deb
-Size: 1756
-MD5sum: 6943bca48fac87d40351dcefc9e79712
-SHA1: 86ee608b4666ed1e6ea8d001d0ef8330e09e36e5
-SHA256: 4a5c3c8626c86991d67bf8c743e475916cbf6628b521f747588d468f859d47cd
+Version: 3.2.0.48.58
+Depends: linux-image-virtual (= 3.2.0.48.58), linux-headers-virtual (= 3.2.0.48.58)
+Filename: pool/main/l/linux-meta/linux-virtual_3.2.0.48.58_amd64.deb
+Size: 1758
+MD5sum: 420c7d91493a64c9509e742ef2d1a0eb
+SHA1: 0913c62bbadb8a0adb8721f064929256a527e818
+SHA256: 7074cb6458d6a6ff78af0ad8f504f431682fccc8424c2d5b8ec87d1a565226b0
 Description: Complete Linux kernel for virtual machines
 Description-md5: 1fcefd4617bb67b6504e23a73590a356
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
