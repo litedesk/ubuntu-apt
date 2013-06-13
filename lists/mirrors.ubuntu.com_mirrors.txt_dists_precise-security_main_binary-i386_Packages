@@ -1504,14 +1504,14 @@ Installed-Size: 979
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Version: 1.4.18-1ubuntu1.3
+Version: 1.4.18-1ubuntu1.4
 Depends: libc6 (>= 2.10), libdbus-1-3 (>= 1.0.2), libexpat1 (>= 1.95.8), libselinux1 (>= 1.32), upstart-job, adduser, lsb-base (>= 3.2-14), upstart (>= 0.6.3-6), netbase (>= 4.45ubuntu3)
 Suggests: dbus-x11
-Filename: pool/main/d/dbus/dbus_1.4.18-1ubuntu1.3_i386.deb
-Size: 367246
-MD5sum: bcb30f9ccaddae4d7c8e790138886307
-SHA1: e028b28e0f11a488106a3013e87ae47cf44e4d3d
-SHA256: f334f155e070194512a2a1b8346d79e368f50a65c3687111cfd0016b5ffee704
+Filename: pool/main/d/dbus/dbus_1.4.18-1ubuntu1.4_i386.deb
+Size: 368020
+MD5sum: c00471fbf0f986bccedc81daa4125fb9
+SHA1: 8eea9c59409070e004001c48875d2b64e7dfa704
+SHA256: 1c31b58371a15923887889454459fe03dd3142b260649c8de861f53c19b6bfd3
 Description: simple interprocess messaging system (daemon and utilities)
 Multi-Arch: foreign
 Homepage: http://dbus.freedesktop.org/
@@ -1524,19 +1524,19 @@ Task: standard, kubuntu-active, mythbuntu-frontend, mythbuntu-frontend, mythbunt
 Package: dbus-1-dbg
 Priority: extra
 Section: debug
-Installed-Size: 12702
+Installed-Size: 14752
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Source: dbus
-Version: 1.4.18-1ubuntu1.3
-Depends: libdbus-1-3 (= 1.4.18-1ubuntu1.3), dbus (= 1.4.18-1ubuntu1.3), dbus-x11 (= 1.4.18-1ubuntu1.3), libc6 (>= 2.15), libdbus-glib-1-2 (>= 0.78), libexpat1 (>= 1.95.8), libglib2.0-0 (>= 2.31.8), libselinux1 (>= 1.32), libx11-6
+Version: 1.4.18-1ubuntu1.4
+Depends: libdbus-1-3 (= 1.4.18-1ubuntu1.4), dbus (= 1.4.18-1ubuntu1.4), dbus-x11 (= 1.4.18-1ubuntu1.4), libc6 (>= 2.15), libdbus-glib-1-2 (>= 0.78), libexpat1 (>= 1.95.8), libglib2.0-0 (>= 2.31.8), libselinux1 (>= 1.32), libx11-6
 Pre-Depends: multiarch-support
-Filename: pool/main/d/dbus/dbus-1-dbg_1.4.18-1ubuntu1.3_i386.deb
-Size: 5126596
-MD5sum: 7a975b5bef5063b0a4ad7bdf6e89f28b
-SHA1: 91b345c211b9db87c78b4c13c9ec934c8b742dfd
-SHA256: 64c985e06e4aace17cc5d1712810db85e1b141c59abdd269a60819755379ec62
+Filename: pool/main/d/dbus/dbus-1-dbg_1.4.18-1ubuntu1.4_i386.deb
+Size: 5971104
+MD5sum: 3afd0d5d6a87a5a2fb19b8e8ed7d9b88
+SHA1: 2f78a9163f1f1e154bb432db3ab18364b6206216
+SHA256: 53de8a5d5866143f42fdde259a8e35060264909ec3382ae5e531db6adf895aa2
 Description: simple interprocess messaging system (debug symbols)
 Homepage: http://dbus.freedesktop.org/
 Description-md5: 8e652fad9ff7afdabd20cb27b87476a9
@@ -1547,18 +1547,18 @@ Supported: 18m
 Package: dbus-1-doc
 Priority: optional
 Section: doc
-Installed-Size: 14295
+Installed-Size: 14296
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: all
 Source: dbus
-Version: 1.4.18-1ubuntu1.3
+Version: 1.4.18-1ubuntu1.4
 Suggests: libdbus-1-dev
-Filename: pool/main/d/dbus/dbus-1-doc_1.4.18-1ubuntu1.3_all.deb
-Size: 2132990
-MD5sum: e33e3e93e9320bb5768142d03fc4ede9
-SHA1: cecef6e20a8ffdf511ca438f281084ea470e4cd1
-SHA256: c8f4e950e727a61cbd1dda9e38ea30b01b8622af188fd5795f23a00cc5184d93
+Filename: pool/main/d/dbus/dbus-1-doc_1.4.18-1ubuntu1.4_all.deb
+Size: 2137058
+MD5sum: a3557376e4895b0d0821f67ed5627058
+SHA1: b7b5105aa5379ab1a6c3df468a30d6e6d62b237b
+SHA256: 23b8a3b63c7ec870197def761750fceb35b0b21c31886ecf7ad0e2c5db27e1f9
 Description: simple interprocess messaging system (documentation)
 Homepage: http://dbus.freedesktop.org/
 Description-md5: 4ff746780e6dca0a27147236301ca4fd
@@ -1574,14 +1574,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Source: dbus
-Version: 1.4.18-1ubuntu1.3
+Version: 1.4.18-1ubuntu1.4
 Depends: libc6 (>= 2.15), libx11-6, dbus
 Breaks: x11-common (<< 1:7.5+4)
-Filename: pool/main/d/dbus/dbus-x11_1.4.18-1ubuntu1.3_i386.deb
-Size: 21562
-MD5sum: ed8edeea40c81d48e7ed0bdc9048ba35
-SHA1: 2fe8b32ca9c201a1c0dcaec14a04ed1a08b253fe
-SHA256: 9261830d19d6cdc344c04d22f4146c062585090aadfd1df9632871bb9f87513d
+Filename: pool/main/d/dbus/dbus-x11_1.4.18-1ubuntu1.4_i386.deb
+Size: 21516
+MD5sum: eeeadad5fc2357138e5f8449b470caca
+SHA1: e04a0b231c8fe8149a211fe0db02e570236dcaac
+SHA256: cf1977576d2808f961ce16b59339dd75d580472b90963c5d9aea13bf6b2aaacd
 Description: simple interprocess messaging system (X11 deps)
 Multi-Arch: foreign
 Homepage: http://dbus.freedesktop.org/
@@ -8064,16 +8064,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Source: dbus
-Version: 1.4.18-1ubuntu1.3
+Version: 1.4.18-1ubuntu1.4
 Depends: libc6 (>= 2.10)
 Pre-Depends: multiarch-support
 Recommends: dbus
 Breaks: kde-window-manager (<< 4:4.4.5-9), kdebase-workspace-bin (<< 4:4.4.5-9)
-Filename: pool/main/d/dbus/libdbus-1-3_1.4.18-1ubuntu1.3_i386.deb
-Size: 147992
-MD5sum: 5132a5605a36ee7a3aa052c011b8c21b
-SHA1: 3980d97db9d3efb8e2ad3ca6f1cb90095a06b3fb
-SHA256: 3809e70841c507ae478d4252d5d2ca99dc461302b467ed320a240b9a78b70032
+Filename: pool/main/d/dbus/libdbus-1-3_1.4.18-1ubuntu1.4_i386.deb
+Size: 148324
+MD5sum: 6a6089a6fe610984db104747a42f1e67
+SHA1: 973b3bf15bf57f227b23c7b8c7b20ab272e245ca
+SHA256: 5ffb97f0c22bd5684893da2ed00aa0166bc47a3f8c21ace252d3190e7c320738
 Description: simple interprocess messaging system (library)
 Multi-Arch: same
 Homepage: http://dbus.freedesktop.org/
@@ -8091,13 +8091,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Source: dbus
-Version: 1.4.18-1ubuntu1.3
-Depends: libdbus-1-3 (= 1.4.18-1ubuntu1.3), pkg-config
-Filename: pool/main/d/dbus/libdbus-1-dev_1.4.18-1ubuntu1.3_i386.deb
-Size: 212172
-MD5sum: 811fe0ff7d20ffe6dc0aea3827208cb2
-SHA1: 72e47beee63378c8b57d375cfc50eefda6280bd6
-SHA256: 9bc392b0d52ae0c859e0c7e747d7afda7294023df38db489287cf4db81b1c432
+Version: 1.4.18-1ubuntu1.4
+Depends: libdbus-1-3 (= 1.4.18-1ubuntu1.4), pkg-config
+Filename: pool/main/d/dbus/libdbus-1-dev_1.4.18-1ubuntu1.4_i386.deb
+Size: 212108
+MD5sum: 2f5306a7a80e4ef9cd96036f1602c51b
+SHA1: 668e6e4b8d4abffaf118123c52ae8358b0fed0e4
+SHA256: cafdefe055e2250d20dc49782a0906066f38a9f1222db9e0bc11ee36974c0bc1
 Description: simple interprocess messaging system (development headers)
 Homepage: http://dbus.freedesktop.org/
 Description-md5: 59e71e7e764b950dc1184788af416a7e
@@ -27983,6 +27983,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 73db8ef2303125c9047e40e1fe3e2ee3
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.3-3.2.0-48-generic-pae
 Priority: optional
@@ -28004,6 +28005,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86
 Description-md5: c0f3bf127dc10561d470fa49e4b507ff
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.3-3.2.0-48-virtual
 Priority: optional
@@ -28025,6 +28027,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 00ffa7648ab3e2c8c1e6663d8aad0014
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.3-precise-generic
 Priority: optional
@@ -28935,6 +28938,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 9a436bc04bffb78038f22b6b3fca07e9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.4-3.2.0-48-generic-pae
 Priority: optional
@@ -28956,6 +28960,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86
 Description-md5: 635f803949145cc57e66124c9ced3685
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.4-3.2.0-48-virtual
 Priority: optional
@@ -28977,6 +28982,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 619b8cfa92495a39b56a5a0d43236544
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.4-precise-generic
 Priority: optional
@@ -29761,6 +29767,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 5b4d2a2590e892983edb3216437319ef
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.5-3.2.0-48-generic-pae
 Priority: optional
@@ -29782,6 +29789,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86
 Description-md5: ee5bfe5fac7ca8be9fe5067317f79623
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.5-3.2.0-48-virtual
 Priority: optional
@@ -29803,6 +29811,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 17a5043ec6a46b4b3f1fdbd386019b9c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.5-precise-generic
 Priority: optional
@@ -30587,6 +30596,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 6865b8508f4a1ed3d2809094857d6bb8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.6-3.2.0-48-generic-pae
 Priority: optional
@@ -30608,6 +30618,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86
 Description-md5: d484be944f48d0898e8f0233cc5c539d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.6-3.2.0-48-virtual
 Priority: optional
@@ -30629,6 +30640,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: eb82d22f23a4d6b9dcc378052bc62dd4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.6-precise-generic
 Priority: optional
@@ -30951,6 +30963,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: e29da41f0a91f5fc892aa1a0290a1699
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.7-3.2.0-48-generic-pae
 Priority: optional
@@ -30972,6 +30985,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86
 Description-md5: 444ded10b76afb39ebea79434e551314
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.7-3.2.0-48-virtual
 Priority: optional
@@ -30993,6 +31007,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 0b9300592604c04fbd935f74249ad3d6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.7-precise-generic
 Priority: optional
@@ -31315,6 +31330,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 2830dd8ae5bbe6dc9a373aaf46846274
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.8-3.2.0-48-generic-pae
 Priority: optional
@@ -31336,6 +31352,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86
 Description-md5: 19524e32072262087abf291674c077dc
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.8-3.2.0-48-virtual
 Priority: optional
@@ -31357,6 +31374,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 46e3d488e543dc85651b4c35a274c235
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-cw-3.8-precise-generic
 Priority: optional
@@ -32087,6 +32105,7 @@ Description: Linux Hyper-V updates for version 3.2.0 on x86/x86_64
 Description-md5: 584d26d2fb9d908b1347de788f4c1d7c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-hv-3.2.0-48-generic-pae
 Priority: optional
@@ -32107,6 +32126,7 @@ Description: Linux Hyper-V updates for version 3.2.0 on x86
 Description-md5: 9effa5e4cb60d20d2db08d715ddb7411
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-hv-3.2.0-48-virtual
 Priority: optional
@@ -32127,6 +32147,7 @@ Description: Linux Hyper-V updates for version 3.2.0 on x86/x86_64
 Description-md5: ea71f70aba46c0a7c65b47def1ba8e9d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-hv-precise-generic
 Priority: optional
@@ -33215,6 +33236,7 @@ Description: Linux ethernet modules for version 3.2.0 on x86/x86_64
 Description-md5: 4d4431774a9f24406f76ad316b7cf886
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-net-3.2.0-48-generic-pae
 Priority: optional
@@ -33235,6 +33257,7 @@ Description: Linux ethernet modules for version 3.2.0 on x86
 Description-md5: 7ccd4ca55ca84885ede7c9bc4a9307d0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-net-3.2.0-48-virtual
 Priority: optional
@@ -33255,6 +33278,7 @@ Description: Linux ethernet modules for version 3.2.0 on x86/x86_64
 Description-md5: cf911955d3cf668358081fb8e8acd9f6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-backports-modules-net-precise-generic
 Priority: optional
@@ -35495,6 +35519,7 @@ Description: Header files related to Linux kernel version 3.2.0
 Description-md5: 8da287baebbe5303b8b2089970695f23
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-3.2.0-48-generic
 Priority: optional
@@ -35515,6 +35540,7 @@ Description: Linux kernel headers for version 3.2.0 on 32 bit x86 SMP
 Description-md5: 226b20f39ce3a2cc97759a773f5e465d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-3.2.0-48-generic-pae
 Priority: optional
@@ -35535,6 +35561,7 @@ Description: Linux kernel headers for version 3.2.0 on 32 bit x86 SMP
 Description-md5: 226b20f39ce3a2cc97759a773f5e465d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-3.2.0-48-virtual
 Priority: optional
@@ -35555,6 +35582,7 @@ Description: Linux kernel headers for version 3.2.0 on 32 bit x86 Virtual Guests
 Description-md5: 27c0bf9fd8f1a88c5431864debcfd4e2
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-3.5.0-19
 Priority: optional
@@ -36014,6 +36042,7 @@ Description: Header files related to Linux kernel version 3.5.0
 Description-md5: 0ccf52692953cfe4ab51ec491cc344ba
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-headers-3.5.0-34-generic
 Priority: optional
@@ -36033,6 +36062,7 @@ Description: Linux kernel headers for version 3.5.0 on 32 bit x86 SMP
 Description-md5: 2f7a0275c7a0d72b874f4be97a4ce79b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-headers-3.8.0-19
 Priority: optional
@@ -37307,6 +37337,7 @@ Description: Header files related to linux-backports-modules version 3.2.0
 Description-md5: 6de8da4d93225d253ac9bb0ef3dbf8e7
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-lbm-3.2.0-48-generic-pae
 Priority: optional
@@ -37327,6 +37358,7 @@ Description: Header files related to linux-backports-modules version 3.2.0
 Description-md5: 6de8da4d93225d253ac9bb0ef3dbf8e7
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-lbm-3.2.0-48-virtual
 Priority: optional
@@ -37347,6 +37379,7 @@ Description: Header files related to linux-backports-modules version 3.2.0
 Description-md5: 6de8da4d93225d253ac9bb0ef3dbf8e7
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-headers-server
 Priority: optional
@@ -38876,6 +38909,7 @@ Description: Linux kernel image for version 3.2.0 on 32 bit x86 SMP
 Description-md5: a9da3266ff97ecb0976fd0ca6b39ba7a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-image-3.2.0-48-generic-pae
 Priority: optional
@@ -38900,6 +38934,7 @@ Description: Linux kernel image for version 3.2.0 on 32 bit x86 SMP
 Description-md5: 6933e2e147995585ec031363c324e950
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-image-3.2.0-48-virtual
 Priority: optional
@@ -38924,6 +38959,7 @@ Description: Linux kernel image for version 3.2.0 on 32 bit x86 Virtual Guests
 Description-md5: 80e56a3feb0e9c87f2bead9765fd50a9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-image-3.5.0-19-generic
 Priority: optional
@@ -39211,6 +39247,7 @@ Description: Linux kernel image for version 3.5.0 on 32 bit x86 SMP
 Description-md5: eeaa119f302f70c1a8950e18fdeea032
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-image-3.8.0-19-generic
 Priority: optional
@@ -39730,6 +39767,7 @@ Description: Linux kernel image for version 3.2.0 on 32 bit x86 Virtual Guests
 Description-md5: 80e56a3feb0e9c87f2bead9765fd50a9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-image-extra-virtual
 Priority: optional
@@ -40834,6 +40872,7 @@ Description: Linux kernel version specific tools for version 3.2.0-48
 Description-md5: 127ce39e58b5eeb819fe54f9446a58ae
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 5y
 
 Package: linux-tools-3.5.0-23
 Priority: optional
@@ -41013,6 +41052,7 @@ Description: Linux kernel version specific tools for version 3.5.0-34
 Description-md5: 8cf6fbe9b827d40a5e20fc6f3a4e88f2
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
+Supported: 18m
 
 Package: linux-tools-3.8.0-19
 Priority: optional
