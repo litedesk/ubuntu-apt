@@ -34492,6 +34492,22 @@ Description-en: Linux kernel headers for version 3.8.0 on 64 bit x86 SMP
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-3.8.0-23/debian.README.gz for details.
 
+Package: linux-headers-3.8.0-25
+Description-md5: 279694cc35d49bb84d6057b4c9e91ea0
+Description-en: Header files related to Linux kernel version 3.8.0
+ This package provides kernel header files for version 3.8.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-lts-raring-headers-3.8.0-25/debian.README.gz for details
+
+Package: linux-headers-3.8.0-25-generic
+Description-md5: 38a7fd0f217ee95e37cd8f3e6791c1b8
+Description-en: Linux kernel headers for version 3.8.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 3.8.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.8.0-25/debian.README.gz for details.
+
 Package: linux-headers-generic
 Description-md5: 9c9742ab9c289b1e900fab477bc0070d
 Description-en: Generic Linux kernel headers
@@ -35838,6 +35854,24 @@ Description-en: Linux kernel image for version 3.8.0 on 64 bit x86 SMP
  the linux-generic meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-image-3.8.0-25-generic
+Description-md5: 8fdb63eed7d5ffa69b80014b40501775
+Description-en: Linux kernel image for version 3.8.0 on 64 bit x86 SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-image-current-generic
 Description-md5: 91c34f8ac5e684a4fb359b76335a5f39
 Description-en: Depends on the most recently released generic kernel image and headers.
@@ -36405,6 +36439,12 @@ Description-en: Signed kernel image generic
  A kernel image for generic.  This version of it is signed with
  Canonical's UEFI signing key.
 
+Package: linux-signed-image-3.8.0-25-generic
+Description-md5: 58606405946683c4d2ca4f105784fd91
+Description-en: Signed kernel image generic
+ A kernel image for generic.  This version of it is signed with
+ Canonical's UEFI signing key.
+
 Package: linux-signed-image-generic-lts-quantal
 Description-md5: 9f06dc406adf6813c92d1a1173d6e913
 Description-en: Signed Generic Linux kernel image
@@ -36733,6 +36773,14 @@ Description-en: Linux kernel version specific tools for version 3.8.0-23
  This package provides the architecture dependant parts for kernel
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 3.8.0-23 on
+ 64 bit x86.
+
+Package: linux-tools-3.8.0-25
+Description-md5: a505b07a96ef91d70028bb7bee1d77e6
+Description-en: Linux kernel version specific tools for version 3.8.0-25
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 3.8.0-25 on
  64 bit x86.
 
 Package: linux-tools-common
@@ -50452,6 +50500,15 @@ Description-en: Linux kernel headers for version 3.8.0 on 32 bit x86 SMP
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-3.8.0-23/debian.README.gz for details.
 
+Package: linux-headers-3.8.0-25-generic
+Description-md5: 4aa2d8e3352a8f080cef318924bd5fb1
+Description-en: Linux kernel headers for version 3.8.0 on 32 bit x86 SMP
+ This package provides kernel header files for version 3.8.0 on
+ 32 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.8.0-25/debian.README.gz for details.
+
 Package: linux-headers-generic-pae
 Description-md5: 9c9742ab9c289b1e900fab477bc0070d
 Description-en: Generic Linux kernel headers
@@ -52027,6 +52084,24 @@ Description-en: Linux kernel image for version 3.8.0 on 32 bit x86 SMP
  the linux-generic meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-image-3.8.0-25-generic
+Description-md5: d7891e7bf108bf056e7f29fce10ead08
+Description-en: Linux kernel image for version 3.8.0 on 32 bit x86 SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 32 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-image-extra-3.2.0-25-virtual
 Description-md5: 80e56a3feb0e9c87f2bead9765fd50a9
 Description-en: Linux kernel image for version 3.2.0 on 32 bit x86 Virtual Guests
@@ -52663,6 +52738,14 @@ Description-en: Linux kernel version specific tools for version 3.8.0-23
  This package provides the architecture dependant parts for kernel
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 3.8.0-23 on
+ 32 bit x86.
+
+Package: linux-tools-3.8.0-25
+Description-md5: d5e83ee00b8f7c4e11d1b7a8788e6730
+Description-en: Linux kernel version specific tools for version 3.8.0-25
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 3.8.0-25 on
  32 bit x86.
 
 Package: xserver-xorg-video-geode-lts-quantal
