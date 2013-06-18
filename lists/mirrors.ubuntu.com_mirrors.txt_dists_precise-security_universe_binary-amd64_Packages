@@ -1785,17 +1785,17 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: all
 Source: meta-kde
-Version: 5:71~pre15ubuntu12.3
+Version: 5:71~pre15ubuntu12.5
 Provides: kde-software-compilation
-Depends: kde-plasma-desktop (>= 5:71~pre15ubuntu12.3), kde-plasma-netbook (>= 5:71~pre15ubuntu12.3), kdeadmin (>= 4:4.8.2), kdeartwork (>= 4:4.8.2), kdegraphics (>= 4:4.8.2), kdeedu (>= 4:4.8.2), kdegames (>= 4:4.8.2), kdemultimedia (>= 4:4.8.2), kdenetwork (>= 4:4.8.2), kdeutils (>= 4:4.8.2), kdepim (>= 4:4.8.2), kdeplasma-addons (>= 4:4.8.2)
-Recommends: kde-standard (>= 5:71~pre15ubuntu12.3), kdeaccessibility (>= 4:4.8.2), kdesdk (>= 4:4.8.2), kdetoys (>= 4:4.8.2), kdewebdev (>= 4:4.8.2)
+Depends: kde-plasma-desktop (>= 5:71~pre15ubuntu12.5), kde-plasma-netbook (>= 5:71~pre15ubuntu12.5), kdeadmin (>= 4:4.8.2), kdeartwork (>= 4:4.8.2), kdegraphics (>= 4:4.8.2), kdeedu (>= 4:4.8.2), kdegames (>= 4:4.8.2), kdemultimedia (>= 4:4.8.2), kdenetwork (>= 4:4.8.2), kdeutils (>= 4:4.8.2), kdepim (>= 4:4.8.2), kdeplasma-addons (>= 4:4.8.2)
+Recommends: kde-standard (>= 5:71~pre15ubuntu12.5), kdeaccessibility (>= 4:4.8.2), kdesdk (>= 4:4.8.2), kdetoys (>= 4:4.8.2), kdewebdev (>= 4:4.8.2)
 Suggests: calligra (>= 1:2.3.87), xorg
 Breaks: kde-minimal (<< 5:57)
-Filename: pool/universe/m/meta-kde/kde-full_71~pre15ubuntu12.3_all.deb
-Size: 1908
-MD5sum: 557a1b6056643e9084eb09fc08efba2a
-SHA1: c51a7187a9a93abec15417ce91b7ac95b860322c
-SHA256: 4ea8a17a72b79efa0c55aef2b2a60ef36f5ee855064d487fe7d9d3263523fc78
+Filename: pool/universe/m/meta-kde/kde-full_71~pre15ubuntu12.5_all.deb
+Size: 1910
+MD5sum: baa19db04c05ae469c8fb11741a26def
+SHA1: fa4e06ac6146d0ef33a9dc1d7bd60cae3b96c86b
+SHA256: bbb592a2b06ee229e6762f6b9b23436bd231f46e495ffa6078ec5e58188adebb
 Description: complete KDE Software Compilation for end users
 Homepage: http://www.kde.org
 Description-md5: 2a5a2a91383527e4dbde0d70f736a8b7
@@ -1810,15 +1810,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: amd64
 Source: meta-kde
-Version: 5:71~pre15ubuntu12.3
+Version: 5:71~pre15ubuntu12.5
 Depends: kde-runtime (>= 4:4.8.2), plasma-desktop (>= 4:4.8.2), kde-workspace (>= 4:4.8.2), kde-baseapps (>= 4:4.8.2), udisks, upower
 Recommends: kdm (>= 4:4.8.2), xserver-xorg
 Breaks: kde-minimal (<< 5:57)
-Filename: pool/universe/m/meta-kde/kde-plasma-desktop_71~pre15ubuntu12.3_amd64.deb
-Size: 2702
-MD5sum: 367251b70f691675e79426677caa8149
-SHA1: 3309ae4ef0b03c9376bf9322ee684e48cffa2275
-SHA256: 488ca2f003aa456462490b3c5cd1a260c677f0961f4bd2d447c8a94ea860a943
+Filename: pool/universe/m/meta-kde/kde-plasma-desktop_71~pre15ubuntu12.5_amd64.deb
+Size: 2634
+MD5sum: bc83592cbcabccf4edc3c7a9a3e3da0c
+SHA1: 6b541a5ef84eee9652a9d21be3174e0a2183d88c
+SHA256: 2b5f45dd982199b2dceae83c2fa53f4657f72995127256bfdf2e1181b556021a
 Description: KDE Plasma Desktop and minimal set of applications
 Homepage: http://www.kde.org
 Description-md5: dda525830e71382895be1bce7ba76f00
@@ -1833,15 +1833,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: amd64
 Source: meta-kde
-Version: 5:71~pre15ubuntu12.3
+Version: 5:71~pre15ubuntu12.5
 Depends: kde-runtime (>= 4:4.8.2), plasma-netbook (>= 4:4.8.2), kde-workspace (>= 4:4.8.2), kde-baseapps (>= 4:4.8.2), udisks, upower
 Recommends: kdm (>= 4:4.8.2), xserver-xorg
 Breaks: kde-minimal (<< 5:57)
-Filename: pool/universe/m/meta-kde/kde-plasma-netbook_71~pre15ubuntu12.3_amd64.deb
-Size: 2716
-MD5sum: 1796a95b1580feefa5ff505a30c7c981
-SHA1: 7448e329ec5d32b604e377bedd6d68862e4b5cf7
-SHA256: f02758b8cc2732fb4b895e7d1db4bed0e15b6adb95f00f89661036062ed5803e
+Filename: pool/universe/m/meta-kde/kde-plasma-netbook_71~pre15ubuntu12.5_amd64.deb
+Size: 2640
+MD5sum: 06afbcbe76b54687a5245fb987689d59
+SHA1: b1d1d19b6cf49b145a0a7f7c02fdc77f059dbd58
+SHA256: ca2b673af55b5744b937915eb7c5d520e1216b5d1998f54491c9ae1ad65724d4
 Description: KDE Plasma Netbook and minimal set of applications
 Homepage: http://www.kde.org
 Description-md5: 2f11ed53c75d97a81770bf82eaaf2d18
@@ -1856,16 +1856,16 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Architecture: all
 Source: meta-kde
-Version: 5:71~pre15ubuntu12.3
-Depends: kde-plasma-desktop (>= 5:71~pre15ubuntu12.3) | kde-plasma-netbook (>= 5:71~pre15ubuntu12.3), polkit-kde-1 (>= 0.99), ark (>= 4:4.8.2), dragonplayer (>= 4:4.8.2), gwenview (>= 4:4.8.2), juk (>= 4:4.8.2), kate (>= 4:4.8.2), kcalc (>= 4:4.8.2), kmail (>= 4:4.8.2), akregator (>= 4:4.8.2), kaddressbook (>= 4:4.8.2), kdeplasma-addons (>= 4:4.8.2), knotes (>= 4:4.8.2), kwalletmanager (>= 4:4.8.2), korganizer (>= 4:4.8.2), kopete (>= 4:4.8.2), kmix (>= 4:4.8.2), ksnapshot (>= 4:4.8.2), kscreensaver (>= 4:4.8.2), okular (>= 4:4.8.2), plasma-desktopthemes-artwork (>= 4:4.8.2), sweeper (>= 4:4.8.2), khelpcenter4 (>= 4:4.8.2)
+Version: 5:71~pre15ubuntu12.5
+Depends: kde-plasma-desktop (>= 5:71~pre15ubuntu12.5) | kde-plasma-netbook (>= 5:71~pre15ubuntu12.5), polkit-kde-1 (>= 0.99), ark (>= 4:4.8.2), dragonplayer (>= 4:4.8.2), gwenview (>= 4:4.8.2), juk (>= 4:4.8.2), kate (>= 4:4.8.2), kcalc (>= 4:4.8.2), kmail (>= 4:4.8.2), akregator (>= 4:4.8.2), kaddressbook (>= 4:4.8.2), kdeplasma-addons (>= 4:4.8.2), knotes (>= 4:4.8.2), kwalletmanager (>= 4:4.8.2), korganizer (>= 4:4.8.2), kopete (>= 4:4.8.2), kmix (>= 4:4.8.2), ksnapshot (>= 4:4.8.2), kscreensaver (>= 4:4.8.2), okular (>= 4:4.8.2), plasma-desktopthemes-artwork (>= 4:4.8.2), sweeper (>= 4:4.8.2), khelpcenter4 (>= 4:4.8.2)
 Recommends: konq-plugins (>= 4:4.8.2), plasma-widget-networkmanagement, freespacenotifier
-Suggests: kde-plasma-desktop (>= 5:71~pre15ubuntu12.3), kde-plasma-netbook (>= 5:71~pre15ubuntu12.3), skanlite
+Suggests: kde-plasma-desktop (>= 5:71~pre15ubuntu12.5), kde-plasma-netbook (>= 5:71~pre15ubuntu12.5), skanlite
 Breaks: kde-minimal (<< 5:57)
-Filename: pool/universe/m/meta-kde/kde-standard_71~pre15ubuntu12.3_all.deb
-Size: 1900
-MD5sum: e1a3dfb8aa7e76f7aa1d807c5210772f
-SHA1: 4a217134d0c90c60d5ca4e9c934254e78bdeea00
-SHA256: 98ce330d6b0ad15d55661542dd9053f84142e452f3849d42ff8d873f9fb208d9
+Filename: pool/universe/m/meta-kde/kde-standard_71~pre15ubuntu12.5_all.deb
+Size: 1904
+MD5sum: b9be41523d1b878f196a93abe2b2203b
+SHA1: edb9f0af33e51eeac72249c70a6ec86bdcd94d3a
+SHA256: 6303b150aa03a05feacb77086373e055a0a10c066c17d9d4ec9a0a57846eb6f8
 Description: KDE Plasma Desktop and standard set of applications
 Homepage: http://www.kde.org
 Description-md5: 22b1a1d202f3643155a96f5ad211c0fb
