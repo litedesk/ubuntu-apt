@@ -4917,6 +4917,42 @@ Description-en: MIT Kerberos runtime libraries - Kerberos database
  .
  This package contains the internal Kerberos database libraries.
 
+Package: libkdcraw-data
+Description-md5: 0901b30dcfa36dc530444e794644b407
+Description-en: RAW picture decoding library -- data files
+ Libkdcraw is a Qt interface to the libraw library used to decode
+ RAW picture files.
+ .
+ This package contains the data files of the kdcraw library.
+
+Package: libkdcraw-dev
+Description-md5: d7b69cc4dd00b28cab07331070e753f7
+Description-en: RAW picture decoding library -- development files
+ Libkdcraw is a Qt interface to the libraw library used to decode
+ RAW picture files.
+ .
+ This package contains the development files and the documentation.
+ The library documentation is available in the kdcraw.h header file.
+
+Package: libkdcraw20
+Description-md5: 744aea079b117b28ce037ac4efd8d346
+Description-en: RAW picture decoding library
+ Libkdcraw is a Qt interface to the libraw library used to decode
+ RAW picture files.
+ .
+ This library is used by kipi-plugins, digiKam, kphotoalbum, and krita.
+ .
+ libkdcraw20 contains the library of libkdcraw.
+
+Package: libkdcraw20-dbg
+Description-md5: 5dd7a96ef8d09af745a7b33828f2819d
+Description-en: RAW picture decoding library -- debugging symbols
+ Libkdcraw is a Qt interface to the libraw library used to decode
+ RAW picture files.
+ .
+ This package contains the debugging files used to investigate problems with
+ libkdcraw.
+
 Package: libkde3support4
 Description-md5: 991cc7b40c4c49f2141dd24fe02e64be
 Description-en: KDE 3 Support Library for the KDE 4 Platform
@@ -8165,6 +8201,30 @@ Description-en: Documentation for the Raptor RDF parser and serializer library
  .
  This package contains the HTML documentation for the Raptor library
  in /usr/share/doc/libraptor1-doc/ .
+
+Package: libraw-dev
+Description-md5: c5d75da67a9fd77fe2f4c9ff9bcc51c0
+Description-en: raw image decoder library (development files)
+ LibRaw is a library for reading RAW files obtained from digital photo cameras
+ (CRW/CR2, NEF, RAF, DNG, and others).
+ .
+ This package contains the static library and header files.
+
+Package: libraw-doc
+Description-md5: 40ee49077e6079579c20f569ac791566
+Description-en: raw image decoder library (documentation)
+ LibRaw is a library for reading RAW files obtained from digital photo cameras
+ (CRW/CR2, NEF, RAF, DNG, and others).
+ .
+ This package contains documentation files.
+
+Package: libraw5
+Description-md5: 436cf471e5e66b160c9d836328eeba54
+Description-en: raw image decoder library
+ LibRaw is a library for reading RAW files obtained from digital photo cameras
+ (CRW/CR2, NEF, RAF, DNG, and others).
+ .
+ This package contains the shared library.
 
 Package: libreoffice
 Description-md5: c7a3edb690e336d7d155ad680d5ffcd0

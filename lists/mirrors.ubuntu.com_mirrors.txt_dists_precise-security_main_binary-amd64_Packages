@@ -11059,6 +11059,100 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: libkdcraw-data
+Priority: optional
+Section: libs
+Installed-Size: 122
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: all
+Source: libkdcraw
+Version: 4:4.8.5-0ubuntu0.2
+Replaces: kdegraphics-libs-data (<< 4:4.6.80), libkdcraw8
+Breaks: kdegraphics-libs-data (<< 4:4.6.80), libkdcraw8
+Filename: pool/main/libk/libkdcraw/libkdcraw-data_4.8.5-0ubuntu0.2_all.deb
+Size: 32582
+MD5sum: 6d771af7e695591f975d5b5f93412844
+SHA1: 1c48541de2f483de7dfded1e56e5a7fd831aa399
+SHA256: 96020f4c95ad5c1bb7231a3d77dac796d8e1330990322ae7d1b5c49e8bb70dac
+Description: RAW picture decoding library -- data files
+Homepage: http://www.kde.org/
+Description-md5: 0901b30dcfa36dc530444e794644b407
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: kubuntu-full, kubuntu-active-full
+
+Package: libkdcraw-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 101
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: amd64
+Source: libkdcraw
+Version: 4:4.8.5-0ubuntu0.2
+Depends: libkdcraw20 (= 4:4.8.5-0ubuntu0.2), kdelibs5-dev (>= 4:4.8.1), pkg-config
+Conflicts: libkdcraw5-dev, libkdcraw7-dev, libkdcraw8-dev
+Filename: pool/main/libk/libkdcraw/libkdcraw-dev_4.8.5-0ubuntu0.2_amd64.deb
+Size: 14346
+MD5sum: 8632871c819734d93d7576c12194b7aa
+SHA1: 993f8c3e70c2d00953d35ed0019a26372340e302
+SHA256: faeed3d885bdc30eaa2d1e090c9762862af855a34c18909f14b0b6d25566dbd9
+Description: RAW picture decoding library -- development files
+Homepage: http://www.kde.org/
+Description-md5: d7b69cc4dd00b28cab07331070e753f7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libkdcraw20
+Priority: optional
+Section: libs
+Installed-Size: 957
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: amd64
+Source: libkdcraw
+Version: 4:4.8.5-0ubuntu0.2
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgomp1 (>= 4.2.1), libkdecore5 (>= 4:4.8.1), libkdeui5 (>= 4:4.8.1), libkio5 (>= 4:4.8.1), liblcms2-2 (>= 2.2+git20110628-2), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.4.0), libkdcraw-data (>= 4:4.8.5-0ubuntu0.2)
+Filename: pool/main/libk/libkdcraw/libkdcraw20_4.8.5-0ubuntu0.2_amd64.deb
+Size: 246700
+MD5sum: c895b54c96e175965acdc35e5f40ec77
+SHA1: 8510e82165fac224348bcf56c245bb6348692f20
+SHA256: 6129160a8bef2706764e632b122c65b379b0b0cb2e99689246a8f5c0dd45436d
+Description: RAW picture decoding library
+Homepage: http://www.kde.org/
+Description-md5: 744aea079b117b28ce037ac4efd8d346
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: kubuntu-full, kubuntu-active-full
+
+Package: libkdcraw20-dbg
+Priority: extra
+Section: debug
+Installed-Size: 2634
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: amd64
+Source: libkdcraw
+Version: 4:4.8.5-0ubuntu0.2
+Replaces: kdegraphics-dbg (<< 4:4.6.80)
+Depends: libkdcraw20 (= 4:4.8.5-0ubuntu0.2)
+Breaks: kdegraphics-dbg (<< 4:4.6.80)
+Filename: pool/main/libk/libkdcraw/libkdcraw20-dbg_4.8.5-0ubuntu0.2_amd64.deb
+Size: 611144
+MD5sum: 8182781e16b56fcb7ea1ddcffcabb8e2
+SHA1: 689ca59ab6efd105f10e806ec5abb77b72ed888f
+SHA256: 3b629c0811f000dcc1b1908f75cb7e20c029a6d9fd56be0ae9cf559a663a5248
+Description: RAW picture decoding library -- debugging symbols
+Homepage: http://www.kde.org/
+Description-md5: 5dd7a96ef8d09af745a7b33828f2819d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: libkde3support4
 Priority: optional
 Section: libs
@@ -18246,6 +18340,72 @@ Description-md5: 84ed5b4636f549b86171efefa5a5ae95
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
+
+Package: libraw-dev
+Priority: extra
+Section: libdevel
+Installed-Size: 1452
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Shotwell Maintainers <pkg-shotwell-maint@lists.alioth.debian.org>
+Architecture: amd64
+Source: libraw
+Version: 0.14.4-0ubuntu2.1
+Depends: libraw5 (= 0.14.4-0ubuntu2.1), liblcms2-dev
+Filename: pool/main/libr/libraw/libraw-dev_0.14.4-0ubuntu2.1_amd64.deb
+Size: 342506
+MD5sum: 68348b06b1019c50052285747075acb7
+SHA1: b5ddc00ee021af86f19fd34e5a1470886ae296f6
+SHA256: 759aa91128eb1d62035f95f3bd40dd64fabbcbd769c68b029a040f84341e9bee
+Description: raw image decoder library (development files)
+Homepage: http://www.libraw.org/
+Description-md5: c5d75da67a9fd77fe2f4c9ff9bcc51c0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libraw-doc
+Priority: optional
+Section: doc
+Installed-Size: 408
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Shotwell Maintainers <pkg-shotwell-maint@lists.alioth.debian.org>
+Architecture: all
+Source: libraw
+Version: 0.14.4-0ubuntu2.1
+Filename: pool/main/libr/libraw/libraw-doc_0.14.4-0ubuntu2.1_all.deb
+Size: 97666
+MD5sum: ecfd1314fd0a4533c3fc39bdd9ed0a8b
+SHA1: 7251e32ff5702d4bcdb4536b200715faabde71de
+SHA256: b9a5f0bfe5c8c0662735cd658dee4a33f32dbc0658b73ad15c3bb4f802d33f41
+Description: raw image decoder library (documentation)
+Homepage: http://www.libraw.org/
+Description-md5: 40ee49077e6079579c20f569ac791566
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libraw5
+Priority: optional
+Section: libs
+Installed-Size: 1213
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Shotwell Maintainers <pkg-shotwell-maint@lists.alioth.debian.org>
+Architecture: amd64
+Source: libraw
+Version: 0.14.4-0ubuntu2.1
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libjasper1, liblcms2-2 (>= 2.2+git20110628-2), libstdc++6 (>= 4.4.0)
+Filename: pool/main/libr/libraw/libraw5_0.14.4-0ubuntu2.1_amd64.deb
+Size: 316546
+MD5sum: 543b340c5f9da8cf0788ccb924f94afb
+SHA1: 8c67a3fb3b2c381afeae57ca9e095e40d7d46270
+SHA256: f813b8afa27e771525e982b0cf36db23f267ddfcad82802b4ac77ca41e94b24b
+Description: raw image decoder library
+Homepage: http://www.libraw.org/
+Description-md5: 436cf471e5e66b160c9d836328eeba54
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, ubuntustudio-desktop
 
 Package: libreoffice
 Priority: optional
@@ -27470,7 +27630,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 73db8ef2303125c9047e40e1fe3e2ee3
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.3-3.2.0-45-virtual
 Priority: optional
@@ -27492,7 +27652,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 00ffa7648ab3e2c8c1e6663d8aad0014
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.3-3.2.0-48-generic
 Priority: optional
@@ -28065,7 +28225,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 9a436bc04bffb78038f22b6b3fca07e9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.4-3.2.0-45-virtual
 Priority: optional
@@ -28087,7 +28247,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 619b8cfa92495a39b56a5a0d43236544
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.4-3.2.0-48-generic
 Priority: optional
@@ -28597,7 +28757,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 5b4d2a2590e892983edb3216437319ef
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.5-3.2.0-45-virtual
 Priority: optional
@@ -28619,7 +28779,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 17a5043ec6a46b4b3f1fdbd386019b9c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.5-3.2.0-48-generic
 Priority: optional
@@ -29129,7 +29289,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 6865b8508f4a1ed3d2809094857d6bb8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.6-3.2.0-45-virtual
 Priority: optional
@@ -29151,7 +29311,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: eb82d22f23a4d6b9dcc378052bc62dd4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.6-3.2.0-48-generic
 Priority: optional
@@ -29367,7 +29527,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: e29da41f0a91f5fc892aa1a0290a1699
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.7-3.2.0-45-virtual
 Priority: optional
@@ -29389,7 +29549,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 0b9300592604c04fbd935f74249ad3d6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.7-3.2.0-48-generic
 Priority: optional
@@ -29605,7 +29765,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 2830dd8ae5bbe6dc9a373aaf46846274
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.8-3.2.0-45-virtual
 Priority: optional
@@ -29627,7 +29787,7 @@ Description: compat-wireless Linux modules for version 3.2.0 on x86/x86_64
 Description-md5: 46e3d488e543dc85651b4c35a274c235
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-cw-3.8-3.2.0-48-generic
 Priority: optional
@@ -30110,7 +30270,7 @@ Description: Linux Hyper-V updates for version 3.2.0 on x86/x86_64
 Description-md5: 584d26d2fb9d908b1347de788f4c1d7c
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-hv-3.2.0-45-virtual
 Priority: optional
@@ -30131,7 +30291,7 @@ Description: Linux Hyper-V updates for version 3.2.0 on x86/x86_64
 Description-md5: ea71f70aba46c0a7c65b47def1ba8e9d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-hv-3.2.0-48-generic
 Priority: optional
@@ -30801,7 +30961,7 @@ Description: Linux ethernet modules for version 3.2.0 on x86/x86_64
 Description-md5: 4d4431774a9f24406f76ad316b7cf886
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-net-3.2.0-45-virtual
 Priority: optional
@@ -30822,7 +30982,7 @@ Description: Linux ethernet modules for version 3.2.0 on x86/x86_64
 Description-md5: cf911955d3cf668358081fb8e8acd9f6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-backports-modules-net-3.2.0-48-generic
 Priority: optional
@@ -32643,7 +32803,7 @@ Description: Header files related to Linux kernel version 3.2.0
 Description-md5: 6cab3559989e9407beb258276e67609b
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-3.2.0-45-generic
 Priority: optional
@@ -32664,7 +32824,7 @@ Description: Linux kernel headers for version 3.2.0 on 64 bit x86 SMP
 Description-md5: 87085ab03dbaec66da5eb4f35d373935
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-3.2.0-45-virtual
 Priority: optional
@@ -32685,7 +32845,7 @@ Description: Linux kernel headers for version 3.2.0 on 64 bit x86 Virtual Guests
 Description-md5: 293686d9187c49664a8608d1740e7519
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-3.2.0-48
 Priority: optional
@@ -34041,7 +34201,7 @@ Description: Header files related to linux-backports-modules version 3.2.0
 Description-md5: 28b66269d5eaeb290eb8510977ee7552
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-lbm-3.2.0-45-virtual
 Priority: optional
@@ -34062,7 +34222,7 @@ Description: Header files related to linux-backports-modules version 3.2.0
 Description-md5: 28b66269d5eaeb290eb8510977ee7552
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-headers-lbm-3.2.0-48-generic
 Priority: optional
@@ -35109,7 +35269,7 @@ Description: Linux kernel image for version 3.2.0 on 64 bit x86 SMP
 Description-md5: 0263f1b50c3e3117f31617803693d31e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-image-3.2.0-45-virtual
 Priority: optional
@@ -35134,7 +35294,7 @@ Description: Linux kernel image for version 3.2.0 on 64 bit x86 Virtual Guests
 Description-md5: 460133e8833e081521743c30cdbb43d9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-image-3.2.0-48-generic
 Priority: optional
@@ -35972,7 +36132,7 @@ Description: Linux kernel image for version 3.2.0 on 64 bit x86 Virtual Guests
 Description-md5: 460133e8833e081521743c30cdbb43d9
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-image-extra-3.2.0-48-virtual
 Priority: optional
@@ -37497,7 +37657,7 @@ Description: Linux kernel version specific tools for version 3.2.0-45
 Description-md5: 9fc7654ccbc3834413d7f6f356c55dda
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
-Supported: 5y
+Supported: 18m
 
 Package: linux-tools-3.2.0-48
 Priority: optional

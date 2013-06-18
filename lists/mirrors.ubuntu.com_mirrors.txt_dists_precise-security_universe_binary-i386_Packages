@@ -3388,6 +3388,27 @@ Description-md5: f8ca5fb6b5d46cb1a3b16340a711067e
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: libraw-bin
+Priority: optional
+Section: universe/graphics
+Installed-Size: 137
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Shotwell Maintainers <pkg-shotwell-maint@lists.alioth.debian.org>
+Architecture: i386
+Source: libraw
+Version: 0.14.4-0ubuntu2.1
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libgomp1 (>= 4.2.1), libraw5 (>= 0.14.0), libstdc++6 (>= 4.1.1)
+Filename: pool/universe/libr/libraw/libraw-bin_0.14.4-0ubuntu2.1_i386.deb
+Size: 29334
+MD5sum: 3756be447a082e9e6aa8538a66c17c88
+SHA1: 8a376047efbdf0b6cc272721e199ac63fed536d5
+SHA256: 340eb4daeb3f121909c57a2280f7aae286759d780df6756c76ddb1c7a0bbccd4
+Description: raw image decoder library (tools)
+Homepage: http://www.libraw.org/
+Description-md5: 4c913ed132454ab0396aa40ae3b9f9f5
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: libreoffice-gtk3
 Priority: optional
 Section: universe/gnome
