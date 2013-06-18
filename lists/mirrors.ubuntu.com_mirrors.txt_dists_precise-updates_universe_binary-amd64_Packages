@@ -18392,14 +18392,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Puppet Package Maintainers <pkg-puppet-devel@lists.alioth.debian.org>
 Architecture: all
 Source: puppet
-Version: 2.7.11-1ubuntu2.2
+Version: 2.7.11-1ubuntu2.3
 Depends: emacsen-common
 Conflicts: puppet (<< 0.25.4-1)
-Filename: pool/universe/p/puppet/puppet-el_2.7.11-1ubuntu2.2_all.deb
-Size: 14042
-MD5sum: d1561d8c50bfb13491da91767055a003
-SHA1: 9198a8f1a3efc2b8f5601bdcd278f1dbfa70532d
-SHA256: 4f1fefee84055e0f42e8410cb402bdd1cc75d10557c8c21c7e3e171afc64084d
+Filename: pool/universe/p/puppet/puppet-el_2.7.11-1ubuntu2.3_all.deb
+Size: 14018
+MD5sum: 55c5c0073f2f34049e5466951c19b150
+SHA1: bb03db5781c1aa30f587c41ef861af791ddea6dd
+SHA256: 3223da284875bf8b171895c34a7937a3f35c7795fffc99ebe27ee886ff23c73c
 Description: syntax highlighting for puppet manifests in emacs
 Homepage: http://projects.puppetlabs.com/projects/puppet
 Description-md5: 4b75e6e6bc11f7ad48ff7db5b6cb075c
@@ -18414,15 +18414,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Puppet Package Maintainers <pkg-puppet-devel@lists.alioth.debian.org>
 Architecture: all
 Source: puppet
-Version: 2.7.11-1ubuntu2.2
-Depends: ruby1.8, puppet-common (= 2.7.11-1ubuntu2.2), facter, lsb-base, rails (>= 1.2.3-2), rdoc, ruby-ldap | libldap-ruby1.8, mongrel, ruby-rspec | librspec-ruby, git-core, ruby-mocha | libmocha-ruby1.8, ruby-sqlite3
+Version: 2.7.11-1ubuntu2.3
+Depends: ruby1.8, puppet-common (= 2.7.11-1ubuntu2.3), facter, lsb-base, rails (>= 1.2.3-2), rdoc, ruby-ldap | libldap-ruby1.8, mongrel, ruby-rspec | librspec-ruby, git-core, ruby-mocha | libmocha-ruby1.8, ruby-sqlite3
 Recommends: cron
 Suggests: ruby
-Filename: pool/universe/p/puppet/puppet-testsuite_2.7.11-1ubuntu2.2_all.deb
-Size: 878448
-MD5sum: 4fbbef3ebde6f17d83ad08e12e063354
-SHA1: 750d7016ac7b0d0b32345dcc62700a966bfa4a15
-SHA256: a763a7bb703e2e5eee24ec01c6288e9632c081974c368b8ed0e62774c66221a5
+Filename: pool/universe/p/puppet/puppet-testsuite_2.7.11-1ubuntu2.3_all.deb
+Size: 877786
+MD5sum: 4abe2d1b120fb5b4cdf2198dd70be7f8
+SHA1: eab9c6fc9f2ab9e17ba088da6ec985af6bad2e9a
+SHA256: 03019862383884094d9dc7c1c3f4896f29c74ffa1e507445181957f4908074c0
 Description: Centralized configuration management - test suite
 Homepage: http://projects.puppetlabs.com/projects/puppet
 Description-md5: 01263a920bcd3ad8e6e510ba4cc51e38
@@ -18437,15 +18437,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Puppet Package Maintainers <pkg-puppet-devel@lists.alioth.debian.org>
 Architecture: all
 Source: puppet
-Version: 2.7.11-1ubuntu2.2
+Version: 2.7.11-1ubuntu2.3
 Replaces: puppetmaster (<< 2.6.1~rc2-1)
-Depends: ruby1.8, puppetmaster-common (= 2.7.11-1ubuntu2.2), facter, lsb-base, libapache2-mod-passenger
+Depends: ruby1.8, puppetmaster-common (= 2.7.11-1ubuntu2.3), facter, lsb-base, libapache2-mod-passenger
 Conflicts: puppetmaster (<< 2.6.1~rc2-1)
-Filename: pool/universe/p/puppet/puppetmaster-passenger_2.7.11-1ubuntu2.2_all.deb
-Size: 11056
-MD5sum: 38de661e60fc4197e5b045a88b5ec74b
-SHA1: af7f0a95060ded9ef685adcb40618d7bb21ed024
-SHA256: ff1035b87d9421d0843325977443ac9a279dd250a5193cc8bdd3f4125717a009
+Filename: pool/universe/p/puppet/puppetmaster-passenger_2.7.11-1ubuntu2.3_all.deb
+Size: 11100
+MD5sum: db3648119d3f5007707335da7f3b6b51
+SHA1: 7097bbcc67d1943d9147a58714d59785f0866ce2
+SHA256: de0158529dab09d9a99c28274c406c06944c46671c392f922ac205047456b6ef
 Description: Centralised configuration management - master setup to run under mod passenger
 Homepage: http://projects.puppetlabs.com/projects/puppet
 Description-md5: db936576231ab10c6a11b528b6a64d3a
@@ -23374,14 +23374,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Puppet Package Maintainers <pkg-puppet-devel@lists.alioth.debian.org>
 Architecture: all
 Source: puppet
-Version: 2.7.11-1ubuntu2.2
+Version: 2.7.11-1ubuntu2.3
 Recommends: vim-addon-manager
 Conflicts: puppet (<< 0.25.4-1)
-Filename: pool/universe/p/puppet/vim-puppet_2.7.11-1ubuntu2.2_all.deb
-Size: 11836
-MD5sum: 312c65826fb6d30394e8267fa37eef33
-SHA1: cf6fa4fe8f64caf2d2a57b0793b8ae978fa0fb17
-SHA256: e0319fa36b7bd5411843b48a420a12cec4f94d10ec57bbac9e82e9f31a80974b
+Filename: pool/universe/p/puppet/vim-puppet_2.7.11-1ubuntu2.3_all.deb
+Size: 11816
+MD5sum: 0beeb77e3005200ed9411a0a2d04a964
+SHA1: f0a43497fe85e794270e431a4257126453ced9cc
+SHA256: 9881264af2eda7bf746c8aa48dc6d6b188622a1fb31788e14a6612a025e40867
 Description: syntax highlighting for puppet manifests in vim
 Homepage: http://projects.puppetlabs.com/projects/puppet
 Description-md5: 8bf40e6d15521446507bc385401c3c63
