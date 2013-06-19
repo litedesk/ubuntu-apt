@@ -2076,6 +2076,22 @@ Description-en: Document (PostScript, PDF) viewer (GTK+ version)
  .
  This version of evince is built without GNOME keyring support.
 
+Package: fail2ban
+Description-md5: 6c270cdb1c1c2989521a1237d3d8c138
+Description-en: ban hosts that cause multiple authentication errors
+ Fail2ban monitors log files (e.g. /var/log/auth.log,
+ /var/log/apache/access.log) and temporarily or persistently bans
+ failure-prone addresses by updating existing firewall rules.  Fail2ban allows
+ easy specification of different actions to be taken such as to ban an
+ IP using iptables or hostsdeny rules, or simply to send a
+ notification email.
+ .
+ By default, it comes with filter expressions for various services
+ (sshd, apache, qmail, proftpd, sasl etc.) but configuration can be
+ easily extended for monitoring any other text file.  All filters and
+ actions are given in the config files, thus fail2ban can be adopted
+ to be used with a variety of files and firewalls.
+
 Package: fbautostart
 Description-md5: 52ac194b61a2fa64e56adfb49b2edad8
 Description-en: XDG compliant autostarting app for Fluxbox
