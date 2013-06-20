@@ -41680,6 +41680,29 @@ Origin: Ubuntu
 Supported: 5y
 Task: ubuntu-desktop, cloud-image, ubuntu-usb, kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full, kubuntu-active, edubuntu-desktop, edubuntu-usb, edubuntu-desktop-kde, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-desktop, ubuntustudio-desktop
 
+Package: python-swift
+Priority: optional
+Section: python
+Installed-Size: 2113
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Soren Hansen <soren@ubuntu.com>
+Architecture: all
+Source: swift
+Version: 1.4.8-0ubuntu2.2
+Provides: python2.7-swift
+Depends: adduser, python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-openssl, python-setuptools, python-paste, python-pastedeploy, python-webob (>= 0.9.7.1~hg20100111-1~racklabs1), python-simplejson, python-xattr, python-netifaces, python-greenlet (>= 0.3.1), python-eventlet (>= 0.9.8)
+Filename: pool/main/s/swift/python-swift_1.4.8-0ubuntu2.2_all.deb
+Size: 298168
+MD5sum: b73f35736518c91fe453f64bb03b3dd9
+SHA1: 8df154962fe55230c38ada0f72f3410731a08355
+SHA256: fafcb035002fd258fb287c2ed1512283b4cc20427d6169d5664677056446850a
+Description: distributed virtual object store - Python libraries
+Homepage: http://launchpad.net/swift
+Description-md5: de070055ceecd087c69ec8d278884c43
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
 Package: python-ubuntuone-client
 Priority: optional
 Section: python
@@ -43279,6 +43302,116 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 Task: minimal
+
+Package: swift-account
+Priority: optional
+Section: net
+Installed-Size: 84
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Soren Hansen <soren@ubuntu.com>
+Architecture: all
+Source: swift
+Version: 1.4.8-0ubuntu2.2
+Depends: python-swift (= 1.4.8-0ubuntu2.2), rsync, python, upstart-job
+Filename: pool/main/s/swift/swift-account_1.4.8-0ubuntu2.2_all.deb
+Size: 8786
+MD5sum: 1540cd0cdef447b1862a295bf0bf448b
+SHA1: ecc89611723a1c1614d93095ce6221cbbd4b5922
+SHA256: e7cff7f894083d384c6fb7ffd0f323cc02024accd159c4be243df5649ee6c3f7
+Description: distributed virtual object store - account server
+Homepage: http://launchpad.net/swift
+Description-md5: 809bc8c5c556488caaf22ddd2273fd22
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: swift-container
+Priority: optional
+Section: net
+Installed-Size: 70
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Soren Hansen <soren@ubuntu.com>
+Architecture: all
+Source: swift
+Version: 1.4.8-0ubuntu2.2
+Depends: python-swift (= 1.4.8-0ubuntu2.2), rsync, python, upstart-job
+Filename: pool/main/s/swift/swift-container_1.4.8-0ubuntu2.2_all.deb
+Size: 5638
+MD5sum: da370536768596e1f43ef4e98b515821
+SHA1: 359d3c1288b9799c81248c9d0c2798e306ebacfd
+SHA256: a8d9fed3eceaf4fb82579ac30af53ac71a7339787554076d4e926639414deae4
+Description: distributed virtual object store - container server
+Homepage: http://launchpad.net/swift
+Description-md5: f8277674f07a294ae8e420393c5fd350
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: swift-doc
+Priority: optional
+Section: doc
+Installed-Size: 1281
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Soren Hansen <soren@ubuntu.com>
+Architecture: all
+Source: swift
+Version: 1.4.8-0ubuntu2.2
+Depends: libjs-jquery
+Filename: pool/main/s/swift/swift-doc_1.4.8-0ubuntu2.2_all.deb
+Size: 258010
+MD5sum: 81c5135ccb5e12fe9e83b872b4bb5ed2
+SHA1: ec9552830f182f0ef53902f2fa2ff5a7100da421
+SHA256: fdc8eff7de776f7cbc5c3351e3eb87a35e2b590d16f6dc42f523261217196f0a
+Description: distributed virtual object store - documentation
+Homepage: http://launchpad.net/swift
+Description-md5: f6e5b3e01afabbb95c5d13d2088c78b4
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: swift-object
+Priority: optional
+Section: net
+Installed-Size: 74
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Soren Hansen <soren@ubuntu.com>
+Architecture: all
+Source: swift
+Version: 1.4.8-0ubuntu2.2
+Depends: python-swift (= 1.4.8-0ubuntu2.2), rsync, python, upstart-job
+Filename: pool/main/s/swift/swift-object_1.4.8-0ubuntu2.2_all.deb
+Size: 7428
+MD5sum: 127ecf1ec4b2c2fdeb5eba92ac06b861
+SHA1: e063ba77569b1229bb67a1e1efc89d021cbc2ac4
+SHA256: 21d93d3d53459826da2daab5d33980692b321b2f846db9ba1e13cd052bde6232
+Description: distributed virtual object store - object server
+Homepage: http://launchpad.net/swift
+Description-md5: 9c7491cb7a75e1ec163d08f6da52b8a7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: swift-proxy
+Priority: optional
+Section: net
+Installed-Size: 59
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Soren Hansen <soren@ubuntu.com>
+Architecture: all
+Source: swift
+Version: 1.4.8-0ubuntu2.2
+Depends: python-swift (= 1.4.8-0ubuntu2.2), python, upstart-job
+Filename: pool/main/s/swift/swift-proxy_1.4.8-0ubuntu2.2_all.deb
+Size: 7590
+MD5sum: 97eb93d9234bcb8eb6cb575d8abf2039
+SHA1: cef97a711cc2b502f39f446e92c600ff3f56146b
+SHA256: ab012fd52379c6e0f3bcb10d7df2ec26fe95ec23f3381996b0e4fee18db2c1f2
+Description: distributed virtual object store - proxy server
+Homepage: http://launchpad.net/swift
+Description-md5: 484efcd1f3cbf484a2fed44dcec3d88f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
 
 Package: tasks-icons
 Priority: optional

@@ -5230,6 +5230,15 @@ Description-en: IDE for Python (v3.2) using Tkinter
  IDLE is an Integrated Development Environment for Python (v3.2).
  IDLE is written using Tkinter and therefore quite platform-independent.
 
+Package: idle3
+Description-md5: b0ac705069514e2f42d9021c6de3af88
+Description-en: IDE for Python using Tkinter (default version)
+ IDLE is an Integrated Development Environment for Python.
+ IDLE is written using Tkinter and therefore quite platform-independent.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version (currently v3.2).
+
 Package: im-switch
 Description-md5: a9539d047a928f4545c1bb9ab637d019
 Description-en: Input method switch framework
@@ -41096,6 +41105,31 @@ Description-en: SQL toolkit and Object Relational Mapper for Python - C extensio
  .
  This package contains C coded extension accelerator for SQLAlchemy.
 
+Package: python-swift
+Description-md5: de070055ceecd087c69ec8d278884c43
+Description-en: distributed virtual object store - Python libraries
+ OpenStack Object Storage (code-named Swift) is open source software for
+ creating redundant, scalable object storage using clusters of standardized
+ servers to store petabytes of accessible data. It is not a file system or
+ real-time data storage system, but rather a long-term storage system for a
+ more permanent type of static data that can be retrieved, leveraged, and then
+ updated if necessary. Primary examples of data that best fit this type of
+ storage model are virtual machine images, photo storage, email storage and
+ backup archiving. Having no central "brain" or master point of control
+ provides greater scalability, redundancy and permanence.
+ .
+ Objects are written to multiple hardware devices in the data center, with
+ the OpenStack software responsible for ensuring data replication and
+ integrity across the cluster. Storage clusters can scale horizontally by
+ adding new nodes. Should a node fail, OpenStack works to replicate its
+ content from other active nodes. Because OpenStack uses software logic to
+ ensure data replication and distribution across different devices,
+ inexpensive commodity hard drives and servers can be used in lieu of more
+ expensive equipment.
+ .
+ This package provides the Python libraries that actually implement
+ everything.
+
 Package: python-txtftp
 Description-md5: f0dc78275d86a53f832a97c938ec022b
 Description-en: Twisted-based TFTP implementation
@@ -41219,6 +41253,47 @@ Description-en: Minimal subset of the Python language (version 2.7)
  See /usr/share/doc/python2.7-minimal/README.Debian for a list of the modules
  contained in this package.
 
+Package: python3
+Description-md5: 5f87b3e80d2e33188c67c8c83bff51b7
+Description-en: interactive high-level object-oriented language (default python3 version)
+ Python, the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version (currently v3.2).
+
+Package: python3-all
+Description-md5: f56f8b80cc75fae9700c045631ff156e
+Description-en: package depending on all supported Python 3 runtime versions
+ The package currently depends on python3.2, in the future,
+ dependencies on jython (Python for a JVM) and ironpython (Python for Mono)
+ may be added.
+ .
+ This package is a dependency package used as a build dependency for other
+ packages to avoid hardcoded dependencies on specific Python 3 runtimes.
+
+Package: python3-all-dbg
+Description-md5: 47ade3b782e019870ed942f02207c24a
+Description-en: package depending on all supported Python 3 debugging packages
+ The package currently depends on python3.2-dbg, in the
+ future, dependencies on jython (Python for a JVM) and ironpython (Python
+ for Mono) may be added.
+ .
+ This package is a dependency package used as a build dependency for other
+ packages to avoid hardcoded dependencies on specific Python 3 debug packages.
+
+Package: python3-all-dev
+Description-md5: 0a0ebf00162f486eb86c0beeb445dcda
+Description-en: package depending on all supported Python 3 development packages
+ The package currently depends on python3.2-dev, in the
+ future, dependencies on jython (Python for a JVM) and ironpython (Python
+ for Mono) may be added.
+ .
+ This package is a dependency package used as a build dependency for other
+ packages to avoid hardcoded dependencies on specific Python 3 development
+ packages.
+
 Package: python3-apt
 Description-md5: 4e7bf010b1b89e36309ea2f4b7005936
 Description-en: Python 3 interface to libapt-pkg
@@ -41265,6 +41340,51 @@ Description-en: cryptographic algorithms and protocols for Python 3 (debug exten
  .
  This package contains the extensions built for the Python 3 debug interpreter.
 
+Package: python3-dbg
+Description-md5: 771d7ede7357db6c703d7bcaa77d00d0
+Description-en: debug build of the Python 3 Interpreter (version 3.2)
+ Python 3 interpreter configured with --pydebug. Dynamically loaded modules
+ are searched in /usr/lib/python3.2/lib-dynload/debug first.
+
+Package: python3-dev
+Description-md5: 51fa8be9e65d47548d29306f36c97160
+Description-en: header files and a static library for Python (default)
+ Header files, a static library and development tools for building
+ Python modules, extending the Python interpreter or embedding Python
+ in applications.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version (currently v3.2).
+
+Package: python3-doc
+Description-md5: c9501c8e73abc0b80e37053fc252c402
+Description-en: documentation for the high-level object-oriented language Python 3
+ This is the official set of documentation for the interactive high-level
+ object-oriented language Python 3 (v3.2). All documents are provided
+ in HTML format, some in info format. The package consists of nine documents:
+ .
+   * Tutorial
+   * Python Library Reference
+   * Macintosh Module Reference
+   * Python Language Reference
+   * Extending and Embedding Python
+   * Python/C API Reference
+   * Installing Python Modules
+   * Documenting Python
+   * Distributing Python Modules
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version (currently v3.2).
+
+Package: python3-examples
+Description-md5: 0bdf9eccc617d9ba46b58fb424a1654a
+Description-en: examples for the Python language (default version)
+ Examples, Demos and Tools for Python. These are files included in
+ the upstream Python distribution.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version (currently v3.2).
+
 Package: python3-gi
 Description-md5: f0850471c776a975236399e3050363aa
 Description-en: Python 3 bindings for gobject-introspection libraries
@@ -41298,6 +41418,14 @@ Description-en: Python 3 bindings for gobject-introspection libraries (debug ext
  package. With these packages, the libraries can be used from Python 3.
  .
  This package contains the extensions built for the Python 3 debug interpreter.
+
+Package: python3-minimal
+Description-md5: 056d364150dc856409155267a643af4d
+Description-en: minimal subset of the Python language (default python3 version)
+ This package contains the interpreter and some essential modules.  It's used
+ in the boot process for some basic tasks.
+ See /usr/share/doc/python3.2-minimal/README.Debian for a list of the modules
+ contained in this package.
 
 Package: python3-sqlalchemy
 Description-md5: ab3e4e16d880158a692652f7aeb4779d
@@ -42391,6 +42519,127 @@ Description-en: Provide limited super user privileges to specific users
  .
  This version is built with minimal shared library dependencies, use the
  sudo-ldap package instead if you need LDAP support for sudoers.
+
+Package: swift-account
+Description-md5: 809bc8c5c556488caaf22ddd2273fd22
+Description-en: distributed virtual object store - account server
+ OpenStack Object Storage (code-named Swift) is open source software for
+ creating redundant, scalable object storage using clusters of standardized
+ servers to store petabytes of accessible data. It is not a file system or
+ real-time data storage system, but rather a long-term storage system for a
+ more permanent type of static data that can be retrieved, leveraged, and then
+ updated if necessary. Primary examples of data that best fit this type of
+ storage model are virtual machine images, photo storage, email storage and
+ backup archiving. Having no central "brain" or master point of control
+ provides greater scalability, redundancy and permanence.
+ .
+ Objects are written to multiple hardware devices in the data center, with
+ the OpenStack software responsible for ensuring data replication and
+ integrity across the cluster. Storage clusters can scale horizontally by
+ adding new nodes. Should a node fail, OpenStack works to replicate its
+ content from other active nodes. Because OpenStack uses software logic to
+ ensure data replication and distribution across different devices,
+ inexpensive commodity hard drives and servers can be used in lieu of more
+ expensive equipment.
+ .
+ This package provides the swift account server.
+
+Package: swift-container
+Description-md5: f8277674f07a294ae8e420393c5fd350
+Description-en: distributed virtual object store - container server
+ OpenStack Object Storage (code-named Swift) is open source software for
+ creating redundant, scalable object storage using clusters of standardized
+ servers to store petabytes of accessible data. It is not a file system or
+ real-time data storage system, but rather a long-term storage system for a
+ more permanent type of static data that can be retrieved, leveraged, and then
+ updated if necessary. Primary examples of data that best fit this type of
+ storage model are virtual machine images, photo storage, email storage and
+ backup archiving. Having no central "brain" or master point of control
+ provides greater scalability, redundancy and permanence.
+ .
+ Objects are written to multiple hardware devices in the data center, with
+ the OpenStack software responsible for ensuring data replication and
+ integrity across the cluster. Storage clusters can scale horizontally by
+ adding new nodes. Should a node fail, OpenStack works to replicate its
+ content from other active nodes. Because OpenStack uses software logic to
+ ensure data replication and distribution across different devices,
+ inexpensive commodity hard drives and servers can be used in lieu of more
+ expensive equipment.
+ .
+ This package provides the swift container server.
+
+Package: swift-doc
+Description-md5: f6e5b3e01afabbb95c5d13d2088c78b4
+Description-en: distributed virtual object store - documentation
+ OpenStack Object Storage (code-named Swift) is open source software for
+ creating redundant, scalable object storage using clusters of standardized
+ servers to store petabytes of accessible data. It is not a file system or
+ real-time data storage system, but rather a long-term storage system for a
+ more permanent type of static data that can be retrieved, leveraged, and then
+ updated if necessary. Primary examples of data that best fit this type of
+ storage model are virtual machine images, photo storage, email storage and
+ backup archiving. Having no central "brain" or master point of control
+ provides greater scalability, redundancy and permanence.
+ .
+ Objects are written to multiple hardware devices in the data center, with
+ the OpenStack software responsible for ensuring data replication and
+ integrity across the cluster. Storage clusters can scale horizontally by
+ adding new nodes. Should a node fail, OpenStack works to replicate its
+ content from other active nodes. Because OpenStack uses software logic to
+ ensure data replication and distribution across different devices,
+ inexpensive commodity hard drives and servers can be used in lieu of more
+ expensive equipment.
+ .
+ This package provides the Sphinx generated documentation for Swift.
+
+Package: swift-object
+Description-md5: 9c7491cb7a75e1ec163d08f6da52b8a7
+Description-en: distributed virtual object store - object server
+ OpenStack Object Storage (code-named Swift) is open source software for
+ creating redundant, scalable object storage using clusters of standardized
+ servers to store petabytes of accessible data. It is not a file system or
+ real-time data storage system, but rather a long-term storage system for a
+ more permanent type of static data that can be retrieved, leveraged, and then
+ updated if necessary. Primary examples of data that best fit this type of
+ storage model are virtual machine images, photo storage, email storage and
+ backup archiving. Having no central "brain" or master point of control
+ provides greater scalability, redundancy and permanence.
+ .
+ Objects are written to multiple hardware devices in the data center, with
+ the OpenStack software responsible for ensuring data replication and
+ integrity across the cluster. Storage clusters can scale horizontally by
+ adding new nodes. Should a node fail, OpenStack works to replicate its
+ content from other active nodes. Because OpenStack uses software logic to
+ ensure data replication and distribution across different devices,
+ inexpensive commodity hard drives and servers can be used in lieu of more
+ expensive equipment.
+ .
+ This package provides the swift object server.
+
+Package: swift-proxy
+Description-md5: 484efcd1f3cbf484a2fed44dcec3d88f
+Description-en: distributed virtual object store - proxy server
+ OpenStack Object Storage (code-named Swift) is open source software for
+ creating redundant, scalable object storage using clusters of standardized
+ servers to store petabytes of accessible data. It is not a file system or
+ real-time data storage system, but rather a long-term storage system for a
+ more permanent type of static data that can be retrieved, leveraged, and then
+ updated if necessary. Primary examples of data that best fit this type of
+ storage model are virtual machine images, photo storage, email storage and
+ backup archiving. Having no central "brain" or master point of control
+ provides greater scalability, redundancy and permanence.
+ .
+ Objects are written to multiple hardware devices in the data center, with
+ the OpenStack software responsible for ensuring data replication and
+ integrity across the cluster. Storage clusters can scale horizontally by
+ adding new nodes. Should a node fail, OpenStack works to replicate its
+ content from other active nodes. Because OpenStack uses software logic to
+ ensure data replication and distribution across different devices,
+ inexpensive commodity hard drives and servers can be used in lieu of more
+ expensive equipment.
+ .
+ This package provides a proxy server on which clients can connect to store
+ object into Swift.
 
 Package: system-config-printer-common
 Description-md5: c74f0cd3e1d13a8368c9c62f6e46ce72
