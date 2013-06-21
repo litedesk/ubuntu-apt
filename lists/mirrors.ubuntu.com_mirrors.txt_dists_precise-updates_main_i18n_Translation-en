@@ -5218,6 +5218,15 @@ Description-en: web browser plugin to execute Java applets (dependency package)
  .
  This is a dependency package, it can be safely removed after upgrade.
 
+Package: idle
+Description-md5: d98c42430725f0a7a890e93ce1835e7a
+Description-en: IDE for Python using Tkinter (default version)
+ IDLE is an Integrated Development Environment for Python.
+ IDLE is written using Tkinter and therefore quite platform-independent.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python version (currently v2.7) of IDLE.
+
 Package: idle-python2.7
 Description-md5: 1fd93a936611995336444949b73d0b8a
 Description-en: IDE for Python (v2.7) using Tkinter
@@ -40198,6 +40207,46 @@ Description-en: Puppet master common scripts
  allowing them to be as specific as necessary, and it handles dependency
  and prerequisite relationships between objects clearly and explicitly.
 
+Package: python
+Description-md5: d1ea97f755d8153fe116080f2352859b
+Description-en: interactive high-level object-oriented language (default version)
+ Python, the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python version (currently v2.7).
+
+Package: python-all
+Description-md5: 60e59b8e3d5ebb6fc955c4a81cfca7a3
+Description-en: package depending on all supported Python runtime versions
+ The package currently depends on python2.7, in the future,
+ dependencies on jython (Python for a JVM) and ironpython (Python for Mono)
+ may be added.
+ .
+ This package is used as a build dependency for other packages to
+ avoid hardcoded dependencies on specific Python runtimes.
+
+Package: python-all-dbg
+Description-md5: e78a248aee90dbd3a513da0d97bad42e
+Description-en: package depending on all supported Python debugging packages
+ The package currently depends on python2.7-dbg, in the
+ future, dependencies on jython (Python for a JVM) and ironpython (Python
+ for Mono) may be added.
+ .
+ This package is used as a build dependency for other packages to
+ avoid hardcoded dependencies on specific Python development packages.
+
+Package: python-all-dev
+Description-md5: 4bf161615dffc679596ca2fd179d138b
+Description-en: package depending on all supported Python development packages
+ The package currently depends on python2.7-dev, in the
+ future, dependencies on jython (Python for a JVM) and ironpython (Python
+ for Mono) may be added.
+ .
+ This package is used as a build dependency for other packages to
+ avoid hardcoded dependencies on specific Python development packages.
+
 Package: python-apport
 Description-md5: 9428e123d2c8046f4fdef7af1c60baee
 Description-en: apport crash report handling library
@@ -40402,12 +40451,28 @@ Description-en: Python modules for printer configuration with CUPS
  Python modules for printer configuration with CUPS. The modules have no GUI
  and can therefore also be used on headless servers or by background processes.
 
+Package: python-dbg
+Description-md5: e3b066fc7e7e35acf0b9835629f67146
+Description-en: debug build of the Python Interpreter (version 2.7)
+ Python interpreter configured with --pydebug. Dynamically loaded modules are
+ searched in /usr/lib/python2.7/lib-dynload/debug first.
+
 Package: python-debtagshw
 Description-md5: f6dcb9759f69feb4ff0d4005e18e1368
 Description-en: Match debtags hardware:: tags against the actual hardware
  debtagshw provides a python library to match a given hardware:: debtag
  against the current system in order to verify that the system supports
  the hardware.
+
+Package: python-dev
+Description-md5: 93a1917c3f17606b40377d0b737c6c92
+Description-en: header files and a static library for Python (default)
+ Header files, a static library and development tools for building
+ Python modules, extending the Python interpreter or embedding Python
+ in applications.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python version (currently v2.7).
 
 Package: python-distutils-extra
 Description-md5: cd0bab3114e0d4fcaed1d2a8bac3b411
@@ -40487,6 +40552,26 @@ Description-en: dummy transitonal package from python-django-openstack to python
  This transitional package from the python-django-openstack to the python-django-horizon
  package. Once this package and its dependencies are installed you can remove it.
 
+Package: python-doc
+Description-md5: 038f73a9465ce29a000fe288e7816805
+Description-en: documentation for the high-level object-oriented language Python
+ This is the official set of documentation for the interactive high-level
+ object-oriented language Python (v2.7). All documents are provided
+ in HTML format, some in info format. The package consists of nine documents:
+ .
+   * Tutorial
+   * Python Library Reference
+   * Macintosh Module Reference
+   * Python Language Reference
+   * Extending and Embedding Python
+   * Python/C API Reference
+   * Installing Python Modules
+   * Documenting Python
+   * Distributing Python Modules
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python version (currently v2.7).
+
 Package: python-eventlet
 Description-md5: 020b099048ca74c3042fc10d2247fcdc
 Description-en: concurrent networking library for Python
@@ -40501,6 +40586,15 @@ Description-en: concurrent networking library for Python
  It's easy to get started using Eventlet, and easy to convert existing
  applications to use it. Start off by looking at examples, common design
  patterns, and the list of the basic API primitives.
+
+Package: python-examples
+Description-md5: 1ff3c3d821cef8881eb0f7e4a3164350
+Description-en: examples for the Python language (default version)
+ Examples, Demos and Tools for Python. These are files included in
+ the upstream Python distribution.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python version (currently v2.7).
 
 Package: python-feedparser
 Description-md5: 59c5b7eade148fbec09113e829fdeda1
@@ -40921,6 +41015,14 @@ Description-en: Python module that simplifies sending email
  Simplifies sending emails in Python, features a single class to send
  plain text, HTML email, and attachments.  Mailer auto detects attachment
  types and has support for internationalized headers.
+
+Package: python-minimal
+Description-md5: 200bc6d6d83361369f54f0e99818ec74
+Description-en: minimal subset of the Python language (default version)
+ This package contains the interpreter and some essential modules.  It's used
+ in the boot process for some basic tasks.
+ See /usr/share/doc/python2.7-minimal/README.Debian for a list of the modules
+ contained in this package.
 
 Package: python-moinmoin
 Description-md5: e7e9edb49f7b3a85509d1a40cac0d731
