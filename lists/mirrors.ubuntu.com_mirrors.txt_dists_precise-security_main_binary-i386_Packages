@@ -25657,18 +25657,18 @@ Supported: 18m
 Package: libxen-4.1
 Priority: optional
 Section: libs
-Installed-Size: 365
+Installed-Size: 369
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: xen
-Version: 4.1.2-2ubuntu2.9
+Version: 4.1.2-2ubuntu2.10
 Depends: libc6 (>= 2.15), liblzma5 (>= 5.1.1alpha+20110809), zlib1g (>= 1:1.1.4)
-Filename: pool/main/x/xen/libxen-4.1_4.1.2-2ubuntu2.9_i386.deb
-Size: 138168
-MD5sum: 809c8ee9f744072210e69677a189b452
-SHA1: a3300472a8d2355a0b21d128c7375fcbc2d2ed92
-SHA256: 7b71f2c4bbe1540736e15543a3708c740bd6079406617fffecc887d6cee843aa
+Filename: pool/main/x/xen/libxen-4.1_4.1.2-2ubuntu2.10_i386.deb
+Size: 140682
+MD5sum: dd324d2305bb9003618fcf10ce2c2d8a
+SHA1: 7b78e5df234d7b60285d9102ad8cc253ee2c1c36
+SHA256: 9704cb516a358c866e4f2d84d3e76ffde2756f91e5794d9a281a3353199ca49f
 Description: Public libs for Xen
 Description-md5: cd7ad869e7a3a001fd3c7b337111e06f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -25678,20 +25678,20 @@ Supported: 18m
 Package: libxen-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 1055
+Installed-Size: 1057
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: xen
-Version: 4.1.2-2ubuntu2.9
+Version: 4.1.2-2ubuntu2.10
 Replaces: libxen3-dev (<= 3.3.0-1ubuntu12)
-Depends: libxen-4.1 (= 4.1.2-2ubuntu2.9), libxenstore3.0 (= 4.1.2-2ubuntu2.9)
+Depends: libxen-4.1 (= 4.1.2-2ubuntu2.10), libxenstore3.0 (= 4.1.2-2ubuntu2.10)
 Conflicts: libxen3-dev (<= 3.3.0-1ubuntu12)
-Filename: pool/main/x/xen/libxen-dev_4.1.2-2ubuntu2.9_i386.deb
-Size: 277704
-MD5sum: a6955d6507ba8e8759aa90ad09a71b6e
-SHA1: cc868048510087afceef86be10b0d4fcbcb7abe9
-SHA256: fb22167a85edf32e5716e6ce244fb482b89d3b44825853e7e33d0a474ad71b2f
+Filename: pool/main/x/xen/libxen-dev_4.1.2-2ubuntu2.10_i386.deb
+Size: 278258
+MD5sum: 54f7949484a4b639a125c7bfb4946749
+SHA1: 712d41fb7307e52eb1dd3d522de2bb65ff6f2e2c
+SHA256: f02f2011869e7ccee0cb5fb20494fae537ee8103392bbced3c664b1d95ed749a
 Description: Public headers and libs for Xen
 Description-md5: 16aef021d38a9f4fed58c122c9b3e1cf
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -25706,14 +25706,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: xen
-Version: 4.1.2-2ubuntu2.9
+Version: 4.1.2-2ubuntu2.10
 Provides: libxen-ocaml-v5yj3
 Depends: libc6 (>= 2.4), libxen-4.1 (>= 4.1.2), ocaml-base-nox-3.12.1
-Filename: pool/main/x/xen/libxen-ocaml_4.1.2-2ubuntu2.9_i386.deb
-Size: 50768
-MD5sum: fd89dedf8794dda7396f8d8467a9d4c3
-SHA1: 0e6f04fda23044801d2bf1200ce0d8e69efed2ef
-SHA256: 50d6d4bebc8535696d7051ba2f99d3e851aea04eab8888f32395592019f6df2a
+Filename: pool/main/x/xen/libxen-ocaml_4.1.2-2ubuntu2.10_i386.deb
+Size: 51656
+MD5sum: 862f849dc28c0ed8a22e94f31305c900
+SHA1: 272b6a02243eac171ba2b5e7e65bbd7c0f108eb2
+SHA256: eb4f168acafcf597ea6da3efc76bec9b7e1b3d5e019d898fb92793a35113fa2a
 Description: OCaml libraries for controlling Xen
 Description-md5: c9c37edde6c8bfae0ec1ac70e828dbac
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -25723,19 +25723,19 @@ Supported: 18m
 Package: libxen-ocaml-dev
 Priority: optional
 Section: ocaml
-Installed-Size: 304
+Installed-Size: 305
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: xen
-Version: 4.1.2-2ubuntu2.9
+Version: 4.1.2-2ubuntu2.10
 Provides: libxen-ocaml-dev-v5yj3
-Depends: libxen-ocaml (= 4.1.2-2ubuntu2.9), libxen-dev (= 4.1.2-2ubuntu2.9), ocaml-nox-3.12.1
-Filename: pool/main/x/xen/libxen-ocaml-dev_4.1.2-2ubuntu2.9_i386.deb
-Size: 77574
-MD5sum: 8583af348583b06995b75ee7d583a815
-SHA1: 5ecf266aadafcaf4d6a79803fc73849c3cd709f5
-SHA256: a2e953acfbe155593ce5afdeb3d5ed8c2d98442a08c666c816dd43c8a91ed400
+Depends: libxen-ocaml (= 4.1.2-2ubuntu2.10), libxen-dev (= 4.1.2-2ubuntu2.10), ocaml-nox-3.12.1
+Filename: pool/main/x/xen/libxen-ocaml-dev_4.1.2-2ubuntu2.10_i386.deb
+Size: 76732
+MD5sum: bb78446c7432917b0027f605c0921ddc
+SHA1: c03be11d74d86e0a47ec56be984272c403860d5a
+SHA256: c5cf0a59105759cc6ed88f5e64c69ced5afb3535158882df766c74f7ae025f8f
 Description: OCaml libraries for controlling Xen (devel package)
 Description-md5: 9c87ca7440bf9a1fcef15be5c5ae0a2d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -25750,15 +25750,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: i386
 Source: xen
-Version: 4.1.2-2ubuntu2.9
+Version: 4.1.2-2ubuntu2.10
 Replaces: libxen3 (<= 3.3.0-1ubuntu12)
 Depends: libc6 (>= 2.7)
 Conflicts: libxen3 (<= 3.3.0-1ubuntu12)
-Filename: pool/main/x/xen/libxenstore3.0_4.1.2-2ubuntu2.9_i386.deb
-Size: 20236
-MD5sum: 83cff013fd4eed7bd61e006013035f37
-SHA1: fdbecd4aba386ab7cde52730db41080024989dc9
-SHA256: c83d5d416673a6f694bda49670563680abb041d9ff74d438c38ee92e98900266
+Filename: pool/main/x/xen/libxenstore3.0_4.1.2-2ubuntu2.10_i386.deb
+Size: 20710
+MD5sum: 4f126a5d32a5fd37932097bfdf7b0136
+SHA1: 135b7a833865f746de8e0b47d1b1334f948f10e2
+SHA256: a79e0386a65b541b0f158645a3b5d0af55a16ab8c9a2c81358260284f92db534
 Description: Xenstore communications library for Xen
 Description-md5: c2462dfd8088a311ca74072df39a0705
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
