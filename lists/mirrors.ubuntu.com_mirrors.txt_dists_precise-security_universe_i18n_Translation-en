@@ -1271,6 +1271,14 @@ Description-en: server-side, HTML-embedded scripting language (apache 2 filter m
  The goal of the language is to allow web developers to write
  dynamically generated pages quickly.
 
+Package: libapache2-svn
+Description-md5: b625db8216427c04f0c7991a6ef7a5be
+Description-en: Subversion server modules for Apache
+ This package provides the mod_dav_svn and mod_authz_svn modules for
+ the Apache 2.2 web server.  These modules provide Subversion's WebDAV
+ server backend, to serve repositories over the http and https
+ protocols.  See the 'subversion' package for more information.
+
 Package: libav-source
 Description-md5: 8a0d2d245bbd6e55b0c9cffe1ec99b46
 Description-en: Patched Libav sources
@@ -1932,6 +1940,28 @@ Package: libssl0.9.8-dbg
 Description-md5: fedfa89ced3aa67317f9dac7ba5308da
 Description-en: Symbol tables for libssl and libcrypto
  This package is part of the OpenSSL implementation of SSL.
+
+Package: libsvn-java
+Description-md5: 29d394313a54fa67a769cfba1440f2d1
+Description-en: Java bindings for Subversion
+ This is a set of Java classes which provide the functionality of
+ libsvn, the Subversion libraries.  It is useful if you want to, for
+ example, write a Java class that manipulates a Subversion repository
+ or working copy.  See the 'subversion' package for more information.
+
+Package: libsvn-ruby
+Description-md5: e34544dc883f31936268c3982b4cb2cd
+Description-en: Ruby bindings for Subversion (dummy package)
+ This is a dummy package to install the Subversion library bindings for
+ the default version of Ruby.
+
+Package: libsvn-ruby1.8
+Description-md5: 30848be3417f8ca59497570f11b9eae1
+Description-en: Ruby bindings for Subversion
+ This is a set of Ruby interfaces to libsvn, the Subversion libraries.
+ It is useful if you want to, for example, write a Ruby script that
+ manipulates a Subversion repository or working copy.  See the
+ 'subversion' package for more information.
 
 Package: libswscale-extra-2
 Description-md5: 6a274089de0c837dbd8bd2fdeb3a1ba3

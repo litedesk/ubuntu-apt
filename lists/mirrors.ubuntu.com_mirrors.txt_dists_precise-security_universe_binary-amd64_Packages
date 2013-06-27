@@ -2457,6 +2457,28 @@ Description-md5: 520e71d9bb63fc79b4108468fde79690
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: libapache2-svn
+Priority: optional
+Section: universe/net
+Installed-Size: 344
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Peter Samuelson <peter@p12n.org>
+Architecture: amd64
+Source: subversion
+Version: 1.6.17dfsg-3ubuntu3.3
+Depends: apache2.2-common, libc6 (>= 2.4), libsvn1 (>= 1.6)
+Suggests: db4.8-util
+Filename: pool/universe/s/subversion/libapache2-svn_1.6.17dfsg-3ubuntu3.3_amd64.deb
+Size: 81656
+MD5sum: a2e4fdb861c31833d8475134163669a2
+SHA1: 7b9b3ab88870f6cd0f30c052b1557febe6e4f965
+SHA256: 49e4bf083873a810a8743837808ccea9e2dc778dc506585dd52bb71b9aa18510
+Description: Subversion server modules for Apache
+Homepage: http://subversion.apache.org/
+Description-md5: b625db8216427c04f0c7991a6ef7a5be
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: libav-source
 Priority: optional
 Section: universe/devel
@@ -3837,6 +3859,73 @@ SHA256: 0f06e615317558382a7ffed881064dc1bad6a0fdef86accda604a1e4717addfe
 Description: Symbol tables for libssl and libcrypto
 Multi-Arch: same
 Description-md5: fedfa89ced3aa67317f9dac7ba5308da
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libsvn-java
+Priority: optional
+Section: universe/devel
+Installed-Size: 504
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Peter Samuelson <peter@p12n.org>
+Architecture: amd64
+Source: subversion
+Version: 1.6.17dfsg-3ubuntu3.3
+Depends: libsvn1 (= 1.6.17dfsg-3ubuntu3.3), libapr1 (>= 1.2.7), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6)
+Pre-Depends: multiarch-support
+Filename: pool/universe/s/subversion/libsvn-java_1.6.17dfsg-3ubuntu3.3_amd64.deb
+Size: 210150
+MD5sum: 3229d0d5c22e9431c60cf3e8d01dc198
+SHA1: 4311edcf216dd39c3e573ca8dc945ab5d1a7bcc6
+SHA256: e031136ab9c3a8496625e0b5c2896b77e19dc8aa8cd6268929e51f416471eaec
+Description: Java bindings for Subversion
+Multi-Arch: same
+Homepage: http://subversion.apache.org/
+Description-md5: 29d394313a54fa67a769cfba1440f2d1
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libsvn-ruby
+Priority: optional
+Section: universe/devel
+Installed-Size: 21
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Peter Samuelson <peter@p12n.org>
+Architecture: all
+Source: subversion
+Version: 1.6.17dfsg-3ubuntu3.3
+Depends: libsvn-ruby1.8
+Filename: pool/universe/s/subversion/libsvn-ruby_1.6.17dfsg-3ubuntu3.3_all.deb
+Size: 810
+MD5sum: b43bbdd7d18378cb29b626465c618995
+SHA1: 5385f854dec00127fc1c5909fc5abee429029ef4
+SHA256: e14179e25621f37b225e895befeaf19c12991fca07fde5fd149d7331ac273ac1
+Description: Ruby bindings for Subversion (dummy package)
+Homepage: http://subversion.apache.org/
+Description-md5: e34544dc883f31936268c3982b4cb2cd
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libsvn-ruby1.8
+Priority: optional
+Section: universe/devel
+Installed-Size: 1936
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Peter Samuelson <peter@p12n.org>
+Architecture: amd64
+Source: subversion
+Version: 1.6.17dfsg-3ubuntu3.3
+Depends: ruby1.8, libapr1 (>= 1.2.7), libc6 (>= 2.14), libruby1.8 (>= 1.8.7.352), libsvn1 (>= 1.6)
+Pre-Depends: multiarch-support
+Filename: pool/universe/s/subversion/libsvn-ruby1.8_1.6.17dfsg-3ubuntu3.3_amd64.deb
+Size: 532454
+MD5sum: a6974218aa3f7438f05f25b73840a617
+SHA1: af9442b3350968dd3b4e7fc49f173e25690476b2
+SHA256: 41265a6401752f8f14cb0c80a33e5b6ed8533e0de7dcf21f7f76b57ad44f46cd
+Description: Ruby bindings for Subversion
+Multi-Arch: same
+Homepage: http://subversion.apache.org/
+Description-md5: 30848be3417f8ca59497570f11b9eae1
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 

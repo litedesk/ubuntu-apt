@@ -22748,6 +22748,98 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: libsvn-dev
+Priority: extra
+Section: libdevel
+Installed-Size: 4099
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Peter Samuelson <peter@p12n.org>
+Architecture: i386
+Source: subversion
+Version: 1.6.17dfsg-3ubuntu3.3
+Depends: libsvn1 (= 1.6.17dfsg-3ubuntu3.3), libapr1-dev, libaprutil1-dev
+Suggests: libsvn-doc, zlib1g-dev, libneon27-gnutls-dev
+Filename: pool/main/s/subversion/libsvn-dev_1.6.17dfsg-3ubuntu3.3_i386.deb
+Size: 1265910
+MD5sum: a50c4748e66710305cf9efd0bb0f0d05
+SHA1: d297240872062a3cc18e3670116469bb719e4326
+SHA256: 0ad65d669437a15662f342fddb782600b18b709128d6f756a7a192a80ea3b8e1
+Description: Development files for Subversion libraries
+Homepage: http://subversion.apache.org/
+Description-md5: 8e9e34c74ef113c2db3c8937e66839cf
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libsvn-doc
+Priority: extra
+Section: doc
+Installed-Size: 13175
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Peter Samuelson <peter@p12n.org>
+Architecture: all
+Source: subversion
+Version: 1.6.17dfsg-3ubuntu3.3
+Suggests: libsvn-dev
+Filename: pool/main/s/subversion/libsvn-doc_1.6.17dfsg-3ubuntu3.3_all.deb
+Size: 1915736
+MD5sum: 48b53ba0cea357ecbd1979aa78ddbfd5
+SHA1: f00ec741066512075ba69982fda203bef99b3362
+SHA256: bda6f190b25a9ee6f1985d5fcb9d90f0825ea523707ea9de3f183c2c5bcce4e7
+Description: Developer documentation for libsvn
+Homepage: http://subversion.apache.org/
+Description-md5: 18d9d88327d966dec100752fa09fc916
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libsvn-perl
+Priority: optional
+Section: perl
+Installed-Size: 3374
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Peter Samuelson <peter@p12n.org>
+Architecture: i386
+Source: subversion
+Version: 1.6.17dfsg-3ubuntu3.3
+Depends: perl (>= 5.14.2-6ubuntu2.3), perlapi-5.14.2, libapr1 (>= 1.2.7), libc6 (>= 2.4), libsvn1 (>= 1.6)
+Pre-Depends: multiarch-support
+Filename: pool/main/s/subversion/libsvn-perl_1.6.17dfsg-3ubuntu3.3_i386.deb
+Size: 869448
+MD5sum: e95561071930c35c376398e34a75aa59
+SHA1: b108da76d28823524a10a3f57ec73e667b5d43e5
+SHA256: c4730e0d6ea5875c487152aedabb47afc5ca26aa70fa3bcec15f3e0b5a834880
+Description: Perl bindings for Subversion
+Homepage: http://subversion.apache.org/
+Description-md5: 457ae508482666443880fe8931bfa396
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: libsvn1
+Priority: optional
+Section: libs
+Installed-Size: 2113
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Peter Samuelson <peter@p12n.org>
+Architecture: i386
+Source: subversion
+Version: 1.6.17dfsg-3ubuntu3.3
+Depends: libapr1 (>= 1.3.2), libaprutil1 (>= 1.3.2+dfsg), libc6 (>= 2.4), libdb4.8, libneon27-gnutls, libsasl2-2, libsqlite3-0 (>= 3.6.0), zlib1g (>= 1:1.1.4)
+Pre-Depends: multiarch-support
+Filename: pool/main/s/subversion/libsvn1_1.6.17dfsg-3ubuntu3.3_i386.deb
+Size: 840430
+MD5sum: bae681a05c41717392544f8d30874a5a
+SHA1: 0150aa0fa8451e90d3ee315f176c326da6d3fe51
+SHA256: a412caa9d47386df99144e5de133158b16a1876ad24c2244392a5b34c71b05f1
+Description: Shared libraries used by Subversion
+Multi-Arch: same
+Homepage: http://subversion.apache.org/
+Description-md5: 23cafd40f66428eca153524264a794fb
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
 Package: libswscale-dev
 Priority: optional
 Section: libdevel
@@ -45035,6 +45127,55 @@ Origin: Ubuntu
 Supported: 5y
 Task: ubuntu-desktop, cloud-image, ubuntu-usb, kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full, kubuntu-active, edubuntu-desktop, edubuntu-usb, edubuntu-desktop-kde, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master, lubuntu-desktop, ubuntustudio-desktop
 
+Package: python-subversion
+Priority: optional
+Section: python
+Installed-Size: 2889
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Peter Samuelson <peter@p12n.org>
+Architecture: i386
+Source: subversion
+Version: 1.6.17dfsg-3ubuntu3.3
+Provides: python2.7-subversion
+Depends: subversion, libapr1 (>= 1.2.7), libc6 (>= 2.4), libsvn1 (>= 1.6), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8)
+Pre-Depends: multiarch-support
+Suggests: python-subversion-dbg
+Filename: pool/main/s/subversion/python-subversion_1.6.17dfsg-3ubuntu3.3_i386.deb
+Size: 619556
+MD5sum: 284f6c477e62b085fe7095404e2a9fbe
+SHA1: 4b94268dce7160c7b5a032487c5efb72d99c5564
+SHA256: 382191d3a73e967c0ffbf3df87795ea6815c460248f3d679c45e731414748740
+Description: Python bindings for Subversion
+Homepage: http://subversion.apache.org/
+Description-md5: 38ff887d9bce735920100eefa3a165de
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: python-subversion-dbg
+Priority: extra
+Section: python
+Installed-Size: 7539
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Peter Samuelson <peter@p12n.org>
+Architecture: i386
+Source: subversion
+Version: 1.6.17dfsg-3ubuntu3.3
+Provides: python2.7-subversion-dbg
+Depends: python-subversion (= 1.6.17dfsg-3ubuntu3.3), python-dbg (>= 2.7), libapr1 (>= 1.2.7), libc6 (>= 2.4), libsvn1 (>= 1.6), python2.7-dbg, python-dbg (<< 2.8)
+Pre-Depends: multiarch-support
+Filename: pool/main/s/subversion/python-subversion-dbg_1.6.17dfsg-3ubuntu3.3_i386.deb
+Size: 2554076
+MD5sum: 7b380a134850d7883a1a23a2b1fa0f86
+SHA1: 03faa3b96e6a161afcbdd95dcb3d3d2ea186dd31
+SHA256: 5a185078e9a6d22802d1d1972983c8bb12c5b2a6801d35c120a041f60e4eae92
+Description: Python bindings for Subversion (debug extension)
+Homepage: http://subversion.apache.org/
+Description-md5: f20ef14947423d47b5d91de9d62bf3a7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: python-swift
 Priority: optional
 Section: python
@@ -46634,6 +46775,52 @@ Description-md5: d5c14e1471912f644f9014560978dd12
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
+
+Package: subversion
+Priority: optional
+Section: devel
+Installed-Size: 1148
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Peter Samuelson <peter@p12n.org>
+Architecture: i386
+Version: 1.6.17dfsg-3ubuntu3.3
+Depends: libsvn1 (= 1.6.17dfsg-3ubuntu3.3), libapr1 (>= 1.2.7), libc6 (>= 2.4), libsasl2-2
+Suggests: subversion-tools, db4.8-util, patch
+Filename: pool/main/s/subversion/subversion_1.6.17dfsg-3ubuntu3.3_i386.deb
+Size: 295228
+MD5sum: 74156c2b57347a7fca9ca51372eedacd
+SHA1: 2832e03b388dee1239cdc69cffd7a3aaaaf2f6ca
+SHA256: e797220649d1130b9c35f9a0bdde6f8ee92e0760329949f92665dcc87c3e62d1
+Description: Advanced version control system
+Homepage: http://subversion.apache.org/
+Description-md5: 15da1bb51fb2e9ea5e25b3a489b864d9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+
+Package: subversion-tools
+Priority: extra
+Section: admin
+Installed-Size: 580
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Peter Samuelson <peter@p12n.org>
+Architecture: all
+Source: subversion
+Version: 1.6.17dfsg-3ubuntu3.3
+Depends: subversion (>= 1.5)
+Recommends: python-subversion (>= 1.5), libsvn-perl (>= 1.5), libconfig-inifiles-perl, liburi-perl, exim4 | mail-transport-agent, xsltproc, rsync
+Suggests: libsvn-ruby1.8
+Filename: pool/main/s/subversion/subversion-tools_1.6.17dfsg-3ubuntu3.3_all.deb
+Size: 138510
+MD5sum: 6fe8840898c8de0e6ed54b23b98d7a61
+SHA1: 1cf351b27ac83014a92c3f059e6552ed2495d822
+SHA256: f9102947a777a19ba401a1d31b679fca47bf6f74d274471a9c34ac50416463b3
+Description: Assorted tools related to Subversion
+Homepage: http://subversion.apache.org/
+Description-md5: 8eaf8a6c9de65fb18536b0cebf8e7184
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
 
 Package: sudo
 Priority: important

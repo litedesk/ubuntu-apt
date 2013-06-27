@@ -10788,6 +10788,35 @@ Description-md5: fedfa89ced3aa67317f9dac7ba5308da
 Description-en: Symbol tables for libssl and libcrypto
  This package is part of the OpenSSL implementation of SSL.
 
+Package: libsvn-dev
+Description-md5: 8e9e34c74ef113c2db3c8937e66839cf
+Description-en: Development files for Subversion libraries
+ This package contains the symlinks, headers, and object files needed
+ to compile and link programs which use libsvn1, the Subversion
+ libraries.  This package is needed only in order to compile software
+ that uses libsvn1.
+
+Package: libsvn-doc
+Description-md5: 18d9d88327d966dec100752fa09fc916
+Description-en: Developer documentation for libsvn
+ This package contains development (API) documentation for libsvn1, the
+ Subversion libraries.  See the 'libsvn1' package for more information.
+
+Package: libsvn-perl
+Description-md5: 457ae508482666443880fe8931bfa396
+Description-en: Perl bindings for Subversion
+ This is a set of Perl interfaces to libsvn, the Subversion libraries.
+ It is useful if you want to, for example, write a Perl script that
+ manipulates a Subversion repository or working copy.  See the
+ 'subversion' package for more information.
+
+Package: libsvn1
+Description-md5: 23cafd40f66428eca153524264a794fb
+Description-en: Shared libraries used by Subversion
+ This package includes shared libraries to manipulate Subversion (svn)
+ repositories and working copies.  See the 'subversion' package for
+ more information.
+
 Package: libswscale-dev
 Description-md5: edcc124cb02dafb94c43a541fb77930a
 Description-en: Development files for libswscale
@@ -20182,6 +20211,24 @@ Description-en: manage the repositories that you install software from
  It allows you to easily manage your distribution and independent software
  vendor software sources.
 
+Package: python-subversion
+Description-md5: 38ff887d9bce735920100eefa3a165de
+Description-en: Python bindings for Subversion
+ This is a set of Python interfaces to libsvn, the Subversion
+ libraries.  It is useful if you want to, for example, write a Python
+ script that manipulates a Subversion repository or working copy.  See
+ the 'subversion' package for more information.
+
+Package: python-subversion-dbg
+Description-md5: f20ef14947423d47b5d91de9d62bf3a7
+Description-en: Python bindings for Subversion (debug extension)
+ This is a set of Python interfaces to libsvn, the Subversion
+ libraries.  It is useful if you want to, for example, write a Python
+ script that manipulates a Subversion repository or working copy.  See
+ the 'subversion' package for more information.
+ .
+ This package contains the extension built for the python debug interpreter.
+
 Package: python-swift
 Description-md5: de070055ceecd087c69ec8d278884c43
 Description-en: distributed virtual object store - Python libraries
@@ -20906,6 +20953,44 @@ Description-en: Full featured Web Proxy cache (HTTP proxy) - Debug symbols
  new features including ICAP and ESI support.
  .
  This package contains debugging symbols for binaries in squid3.
+
+Package: subversion
+Description-md5: 15da1bb51fb2e9ea5e25b3a489b864d9
+Description-en: Advanced version control system
+ Subversion, also known as svn, is a version control system much like
+ the Concurrent Versions System (CVS).  Version control systems allow
+ many individuals (who may be distributed geographically) to
+ collaborate on a set of files (typically source code).  Subversion has
+ all the major features of CVS, plus certain new features that CVS
+ users often wish they had.
+ .
+ This package includes the Subversion client (svn), tools to create a
+ Subversion repository (svnadmin) and to make a repository available
+ over a network (svnserve).
+
+Package: subversion-tools
+Description-md5: 8eaf8a6c9de65fb18536b0cebf8e7184
+Description-en: Assorted tools related to Subversion
+ This package includes miscellaneous tools for use with Subversion
+ clients and servers:
+  * svn-backup-dumps: Incremental dumpfile-based backup script
+  * svn-bisect: Bisect revisions to find a regression
+  * svn-clean: Remove unversioned files from a working copy
+  * svn-fast-backup: rsync-based backup script for FSFS repositories
+  * svn-hot-backup: Backup script, primarily for BDB repositories
+  * svn_apply_autoprops: Apply property settings from
+    .subversion/config file to an existing repository
+  * svn_load_dirs: Sophisticated replacement for 'svn import'
+  * svn2cl: Generate GNU-style changelog from repository history
+  * svnmerge: Maintain merge history between two related branches
+    (mostly obsolete as of Subversion 1.5)
+  * svnwrap: Set umask to 002 before calling svn or svnserve
+  * several example hook scripts: commit-access-control, commit-email,
+    log-police, mailer, svnperms, verify-po
+ .
+ NOTE that some of these scripts are unsupported by upstream, and may
+ change radically or disappear in future releases.  The Recommended
+ packages are each required by at least one of these scripts.
 
 Package: sudo
 Description-md5: acd82d558698567df941afe9b1ac35df

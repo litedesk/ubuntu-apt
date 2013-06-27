@@ -4626,6 +4626,14 @@ Description-en: Tighten web applications security for Apache
  In addition to this package the modsecurity-common package, which includes
  documentation and configuration examples, will be installed.
 
+Package: libapache2-svn
+Description-md5: b625db8216427c04f0c7991a6ef7a5be
+Description-en: Subversion server modules for Apache
+ This package provides the mod_dav_svn and mod_authz_svn modules for
+ the Apache 2.2 web server.  These modules provide Subversion's WebDAV
+ server backend, to serve repositories over the http and https
+ protocols.  See the 'subversion' package for more information.
+
 Package: libasound2-python
 Description-md5: 9213ff895c935342729d7381e7981afe
 Description-en: ALSA library python mixer
@@ -6456,6 +6464,28 @@ Description-md5: 43cb83a7573af74214858e973f744090
 Description-en: Communicator library for sudo
  Utility library to allow communication between sudo and SSSD for caching
  sudo rules by SSSD.
+
+Package: libsvn-java
+Description-md5: 29d394313a54fa67a769cfba1440f2d1
+Description-en: Java bindings for Subversion
+ This is a set of Java classes which provide the functionality of
+ libsvn, the Subversion libraries.  It is useful if you want to, for
+ example, write a Java class that manipulates a Subversion repository
+ or working copy.  See the 'subversion' package for more information.
+
+Package: libsvn-ruby
+Description-md5: e34544dc883f31936268c3982b4cb2cd
+Description-en: Ruby bindings for Subversion (dummy package)
+ This is a dummy package to install the Subversion library bindings for
+ the default version of Ruby.
+
+Package: libsvn-ruby1.8
+Description-md5: 30848be3417f8ca59497570f11b9eae1
+Description-en: Ruby bindings for Subversion
+ This is a set of Ruby interfaces to libsvn, the Subversion libraries.
+ It is useful if you want to, for example, write a Ruby script that
+ manipulates a Subversion repository or working copy.  See the
+ 'subversion' package for more information.
 
 Package: libswscale-extra-2
 Description-md5: 6a274089de0c837dbd8bd2fdeb3a1ba3
