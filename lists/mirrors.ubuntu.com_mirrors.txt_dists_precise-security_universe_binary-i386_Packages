@@ -411,22 +411,22 @@ Origin: Ubuntu
 Package: chromium-browser
 Priority: optional
 Section: universe/web
-Installed-Size: 96285
+Installed-Size: 115847
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Micah Gersten <micahg@ubuntu.com>, Fabien Tassin <fta@ubuntu.com>
 Architecture: i386
-Version: 25.0.1364.160-0ubuntu0.12.04.1
+Version: 28.0.1500.52-0ubuntu1.12.04.2
 Replaces: chromium-browser-inspector
 Provides: chromium-browser-inspector, www-browser
-Depends: gconf-service, libasound2 (>= 1.0.23), libatk1.0-0 (>= 1.12.4), libbz2-1.0, libc6 (>= 2.15), libcairo2 (>= 1.6.0), libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.2.14), libexpat1 (>= 1.95.8), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.1.1), libgconf-2-4 (>= 2.31.1), libgcrypt11 (>= 1.4.5), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk2.0-0 (>= 2.24.0), libnspr4 (>= 1.8.0.10), libnss3 (>= 3.12.3), libpango1.0-0 (>= 1.22.0), libstdc++6 (>= 4.6), libudev0 (>= 147), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.3-1), libxext6, libxfixes3, libxrandr2 (>= 2:1.2.0), libxrender1, libxss1, libnss3-1d (>= 3.12.3), xdg-utils, chromium-codecs-ffmpeg (>= 0.6) | chromium-codecs-ffmpeg-extra (>= 0.6)
+Depends: gconf-service, libasound2 (>= 1.0.23), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.15), libcairo2 (>= 1.6.0), libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.2.14), libexpat1 (>= 1.95.8), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.1.1), libgconf-2-4 (>= 2.31.1), libgcrypt11 (>= 1.4.5), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk2.0-0 (>= 2.24.0), libnspr4 (>= 1.8.0.10), libnss3 (>= 3.12.6), libpango1.0-0 (>= 1.22.0), libstdc++6 (>= 4.6), libudev0 (>= 147), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.0), libxrender1, libxss1, libnss3-1d (>= 3.12.3), xdg-utils, chromium-codecs-ffmpeg (>= 0.6) | chromium-codecs-ffmpeg-extra (>= 0.6)
 Pre-Depends: dpkg (>= 1.15.6~)
 Recommends: chromium-browser-l10n
 Conflicts: chromium-browser-inspector
-Filename: pool/universe/c/chromium-browser/chromium-browser_25.0.1364.160-0ubuntu0.12.04.1_i386.deb
-Size: 26801964
-MD5sum: 3fbb3d5d6f8273f9ceb4000bbcbfab90
-SHA1: 1945a06212c103b47a78a34a1a8cfbc3fa7b80aa
-SHA256: 52e76867f01e16d72497567bf3dc682b62dbf8b0498ba04aab3363262f283d47
+Filename: pool/universe/c/chromium-browser/chromium-browser_28.0.1500.52-0ubuntu1.12.04.2_i386.deb
+Size: 32246424
+MD5sum: f6e8f95411ba799ba1f8eb9dc9407e3a
+SHA1: 1fe4b7a80108d1fb25d3e1b9302be2dc244ae9cf
+SHA256: 74096998c552c4ec086191132587ec78fc23aba1471729a6a8c878ef482de25d
 Description: Chromium browser
 Homepage: http://code.google.com/chromium/
 Description-md5: f899058e5c597ae295f6ef23b467dade
@@ -437,19 +437,19 @@ Task: mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-
 Package: chromium-browser-dbg
 Priority: optional
 Section: universe/devel
-Installed-Size: 24031
+Installed-Size: 1080646
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Micah Gersten <micahg@ubuntu.com>, Fabien Tassin <fta@ubuntu.com>
 Architecture: i386
 Source: chromium-browser
-Version: 25.0.1364.160-0ubuntu0.12.04.1
-Depends: chromium-browser (= 25.0.1364.160-0ubuntu0.12.04.1)
+Version: 28.0.1500.52-0ubuntu1.12.04.2
+Depends: chromium-browser (= 28.0.1500.52-0ubuntu1.12.04.2)
 Pre-Depends: dpkg (>= 1.15.6~)
-Filename: pool/universe/c/chromium-browser/chromium-browser-dbg_25.0.1364.160-0ubuntu0.12.04.1_i386.deb
-Size: 4106344
-MD5sum: 846670621db72f27e9cb97b52b238088
-SHA1: e84d2492b5e9e24a9516e2c7842d83eb238976a1
-SHA256: 33d0aaec84f2d2e0c511deb78a31b1c2da8e99bd736d1e22c6b594751547c37c
+Filename: pool/universe/c/chromium-browser/chromium-browser-dbg_28.0.1500.52-0ubuntu1.12.04.2_i386.deb
+Size: 276543658
+MD5sum: fd54b022e9708057764dc437271d45ff
+SHA1: aad24fc33791f6da8949120c4da22b71c2f8ef65
+SHA256: 6173c81267645e8053467f399e66122c5e7611a5444a8ef77529bf22f4a87945
 Description: chromium-browser debug symbols
 Homepage: http://code.google.com/chromium/
 Description-md5: 15b3c7e55558d7ef27690042e85c8e5c
@@ -459,19 +459,19 @@ Origin: Ubuntu
 Package: chromium-browser-l10n
 Priority: optional
 Section: universe/web
-Installed-Size: 15708
+Installed-Size: 15965
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Micah Gersten <micahg@ubuntu.com>, Fabien Tassin <fta@ubuntu.com>
 Architecture: all
 Source: chromium-browser
-Version: 25.0.1364.160-0ubuntu0.12.04.1
-Depends: chromium-browser (>= 25.0.1364.160-0ubuntu0.12.04.1), chromium-browser (<< 25.0.1364.160-0ubuntu0.12.04.1.1~)
+Version: 28.0.1500.52-0ubuntu1.12.04.2
+Depends: chromium-browser (>= 28.0.1500.52-0ubuntu1.12.04.2), chromium-browser (<< 28.0.1500.52-0ubuntu1.12.04.2.1~)
 Pre-Depends: dpkg (>= 1.15.6~)
-Filename: pool/universe/c/chromium-browser/chromium-browser-l10n_25.0.1364.160-0ubuntu0.12.04.1_all.deb
-Size: 2692764
-MD5sum: c355b113ee4301295a81be64bd1b427f
-SHA1: 9c5ec049ac85d139723dbfc750b927c1f60416e7
-SHA256: bbe0c8123dfd893b38584c02a19fa7a3b52d85c8c42cfb12985d3e4c945b3322
+Filename: pool/universe/c/chromium-browser/chromium-browser-l10n_28.0.1500.52-0ubuntu1.12.04.2_all.deb
+Size: 2734684
+MD5sum: 3c77b5e8499c05ae32b63ca230da3818
+SHA1: 829704e89c34aba5471be57b1c0584e00346b56d
+SHA256: e57505f681587026f808548996d45d46929a03dc7e7d5f9e66d7c02f352fece4
 Description: chromium-browser language packages
 Homepage: http://code.google.com/chromium/
 Description-md5: c2e096d2a6fe078996f4990644767741
@@ -482,21 +482,21 @@ Task: mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-
 Package: chromium-codecs-ffmpeg
 Priority: optional
 Section: universe/web
-Installed-Size: 1855
+Installed-Size: 1228
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Micah Gersten <micahg@ubuntu.com>, Fabien Tassin <fta@ubuntu.com>
 Architecture: i386
 Source: chromium-browser
-Version: 25.0.1364.160-0ubuntu0.12.04.1
+Version: 28.0.1500.52-0ubuntu1.12.04.2
 Replaces: chromium-codecs-ffmpeg-extra
 Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), chromium-browser (>= 4.0.203.0~)
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: chromium-codecs-ffmpeg-extra
-Filename: pool/universe/c/chromium-browser/chromium-codecs-ffmpeg_25.0.1364.160-0ubuntu0.12.04.1_i386.deb
-Size: 476198
-MD5sum: 8cf46f89747745be02c76d76f72536eb
-SHA1: 3d17896d3c0f7dfbce0c20ea98a79fff916c2b5b
-SHA256: fa3a3131da4a39d18364c602430a9d62bedc9c67f7df83f9c5c0bbc623740fef
+Filename: pool/universe/c/chromium-browser/chromium-codecs-ffmpeg_28.0.1500.52-0ubuntu1.12.04.2_i386.deb
+Size: 396752
+MD5sum: 0e683a8a4a8e75ed02005a6ea61b4b00
+SHA1: 4ee203dbd717011b6c94d0940108526c363fc1bf
+SHA256: 68410b7be47db41047198933f32d0015eba1f970ceb5485e9ae4b3d3ba3da9cf
 Description: Free ffmpeg codecs for the Chromium Browser
 Homepage: http://code.google.com/chromium/
 Description-md5: fda6de9707cbf849a1b48c111584798a
@@ -507,21 +507,21 @@ Task: mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-
 Package: chromium-codecs-ffmpeg-dbg
 Priority: extra
 Section: universe/debug
-Installed-Size: 3926
+Installed-Size: 3180
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Micah Gersten <micahg@ubuntu.com>, Fabien Tassin <fta@ubuntu.com>
 Architecture: i386
 Source: chromium-browser
-Version: 25.0.1364.160-0ubuntu0.12.04.1
+Version: 28.0.1500.52-0ubuntu1.12.04.2
 Replaces: chromium-codecs-ffmpeg-extra-dbg
-Depends: chromium-codecs-ffmpeg (= 25.0.1364.160-0ubuntu0.12.04.1)
+Depends: chromium-codecs-ffmpeg (= 28.0.1500.52-0ubuntu1.12.04.2)
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: chromium-codecs-ffmpeg-extra-dbg
-Filename: pool/universe/c/chromium-browser/chromium-codecs-ffmpeg-dbg_25.0.1364.160-0ubuntu0.12.04.1_i386.deb
-Size: 873310
-MD5sum: 1979bf1184603de266b9cd69df6d08eb
-SHA1: bc6185157477956243cdf09c38c12bfb6791bd72
-SHA256: 822be502ba14a7e655330efe4451b880d6cea99f6a43f1b7efb869d7bc57a43a
+Filename: pool/universe/c/chromium-browser/chromium-codecs-ffmpeg-dbg_28.0.1500.52-0ubuntu1.12.04.2_i386.deb
+Size: 712142
+MD5sum: 1e251d2d53ddfe1b2973e0672c6a0893
+SHA1: 43134efced99919e41b381377d39885d954e39f1
+SHA256: 5a21f58f8be8a7b3df0b8a4481f0f55bc1313fb599d86c10e81bba89b56553f4
 Description: chromium-codecs-ffmpeg debug symbols
 Homepage: http://code.google.com/chromium/
 Description-md5: 7e8e74f91e0842ff27996a795a82b3de
@@ -531,21 +531,21 @@ Origin: Ubuntu
 Package: chromium-codecs-ffmpeg-extra
 Priority: optional
 Section: universe/web
-Installed-Size: 2680
+Installed-Size: 2369
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Micah Gersten <micahg@ubuntu.com>, Fabien Tassin <fta@ubuntu.com>
 Architecture: i386
 Source: chromium-browser
-Version: 25.0.1364.160-0ubuntu0.12.04.1
+Version: 28.0.1500.52-0ubuntu1.12.04.2
 Replaces: chromium-codecs-ffmpeg
 Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), chromium-browser (>= 4.0.203.0~)
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: chromium-codecs-ffmpeg
-Filename: pool/universe/c/chromium-browser/chromium-codecs-ffmpeg-extra_25.0.1364.160-0ubuntu0.12.04.1_i386.deb
-Size: 760054
-MD5sum: 27cba4d444f14ab4cc7d028a48ef8365
-SHA1: 91ebb7b6289158d770b235bffcfd904e827f3605
-SHA256: 71841baf0e64c28a5edede4b9a843f6814f6d06f45079da3b6988964d7a134c1
+Filename: pool/universe/c/chromium-browser/chromium-codecs-ffmpeg-extra_28.0.1500.52-0ubuntu1.12.04.2_i386.deb
+Size: 722124
+MD5sum: 9903f8eda207e77fd414285555311868
+SHA1: b0ea95946832e865d11bc3b478c2dc2f98a5531e
+SHA256: 5f17596f669d26312408709e849ee0ce80132263608b6d0f6b6dd86888c3af41
 Description: Extra ffmpeg codecs for the Chromium Browser
 Homepage: http://code.google.com/chromium/
 Description-md5: ab978b950781d7f6c3bc7c16294da8fe
@@ -555,21 +555,21 @@ Origin: Ubuntu
 Package: chromium-codecs-ffmpeg-extra-dbg
 Priority: extra
 Section: universe/debug
-Installed-Size: 6350
+Installed-Size: 6494
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Micah Gersten <micahg@ubuntu.com>, Fabien Tassin <fta@ubuntu.com>
 Architecture: i386
 Source: chromium-browser
-Version: 25.0.1364.160-0ubuntu0.12.04.1
+Version: 28.0.1500.52-0ubuntu1.12.04.2
 Replaces: chromium-codecs-ffmpeg-dbg
-Depends: chromium-codecs-ffmpeg-extra (= 25.0.1364.160-0ubuntu0.12.04.1)
+Depends: chromium-codecs-ffmpeg-extra (= 28.0.1500.52-0ubuntu1.12.04.2)
 Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: chromium-codecs-ffmpeg-dbg
-Filename: pool/universe/c/chromium-browser/chromium-codecs-ffmpeg-extra-dbg_25.0.1364.160-0ubuntu0.12.04.1_i386.deb
-Size: 1448876
-MD5sum: 9f81d3db15fbdd930100c134995708f0
-SHA1: 21c86b52d19b1514a630fdbfa65071fd2e529794
-SHA256: 394ce6c145589a990dbe1dff2ec7200ecadc260db2e1a0c940eafa81c53551a3
+Filename: pool/universe/c/chromium-browser/chromium-codecs-ffmpeg-extra-dbg_28.0.1500.52-0ubuntu1.12.04.2_i386.deb
+Size: 1457330
+MD5sum: 076e52790ea18b4241ff0d2758b19e19
+SHA1: cb79a1c15036338680e1a67aaa315cc1e43e8a35
+SHA256: 2d0abb4abc572e63e8b9ba9651a65b97357e921f768f8dc454c44568a92f37e2
 Description: chromium-codecs-ffmpeg-extra debug symbols
 Homepage: http://code.google.com/chromium/
 Description-md5: 3002fac13fe9f771bfdcb0702c4ccc6c
