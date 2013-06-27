@@ -21501,16 +21501,16 @@ Origin: Ubuntu
 Package: thunderbird-mozsymbols
 Priority: extra
 Section: universe/debug
-Installed-Size: 19295
+Installed-Size: 19298
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
 Source: thunderbird
-Version: 17.0.6+build1-0ubuntu0.12.04.1
-Filename: pool/universe/t/thunderbird/thunderbird-mozsymbols_17.0.6+build1-0ubuntu0.12.04.1_amd64.deb
-Size: 19525174
-MD5sum: 89034f4be843aa054e0609316193d9b5
-SHA1: 7b89edf79952b58a55b711f45017df0c6bffef42
-SHA256: 2953049dde35b7b57e005557a4b36b17a36899da86a3aebbc0eb17a83bf60ef5
+Version: 17.0.7+build1-0ubuntu0.12.04.1
+Filename: pool/universe/t/thunderbird/thunderbird-mozsymbols_17.0.7+build1-0ubuntu0.12.04.1_amd64.deb
+Size: 19528498
+MD5sum: c6e02c748ed9b37e527b7b318ed45d4e
+SHA1: d4c027908d01e2df66abe2cff774a3ecae5003f2
+SHA256: c8be568fde2844ee6c2aedd7118da6308fcb80e77dc70410625ce8b612fb65cd
 Description: Email, RSS and newsgroup client - Breakpad symbols
 Description-md5: ac1a6a5ccd00092e19efbf6f6f9538a0
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -24772,12 +24772,12 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: all
 Source: xen
-Version: 4.1.2-2ubuntu2.9
-Filename: pool/universe/x/xen/xen-docs-4.1_4.1.2-2ubuntu2.9_all.deb
-Size: 1148910
-MD5sum: 11908a3d9885c07d55d356af793353b3
-SHA1: 797932f6c575789d2469c15fe994c7929180368e
-SHA256: 6a24862b40e91e690a0ebba9dd5a779e19211d9758cb08e59aebc17812e2402d
+Version: 4.1.2-2ubuntu2.10
+Filename: pool/universe/x/xen/xen-docs-4.1_4.1.2-2ubuntu2.10_all.deb
+Size: 1149428
+MD5sum: 2c1cf594ead697f58cff89ef6b2daea2
+SHA1: 1f6577ae93283081f27016d69a643c25ffc7c9e4
+SHA256: 1af6e2613c547db918bdff17b105700f7d1cb46195a6c884535e450ed500bdb8
 Description: Documentation for Xen
 Description-md5: 6cae9b51dadf4d0824b74e2b7ff1077f
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -24786,20 +24786,20 @@ Origin: Ubuntu
 Package: xen-hypervisor-4.1-amd64
 Priority: optional
 Section: universe/kernel
-Installed-Size: 770
+Installed-Size: 772
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: xen
-Version: 4.1.2-2ubuntu2.9
+Version: 4.1.2-2ubuntu2.10
 Provides: xen-hypervisor, xen-hypervisor-4.1, xen-hypervisor-amd64
 Recommends: xen-utils-4.1
 Suggests: xen-docs-4.1
-Filename: pool/universe/x/xen/xen-hypervisor-4.1-amd64_4.1.2-2ubuntu2.9_amd64.deb
-Size: 740252
-MD5sum: cab649ba9bf8bf23068daa3cf25b4973
-SHA1: 1932b5b84e8194fd2678ad5a9da32e1dd6d7dbd8
-SHA256: f928dd1afe56c50f1c2fd924604d7ec0a7d9657aa26f626aec3aa7efe46151ee
+Filename: pool/universe/x/xen/xen-hypervisor-4.1-amd64_4.1.2-2ubuntu2.10_amd64.deb
+Size: 741756
+MD5sum: 980133721440a282f41d3c2ae4c4ccf0
+SHA1: 4ba459270afd8ddb0ebc2ed28d0943d9065783ca
+SHA256: 99c3fa6074c8e235fb85e0ddd97d6d2b92203c4b74a566ef8803f0c71021912d
 Description: Xen Hypervisor on AMD64
 Description-md5: 30d22c56057f827a5cc3329925199782
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -24813,18 +24813,18 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: xen
-Version: 4.1.2-2ubuntu2.9
+Version: 4.1.2-2ubuntu2.10
 Replaces: libxen3 (<= 3.3.0-1ubuntu12), python-xen-3.3 (<= 3.3.0-1ubuntu12), xen-utils-3.3 (<= 3.3.0-1ubuntu12)
 Provides: xen-utils
 Depends: e2fslibs (>= 1.41.99), libc6 (>= 2.15), libgnutls26 (>= 2.12.6.1-0), libncurses5 (>= 5.5-5~), libpci3 (>= 1:3.1.8-2), libtinfo5, libuuid1 (>= 2.16), libxen-4.1 (>= 4.1.2), libxenstore3.0 (>= 4.0.1~rc4), zlib1g (>= 1:1.1.4), python2.7, python (>= 2.7.1-0ubuntu2), xen-utils-common (>= 3.4.2-4)
 Recommends: bridge-utils, xen-hypervisor-4.1, qemu-keymaps, qemu-utils
 Suggests: xen-docs-4.1
 Conflicts: libxen3 (<= 3.3.0-1ubuntu12), python-xen-3.3 (<= 3.3.0-1ubuntu12), xen-utils-3.3 (<= 3.3.0-1ubuntu12)
-Filename: pool/universe/x/xen/xen-utils-4.1_4.1.2-2ubuntu2.9_amd64.deb
-Size: 1614324
-MD5sum: 1a60159a31d9e80ecc170c50c3adf9a3
-SHA1: 08a2908159b891a6f38af367890beb7db19ed6f1
-SHA256: 2b5d193b60f17b91b4e6f77575f47d2ed94bc9617f303ae0e0039b38de03650a
+Filename: pool/universe/x/xen/xen-utils-4.1_4.1.2-2ubuntu2.10_amd64.deb
+Size: 1614812
+MD5sum: b9c48e7dfd18eff07400926d8cd7a77f
+SHA1: 1a36c68cf53d22e538fbe9bf43dfa48267d6c97d
+SHA256: b8e6ce59fabf324b1e0bc30c02078a51635f3f4c46caec9c6c5c741bf4e3c1f1
 Description: XEN administrative tools
 Description-md5: bd953dd4214727fe5759b05287bffcbe
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -24838,15 +24838,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: xen
-Version: 4.1.2-2ubuntu2.9
+Version: 4.1.2-2ubuntu2.10
 Replaces: libxen3 (<= 3.3.0-1ubuntu12), xen-utils-common (<= 3.1.0-1)
 Depends: libc6 (>= 2.4), libxenstore3.0 (>= 4.1.0~rc6)
 Conflicts: libxen3 (<= 3.3.0-1ubuntu12), xen-utils-common (<= 3.1.0-1)
-Filename: pool/universe/x/xen/xenstore-utils_4.1.2-2ubuntu2.9_amd64.deb
-Size: 14162
-MD5sum: a691b30227a54ee71608ef683dc1ee04
-SHA1: 00284c9917c902e91fedbd713d76b49ef0fda78a
-SHA256: ec5c46576d924beacc4081a6f2d58a5940e24a0a70f9be51fd214e5bcdaf08f6
+Filename: pool/universe/x/xen/xenstore-utils_4.1.2-2ubuntu2.10_amd64.deb
+Size: 14158
+MD5sum: 331b401cdd470f2abde8a5c0a21a4b6e
+SHA1: 746e9ea6fedfd99499db4545a233ce6acee96877
+SHA256: a3cb25f15d935388c3be9f0b1173eeec7d7b0953e2d582cfcf5be4b82ba03543
 Description: Xenstore utilities for Xen
 Description-md5: cfed1da00b837e11d5cbc87fffd781d4
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
