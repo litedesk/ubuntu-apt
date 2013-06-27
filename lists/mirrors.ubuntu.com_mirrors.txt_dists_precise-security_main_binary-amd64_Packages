@@ -803,6 +803,100 @@ Origin: Ubuntu
 Supported: 5y
 Task: dns-server
 
+Package: binutils
+Priority: optional
+Section: devel
+Installed-Size: 8516
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 2.22-6ubuntu1.1
+Replaces: binutils-gold (<< 2.20.51.20100415)
+Provides: elf-binutils
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), zlib1g (>= 1:1.2.0)
+Suggests: binutils-doc (>= 2.22-6ubuntu1.1)
+Conflicts: binutils-gold (<< 2.20.51.20100415), elf-binutils, gas, modutils (<< 2.4.19-1)
+Filename: pool/main/b/binutils/binutils_2.22-6ubuntu1.1_amd64.deb
+Size: 2638420
+MD5sum: 4abcede722bd28bd70fe6f6016346bf1
+SHA1: 12798e0dab08d1e4cfbda0ae10f6ca7a6d236a96
+SHA256: 0a2baebf0e2b329f7a5dc9979172544e41d2d912d376fec0479f64d589c15422
+Description: GNU assembler, linker and binary utilities
+Description-md5: fde49b4cfeaad346a6e094f973da28d7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Build-Essential: yes
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full, kubuntu-active, edubuntu-desktop, edubuntu-usb, edubuntu-desktop-kde, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, lubuntu-live, ubuntustudio-desktop
+
+Package: binutils-dev
+Priority: extra
+Section: devel
+Installed-Size: 16293
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Source: binutils
+Version: 2.22-6ubuntu1.1
+Replaces: libbfd-dev, libc5-dev
+Provides: libbfd-dev
+Depends: binutils (= 2.22-6ubuntu1.1)
+Conflicts: libbfd-dev
+Filename: pool/main/b/binutils/binutils-dev_2.22-6ubuntu1.1_amd64.deb
+Size: 4316900
+MD5sum: 325a787109b8efb5d5ab2704f149f7b9
+SHA1: 0d9940320fc0bddba480729d4ebf69cf04fbab91
+SHA256: f6b656e8a5bc795488b4f8118b3d0d153a006a9c0ec84f755561ef66f6fc0d7e
+Description: GNU binary utilities (BFD development files)
+Description-md5: ddc22c04156534b000b4f021b88a6023
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: binutils-doc
+Priority: optional
+Section: doc
+Installed-Size: 601
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Architecture: all
+Source: binutils
+Version: 2.22-6ubuntu1.1
+Depends: dpkg (>= 1.15.4) | install-info
+Suggests: binutils (= 2.22-6ubuntu1.1)
+Conflicts: binutils (<< 2.9.1.0.25-3)
+Filename: pool/main/b/binutils/binutils-doc_2.22-6ubuntu1.1_all.deb
+Size: 546912
+MD5sum: 832ddf1d031cd549a3cf09a5583f86f9
+SHA1: e324925064b1ff08911d8951a43e9e6b13ef0af3
+SHA256: a8480e78fb272ff2db4b78fed254c6610570fa7ee7ab3b3cdafa580594be2457
+Description: Documentation for the GNU assembler, linker and binary utilities
+Description-md5: 61fd9f95707b9eb9ad8fe9b13a862636
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: binutils-gold
+Priority: extra
+Section: devel
+Installed-Size: 46
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Source: binutils
+Version: 2.22-6ubuntu1.1
+Depends: binutils (= 2.22-6ubuntu1.1)
+Filename: pool/main/b/binutils/binutils-gold_2.22-6ubuntu1.1_amd64.deb
+Size: 1442
+MD5sum: 054430ee6bdac480633c0f54a5b48854
+SHA1: 0434254842dbeec2b083861a8d7893a18028e760
+SHA256: bca6c423b4ff7b5b3b1883ac8a22f2070f58ed3542a7c62a5f2a01aa19c99f58
+Description: GNU gold linker utility
+Description-md5: b5eb770bdbe9888779f5a3ca0158253d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: blogilo
 Priority: optional
 Section: web

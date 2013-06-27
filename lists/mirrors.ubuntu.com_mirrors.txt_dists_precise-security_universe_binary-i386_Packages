@@ -159,6 +159,66 @@ Description-md5: 11981192555722bdb8943135f1b3671a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: binutils-multiarch
+Priority: extra
+Section: universe/devel
+Installed-Size: 5999
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Architecture: i386
+Source: binutils
+Version: 2.22-6ubuntu1.1
+Provides: multiarch-binutils
+Depends: libc6 (>= 2.11), zlib1g (>= 1:1.2.0), binutils (= 2.22-6ubuntu1.1)
+Filename: pool/universe/b/binutils/binutils-multiarch_2.22-6ubuntu1.1_i386.deb
+Size: 2227714
+MD5sum: 36af323e0c9bff38f306d25af454e3a2
+SHA1: 0fe5607f8550c0368d6a414f2526affb0dc5d9b2
+SHA256: a1e2c25cf556012fc340f809f7ca5b3b21ba7e5d1e38103aab3b29203d0edff9
+Description: Binary utilities that support multi-arch targets
+Description-md5: 92d4fb12b00b5e0be9a7f556eec63a0b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: binutils-source
+Priority: optional
+Section: universe/devel
+Installed-Size: 14942
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Architecture: all
+Source: binutils
+Version: 2.22-6ubuntu1.1
+Depends: texinfo, zlib1g-dev, make, python
+Filename: pool/universe/b/binutils/binutils-source_2.22-6ubuntu1.1_all.deb
+Size: 14721710
+MD5sum: d15be2520e6f474d9777039e82a8b013
+SHA1: e5c24475c415e9a0bf1488078d52e24f9e5d5e2e
+SHA256: fe17f4906a0c8b6d783a77daf0d7ddb66f2332dc2f01158208bf47daedc110ee
+Description: GNU assembler, linker and binary utilities (source)
+Description-md5: acf2f0e289b8b831828996002f7eb6f1
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: binutils-static
+Priority: optional
+Section: universe/devel
+Installed-Size: 1948
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Architecture: i386
+Source: binutils
+Version: 2.22-6ubuntu1.1
+Filename: pool/universe/b/binutils/binutils-static_2.22-6ubuntu1.1_i386.deb
+Size: 793044
+MD5sum: 1a3ddbbbead12e132dc3ebfbfc6d6e69
+SHA1: 93b3992fb07cb52f14f359b392dafbb4cbd232c6
+SHA256: 57492bea20729252ff522a9519c8681c2bc4264c93418a8d7f22a46fef174fae
+Description: statically linked binutils tools
+Description-md5: a90e1a9ffbe1800f08a167ffcbaf97cf
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: bogofilter
 Priority: optional
 Section: universe/mail
