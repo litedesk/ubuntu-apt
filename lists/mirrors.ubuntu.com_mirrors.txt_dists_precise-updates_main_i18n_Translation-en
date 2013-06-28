@@ -850,6 +850,35 @@ Description-en: Utilities for BIND
  This package provides various utilities that are useful for maintaining a
  working BIND installation.
 
+Package: binutils
+Description-md5: fde49b4cfeaad346a6e094f973da28d7
+Description-en: GNU assembler, linker and binary utilities
+ The programs in this package are used to assemble, link and manipulate
+ binary and object files.  They may be used in conjunction with a compiler
+ and various libraries to build programs.
+
+Package: binutils-dev
+Description-md5: ddc22c04156534b000b4f021b88a6023
+Description-en: GNU binary utilities (BFD development files)
+ This package includes header files and static libraries necessary to build
+ programs which use the GNU BFD library, which is part of binutils.  Note
+ that building Debian packages which depend on the shared libbfd is Not
+ Allowed.
+
+Package: binutils-doc
+Description-md5: 61fd9f95707b9eb9ad8fe9b13a862636
+Description-en: Documentation for the GNU assembler, linker and binary utilities
+ This package consists of the documentation for the GNU assembler,
+ linker and binary utilities in info format.
+
+Package: binutils-gold
+Description-md5: b5eb770bdbe9888779f5a3ca0158253d
+Description-en: GNU gold linker utility
+ Gold is a new linker, which is faster than the current linker included
+ in binutils.
+ .
+ This package diverts the GNU linker (ld) with the gold linker.
+
 Package: blogilo
 Description-md5: ae813549c2fd931e8cb3619a096f8913
 Description-en: graphical blogging client
@@ -53232,6 +53261,16 @@ Description-en: Geode GX2/LX display driver (debugging symbols)
  NSC GX2 (Red Cloud), AMD GX and AMD LX series chips.
  .
  This package provides debugging symbols for this X.Org driver.
+
+Package: binutils-spu
+Description-md5: 4e89b57caad5a98c31bb85ee97a40e16
+Description-en: GNU assembler, linker and binary utilities targeted for spu-elf
+ The programs in this package are used to assemble, link and manipulate
+ binary and object files.  They may be used in conjunction with a compiler
+ and various libraries to build programs.
+ .
+ This package is needed to build programs for Cell Broadband Engine SPU
+ processors.
 
 Package: libc6-dev-ppc64
 Description-md5: 2d9f319c95791dd582fa4647b75ff7d7

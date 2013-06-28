@@ -608,6 +608,30 @@ Description-en: GNU Bourne Again SHell (static version)
  .
  Statically linked.
 
+Package: binutils-multiarch
+Description-md5: 92d4fb12b00b5e0be9a7f556eec63a0b
+Description-en: Binary utilities that support multi-arch targets
+ The programs in this package are used to manipulate binary and object
+ files that may have been created on other architectures.  This package
+ is primarily for multi-architecture developers and cross-compilers and
+ is not needed by normal users or developers.  Note that a cross-assembling
+ version of gas is not included in this package, just the binary utilities.
+ NORMAL USERS SHOULD NOT INSTALL THIS PACKAGE.  It's meant only for those
+ requiring support for reading info from binaries from other architectures.
+
+Package: binutils-source
+Description-md5: acf2f0e289b8b831828996002f7eb6f1
+Description-en: GNU assembler, linker and binary utilities (source)
+ This package contains the sources and patches which are needed to
+ build binutils.
+
+Package: binutils-static
+Description-md5: a90e1a9ffbe1800f08a167ffcbaf97cf
+Description-en: statically linked binutils tools
+ This package contains statically linked binutils tools used
+ for linking kernel modules needed to mount /usr or /.  At the moment,
+ it only contains ld.
+
 Package: blcr-dkms
 Description-md5: 1802d8f8d5653bcad23e418e24e5508b
 Description-en: DKMS support for BLCR kernel module
