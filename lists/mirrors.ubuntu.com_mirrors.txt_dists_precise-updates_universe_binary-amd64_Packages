@@ -1976,6 +1976,27 @@ Description-md5: c59ae5f8fe9f252bf9fbf651bcf214b8
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: cgroup-bin
+Priority: extra
+Section: universe/admin
+Installed-Size: 241
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Jon Bernard <jbernard@debian.org>
+Architecture: amd64
+Source: libcgroup
+Version: 0.37.1-1ubuntu10.1
+Depends: libc6 (>= 2.15), libcgroup1, upstart-job
+Filename: pool/universe/libc/libcgroup/cgroup-bin_0.37.1-1ubuntu10.1_amd64.deb
+Size: 64256
+MD5sum: f4f3f102f3d3bf4bb797dfdaa62ae972
+SHA1: 7ed9fd5f0c02805399f1612ac37d361eea079663
+SHA256: fadf6777bf1db00502a0dae3e596810dfe7f9fa231175ded45227834ab953a22
+Description: Tools to control and monitor control groups
+Homepage: http://sourceforge.net/projects/libcg/
+Description-md5: ed14b688e919fc9d3c2dfad3549f63f6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: checkbox-urwid
 Priority: optional
 Section: universe/utils
@@ -9499,6 +9520,48 @@ Description-md5: 8e4b35eaff2fa987ac2598b69b5690c6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: libcgroup-dev
+Priority: extra
+Section: universe/libdevel
+Installed-Size: 96
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Jon Bernard <jbernard@debian.org>
+Architecture: amd64
+Source: libcgroup
+Version: 0.37.1-1ubuntu10.1
+Depends: libcgroup1 (= 0.37.1-1ubuntu10.1)
+Filename: pool/universe/libc/libcgroup/libcgroup-dev_0.37.1-1ubuntu10.1_amd64.deb
+Size: 15002
+MD5sum: 980a0291db4430f8ff56024be22bdb17
+SHA1: 84de723d95f73194d4ff1aa26b35012ca93f3a7c
+SHA256: c1f4ac53a16c9825652a10ca581d585af4c980d556a7d1ffb5c2317072fc566d
+Description: Development libraries to develop applications that utilize control groups
+Homepage: http://sourceforge.net/projects/libcg/
+Description-md5: 1abf92eb05c215c499a432e205c212f4
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libcgroup1
+Priority: extra
+Section: universe/libs
+Installed-Size: 108
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Jon Bernard <jbernard@debian.org>
+Architecture: amd64
+Source: libcgroup
+Version: 0.37.1-1ubuntu10.1
+Depends: libc6 (>= 2.14)
+Filename: pool/universe/libc/libcgroup/libcgroup1_0.37.1-1ubuntu10.1_amd64.deb
+Size: 37604
+MD5sum: c4071f84164d3029ef7c671f50ea57d4
+SHA1: df9f6601f64bb8cb146922983f81d235ef7dd17b
+SHA256: 58b32939b84a227121ffc121ba8adf546afaa8e90953b2bc53fa93b6998e9620
+Description: Library to control and monitor control groups
+Homepage: http://sourceforge.net/projects/libcg/
+Description-md5: 687dd8adddadd84f0b12626eb61011ba
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: libcheese-dev
 Priority: optional
 Section: universe/libdevel
@@ -11914,6 +11977,27 @@ SHA256: 326c7d2d7baa364597c15bd9c52b9c7cf77c4a36bb6e8b7808a392e19f933147
 Description: toolkit for Off-the-Record Messaging library
 Homepage: http://www.cypherpunks.ca/otr/
 Description-md5: 78ef6006b824c58ca931c333d058ed4d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libpam-cgroup
+Priority: extra
+Section: universe/admin
+Installed-Size: 47
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Jon Bernard <jbernard@debian.org>
+Architecture: amd64
+Source: libcgroup
+Version: 0.37.1-1ubuntu10.1
+Depends: libc6 (>= 2.2.5), libcgroup1, libpam0g (>= 0.99.7.1)
+Filename: pool/universe/libc/libcgroup/libpam-cgroup_0.37.1-1ubuntu10.1_amd64.deb
+Size: 5652
+MD5sum: c15a3fc022e5c48bc365ffadfd1b3192
+SHA1: 6ff845453c52b8e5c8312dd28ed32e58de160cbc
+SHA256: f36c68a6b3449f6b1ac6afb392b52af3ed299a65dd05385ec79506b1cfb0a928
+Description: PAM module to move a user session into a cgroup
+Homepage: http://sourceforge.net/projects/libcg/
+Description-md5: 3babdb66bb43f07538fb3433008874c6
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 

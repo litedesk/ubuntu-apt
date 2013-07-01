@@ -1162,6 +1162,16 @@ Description-en: configurable finger daemon
  shell script (e.g., finger doorbell@mysite.mydomain might cause a
  sound file to be sent) rather than just a plain text file.
 
+Package: cgroup-bin
+Description-md5: ed14b688e919fc9d3c2dfad3549f63f6
+Description-en: Tools to control and monitor control groups
+ Control Groups provide a mechanism for aggregating/partitioning sets of tasks,
+ and all their future children, into hierarchical groups with specialized
+ behaviour.
+ .
+ These tools help manipulate, control, administrate and monitor control groups
+ and the associated controllers.
+
 Package: checkbox-urwid
 Description-md5: 04fb9dedcf4a590cdf3d8a74d7f293cc
 Description-en: Urwid interface for checkbox
@@ -4788,6 +4798,27 @@ Description-en: CGI::Fast Perl module
  processes, such as loading large modules or opening persistent database
  connections, will see large performance improvements.
 
+Package: libcgroup-dev
+Description-md5: 1abf92eb05c215c499a432e205c212f4
+Description-en: Development libraries to develop applications that utilize control groups
+ Control Groups provide a mechanism for aggregating/partitioning sets of tasks,
+ and all their future children, into hierarchical groups with specialized
+ behaviour.
+ .
+ It provides API to create/delete and modify cgroup nodes. It will also in the
+ future allow creation of persistent configuration for control groups and
+ provide scripts to manage that configuration.
+
+Package: libcgroup1
+Description-md5: 687dd8adddadd84f0b12626eb61011ba
+Description-en: Library to control and monitor control groups
+ Control Groups provide a mechanism for aggregating/partitioning sets of tasks,
+ and all their future children, into hierarchical groups with specialized
+ behaviour.
+ .
+ This library allows applications to manipulate, control, administrate and
+ monitor control groups and the associated controllers.
+
 Package: libcheese-dev
 Description-md5: 25ab54d1d15400f73b0e9a92996d27e0
 Description-en: tool to take pictures and videos from your webcam - base dev
@@ -6097,6 +6128,16 @@ Description-en: toolkit for Off-the-Record Messaging library
       is compromised.
   .
   This package contains the program files for the OTR library.
+
+Package: libpam-cgroup
+Description-md5: 3babdb66bb43f07538fb3433008874c6
+Description-en: PAM module to move a user session into a cgroup
+ Control Groups provide a mechanism for aggregating/partitioning sets of tasks,
+ and all their future children, into hierarchical groups with specialized
+ behaviour.
+ .
+ This PAM module will move a user session into an existing cgroup by attempting
+ to match uid and gid against the defined cgroup rules configuration.
 
 Package: libpam-ldapd
 Description-md5: 879708dde280c0d1e8bb117595adaee5
