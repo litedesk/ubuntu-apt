@@ -1569,6 +1569,13 @@ Description-en: OpenGL window and compositing manager - development files
  This package contains the headers and libraries needed to compile compiz
  plugins.
 
+Package: compiz-fusion-plugins-main
+Description-md5: 3f0434a31c5791feb2dfee96d397e29a
+Description-en: transitional dummy package.
+ .
+ This package ensures a clean upgrade path, and can be safely removed
+ after the upgrade.
+
 Package: compiz-gnome
 Description-md5: f487b7706c4305676403c9a70567359c
 Description-en: OpenGL window and compositing manager - GNOME window decorator
@@ -1597,6 +1604,36 @@ Description-en: OpenGL window and compositing manager - default plugins
  .
  This package contains the default compiz plugins we activate in ubuntu coming
  with core compiz.
+
+Package: compiz-plugins-main
+Description-md5: 13baed51a6916894dbe78c211a468914
+Description-en: Compiz plugins - main collection
+ Compiz seeks to provide an easy and fun-to-use windowing environment,
+ allowing use of the graphics hardware to provide impressive effects,
+ amazing speed and unrivalled usefulness.
+ .
+ This package provides the primary and most well tested set of plugins
+ from the compiz project.
+
+Package: compiz-plugins-main-default
+Description-md5: 422a2307fc4beb25df03bd46ef21e2d6
+Description-en: Compiz plugins - main default collection
+ Compiz seeks to provide an easy and fun-to-use windowing environment,
+ allowing use of the graphics hardware to provide impressive effects,
+ amazing speed and unrivalled usefulness.
+ .
+ This package provides the primary and most well tested set of plugins
+ installed by default in ubuntu from the compiz project.
+
+Package: compiz-plugins-main-dev
+Description-md5: 6a8ef0f493a7c656dc92696e8bcdeffa
+Description-en: Compiz plugins - main collection development files
+ Compiz seeks to provide an easy and fun-to-use windowing environment,
+ allowing use of the graphics hardware to provide impressive effects,
+ amazing speed and unrivalled usefulness.
+ .
+ This package contains the headers and libraries needed to compile compiz
+ plugins depending from plugin in compiz-plugins-main.
 
 Package: coreutils
 Description-md5: ca29325ab0239421f7b6be11369cc121
@@ -22075,6 +22112,14 @@ Description-en: management daemon for Telepathy (library for plugins)
  Telepathy Mission Control 5 is an account manager and channel dispatcher for
  the Telepathy framework. This package contains a library against which plugins
  for Mission Control must be linked.
+
+Package: libmodule-signature-perl
+Description-md5: 003b4a0e2accc05cf4a4ef88654a7733
+Description-en: module to manipulate CPAN SIGNATURE files
+ Module::Signature is a Perl module that adds cryptographic authentications to
+ CPAN distributions, via the special SIGNATURE file. It also includes various
+ tools to sign distributions and to verify signatures and supports using many
+ different cryptographic hashing algorithms.
 
 Package: libmono-2.0-1
 Description-md5: bdc9179f9d2979ad7b80a16b9217563f
