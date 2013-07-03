@@ -13020,6 +13020,28 @@ Origin: Ubuntu
 Supported: 5y
 Task: kubuntu-desktop, kubuntu-full, kubuntu-active-desktop, kubuntu-active-full, kubuntu-active, edubuntu-desktop-kde, edubuntu-desktop-gnome
 
+Package: libmodule-signature-perl
+Priority: optional
+Section: perl
+Installed-Size: 100
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 0.68-1ubuntu0.12.04.1
+Depends: perl
+Recommends: gnupg
+Filename: pool/main/libm/libmodule-signature-perl/libmodule-signature-perl_0.68-1ubuntu0.12.04.1_all.deb
+Size: 25194
+MD5sum: 71e4bb927eefbb1428c1857c369c7265
+SHA1: 0a93ff7f14770e87ca0a384335d9755d9497b781
+SHA256: 0fb13a93a61fa4e29c5b6bf7ba6dcd29f9a7614e2dbed93c0974e022100f2d39
+Description: module to manipulate CPAN SIGNATURE files
+Homepage: http://search.cpan.org/dist/Module-Signature/
+Description-md5: 003b4a0e2accc05cf4a4ef88654a7733
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: libmono-2.0-1
 Priority: optional
 Section: cli-mono
