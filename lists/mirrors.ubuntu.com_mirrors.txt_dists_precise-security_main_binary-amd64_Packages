@@ -1554,15 +1554,15 @@ Installed-Size: 344
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Ramakrishnan Muthukrishnan <rkrishnan@debian.org>
 Architecture: amd64
-Version: 7.22.0-3ubuntu4.1
+Version: 7.22.0-3ubuntu4.2
 Replaces: curl-ssl
 Provides: curl-ssl
 Depends: libc6 (>= 2.14), libcurl3 (>= 7.16.2-1), zlib1g (>= 1:1.1.4)
-Filename: pool/main/c/curl/curl_7.22.0-3ubuntu4.1_amd64.deb
-Size: 137044
-MD5sum: d1827cfa9891f018d93848ff7b526a91
-SHA1: f1bd7f2735bbceeaf47f133b58aaa9bc770db91a
-SHA256: f824330cea9e9e22234b427f7baf5d77f7f5d9537b0d7817b948f3453a848235
+Filename: pool/main/c/curl/curl_7.22.0-3ubuntu4.2_amd64.deb
+Size: 137386
+MD5sum: 889ebbce4427afe9983ddac178274c06
+SHA1: bebc0dc2b63aa4aa4a0c7b343d9a8dd0f762f6a9
+SHA256: bab4d97b974715212ea2d8b0e830f5d3cc1b8e79371897591dbf795074f693e2
 Description: Get a file from an HTTP, HTTPS or FTP server
 Homepage: http://curl.haxx.se
 Description-md5: 08143ecc4521a0acfb272b8334edc4d0
@@ -7904,16 +7904,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Ramakrishnan Muthukrishnan <rkrishnan@debian.org>
 Architecture: amd64
 Source: curl
-Version: 7.22.0-3ubuntu4.1
+Version: 7.22.0-3ubuntu4.2
 Replaces: libcurl2 (<< 1:7.11.2-2), libcurl4
 Depends: libc6 (>= 2.15), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libldap-2.4-2 (>= 2.4.7), librtmp0 (>= 2.3), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.1.4), ca-certificates
 Pre-Depends: multiarch-support
 Conflicts: libcurl4
-Filename: pool/main/c/curl/libcurl3_7.22.0-3ubuntu4.1_amd64.deb
-Size: 235842
-MD5sum: 80433665ea767e40f054589cc9e0a4f6
-SHA1: 22ebcce45dad6754b8b2cd9dbf0da248f0ca0791
-SHA256: 2bc60c5f7e94b3e7f91001229005a202c5356454bb79f268999af49832fb2e15
+Filename: pool/main/c/curl/libcurl3_7.22.0-3ubuntu4.2_amd64.deb
+Size: 235802
+MD5sum: bdf0cf4dd3e5c1627f20546e191e594f
+SHA1: d9b275343d7521fc944aec4c6cf5dbbe1b703cea
+SHA256: f1e51d3e77d5a16b862f4a80f3c4041568c650196e10cdaa5827d83ca70e8475
 Description: Multi-protocol file transfer library (OpenSSL)
 Multi-Arch: same
 Homepage: http://curl.haxx.se
@@ -7926,22 +7926,22 @@ Task: ubuntu-desktop, cloud-image, ubuntu-usb, server, edubuntu-desktop, edubunt
 Package: libcurl3-dbg
 Priority: extra
 Section: libdevel
-Installed-Size: 290
+Installed-Size: 291
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Ramakrishnan Muthukrishnan <rkrishnan@debian.org>
 Architecture: amd64
 Source: curl
-Version: 7.22.0-3ubuntu4.1
+Version: 7.22.0-3ubuntu4.2
 Replaces: libcurl4-dbg
 Provides: libcurl4-dbg
-Depends: libcurl3 (= 7.22.0-3ubuntu4.1) | libcurl3-gnutls (= 7.22.0-3ubuntu4.1) | libcurl3-nss (= 7.22.0-3ubuntu4.1)
+Depends: libcurl3 (= 7.22.0-3ubuntu4.2) | libcurl3-gnutls (= 7.22.0-3ubuntu4.2) | libcurl3-nss (= 7.22.0-3ubuntu4.2)
 Suggests: libc-dbg
 Conflicts: libcurl4-dbg
-Filename: pool/main/c/curl/libcurl3-dbg_7.22.0-3ubuntu4.1_amd64.deb
-Size: 49060
-MD5sum: 84c505946937c4799c89b5eaf8a9da40
-SHA1: ea3e6b8bf9a294ee2ff1274c1feae5742c841d1d
-SHA256: e66e849904b02098503300124a9168942ac882cb2ff9891a8eb1f853981dc77e
+Filename: pool/main/c/curl/libcurl3-dbg_7.22.0-3ubuntu4.2_amd64.deb
+Size: 49026
+MD5sum: 363ca75961091f151a7b5a4a12c6a87d
+SHA1: 9bff3e7f425ab2de89615dc0a574f4cd103bfe15
+SHA256: 3952714ab055d8583a9be838c09c3728c68b6616135506789840e1222ff64d0a
 Description: libcurl compiled with debug symbols
 Multi-Arch: same
 Homepage: http://curl.haxx.se
@@ -7958,16 +7958,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Ramakrishnan Muthukrishnan <rkrishnan@debian.org>
 Architecture: amd64
 Source: curl
-Version: 7.22.0-3ubuntu4.1
+Version: 7.22.0-3ubuntu4.2
 Replaces: libcurl4-gnutls
 Depends: libc6 (>= 2.15), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.6.1-0), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libldap-2.4-2 (>= 2.4.7), librtmp0 (>= 2.3), zlib1g (>= 1:1.1.4), ca-certificates
 Pre-Depends: multiarch-support
 Conflicts: libcurl4-gnutls
-Filename: pool/main/c/curl/libcurl3-gnutls_7.22.0-3ubuntu4.1_amd64.deb
-Size: 227206
-MD5sum: 90a4bee6e8499c67569591d448fb22f1
-SHA1: dea71235b59d2e79f843b1c04d18ac52bf74273a
-SHA256: 7e84493115b2075adc847e5991a05f2cc3a753b3cc18e89f7c7596b6b7ec0941
+Filename: pool/main/c/curl/libcurl3-gnutls_7.22.0-3ubuntu4.2_amd64.deb
+Size: 227244
+MD5sum: 4887106dea3f89a460599c1931ea970b
+SHA1: 484ef4d7a9e3879fa714bd47784555a16714a8db
+SHA256: 3ebc18c476c8959d7f1e51661e04b253aba861015e7e2e0b50a24d338958cbf7
 Description: Multi-protocol file transfer library (GnuTLS)
 Multi-Arch: same
 Homepage: http://curl.haxx.se
@@ -7985,16 +7985,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Ramakrishnan Muthukrishnan <rkrishnan@debian.org>
 Architecture: amd64
 Source: curl
-Version: 7.22.0-3ubuntu4.1
+Version: 7.22.0-3ubuntu4.2
 Replaces: libcurl4-nss
 Depends: libc6 (>= 2.15), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libldap-2.4-2 (>= 2.4.7), libnspr4 (>= 1.8.0.10), libnss3 (>= 3.12.0~beta2), librtmp0 (>= 2.3), zlib1g (>= 1:1.1.4), ca-certificates
 Pre-Depends: multiarch-support
 Conflicts: libcurl4-nss
-Filename: pool/main/c/curl/libcurl3-nss_7.22.0-3ubuntu4.1_amd64.deb
-Size: 233784
-MD5sum: 4b1407805621f6b5666c2db2edcca03b
-SHA1: 890ccece7d74e16d1eeedfae696b1ab294804a81
-SHA256: e4ddc1b842edaee4766d52f7e3ff99245e76d894acfb7f7ae6ef616661a2c421
+Filename: pool/main/c/curl/libcurl3-nss_7.22.0-3ubuntu4.2_amd64.deb
+Size: 233810
+MD5sum: 54b977791a2e1f6493788dea5e79b64f
+SHA1: a5b8183609bf8a05bd664000fd60d8c2fe16a595
+SHA256: 6ac7e0ad803ba350161623d52324d562639d4896d9b658da1c11baa6815560e1
 Description: Multi-protocol file transfer library (NSS)
 Multi-Arch: same
 Homepage: http://curl.haxx.se
@@ -8012,17 +8012,17 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Ramakrishnan Muthukrishnan <rkrishnan@debian.org>
 Architecture: amd64
 Source: curl
-Version: 7.22.0-3ubuntu4.1
+Version: 7.22.0-3ubuntu4.2
 Replaces: libcurl-dev, libcurl-ssl-dev, libcurl3-gnutls-dev, libcurl4-dev
 Provides: libcurl-dev, libcurl-ssl-dev, libcurl3-gnutls-dev, libcurl4-dev
-Depends: libcurl3-gnutls (= 7.22.0-3ubuntu4.1), libc6-dev | libc-dev, libgnutls-dev, libidn11-dev, libkrb5-dev, libldap2-dev, librtmp-dev, zlib1g-dev
+Depends: libcurl3-gnutls (= 7.22.0-3ubuntu4.2), libc6-dev | libc-dev, libgnutls-dev, libidn11-dev, libkrb5-dev, libldap2-dev, librtmp-dev, zlib1g-dev
 Suggests: libcurl3-dbg
 Conflicts: libcurl-dev
-Filename: pool/main/c/curl/libcurl4-gnutls-dev_7.22.0-3ubuntu4.1_amd64.deb
-Size: 1064650
-MD5sum: b2b343a600e1d71f7579d5c0e5aff7dd
-SHA1: fbec2d59c4cd70d4584c1499bedfde52af8258f2
-SHA256: 2390e08671a8234d0ccfbf5d5a14268bbd739768c3e8be1e70f3f636e67804be
+Filename: pool/main/c/curl/libcurl4-gnutls-dev_7.22.0-3ubuntu4.2_amd64.deb
+Size: 1067404
+MD5sum: a39fa29d4a2ade4a8c8edcea831be444
+SHA1: 01a3c47f8c067edddaba291d86671e95ae3ff7d3
+SHA256: 7d9dadd304e7c7ef78f9aad2c2528a1de8a6f7c3caff1c9b62136193e2a12a80
 Description: Development files and documentation for libcurl (GnuTLS)
 Homepage: http://curl.haxx.se
 Description-md5: 542a849fd833dd4aff3c38a8504ae2b7
@@ -8038,17 +8038,17 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Ramakrishnan Muthukrishnan <rkrishnan@debian.org>
 Architecture: amd64
 Source: curl
-Version: 7.22.0-3ubuntu4.1
+Version: 7.22.0-3ubuntu4.2
 Replaces: libcurl-dev, libcurl-ssl-dev, libcurl3-nss-dev, libcurl4-dev
 Provides: libcurl-dev, libcurl-ssl-dev, libcurl3-nss-dev, libcurl4-dev
-Depends: libcurl3-nss (= 7.22.0-3ubuntu4.1), libc6-dev | libc-dev, libidn11-dev, libkrb5-dev, libldap2-dev, libnss3-dev, librtmp-dev, zlib1g-dev
+Depends: libcurl3-nss (= 7.22.0-3ubuntu4.2), libc6-dev | libc-dev, libidn11-dev, libkrb5-dev, libldap2-dev, libnss3-dev, librtmp-dev, zlib1g-dev
 Suggests: libcurl3-dbg
 Conflicts: libcurl-dev
-Filename: pool/main/c/curl/libcurl4-nss-dev_7.22.0-3ubuntu4.1_amd64.deb
-Size: 1071518
-MD5sum: bfd3662cc293ac0a57dd41dce4a96141
-SHA1: 05c06b8ff8689cb7570ceb6341de56a96d53a9d4
-SHA256: 285e80ea5a0b1df56472a9b59cf682218d1799e035a260d88b8934ae36ff0fd1
+Filename: pool/main/c/curl/libcurl4-nss-dev_7.22.0-3ubuntu4.2_amd64.deb
+Size: 1074482
+MD5sum: 7794c9882ccdbf76bfb93d5d14deaf90
+SHA1: 5a6b34c62688157d1db0a9bca61fdbf032f3b742
+SHA256: 97549f71ca68bcb1bc770aa9343b00126e95f88fdad284dfb400bfd9f2d1f78e
 Description: Development files and documentation for libcurl (NSS)
 Homepage: http://curl.haxx.se
 Description-md5: d123065049db08c72cafe844f39de216
@@ -8064,17 +8064,17 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Ramakrishnan Muthukrishnan <rkrishnan@debian.org>
 Architecture: amd64
 Source: curl
-Version: 7.22.0-3ubuntu4.1
+Version: 7.22.0-3ubuntu4.2
 Replaces: libcurl-dev, libcurl-ssl-dev, libcurl3-dev (<< 7.14.1-1), libcurl3-openssl-dev
 Provides: libcurl-dev, libcurl-ssl-dev, libcurl3-dev, libcurl3-openssl-dev
-Depends: libcurl3 (= 7.22.0-3ubuntu4.1), libc6-dev | libc-dev, libidn11-dev, libkrb5-dev, libldap2-dev, librtmp-dev, libssl-dev, zlib1g-dev
+Depends: libcurl3 (= 7.22.0-3ubuntu4.2), libc6-dev | libc-dev, libidn11-dev, libkrb5-dev, libldap2-dev, librtmp-dev, libssl-dev, zlib1g-dev
 Suggests: libcurl3-dbg
 Conflicts: libcurl-dev
-Filename: pool/main/c/curl/libcurl4-openssl-dev_7.22.0-3ubuntu4.1_amd64.deb
-Size: 1074818
-MD5sum: 93bc63870a55dfb9986abde7844a2e4c
-SHA1: 2379ef6c00e9ee0c62578808aae12c60533fb26b
-SHA256: 605b286998eaf61d4e17cd5b60763941a587d55bb22e4869ef62538a5eb0a0c0
+Filename: pool/main/c/curl/libcurl4-openssl-dev_7.22.0-3ubuntu4.2_amd64.deb
+Size: 1077688
+MD5sum: c7885eefb72529af402d013826fca63b
+SHA1: 212ec145703ab0e48fa2510246820701380a0f0d
+SHA256: 216defbd6d30cb556f90ae61129b9ef14e4d54c6cec7e39c3b4fb64a1c714ffc
 Description: Development files and documentation for libcurl (OpenSSL)
 Homepage: http://curl.haxx.se
 Description-md5: f38505d4a9c32a048649c5343b708d98
