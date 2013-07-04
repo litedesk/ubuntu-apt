@@ -19999,6 +19999,12 @@ Description-en: PackageKit compatibilty for AptDaemon
  .
  This package adds a PackageKit DBus interface to AptDaemon.
 
+Package: python-bson
+Description-md5: 24c9d1f8de40c146a0ea5c924447b746
+Description-en: Python implementation of BSON for MongoDB
+ BSON Python module contains all of the Binary JSON encoding and decoding
+ logic for MongoDB.
+
 Package: python-crypto
 Description-md5: 0b1771ef6cc48b43377e1939b77f9d12
 Description-en: cryptographic algorithms and protocols for Python
@@ -20109,6 +20115,13 @@ Description-en: OpenStack Image Registry and Delivery Service - Documentation
  OpenStack's Swift service, to Nova's compute nodes.
  .
  This package contains the documentation.
+
+Package: python-gridfs
+Description-md5: 9f81017354ca04e7ee67c50fa96675e1
+Description-en: Python implementation of GridFS for MongoDB
+ GridFS is a storage specification for large objects in MongoDB.
+ The Python gridfs module is an implementation based
+ on the pymongo module. It provides a file-like interface.
 
 Package: python-keyring
 Description-md5: 3dc4fbfcf3523901bf87a7ee24f11b6c
@@ -20240,6 +20253,22 @@ Description-en: Python library to handle problem reports
  .
  These problem reports use standard Debian control format syntax
  (RFC822).
+
+Package: python-pymongo
+Description-md5: 0683d20bf1a82d40e46a5bb8e63ec68f
+Description-en: Python interface to the MongoDB document-oriented database
+ MongoDB is a high-performance, open source, schema-free
+ document-oriented data store. Pymongo provides an interface
+ to easily access it from Python.
+
+Package: python-pymongo-doc
+Description-md5: fbd62f485ddf85b5deaef066e9d02ec6
+Description-en: Python interface to the MongoDB document-oriented database (documentation)
+ MongoDB is a high-performance, open source, schema-free
+ document-oriented data store. Pymongo provides an interface
+ to easily access it from Python.
+ .
+ This package contains the HTML documentation.
 
 Package: python-software-properties
 Description-md5: 2404b69e069f73169a1d424cb63f1d53

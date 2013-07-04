@@ -40443,6 +40443,12 @@ Description-en: PackageKit compatibilty for AptDaemon
  .
  This package adds a PackageKit DBus interface to AptDaemon.
 
+Package: python-bson
+Description-md5: 24c9d1f8de40c146a0ea5c924447b746
+Description-en: Python implementation of BSON for MongoDB
+ BSON Python module contains all of the Binary JSON encoding and decoding
+ logic for MongoDB.
+
 Package: python-bzrlib
 Description-md5: 3d08f93122d35b20ee3a263e2354a06f
 Description-en: distributed version control system - python library
@@ -40871,6 +40877,13 @@ Description-en: Lightweight in-process concurrent programming development files
  .
  This is the documentation for greenlet.
 
+Package: python-gridfs
+Description-md5: 9f81017354ca04e7ee67c50fa96675e1
+Description-en: Python implementation of GridFS for MongoDB
+ GridFS is a storage specification for large objects in MongoDB.
+ The Python gridfs module is an implementation based
+ on the pymongo module. It provides a file-like interface.
+
 Package: python-gst0.10
 Description-md5: 1748db52e021ae1ff627750c13e5a80f
 Description-en: generic media-playing framework (Python bindings)
@@ -41199,6 +41212,22 @@ Description-en: Python library to handle problem reports
  .
  These problem reports use standard Debian control format syntax
  (RFC822).
+
+Package: python-pymongo
+Description-md5: 0683d20bf1a82d40e46a5bb8e63ec68f
+Description-en: Python interface to the MongoDB document-oriented database
+ MongoDB is a high-performance, open source, schema-free
+ document-oriented data store. Pymongo provides an interface
+ to easily access it from Python.
+
+Package: python-pymongo-doc
+Description-md5: fbd62f485ddf85b5deaef066e9d02ec6
+Description-en: Python interface to the MongoDB document-oriented database (documentation)
+ MongoDB is a high-performance, open source, schema-free
+ document-oriented data store. Pymongo provides an interface
+ to easily access it from Python.
+ .
+ This package contains the HTML documentation.
 
 Package: python-pyparsing
 Description-md5: b2c4beff5c2bd4cd6e8adac270b245cc
@@ -44527,6 +44556,18 @@ Description-en: X server utilities
   - xsetroot, a tool for tailoring the appearance of the root window;
   - xstdcmap, a utility to selectively define standard colormap properties;
   - xvidtune, a tool for customizing X server modelines for your monitor.
+
+Package: x11proto-core-dev
+Description-md5: bbced914936af2f7b061d601f3460438
+Description-en: X11 core wire protocol and auxiliary headers
+ This package provides development headers describing the wire protocol
+ for the core X11 protocol, and also provides a number of utility headers,
+ used to abstract OS-specific functions.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xproto proto module.
 
 Package: x11proto-dri2-dev
 Description-md5: f9fbe5a35c1d1a5259e8ba115300fae3
