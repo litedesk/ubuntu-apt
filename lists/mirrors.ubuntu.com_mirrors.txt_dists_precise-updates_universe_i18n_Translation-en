@@ -6086,6 +6086,51 @@ Description-en: Library for signing and verifying DomainKeys Identified Mail sig
  signing and verifying signatures according to RFC 4871, and supports both
  DomainKeys signing policy and DKIM ADSP.
 
+Package: libopenid-ruby
+Description-md5: e613427dee46cdd499dd45a1684092f0
+Description-en: Ruby library for verifying and serving OpenID identities
+ Ruby OpenID makes it easy to add OpenID authentication to your web
+ applications.
+ This library is a port of the Python OpenID library, and features:
+ .
+  * API for verifying OpenID identities (OpenID::Consumer)
+  * API for serving OpenID identities (OpenID::Server)
+  * Consumer and server support for extensions, including simple registration
+  * Yadis 1.0 and OpenID 1.0 service discovery, including server fallback
+  * Does not depend on underlying web framework
+  * Multiple storage implementations (Filesystem, SQL)
+  * Comprehensive test suite
+  * Example code to help you get started, including:
+    - WEBrick based consumer
+    - Ruby on rails based server
+    - OpenIDLoginGenerator for quickly creating a rails app that uses OpenID
+      for authentication
+    - ActiveRecord adapter for using an SQL store in rails
+  .
+  This is a dummy package depending on the package for the current version of
+  the Ruby interpreter, and also contains documentation and usage examples.
+
+Package: libopenid-ruby1.8
+Description-md5: 0892f2aa64bb9cc8fe0ac5d6524e0bad
+Description-en: Ruby 1.8 library for verifying and serving OpenID identities
+ Ruby OpenID makes it easy to add OpenID authentication to your web
+ applications.
+ This library is a port of the Python OpenID library, and features:
+ .
+  * API for verifying OpenID identities (OpenID::Consumer)
+  * API for serving OpenID identities (OpenID::Server)
+  * Consumer and server support for extensions, including simple registration
+  * Yadis 1.0 and OpenID 1.0 service discovery, including server fallback
+  * Does not depend on underlying web framework
+  * Multiple storage implementations (Filesystem, SQL)
+  * Comprehensive test suite
+  * Example code to help you get started, including:
+    - WEBrick based consumer
+    - Ruby on rails based server
+    - OpenIDLoginGenerator for quickly creating a rails app that uses OpenID
+      for authentication
+    - ActiveRecord adapter for using an SQL store in rails
+
 Package: libopenjpeg-dev
 Description-md5: 320c070e692730858f06e088ce6dea05
 Description-en: development files for libopenjpeg2, a JPEG 2000 image library

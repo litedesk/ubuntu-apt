@@ -11891,6 +11891,47 @@ Description-md5: 958b4519bf58eac03c4ee4df6990475d
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: libopenid-ruby
+Priority: optional
+Section: universe/libs
+Installed-Size: 2562
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Architecture: all
+Version: 2.1.8debian-1ubuntu0.1
+Depends: libopenid-ruby1.8
+Filename: pool/universe/libo/libopenid-ruby/libopenid-ruby_2.1.8debian-1ubuntu0.1_all.deb
+Size: 252346
+MD5sum: 0e5e5c2629f5db84503202a04cbe265a
+SHA1: f2930e7057af3beae69d4dc813c3d2793ae18733
+SHA256: f7cb7ec910fdb9cc3bbf5659f47f6cb44de4d46c5c6d6670a13636be39b8f16e
+Description: Ruby library for verifying and serving OpenID identities
+Homepage: http://www.openidenabled.com/openid/libraries/ruby
+Description-md5: e613427dee46cdd499dd45a1684092f0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libopenid-ruby1.8
+Priority: optional
+Section: universe/libs
+Installed-Size: 337
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Antonio Terceiro <terceiro@softwarelivre.org>
+Architecture: all
+Source: libopenid-ruby
+Version: 2.1.8debian-1ubuntu0.1
+Depends: libruby1.8, libhmac-ruby1.8
+Filename: pool/universe/libo/libopenid-ruby/libopenid-ruby1.8_2.1.8debian-1ubuntu0.1_all.deb
+Size: 81002
+MD5sum: 88267665acc11937409806d2ad83c647
+SHA1: adb10b1ea54d39e130341021c18928889302fa27
+SHA256: 5fa5fd88a757901056a56823fc3af73b1f7d7bf0cc72e953c974d1013680bbc4
+Description: Ruby 1.8 library for verifying and serving OpenID identities
+Homepage: http://www.openidenabled.com/openid/libraries/ruby
+Description-md5: 0892f2aa64bb9cc8fe0ac5d6524e0bad
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: libopenjpeg-dev
 Priority: extra
 Section: universe/libdevel
