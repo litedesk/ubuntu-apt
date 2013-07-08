@@ -8239,6 +8239,49 @@ Description-en: Documentation for the Raptor RDF parser and serializer library
  This package contains the HTML documentation for the Raptor library
  in /usr/share/doc/libraptor1-doc/ .
 
+Package: libraptor2-0
+Description-md5: 773b7033cc26603ac6f60fb8d1885e8a
+Description-en: Raptor 2 RDF syntax library
+ Raptor is a C library providing a set of parsers and serializers for
+ Resource Description Framework (RDF) triples by parsing syntaxes or
+ serializing the triples into a syntax.
+ .
+ The parsing syntaxes are RDF/JSON, RDF/XML, N-Triples, Turtle, GRDDL and RSS
+ tag soup including Atom 0.3 and Atom 1.0.  The serializing syntaxes
+ are RDF/XML, N-Quads, N-Triples RSS 1.0 and Atom 1.0.  Raptor can handle
+ RDF/XML as used by RDF applications such as RSS 1.0, FOAF, DOAP,
+ Dublin Core and OWL.
+ .
+ Raptor is designed for performance, flexibility and embedding (no
+ memory leaks) and to closely match the revised RDF/XML specification.
+
+Package: libraptor2-0-dbg
+Description-md5: 715c43016360819222c9514ff176fd74
+Description-en: Raptor RDF parser and serializer library - debugging symbols
+ Raptor is a C library providing a set of parsers and serializers for
+ Resource Description Framework (RDF) triples by parsing syntaxes or
+ serializing the triples into a syntax.
+ .
+ This package contains the debugging symbols for debugging
+ applications which use libraptor2.
+
+Package: libraptor2-dev
+Description-md5: 5f07c4036e593f4fdd3058cf465e8915
+Description-en: Raptor 2 RDF syntax library development libraries and headers
+ Raptor Resource Description Framework (RDF) parser and serializer
+ development libraries, header files and documentation needed by
+ programs that want to be compiled with Raptor.
+
+Package: libraptor2-doc
+Description-md5: a86c6d606fb8e8f9dd088c874013018f
+Description-en: Documentation for the Raptor 2 RDF syntax library
+ Raptor is a C library providing a set of parsers and serializers for
+ Resource Description Framework (RDF) triples by parsing syntaxes or
+ serializing the triples into a syntax.
+ .
+ This package contains the HTML documentation for the Raptor library
+ in /usr/share/doc/libraptor2-doc/ .
+
 Package: libraw-dev
 Description-md5: c5d75da67a9fd77fe2f4c9ff9bcc51c0
 Description-en: raw image decoder library (development files)
@@ -20601,6 +20644,13 @@ Description-en: documentation files for quagga
 Package: raptor-utils
 Description-md5: 35e83f3169d88da32ffce0c8b948e6fb
 Description-en: Raptor RDF parser and serializer utilities
+ This package provides the rapper tool for validating, parsing and
+ serializing RDF/XML, N-Triples, Turtle, RSS, Atom and other Resource
+ Description Framework (RDF) syntaxes using the Raptor RDF library.
+
+Package: raptor2-utils
+Description-md5: a69c81c5501c71f9c2dbbdd8de1fb863
+Description-en: Raptor 2 RDF parser and serializer utilities
  This package provides the rapper tool for validating, parsing and
  serializing RDF/XML, N-Triples, Turtle, RSS, Atom and other Resource
  Description Framework (RDF) syntaxes using the Raptor RDF library.

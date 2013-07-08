@@ -18525,6 +18525,98 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
 
+Package: libraptor2-0
+Priority: optional
+Section: libs
+Installed-Size: 449
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Dave Beckett <dajobe@debian.org>
+Architecture: i386
+Source: raptor2
+Version: 2.0.6-1ubuntu0.1
+Depends: libc6 (>= 2.11), libcurl3-gnutls (>= 7.16.2-1), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), libyajl1 (>= 1.0.5)
+Suggests: raptor2-utils
+Filename: pool/main/r/raptor2/libraptor2-0_2.0.6-1ubuntu0.1_i386.deb
+Size: 179744
+MD5sum: f9342dccbd865c3e25cdd4f0d5f7af4f
+SHA1: bdf0af5e9f5028a2fc1ada5f7123f83e1b2afe23
+SHA256: 2c87d910a0d30c4695a840389ed05d915d46e6010f06f2e4669ea3f07225c07c
+Description: Raptor 2 RDF syntax library
+Homepage: http://librdf.org/raptor/
+Description-md5: 773b7033cc26603ac6f60fb8d1885e8a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-active-desktop, kubuntu-active, edubuntu-desktop, edubuntu-usb, edubuntu-desktop-kde, xubuntu-desktop, lubuntu-desktop, ubuntustudio-generation, ubuntustudio-recording
+
+Package: libraptor2-0-dbg
+Priority: extra
+Section: debug
+Installed-Size: 993
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Dave Beckett <dajobe@debian.org>
+Architecture: i386
+Source: raptor2
+Version: 2.0.6-1ubuntu0.1
+Depends: libraptor2-0 (= 2.0.6-1ubuntu0.1)
+Filename: pool/main/r/raptor2/libraptor2-0-dbg_2.0.6-1ubuntu0.1_i386.deb
+Size: 377534
+MD5sum: be69700ee7e8f4623251bb9de0cd9ba1
+SHA1: 7e2c510651d342cbf1ec373b6a1d08c331d5f584
+SHA256: 5a6953d34a3a32d3710c7ce9f150c7290e0b6a80f8d0ba1ec3cbf9cef8ad6d81
+Description: Raptor RDF parser and serializer library - debugging symbols
+Homepage: http://librdf.org/raptor/
+Description-md5: 715c43016360819222c9514ff176fd74
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libraptor2-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 719
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Dave Beckett <dajobe@debian.org>
+Architecture: i386
+Source: raptor2
+Version: 2.0.6-1ubuntu0.1
+Depends: libraptor2-0 (= 2.0.6-1ubuntu0.1), libxml2-dev (>= 2.5.10), libcurl4-gnutls-dev, libxslt1-dev (>= 1.0.18), pkg-config (>= 0.18), libyajl-dev
+Recommends: raptor2-utils
+Suggests: libraptor2-doc
+Filename: pool/main/r/raptor2/libraptor2-dev_2.0.6-1ubuntu0.1_i386.deb
+Size: 218162
+MD5sum: 578cd48fe0633a96b2cbd80bba547576
+SHA1: d358041be081db1121906a455493f921c8e2c0ae
+SHA256: 9a02d749166841ee219fa3d775e7c98a0c14271cb4a1fb02309d4e8994b07519
+Description: Raptor 2 RDF syntax library development libraries and headers
+Homepage: http://librdf.org/raptor/
+Description-md5: 5f07c4036e593f4fdd3058cf465e8915
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libraptor2-doc
+Priority: optional
+Section: doc
+Installed-Size: 1426
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Dave Beckett <dajobe@debian.org>
+Architecture: all
+Source: raptor2
+Version: 2.0.6-1ubuntu0.1
+Depends: lynx | www-browser
+Filename: pool/main/r/raptor2/libraptor2-doc_2.0.6-1ubuntu0.1_all.deb
+Size: 166240
+MD5sum: 9fa81e03ee0143fb0ddda3b8a9205193
+SHA1: 34831152a62043adf44da485b6f5a894f3aa5824
+SHA256: b94e1bab66c5c94b975faf0ca60cfcbb6459ad3bcc0dc3419d5034f945b1e4cb
+Description: Documentation for the Raptor 2 RDF syntax library
+Homepage: http://librdf.org/raptor/
+Description-md5: a86c6d606fb8e8f9dd088c874013018f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
 Package: libraw-dev
 Priority: extra
 Section: libdevel
@@ -46083,6 +46175,30 @@ SHA256: 3bf9660e965cba35e565ec6687abda8ab987b660ca9b5774db3eecce7278e840
 Description: Raptor RDF parser and serializer utilities
 Homepage: http://librdf.org/raptor/
 Description-md5: 35e83f3169d88da32ffce0c8b948e6fb
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: raptor2-utils
+Priority: optional
+Section: text
+Installed-Size: 91
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Dave Beckett <dajobe@debian.org>
+Architecture: i386
+Source: raptor2
+Version: 2.0.6-1ubuntu0.1
+Replaces: raptor-utils
+Depends: libc6 (>= 2.3.4), libraptor2-0 (>= 2.0.6)
+Conflicts: raptor-utils
+Filename: pool/main/r/raptor2/raptor2-utils_2.0.6-1ubuntu0.1_i386.deb
+Size: 14664
+MD5sum: e2917476d996d01d030bf946e3d34a51
+SHA1: 0a20b8de758a13953a56fc8799d6e60b98e030c0
+SHA256: ad6c32eaeb35606243e9612fa18c5229b41b6b845b0b2016463f2879c6e4d457
+Description: Raptor 2 RDF parser and serializer utilities
+Homepage: http://librdf.org/raptor/
+Description-md5: a69c81c5501c71f9c2dbbdd8de1fb863
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 18m
