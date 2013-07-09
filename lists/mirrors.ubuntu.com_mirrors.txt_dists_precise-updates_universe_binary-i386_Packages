@@ -13118,21 +13118,21 @@ Task: ubuntustudio-generation, ubuntustudio-video, ubuntustudio-recording
 Package: libtcltk-ruby1.8
 Priority: optional
 Section: universe/interpreters
-Installed-Size: 6402
+Installed-Size: 5289
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: i386
 Source: ruby1.8
-Version: 1.8.7.352-2ubuntu1.2
+Version: 1.8.7.352-2ubuntu1.3
 Replaces: libtk-ruby1.8
 Provides: libtk-ruby1.8
-Depends: libc6 (>= 2.7), libruby1.8 (>= 1.8.7.352), tk8.5 (>= 8.5.0)
+Depends: libc6 (>= 2.4), libruby1.8 (>= 1.8.7.352), tcl8.5 (>= 8.5.0), tk8.5 (>= 8.5.0)
 Conflicts: libtk-ruby1.8
-Filename: pool/universe/r/ruby1.8/libtcltk-ruby1.8_1.8.7.352-2ubuntu1.2_i386.deb
-Size: 2292044
-MD5sum: 9e95c2a7bcd2559a288cc70d378e8836
-SHA1: 3056f6eef92c5e908c637578fc82559a01976b10
-SHA256: b2f69250a382046abdc9ac92b49661de7c88a0168645093be1f94e559517b7b7
+Filename: pool/universe/r/ruby1.8/libtcltk-ruby1.8_1.8.7.352-2ubuntu1.3_i386.deb
+Size: 1753958
+MD5sum: bb81800849adbe7568a89d64b3bc0d9f
+SHA1: 469f3ec9cdeef7116aa5ef0742cfbc7cf167f1dd
+SHA256: 227e9a9a858131e43398478f56ab4d84a4fc91f68f1f07a8c4494dd59ed02394
 Description: Tcl/Tk interface for Ruby 1.8
 Homepage: http://www.ruby-lang.org/
 Description-md5: 48456af265ae8a515e66a74dc7be54c9
@@ -13147,13 +13147,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: i386
 Source: ruby1.9.1
-Version: 1.9.3.0-1ubuntu2.6
+Version: 1.9.3.0-1ubuntu2.7
 Depends: libc6 (>= 2.4), libruby1.9.1 (>= 1.9.2.0), tcl8.5 (>= 8.5.0), tk8.5 (>= 8.5.0)
-Filename: pool/universe/r/ruby1.9.1/libtcltk-ruby1.9.1_1.9.3.0-1ubuntu2.6_i386.deb
-Size: 1796364
-MD5sum: c8e15bfa238d64b48d062cfd0eeb38ed
-SHA1: 1b1329b85f1bd78dc4ade279f79eb47c274e3f2e
-SHA256: ade1ddde11bcf3a897a70c69dd49708bde98668c75286342230c223bbb3b5192
+Filename: pool/universe/r/ruby1.9.1/libtcltk-ruby1.9.1_1.9.3.0-1ubuntu2.7_i386.deb
+Size: 1793406
+MD5sum: 2c470dcd484d5fb578e28fcad9352d76
+SHA1: 3099b86393639a7e79b25161fd505a3a8a5970b6
+SHA256: 043ba78070e681826275ac20350cb734ecfc45ee8f1441a78b8b6b6fa79f0afe
 Description: Tcl/Tk interface for Ruby 1.9.1
 Homepage: http://www.ruby-lang.org/
 Description-md5: 62973a5602a348dfc7a9db8e5092abe9
@@ -21146,19 +21146,19 @@ Origin: Ubuntu
 Package: ri1.8
 Priority: optional
 Section: universe/interpreters
-Installed-Size: 10812
+Installed-Size: 10804
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: all
 Source: ruby1.8
-Version: 1.8.7.352-2ubuntu1.2
+Version: 1.8.7.352-2ubuntu1.3
 Provides: ri
-Depends: ruby1.8 (>= 1.8.7.352-2ubuntu1.2)
-Filename: pool/universe/r/ruby1.8/ri1.8_1.8.7.352-2ubuntu1.2_all.deb
-Size: 1162328
-MD5sum: 0ae335f12dc994af8db0a556766486c0
-SHA1: b39b4f1e270532aee68b1192c53f67b42ccd97ec
-SHA256: b23cd36c7ea34c09bb7010631aa1832e7d5ad93ce7bc8e4a765d4b48fc53064a
+Depends: ruby1.8 (>= 1.8.7.352-2ubuntu1.3)
+Filename: pool/universe/r/ruby1.8/ri1.8_1.8.7.352-2ubuntu1.3_all.deb
+Size: 1159066
+MD5sum: 54362cb73064cc5492c270b3b340f45d
+SHA1: 141e2042845e391af04265047ee0613af62ca33c
+SHA256: 58394476ba937dd54eb9727502acde23c80c19a5d1fb53ccdc29cd91ea7f737c
 Description: Ruby Interactive reference (for Ruby 1.8)
 Homepage: http://www.ruby-lang.org/
 Description-md5: 5e8f0f65cf968ef495a31458870804e0
@@ -21173,13 +21173,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: all
 Source: ruby1.9.1
-Version: 1.9.3.0-1ubuntu2.6
-Depends: ruby1.9.1 (>= 1.9.3.0-1ubuntu2.6)
-Filename: pool/universe/r/ruby1.9.1/ri1.9.1_1.9.3.0-1ubuntu2.6_all.deb
-Size: 2000956
-MD5sum: 839c1b3cacae961ee4e7f63575d88546
-SHA1: f8de103075dd9201eb320da0fac2bea3c8830a36
-SHA256: 6d5d3f36a34f181e7435069060c577ec6b180a4bde5d25234d02f6b0955e8f71
+Version: 1.9.3.0-1ubuntu2.7
+Depends: ruby1.9.1 (>= 1.9.3.0-1ubuntu2.7)
+Filename: pool/universe/r/ruby1.9.1/ri1.9.1_1.9.3.0-1ubuntu2.7_all.deb
+Size: 1997168
+MD5sum: 9f874d5b4e89f67e0e8bcc1b6aa87d7e
+SHA1: e91389b62994770711cbb6eb72321c7256922bd9
+SHA256: 5a73a0a606e8861e932ab40f291ec8eb2eb08a4f62841715f9011daec7350bf8
 Description: Ruby Interactive reference (for Ruby 1.9.1)
 Homepage: http://www.ruby-lang.org/
 Description-md5: 981b190dbace3c4830f10345d1b59fe3
@@ -21708,15 +21708,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: all
 Source: ruby1.8
-Version: 1.8.7.352-2ubuntu1.2
+Version: 1.8.7.352-2ubuntu1.3
 Provides: ruby-full
 Depends: ruby1.8, ri1.8, ruby1.8-dev
 Recommends: libtcltk-ruby1.8
-Filename: pool/universe/r/ruby1.8/ruby1.8-full_1.8.7.352-2ubuntu1.2_all.deb
-Size: 2582
-MD5sum: e8c451348f22fb304e62fb7c71c7907a
-SHA1: d14b57f2ac31b67facc4e6d53c39dec935a6b6b1
-SHA256: c898f95b0fd216e673f0f04cb88c3c8c709fb7111622c54249f60a3c1c1dab32
+Filename: pool/universe/r/ruby1.8/ruby1.8-full_1.8.7.352-2ubuntu1.3_all.deb
+Size: 2594
+MD5sum: f0937407b32f83288772ea4e6279232f
+SHA1: 1b1a8af3eeb7b2c02f528109bb775ef44be53ec3
+SHA256: 85b22d582ef029ad320279f554ba92ca07d6e5b04cb0b2bea20c1264c6ca608f
 Description: Ruby 1.8 full installation
 Homepage: http://www.ruby-lang.org/
 Description-md5: cf5acbfe4fad5f89b4c0a264a8fb4566
@@ -21731,14 +21731,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: all
 Source: ruby1.9.1
-Version: 1.9.3.0-1ubuntu2.6
-Depends: ruby1.9.1 (>= 1.9.3.0-1ubuntu2.6), libruby1.9.1-dbg (>= 1.9.3.0-1ubuntu2.6), ruby1.9.1-dev (>= 1.9.3.0-1ubuntu2.6), ruby1.9.1-examples (>= 1.9.3.0-1ubuntu2.6), ri1.9.1 (>= 1.9.3.0-1ubuntu2.6)
-Recommends: libtcltk-ruby1.9.1 (>= 1.9.3.0-1ubuntu2.6)
-Filename: pool/universe/r/ruby1.9.1/ruby1.9.1-full_1.9.3.0-1ubuntu2.6_all.deb
-Size: 2970
-MD5sum: 3cd9020616814a2db6212dfd6f0f0fc1
-SHA1: 8438c7aef8c38f9ba317653201f0e000230cec24
-SHA256: 58c588f0b4647d1dbcf792f42525f0b0262e1d204a0270351f02843b24f3a2b5
+Version: 1.9.3.0-1ubuntu2.7
+Depends: ruby1.9.1 (>= 1.9.3.0-1ubuntu2.7), libruby1.9.1-dbg (>= 1.9.3.0-1ubuntu2.7), ruby1.9.1-dev (>= 1.9.3.0-1ubuntu2.7), ruby1.9.1-examples (>= 1.9.3.0-1ubuntu2.7), ri1.9.1 (>= 1.9.3.0-1ubuntu2.7)
+Recommends: libtcltk-ruby1.9.1 (>= 1.9.3.0-1ubuntu2.7)
+Filename: pool/universe/r/ruby1.9.1/ruby1.9.1-full_1.9.3.0-1ubuntu2.7_all.deb
+Size: 2956
+MD5sum: 81b9c7d56c0615cb16a9a4e4804ceb12
+SHA1: b63989ac4fdb86c79aa6bcc3ebb6c72cf42aa0fa
+SHA256: 34764b0f4e2bcfa08bcb975d99e6ba2d037d045bcfb3df68a1c4776bd4364595
 Description: Ruby 1.9.1 full installation
 Homepage: http://www.ruby-lang.org/
 Description-md5: 504440781902afe6d8f91131f9a13760
@@ -21753,14 +21753,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: all
 Source: ruby1.9.1
-Version: 1.9.3.0-1ubuntu2.6
-Depends: ruby1.9.1 (>= 1.9.3.0-1ubuntu2.6)
-Recommends: ruby1.9.1-full (>= 1.9.3.0-1ubuntu2.6)
-Filename: pool/universe/r/ruby1.9.1/ruby1.9.3_1.9.3.0-1ubuntu2.6_all.deb
-Size: 13244
-MD5sum: 2c13e48e336cffdd47b2e3000bd4fcd7
-SHA1: d235ca661de10cf6f9f5187b7e83b1ca4bfc6202
-SHA256: 3f26e7b2794bd6036b4871803cb27d865d8ce51c2447e43515d1dce5685d0f7f
+Version: 1.9.3.0-1ubuntu2.7
+Depends: ruby1.9.1 (>= 1.9.3.0-1ubuntu2.7)
+Recommends: ruby1.9.1-full (>= 1.9.3.0-1ubuntu2.7)
+Filename: pool/universe/r/ruby1.9.1/ruby1.9.3_1.9.3.0-1ubuntu2.7_all.deb
+Size: 13148
+MD5sum: 018baa1801011c64b6fa2e75442013bb
+SHA1: 460e786acef21a2e5157e098e5cf1e2195ed9c9f
+SHA256: 7428837f81fed90674177c931543f1fe3b9720a6a33692e49bdb1b72d6a44ec3
 Description: Interpreter of object-oriented scripting language Ruby, version 1.9.3
 Homepage: http://www.ruby-lang.org/
 Description-md5: aa611a7522ee6c493d69294af0dd1d4b

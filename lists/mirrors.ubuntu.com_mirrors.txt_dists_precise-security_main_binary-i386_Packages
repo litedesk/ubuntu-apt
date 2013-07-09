@@ -22444,16 +22444,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: i386
 Source: ruby1.8
-Version: 1.8.7.352-2ubuntu1.2
+Version: 1.8.7.352-2ubuntu1.3
 Replaces: irb1.8, libbigdecimal-ruby1.8, libcurses-ruby1.8, libdbm-ruby1.8, libdl-ruby1.8, libdrb-ruby1.8, liberb-ruby1.8, libgdbm-ruby1.8, libiconv-ruby1.8, libopenssl-ruby1.8, libpty-ruby1.8, libracc-runtime-ruby1.8, libreadline-ruby1.8, librexml-ruby1.8, libsdbm-ruby1.8, libsoap-ruby1.8, libstrscan-ruby1.8, libsyslog-ruby1.8, libtest-unit-ruby1.8, libwebrick-ruby1.8, libxmlrpc-ruby1.8, libyaml-ruby1.8, libzlib-ruby1.8, rdoc1.8
 Provides: libbigdecimal-ruby1.8, libcurses-ruby1.8, libdbm-ruby1.8, libdl-ruby1.8, libdrb-ruby1.8, liberb-ruby1.8, libgdbm-ruby1.8, libiconv-ruby1.8, libopenssl-ruby1.8, libpty-ruby1.8, libracc-runtime-ruby1.8, libreadline-ruby1.8, librexml-ruby1.8, libsdbm-ruby1.8, libsoap-ruby1.8, libstrscan-ruby1.8, libsyslog-ruby1.8, libtest-unit-ruby1.8, libwebrick-ruby1.8, libxmlrpc-ruby1.8, libyaml-ruby1.8, libzlib-ruby1.8
 Depends: libc6 (>= 2.15), libgdbm3 (>= 1.8.3), libncurses5 (>= 5.5-5~), libreadline5 (>= 5.2), libssl1.0.0 (>= 1.0.0), libtinfo5, zlib1g (>= 1:1.1.4)
 Conflicts: irb1.8 (<< 1.8.7.249-3~), libbigdecimal-ruby1.8, libcurses-ruby1.8, libdbm-ruby1.8, libdl-ruby1.8, libdrb-ruby1.8, liberb-ruby1.8, libgdbm-ruby1.8, libiconv-ruby1.8, libopenssl-ruby1.8, libpty-ruby1.8, libracc-runtime-ruby1.8, libreadline-ruby1.8, librexml-ruby1.8, libsdbm-ruby1.8, libsoap-ruby1.8, libstrscan-ruby1.8, libsyslog-ruby1.8, libtest-unit-ruby1.8, libwebrick-ruby1.8, libxmlrpc-ruby1.8, libyaml-ruby1.8, libzlib-ruby1.8, rdoc1.8 (<< 1.8.7.249-3~)
-Filename: pool/main/r/ruby1.8/libruby1.8_1.8.7.352-2ubuntu1.2_i386.deb
-Size: 1786664
-MD5sum: 30ba18878746303ad4d42298e95f9f07
-SHA1: c2e389cd89142b6af892daecd0fdf10810c08e35
-SHA256: 6c8d6dc84d1a1f5e4cba854f85a078705107c95c43d5332dacc7cbc3591a1080
+Filename: pool/main/r/ruby1.8/libruby1.8_1.8.7.352-2ubuntu1.3_i386.deb
+Size: 1784080
+MD5sum: f97f333ae78707b9aacf413d647b6261
+SHA1: 86c89664accb1dc7332f0d946ba943f689b71760
+SHA256: ff911bb911fd9085cc115a4a3474c474657f41d6ded3420de5d86bc83e926463
 Description: Libraries necessary to run Ruby 1.8
 Homepage: http://www.ruby-lang.org/
 Description-md5: 2f5d4d6df73a4cfebb8c805abca4ad07
@@ -22465,18 +22465,18 @@ Task: kubuntu-active
 Package: libruby1.8-dbg
 Priority: extra
 Section: libdevel
-Installed-Size: 3599
+Installed-Size: 3503
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: i386
 Source: ruby1.8
-Version: 1.8.7.352-2ubuntu1.2
-Depends: libruby1.8 (= 1.8.7.352-2ubuntu1.2)
-Filename: pool/main/r/ruby1.8/libruby1.8-dbg_1.8.7.352-2ubuntu1.2_i386.deb
-Size: 1382116
-MD5sum: 090665887c934d48846445b3c36ca567
-SHA1: 0419151f003d357eea43eb2ad6b5aab562d33a78
-SHA256: 8181e84e6a57de6cfe13eb2f87accdb54acea1e54d6f99c7608db64836ff3e06
+Version: 1.8.7.352-2ubuntu1.3
+Depends: libruby1.8 (= 1.8.7.352-2ubuntu1.3)
+Filename: pool/main/r/ruby1.8/libruby1.8-dbg_1.8.7.352-2ubuntu1.3_i386.deb
+Size: 1344262
+MD5sum: bf855dcf5408b90618541ba49d2e189a
+SHA1: 1ff1b8cf0bf72e26a633ec603375e7d7f09557c0
+SHA256: fff1ecdf0e547d18bd7543aaedd87f66dec8330da216391ab1662328811a406e
 Description: Debugging symbols for Ruby 1.8
 Homepage: http://www.ruby-lang.org/
 Description-md5: de482e970401cf7197e3a53c77351306
@@ -22492,16 +22492,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: i386
 Source: ruby1.9.1
-Version: 1.9.3.0-1ubuntu2.6
+Version: 1.9.3.0-1ubuntu2.7
 Replaces: irb1.8, libdbm-ruby1.9.1, libgdbm-ruby1.9.1, libopenssl-ruby1.9.1, libreadline-ruby1.9.1, rdoc1.8
 Provides: libdbm-ruby1.9.1, libgdbm-ruby1.9.1, libopenssl-ruby1.9.1, libreadline-ruby1.9.1
 Depends: ca-certificates, libc6 (>= 2.15), libffi6 (>= 3.0.4), libgdbm3 (>= 1.8.3), libncursesw5 (>= 5.6+20070908), libreadline6 (>= 6.0), libssl1.0.0 (>= 1.0.0), libtinfo5, libyaml-0-2, zlib1g (>= 1:1.2.3.3.dfsg)
 Conflicts: irb1.8 (<< 1.9.1.378-2~), libdbm-ruby1.9.1, libgdbm-ruby1.9.1, libopenssl-ruby1.9.1, libreadline-ruby1.9.1, rdoc1.8 (<< 1.9.1.378-2~)
-Filename: pool/main/r/ruby1.9.1/libruby1.9.1_1.9.3.0-1ubuntu2.6_i386.deb
-Size: 4210234
-MD5sum: a777f13458eb97907d3d6c669c1b22e2
-SHA1: 616bec27bd1947c183a93678644a815b0fbe5ea3
-SHA256: 8f19ea7078b0e9c0b93f94945940ff4dd44e28a743060b0096cdd88e9a39dea4
+Filename: pool/main/r/ruby1.9.1/libruby1.9.1_1.9.3.0-1ubuntu2.7_i386.deb
+Size: 4208584
+MD5sum: 869a3a718c126e4d976c99dc465302ff
+SHA1: 42220574aacd015ea5d7fee79a4063bff8335b51
+SHA256: f2b3b329518960844ac62e0628bd91e4dc877db67c252c7d38d4a8fbfab726ad
 Description: Libraries necessary to run Ruby 1.9.1
 Homepage: http://www.ruby-lang.org/
 Description-md5: 311ad9570aaaa1e7d8a40da9af0fd26d
@@ -22512,18 +22512,18 @@ Supported: 18m
 Package: libruby1.9.1-dbg
 Priority: extra
 Section: debug
-Installed-Size: 4828
+Installed-Size: 4823
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: i386
 Source: ruby1.9.1
-Version: 1.9.3.0-1ubuntu2.6
-Depends: libruby1.9.1 (= 1.9.3.0-1ubuntu2.6)
-Filename: pool/main/r/ruby1.9.1/libruby1.9.1-dbg_1.9.3.0-1ubuntu2.6_i386.deb
-Size: 3606000
-MD5sum: a91e4c5125f8ff75b3be69773fbba290
-SHA1: 6527d952380f063145d35d921f25cec2ce9f43d5
-SHA256: 3ad1a46f1bad3b6e229a4212f82c010299c69004f8179bb05a738a772e564104
+Version: 1.9.3.0-1ubuntu2.7
+Depends: libruby1.9.1 (= 1.9.3.0-1ubuntu2.7)
+Filename: pool/main/r/ruby1.9.1/libruby1.9.1-dbg_1.9.3.0-1ubuntu2.7_i386.deb
+Size: 3607358
+MD5sum: 369f34922da02edb6ef0866852ead26e
+SHA1: 21ca520cf17cdb429ac9553d727ceb757229713b
+SHA256: 15cadeafb848738de589fd9bfd6989f2172de321a2e6937fb99498ec6d1efaee
 Description: Debugging symbols for Ruby 1.9.1
 Homepage: http://www.ruby-lang.org/
 Description-md5: 51575fc8b43a3947fe9f91f839afdfca
@@ -46530,17 +46530,17 @@ Installed-Size: 361
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: i386
-Version: 1.8.7.352-2ubuntu1.2
+Version: 1.8.7.352-2ubuntu1.3
 Replaces: irb1.8, rdoc1.8
 Provides: irb1.8, rdoc1.8, ruby, ruby-interpreter
-Depends: libc6 (>= 2.0), libruby1.8 (= 1.8.7.352-2ubuntu1.2)
+Depends: libc6 (>= 2.0), libruby1.8 (= 1.8.7.352-2ubuntu1.3)
 Suggests: ruby1.8-examples, ri1.8
 Conflicts: irb1.8 (<< 1.8.7.249-3~), rdoc1.8 (<< 1.8.7.249-3~), ri (<= 4.5), ri1.8 (<< 1.8.7.334-4~), ruby (<= 4.5)
-Filename: pool/main/r/ruby1.8/ruby1.8_1.8.7.352-2ubuntu1.2_i386.deb
-Size: 34236
-MD5sum: 54b520b6b0d51e427081253b3ab4fb69
-SHA1: cf6d2a70e6f6f3ea01300f1ddcde99c310feeccd
-SHA256: fbfe1cc88d9af820aae33776d7d7cb17dd7d5cdc12b8a0569b20f53965abb6ff
+Filename: pool/main/r/ruby1.8/ruby1.8_1.8.7.352-2ubuntu1.3_i386.deb
+Size: 33718
+MD5sum: 4ff3cc2109effe00a87b5a2e99b9b2fd
+SHA1: 08c6c2201f3a90a30199c29a1588f9ffa75c9487
+SHA256: fbe89b2199f0449e3b62196af0548b52933cea60f7762e9e515ee8155e18006a
 Description: Interpreter of object-oriented scripting language Ruby 1.8
 Homepage: http://www.ruby-lang.org/
 Description-md5: cbc9f752f927d3142d295011d81f88fc
@@ -46557,15 +46557,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: i386
 Source: ruby1.8
-Version: 1.8.7.352-2ubuntu1.2
+Version: 1.8.7.352-2ubuntu1.3
 Provides: ruby-dev
-Depends: libruby1.8 (= 1.8.7.352-2ubuntu1.2), libc6-dev
-Recommends: ruby1.8 (= 1.8.7.352-2ubuntu1.2)
-Filename: pool/main/r/ruby1.8/ruby1.8-dev_1.8.7.352-2ubuntu1.2_i386.deb
-Size: 626172
-MD5sum: bfa99db991681761ec33a8b527a07d99
-SHA1: e2500c5e7647134b1e6fd5e135bb8e54469877b5
-SHA256: 7c3986354c68a9305e39bf00b70027473ef02b44e59c18de69f653fac1d59c3c
+Depends: libruby1.8 (= 1.8.7.352-2ubuntu1.3), libc6-dev
+Recommends: ruby1.8 (= 1.8.7.352-2ubuntu1.3)
+Filename: pool/main/r/ruby1.8/ruby1.8-dev_1.8.7.352-2ubuntu1.3_i386.deb
+Size: 626380
+MD5sum: fc455ab5417773ab2c09cc76c3f0369b
+SHA1: a79ad583906c660e4b2e2f68e563c87ac6cbabdb
+SHA256: d2dcbf78ece685dbfa92be68e5b8ccb550c5d36fa5b9ead91bf89bce1a1320a9
 Description: Header files for compiling extension modules for the Ruby 1.8
 Homepage: http://www.ruby-lang.org/
 Description-md5: d50680834c728bf1cfb025fc5d1b40c1
@@ -46581,13 +46581,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: all
 Source: ruby1.8
-Version: 1.8.7.352-2ubuntu1.2
-Suggests: ruby1.8 (>= 1.8.7.352-2ubuntu1.2)
-Filename: pool/main/r/ruby1.8/ruby1.8-examples_1.8.7.352-2ubuntu1.2_all.deb
-Size: 73968
-MD5sum: acb43d572ae71ce092e90c2aeb9a2e1c
-SHA1: 143c2a221c5ef5c8a22ab50c328852007950d1ae
-SHA256: c5fafa2f9f7cb8d6d1b59eafdcd0210ee2ca137b556b4ec9d41fca27e436b7f9
+Version: 1.8.7.352-2ubuntu1.3
+Suggests: ruby1.8 (>= 1.8.7.352-2ubuntu1.3)
+Filename: pool/main/r/ruby1.8/ruby1.8-examples_1.8.7.352-2ubuntu1.3_all.deb
+Size: 73374
+MD5sum: 1f19e4b5a67dfbe5ec7571f14da79dbc
+SHA1: 03923ebd0c9ad1d8fbd07a387af7c2681c502eae
+SHA256: b834e034015e1d40f35da5be2646d5927a5c3a1d4b73cb969656bdf5cefb15eb
 Description: Examples for Ruby 1.8
 Homepage: http://www.ruby-lang.org/
 Description-md5: aae2269a8f6e1c54a5eb29b21495e7cb
@@ -46602,17 +46602,17 @@ Installed-Size: 234
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: i386
-Version: 1.9.3.0-1ubuntu2.6
+Version: 1.9.3.0-1ubuntu2.7
 Replaces: irb1.9.1, rdoc1.9.1, rubygems1.9.1
 Provides: irb1.9.1, rdoc1.9.1, ruby-interpreter, rubygems1.9.1
-Depends: libruby1.9.1 (= 1.9.3.0-1ubuntu2.6), libc6 (>= 2.0)
+Depends: libruby1.9.1 (= 1.9.3.0-1ubuntu2.7), libc6 (>= 2.0)
 Suggests: ruby1.9.1-examples, ri1.9.1, graphviz, ruby1.9.1-dev
 Conflicts: irb1.9.1 (<< 1.9.1.378-2~), rdoc1.9.1 (<< 1.9.1.378-2~), ri (<= 4.5), ri1.9.1 (<< 1.9.2.180-3~), ruby (<= 4.5), rubygems1.9.1
-Filename: pool/main/r/ruby1.9.1/ruby1.9.1_1.9.3.0-1ubuntu2.6_i386.deb
-Size: 36954
-MD5sum: 7fc6257d6848eee1b80ed1e85e8e6c78
-SHA1: 9e4941b502f480647d14beba851fb052dac66020
-SHA256: 8c37062627e254a6382dc0cdf1bc252028b35e548eccb9cd21ea5f16b9fe8280
+Filename: pool/main/r/ruby1.9.1/ruby1.9.1_1.9.3.0-1ubuntu2.7_i386.deb
+Size: 36978
+MD5sum: d526113136ca209ccb8741527b209a9d
+SHA1: 42cd7fb7a6497c39af9e49d3eddaa5b26d86f2e6
+SHA256: 3db644859a9a222dee59eafa420cde38a7992592c6a23f0b145653ed08fdf579
 Description: Interpreter of object-oriented scripting language Ruby
 Homepage: http://www.ruby-lang.org/
 Description-md5: 5a3bebf22800260bf542248151806d7c
@@ -46628,14 +46628,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: i386
 Source: ruby1.9.1
-Version: 1.9.3.0-1ubuntu2.6
-Depends: libruby1.9.1 (= 1.9.3.0-1ubuntu2.6), libc6-dev
-Recommends: ruby1.9.1 (= 1.9.3.0-1ubuntu2.6)
-Filename: pool/main/r/ruby1.9.1/ruby1.9.1-dev_1.9.3.0-1ubuntu2.6_i386.deb
-Size: 1223244
-MD5sum: d1760cb9ee3d1c2cb6c6bed82791355e
-SHA1: 4c90b5757e8fb10dcabf98022ab01dbdb632d5a4
-SHA256: 944bb48e30f62387198c9b63f97c52cfb1de066cb0d77572a868dfeef8284377
+Version: 1.9.3.0-1ubuntu2.7
+Depends: libruby1.9.1 (= 1.9.3.0-1ubuntu2.7), libc6-dev
+Recommends: ruby1.9.1 (= 1.9.3.0-1ubuntu2.7)
+Filename: pool/main/r/ruby1.9.1/ruby1.9.1-dev_1.9.3.0-1ubuntu2.7_i386.deb
+Size: 1224100
+MD5sum: d87e9b838d34157c362eb80d02f2ddea
+SHA1: e413e8bce44119331de513108ef8cd9e1de5c475
+SHA256: e1fe4e6f7f70394bbbc0f8b30a437ed5c08ea59ad7160c8b862e36cf76f35fd5
 Description: Header files for compiling extension modules for the Ruby 1.9.1
 Homepage: http://www.ruby-lang.org/
 Description-md5: fe8ab5416b13f294f4b46835c51da0b1
@@ -46651,13 +46651,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: akira yamada <akira@debian.org>
 Architecture: all
 Source: ruby1.9.1
-Version: 1.9.3.0-1ubuntu2.6
-Suggests: ruby1.9.1 (>= 1.9.3.0-1ubuntu2.6)
-Filename: pool/main/r/ruby1.9.1/ruby1.9.1-examples_1.9.3.0-1ubuntu2.6_all.deb
-Size: 74928
-MD5sum: 92d41f738954d999913f67e1950738cb
-SHA1: 21c08988a99ba637afe38714f9768f792652b931
-SHA256: 8c0403ee57cd0d04f4ec61193634912a777ad2f45cbe48b986f07e3c000ad2a5
+Version: 1.9.3.0-1ubuntu2.7
+Suggests: ruby1.9.1 (>= 1.9.3.0-1ubuntu2.7)
+Filename: pool/main/r/ruby1.9.1/ruby1.9.1-examples_1.9.3.0-1ubuntu2.7_all.deb
+Size: 74852
+MD5sum: 9712987221e5ed18f212ce464ba1c15c
+SHA1: a46da85d989056476b554e45927718c754f8ca47
+SHA256: 477a9b83a5889cf4dbca3fd73e264d93b9700bf9790b59af57365846ed5ff5a6
 Description: Examples for Ruby 1.9
 Homepage: http://www.ruby-lang.org/
 Description-md5: f8048bc94c205859758877fee5353b32
