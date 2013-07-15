@@ -356,15 +356,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: amd64
 Source: apache2
-Version: 2.2.22-1ubuntu1.3
+Version: 2.2.22-1ubuntu1.4
 Provides: apache2, apache2-mpm, httpd, httpd-cgi
-Depends: apache2.2-common (= 2.2.22-1ubuntu1.3), apache2.2-bin (= 2.2.22-1ubuntu1.3)
+Depends: apache2.2-common (= 2.2.22-1ubuntu1.4), apache2.2-bin (= 2.2.22-1ubuntu1.4)
 Conflicts: apache2-common, apache2-mpm
-Filename: pool/universe/a/apache2/apache2-mpm-itk_2.2.22-1ubuntu1.3_amd64.deb
-Size: 2386
-MD5sum: 84c0ef05c8f4b133b56267cc1d5b2070
-SHA1: 6687e5a2e0a90b1d77e113aef0b6e687b9a3fe8c
-SHA256: 68e0d634f90da0f76447132df0ba98012eae08824044c84e3ba5a71253b86a87
+Filename: pool/universe/a/apache2/apache2-mpm-itk_2.2.22-1ubuntu1.4_amd64.deb
+Size: 2382
+MD5sum: 172302297bd99d152b543978bd421004
+SHA1: dd146398cc47b319a859d26d5b5d666419d26a9d
+SHA256: 05f4a83877a2ce5f6b60576ab37ca2c47ceb17ff0c7e520904850ebfe00d55a2
 Description: multiuser MPM for Apache 2.2
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -381,15 +381,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: amd64
 Source: apache2
-Version: 2.2.22-1ubuntu1.3
+Version: 2.2.22-1ubuntu1.4
 Replaces: apache2-suexec
 Depends: libc6 (>= 2.3.4), apache2.2-common
 Conflicts: apache-common, apache2-suexec
-Filename: pool/universe/a/apache2/apache2-suexec_2.2.22-1ubuntu1.3_amd64.deb
-Size: 15438
-MD5sum: 90c9c30f617e00835550bbcee720d087
-SHA1: cbcd115157481614507adbebebcdd879c9b87813
-SHA256: b8d05c831ac012e62bead7301857181ce4e5559fa02b63a937a20448a1ec97ea
+Filename: pool/universe/a/apache2/apache2-suexec_2.2.22-1ubuntu1.4_amd64.deb
+Size: 15430
+MD5sum: 515fc38b58635ce01f0e0b7d887dda7b
+SHA1: 868bf809b789d9135a1914384e97b71e31a70514
+SHA256: ce1e2e513a8c9943c157f398ca0d9ae10fbef43adccd1f7c9299d37aeeef1a42
 Description: Standard suexec program for Apache 2 mod_suexec
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -406,16 +406,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: amd64
 Source: apache2
-Version: 2.2.22-1ubuntu1.3
+Version: 2.2.22-1ubuntu1.4
 Replaces: apache2-suexec
 Provides: apache2-suexec
 Depends: libc6 (>= 2.3.4), apache2.2-common
 Conflicts: apache-common, apache2-suexec
-Filename: pool/universe/a/apache2/apache2-suexec-custom_2.2.22-1ubuntu1.3_amd64.deb
-Size: 17252
-MD5sum: f57d64678e913f64ed4ca86006613d5e
-SHA1: 90cad43f5347ecccfb904e47edecab049edcd198
-SHA256: 70af784f1cf0e99f41f1ff15c4c4f1c4652e938beaa1db042620b61d1470a0a2
+Filename: pool/universe/a/apache2/apache2-suexec-custom_2.2.22-1ubuntu1.4_amd64.deb
+Size: 17222
+MD5sum: 104c2fc2707f66d96dcefab9f534e6fa
+SHA1: 49dfe50d3636ab440d836689c212ea764bb2cc66
+SHA256: ccaaa4b8e2143d079cec0475013b86f1b052599700c21bf2731a06161880b9b6
 Description: Configurable suexec program for Apache 2 mod_suexec
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -9715,6 +9715,27 @@ Description-md5: 7a91df0da9da24c9cf75bd04adfa87ce
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: libcroco-tools
+Priority: optional
+Section: universe/libs
+Installed-Size: 103
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Source: libcroco
+Version: 0.6.5-1ubuntu0.1
+Depends: libc6 (>= 2.2.5), libcroco3 (>= 0.6.2), libglib2.0-0 (>= 2.12.0), libxml2 (>= 2.7.4)
+Filename: pool/universe/libc/libcroco/libcroco-tools_0.6.5-1ubuntu0.1_amd64.deb
+Size: 9538
+MD5sum: 72c806a3ebf5c91dff62c85f286c7747
+SHA1: 76f67ad835500d9931e269b8cfc630a68a272ed5
+SHA256: f48b99bef761c3641cb635d81deba5f3edbbb151966b6efb20b810295677a4d3
+Description: Cascading Style Sheet (CSS) parsing and manipulation toolkit - utils
+Multi-Arch: foreign
+Description-md5: 03d7ec07fa6dc7d168fc44b0c869a7cf
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: libcrystalhd-dev
 Priority: optional
 Section: universe/libdevel
@@ -16202,16 +16223,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>
 Architecture: amd64
 Source: nagios-plugins
-Version: 1.4.15-5ubuntu3.1
+Version: 1.4.15-5ubuntu3.2
 Replaces: nagios-plugins, nagios-plugins-standard (<= 1.4.8-2)
 Depends: libc6 (>= 2.15), fping, qstat, ucf, nagios-plugins-basic (>= 1.4.5-2)
 Suggests: nagios2 | nagios-text | nagios
 Conflicts: nagios-plugins (<= 1.4.2-3)
-Filename: pool/universe/n/nagios-plugins/nagios-plugins-extra_1.4.15-5ubuntu3.1_amd64.deb
-Size: 45628
-MD5sum: a5b3a7490dc8e606706eb0dbb534f6d4
-SHA1: e65ee46cc6e0d665ea112f3c9bfa433823c79788
-SHA256: b55b680df72170bf09a494a6a2b9941cda1a97dd0112c0461963dc52e61b7831
+Filename: pool/universe/n/nagios-plugins/nagios-plugins-extra_1.4.15-5ubuntu3.2_amd64.deb
+Size: 45568
+MD5sum: 0f1d55f59810de2ea48fc246b0a4b4f2
+SHA1: 2e4ffde1ad7270595ae00734c21a3756020851b7
+SHA256: 1f3ec462e8985c312e611bcbd42722332fbcde634b696e7b774ba71c90abe929
 Description: Plugins for the nagios network monitoring and manegement system.
 Homepage: http://nagiosplug.sourceforge.net
 Description-md5: e0bca190845adf8999f9ca999aacd479

@@ -17227,6 +17227,53 @@ Description-en: Read .ini-style configuration files
  your Perl script.  Configurations can be imported (inherited, stacked,...),
  sections can be grouped, and settings can be accessed from a tied hash.
 
+Package: libcroco3
+Description-md5: e137ee0d9ee886dc3c2118a5dd881234
+Description-en: Cascading Style Sheet (CSS) parsing and manipulation toolkit
+ Services provided by Libcroco
+  * A parser module that provides
+    o A SAC like API. SAC stands for Simple API for CSS. SAC is an event driven
+      API wich resembles SAX in the xml world.
+    o A CSSOM like API. CSSOM stands for Cascading Style Sheet Object Model.
+ .
+    The libcroco parser implements the CSS Level 2 specification, the CSS
+    forward compatibility rules and the CSS cascading rules.
+ .
+  * A CSS2 selection engine
+    Given an xml element node (that obviously comes from an xml document) and
+    a stylesheet cascade, the Libcroco selection engine can evaluate the css
+    selectors of the cascade and return the style properties associated to
+    the xml element node.
+ .
+    Note that the xml manipulation toolkit used by the libcroco selection
+    engine at the moment is libxml2.
+ .
+ This package contains the shared libraries.
+
+Package: libcroco3-dev
+Description-md5: 1d944980a692983e0e2e037ca8c19bd8
+Description-en: Cascading Style Sheet (CSS) parsing and manipulation toolkit
+ Services provided by Libcroco
+  * A parser module that provides
+    o A SAC like API. SAC stands for Simple API for CSS. SAC is an event driven
+      API wich resembles SAX in the xml world.
+    o A CSSOM like API. CSSOM stands for Cascading Style Sheet Object Model.
+ .
+    The libcroco parser implements the CSS Level 2 specification, the CSS
+    forward compatibility rules and the CSS cascading rules.
+ .
+  * A CSS2 selection engine
+    Given an xml element node (that obviously comes from an xml document) and
+    a stylesheet cascade, the Libcroco selection engine can evaluate the css
+    selectors of the cascade and return the style properties associated to
+    the xml element node.
+ .
+    Note that the xml manipulation toolkit used by the libcroco selection
+    engine at the moment is libxml2.
+ .
+ This package contains the header files and static libraries which is
+ needed for developing the GTK+ applications.
+
 Package: libcups2
 Description-md5: cce9961cb86712146cb19e1b4636f79d
 Description-en: Common UNIX Printing System(tm) - Core library
