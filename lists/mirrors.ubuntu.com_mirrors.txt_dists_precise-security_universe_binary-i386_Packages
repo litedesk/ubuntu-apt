@@ -50,15 +50,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: i386
 Source: apache2
-Version: 2.2.22-1ubuntu1.3
+Version: 2.2.22-1ubuntu1.4
 Provides: apache2, apache2-mpm, httpd, httpd-cgi
-Depends: apache2.2-common (= 2.2.22-1ubuntu1.3), apache2.2-bin (= 2.2.22-1ubuntu1.3)
+Depends: apache2.2-common (= 2.2.22-1ubuntu1.4), apache2.2-bin (= 2.2.22-1ubuntu1.4)
 Conflicts: apache2-common, apache2-mpm
-Filename: pool/universe/a/apache2/apache2-mpm-itk_2.2.22-1ubuntu1.3_i386.deb
-Size: 2382
-MD5sum: 438e618e8199815988cafdda3706de53
-SHA1: 64a70789403b26d54db2bec80b0afcd280827387
-SHA256: e8c593c101c240c84e96c8252e7571c012b8a79408dd2444576e7657e85777ae
+Filename: pool/universe/a/apache2/apache2-mpm-itk_2.2.22-1ubuntu1.4_i386.deb
+Size: 2390
+MD5sum: 084d3e073d0076dd9fbbe63a4c16e2ab
+SHA1: c388e01b305cb12a9a25d9a6acc0185de55e27e2
+SHA256: 999b421c07e40a0feaa3aea19f64875e1f3da2938acd56205564c487328acd16
 Description: multiuser MPM for Apache 2.2
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -75,15 +75,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: i386
 Source: apache2
-Version: 2.2.22-1ubuntu1.3
+Version: 2.2.22-1ubuntu1.4
 Replaces: apache2-suexec
 Depends: libc6 (>= 2.3.6-6~), apache2.2-common
 Conflicts: apache-common, apache2-suexec
-Filename: pool/universe/a/apache2/apache2-suexec_2.2.22-1ubuntu1.3_i386.deb
-Size: 15046
-MD5sum: a9eec25c12ec26ee134a59732df65c77
-SHA1: 4a19affa593a535f1678b53f679530c31b2b078c
-SHA256: a11be83679be89aea659c2fbc70f9e4cf40f87cf486b644f6394b285c41565db
+Filename: pool/universe/a/apache2/apache2-suexec_2.2.22-1ubuntu1.4_i386.deb
+Size: 18360
+MD5sum: a3f20eb2e9bd1258867c905f5f556364
+SHA1: faa53dd379b621418eb4768b83b60bc6f9d650e5
+SHA256: 1dfe42da3b83fd4a6de875cd23c64d5a18d125e956787d54894b28761a04ceac
 Description: Standard suexec program for Apache 2 mod_suexec
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -100,16 +100,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: i386
 Source: apache2
-Version: 2.2.22-1ubuntu1.3
+Version: 2.2.22-1ubuntu1.4
 Replaces: apache2-suexec
 Provides: apache2-suexec
 Depends: libc6 (>= 2.3.6-6~), apache2.2-common
 Conflicts: apache-common, apache2-suexec
-Filename: pool/universe/a/apache2/apache2-suexec-custom_2.2.22-1ubuntu1.3_i386.deb
-Size: 16844
-MD5sum: df6390c9b65a1f7add6270b445e769b5
-SHA1: e7fbda9e8b49653d7f0550029e401888ac0e0312
-SHA256: 3a4c5cad49eb312680961892eca50bc196ee7ec31b45dd8db9a3b346aaacf781
+Filename: pool/universe/a/apache2/apache2-suexec-custom_2.2.22-1ubuntu1.4_i386.deb
+Size: 20034
+MD5sum: a3247e833d1cf119560698897972be5e
+SHA1: a48a16939d8ff15238d7e4e1ddc8d1044469abe0
+SHA256: ecbcb3f35e1c6864fc28d690478214cd66c355cac2e64397742ed85890ff98c4
 Description: Configurable suexec program for Apache 2 mod_suexec
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git

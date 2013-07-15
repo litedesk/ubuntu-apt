@@ -93,13 +93,13 @@ Installed-Size: 29
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: amd64
-Version: 2.2.22-1ubuntu1.3
-Depends: apache2-mpm-worker (= 2.2.22-1ubuntu1.3) | apache2-mpm-prefork (= 2.2.22-1ubuntu1.3) | apache2-mpm-event (= 2.2.22-1ubuntu1.3) | apache2-mpm-itk (= 2.2.22-1ubuntu1.3), apache2.2-common (= 2.2.22-1ubuntu1.3)
-Filename: pool/main/a/apache2/apache2_2.2.22-1ubuntu1.3_amd64.deb
+Version: 2.2.22-1ubuntu1.4
+Depends: apache2-mpm-worker (= 2.2.22-1ubuntu1.4) | apache2-mpm-prefork (= 2.2.22-1ubuntu1.4) | apache2-mpm-event (= 2.2.22-1ubuntu1.4) | apache2-mpm-itk (= 2.2.22-1ubuntu1.4), apache2.2-common (= 2.2.22-1ubuntu1.4)
+Filename: pool/main/a/apache2/apache2_2.2.22-1ubuntu1.4_amd64.deb
 Size: 1492
-MD5sum: b7beac61a10eff02073449491b92562a
-SHA1: e0d8f71c5fec30e3f99a6a309fe6ed018a158785
-SHA256: a4a3891629acb9e3d646566b705cac614192b47aade9122dfffeb457a739c5de
+MD5sum: 738e83f3041d403a740762f306583d4b
+SHA1: 95c8b48342197c925c764624ecbeb45cf81c8c9c
+SHA256: cc7feaaacc7351ac788f840ef416f109d2d8c7601017d37b2d1bf85b5739a984
 Description: Apache HTTP Server metapackage
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -113,17 +113,17 @@ Task: lamp-server
 Package: apache2-doc
 Priority: optional
 Section: doc
-Installed-Size: 12466
+Installed-Size: 12467
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: all
 Source: apache2
-Version: 2.2.22-1ubuntu1.3
-Filename: pool/main/a/apache2/apache2-doc_2.2.22-1ubuntu1.3_all.deb
-Size: 2617900
-MD5sum: a741c7e4e4a51d936200a55266164b89
-SHA1: 8d5c24bdcbe78196fb7681e98dd01fa350f499bf
-SHA256: ecd69e31e471fc256057f8307e809baa3da8ac1489fd48af8cbd1be6b0a585f2
+Version: 2.2.22-1ubuntu1.4
+Filename: pool/main/a/apache2/apache2-doc_2.2.22-1ubuntu1.4_all.deb
+Size: 2620154
+MD5sum: 12f736b5623c073d9392bcdb9d91e624
+SHA1: 804f1a9475d599309f42527c0fcc855dd858df99
+SHA256: a55d4136f8b63e8aca699ef20ddd4d99334424905db842c17d85c05079b7bc1d
 Description: Apache HTTP Server documentation
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -141,15 +141,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: amd64
 Source: apache2
-Version: 2.2.22-1ubuntu1.3
+Version: 2.2.22-1ubuntu1.4
 Provides: apache2, apache2-mpm, httpd, httpd-cgi
-Depends: apache2.2-common (= 2.2.22-1ubuntu1.3), apache2.2-bin (= 2.2.22-1ubuntu1.3)
+Depends: apache2.2-common (= 2.2.22-1ubuntu1.4), apache2.2-bin (= 2.2.22-1ubuntu1.4)
 Conflicts: apache2-common, apache2-mpm
-Filename: pool/main/a/apache2/apache2-mpm-event_2.2.22-1ubuntu1.3_amd64.deb
-Size: 2366
-MD5sum: 2893c7950a891732c9c479ef39642bac
-SHA1: 0987b40b1b69714b0f042772ce8a07f3483e7cc7
-SHA256: cf5d3db85839543185f768b3f54737fe81223072d32e7a3f071704bd35f184e5
+Filename: pool/main/a/apache2/apache2-mpm-event_2.2.22-1ubuntu1.4_amd64.deb
+Size: 2352
+MD5sum: f62b4cdf8fd3064cf110e1ee01d09cd8
+SHA1: c9a07f11e0acdd0612335830c566f0436cda4d08
+SHA256: 7e54f9cd5e0e607bfe11488f9669505997c7e81d671d30c34eff2204a9fe5c1f
 Description: Apache HTTP Server - event driven model
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -167,15 +167,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: amd64
 Source: apache2
-Version: 2.2.22-1ubuntu1.3
+Version: 2.2.22-1ubuntu1.4
 Provides: apache2, apache2-mpm, httpd, httpd-cgi
-Depends: apache2.2-common (= 2.2.22-1ubuntu1.3), apache2.2-bin (= 2.2.22-1ubuntu1.3)
+Depends: apache2.2-common (= 2.2.22-1ubuntu1.4), apache2.2-bin (= 2.2.22-1ubuntu1.4)
 Conflicts: apache2-common, apache2-mpm
-Filename: pool/main/a/apache2/apache2-mpm-prefork_2.2.22-1ubuntu1.3_amd64.deb
-Size: 2404
-MD5sum: f9c5fc4cd93a859d1a07753f671b4379
-SHA1: 2e5dad7d03eba9ff691e4dd2283fc9bb25ce6039
-SHA256: b3efa5c1acf7c7f246b932551521197bad262e78c4843813e5f8ec9bc13803bc
+Filename: pool/main/a/apache2/apache2-mpm-prefork_2.2.22-1ubuntu1.4_amd64.deb
+Size: 2398
+MD5sum: 71f4bbd082f86d2cdca6ce500cb096d5
+SHA1: d146195103f1075e91bdd0c002afc1d4a3030c60
+SHA256: 4ed075188377fc41a5c89aefd3a2fd338b5d47380e2dcb1d8c23ec2eb3e70b5c
 Description: Apache HTTP Server - traditional non-threaded model
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -194,15 +194,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: amd64
 Source: apache2
-Version: 2.2.22-1ubuntu1.3
+Version: 2.2.22-1ubuntu1.4
 Provides: apache2, apache2-mpm, httpd, httpd-cgi
-Depends: apache2.2-common (= 2.2.22-1ubuntu1.3), apache2.2-bin (= 2.2.22-1ubuntu1.3)
+Depends: apache2.2-common (= 2.2.22-1ubuntu1.4), apache2.2-bin (= 2.2.22-1ubuntu1.4)
 Conflicts: apache2-common, apache2-mpm
-Filename: pool/main/a/apache2/apache2-mpm-worker_2.2.22-1ubuntu1.3_amd64.deb
-Size: 2296
-MD5sum: 89407ba42ff399e69aa2b36c28ccc346
-SHA1: 8835bc4e3a64c0c93bc3ab11c7de7cfb92397357
-SHA256: f22414f065f145e87cb5750a8a03ec70a19de6888d04dad5114397713e4b43ed
+Filename: pool/main/a/apache2/apache2-mpm-worker_2.2.22-1ubuntu1.4_amd64.deb
+Size: 2284
+MD5sum: 40b917fdc30d833ece5a8f1bda552802
+SHA1: 59e18f085aa6341cc6c3a0354346ab3ef89e0fac
+SHA256: 74aab70c96135cc36348b9f60c419b58772d4b4f3f5891ecf3b95b4be3a22f72
 Description: Apache HTTP Server - high speed threaded model
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -220,14 +220,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: amd64
 Source: apache2
-Version: 2.2.22-1ubuntu1.3
-Depends: apache2.2-common (= 2.2.22-1ubuntu1.3), openssl, libaprutil1-dev
+Version: 2.2.22-1ubuntu1.4
+Depends: apache2.2-common (= 2.2.22-1ubuntu1.4), openssl, libaprutil1-dev
 Conflicts: apache2-threaded-dev
-Filename: pool/main/a/apache2/apache2-prefork-dev_2.2.22-1ubuntu1.3_amd64.deb
-Size: 138082
-MD5sum: bd5beb9dd44eb538252fb6f35d610a6e
-SHA1: e935f12b39c0821cb1934b57ce89c46ff867dc72
-SHA256: d0eb590c0d619b3770689a0fd553d387865062f71a6d21c88ef75009703aeae9
+Filename: pool/main/a/apache2/apache2-prefork-dev_2.2.22-1ubuntu1.4_amd64.deb
+Size: 137714
+MD5sum: 7d29e95da9c0b00c4816f6f89638e623
+SHA1: 433e00956b0b37634622d796b245252cc9135e3c
+SHA256: 2e1d2ddde0a5a097a38f64b25c816143b888933f6017080acfcf19d4f3a7a9a0
 Description: Apache development headers - non-threaded MPM
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -245,15 +245,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: amd64
 Source: apache2
-Version: 2.2.22-1ubuntu1.3
+Version: 2.2.22-1ubuntu1.4
 Provides: apache2-dev
-Depends: apache2.2-common (= 2.2.22-1ubuntu1.3), openssl, libaprutil1-dev
+Depends: apache2.2-common (= 2.2.22-1ubuntu1.4), openssl, libaprutil1-dev
 Conflicts: apache2-prefork-dev
-Filename: pool/main/a/apache2/apache2-threaded-dev_2.2.22-1ubuntu1.3_amd64.deb
-Size: 139194
-MD5sum: 812c9cb6cdda34965923524c0a2fc80f
-SHA1: caafde801d22e5db7f2a229d2cac806d3866d521
-SHA256: e37534b00cb352d6e1e29a48230535fa7b17290b261c998f14eef2f1b61daba4
+Filename: pool/main/a/apache2/apache2-threaded-dev_2.2.22-1ubuntu1.4_amd64.deb
+Size: 138868
+MD5sum: b4d6573595d0820194ade0d7747256f4
+SHA1: f81235aa7315c2a9c327dbcd2de1c77978f69f89
+SHA256: eb83e4f44ec8e0827ba85c89f08df9c5e0d4a44a2eb1db69a153297cec9bcdca
 Description: Apache development headers - threaded MPM
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -271,15 +271,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: amd64
 Source: apache2
-Version: 2.2.22-1ubuntu1.3
+Version: 2.2.22-1ubuntu1.4
 Replaces: apache-utils (<< 1.3.33-4), apache2-common, apache2.2-bin (<< 2.2.22-1~)
 Depends: libapr1 (>= 1.2.7), libaprutil1 (>= 1.2.7+dfsg), libc6 (>= 2.14), libssl1.0.0 (>= 1.0.0)
 Conflicts: apache-common (<< 1.3.28.0.1-1)
-Filename: pool/main/a/apache2/apache2-utils_2.2.22-1ubuntu1.3_amd64.deb
-Size: 90406
-MD5sum: 890a7a540bdd35e4ce7d79c27ab61be8
-SHA1: e2ea493a91ed2634312830c7a5fff550bb27f3d1
-SHA256: 55511e8b81b75acb928029a996089a117e8b0e66bdcd5ace9dcd64723aa1b32d
+Filename: pool/main/a/apache2/apache2-utils_2.2.22-1ubuntu1.4_amd64.deb
+Size: 90070
+MD5sum: 229f0581714f9fa897635a365be01b48
+SHA1: 3334879e0adb933ff9d64f19ff89f3ce8fb45552
+SHA256: 516426820145019c25f311f81c06a40eb39d6e1fa35ab7dae9bd2c0ace82e607
 Description: utility programs for webservers
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -293,20 +293,20 @@ Task: lamp-server, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slav
 Package: apache2.2-bin
 Priority: optional
 Section: httpd
-Installed-Size: 3592
+Installed-Size: 3593
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: amd64
 Source: apache2
-Version: 2.2.22-1ubuntu1.3
+Version: 2.2.22-1ubuntu1.4
 Replaces: apache2.2-common (<< 2.2.14-2~)
 Depends: libapr1 (>= 1.4.2), libaprutil1 (>= 1.3.2+dfsg), libaprutil1-dbd-sqlite3 | libaprutil1-dbd-mysql | libaprutil1-dbd-odbc | libaprutil1-dbd-pgsql | libaprutil1-dbd-freetds, libaprutil1-ldap, libc6 (>= 2.14), libcap2 (>= 2.10), libldap-2.4-2 (>= 2.4.7), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
 Conflicts: apache2.2-common (<< 2.2.11-5~)
-Filename: pool/main/a/apache2/apache2.2-bin_2.2.22-1ubuntu1.3_amd64.deb
-Size: 1338334
-MD5sum: ea0cda9801c3f8e7f279199e70348b1c
-SHA1: 5adce42251e13831a4502357b0051c157ecc82fc
-SHA256: ebb7ce675cfb9421cd5b5846d291e05e1f85b5786bf328f89d213ac8e5c872a2
+Filename: pool/main/a/apache2/apache2.2-bin_2.2.22-1ubuntu1.4_amd64.deb
+Size: 1340062
+MD5sum: f52dea7805430fa0b157c6c113145d26
+SHA1: de8dd41df6492175fcf29448bc26407afb566086
+SHA256: f524e75f0c0f68dbf761aeabf262d338ecd7478e52a04bd7aef9f08ce9f53c1d
 Description: Apache HTTP Server common binary files
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -325,17 +325,17 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Architecture: amd64
 Source: apache2
-Version: 2.2.22-1ubuntu1.3
+Version: 2.2.22-1ubuntu1.4
 Replaces: apache2-common
-Depends: apache2.2-bin (= 2.2.22-1ubuntu1.3), apache2-utils, mime-support, lsb-base, procps, perl
+Depends: apache2.2-bin (= 2.2.22-1ubuntu1.4), apache2-utils, mime-support, lsb-base, procps, perl
 Recommends: ssl-cert
 Suggests: www-browser, apache2-doc, apache2-suexec | apache2-suexec-custom, ufw
 Conflicts: apache, apache2-common
-Filename: pool/main/a/apache2/apache2.2-common_2.2.22-1ubuntu1.3_amd64.deb
-Size: 227192
-MD5sum: 9fbc7691fd93cf82bceec06452989418
-SHA1: 0dae58aeae67421805e2b1fb74e7a036ea9c9885
-SHA256: 96bf4f56d5ec54c8f555f9609ebc9b34ffe9e25f5afb45029ad5e71d795b07e0
+Filename: pool/main/a/apache2/apache2.2-common_2.2.22-1ubuntu1.4_amd64.deb
+Size: 226296
+MD5sum: 808dc2008c19c8dfff49d6cbc934d094
+SHA1: fc952b59291a68f30b54757a02295a52713aefa2
+SHA256: d3d109e3e5a838f907993fee7a751f636f2109bcdc3a718a4f62560d94638edc
 Description: Apache HTTP Server common files
 Homepage: http://httpd.apache.org/
 Original-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
@@ -26273,19 +26273,19 @@ Supported: 18m
 Package: libxml2
 Priority: standard
 Section: libs
-Installed-Size: 1745
+Installed-Size: 1746
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
-Version: 2.7.8.dfsg-5.1ubuntu4.4
+Version: 2.7.8.dfsg-5.1ubuntu4.5
 Depends: libc6 (>= 2.15), zlib1g (>= 1:1.2.3.3.dfsg)
 Pre-Depends: multiarch-support
 Recommends: xml-core
-Filename: pool/main/libx/libxml2/libxml2_2.7.8.dfsg-5.1ubuntu4.4_amd64.deb
-Size: 672348
-MD5sum: 55ccc23a2e212f4ebf6836aeb4cff2c5
-SHA1: 0bbb96cf59b04dda510ec0522698a309e0066744
-SHA256: 32f8912224cb182a885bb9f14e72297431b93580ad1c863d51fa8a0950bb08b6
+Filename: pool/main/libx/libxml2/libxml2_2.7.8.dfsg-5.1ubuntu4.5_amd64.deb
+Size: 674000
+MD5sum: 170e40b819f3d7dcc9462973eaf3b0d7
+SHA1: 4f57adbba598888b14e592659f19f4f4fdb7f4ca
+SHA256: 3e78601ea5466e097447f8812a3aa872ce20f6a399ec773dc3684b6663c08f18
 Description: GNOME XML library
 Multi-Arch: same
 Homepage: http://xmlsoft.org/
@@ -26298,18 +26298,18 @@ Task: standard, kubuntu-active, mythbuntu-frontend, mythbuntu-frontend, mythbunt
 Package: libxml2-dbg
 Priority: extra
 Section: debug
-Installed-Size: 1737
+Installed-Size: 1739
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Source: libxml2
-Version: 2.7.8.dfsg-5.1ubuntu4.4
-Depends: libxml2 (= 2.7.8.dfsg-5.1ubuntu4.4)
-Filename: pool/main/libx/libxml2/libxml2-dbg_2.7.8.dfsg-5.1ubuntu4.4_amd64.deb
-Size: 1373268
-MD5sum: 6bf89593617214cdf66776117915e202
-SHA1: 1818cfa3fa6a14de168cffcafed06ebe592d60f6
-SHA256: b13fc1ccbeb5537b4296331a7e7d97ea460bfa36bec8e7abe1ec2af6f8b93a9d
+Version: 2.7.8.dfsg-5.1ubuntu4.5
+Depends: libxml2 (= 2.7.8.dfsg-5.1ubuntu4.5)
+Filename: pool/main/libx/libxml2/libxml2-dbg_2.7.8.dfsg-5.1ubuntu4.5_amd64.deb
+Size: 1374372
+MD5sum: 72145fc88d35a7e752661044f04b46cd
+SHA1: deab77a52ebb36a7626dfcfcb83175c60a31df52
+SHA256: 4266d36fa9c000a9615e6071290c3d3b684b5ce6549fdd2562640b0154ef2920
 Description: Debugging symbols for the GNOME XML library
 Homepage: http://xmlsoft.org/
 Description-md5: e6366bd8797060b5c00591785cb81ab4
@@ -26320,18 +26320,18 @@ Supported: 18m
 Package: libxml2-dev
 Priority: optional
 Section: libdevel
-Installed-Size: 2691
+Installed-Size: 2692
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Source: libxml2
-Version: 2.7.8.dfsg-5.1ubuntu4.4
-Depends: libxml2 (= 2.7.8.dfsg-5.1ubuntu4.4)
-Filename: pool/main/libx/libxml2/libxml2-dev_2.7.8.dfsg-5.1ubuntu4.4_amd64.deb
-Size: 804146
-MD5sum: f84aaa8a8d2571e1e59d139c5f1d1880
-SHA1: 8a7932261e67de62187f49dd960de3b8bdb153ba
-SHA256: cafd6c0f5581f0cb4388e2b6fe1bb2707a8ca1bf2c0d2e98c0a96c4aee79296b
+Version: 2.7.8.dfsg-5.1ubuntu4.5
+Depends: libxml2 (= 2.7.8.dfsg-5.1ubuntu4.5)
+Filename: pool/main/libx/libxml2/libxml2-dev_2.7.8.dfsg-5.1ubuntu4.5_amd64.deb
+Size: 804388
+MD5sum: 011a6d0b9efb3f8b536b291dc60bca47
+SHA1: 376621fcc1fe223d186b7932338122c377bbc570
+SHA256: 2f8a969788cd6f3eec0acdfd7c1b3e233b7e32785f3d089dbc63b6bc6f914ebe
 Description: Development files for the GNOME XML library
 Multi-Arch: same
 Homepage: http://xmlsoft.org/
@@ -26348,13 +26348,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: all
 Source: libxml2
-Version: 2.7.8.dfsg-5.1ubuntu4.4
+Version: 2.7.8.dfsg-5.1ubuntu4.5
 Suggests: devhelp
-Filename: pool/main/libx/libxml2/libxml2-doc_2.7.8.dfsg-5.1ubuntu4.4_all.deb
-Size: 1369188
-MD5sum: 0b5549994a2bf192a48e98526e318ecf
-SHA1: 89a41b0e802100cf8e633a4d28362a80c688ad7d
-SHA256: da069a25c856c4adebd4ad02773820591e186423df68a513caa0e342a7500813
+Filename: pool/main/libx/libxml2/libxml2-doc_2.7.8.dfsg-5.1ubuntu4.5_all.deb
+Size: 1366262
+MD5sum: 99fb7aaecb2b00fc66cc6b5c0bd521f9
+SHA1: 416f029be5cd8a22f1eb60a143f1543407696bea
+SHA256: 7ce423fa1d23f4683e176b317d03d2da27ef0ede1286dbe6d63119f1d2ece59a
 Description: Documentation for the GNOME XML library
 Homepage: http://xmlsoft.org/
 Description-md5: 5a090ab419791c5777762dc26465ac3b
@@ -26370,13 +26370,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Source: libxml2
-Version: 2.7.8.dfsg-5.1ubuntu4.4
+Version: 2.7.8.dfsg-5.1ubuntu4.5
 Depends: libc6 (>= 2.7), libreadline6 (>= 6.0), libxml2 (>= 2.7.4)
-Filename: pool/main/libx/libxml2/libxml2-utils_2.7.8.dfsg-5.1ubuntu4.4_amd64.deb
-Size: 39920
-MD5sum: 7415c9c6c330748cf278865e8b869654
-SHA1: a6a8b685316141e82bc790d83dd52e5d74e1d9d4
-SHA256: 940b03b127b0068e5009d09aa9669feb1aca55985484c10c4a76d47434a22d8b
+Filename: pool/main/libx/libxml2/libxml2-utils_2.7.8.dfsg-5.1ubuntu4.5_amd64.deb
+Size: 40164
+MD5sum: b8e1a8bd93ce401081e3717e70c69cb9
+SHA1: d00e45c4b08bdc8e4c375b236b193dce70ce6755
+SHA256: 05b0bcebdb27597d07815d92ed8b980c1e316520a607d2e010a95b8f2dd971d9
 Description: XML utilities
 Multi-Arch: foreign
 Homepage: http://xmlsoft.org/
@@ -41844,14 +41844,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Source: libxml2
-Version: 2.7.8.dfsg-5.1ubuntu4.4
+Version: 2.7.8.dfsg-5.1ubuntu4.5
 Provides: python2.7-libxml2
 Depends: libc6 (>= 2.14), libxml2 (>= 2.7.4), python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8)
-Filename: pool/main/libx/libxml2/python-libxml2_2.7.8.dfsg-5.1ubuntu4.4_amd64.deb
-Size: 186418
-MD5sum: 93ba11e200e47f975a1f3e50f438644a
-SHA1: 262ea1572b48c9cdb3d22f4d160db9b8efad77b4
-SHA256: 186534730437599d2c42dccb0171cb7ef5b79b39816b9d4b8f36f6cb7a5d7cfc
+Filename: pool/main/libx/libxml2/python-libxml2_2.7.8.dfsg-5.1ubuntu4.5_amd64.deb
+Size: 186078
+MD5sum: 6a3914d757922fa23ac8ae776f9ad033
+SHA1: 6a5a1953a7cbe4285eac894435e40a9e90845366
+SHA256: 994fa3c7430db6ea196c53795a04bbaf5c9274d21884e25e7615492cda1ad73e
 Description: Python bindings for the GNOME XML library
 Homepage: http://xmlsoft.org/
 Description-md5: e4228b117ba4c3ff09fba829bd0ef07d
@@ -41863,19 +41863,19 @@ Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, xubuntu-deskto
 Package: python-libxml2-dbg
 Priority: extra
 Section: debug
-Installed-Size: 1242
+Installed-Size: 1243
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Source: libxml2
-Version: 2.7.8.dfsg-5.1ubuntu4.4
+Version: 2.7.8.dfsg-5.1ubuntu4.5
 Provides: python2.7-libxml2-dbg
-Depends: python-dbg, python-libxml2 (= 2.7.8.dfsg-5.1ubuntu4.4), libc6 (>= 2.14), libxml2 (>= 2.7.4)
-Filename: pool/main/libx/libxml2/python-libxml2-dbg_2.7.8.dfsg-5.1ubuntu4.4_amd64.deb
-Size: 389706
-MD5sum: 5069474ccf70b83593748be94d42b4a7
-SHA1: 83779130465ecddaf04fa87a776ac8fb2fc49f04
-SHA256: 8656171ade4c3818f1727ae2461529d07a7b1a7559b3d7dc20ae9b6be4043862
+Depends: python-dbg, python-libxml2 (= 2.7.8.dfsg-5.1ubuntu4.5), libc6 (>= 2.14), libxml2 (>= 2.7.4)
+Filename: pool/main/libx/libxml2/python-libxml2-dbg_2.7.8.dfsg-5.1ubuntu4.5_amd64.deb
+Size: 389442
+MD5sum: dd54603ecbed466b68388b069b1b40b9
+SHA1: e6c633e9c8bd1027cb896cd4967d3c7b03216eb6
+SHA256: 05ed2af6f7834daa809ff90ce5903986a27678594ca2a75e0f27acfea2f8405d
 Description: Python bindings for the GNOME XML library (debug extension)
 Homepage: http://xmlsoft.org/
 Description-md5: 5d69439c02c8c4c06241f93466f5a75a
