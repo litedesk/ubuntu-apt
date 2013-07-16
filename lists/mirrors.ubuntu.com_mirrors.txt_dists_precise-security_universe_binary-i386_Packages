@@ -2501,16 +2501,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: php5
-Version: 5.3.10-1ubuntu3.6
+Version: 5.3.10-1ubuntu3.7
 Provides: phpapi-20090626+lfs
-Depends: libbz2-1.0, libc6 (>= 2.15), libdb5.1, libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4), mime-support, apache2-mpm-prefork (>> 2.0.52) | apache2-mpm-itk, apache2.2-common, php5-common (= 5.3.10-1ubuntu3.6), libmagic1, ucf, tzdata
+Depends: libbz2-1.0, libc6 (>= 2.15), libdb5.1, libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4), mime-support, apache2-mpm-prefork (>> 2.0.52) | apache2-mpm-itk, apache2.2-common, php5-common (= 5.3.10-1ubuntu3.7), libmagic1, ucf, tzdata
 Suggests: php-pear
 Conflicts: libapache2-mod-php4, libapache2-mod-php5
-Filename: pool/universe/p/php5/libapache2-mod-php5filter_5.3.10-1ubuntu3.6_i386.deb
-Size: 3106990
-MD5sum: 1a572dc13f9baaebf836c71bdd21a29d
-SHA1: 6bc7a4e5ea105fed64c2665f55416dcef3a3b720
-SHA256: f65fbf79112c98241d3871736f4ce9a30f8ec1a0d46ddd8f1fa13e5249738505
+Filename: pool/universe/p/php5/libapache2-mod-php5filter_5.3.10-1ubuntu3.7_i386.deb
+Size: 3107278
+MD5sum: fd486d659b4e37255c898dfdc4ad1f69
+SHA1: 43d6dc18029b7c178075e3da2338e10b1c57e050
+SHA256: d457efa1c35bb7bcfdfe2ecd86c3de8e3855cf251fe406e2a14fb44a8ee092ea
 Description: server-side, HTML-embedded scripting language (apache 2 filter module)
 Homepage: http://www.php.net/
 Description-md5: 520e71d9bb63fc79b4108468fde79690
@@ -6849,13 +6849,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: php5
-Version: 5.3.10-1ubuntu3.6
-Depends: libc6 (>= 2.3.6-6~), libenchant1c2a (>= 1.6), phpapi-20090626+lfs, php5-common (= 5.3.10-1ubuntu3.6)
-Filename: pool/universe/p/php5/php5-enchant_5.3.10-1ubuntu3.6_i386.deb
-Size: 8626
-MD5sum: 9a8892d04f0b6425e6a3c5562ccccf78
-SHA1: 81202a629f5d8a7ab29719ee20e7d441446519e8
-SHA256: 8ccf4c3f825ad29cd9ede497e822cdbf2250f19066bd56bf22b4af085f7dc8af
+Version: 5.3.10-1ubuntu3.7
+Depends: libc6 (>= 2.3.6-6~), libenchant1c2a (>= 1.6), phpapi-20090626+lfs, php5-common (= 5.3.10-1ubuntu3.7)
+Filename: pool/universe/p/php5/php5-enchant_5.3.10-1ubuntu3.7_i386.deb
+Size: 8624
+MD5sum: b93463f97d4c3fb9af189ccc7f6a72f4
+SHA1: efb2d24bc31745ddda02335a311bb756cc1ffb43
+SHA256: 989875475619abe2730af2fff5ae01676641537744928f0f18230ba084a8ee07
 Description: Enchant module for php5
 Homepage: http://www.php.net/
 Description-md5: d5bccafde769c65a7bd7ea8f782b19c3
@@ -6870,16 +6870,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: php5
-Version: 5.3.10-1ubuntu3.6
+Version: 5.3.10-1ubuntu3.7
 Provides: phpapi-20090626+lfs
-Depends: libbz2-1.0, libc6 (>= 2.15), libdb5.1, libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4), mime-support, php5-common (= 5.3.10-1ubuntu3.6), libmagic1, ucf, tzdata
+Depends: libbz2-1.0, libc6 (>= 2.15), libdb5.1, libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4), mime-support, php5-common (= 5.3.10-1ubuntu3.7), libmagic1, ucf, tzdata
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Suggests: php-pear
-Filename: pool/universe/p/php5/php5-fpm_5.3.10-1ubuntu3.6_i386.deb
-Size: 3130748
-MD5sum: 7dadd3c55a4aa663e3c68c77d194dd68
-SHA1: f8aca5aaa9fe6c0365052fb703fd8a3edc2d3da5
-SHA256: e18eb17e4d1078df3ab960c420b21c78f128c122e10452e77a8ea79e13394f7d
+Filename: pool/universe/p/php5/php5-fpm_5.3.10-1ubuntu3.7_i386.deb
+Size: 3130970
+MD5sum: 8547f79d1c78fc87154c775aefb85582
+SHA1: 0330fec0fd32b5f7acdefc9e5ed86206d9ec7d71
+SHA256: 3e67262c8f2e1ba4019b10e91a953bb067e0b31d3c782d8b75a0abaf27ac2917
 Description: server-side, HTML-embedded scripting language (FPM-CGI binary)
 Homepage: http://www.php.net/
 Description-md5: 1ae95fb909b7b74d658562536349da27
@@ -6894,16 +6894,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: php5
-Version: 5.3.10-1ubuntu3.6
+Version: 5.3.10-1ubuntu3.7
 Replaces: php5-idn
 Provides: php5-idn
-Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libicu48 (>= 4.8-1), phpapi-20090626+lfs, php5-common (= 5.3.10-1ubuntu3.6)
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libicu48 (>= 4.8-1), phpapi-20090626+lfs, php5-common (= 5.3.10-1ubuntu3.7)
 Conflicts: php5-idn
-Filename: pool/universe/p/php5/php5-intl_5.3.10-1ubuntu3.6_i386.deb
-Size: 59992
-MD5sum: f7f88422ea4d59562089a9b1c60b6d18
-SHA1: 96cfede59474d962fa2fd3d21a5d1906314875e8
-SHA256: 00b319f1a65593836ef528f847c3e509bc1b1b5377bedb1008c559310eda92a1
+Filename: pool/universe/p/php5/php5-intl_5.3.10-1ubuntu3.7_i386.deb
+Size: 59994
+MD5sum: f2fa4ed749c65ac78ddcfb553d5cde57
+SHA1: 1eea5d6aa0e9892d0c9bb1a176d58f51bddd04f5
+SHA256: 434e1a6ff9883cbd558a606e36deee01d4ef91867fcb3171b16d79d3847bf2b2
 Description: internationalisation module for php5
 Homepage: http://www.php.net/
 Description-md5: e849da761a1eae869dffeef1fbddc6fd
@@ -6918,15 +6918,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: php5
-Version: 5.3.10-1ubuntu3.6
+Version: 5.3.10-1ubuntu3.7
 Replaces: php5-mysql, php5-mysqli
-Depends: libc6 (>= 2.15), phpapi-20090626+lfs, php5-common (= 5.3.10-1ubuntu3.6)
+Depends: libc6 (>= 2.15), phpapi-20090626+lfs, php5-common (= 5.3.10-1ubuntu3.7)
 Conflicts: php5-mysql, php5-mysqli
-Filename: pool/universe/p/php5/php5-mysqlnd_5.3.10-1ubuntu3.6_i386.deb
+Filename: pool/universe/p/php5/php5-mysqlnd_5.3.10-1ubuntu3.7_i386.deb
 Size: 140784
-MD5sum: 4b2540cdfbb5acc132316ab90f4e6955
-SHA1: 81102c8b60e7a547a236829b3a17499ddd4f4663
-SHA256: 8d1e687aa5a89c5aed565c9c9c8e976e3ce21b9933423c0ab8a6f1414015f0d9
+MD5sum: 7d004a015d872e25362b9bc43c9347ab
+SHA1: 80689391f95663ee52376cf162290bda6c0fd58d
+SHA256: 1f503f37a870dffb8042b8834a3d6fe5395cf24399259de1ff0c757dfc6428d4
 Description: MySQL module for php5 (Native Driver)
 Homepage: http://www.php.net/
 Description-md5: b4de36fc6f47fd17f4ff8bc9eca30006
@@ -6941,14 +6941,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: php5
-Version: 5.3.10-1ubuntu3.6
+Version: 5.3.10-1ubuntu3.7
 Provides: php5-mssql
-Depends: libc6 (>= 2.4), libsybdb5 (>= 0.63), phpapi-20090626+lfs, php5-common (= 5.3.10-1ubuntu3.6)
-Filename: pool/universe/p/php5/php5-sybase_5.3.10-1ubuntu3.6_i386.deb
-Size: 25058
-MD5sum: 933f2b353029c89bbcda75f018190281
-SHA1: a69f09fa870f67529b1173a8a83e5a04bf6fba1a
-SHA256: f7c1aac96dd68c5e769e61f29c1d0c860f7a795ebac6125de0fd29e0e543cdbb
+Depends: libc6 (>= 2.4), libsybdb5 (>= 0.63), phpapi-20090626+lfs, php5-common (= 5.3.10-1ubuntu3.7)
+Filename: pool/universe/p/php5/php5-sybase_5.3.10-1ubuntu3.7_i386.deb
+Size: 25054
+MD5sum: c9ff0d6865634fa27b4402a52e921dfb
+SHA1: f1219e881331aae41d5e447a9731d8b9f6b30ab1
+SHA256: 4452aec4b71a5bc40786294895c962dba41ea019fb054957b40980aa13c6b13e
 Description: Sybase / MS SQL Server module for php5
 Homepage: http://www.php.net/
 Description-md5: e44b18cdbc1307a974227eb78cb41deb
