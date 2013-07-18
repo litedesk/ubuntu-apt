@@ -17830,6 +17830,28 @@ Description-md5: f67bebcd0447e628e83e2a4b64e995bf
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 
+Package: osc
+Priority: extra
+Section: universe/devel
+Installed-Size: 867
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Michal Čihař <nijel@debian.org>
+Architecture: all
+Version: 0.132.6-1ubuntu0.1
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-urlgrabber, python-rpm, python-m2crypto
+Recommends: rpm2cpio, cpio, sensible-utils, osc-source-validator
+Suggests: python-gnomekeyring, gnome-keyring
+Filename: pool/universe/o/osc/osc_0.132.6-1ubuntu0.1_all.deb
+Size: 203552
+MD5sum: 1ec5d0a7c089c4f3147b09bb2073c99d
+SHA1: 0e412023146ce053df73ef47ce7b9e58264c88bf
+SHA256: c12b85b4759bdadd35e8fb767fa4590bbd2737fbf225817ca34c38d3e75dfd79
+Description: OpenSUSE (buildsystem) commander
+Homepage: http://wiki.opensuse.org/openSUSE:OSC
+Description-md5: 309be4ad71ad6ab7ed4b726dad53cbf6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
 Package: ovsdbmonitor
 Priority: extra
 Section: universe/utils
