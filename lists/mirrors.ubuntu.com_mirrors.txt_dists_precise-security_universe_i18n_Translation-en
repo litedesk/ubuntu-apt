@@ -1275,6 +1275,26 @@ Description-en: Transitional Package for Calligra Words
  This is a transitional package for kword which has been renamed
  to calligrawords.  It can be safely removed.
 
+Package: libafsauthent1
+Description-md5: a0feedf62f2fa5d341102110cd7a1d2b
+Description-en: AFS distributed file system runtime library (authentication)
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides the shared library implementing AFS client
+ authentication and token management.
+
+Package: libafsrpc1
+Description-md5: 7523708cbcd58ca51ccd0bb131f7807a
+Description-en: AFS distributed file system runtime library (RPC layer)
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides the shared library implementing the Rx protocol and
+ other AFS RPC functionality.
+
 Package: libapache2-mod-php5filter
 Description-md5: 520e71d9bb63fc79b4108468fde79690
 Description-en: server-side, HTML-embedded scripting language (apache 2 filter module)
@@ -1606,6 +1626,17 @@ Description-en: kdepim mobile ui library
  .
  This package is part of the KDE PIM module.
 
+Package: libkopenafs1
+Description-md5: 0f99201d0fae91ddb99faa36485b802d
+Description-en: AFS distributed file system runtime library (PAGs)
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides the shared library implementing an interface to
+ manipulating AFS process authentication groups (PAGs).  It provides the
+ a subset of the interface provided by the Heimdal libkafs library.
+
 Package: libmono-profiler
 Description-md5: b90d443397edd0f221692b0339330dd1
 Description-en: Mono profiler libraries
@@ -1646,6 +1677,16 @@ Description-en: Network Security Service tools
     code.
   * ssltap: proxy requests for an SSL server and display the contents of
     the messages exchanged between the client and server.
+
+Package: libopenafs-dev
+Description-md5: b6f316eebfa1cc038bb9afed528de9fc
+Description-en: AFS distributed filesystem development libraries
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides static development libraries and headers
+ needed to compile AFS applications.
 
 Package: libopenid-ruby
 Description-md5: e613427dee46cdd499dd45a1684092f0
@@ -1734,6 +1775,18 @@ Description-en: toolkit for Off-the-Record Messaging library
       is compromised.
   .
   This package contains the program files for the OTR library.
+
+Package: libpam-openafs-kaserver
+Description-md5: dccbdd7a0350f2d0910ffa2a1c209e26
+Description-en: AFS distributed filesystem kaserver PAM module
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides a PAM module for existing  sites using the AFS
+ kaserver for authentication.  New sites should use a Kerberos v5
+ implementation, a Kerberos v5 PAM module such as libpam-krb5, and
+ libpam-afs-session.
 
 Package: libpostproc-extra-52
 Description-md5: 3052ad99e7f387d07661b0f5efe77dcd
@@ -3288,6 +3341,115 @@ Description-en: Okular backend for ODP documents
  (ODP) documents.
  .
  This package is part of the Calligra Office Suite.
+
+Package: openafs-client
+Description-md5: 2d948f9c8a661ee8bc5d31e3f8cd9962
+Description-en: AFS distributed filesystem client support
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides basic client support to mount and manipulate
+ AFS.  If your site uses Kerberos v5 authentication for AFS, you will also
+ want to install openafs-krb5.
+
+Package: openafs-dbg
+Description-md5: 170cf4fa45f627423cec477ca98780d5
+Description-en: AFS distributed filesystem debugging information
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package contains the debugging information for the OpenAFS
+ server binaries (the openafs-fileserver and openafs-dbserver packages).
+
+Package: openafs-dbserver
+Description-md5: 900518e8d991aca7a295eb31861c8d53
+Description-en: AFS distributed filesystem database server
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides AFS database server binaries.  It should be
+ installed on the servers that will act as volume location and
+ protection servers.
+
+Package: openafs-doc
+Description-md5: dfed3aa1cb0c1548af7ed6d6191c122f
+Description-en: AFS distributed filesystem documentation
+ AFS is a distributed filesystem allowing cross-platform sharing of files
+ among multiple computers.  Facilities are provided for access control,
+ authentication, backup and administrative management.
+ .
+ This package contains the OpenAFS user's and reference manuals, some
+ protocol documentation, and other OpenAFS documentation.
+
+Package: openafs-fileserver
+Description-md5: 6f505856f48ff78dd8989e4474f85129
+Description-en: AFS distributed filesystem file server
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides the AFS fileserver binaries.  It should be
+ installed on any machine that will export files into AFS.
+
+Package: openafs-fuse
+Description-md5: 5b93a5360d9c82b3edf7a7962b3ba594
+Description-en: AFS distributed file system experimental FUSE client
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides an experimental FUSE implementation of the AFS
+ client as afsd.fuse.  This currently only provides read-only access to
+ AFS, doesn't work with all of the normal AFS client programs, and must be
+ started manually, but may be of interest in situations where read-only
+ access is sufficient and the kernel module cannot be built.
+
+Package: openafs-kpasswd
+Description-md5: f74d50639a69caee2da2fc932e76bd6b
+Description-en: AFS distributed filesystem old password changing
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides kpasswd and kas, utilities needed by the OpenAFS
+ kaserver to create users and change passwords.  Only install this package
+ if you are already using kaserver; generally you should not install this
+ package for new cells or for cells using Kerberos v5.
+
+Package: openafs-krb5
+Description-md5: f601778f8cbfe2c4f9aa8e886d6408dc
+Description-en: AFS distributed filesystem Kerberos 5 integration
+ AFS is a distributed filesystem allowing cross-platform sharing of files
+ among multiple computers.  Facilities are provided for access control,
+ authentication, backup and administrative management.
+ .
+ This package provides aklog, a utility for authenticating to AFS using
+ Kerberos 5.  It also provides asetkey, a utility to set AFS server keys
+ from a Kerberos keytab, and ka-forwarder, a utility to forward kaserver
+ requests to a KDC using fakeka.
+
+Package: openafs-modules-dkms
+Description-md5: 959c8c641c8855622b3e660d47f8f210
+Description-en: AFS distributed filesystem kernel module DKMS source
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package contains the source for the AFS kernel module, packaged with
+ appropriate configuration for DKMS to build new modules dynamically.
+
+Package: openafs-modules-source
+Description-md5: 01e11a95da0fec3f0bbe15d0a3897346
+Description-en: AFS distributed filesystem kernel module source
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides the source to the AFS kernel module in a form
+ suitable for use by module-assistant or kernel-package.
 
 Package: openjdk-6-jre-zero
 Description-md5: ca0db1fb38a237b982a1de5e6d632720
