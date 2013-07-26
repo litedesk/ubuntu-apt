@@ -18370,6 +18370,17 @@ Description-en: free implementation of the EGL API -- development files
  This package provides the development environment for compiling programs
  against the EGL library.
 
+Package: libegl1-mesa-dev-lts-raring
+Description-md5: 8e7125460d26d2b46c63ba2792ce25e2
+Description-en: free implementation of the EGL API -- development files
+ This package contains the development environment required for compiling
+ programs against EGL native platform graphics interface library.
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES and OpenVG.
+ .
+ This package provides the development environment for compiling programs
+ against the EGL library.
+
 Package: libegl1-mesa-drivers
 Description-md5: 6f63ffb98c579f02a36dc4f9945d5353
 Description-en: free implementation of the EGL API -- hardware drivers
@@ -18410,6 +18421,26 @@ Description-en: free implementation of the EGL API -- driver debugging symbols
  This package contains the debugging symbols for the drivers required for
  hardware accelerated rendering of EGL-based graphics libraries.
 
+Package: libegl1-mesa-drivers-lts-raring
+Description-md5: 6f63ffb98c579f02a36dc4f9945d5353
+Description-en: free implementation of the EGL API -- hardware drivers
+ This package contains the EGL native platform graphics interface library.
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES and OpenVG.
+ .
+ This package contains the drivers required for hardware accelerated rendering
+ of EGL-based graphics libraries, such as OpenGL|ES and OpenVG.
+
+Package: libegl1-mesa-drivers-lts-raring-dbg
+Description-md5: 2a77b1ce20257ac2bbd8df0260110ab0
+Description-en: free implementation of the EGL API -- driver debugging symbols
+ This package contains the EGL native platform graphics interface library.
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES and OpenVG.
+ .
+ This package contains the debugging symbols for the drivers required for
+ hardware accelerated rendering of EGL-based graphics libraries.
+
 Package: libegl1-mesa-lts-quantal
 Description-md5: 303131c20d722e28695d1b6357d3c1c6
 Description-en: free implementation of the EGL API -- runtime
@@ -18422,6 +18453,26 @@ Description-en: free implementation of the EGL API -- runtime
  provides drivers to provide hardware-accelerated OpenGL|ES and OpenVG support.
 
 Package: libegl1-mesa-lts-quantal-dbg
+Description-md5: 2f865519d57e73074704ab36dee31207
+Description-en: free implementation of the EGL API -- debugging symbols
+ This package contains the EGL native platform graphics interface library.
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES and OpenVG.
+ .
+ This package contains the debugging symbols for the EGL library.
+
+Package: libegl1-mesa-lts-raring
+Description-md5: 303131c20d722e28695d1b6357d3c1c6
+Description-en: free implementation of the EGL API -- runtime
+ This package contains the EGL native platform graphics interface library.
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES and OpenVG.
+ .
+ This package contains modules to interface with the existing system GLX or
+ DRI2 drivers to provide OpenGL via EGL.  The libegl1-mesa-drivers package
+ provides drivers to provide hardware-accelerated OpenGL|ES and OpenVG support.
+
+Package: libegl1-mesa-lts-raring-dbg
 Description-md5: 2f865519d57e73074704ab36dee31207
 Description-en: free implementation of the EGL API -- debugging symbols
  This package contains the EGL native platform graphics interface library.
@@ -18799,6 +18850,17 @@ Description-en: generic buffer management API -- development files
  This package provides the development environment for compiling programs
  against the GBM library.
 
+Package: libgbm-dev-lts-raring
+Description-md5: 97d3ae24c3bec4dfba8e29c665cda9e5
+Description-en: generic buffer management API -- development files
+ This package contains the GBM buffer management library.  It provides a
+ mechanism for allocating buffers for graphics rendering tied to Mesa.
+ .
+ GBM is intended to be used as a native platform for EGL on drm or openwfd.
+ .
+ This package provides the development environment for compiling programs
+ against the GBM library.
+
 Package: libgbm1
 Description-md5: 9c1f8de2c17715ff7ed9524db86be4dd
 Description-en: generic buffer management API -- runtime
@@ -18826,6 +18888,24 @@ Description-en: generic buffer management API -- runtime
  GBM is intended to be used as a native platform for EGL on drm or openwfd.
 
 Package: libgbm1-lts-quantal-dbg
+Description-md5: ff539259b350b2362cba34825ad1a809
+Description-en: generic buffer management API -- debugging symbols
+ This package contains the GBM buffer management library.  It provides a
+ mechanism for allocating buffers for graphics rendering tied to Mesa.
+ .
+ GBM is intended to be used as a native platform for EGL on drm or openwfd.
+ .
+ This package contains the debugging symbols for the GBM library.
+
+Package: libgbm1-lts-raring
+Description-md5: 9c1f8de2c17715ff7ed9524db86be4dd
+Description-en: generic buffer management API -- runtime
+ This package contains the GBM buffer management library.  It provides a
+ mechanism for allocating buffers for graphics rendering tied to Mesa.
+ .
+ GBM is intended to be used as a native platform for EGL on drm or openwfd.
+
+Package: libgbm1-lts-raring-dbg
 Description-md5: ff539259b350b2362cba34825ad1a809
 Description-en: generic buffer management API -- debugging symbols
  This package contains the GBM buffer management library.  It provides a
@@ -19053,6 +19133,19 @@ Description-en: free implementation of the OpenGL API -- GLX development files
  For a complete description of Mesa, please look at the libgl1-mesa-glx
  package.
 
+Package: libgl1-mesa-dev-lts-raring
+Description-md5: edeb377b6e64f69c00b2215e4025a28a
+Description-en: free implementation of the OpenGL API -- GLX development files
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package includes headers and static libraries for compiling
+ programs with Mesa.
+ .
+ For a complete description of Mesa, please look at the libgl1-mesa-glx
+ package.
+
 Package: libgl1-mesa-dri
 Description-md5: 138eae85587ae78f60d36bcba9033eb1
 Description-en: free implementation of the OpenGL API -- DRI modules
@@ -19099,6 +19192,36 @@ Description-en: free implementation of the OpenGL API -- DRI modules
  The tdfx DRI module needs libglide3 to enable direct rendering.
 
 Package: libgl1-mesa-dri-lts-quantal-dbg
+Description-md5: fb1e2b71da0f9ac97628cc83179582ac
+Description-en: Debugging symbols for the Mesa DRI modules
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package does not include the OpenGL library itself, only the DRI
+ modules for accelerating direct rendering.
+ .
+ For a complete description of Mesa, please look at the
+ libgl1-mesa-glx package.
+ .
+ This package contains debugging symbols for the DRI modules.
+
+Package: libgl1-mesa-dri-lts-raring
+Description-md5: da6c27328d7c638224ef0acc251a333d
+Description-en: free implementation of the OpenGL API -- DRI modules
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package does not include the OpenGL library itself, only the DRI
+ modules for accelerating direct rendering.
+ .
+ For a complete description of Mesa, please look at the
+ libgl1-mesa-glx package.
+ .
+ The tdfx DRI module needs libglide3 to enable direct rendering.
+
+Package: libgl1-mesa-dri-lts-raring-dbg
 Description-md5: fb1e2b71da0f9ac97628cc83179582ac
 Description-en: Debugging symbols for the Mesa DRI modules
  This version of Mesa provides GLX and DRI capabilities: it is capable of
@@ -19160,6 +19283,39 @@ Description-en: free implementation of the OpenGL API -- GLX runtime
  in the libgl1-mesa-dri package.
 
 Package: libgl1-mesa-glx-lts-quantal-dbg
+Description-md5: 164c9f30dd80a2fb1fdca740b3ebe620
+Description-en: Debugging symbols for the Mesa GLX runtime
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package does not include the modules themselves: these can be found
+ in the libgl1-mesa-dri package.
+ .
+ For a complete description of Mesa, please look at the
+ libgl1-mesa-glx package.
+ .
+ This package contains debugging symbols for the GL library with GLX and DRI
+ capabilities.
+
+Package: libgl1-mesa-glx-lts-raring
+Description-md5: 55c9cfe284958a4586b3c6b8323ccf0c
+Description-en: free implementation of the OpenGL API -- GLX runtime
+ Mesa is a 3-D graphics library with an API which is very similar to
+ that of OpenGL.  To the extent that Mesa utilizes the OpenGL command
+ syntax or state machine, it is being used with authorization from
+ Silicon Graphics, Inc.  However, the author makes no claim that Mesa
+ is in any way a compatible replacement for OpenGL or associated with
+ Silicon Graphics, Inc.
+ .
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package does not include the modules themselves: these can be found
+ in the libgl1-mesa-dri package.
+
+Package: libgl1-mesa-glx-lts-raring-dbg
 Description-md5: 164c9f30dd80a2fb1fdca740b3ebe620
 Description-en: Debugging symbols for the Mesa GLX runtime
  This version of Mesa provides GLX and DRI capabilities: it is capable of
@@ -19334,6 +19490,22 @@ Description-en: free implementation of the GL API -- debugging symbols
  .
  This package contains debugging symbols for the GL API library.
 
+Package: libglapi-mesa-lts-raring
+Description-md5: 6da05dae0e50a214ae9b1d095f83c561
+Description-en: free implementation of the GL API -- shared library
+ The Mesa GL API module is responsible for dispatching all the gl*
+ functions. It is intended to be mainly used by both the libgles1-mesa
+ and libgles2-mesa packages.
+
+Package: libglapi-mesa-lts-raring-dbg
+Description-md5: 06022288c7b9a148961fac43facd60e8
+Description-en: free implementation of the GL API -- debugging symbols
+ The Mesa GL API module is responsible for dispatching all the gl*
+ functions. It is intended to be mainly used by both the libgles1-mesa
+ and libgles2-mesa packages.
+ .
+ This package contains debugging symbols for the GL API library.
+
 Package: libgles1-mesa
 Description-md5: 5d45602a19e7c4d5c096452a8c1b6ee3
 Description-en: free implementation of the OpenGL|ES 1.x API -- runtime
@@ -19382,6 +19554,19 @@ Description-en: free implementation of the OpenGL|ES 1.x API -- development file
  This package provides a development environment for building programs using
  the OpenGL|ES 1.x APIs.
 
+Package: libgles1-mesa-dev-lts-raring
+Description-md5: 3fc8f0ee3bdb7f86c55dc67a5bbbf86f
+Description-en: free implementation of the OpenGL|ES 1.x API -- development files
+ OpenGL|ES is a cross-platform API for full-function 2D and 3D graphics on
+ embedded systems - including consoles, phones, appliances and vehicles.
+ It contains a subset of OpenGL plus a number of extensions for the
+ special needs of embedded systems.
+ .
+ OpenGL|ES 1.x provides an API for fixed-function hardware.
+ .
+ This package provides a development environment for building programs using
+ the OpenGL|ES 1.x APIs.
+
 Package: libgles1-mesa-lts-quantal
 Description-md5: 5d45602a19e7c4d5c096452a8c1b6ee3
 Description-en: free implementation of the OpenGL|ES 1.x API -- runtime
@@ -19393,6 +19578,28 @@ Description-en: free implementation of the OpenGL|ES 1.x API -- runtime
  OpenGL|ES 1.x provides an API for fixed-function hardware.
 
 Package: libgles1-mesa-lts-quantal-dbg
+Description-md5: 4fa9b5bb249bd2e4b78b460050218045
+Description-en: free implementation of the OpenGL|ES 1.x API -- debugging symbols
+ OpenGL|ES is a cross-platform API for full-function 2D and 3D graphics on
+ embedded systems - including consoles, phones, appliances and vehicles.
+ It contains a subset of OpenGL plus a number of extensions for the
+ special needs of embedded systems.
+ .
+ OpenGL|ES 1.x provides an API for fixed-function hardware.
+ .
+ This package contains the debugging symbols for the libGLESv1_CM library.
+
+Package: libgles1-mesa-lts-raring
+Description-md5: 5d45602a19e7c4d5c096452a8c1b6ee3
+Description-en: free implementation of the OpenGL|ES 1.x API -- runtime
+ OpenGL|ES is a cross-platform API for full-function 2D and 3D graphics on
+ embedded systems - including consoles, phones, appliances and vehicles.
+ It contains a subset of OpenGL plus a number of extensions for the
+ special needs of embedded systems.
+ .
+ OpenGL|ES 1.x provides an API for fixed-function hardware.
+
+Package: libgles1-mesa-lts-raring-dbg
 Description-md5: 4fa9b5bb249bd2e4b78b460050218045
 Description-en: free implementation of the OpenGL|ES 1.x API -- debugging symbols
  OpenGL|ES is a cross-platform API for full-function 2D and 3D graphics on
@@ -19456,6 +19663,20 @@ Description-en: free implementation of the OpenGL|ES 2.x API -- development file
  This package provides a development environment for building applications
  using the OpenGL|ES 2.x APIs.
 
+Package: libgles2-mesa-dev-lts-raring
+Description-md5: 7598b085943a2f03c7a2a79086dffcee
+Description-en: free implementation of the OpenGL|ES 2.x API -- development files
+ OpenGL|ES is a cross-platform API for full-function 2D and 3D graphics on
+ embedded systems - including consoles, phones, appliances and vehicles.
+ It contains a subset of OpenGL plus a number of extensions for the
+ special needs of embedded systems.
+ .
+ OpenGL|ES 2.x provides an API for programmable hardware including vertex
+ and fragment shaders.
+ .
+ This package provides a development environment for building applications
+ using the OpenGL|ES 2.x APIs.
+
 Package: libgles2-mesa-lts-quantal
 Description-md5: 385f5e9ca66553853ff0600865879832
 Description-en: free implementation of the OpenGL|ES 2.x API -- runtime
@@ -19468,6 +19689,30 @@ Description-en: free implementation of the OpenGL|ES 2.x API -- runtime
  and fragment shaders.
 
 Package: libgles2-mesa-lts-quantal-dbg
+Description-md5: b9ce4487980b8d0298c3fd42c2ad83a6
+Description-en: free implementation of the OpenGL|ES 2.x API -- debugging symbols
+ OpenGL|ES is a cross-platform API for full-function 2D and 3D graphics on
+ embedded systems - including consoles, phones, appliances and vehicles.
+ It contains a subset of OpenGL plus a number of extensions for the
+ special needs of embedded systems.
+ .
+ OpenGL|ES 2.x provides an API for programmable hardware including vertex
+ and fragment shaders.
+ .
+ This package contains the debugging symbols for the libGLESv2 library.
+
+Package: libgles2-mesa-lts-raring
+Description-md5: 385f5e9ca66553853ff0600865879832
+Description-en: free implementation of the OpenGL|ES 2.x API -- runtime
+ OpenGL|ES is a cross-platform API for full-function 2D and 3D graphics on
+ embedded systems - including consoles, phones, appliances and vehicles.
+ It contains a subset of OpenGL plus a number of extensions for the
+ special needs of embedded systems.
+ .
+ OpenGL|ES 2.x provides an API for programmable hardware including vertex
+ and fragment shaders.
+
+Package: libgles2-mesa-lts-raring-dbg
 Description-md5: b9ce4487980b8d0298c3fd42c2ad83a6
 Description-en: free implementation of the OpenGL|ES 2.x API -- debugging symbols
  OpenGL|ES is a cross-platform API for full-function 2D and 3D graphics on
@@ -21942,6 +22187,22 @@ Description-en: Low-Level Virtual Machine (LLVM), bindings for OCaml
  .
  This package provides the OCaml bindings to develop applications using llvm.
 
+Package: libllvm-3.2-ocaml-dev
+Description-md5: 7b9de4fe68a2874c8356bace3424a232
+Description-en: Low-Level Virtual Machine (LLVM), bindings for OCaml
+ The Low-Level Virtual Machine (LLVM) is a collection of libraries and
+ tools that make it easy to build compilers, optimizers, Just-In-Time
+ code generators, and many other compiler-related programs. LLVM
+ uses a single, language-independent virtual instruction set both
+ as an offline code representation (to communicate code between
+ compiler phases and to run-time systems) and as the compiler internal
+ representation (to analyze and transform programs). This persistent
+ code representation allows a common set of sophisticated compiler
+ techniques to be applied at compile-time, link-time, install-time,
+ run-time, or "idle-time" (between program runs).
+ .
+ This package provides the OCaml bindings to develop applications using llvm.
+
 Package: libllvm3.1
 Description-md5: 5a4f11789eb9e46abded77096d4ec0d4
 Description-en: Low-Level Virtual Machine (LLVM), runtime library
@@ -21950,6 +22211,24 @@ Description-en: Low-Level Virtual Machine (LLVM), runtime library
  code generators, and many other compiler-related programs.
  .
  This package contains the LLVM runtime library.
+
+Package: libllvm3.2
+Description-md5: 5a4f11789eb9e46abded77096d4ec0d4
+Description-en: Low-Level Virtual Machine (LLVM), runtime library
+ The Low-Level Virtual Machine (LLVM) is a collection of libraries and
+ tools that make it easy to build compilers, optimizers, Just-In-Time
+ code generators, and many other compiler-related programs.
+ .
+ This package contains the LLVM runtime library.
+
+Package: libllvm3.2-dbg
+Description-md5: a063b00dd3e3b3e72b0a6bfdf3ac045d
+Description-en: Low-Level Virtual Machine (LLVM), debugging symbols library
+ The Low-Level Virtual Machine (LLVM) is a collection of libraries and
+ tools that make it easy to build compilers, optimizers, Just-In-Time
+ code generators, and many other compiler-related programs.
+ .
+ This package contains the LLVM runtime library debug symbols.
 
 Package: liblogthread-dev
 Description-md5: 0abb7641e4428833b73d7ad5c6d81592
@@ -24416,6 +24695,18 @@ Description-en: free implementation of the OpenVG API -- development files
  This package contains the development environment required for compiling
  programs against the OpenVG 2D acceleration library.
 
+Package: libopenvg1-mesa-dev-lts-raring
+Description-md5: 83d64f6fb398c328ebe1bcc729f426b3
+Description-en: free implementation of the OpenVG API -- development files
+ This package contains the mesa implementation of the OpenVG 2D acceleration
+ library.  OpenVG provides a device independent and vendor-neutral interface
+ for sophisticated 2D graphical applications, while allowing device
+ manufacturers to provide hardware acceleration on devices ranging from wrist
+ watches to full microprocessor-based desktop and server machines.
+ .
+ This package contains the development environment required for compiling
+ programs against the OpenVG 2D acceleration library.
+
 Package: libopenvg1-mesa-lts-quantal
 Description-md5: 23fad5a33ddc86c1ebd79b349b93c466
 Description-en: free implementation of the OpenVG API -- runtime
@@ -24426,6 +24717,26 @@ Description-en: free implementation of the OpenVG API -- runtime
  watches to full microprocessor-based desktop and server machines.
 
 Package: libopenvg1-mesa-lts-quantal-dbg
+Description-md5: e093793928f70f1daa03783f40a7298c
+Description-en: free implementation of the OpenVG API -- debugging symbols
+ This package contains the mesa implementation of the OpenVG 2D acceleration
+ library.  OpenVG provides a device independent and vendor-neutral interface
+ for sophisticated 2D graphical applications, while allowing device
+ manufacturers to provide hardware acceleration on devices ranging from wrist
+ watches to full microprocessor-based desktop and server machines.
+ .
+ This package contains the debugging symbols for the OpenVG library.
+
+Package: libopenvg1-mesa-lts-raring
+Description-md5: 23fad5a33ddc86c1ebd79b349b93c466
+Description-en: free implementation of the OpenVG API -- runtime
+ This package contains the mesa implementation of the OpenVG 2D acceleration
+ library.  OpenVG provides a device independent and vendor-neutral interface
+ for sophisticated 2D graphical applications, while allowing device
+ manufacturers to provide hardware acceleration on devices ranging from wrist
+ watches to full microprocessor-based desktop and server machines.
+
+Package: libopenvg1-mesa-lts-raring-dbg
 Description-md5: e093793928f70f1daa03783f40a7298c
 Description-en: free implementation of the OpenVG API -- debugging symbols
  This package contains the mesa implementation of the OpenVG 2D acceleration
@@ -29250,6 +29561,19 @@ Description-en: wayland compositor infrastructure - development files
  This package contains the development headers for the libraries found
  in libwayland0. Non-developers likely have little use for this package.
 
+Package: libwayland-dev-lts-raring
+Description-md5: e01fa5a3e98bbc7852e06f4d09b8c1d2
+Description-en: wayland compositor infrastructure - development files
+ Wayland is a protocol for a compositor to talk to its clients as well
+ as a C library implementation of that protocol. The compositor can be
+ a standalone display server running on Linux kernel modesetting and
+ evdev input devices, an X application, or a wayland client
+ itself. The clients can be traditional applications, X servers
+ (rootless or fullscreen) or other display servers.
+ .
+ This package contains the development headers for the libraries found
+ in libwayland0. Non-developers likely have little use for this package.
+
 Package: libwayland-ltsq0
 Description-md5: 4dbd6bb3be80bfda96839d773add232a
 Description-en: wayland compositor infrastructure - shared libraries
@@ -29266,6 +29590,34 @@ Description-en: wayland compositor infrastructure - shared libraries
  the time being.
 
 Package: libwayland-ltsq0-dbg
+Description-md5: a49a876e73ca57015a573eb46f66774e
+Description-en: wayland compositor infrastructure - shared libraries (debug)
+ Wayland is a protocol for a compositor to talk to its clients as well
+ as a C library implementation of that protocol. The compositor can be
+ a standalone display server running on Linux kernel modesetting and
+ evdev input devices, an X application, or a wayland client
+ itself. The clients can be traditional applications, X servers
+ (rootless or fullscreen) or other display servers.
+ .
+ This package contains the debug version of the libraries found in
+ libwayland0. Non-developers likely have little use for this package.
+
+Package: libwayland-ltsr0
+Description-md5: 4dbd6bb3be80bfda96839d773add232a
+Description-en: wayland compositor infrastructure - shared libraries
+ Wayland is a protocol for a compositor to talk to its clients as well
+ as a C library implementation of that protocol. The compositor can be
+ a standalone display server running on Linux kernel modesetting and
+ evdev input devices, an X application, or a wayland client
+ itself. The clients can be traditional applications, X servers
+ (rootless or fullscreen) or other display servers.
+ .
+ This is an experimental library package, neither ABI or API are fixed
+ right now. As a consequence, generated dependencies are made as
+ strict as possible. It should only be used by mesa and weston for
+ the time being.
+
+Package: libwayland-ltsr0-dbg
 Description-md5: a49a876e73ca57015a573eb46f66774e
 Description-en: wayland compositor infrastructure - shared libraries (debug)
  Wayland is a protocol for a compositor to talk to its clients as well
@@ -29557,6 +29909,17 @@ Description-en: X acceleration library -- development files
  This package provides the development environment for compiling programs
  against the xatracker library.
 
+Package: libxatracker-dev-lts-raring
+Description-md5: acb2dd21dbe796c5f50a1f153cef93e2
+Description-en: X acceleration library -- development files
+ This package contains the XA (X acceleration) library.  It is used exclusively
+ by the X server to do render, copy and video acceleration.
+ .
+ XA is intended to be used by the vmware driver for virtualized X acceleration.
+ .
+ This package provides the development environment for compiling programs
+ against the xatracker library.
+
 Package: libxatracker1
 Description-md5: 016e30e30b0b6c5bb9448c735436c520
 Description-en: X acceleration library -- runtime
@@ -29584,6 +29947,24 @@ Description-en: X acceleration library -- runtime
  XA is intended to be used by the vmware driver for virtualized X acceleration.
 
 Package: libxatracker1-lts-quantal-dbg
+Description-md5: fe0902eeca3a0d7aa29c9e1bb6de29c2
+Description-en: X acceleration library -- debugging symbols
+ This package contains the XA (X acceleration) library.  It is used exclusively
+ by the X server to do render, copy and video acceleration.
+ .
+ XA is intended to be used by the vmware driver for virtualized X acceleration.
+ .
+ This package contains the debugging symbols for the xatracker library.
+
+Package: libxatracker1-lts-raring
+Description-md5: 016e30e30b0b6c5bb9448c735436c520
+Description-en: X acceleration library -- runtime
+ This package contains the XA (X acceleration) library.  It is used exclusively
+ by the X server to do render, copy and video acceleration.
+ .
+ XA is intended to be used by the vmware driver for virtualized X acceleration.
+
+Package: libxatracker1-lts-raring-dbg
 Description-md5: fe0902eeca3a0d7aa29c9e1bb6de29c2
 Description-en: X acceleration library -- debugging symbols
  This package contains the XA (X acceleration) library.  It is used exclusively
@@ -31344,6 +31725,24 @@ Description-en: X11 RandR extension library (development headers)
  This module can be found at
  git://anongit.freedesktop.org/git/xorg-lts-quantal/lib/libXrandr
 
+Package: libxrandr-dev-lts-raring
+Description-md5: 9b317c0ed61fe4e656689125e9100960
+Description-en: X11 RandR extension library (development headers)
+ libXrandr provides an X Window System client interface to the RandR
+ extension to the X protocol.
+ .
+ The RandR extension allows for run-time configuration of display attributes
+ such as resolution, rotation, and reflection.
+ .
+ This package contains the development headers for the library found in
+ libxrandr2.  Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg-lts-raring/lib/libXrandr
+
 Package: libxrandr-ltsq2
 Description-md5: fdbf145b3814444d2c2d31f953483736
 Description-en: X11 RandR extension library
@@ -31376,6 +31775,39 @@ Description-en: X11 RandR extension library (debug package)
  .
  This module can be found at
  git://anongit.freedesktop.org/git/xorg-lts-quantal/lib/libXrandr
+
+Package: libxrandr-ltsr2
+Description-md5: d6453bb1823c2b464af3d20df8be3f04
+Description-en: X11 RandR extension library
+ libXrandr provides an X Window System client interface to the RandR
+ extension to the X protocol.
+ .
+ The RandR extension allows for run-time configuration of display attributes
+ such as resolution, rotation, and reflection.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg-lts-raring/lib/libXrandr
+
+Package: libxrandr-ltsr2-dbg
+Description-md5: 2c6878b3f09e81c9ee23100e4815b834
+Description-en: X11 RandR extension library (debug package)
+ libXrandr provides an X Window System client interface to the RandR
+ extension to the X protocol.
+ .
+ The RandR extension allows for run-time configuration of display attributes
+ such as resolution, rotation, and reflection.
+ .
+ This package contains the debug versions of the library found in libxrandr2.
+ Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg-lts-raring/lib/libXrandr
 
 Package: libxrandr2
 Description-md5: 4f5e90c11ffce760113c5e601f3f4449
@@ -37530,6 +37962,116 @@ Description-en: Low-Level Virtual Machine (LLVM), source code
  .
  This package contains the llvm source code.
 
+Package: llvm-3.2
+Description-md5: 7e204bc3dba1b58273be985f67fbc4f3
+Description-en: Low-Level Virtual Machine (LLVM)
+ The Low-Level Virtual Machine (LLVM) is a collection of libraries and
+ tools that make it easy to build compilers, optimizers, Just-In-Time
+ code generators, and many other compiler-related programs. LLVM
+ uses a single, language-independent virtual instruction set both
+ as an offline code representation (to communicate code between
+ compiler phases and to run-time systems) and as the compiler internal
+ representation (to analyze and transform programs). This persistent
+ code representation allows a common set of sophisticated compiler
+ techniques to be applied at compile-time, link-time, install-time,
+ run-time, or "idle-time" (between program runs).
+ .
+ The strengths of the LLVM infrastructure are its extremely
+ simple design (which makes it easy to understand and use),
+ source-language independence, powerful mid-level optimizer, automated
+ compiler debugging support, extensibility, and its stability and
+ reliability. LLVM is currently being used to host a wide variety of
+ academic research projects and commercial projects. LLVM includes C
+ and C++ front-ends, a front-end for a Forth-like language (Stacker),
+ a young scheme front-end, and Java support is in development. LLVM can
+ generate code for X86, SparcV9, PowerPC, or it can emit C code.
+ .
+ LLVM is the key component of the clang compiler and the gcc plugin called
+ dragonegg.
+
+Package: llvm-3.2-dev
+Description-md5: dbddd190099f91a891e50b25a5534c30
+Description-en: Low-Level Virtual Machine (LLVM), libraries and headers
+ The Low-Level Virtual Machine (LLVM) is a collection of libraries and
+ tools that make it easy to build compilers, optimizers, Just-In-Time
+ code generators, and many other compiler-related programs. LLVM
+ uses a single, language-independent virtual instruction set both
+ as an offline code representation (to communicate code between
+ compiler phases and to run-time systems) and as the compiler internal
+ representation (to analyze and transform programs). This persistent
+ code representation allows a common set of sophisticated compiler
+ techniques to be applied at compile-time, link-time, install-time,
+ run-time, or "idle-time" (between program runs).
+ .
+ This package provides the libraries and headers to develop applications
+ using llvm.
+
+Package: llvm-3.2-doc
+Description-md5: bd9b8205678375b1bc8bb9d7f0c1775a
+Description-en: Low-Level Virtual Machine (LLVM), documentation
+ The Low-Level Virtual Machine (LLVM) is a collection of libraries and
+ tools that make it easy to build compilers, optimizers, Just-In-Time
+ code generators, and many other compiler-related programs. LLVM
+ uses a single, language-independent virtual instruction set both
+ as an offline code representation (to communicate code between
+ compiler phases and to run-time systems) and as the compiler internal
+ representation (to analyze and transform programs). This persistent
+ code representation allows a common set of sophisticated compiler
+ techniques to be applied at compile-time, link-time, install-time,
+ run-time, or "idle-time" (between program runs).
+ .
+ This package contains all documentation (extensive).
+
+Package: llvm-3.2-examples
+Description-md5: c3642550eb5501d03992590926f59166
+Description-en: Low-Level Virtual Machine (LLVM), examples
+ The Low-Level Virtual Machine (LLVM) is a collection of libraries and
+ tools that make it easy to build compilers, optimizers, Just-In-Time
+ code generators, and many other compiler-related programs. LLVM
+ uses a single, language-independent virtual instruction set both
+ as an offline code representation (to communicate code between
+ compiler phases and to run-time systems) and as the compiler internal
+ representation (to analyze and transform programs). This persistent
+ code representation allows a common set of sophisticated compiler
+ techniques to be applied at compile-time, link-time, install-time,
+ run-time, or "idle-time" (between program runs).
+ .
+ This package contains examples for using LLVM, both in developing
+ extensions to LLVM and in using it to compile code.
+
+Package: llvm-3.2-runtime
+Description-md5: cc71b67cee5965263bab53df0cb1b6d6
+Description-en: Low-Level Virtual Machine (LLVM), bytecode interpreter
+ The Low-Level Virtual Machine (LLVM) is a collection of libraries and
+ tools that make it easy to build compilers, optimizers, Just-In-Time
+ code generators, and many other compiler-related programs. LLVM
+ uses a single, language-independent virtual instruction set both
+ as an offline code representation (to communicate code between
+ compiler phases and to run-time systems) and as the compiler internal
+ representation (to analyze and transform programs). This persistent
+ code representation allows a common set of sophisticated compiler
+ techniques to be applied at compile-time, link-time, install-time,
+ run-time, or "idle-time" (between program runs).
+ .
+ This package provides the minimal required to execute programs in LLVM
+ format.
+
+Package: llvm-3.2-source
+Description-md5: a60937c140f6334950ecb84081070243
+Description-en: Low-Level Virtual Machine (LLVM), source code
+ The Low-Level Virtual Machine (LLVM) is a collection of libraries and
+ tools that make it easy to build compilers, optimizers, Just-In-Time
+ code generators, and many other compiler-related programs. LLVM
+ uses a single, language-independent virtual instruction set both
+ as an offline code representation (to communicate code between
+ compiler phases and to run-time systems) and as the compiler internal
+ representation (to analyze and transform programs). This persistent
+ code representation allows a common set of sophisticated compiler
+ techniques to be applied at compile-time, link-time, install-time,
+ run-time, or "idle-time" (between program runs).
+ .
+ This package contains the llvm source code.
+
 Package: login
 Description-md5: a9c42fe48288d1e8b7d3d34463d0f485
 Description-en: system login tools
@@ -37962,6 +38504,13 @@ Description-en: Developer documentation for Mesa
  files common to all Mesa packages.
 
 Package: mesa-common-dev-lts-quantal
+Description-md5: 0d9d46ba6861a0a8c404cf51db1e980d
+Description-en: Developer documentation for Mesa
+ This package includes the specifications for the Mesa-specific OpenGL
+ extensions, the complete set of release notes and the development header
+ files common to all Mesa packages.
+
+Package: mesa-common-dev-lts-raring
 Description-md5: 0d9d46ba6861a0a8c404cf51db1e980d
 Description-en: Developer documentation for Mesa
  This package includes the specifications for the Mesa-specific OpenGL
@@ -45017,6 +45566,32 @@ Description-en: X server utilities
   - xstdcmap, a utility to selectively define standard colormap properties;
   - xvidtune, a tool for customizing X server modelines for your monitor.
 
+Package: x11-xserver-utils-lts-raring
+Description-md5: 7bc6b40d32fbe568c9539995f7b1053e
+Description-en: X server utilities
+ An X client is a program that interfaces with an X server (almost always via
+ the X libraries), and thus with some input and output hardware like a
+ graphics card, monitor, keyboard, and pointing device (such as a mouse).
+ .
+ This package provides a miscellaneous assortment of X Server utilities
+ that ship with the X Window System, including:
+  - iceauth, a tool for manipulating ICE protocol authorization records;
+  - rgb;
+  - sessreg, a simple program for managing utmp/wtmp entries;
+  - xcmsdb, a device color characteristic utility for the X Color Management
+    System;
+  - xgamma, a tool for querying and setting a monitor's gamma correction;
+  - xhost, a very dangerous program that you should never use;
+  - xmodmap, a utility for modifying keymaps and pointer button mappings in X;
+  - xrandr, a command-line interface to the RandR extension;
+  - xrdb, a tool to manage the X server resource database;
+  - xrefresh, a tool that forces a redraw of the X screen;
+  - xset, a tool for setting miscellaneous X server parameters;
+  - xsetmode and xsetpointer, tools for handling X Input devices;
+  - xsetroot, a tool for tailoring the appearance of the root window;
+  - xstdcmap, a utility to selectively define standard colormap properties;
+  - xvidtune, a tool for customizing X server modelines for your monitor.
+
 Package: x11proto-core-dev
 Description-md5: bbced914936af2f7b061d601f3460438
 Description-en: X11 core wire protocol and auxiliary headers
@@ -45177,6 +45752,11 @@ Description-md5: be03943b6955ee9fae7163ad516c772f
 Description-en: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
 
+Package: xserver-common-lts-raring
+Description-md5: be03943b6955ee9fae7163ad516c772f
+Description-en: common files used by various X servers
+ This package provides files necessary for all X.Org based X servers.
+
 Package: xserver-xorg
 Description-md5: 3d8c1d268e8af6b69f54d86fbd5a3939
 Description-en: X.Org X server
@@ -45235,6 +45815,32 @@ Description-en: Xorg - the X.Org X server (debugging symbols)
  This package provides debugging symbols for the Xorg X server and associated
  modules.
 
+Package: xserver-xorg-core-lts-raring
+Description-md5: e3826a765918b79dee4b90ec97f9302c
+Description-en: Xorg X server - core server
+ The Xorg X server is an X server for several architectures and operating
+ systems, which is derived from the XFree86 4.x series of X servers.
+ .
+ The Xorg server supports most modern graphics hardware from most vendors,
+ and supersedes all XFree86 X servers.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xserver-xorg-core-lts-raring-dbg
+Description-md5: 748963cc445faabee033c53886a8a0cf
+Description-en: Xorg - the X.Org X server (debugging symbols)
+ The Xorg X server is an X server for several architectures and operating
+ systems, which is derived from the XFree86 4.x series of X servers.
+ .
+ The Xorg server supports most modern graphics hardware from most vendors,
+ and supersedes all XFree86 X servers.
+ .
+ This package provides debugging symbols for the Xorg X server and associated
+ modules.
+
 Package: xserver-xorg-dev
 Description-md5: 241552d78aca8911808aea0707649843
 Description-en: Xorg X server - development files
@@ -45269,6 +45875,23 @@ Description-en: Xorg X server - development files
  .
  This package is built from the X.org xserver module.
 
+Package: xserver-xorg-dev-lts-raring
+Description-md5: 241552d78aca8911808aea0707649843
+Description-en: Xorg X server - development files
+ This package provides development files for the X.Org ('Xorg') X server.
+ This is not quite the same as the DDK (Driver Development Kit) from the
+ XFree86 4.x and X.Org 6.7, 6.8 and 6.9 series of servers; it provides
+ headers and a pkg-config file for drivers using autotools to build
+ against.
+ .
+ Unless you are developing or building a driver, you probably want
+ xserver-xorg and/or xserver-xorg-core instead.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xserver module.
+
 Package: xserver-xorg-input-all
 Description-md5: 6dc6019c398114619eba5fcd5806f328
 Description-en: X.Org X server -- input driver metapackage
@@ -45277,6 +45900,13 @@ Description-en: X.Org X server -- input driver metapackage
  to only have certain drivers installed.
 
 Package: xserver-xorg-input-all-lts-quantal
+Description-md5: 6dc6019c398114619eba5fcd5806f328
+Description-en: X.Org X server -- input driver metapackage
+ This package depends on the full suite of input drivers for the X.Org X server
+ (Xorg).  It does not provide any drivers itself, and may be removed if you wish
+ to only have certain drivers installed.
+
+Package: xserver-xorg-input-all-lts-raring
 Description-md5: 6dc6019c398114619eba5fcd5806f328
 Description-en: X.Org X server -- input driver metapackage
  This package depends on the full suite of input drivers for the X.Org X server
@@ -45319,6 +45949,18 @@ Description-en: X.Org X server -- evdev input driver (development headers)
  .
  This package is built from the X.org xf86-input-evdev driver module.
 
+Package: xserver-xorg-input-evdev-dev-lts-raring
+Description-md5: 2e3206bb3c027a0b8e6b2e8022db7f99
+Description-en: X.Org X server -- evdev input driver (development headers)
+ This package provides the development headers for the evdev input driver
+ found in xserver-xorg-input-evdev. Non-developers likely have little use
+ for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-input-evdev driver module.
+
 Package: xserver-xorg-input-evdev-lts-quantal
 Description-md5: b1ff33be36b557401f92e75bd8542eed
 Description-en: X.Org X server -- evdev input driver
@@ -45345,6 +45987,32 @@ Description-en: X.Org X server -- evdev input driver (development headers)
  .
  This package provides debugging symbols for this Xorg X driver.
 
+Package: xserver-xorg-input-evdev-lts-raring
+Description-md5: b1ff33be36b557401f92e75bd8542eed
+Description-en: X.Org X server -- evdev input driver
+ This package provides the driver for input devices using evdev, the Linux
+ kernel's event delivery mechanism.  This driver allows for multiple keyboards
+ and mice to be treated as separate input devices.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-input-evdev driver module.
+
+Package: xserver-xorg-input-evdev-lts-raring-dbg
+Description-md5: 1387aa7ff670694b709c4967d9abda47
+Description-en: X.Org X server -- evdev input driver (development headers)
+ This package provides the development headers for the evdev input driver
+ found in xserver-xorg-input-evdev. Non-developers likely have little use
+ for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-input-evdev driver module.
+ .
+ This package provides debugging symbols for this Xorg X driver.
+
 Package: xserver-xorg-input-kbd-lts-quantal
 Description-md5: ff627827d2e5ea383fd7d1fdbc11d852
 Description-en: X.Org X server -- keyboard input driver
@@ -45355,7 +46023,27 @@ Description-en: X.Org X server -- keyboard input driver
  .
  This package is built from the X.org xf86-input-keyboard driver module.
 
+Package: xserver-xorg-input-kbd-lts-raring
+Description-md5: ff627827d2e5ea383fd7d1fdbc11d852
+Description-en: X.Org X server -- keyboard input driver
+ This package provides the driver for keyboard input devices.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-input-keyboard driver module.
+
 Package: xserver-xorg-input-mouse-lts-quantal
+Description-md5: 5fe0e019cb3ffe85c7922a79fcd8a5d4
+Description-en: X.Org X server -- mouse input driver
+ This package provides the driver for mouse input devices.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-input-mouse driver module.
+
+Package: xserver-xorg-input-mouse-lts-raring
 Description-md5: 5fe0e019cb3ffe85c7922a79fcd8a5d4
 Description-en: X.Org X server -- mouse input driver
  This package provides the driver for mouse input devices.
@@ -45406,6 +46094,13 @@ Description-en: Synaptics TouchPad driver for X.Org server (development headers)
  driver found in xserver-xorg-input-synaptics. Non-developers likely have
  little use for this package.
 
+Package: xserver-xorg-input-synaptics-dev-lts-raring
+Description-md5: 95eb93bc0953189d6cf98a189b43a0ca
+Description-en: Synaptics TouchPad driver for X.Org server (development headers)
+ This package contains the development headers for the Synaptics input
+ driver found in xserver-xorg-input-synaptics. Non-developers likely have
+ little use for this package.
+
 Package: xserver-xorg-input-synaptics-lts-quantal
 Description-md5: 6f7a84d9a52f4dc44fd0ad7cc265853b
 Description-en: Synaptics TouchPad driver for X.Org server
@@ -45434,6 +46129,62 @@ Description-en: Synaptics TouchPad driver for X.Org server
     and thus avoid unwanted mouse movements (see syndaemon(1)).
 
 Package: xserver-xorg-input-synaptics-lts-quantal-dbg
+Description-md5: c936b293973e295acf8a1d70dd001072
+Description-en: Synaptics TouchPad driver for X.Org server
+ This package provides an input driver for the X.Org X server to enable
+ advanced features of the Synaptics Touchpad including:
+ .
+  * Movement with adjustable, non-linear acceleration and speed
+  * Button events through short touching of the touchpad
+  * Double-Button events through double short touching of the touchpad
+  * Dragging through short touching and holding down the finger on the touchpad
+  * Middle and right button events on the upper and lower corner of the touchpad
+  * Vertical scrolling (button four and five events) through moving the finger
+    on the right side of the touchpad
+  * The up/down button sends button four/five events
+  * Horizontal scrolling (button six and seven events) through moving the finger
+    on the lower side of the touchpad
+  * The multi-buttons send button four/five events, and six/seven events for
+    horizontal scrolling
+  * Adjustable finger detection
+  * Multifinger taps: two finger for middle button and three finger for right
+    button events. (Needs hardware support. Not all models implement this
+    feature.)
+  * Run-time configuration using shared memory. This means you can change
+    parameter settings without restarting the X server (see synclient(1)).
+  * It also provides a daemon to disable touchpad while typing at the keyboard
+    and thus avoid unwanted mouse movements (see syndaemon(1)).
+ .
+ This package provides debugging symbols for this Xorg X driver.
+
+Package: xserver-xorg-input-synaptics-lts-raring
+Description-md5: 6f7a84d9a52f4dc44fd0ad7cc265853b
+Description-en: Synaptics TouchPad driver for X.Org server
+ This package provides an input driver for the X.Org X server to enable
+ advanced features of the Synaptics Touchpad including:
+ .
+  * Movement with adjustable, non-linear acceleration and speed
+  * Button events through short touching of the touchpad
+  * Double-Button events through double short touching of the touchpad
+  * Dragging through short touching and holding down the finger on the touchpad
+  * Middle and right button events on the upper and lower corner of the touchpad
+  * Vertical scrolling (button four and five events) through moving the finger
+    on the right side of the touchpad
+  * The up/down button sends button four/five events
+  * Horizontal scrolling (button six and seven events) through moving the finger
+    on the lower side of the touchpad
+  * The multi-buttons send button four/five events, and six/seven events for
+    horizontal scrolling
+  * Adjustable finger detection
+  * Multifinger taps: two finger for middle button and three finger for right
+    button events. (Needs hardware support. Not all models implement this
+    feature.)
+  * Run-time configuration using shared memory. This means you can change
+    parameter settings without restarting the X server (see synclient(1)).
+  * It also provides a daemon to disable touchpad while typing at the keyboard
+    and thus avoid unwanted mouse movements (see syndaemon(1)).
+
+Package: xserver-xorg-input-synaptics-lts-raring-dbg
 Description-md5: c936b293973e295acf8a1d70dd001072
 Description-en: Synaptics TouchPad driver for X.Org server
  This package provides an input driver for the X.Org X server to enable
@@ -45500,6 +46251,25 @@ Description-en: X.Org X server -- VMMouse input driver to use with VMWare
  .
  This package is built from the X.org xf86-input-vmmouse driver module.
 
+Package: xserver-xorg-input-vmmouse-lts-raring
+Description-md5: aabb1c4203e92983f6cfdcb6e9300e31
+Description-en: X.Org X server -- VMMouse input driver to use with VMWare
+ This package provides the driver for the X11 vmmouse input device.
+ .
+ The VMMouse driver enables support for the special VMMouse protocol
+ that is provided by VMware virtual machines to give absolute pointer
+ positioning.
+ .
+ The vmmouse driver is capable of falling back to the standard "mouse"
+ driver if a VMware virtual machine is not detected. This allows for
+ dual-booting of an operating system from a virtual machine to real hardware
+ without having to edit xorg.conf every time.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-input-vmmouse driver module.
+
 Package: xserver-xorg-input-wacom
 Description-md5: 990a6fd67780d38db31b26b3018b5519
 Description-en: X.Org X server -- Wacom input driver
@@ -45529,6 +46299,12 @@ Description-en: X.Org X server
  This package depends on the full suite of the server and drivers for the
  X.Org X server.  It does not provide the actual server itself.
 
+Package: xserver-xorg-lts-raring
+Description-md5: 3d8c1d268e8af6b69f54d86fbd5a3939
+Description-en: X.Org X server
+ This package depends on the full suite of the server and drivers for the
+ X.Org X server.  It does not provide the actual server itself.
+
 Package: xserver-xorg-video-all
 Description-md5: d6c33380f65bba53cd75efae633435bf
 Description-en: X.Org X server -- output driver metapackage
@@ -45537,6 +46313,13 @@ Description-en: X.Org X server -- output driver metapackage
  to only have certain drivers installed.
 
 Package: xserver-xorg-video-all-lts-quantal
+Description-md5: d6c33380f65bba53cd75efae633435bf
+Description-en: X.Org X server -- output driver metapackage
+ This package depends on the full suite of output drivers for the X.Org X server
+ (Xorg).  It does not provide any drivers itself, and may be removed if you wish
+ to only have certain drivers installed.
+
+Package: xserver-xorg-video-all-lts-raring
 Description-md5: d6c33380f65bba53cd75efae633435bf
 Description-en: X.Org X server -- output driver metapackage
  This package depends on the full suite of output drivers for the X.Org X server
@@ -45573,6 +46356,36 @@ Description-en: X.Org X server -- AMD/ATI display driver wrapper (debugging symb
  This package provides debugging symbols for this X.org X driver wrapper
  and brings debugging symbols for sub-drivers through package dependencies.
 
+Package: xserver-xorg-video-ati-lts-raring
+Description-md5: e44c47ee90083ed5cf59825a85aa1878
+Description-en: X.Org X server -- AMD/ATI display driver wrapper
+ This package provides the 'ati' driver for the AMD/ATI Mach64, Rage128,
+ Radeon, FireGL, FireMV, FirePro and FireStream series. This driver is
+ actually a wrapper that loads one of the 'mach64', 'r128' or 'radeon'
+ sub-drivers depending on the hardware.
+ These sub-drivers are brought through package dependencies.
+ .
+ Users of Rage, Mach, or Radeon boards may remove this package only if
+ they use Driver "r128", "mach64", or "radeon" in /etc/X11/xorg.conf
+ instead of relying on autodetection.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-ati driver module.
+
+Package: xserver-xorg-video-ati-lts-raring-dbg
+Description-md5: 1a16c53e03875db1244d90cea8cf3664
+Description-en: X.Org X server -- AMD/ATI display driver wrapper (debugging symbols)
+ This package provides the 'ati' driver for the AMD/ATI Mach64, Rage128,
+ Radeon, FireGL, FireMV, FirePro and FireStream series. This driver is
+ actually a wrapper that loads one of the 'mach64', 'r128' or 'radeon'
+ sub-drivers depending on the hardware.
+ These sub-drivers are brought through package dependencies.
+ .
+ This package provides debugging symbols for this X.org X driver wrapper
+ and brings debugging symbols for sub-drivers through package dependencies.
+
 Package: xserver-xorg-video-cirrus-lts-quantal
 Description-md5: 5f28614454a4c473f2697d26dc7536e2
 Description-en: X.Org X server -- Cirrus display driver
@@ -45584,7 +46397,29 @@ Description-en: X.Org X server -- Cirrus display driver
  .
  This package is built from the X.org xf86-video-cirrus driver module.
 
+Package: xserver-xorg-video-cirrus-lts-raring
+Description-md5: 5f28614454a4c473f2697d26dc7536e2
+Description-en: X.Org X server -- Cirrus display driver
+ This package provides the driver for the Cirrus Logic family of video
+ cards.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-cirrus driver module.
+
 Package: xserver-xorg-video-fbdev-lts-quantal
+Description-md5: 64c436c9c202e79fa1c638b0252edf4c
+Description-en: X.Org X server -- fbdev display driver
+ This package provides the driver for the Linux framebuffer device (aka
+ 'fbdev').
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-fbdev driver module.
+
+Package: xserver-xorg-video-fbdev-lts-raring
 Description-md5: 64c436c9c202e79fa1c638b0252edf4c
 Description-en: X.Org X server -- fbdev display driver
  This package provides the driver for the Linux framebuffer device (aka
@@ -45641,6 +46476,29 @@ Description-en: X.Org X server -- Intel i8xx, i9xx display driver (debug symbols
  .
  This package provides debugging symbols for this Xorg X driver.
 
+Package: xserver-xorg-video-intel-lts-raring
+Description-md5: a92ec0651960e8aa554f6b215398ee3f
+Description-en: X.Org X server -- Intel i8xx, i9xx display driver
+ This package provides the driver for the Intel i8xx and i9xx family
+ of chipsets, including i810, i815, i830, i845, i855, i865, i915, i945
+ and i965 series chips.
+ .
+ This package also provides XvMC (XVideo Motion Compensation) drivers
+ for i810/i815 and i9xx and newer chipsets.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-intel driver module.
+
+Package: xserver-xorg-video-intel-lts-raring-dbg
+Description-md5: 407ff36ec08d6f79ce154b88e799d94a
+Description-en: X.Org X server -- Intel i8xx, i9xx display driver (debug symbols)
+ This driver provides support for the Intel i8xx and i9xx family of chipsets,
+ including i810, i815, i830, i845, i855, i865, i915, and i945 series chips.
+ .
+ This package provides debugging symbols for this Xorg X driver.
+
 Package: xserver-xorg-video-mach64-lts-quantal
 Description-md5: ab0671e493d30e224d249f0d4e44d652
 Description-en: X.Org X server -- ATI Mach64 display driver
@@ -45661,7 +46519,38 @@ Description-en: X.Org X server -- ATI display driver (debugging symbols)
  This package provides debugging symbols for the Xorg X server ATI Mach64
  display driver.
 
+Package: xserver-xorg-video-mach64-lts-raring
+Description-md5: ab0671e493d30e224d249f0d4e44d652
+Description-en: X.Org X server -- ATI Mach64 display driver
+ This driver for the X.Org X server (see xserver-xorg for a further description)
+ provides support for the ATI Mach64 series.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-mach64 driver module.
+
+Package: xserver-xorg-video-mach64-lts-raring-dbg
+Description-md5: b003245afd6a2df641f6b6edc6a34ba8
+Description-en: X.Org X server -- ATI display driver (debugging symbols)
+ This driver for the X.Org X server (see xserver-xorg for a further description)
+ provides support for the ATI Mach64 series.
+ .
+ This package provides debugging symbols for the Xorg X server ATI Mach64
+ display driver.
+
 Package: xserver-xorg-video-mga-lts-quantal
+Description-md5: 200eb66faed86a912425212d586b2826
+Description-en: X.Org X server -- MGA display driver
+ This package provides the driver for the Matrox MGA family of chipsets,
+ including Matrox Millennium and Mystique cards.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-mga driver module.
+
+Package: xserver-xorg-video-mga-lts-raring
 Description-md5: 200eb66faed86a912425212d586b2826
 Description-en: X.Org X server -- MGA display driver
  This package provides the driver for the Matrox MGA family of chipsets,
@@ -45689,7 +46578,35 @@ Description-en: X.Org X server -- Generic modesetting driver (debug symbols)
  .
  This package provides debugging symbols for this Xorg X driver.
 
+Package: xserver-xorg-video-modesetting-lts-raring
+Description-md5: 64d8f5d5562d7c8cf818d1d2526e5933
+Description-en: X.Org X server -- Generic modesetting driver
+ This package provides a generic modesetting driver.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-modesetting driver module.
+
+Package: xserver-xorg-video-modesetting-lts-raring-dbg
+Description-md5: 63910490cc4b8a67278e59cda5f7d19b
+Description-en: X.Org X server -- Generic modesetting driver (debug symbols)
+ This driver provides support for the generic modesetting driver.
+ .
+ This package provides debugging symbols for this Xorg X driver.
+
 Package: xserver-xorg-video-neomagic-lts-quantal
+Description-md5: eb267e73f4319f1e002b0d2f41b3f551
+Description-en: X.Org X server -- Neomagic display driver
+ This package provides the driver for Neomagic MagicGraph chipsets, which are
+ commonly found in laptops.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-neomagic driver module.
+
+Package: xserver-xorg-video-neomagic-lts-raring
 Description-md5: eb267e73f4319f1e002b0d2f41b3f551
 Description-en: X.Org X server -- Neomagic display driver
  This package provides the driver for Neomagic MagicGraph chipsets, which are
@@ -45734,6 +46651,28 @@ Description-en: X.Org X server -- Nouveau display driver
  This package is built from the FreeDesktop.org xf86-video-nouveau driver.
 
 Package: xserver-xorg-video-nouveau-lts-quantal-dbg
+Description-md5: 5304f6a18155884f62e07d246a25ea57
+Description-en: X.Org X server -- Nouveau display driver (debug symbols)
+ This driver for the X.Org X server (see xserver-xorg for a further description)
+ provides support for NVIDIA Riva, TNT, GeForce, and Quadro cards.
+ .
+ This package provides 2D support including EXA acceleration, Xv and
+ RandR.  3D functionality is provided by the libgl1-mesa-dri package.
+ .
+ This package provides debugging symbols for this Xorg X driver.
+
+Package: xserver-xorg-video-nouveau-lts-raring
+Description-md5: b084a16945b86c1eda89ad33dbb4530d
+Description-en: X.Org X server -- Nouveau display driver
+ This driver for the X.Org X server (see xserver-xorg for a further description)
+ provides support for NVIDIA Riva, TNT, GeForce, and Quadro cards.
+ .
+ This package provides 2D support including EXA acceleration, Xv and
+ RandR.  3D functionality is provided by the libgl1-mesa-dri package.
+ .
+ This package is built from the FreeDesktop.org xf86-video-nouveau driver.
+
+Package: xserver-xorg-video-nouveau-lts-raring-dbg
 Description-md5: 5304f6a18155884f62e07d246a25ea57
 Description-en: X.Org X server -- Nouveau display driver (debug symbols)
  This driver for the X.Org X server (see xserver-xorg for a further description)
@@ -45812,6 +46751,40 @@ Description-en: X.Org X server -- VIA display driver -- debugging symbols
  .
  This package contains debugging symbols for OpenChrome driver.
 
+Package: xserver-xorg-video-openchrome-lts-raring
+Description-md5: 11d4a7275218ad33ccc6479463963d83
+Description-en: X.Org X server -- VIA display driver
+ OpenChrome is a project for the development of free and open-source drivers
+ for the VIA UniChrome video chipsets.
+ .
+ Originally called the 'snapshot' release, since it was a snapshot of an
+ experimental branch of the unichrome cvs code, this is a continued development
+ of the open source unichrome driver (from http://unichrome.sf.net) which
+ also incorporates support for the unichrome-pro chipsets.
+ .
+ Support for hardware acceleration (XvMC) for all chipsets has subsequently
+ been ripped out of the unichrome.sf.net driver. Therefore your only option if
+ you wish to make use of the acceleration features of your VIA chip with free
+ and open-source drivers is to use this version of the driver.
+
+Package: xserver-xorg-video-openchrome-lts-raring-dbg
+Description-md5: ca202006e00e58695b2cdeb5d735905a
+Description-en: X.Org X server -- VIA display driver -- debugging symbols
+ OpenChrome is a project for the development of free and open-source drivers
+ for the VIA UniChrome video chipsets.
+ .
+ Originally called the 'snapshot' release, since it was a snapshot of an
+ experimental branch of the unichrome cvs code, this is a continued development
+ of the open source unichrome driver (from http://unichrome.sf.net) which
+ also incorporates support for the unichrome-pro chipsets.
+ .
+ Support for hardware acceleration (XvMC) for all chipsets has subsequently
+ been ripped out of the unichrome.sf.net driver. Therefore your only option if
+ you wish to make use of the acceleration features of your VIA chip with free
+ and open-source drivers is to use this version of the driver.
+ .
+ This package contains debugging symbols for OpenChrome driver.
+
 Package: xserver-xorg-video-qxl
 Description-md5: 26837ff18ae5ca3c32daf3167b2fa7f0
 Description-en: X.Org X server -- QXL display driver
@@ -45853,6 +46826,26 @@ Description-en: X.Org X server -- ATI r128 display driver (debugging symbols)
  This package provides debugging symbols for the Xorg X server ATI r128
  display driver.
 
+Package: xserver-xorg-video-r128-lts-raring
+Description-md5: eadf9436a9254699f3f6ffaf12d64459
+Description-en: X.Org X server -- ATI r128 display driver
+ This driver for the X.Org X server (see xserver-xorg for a further description)
+ provides support for the ATI Rage 'r128' series.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-r128 driver module.
+
+Package: xserver-xorg-video-r128-lts-raring-dbg
+Description-md5: 3b0961064d5006b21a331fd12170da1e
+Description-en: X.Org X server -- ATI r128 display driver (debugging symbols)
+ This driver for the X.Org X server (see xserver-xorg for a further description)
+ provides support for the ATI Rage 'r128' series.
+ .
+ This package provides debugging symbols for the Xorg X server ATI r128
+ display driver.
+
 Package: xserver-xorg-video-radeon-lts-quantal
 Description-md5: 22660c3d89bfa098ecfd9bc40808f7b6
 Description-en: X.Org X server -- AMD/ATI Radeon display driver
@@ -45877,7 +46870,44 @@ Description-en: X.Org X server -- AMD/ATI Radeon display driver (debugging symbo
  .
  This package provides debugging symbols for this X.org X driver.
 
+Package: xserver-xorg-video-radeon-lts-raring
+Description-md5: 22660c3d89bfa098ecfd9bc40808f7b6
+Description-en: X.Org X server -- AMD/ATI Radeon display driver
+ This package provides the 'radeon' driver for the AMD/ATI cards. The
+ following chips should be supported: R100, RV100, RS100, RV200, RS200,
+ RS250, R200, RV250, RV280, RS300, RS350, RS400/RS480, R300, R350, R360,
+ RV350, RV360, RV370, RV380, RV410, R420, R423/R430, R480/R481,
+ RV505/RV515/RV516/RV550, R520, RV530/RV560, RV570/R580,
+ RS600/RS690/RS740, R600, RV610/RV630, RV620/RV635, RV670, RS780/RS880,
+ RV710/RV730, RV740/RV770/RV790, CEDAR, REDWOOD, JUNIPER, CYPRESS,
+ HEMLOCK, PALM, SUMO/SUMO2, BARTS, TURKS, CAICOS, CAYMAN, ARUBA.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-ati driver module.
+
+Package: xserver-xorg-video-radeon-lts-raring-dbg
+Description-md5: c7be5446365f77ecf178234fd656daf6
+Description-en: X.Org X server -- AMD/ATI Radeon display driver (debugging symbols)
+ This package provides the 'radeon' driver for many AMD/ATI cards.
+ .
+ This package provides debugging symbols for this X.org X driver.
+
 Package: xserver-xorg-video-s3-lts-quantal
+Description-md5: 08333113374682cbc50a4f18cf30d8c4
+Description-en: X.Org X server -- legacy S3 display driver
+ This package provides the driver for certain legacy S3 video card chipsets,
+ including the Trio64 and 96x cards.  It does not provide support for
+ ViRGE/Trio3D or Savage chipsets; support for these cards is provided by
+ xserver-xorg-video-s3virge and xserver-xorg-driver-savage, respectively.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-s3 driver module.
+
+Package: xserver-xorg-video-s3-lts-raring
 Description-md5: 08333113374682cbc50a4f18cf30d8c4
 Description-en: X.Org X server -- legacy S3 display driver
  This package provides the driver for certain legacy S3 video card chipsets,
@@ -45901,7 +46931,29 @@ Description-en: X.Org X server -- Savage display driver
  .
  This package is built from the X.org xf86-video-savage driver module.
 
+Package: xserver-xorg-video-savage-lts-raring
+Description-md5: 2b956e72f2fefc3baf572d184b2fdd12
+Description-en: X.Org X server -- Savage display driver
+ This package provides the driver for the S3/VIA Savage/ProSavage/Twister family
+ of chipsets.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-savage driver module.
+
 Package: xserver-xorg-video-siliconmotion-lts-quantal
+Description-md5: b873756bacc23507a4c008ed69fa8738
+Description-en: X.Org X server -- SiliconMotion display driver
+ This package provides the driver for the SiliconMotion Lynx and Cougar family
+ of chipsets, commonly found in laptops.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-siliconmotion driver module.
+
+Package: xserver-xorg-video-siliconmotion-lts-raring
 Description-md5: b873756bacc23507a4c008ed69fa8738
 Description-en: X.Org X server -- SiliconMotion display driver
  This package provides the driver for the SiliconMotion Lynx and Cougar family
@@ -45922,6 +46974,16 @@ Description-en: X.Org X server -- SiS display driver
  .
  This package is built from the X.org xf86-video-sis driver module.
 
+Package: xserver-xorg-video-sis-lts-raring
+Description-md5: 42dac6b9768ebbc736ea67fc56bc1813
+Description-en: X.Org X server -- SiS display driver
+ This package provides the driver for all SiS and XGI Volari cards.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-sis driver module.
+
 Package: xserver-xorg-video-sisusb-lts-quantal
 Description-md5: c07d67930c26348f4f1fb95c2c7c7c8d
 Description-en: X.Org X server -- SiS USB display driver
@@ -45932,7 +46994,28 @@ Description-en: X.Org X server -- SiS USB display driver
  .
  This package is built from the X.org xf86-video-sisusb driver module.
 
+Package: xserver-xorg-video-sisusb-lts-raring
+Description-md5: c07d67930c26348f4f1fb95c2c7c7c8d
+Description-en: X.Org X server -- SiS USB display driver
+ This package provides the driver for SiS USB-attached video devices.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-sisusb driver module.
+
 Package: xserver-xorg-video-tdfx-lts-quantal
+Description-md5: ed596fbd18e1efd6378926e2096000e5
+Description-en: X.Org X server -- tdfx display driver
+ This package provides the driver for 3dfx Voodoo video cards and their
+ derivatives.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-tdfx driver module.
+
+Package: xserver-xorg-video-tdfx-lts-raring
 Description-md5: ed596fbd18e1efd6378926e2096000e5
 Description-en: X.Org X server -- tdfx display driver
  This package provides the driver for 3dfx Voodoo video cards and their
@@ -45954,7 +47037,32 @@ Description-en: X.Org X server -- Trident display driver
  .
  This package is built from the X.org xf86-video-trident driver module.
 
+Package: xserver-xorg-video-trident-lts-raring
+Description-md5: 64f00c4c0730397d4bf5aaa193176b46
+Description-en: X.Org X server -- Trident display driver
+ This package provides the driver for Trident Blade/Image/ProVidia/TGUI/9xxx
+ video cards.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-trident driver module.
+
 Package: xserver-xorg-video-vesa-lts-quantal
+Description-md5: a16fd7ddeb274e98b09a99dec1bfcca6
+Description-en: X.Org X server -- VESA display driver
+ This driver for the X.Org X server (see xserver-xorg for a further description)
+ uses the standard VESA interface provided on all video cards, but runs
+ unaccelerated.  This driver is not recommended for use unless you have a
+ problem with the normal driver for your card, because it will perform very
+ badly.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-vesa driver module.
+
+Package: xserver-xorg-video-vesa-lts-raring
 Description-md5: a16fd7ddeb274e98b09a99dec1bfcca6
 Description-en: X.Org X server -- VESA display driver
  This driver for the X.Org X server (see xserver-xorg for a further description)
@@ -45980,6 +47088,17 @@ Description-en: X.Org X server -- VMware display driver
  This package is built from the X.org xf86-video-vmware driver module.
 
 Package: xserver-xorg-video-vmware-lts-quantal
+Description-md5: 21afce1387bf1052ec99956e90ec2d1c
+Description-en: X.Org X server -- VMware display driver
+ This package provides the driver for VMware client sessions, i.e. if Linux
+ is running inside a VMware session.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-vmware driver module.
+
+Package: xserver-xorg-video-vmware-lts-raring
 Description-md5: 21afce1387bf1052ec99956e90ec2d1c
 Description-en: X.Org X server -- VMware display driver
  This package provides the driver for VMware client sessions, i.e. if Linux
@@ -54237,6 +55356,31 @@ Description-en: X.Org X server -- Geode GX2/LX display driver
  This package is built from the X.Org xf86-video-geode driver module.
 
 Package: xserver-xorg-video-geode-lts-quantal-dbg
+Description-md5: 7d8dd728789c4c6b7100c1b19038c48e
+Description-en: Geode GX2/LX display driver (debugging symbols)
+ This driver supports the Geode family of chipsets, including
+ NSC GX2 (Red Cloud), AMD GX and AMD LX series chips.
+ .
+ This package provides debugging symbols for this X.Org driver.
+
+Package: xserver-xorg-video-geode-lts-raring
+Description-md5: 2b88e8d1b564147b91d4acd3ebc9f71e
+Description-en: X.Org X server -- Geode GX2/LX display driver
+ This package provides the 'geode' driver for the Geode family of chipsets,
+ including NSC GX2 (Red Cloud), AMD GX and AMD LX series chips.
+ .
+ On operating systems supporting Video For Linux v2 (V4L2), this package
+ also provides the 'ztv' driver for the Video Input Port (VIP) of the LX.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ <URL:http://xorg.freedesktop.org>
+ <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
+ <URL:http://lists.freedesktop.org/mailman/listinfo/xorg-driver-geode>
+ .
+ This package is built from the X.Org xf86-video-geode driver module.
+
+Package: xserver-xorg-video-geode-lts-raring-dbg
 Description-md5: 7d8dd728789c4c6b7100c1b19038c48e
 Description-en: Geode GX2/LX display driver (debugging symbols)
  This driver supports the Geode family of chipsets, including

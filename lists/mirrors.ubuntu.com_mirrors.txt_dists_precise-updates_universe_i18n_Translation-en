@@ -13319,6 +13319,18 @@ Description-en: X.Org X server -- joystick input driver (development headers)
  .
  This package is built from the X.org xf86-input-joystick driver module.
 
+Package: xserver-xorg-input-joystick-dev-lts-raring
+Description-md5: f78556dd31ebdf971e9dc48d1682380f
+Description-en: X.Org X server -- joystick input driver (development headers)
+ This package provides the development headers for the joystick input
+ driver found in xserver-xorg-input-joystick. Non-developers likely have
+ little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-input-joystick driver module.
+
 Package: xserver-xorg-input-joystick-lts-quantal
 Description-md5: 46c1a7824699f25d846bd16af51c1cff
 Description-en: X.Org X server -- joystick input driver
@@ -13329,7 +13341,26 @@ Description-en: X.Org X server -- joystick input driver
  .
  This package is built from the X.org xf86-input-joystick driver module.
 
+Package: xserver-xorg-input-joystick-lts-raring
+Description-md5: 46c1a7824699f25d846bd16af51c1cff
+Description-en: X.Org X server -- joystick input driver
+ This package provides the driver for joysticks.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-input-joystick driver module.
+
 Package: xserver-xorg-input-mtrack-lts-quantal
+Description-md5: bc940452779b159f95ae8b76ed85a15e
+Description-en: Multitouch X input driver
+ This X input driver provides gestures support for multitouch touchpads,
+ in particular those with integrated button.
+ .
+ This fork from xf86-input-multitouch. Detailed setting of InputClass
+ section comes to be possible in comparison with xf86-input-multitouch.
+
+Package: xserver-xorg-input-mtrack-lts-raring
 Description-md5: bc940452779b159f95ae8b76ed85a15e
 Description-en: Multitouch X input driver
  This X input driver provides gestures support for multitouch touchpads,
@@ -13349,7 +13380,41 @@ Description-en: X.Org X server -- void input driver
  .
  This package is built from the X.org xf86-input-void driver module.
 
+Package: xserver-xorg-input-void-lts-raring
+Description-md5: c1f2dfee72e5d90aa9febdfaa8f146c1
+Description-en: X.Org X server -- void input driver
+ This package provides the void input driver, which never actually registers
+ any input events -- it is, as such, a 'fake' driver.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-input-void driver module.
+
+Package: xserver-xorg-input-wacom-lts-raring
+Description-md5: 990a6fd67780d38db31b26b3018b5519
+Description-en: X.Org X server -- Wacom input driver
+ This package provides the X.Org driver for Wacom tablet devices.
+
+Package: xserver-xorg-input-wacom-lts-raring-dbg
+Description-md5: 33116a9dd722b7618ab0bb40981493d7
+Description-en: X.Org X server -- Wacom input driver
+ This package provides the X.Org driver for Wacom tablet devices.
+ .
+ This package provides debugging symbols for this Xorg X driver.
+
 Package: xserver-xorg-video-dummy-lts-quantal
+Description-md5: b619b7eefcfd6515f1380f16941855cc
+Description-en: X.Org X server -- dummy display driver
+ This package provides a 'dummy' display driver, which does not actually
+ display anything.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-dummy driver module.
+
+Package: xserver-xorg-video-dummy-lts-raring
 Description-md5: b619b7eefcfd6515f1380f16941855cc
 Description-en: X.Org X server -- dummy display driver
  This package provides a 'dummy' display driver, which does not actually
