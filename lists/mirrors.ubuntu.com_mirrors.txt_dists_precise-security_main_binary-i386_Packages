@@ -4843,14 +4843,14 @@ Installed-Size: 1924
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GnuPG-Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Architecture: i386
-Version: 1.4.11-3ubuntu2.2
+Version: 1.4.11-3ubuntu2.3
 Depends: libbz2-1.0, libc6 (>= 2.15), libreadline6 (>= 6.0), libusb-0.1-4 (>= 2:0.1.12), zlib1g (>= 1:1.1.4), dpkg (>= 1.15.4) | install-info, gpgv
 Suggests: gnupg-curl, gnupg-doc, xloadimage | imagemagick | eog, libpcsclite1
-Filename: pool/main/g/gnupg/gnupg_1.4.11-3ubuntu2.2_i386.deb
-Size: 789124
-MD5sum: cbbdd7a3974dffc3a452121d99a423c6
-SHA1: 1a72ff1577bc9b26d181def00ef81fb62a2c8c99
-SHA256: 9b8b7ee9c975cdd7adada07108f9170e1fc803641104b6c8c1b687e6c9522140
+Filename: pool/main/g/gnupg/gnupg_1.4.11-3ubuntu2.3_i386.deb
+Size: 789120
+MD5sum: 754a2f1d1547673a374c49eecff65c47
+SHA1: 16c1f3692a794ddfbb2e9786e437da40ee91b5fb
+SHA256: a9191395fdb9df16cc8b343767aa1605a81595c3ebce2cb502bf2576ab97e939
 Description: GNU privacy guard - a free PGP replacement
 Multi-Arch: foreign
 Homepage: http://www.gnupg.org
@@ -4990,14 +4990,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian GnuPG-Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Architecture: i386
 Source: gnupg
-Version: 1.4.11-3ubuntu2.2
+Version: 1.4.11-3ubuntu2.3
 Depends: libbz2-1.0, libc6 (>= 2.4), libreadline6 (>= 6.0), zlib1g (>= 1:1.1.4)
 Suggests: gnupg
-Filename: pool/main/g/gnupg/gpgv_1.4.11-3ubuntu2.2_i386.deb
-Size: 178446
-MD5sum: b1c68bd67aeadc36afd555935b179935
-SHA1: c80597778a0fc3dc2802ccccd3eef81010d095b5
-SHA256: a7ba1c4b6fc047acc2aefa3ae6377bcdf7f3546510aa87d90f69a3eb05cf9cee
+Filename: pool/main/g/gnupg/gpgv_1.4.11-3ubuntu2.3_i386.deb
+Size: 178544
+MD5sum: 23ac8617b880cbc3a4d9d4b06cb71f9a
+SHA1: 27346574955f83f02c43b0b78b45100c64cf5eab
+SHA256: b53b8d2e8410e82f305948b93463d038aa4e2418fbda474f652a685fd5f2d66c
 Description: GNU privacy guard - signature verification tool
 Multi-Arch: foreign
 Homepage: http://www.gnupg.org
@@ -9963,6 +9963,104 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 Supported: 5y
 Task: cloud-image, ubuntu-usb, server, edubuntu-usb, edubuntu-desktop-kde, edubuntu-desktop-gnome, ubuntustudio-video, ubuntustudio-graphics
+
+Package: libgcrypt11
+Priority: standard
+Section: libs
+Installed-Size: 610
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Architecture: i386
+Version: 1.5.0-3ubuntu0.2
+Depends: libc6 (>= 2.15), libgpg-error0 (>= 1.10)
+Pre-Depends: multiarch-support
+Suggests: rng-tools
+Breaks: gnupg2 (<< 2.0.17-2ubuntu2), gpgsm (<< 2.0.17-2ubuntu2), libgnutls26 (<< 2.12.7-3)
+Filename: pool/main/libg/libgcrypt11/libgcrypt11_1.5.0-3ubuntu0.2_i386.deb
+Size: 281486
+MD5sum: 159cc176ccb88f808e06d5298460598d
+SHA1: e6f89e8a25104118bb67c0a27e2e7c5683ffad25
+SHA256: ac94287d14af98c6734ff288cd37eda01ef356e0841c211a258df2a514d28a55
+Description: LGPL Crypto library - runtime library
+Multi-Arch: same
+Homepage: http://directory.fsf.org/project/libgcrypt/
+Description-md5: 6cb6e549d7896e8d87a0813312b20500
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: standard, kubuntu-active, mythbuntu-frontend, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-slave, mythbuntu-backend-master, mythbuntu-backend-master
+
+Package: libgcrypt11-dbg
+Priority: extra
+Section: libdevel
+Installed-Size: 2391
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Architecture: i386
+Source: libgcrypt11
+Version: 1.5.0-3ubuntu0.2
+Depends: libgcrypt11 (= 1.5.0-3ubuntu0.2)
+Filename: pool/main/libg/libgcrypt11/libgcrypt11-dbg_1.5.0-3ubuntu0.2_i386.deb
+Size: 852614
+MD5sum: 441c759a18e2510d4c6dbfed7976d976
+SHA1: 03ca72487418f656ceb015fbb2b210ec870694f1
+SHA256: c83cd928b86417023ba334eda62bb71525f349afcce3ecbeb33aef9eff307079
+Description: LGPL Crypto library - debugger files
+Homepage: http://directory.fsf.org/project/libgcrypt/
+Description-md5: d0c2889809cdebe2f49692f3ed25fdc7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgcrypt11-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 1010
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Architecture: i386
+Source: libgcrypt11
+Version: 1.5.0-3ubuntu0.2
+Provides: libgcrypt-dev
+Depends: libgcrypt11 (= 1.5.0-3ubuntu0.2), libc6-dev | libc-dev, libgpg-error-dev
+Suggests: libgcrypt11-doc
+Conflicts: libgcrypt-dev
+Filename: pool/main/libg/libgcrypt11/libgcrypt11-dev_1.5.0-3ubuntu0.2_i386.deb
+Size: 360784
+MD5sum: 69d5fd43aaf9ca310631eb9079514622
+SHA1: d55a9ab24bdfcfd1ccec7bdd2708b50b5d02659b
+SHA256: 00481772eed9c7655f7eb03083deeacf3c4ce0425ae089d70a0f2c5a31a6dfda
+Description: LGPL Crypto library - development files
+Homepage: http://directory.fsf.org/project/libgcrypt/
+Description-md5: 6e06ced64459edf7a7c38c97a3251401
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: libgcrypt11-doc
+Priority: optional
+Section: doc
+Installed-Size: 1170
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Architecture: all
+Source: libgcrypt11
+Version: 1.5.0-3ubuntu0.2
+Replaces: libgcrypt-doc, libgcrypt7-doc
+Depends: dpkg (>= 1.15.4) | install-info
+Suggests: libgcrypt11-dev
+Conflicts: libgcrypt-doc, libgcrypt7-doc
+Filename: pool/main/libg/libgcrypt11/libgcrypt11-doc_1.5.0-3ubuntu0.2_all.deb
+Size: 664508
+MD5sum: 913f1ede4ac3069043d1b567766c062a
+SHA1: 12e6e2c91c6d664e60c047b07152a59e2afde9ed
+SHA256: c9d5c8af45b9b30d5f04a578e8d6e1167dbade17540dd2ce78675a58d6283560
+Description: LGPL Crypto library - documentation
+Homepage: http://directory.fsf.org/project/libgcrypt/
+Description-md5: 0bd154fd13b4f26a0ec9100af954579d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
 
 Package: libgimp2.0
 Priority: optional
