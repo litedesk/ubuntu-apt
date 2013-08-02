@@ -17101,6 +17101,21 @@ Description-en: debugging symbols for libcephfs1
  .
  This package contains debugging symbols for libcephfs1.
 
+Package: libcib1
+Description-md5: e4c9b943061f8bb08f63f286e0e29ccb
+Description-en: Pacemaker libraries - CIB
+ This package contains some of the libraries provided by and needed
+ for the pacemaker cluster manager. You need to install them if you
+ intend to run pacemaker. Specifically, this package contains the
+ CIB library.
+
+Package: libcib1-dev
+Description-md5: fce0c8bd401410afbf71087b9faf9799
+Description-en: Development file for pacemaker's cib library
+ This package contains static libraries, symbol files as well as
+ headers provided by the pacemaker cluster manager (CIB). Install
+ it if you want to do development based on pacemaker.
+
 Package: libclamav-dev
 Description-md5: f9403f3147d4d160269156db01264656
 Description-en: anti-virus utility for Unix - development files
@@ -17226,6 +17241,36 @@ Description-en: Read .ini-style configuration files
  Config::IniFiles provides a way to have readable configuration files outside
  your Perl script.  Configurations can be imported (inherited, stacked,...),
  sections can be grouped, and settings can be accessed from a tied hash.
+
+Package: libcrmcluster1
+Description-md5: a892ca8a76afa79809cd4a0148b7b15b
+Description-en: Pacemaker libraries - CRM
+ This package contains some of the libraries provided by and needed
+ for the pacemaker cluster manager. You need to install them if you
+ intend to run pacemaker. Specifically, this package contains the
+ CRM cluster library.
+
+Package: libcrmcluster1-dev
+Description-md5: 8e8b9f56e872e331ed3643e7092c0d20
+Description-en: Development file for pacemaker's crm library
+ This package contains static libraries, symbol files as well as
+ headers provided by the pacemaker cluster manager (CRM). Install
+ it if you want to do development based on pacemaker.
+
+Package: libcrmcommon2
+Description-md5: f0a505f556eae75644cdd2bc62447550
+Description-en: Pacemaker libraries - common CRM
+ This package contains some of the libraries provided by and needed
+ for the pacemaker cluster manager. You need to install them if you
+ intend to run pacemaker. Specifically, this package contains the
+ common CRM library.
+
+Package: libcrmcommon2-dev
+Description-md5: 58679e4fb14f5fff47a5f79805af3682
+Description-en: Development file for pacemaker's common library
+ This package contains static libraries, symbol files as well as
+ headers provided by the pacemaker cluster manager (common CRM).
+ Install it if you want to do development based on pacemaker.
 
 Package: libcroco3
 Description-md5: e137ee0d9ee886dc3c2118a5dd881234
@@ -25059,6 +25104,51 @@ Description-en: Generic PCI access library for X
  Provides functionality for X to access the PCI bus and devices
  in a platform-independant way.
 
+Package: libpe-rules2
+Description-md5: c9973e28b11e88b80273ac25fa092956
+Description-en: Pacemaker libraries - rules for P-Engine
+ This package contains some of the libraries provided by and needed
+ for the pacemaker cluster manager. You need to install them if you
+ intend to run pacemaker. Specifically, this package contains the
+ PEngine rules library.
+
+Package: libpe-rules2-dev
+Description-md5: 95030e3a0fd7d07823478ba562e19ce1
+Description-en: Development file for pacemaker's rules library
+ This package contains static libraries, symbol files as well as
+ headers provided by the pacemaker cluster manager (pengine rules).
+ Install it if you want to do development based on pacemaker.
+
+Package: libpe-status3
+Description-md5: f4372d525f4f0c133a0ffa27c2f67016
+Description-en: Pacemaker libraries - status for P-Engine
+ This package contains some of the libraries provided by and needed
+ for the pacemaker cluster manager. You need to install them if you
+ intend to run pacemaker. Specifically, this package contains the
+ PEngine status library.
+
+Package: libpe-status3-dev
+Description-md5: 7922ec9a8a41c138ba00b6f2bbe39e60
+Description-en: Development file for pacemaker's status library
+ This package contains static libraries, symbol files as well as
+ headers provided by the pacemaker cluster manager (pengine status).
+ Install it if you want to do development based on pacemaker.
+
+Package: libpengine3
+Description-md5: f26b8e819a87fc3637afefe72e60d21c
+Description-en: Pacemaker libraries - P-Engine
+ This package contains some of the libraries provided by and needed
+ for the pacemaker cluster manager. You need to install them if you
+ intend to run pacemaker. Specifically, this package contains the
+ PEngine library.
+
+Package: libpengine3-dev
+Description-md5: a14b6499b011e9dad1273150f994aff0
+Description-en: Development file for pacemaker's pengine library
+ This package contains static libraries, symbol files as well as
+ headers provided by the pacemaker cluster manager (pengine).
+ Install it if you want to do development based on pacemaker.
+
 Package: libperl-dev
 Description-md5: 493158c7ca91f27f024cd9c2d9d421aa
 Description-en: Perl library: development files
@@ -28944,6 +29034,21 @@ Description-md5: fedfa89ced3aa67317f9dac7ba5308da
 Description-en: Symbol tables for libssl and libcrypto
  This package is part of the OpenSSL implementation of SSL.
 
+Package: libstonithd1
+Description-md5: 67bb1316543aa3beed4e79f9d581cd18
+Description-en: Pacemaker libraries - stonith
+ This package contains some of the libraries provided by and needed
+ for the pacemaker cluster manager. You need to install them if you
+ intend to run pacemaker. Specifically, this package contains the
+ stonith library.
+
+Package: libstonithd1-dev
+Description-md5: 866bcacda5049a039e49a6b60e6e38f7
+Description-en: Development file for pacemaker's stonith library
+ This package contains static libraries, symbol files as well as
+ headers provided by the pacemaker cluster manager (stonith).
+ Install it if you want to do development based on pacemaker.
+
 Package: libsvn-dev
 Description-md5: 8e9e34c74ef113c2db3c8937e66839cf
 Description-en: Development files for Subversion libraries
@@ -29206,6 +29311,21 @@ Description-en: Main library for the Totem media player
  .
  This library is only useful within Totem. You should not have to
  manually install this package.
+
+Package: libtransitioner1
+Description-md5: a43b49090be76a0116065825ae14238a
+Description-en: Pacemaker libraries - transitioner
+ This package contains some of the libraries provided by and needed
+ for the pacemaker cluster manager. You need to install them if you
+ intend to run pacemaker. Specifically, this package contains the
+ transitioner library.
+
+Package: libtransitioner1-dev
+Description-md5: 10d7a2c733c5b75c4ca941b7388adbbe
+Description-en: Development file for pacemaker's transitioner library
+ This package contains static libraries, symbol files as well as
+ headers provided by the pacemaker cluster manager (transitioner).
+ Install it if you want to do development based on pacemaker.
 
 Package: libtspi-dev
 Description-md5: 7151dc43aab94706e767892365045c17
@@ -40228,6 +40348,29 @@ Description-en: Oxygen icon theme
  Oxygen is the standard icon theme for KDE 4, but follows the freedesktop.org
  icon schemes, so it can be used in other desktop environments using this
  specification.
+
+Package: pacemaker
+Description-md5: eccce3a1485fdccecf06cfd5b57852c3
+Description-en: HA cluster resource manager
+ High-Availability cluster resource manager for Heartbeat as
+ well as Corosync.
+ .
+ Pacemaker supports a very sophisticated dependency model for
+ n-node clusters and can respond to node and resource-level
+ failures.
+ .
+ It supports both the Heartbeat and Corosync cluster stacks.
+
+Package: pacemaker-dev
+Description-md5: 84975a748b75e47909c7bb0cfd965795
+Description-en: HA cluster resource manager (development files)
+ High-Availability cluster resource manager for Heartbeat.
+ .
+ Pacemaker supports a very sophisticated dependency model for
+ n-node clusters and can respond to node and resource-level
+ failures.
+ .
+ This package contains pacemaker's development files.
 
 Package: palapeli
 Description-md5: 9b5055f9646035d40c1947dfd313f8dd
