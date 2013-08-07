@@ -3846,6 +3846,16 @@ Description-en: development files for PostgreSQL 8.4 server-side programming
  .
  PostgreSQL is an object-relational SQL database management system.
 
+Package: pterm
+Description-md5: 0fdfa7cada5930e860db2a7f8a244dac
+Description-en: PuTTY terminal emulator
+ This is an X terminal emulator based on the popular Windows SSH client,
+ PuTTY. It supports xterm escape sequences, plus some Linux console
+ sequences for colour palette configuration and some DECterm sequences for
+ title bar control, and with an appropriate font it supports the UTF-8
+ encoding of Unicode. It also has some nifty features like rectangular
+ selection and NetHack keypad mode.
+
 Package: puppet-el
 Description-md5: 4b75e6e6bc11f7ad48ff7db5b6cb075c
 Description-en: syntax highlighting for puppet manifests in emacs
@@ -3873,6 +3883,45 @@ Description-en: Centralised configuration management - master setup to run under
  classing abilities for drawing out the similarities between hosts while
  allowing them to be as specific as necessary, and it handles dependency
  and prerequisite relationships between objects clearly and explicitly.
+
+Package: putty
+Description-md5: ec6f1ce2731dd859cb44ea9c27b19a7e
+Description-en: Telnet/SSH client for X
+ This is the Unix port of the popular Windows SSH client, PuTTY. It supports
+ flexible terminal setup, mid-session reconfiguration using Ctrl-rightclick,
+ multiple X11 authentication protocols, and various other interesting things
+ not provided by ssh in an xterm.
+
+Package: putty-doc
+Description-md5: ed28516dea967b46064d63c144b74e5c
+Description-en: PuTTY HTML documentation
+ Full HTML documentation for the PuTTY suite of programs (PuTTY, pterm,
+ Plink, PSCP, PSFTP, and PuTTYgen).
+
+Package: putty-tools
+Description-md5: a447a1a46ed459735431fe951e14b867
+Description-en: command-line tools for SSH, SCP, and SFTP
+ This package provides four command-line tools from the PuTTY suite that
+ allow various kinds of secure interaction with remote systems.
+ .
+ Plink (PuTTY Link) connects to a remote system via SSH, Telnet, or rlogin,
+ and either starts an interactive session or runs a batch process. It
+ supports the usual SSH features like port forwarding, X11 forwarding,
+ SOCKS, and compression.
+ .
+ PSCP (PuTTY Secure Copy) transfers files securely between systems using an
+ SSH connection. It works with both SSH protocol 1 and protocol 2.
+ .
+ PSFTP (PuTTY SFTP client) transfers files securely between systems using
+ the SSH file transfer protocol, which is specific to SSH protocol 2. In
+ interactive mode its interface is much like the traditional Unix FTP
+ client, although it can also operate in batch mode.
+ .
+ PuTTYgen generates SSH public and private key pairs in any of a number of
+ formats, including those usable by PuTTY, OpenSSH, and ssh.com.
+ .
+ All these utilities can make use of PuTTY's saved sessions where
+ appropriate.
 
 Package: python-aptdaemon-gtk
 Description-md5: 34e143ec2eec625373a4f8568c0819c5
