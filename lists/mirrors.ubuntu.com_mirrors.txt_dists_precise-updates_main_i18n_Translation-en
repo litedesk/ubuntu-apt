@@ -2171,6 +2171,25 @@ Description-en: file manager
  .
  This package is part of the KDE base applications module.
 
+Package: dosfstools
+Description-md5: 59ecb63784c340e5c3a99b863dcd299e
+Description-en: utilities for making and checking MS-DOS FAT filesystems
+ The dosfstools package includes the mkdosfs (aka mkfs.dos and mkfs.vfat) and
+ dosfsck (aka fsck.msdos and fsck.vfat) utilities, which respectively make and
+ check MS-DOS FAT filesystems on hard drives or on floppies.
+ .
+ This version uses the enhanced boot sector/superblock format of DOS 3.3+ as
+ well as provides a default dummy boot sector code.
+
+Package: dosfstools-dbg
+Description-md5: 59ccecf7c56b61492ba3f4e05ee07d9b
+Description-en: utilities for making and checking MS-DOS FAT filesystems (debug)
+ The dosfstools package includes the mkdosfs (aka mkfs.dos and mkfs.vfat) and
+ dosfsck (aka fsck.msdos and fsck.vfat) utilities, which respectively make and
+ check MS-DOS FAT filesystems on hard drives or on floppies.
+ .
+ This package contains the debugging symbols.
+
 Package: dovecot-core
 Description-md5: 101e4c0702b4db43edca7ca8085e68bf
 Description-en: secure mail server that supports mbox, maildir, dbox and mdbox mailboxes

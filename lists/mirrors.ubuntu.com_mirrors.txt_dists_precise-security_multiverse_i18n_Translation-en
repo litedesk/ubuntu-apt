@@ -20,6 +20,21 @@ Description-en: Adobe Flash Player plugin installer
  Adobe Flash Player plugin is available at www.adobe.com. Installing this
  Ubuntu package implies that you have accepted the terms of that license.
 
+Package: intel-microcode
+Description-md5: cbcc9fe584a3392576463d76507fb857
+Description-en: Processor microcode data file for Intel CPUs
+ The microcode data file for Linux contains the latest microcode
+ definitions for all Intel processors. Intel releases microcode
+ updates to correct processor behavior as documented in the
+ respective processor specification updates. While the regular
+ approach to getting this microcode update is via a BIOS upgrade,
+ Intel realizes that this is an administrative hassle; the Linux
+ Operating System has a mechanism to update the microcode after
+ booting the OS.
+ .
+ This package contains only the microcode, so it needs the loader
+ provided in the package microcode.ctl
+
 Package: redeclipse
 Description-md5: 5c2008bbe98e70a350dc2e5ff41c2edb
 Description-en: single-player and multi-player first-person ego-shooter
