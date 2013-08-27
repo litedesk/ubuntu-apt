@@ -1651,6 +1651,33 @@ Description-en: GNU core utilities
  timeout touch tr true truncate tsort tty uname unexpand uniq unlink
  users vdir wc who whoami yes
 
+Package: crash
+Description-md5: 62a3af04681a29149ddd988c1db996db
+Description-en: kernel debugging utility, allowing gdb like syntax
+ The core analysis suite is a self-contained tool that can be used to
+ investigate either live systems, or multiple different core dump formats
+ including kdump, LKCD, netdump and diskdump.
+ .
+ o  The tool is loosely based on the SVR4 crash command, but has been
+    completely integrated with gdb in order to be able to display
+    formatted kernel data structures, disassemble source code, etc.
+ .
+ o  The current set of available commands consist of common kernel core
+    analysis tools such as a context-specific stack traces, source code
+    disassembly, kernel variable displays, memory display, dumps of
+    linked-lists, etc.  In addition, any gdb command may be entered,
+    which in turn will be passed onto the gdb module for execution.
+ .
+ o  There are several commands that delve deeper into specific kernel
+    subsystems, which also serve as templates for kernel developers
+    to create new commands for analysis of a specific area of interest.
+    Adding a new command is a simple affair, and a quick recompile
+    adds it to the command menu.
+ .
+ o  The intent is to make the tool independent of Linux version dependencies,
+    building in recognition of major kernel code changes so as to adapt to
+    new kernel versions, while maintaining backwards compatibility.
+
 Package: cron
 Description-md5: 9cc5f99ac4da9baa37d6186a8fbf9684
 Description-en: process scheduling daemon
@@ -25111,6 +25138,20 @@ Description-en: disk partition manipulator - debugging symbols
  The debugging libraries are installed as /usr/lib/libparted_g.a
  Link specifically with them if you want to debug.
 
+Package: libpci-dev
+Description-md5: fce92e421e497830481519e908a4e6a2
+Description-en: Linux PCI Utilities (development files)
+ This package contains the <pci/pci.h>, <pci/config.h> and <pci/header.h>
+ header files, as well as the /usr/lib/libpci.a library.
+
+Package: libpci3
+Description-md5: 67ffa1d7d0b8a6cad1437318cee6c16e
+Description-en: Linux PCI Utilities (shared library)
+ This package contains the libpci shared library files.
+ .
+ The libpci library provides portable access to configuration
+ registers of devices connected to the PCI bus.
+
 Package: libpciaccess-dev
 Description-md5: 067fbd69053414843ebc52977e2799ae
 Description-en: Generic PCI access library for X - development files
@@ -40873,6 +40914,12 @@ Description-en: change and administer password and group data
  maintain password and group data.
  .
  Shadow passwords are supported.  See /usr/share/doc/passwd/README.Debian
+
+Package: pciutils
+Description-md5: 4f7355c69571e79c2e4a6b4c231912e6
+Description-en: Linux PCI Utilities
+ This package contains various utilities for inspecting and setting of
+ devices connected to the PCI bus.
 
 Package: pdksh
 Description-md5: 12946908f52c17341675c8df529a40ba
