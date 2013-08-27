@@ -6033,6 +6033,35 @@ Description-en: Library to access the MusicBrainz.org database (development file
  .
  This package contains the development files and documentation.
 
+Package: libnetcf-dev
+Description-md5: 817408fc4f8311a5d4236adf144dd58c
+Description-en: development library and headers for netcf
+ Netcf is a library used to modify the network configuration of a
+ system. Network configurations are expressed in a platform-independent
+ XML format, which netcf translates into changes to the system's
+ 'native' network configuration files.
+ .
+ This package contains all the files that are needed to build
+ applications using netcf.
+
+Package: libnetcf1
+Description-md5: 19a455783c3b5cf4fabe5e9512048817
+Description-en: cross-platform network configuration library
+ Netcf is a library used to modify the network configuration of a
+ system. Network configurations are expressed in a platform-independent
+ XML format, which netcf translates into changes to the system's
+ 'native' network configuration files.
+
+Package: libnetcf1-dbg
+Description-md5: 150c34707b4e3258431ca1948ed982e3
+Description-en: cross-platform network configuration library
+ Netcf is a library used to modify the network configuration of a
+ system. Network configurations are expressed in a platform-independent
+ XML format, which netcf translates into changes to the system's
+ 'native' network configuration files.
+ .
+ This package contains the debugging symbols for libnetcf1.
+
 Package: libnspr4-0d
 Description-md5: cbfdbfe37e5539e3d880efeb46a8c2a7
 Description-en: NetScape Portable Runtime Library
@@ -8341,6 +8370,16 @@ Description-en: web interface for NeTAMS
  .
  This package provides a web interface for using and administering the
  NetAMS server.
+
+Package: netcf
+Description-md5: af4c8808089a2e99ec3fc2d13a5f851b
+Description-en: programs for the netcf library
+ Netcf is a library used to modify the network configuration of a
+ system. Network configurations are expressed in a platform-independent
+ XML format, which netcf translates into changes to the system's
+ 'native' network configuration files.
+ .
+ This package contains the supporting binaries to use with netcf.
 
 Package: nginx
 Description-md5: c71c42a7e7b75f4b7b417a4547f32b56

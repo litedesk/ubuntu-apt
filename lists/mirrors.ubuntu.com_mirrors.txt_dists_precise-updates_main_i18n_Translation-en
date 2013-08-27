@@ -39183,6 +39183,22 @@ Description-en: Complete LTSP server environment
  This is the complete environment including a DHCP server to bootstrap
  the clients.
 
+Package: lupin-casper
+Description-md5: 788e4fe72890ead4f26e1e29cce0021d
+Description-en: Add support for loop-mount installations to casper
+ The Wubi installer provides a means for installing Ubuntu into a
+ loop-mounted filesystem image hosted on a Windows filesystem. lupin-casper
+ provides hooks to find an ISO image on a hard disk and to read a preseed
+ file from a hard disk, which are used in the early part of this process.
+
+Package: lupin-support
+Description-md5: c45752cdd48323ac6e75a77024671003
+Description-en: Support files for loop-mount installations
+ The Wubi installer provides a means for installing Ubuntu into a
+ loop-mounted filesystem image hosted on a Windows filesystem. lupin-support
+ provides a few extra files needed in such installations to make them work
+ well.
+
 Package: lvm2
 Description-md5: cbdd43cecac7e5612822a452f5b45c2d
 Description-en: The Linux Logical Volume Manager
